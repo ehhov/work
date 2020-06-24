@@ -1,0 +1,24 @@
+#! /bin/gnuplot
+
+set view 60,310,1,1
+set pm3d
+#set palette rgbformulae 22, 5, -10
+set xlabel "t"
+set xtics offset 0,0,0
+set ylabel "x"
+set ytics offset 2,0,0
+set zlabel "u" offset 0,5,0
+set xyplane 0
+
+unset key
+set pm3d depthorder
+#set pm3d lighting primary 0.33 specular 0.2 spec2 0.3
+set style data lines
+#set hidden3d back offset 1 trianglepattern 3 undefined 1 altdiagonal bentover 
+#set dgrid3d 100, 100 qnorm 2
+unset colorbox 
+set term pdf color enhanced lw .8 font "Helvetica, 8"
+set output "Gnuplotted.pdf"
+splot "antonimpl.dat" every 8:8 u 1:2:3 with points pointtype 0
+#pause -1
+

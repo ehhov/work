@@ -1,0 +1,66 @@
+\usepackage{cmap}
+\usepackage{calc}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtext,mathtools,amsmath,amssymb}
+\usepackage{xcolor}
+\definecolor{allrefs}{HTML}{1010aa}
+\usepackage[
+	linktoc=page,
+	colorlinks=true,
+	allcolors=allrefs
+]{hyperref}
+
+\frenchspacing
+\linespread{1.3}
+\usepackage{indentfirst}
+\setlength{\parindent}{10pt}
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\g@addto@macro\@floatboxreset\centering
+\let\origRef\ref
+\def\ref{\unskip~\origRef}
+\let\origCite\cite
+\def\cite{\unskip~\origCite}
+
+\usepackage[
+	vmargin=1in,
+	hmargin=.8in
+]{geometry}
+\usepackage{multicol}
+\usepackage{cuted}
+\setlength{\columnsep}{.25in}
+\usepackage{flushend}
+
+\usepackage{titlesec}
+\titleformat{\section}
+[hang] % shape 
+{\bf\large\centering} % text format 
+{\thesection.} % label 
+{1ex} % separation 
+{} % before code 
+[] % after code 
+\def\thesection{\Roman{section}}
+
+\usepackage{ifthen}
+\newboolean{articletitles}
+\setboolean{articletitles}{true}
+\newboolean{italicNames}
+\setboolean{italicNames}{false}
+\newboolean{italicTitles}
+\setboolean{italicTitles}{true}
+
+\def\thefootnote{\fnsymbol{footnote}}
+\def\footnoterule{
+	\kern -3pt
+	\hrule width \dimexpr(.1\textwidth-.1\columnsep)
+	\kern 3pt
+}
+
+\def\makeskip{\vskip.5\baselineskip}
+\def\secskip{\vskip.5\baselineskip}
+
+\def\que#1{\colorbox{orange}{#1}}
+
+

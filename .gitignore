@@ -1,0 +1,27 @@
+root-doc
+*ignored
+*__pycache__
+
+*.swp
+*.ostap*
+
+# TeX auxillary files
+*aux
+*bbl
+*blg
+*out
+*toc
+*log
+*synctex.gz
+*nav
+*snm
+*lof
+*lot
+*bit
+*idx
+*glo
+*bcf
+*ilg
+*ind
+*fdb_latexmk
+*fls

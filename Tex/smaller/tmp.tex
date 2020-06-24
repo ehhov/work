@@ -1,0 +1,289 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\frenchspacing
+\usepackage[onehalfspacing]{setspace}
+\usepackage{pdflscape}
+\usepackage{pgfplots}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage[
+	showframe,
+	vmargin=1in, 
+	hmargin=1in
+]{geometry}
+\setlength{\columnsep}{.2in}
+\linespread{1.3}
+\usepackage[labelsep=period]{caption}
+
+\setcounter{tocdepth}{4}
+\usepackage[unicode,
+	colorlinks,
+	allcolors=blue
+]{hyperref}
+\frenchspacing
+\righthyphenmin=2
+\usepackage{indentfirst}
+\usepackage{cite}
+\usepackage{cmap}
+\usepackage{cuted}
+\usepackage{lipsum}
+\usepackage{multicol}
+
+\newlength{\wordanddescriptionlen}
+\newcommand{\wordanddescription}[3][t]{
+\setlength{\wordanddescriptionlen}{\widthof{#2}}
+\noindent
+#2\parbox[#1]{\linewidth-\wordanddescriptionlen}{#3} \\\vspace*{-.3333333\baselineskip}}
+
+%\usepackage{slashbox}
+
+\begin{document}
+
+\lipsum[1]
+\hypertarget{first}{\lipsum[1-2]}
+
+\lipsum
+\lipsum
+\lipsum
+\lipsum
+
+\hyperlink{first}{a link to the first text}
+
+
+
+\end{document}
+
+\begin{strip}
+\centering\large\bf
+Дейтрон
+\end{strip}
+
+Потенциал 
+\begin{equation}
+V(r) = \left\{
+\begin{array}{ll}
+-V_0, & r<a,\\
+0,    & r>a
+\end{array}
+\right.
+\label{eq:V}
+\end{equation}
+приводит к уравнениям движения
+\begin{eqnarray}
+\psi'' + \frac{2m}{\hbar^2}\left(E + V_0\right) = 0, & r<a, \label{eq:Psi.r<a}\\
+\psi'' + \frac{2m}{\hbar^2}\,E = 0, & r>a, \label{eq:Psi.r>a}
+\end{eqnarray}
+где $m=\dfrac{m_n\,m_p}{m_n+m_p}$,
+и решению
+\def\vk{\varkappa}
+\begin{equation}
+\psi = \left\{
+\begin{array}{ll}
+A\,\sin(kx), & r<a,\\
+B\,e^{-\vk x}, & r>a,
+\end{array}
+\right.
+\label{eq:Psi.general}
+\end{equation}
+где
+$$
+k = \sqrt{\frac{2m\left(E+V_0\right)}{\hbar^2}}, \quad \vk = \sqrt{\frac{2m(-E)}{\hbar^2}}.
+$$
+
+Условия сшивки 
+\begin{equation*}
+\begin{array}{rl}
+A\,\sin(ka) &= B\,e^{-\vk a},\\
+kA\,\cos(ka) &= -\vk\, B\,e^{-\vk a},
+\end{array}
+\end{equation*}
+\begin{equation*}
+\frac{\sin(ka)}{k\cos(ka)} = \frac{1}{k}\tg(ka) = \frac{1}{-\vk},
+\end{equation*}
+\begin{equation}
+\tg(ka) = - \frac{k}{\vk}.
+\label{eq:kkappa}
+\end{equation}
+\def\Eb{\mathcal{E}_b}
+Введем $\Eb = -E$, $u = V_0/\Eb$ и вспомним, чему равны $k$ и $\vk$:
+$$
+\begin{aligned}
+ka =& \sqrt{\dfrac{2m(V_0-\Eb)}{\hbar^2}}\,a = \\
+=& \vk \sqrt{\frac{V_0-\Eb}{\Eb}} \, a = \sqrt{u-1}\,\vk a,
+\end{aligned}
+$$
+\begin{equation*}
+\frac{k}{\vk} = \sqrt{\frac{V_0-\Eb}{\Eb}} = \sqrt{u-1}.
+\end{equation*}
+Теперь 
+\begin{equation}
+\tg\left(\vk a\sqrt{u-1}\right) = - \sqrt{u-1}.
+\label{eq:u-1}
+\end{equation}
+
+\textbf{Рассмотрим} предельный случай $\Eb\to0$.
+
+Тогда $u\to\infty$, $\tg\to-\infty$ и, так как у дейтрона нет возбужденных уровней, аргумент $\tg$ стремится к $\left(\pi/2+0\right)$. Так как $\Eb=0$, 
+$$ k^2 a^2 = \frac{2mV_0}{\hbar^2}\,a^2 = \frac{\pi^2}{4}, $$
+\begin{equation} 
+\begin{aligned}
+V_0 &= \frac{\pi^2\hbar^2}{8ma^2} = \frac{\pi^2\cdot197^2}{8\,\dfrac{939}{2}}\,\frac{1}{a^2} = \\
+&=\frac{102\text{ МэВ}\cdot\text{фм}^2}{a^2}.
+\end{aligned} 
+\label{eq:Eb=0}
+\end{equation}
+Для $a=1.5$ фм $V_0= 45$ МэВ.
+
+
+\textbf{Рассмотрим} реальный случай $\Eb = 2.2 \text{ МэВ}\neq 0$.
+
+Тогда $\vk = 0.2307 \text{ фм}^{-1}$. Уравнение~(\ref{eq:u-1}) станет
+$$
+\tg(\xi) = -\frac{1}{\vk a}\,\xi,
+$$
+которое можно решить графически.
+
+
+\begin{figure*}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	xlabel={$\xi$},
+	xmin=0, xmax=3.14,
+	ymin=-12, ymax=1,
+	legend pos = outer north east,
+]
+	\addplot[blue]{ -4.33433*x };
+		\addlegendentry{$a=1$ фм, {$\xi=1.705$}}
+	\addplot[orange]{ -4.33433/1.5*x };
+		\addlegendentry{$a=1.5$ фм, $\xi=1.764$}
+	\addplot[red]{ -4.33433/2*x };
+		\addlegendentry{$a=2$ фм, $\xi=1.819$}
+	\addplot[domain=0:3.14,black,samples=100]{ tan(deg(x)) };
+\end{axis}
+\end{tikzpicture}
+\caption{Иллюстрация поиска $\xi$.}
+\label{fig:graph}
+\end{figure*}
+
+Исходя из рисунка~\ref{fig:graph}, получаем для $\sqrt{u-1} = {\xi}/{\vk a}$, $V_0 = \Eb\,\left(\sqrt{u-1}^2 + 1\right)$
+\begin{center}
+\begin{tabular}{cccc}
+\hline\hline
+$a$, фм & $\xi$ & $\sqrt{u-1}$ & $V_0$, МэВ \\
+\hline
+1 & 1.705 & 7.39 & 122 (102) \\
+1.5 & 1.764 & 5.097 & 59 (45) \\
+2 & 1.819 & 3.94 & 36 (26) \\
+\hline\hline
+\end{tabular}
+\\\hfill\parbox[t]{.9\linewidth}{\flushleft в скобках указаны величины, полученные по формуле~(\ref{eq:Eb=0}).}
+\end{center}
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+\begin{multline}
+-\log L = -\sum\limits_{k=1}^{N_{\mathrm{obs}}}\log\left(N_1\,S_1 + N_{1\mathrm{r}}\,S_{1\mathrm{r}} + N_{1\mathrm{nr}}\,S_{1\mathrm{nr}} + N_{\mathrm{b}}\,\mathrm{Bkg}\right) +\\
+ + \left(N_1 + N_{1\mathrm{r}} + N_{1\mathrm{nr}} + N_{\mathrm{b}}\right) - N_{\mathrm{obs}}\,\log\left(N_1 + N_{1\mathrm{r}} + N_{1\mathrm{nr}} + N_{\mathrm{b}}\right)
+\end{multline}
+\begin{multline}
+L = \frac{\left(N_1+N_{1r}+N_{1nr}+N_b\right)^{N_{obs}}}
+	{e^{N_1+N_{1r}+N_{1nr}+N_b}}
+	\cdot
+	\prod_{k=1}^{N_{obs}}\left(N_1\,S_1 + N_{1\mathrm{r}}\,S_{1\mathrm{r}} + N_{1\mathrm{nr}}\,S_{1\mathrm{nr}} + N_{\mathrm{b}}\,\mathrm{Bkg}\right)
+\end{multline}
+
+\begin{multline}
+\end{multline}
+
+
+\end{document}
+
+\centering
+
+\textbf{ANA note}: $N_\mathrm{bgr} = 8379\pm459$, $N_1 = 3862\pm79$, $N_{1\mathrm{r}} = 1792\pm120$
+
+\textbf{results}
+
+modified polynomial result \\
+\input{/tmp/tabular-mod-poly.tex}
+\vskip\baselineskip
+original polynomial result \\
+\input{/tmp/tabular-unmod-poly.tex}
+\vskip\baselineskip
+modified exponential result \\
+\input{/tmp/tabular-mod-exp.tex}
+\vskip\baselineskip
+original exponential result \\
+\input{/tmp/tabular-unmod-exp.tex}
+
+
+\newpage
+
+\textbf{variations}
+
+modified polynomial variation in \% \\
+\input{/tmp/tabular-mod-poly-var.tex}
+\vskip\baselineskip
+original polynomial variation in \% \\
+\input{/tmp/tabular-unmod-poly-var.tex}
+\vskip\baselineskip
+modified exponential variation in \% \\
+\input{/tmp/tabular-mod-exp-var.tex}
+\vskip\baselineskip
+original exponential variation in \% \\
+\input{/tmp/tabular-unmod-exp-var.tex}
+
+\newpage
+\textbf{differences}
+
+modified exp minus poly difference in \% \\
+\input{/tmp/tabular-mod-diff.tex}
+\vskip\baselineskip
+original exp minus poly difference in \% \\
+\input{/tmp/tabular-unmod-diff.tex}
+\vskip\baselineskip
+polynomial mod minus orig difference in \% \\
+\input{/tmp/tabular-poly-diff.tex}
+\vskip\baselineskip
+exponential mod minus orig difference in \% \\
+\input{/tmp/tabular-exp-diff.tex}
+
+
+\end{document}
+
+\clearpage
+this should be
+$$a = a_0 \pm \delta a \qquad b = b_0 \pm \delta b$$
+$$ r = \frac{\mathrm{cov}ab}{\sqrt{Da\,Db}} = \frac{\mathrm{cov}ab}{\delta a\,\delta b} $$
+Let $b = \alpha a + c$, where $\alpha = \mathrm{const}$, $c = c_0 \pm \delta c$ -- weakly dependent on $a$ random variable. 
+$$Db = \delta b^2 = \alpha^2\delta a^2 + \delta c^2$$
+$$r\,\delta a\,\delta b = \mathrm{cov}ab = \mathrm{M}(\alpha a^2 + ca) - a_0b_0= \alpha (a_0^2 + \delta a^2 ) + a_0 c_0 -a_0b_0= \alpha \delta a^2$$
+$$\alpha = r\delta b/\delta a$$
+$$\delta c = \sqrt{\delta b^2-\alpha^2\delta a^2} = \delta b\sqrt{1-r^2}$$
+$$c_0 = b_0 - \alpha a_0 = b_0 - r\frac{\delta b}{\delta a}a$$
+
+$$b = r\frac{\delta b}{\delta a}\cdot a + (b_0 - r\delta b / \delta a \,a\,\pm\,\delta b\sqrt{1-r^2})$$
+If $a = x_{\pi^0} = 0.307\pm0.005$, $b = x_{\gamma} = 0.016\pm0.004$, $r=-0.43$, then $\alpha = -0.344$, $c = 0.121608\pm0.003611$, $x_\gamma = -0.344x_\pi + c$
+
+\end{document}

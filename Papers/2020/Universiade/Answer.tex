@@ -1,0 +1,60 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+
+\usepackage{tune}
+\linespread{1.3}
+
+\def\BR{\mathcal{B}}
+\def\Lb{\varLambda_b^0}
+\def\Lc{\varLambda_c^+}
+\def\Dp{D^+}
+\def\Dsp{D^{*+}}
+\def\Km{K^-}
+\def\pim{\pi^-}
+\def\pip{\pi^+}
+\def\piz{\pi^0}
+
+
+\begin{document}
+
+\textit{
+	Есть ли оценки или соображения, как соотносятся канал 
+	$\Lb\to\Dp p\pim\pim$ 
+	и ранее изучавшийся канал 
+	$\Lb\to\Lc\pip\pim\pim$?
+}
+
+\hspace{\baselineskip}
+
+Экспериментальные результаты для довольно похожего распада 
+$\Lb\to D^0 p\pim$, $D^0 \to \Km\pip$ 
+в нормировке на канал 
+$\Lb\to\Lc\pim$, $\Lc\to p\Km\pip$
+уже были опубликованы 
+(\href{https://arxiv.org/abs/1311.4823}{arXiv:1311.4823}). 
+Согласно им, 
+$$ \frac{\BR(\Lb\to D^0p\pim)}{\BR(\Lb\to\Lc\pim)}\times
+\frac{\BR(D^0\to\Km\pip)}{\BR(\Lc\to p\Km\pip)} = 0.0806\pm\ldots.$$
+
+В настоящей работе очарованные барионы идентифицируются в распадах 
+$\Dp\to \Km\pip\pip$, $\Lc\to p\Km\pip$. Учитывая разницу в вероятностях рассматриваемых распадов $D$-мезонов и $\Lb\to\Lc\pim(\pip\pim)$ (\href{http://pdg.lbl.gov}{PDG}), для оценки изучаемой вероятности распада $\Lb$ необходимо внести поправку
+$$
+\begin{aligned}
+\frac{\BR(\Lb\to\Dp p \pim\pim)}{\BR(\Lb\to\Lc\pip\pim\pim)} 
+\times 
+\frac{\BR(\Dp\to\Km\pip\pip)}{\BR(\Lc\to p\Km\pip)} 
+\approx \text{\hspace*{15em}}
+\\ \approx
+0.0806\times 
+\frac{\BR(\Dp\to\Km\pip\pip)}{\BR(D^0\to\Km\pip)}
+\times
+\frac{\BR(\Lc\to\Lc\pim)}{\BR(\Lb\to\Lc\pip\pim\pim)}
+\approx 0.1218.
+\end{aligned}
+$$
+
+
+\end{document}

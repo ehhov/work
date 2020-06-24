@@ -1,0 +1,99 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+\usepackage[
+	colorlinks=true,
+	allcolors=blue
+]{hyperref}
+\usepackage{enumitem}
+
+\usepackage[
+	%showframe,
+	vmargin=1in,
+	hmargin=.6in
+]{geometry}
+\linespread{1.3}
+
+%\usepackage{times}
+
+\setlength{\parindent}{0pt}
+
+
+%%%%%%%%%%%%%%%
+\newlength{\indlen}
+\setlength{\indlen}{.5in}
+\newlength{\contw}
+\setlength{\contw}{\dimexpr(\linewidth-\indlen-1pt)}
+\def\field#1{{ \bf #1 } \\*[.05in] }
+\newcommand{\content}[3][]{
+	\hspace*{#1\indlen}
+	\parbox[t]{\contw}{
+	\begin{tabular}{#2}
+		#3
+	\end{tabular}
+	}
+	\\[.5\baselineskip]
+}
+\newcommand{\contentnotab}[2][]{
+	\hspace*{#1\indlen}
+	\parbox[t]{\contw}{
+		#2
+	}
+	\\[.5\baselineskip]
+}
+\def\mailto#1{\href{mailto:#1}{#1}}
+
+
+%%%%%%%%%%%%%%%%
+\begin{document}
+
+{ \bf\large
+	Curriculum Vitae
+	\hfill
+	Abdul-Kerim Guseinov
+}
+\vskip\baselineskip
+
+\field{Personal data}
+\content{ll}{
+	Born & Nov 13, 1998 \\
+	Location & Moscow, Russia \\ 
+	Nationality & Russian \\ 
+	Mobile phone & +7 915 273 3700 \\
+	Email & \mailto{guseynovkerim@gmail.com} \\
+}
+
+\field{Education}
+\content[0]{rl}{
+	Sep 2016 -- Jun 2020 & \textbf{Lomonosov Moscow State University} \\
+	& Faculty of Physics, department of General Nuclear Physics \\
+	& Awarded for only excellent grades achieved throughout the course of study \\
+	-- Jun 2016 & \textbf{Lyceum N1586 in Moscow, Russia} \\
+	& Graduated with distinction (only excellent grades in Grade Certificate)
+}
+
+\field{Research and other educational activities}\\[-2\baselineskip]
+\begin{itemize}[nolistsep]
+\item Since 2019, I am a member of a HEP research group at my University which works with the LHCb collab.
+\item In 2019 I was awarded a grant to take part in the Second Trans-Siberian School on High Energy Physics, organized by Tomsk Polytechnic University and CERN.
+\item On behalf of the LHCb collab., I have presented the preliminary results on $\Lambda_b^0$ multihadron decays at a conference at my University. 
+\item The talk is going to be published in an e-magazine Memoirs of the Faculty of Physics, Lomonosov Moscow State University. \url{http://uzmu.phys.msu.ru/}
+\item Currently I am working on systematic uncertainties of the mesured $\Lambda_b^0$ baryon decays' branching ratios.
+\end{itemize}
+\hspace*{0pt}
+
+\field{Computing skills}
+\content[0.09]{ll}{
+	Languages: & C, C++, Python  \\
+	\hfill C, C++ & Completed a course at my University \\ 
+	\hfill Python & Studied on my own \\ 
+	Working experience: & Linux, Bash shell, ROOT, PyROOT \\
+}
+
+
+\end{document}
+
+I am interested in physics of heavy b,c quarks as well as in high pT physics including measurements of top quark properties. Currently I am involved in physics data analysis, but I would be very excited to extend my field of study with research programs on modern detectors development for HEP and on the front-end DAQ systems, since these would be quite a new experience for me. 

@@ -1,0 +1,201 @@
+\documentclass[a4paper,12pt]{article}
+%\usepackage{style}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\usepackage{indentfirst}
+\usepackage{mathtext}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+\setcounter{tocdepth}{4}
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks=false}
+\hypersetup{linktocpage}
+\frenchspacing
+\righthyphenmin=2
+\usepackage{indentfirst}
+\usepackage{cite}
+\usepackage{cmap}
+\usepackage{nicefrac}
+
+\usepackage[labelsep=period, margin=1cm]{caption}
+
+\usepackage{geometry}
+\geometry{top=1in, bottom=1.3in, right=1in, left=1in}
+
+\linespread{1.25}
+
+
+\def\mysection#1{\vspace{\baselineskip}{\noindent\large\centering\bf#1\par}}
+\def\d{\mathrm{d}}
+
+\begin{document}
+
+\mysection{Постановка задачи}
+
+Необходимо решить задачу с квазилинейным уравнением переноса:
+\begin{equation}
+%\arraycolsep=0pt
+\def\arraystretch{1.4}
+	\left\{\begin{array}{ll}
+		\dfrac{\partial u}{\partial t} + \dfrac{2ue^{u^2}}{1+e^{2u^2}}\,\dfrac{\partial u}{\partial x}=0,&\text{при }x\in(0,1),\ t>0,\\
+		u\big|_{t=0}=1+x^2,&\text{при }x\in [0,1],\\
+		u\big|_{x=0}=e^{-t},&\text{при }t\geq 0.
+	\end{array}
+	\right.
+\label{eq:thetask}
+\end{equation}
+Введем равномерные сетки по $x$ и по $t$: $x_n=nh$, при $n=\overline{0, [1/h]}$; $t_k=k\tau$, при $k\in \mathbb{Z}_+$.
+Рассмотрим разностную схему
+\begin{equation}
+\def\arraystretch{1.4}
+	\left\{\begin{array}{ll}
+	\dfrac{u^{k+1}_{n+1}-u^k_{n+1}}{\tau}+\dfrac{f^{k+1}_{n+1}-f^{k+1}_n}{h}=0,&\text{при }0<n\leq[1/h]-1,\ k>0,\\
+	u^0_n=1+(nh)^2,&\text{при }0\leq n\leq [1/h],\\
+	u^k_0=e^{-k\tau},&\text{при }k\geq 0,
+	\end{array}
+	\right.
+\label{eq:scheme}
+\end{equation}
+где $u^k_n=u(x=x_n,\,t=t_n)$, $f^k_n=f(u^k_n)$, а
+$f(u)=\mathrm{arctg}\left(u^2\right).$
+
+\mysection{Аппроксимация}
+Пусть $u\in C^2(0,1]\times(0,\infty)$. Тогда 
+\begin{equation*}
+\begin{split}
+	&L_h[u]-L[u]=\,\frac{u(x+h, t+\tau)-u(x+h,t)}{\tau}+\frac{f\big(u(x+h,t+\tau)\big)-f\big(u(x,t+\tau)\big)}{h}-\\
+	&-\big(u_t+f'(u)\,u_x\big)\Big|_{x=x+h\atop t=t+\tau}=\frac{u-\left(u+u_t\cdot(-\tau)+\overline{u}_{tt}\tau^2/2\right)}{\tau}+f'(u)\times\\
+	&\times\frac{u-\left(u+u_x\cdot(-h)+\overline{u}_{xx}h^2/2\right)}{h}-u_t+f'(u)\,u_x=-\overline{u}_{tt}\,\tau/2-f'(u)\,\overline{u}_{xx}\,h/2=\mathcal{O}(\tau+h),
+\end{split}
+\end{equation*}
+где $\overline{u}_{tt}$ и $\overline{u}_{xx}$ -- производные, взятые в интервалах $(t,t+\tau)$ и $(x,x+h)$ соответственно. То есть выбранный оператор $L_h$ аппроксимирует исходный дифференциальный оператор в первом порядке по $t$ и по $x$.
+
+\mysection{Устойчивость}
+Исследуем устойчивость методом гармоник. Предположим, что в задаче (\ref{eq:scheme}) при изменении начальных условий на $\delta\varphi_n=Ae^{i\alpha x_n}$ решение меняется на $\delta u^k_n$, причем $\delta u^{k+1}_n/\delta u^k_n=q$ и не зависит от $k$ и $n$. Тогда, подставив это выражение в дифференциальное уравнение, получим
+$$\frac{1-1/q}{\tau}+f'(u^k_n)\,\frac{1-e^{-i\alpha h}}{h}=0$$
+Обозначим $f'(u^k_n)=c$. Тогда $q=\dfrac{1}{1-\frac{c\tau}{h}(1-e^{-i\alpha h})}$, а
+\begin{equation*}
+\begin{split}
+\big|q\big|=\frac{1}{\frac{c\tau}{h}(1+\frac{c\tau}{h})\big(\frac{h}{c\tau}+1+\frac{1}{\frac{h}{c\tau}+1}-2\cos\alpha h\big)}\leq\frac{1}{\frac{c\tau}{h}(1+\frac{c\tau}{h})\big(\frac{h}{c\tau}-1+\frac{1}{\frac{h}{c\tau}+1}\big)}=1.
+\end{split}
+\end{equation*}
+Это значит, что в рассмотренном случае схема будет устойчива относительно начальных условий при любых $h$ и $\tau$, при которых достаточно ограничиться первым членом разложения $\partial_x f(u)$.
+
+Предположим теперь, что в той же задаче (\ref{eq:scheme}) при изменении уже граничных условий на $\delta\psi_n=Ae^{i\alpha t_n}$ решение меняется на $\delta u^k_n$, причем $\delta u^{k}_{n+1}/\delta u^k_n=q$ и не зависит от $k$ и $n$. Снова подставив это выражение в дифференциальное уравнение, получим
+$$\frac{1-e^{-i\alpha\tau}}{\tau}+f'(u^k_n)\,\frac{1-1/q}{h}=0\quad\text{и}\quad q=\frac{1}{1-\frac{h}{c\tau}(1-e^{-i\alpha\tau})}.$$
+Аналогичными преобразованиями получаем, что схема при тех же ограничениях устойчива и относительно граничных условий. 
+
+\mysection{Аналитическое решение}
+Для поиска точного решения воспользуемся методом характеристик. Характеристики задачи (\ref{eq:thetask}) находятся из уравнения
+$$\frac{\d t}{1}=\frac{\d x}{\frac{2ue^{u^2}}{1+e^{2u^2}}}.$$
+Откуда можно представить характеристики в параметрическом виде
+$$t-a=\frac{1+e^{2u^2_0}}{2u_0e^{u^2_0}}\,(x-b),\quad u_0\big|_{a=0}=1+b^2,\;\;u_0\big|_{b=0}=e^{-a}.$$
+Получаются семейства прямых\vspace{.2\baselineskip}\par\noindent
+\begin{equation}
+t=\frac{1+e^{2e^{-2a}}}{2e^{-a}e^{e^{-2a}}}\,x+a,\quad a\geq0,\ \ \ \ \ \  t=\frac{1+e^{2(1+b^2)^2}}{2(1+b^2)e^{(1+b^2)^2}}\,(x-b),\quad b\in[0,1].
+\label{eq:ch}
+\end{equation}
+Они представлены на рисунке \ref{fig:character}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.49\linewidth]{chrts.pdf}
+	\includegraphics[width=.49\linewidth]{intersection.pdf}
+	\caption{Характеристики задачи (\ref{eq:thetask}) (слева) и их пересечение при $x>1$ (справа).}
+	\label{fig:character}
+\end{figure}
+
+Также из уравнений (\ref{eq:ch}) можно получить решение в неявном виде, поскольку $u(x,t)=u_0(0,a(x,t))\text{ или }u_0(b(x,t),0)$ при $t>\frac{1+e^2}{2e}\,x$ и $t<\frac{1+e^2}{2e}\,x$ соответственно. Функция для неявного представления имеет вид
+\begin{equation}
+\def\arraystretch{1.8}
+F(x,t,u)=\left\{\begin{array}{ll}\displaystyle
+\frac{1+e^{2u^2}}{2ue^{u^2}}\,x-t-\ln(u), &\text{при }t>x/e, \\\displaystyle
+\frac{1+e^{2u^2}}{2ue^{u^2}}\,(x-\sqrt{u-1})-t, &\text{при }t<x/e. \\
+\end{array}\right.
+\label{eq:imp}
+\end{equation}
+Решить уравнения $F(x,t,u)=0$ в явном виде не представляется возможным. 
+
+Производная функции $F$ вблизи точки $u=1$ принимает большие значения, поэтому использовать метод Ньютона для численного нахождения $u$ нерационально. Найденная методом деления отрезка пополам с точностью $\big|F\big|<10^{-9}$ функция $u(x,t)$ представлена на рисунке \ref{fig:impl}. Как видно, на прямой $t=\frac{1+e^2}{2e}\,x$ решение претерпевает слабый разрыв.
+
+\begin{figure}[!p]
+\includegraphics[width=\linewidth]{solution-comp-impl.pdf}
+\caption{Численное решение уравнения $F(x,t,u)=0$.}
+\label{fig:impl}
+\end{figure}
+
+
+\def\steps{для шагов $\tau=0.002,\ h=0.002$}
+\mysection{Алгоритм решения}
+Для численного решения задачи воспользуемся схемой бегущего счета. 
+Вычисление начинается с расчета значений функции в начальных и граничных точках. Для расчета функции в новых точках понадобится решать следующее уравнение
+$$ \frac{h}{\tau}\,u^{k+1}_{n+1}+f^{k+1}_{n+1}=  \frac{h}{\tau}\,u^{k}_{n+1}+f^{k+1}_{n},$$
+где функция в предыдущих по времени и координате точках известна. Корень этого уравнения можно найти по методу Ньютона, приняв за начальную точку любое известное соседнее значение функции. Так, зная функцию в точке (0,$\tau$) и на прямой $t=0$, вычисляются ее значения на прямой $t=\tau$ и так далее. Само численное решение \steps\ представлено на рисунке \ref{fig:solution}. Решения при шагах в 4 и в 32 раза больших представлены на рисунке \ref{fig:bigger}. Решение для неравных по координате и по времени шагов представлено на рисунке \ref{fig:odd}. 
+
+\mysection{Точность решения}
+Было произведено несколько расчетов для сеток с одинаковыми вдоль двух осей шагами: $0.002,\,0.004,\,0.008,\,0.016,\,0.032,\,0.064$, а также единственный расчет с неравными шагами $\tau=0.064,\ h=0.002$. Погрешности решений оценивались в среднем: 
+$$z=\sum\limits_{k=0}^{N_t}\sum\limits_{n=0}^{N_x}\frac{\big|u(M_n^k)-\tilde{u}(M_n^k)\big|}{N_tN_x},$$
+где $u$ -- решение дифференциальной задачи, $\tilde{u}$ -- решение, найденное по неявному аналитическому выражению, а суммирование производится лишь по набору значений, присутствующих во всех сетках одновременно. Краткая информация о точности решений приведена в таблице \ref{tab:precision}. Из данных видно, что погрешность увеличивается медленнее, чем шаг. Вероятно, это происходит из-за нелинейности исходной задачи. 
+
+\begin{table}
+\centering
+\caption{Точность решений при разных шагах сетки.}
+\begin{tabular}{| c c | c | c |}
+\hline
+$\tau$& $h$ & $z$ & $z/(\tau+h)$ \\
+\hline
+0.064 &0.002& 0.008143&0.1234\\
+0.002 &0.002& 0.001138&0.2846\\
+0.004 &0.004& 0.002052&0.2565\\
+0.008 &0.008& 0.003089&0.1931\\
+0.016 &0.016& 0.004855&0.1517\\
+0.032 &0.032& 0.008071&0.1261\\
+0.064 &0.064& 0.012900&0.1008\\
+\hline
+\end{tabular}
+\label{tab:precision}
+\end{table}
+
+
+
+
+\begin{figure}[!p]
+\includegraphics[width=\linewidth]{{solution-comp-.002.}.pdf}
+\caption{Численное решение задачи (\ref{eq:scheme}) \steps.}
+\label{fig:solution}
+\end{figure}
+
+\begin{figure}[!p]
+\centering
+\includegraphics[width=.49\linewidth]{{solution-comp-.008}.pdf}
+\includegraphics[width=.49\linewidth]{{solution-.064}.pdf}
+\caption{Численные решения задачи для шагов $\tau=h=0.008$ (слева) и $\tau=h=0.064$ (справа).}
+\label{fig:bigger}
+\end{figure}
+
+\begin{figure}[!p]
+\includegraphics[width=\linewidth]{solution-odd.pdf}
+\caption{Численное решение задачи для шагов $\tau=0.064$, $h=0.002$.}
+\label{fig:odd}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

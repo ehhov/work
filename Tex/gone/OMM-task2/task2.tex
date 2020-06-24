@@ -1,0 +1,197 @@
+\documentclass[a4paper,12pt]{article}
+%\usepackage{style}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\usepackage{indentfirst}
+\usepackage{mathtext}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+\setcounter{tocdepth}{4}
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks=false}
+\hypersetup{linktocpage}
+\frenchspacing
+\righthyphenmin=2
+\usepackage{indentfirst}
+\usepackage{cite}
+\usepackage{cmap}
+\usepackage{nicefrac}
+
+\usepackage[labelsep=period, margin=1cm]{caption}
+
+\usepackage{geometry}
+\geometry{top=1in, bottom=1.3in, right=1in, left=1in}
+
+\linespread{1.25}
+
+
+\def\mysection#1{\vspace{\baselineskip}{\noindent\large\centering\bf#1\par}}
+\def\d{\mathrm{d}}
+
+\begin{document}
+
+\mysection{Постановка задачи}
+Используя метод переменных направлений, решить краевую задачу
+\begin{equation}
+\def\arraystretch{1.4}
+\left\{
+\begin{array}{ll}
+\dfrac{\partial u}{\partial t}=\Delta u+\sin(3\pi x)e^{-t}, & \text{при }x\in(0,1),\ y\in(0,1),\ t>0,\\
+u\big|_{x=0}=0,\ u\big|_{x=1}=0, & \text{при }y\in[0,1],\ t\geq 0,\\
+u\big|_{y=0}=0,\ u\big|_{y=1}=0, & \text{при }x\in[0,1],\ t\geq 0,\\
+u\big|_{t=0}=0, & \text{при }x\in[0,1],\ y\in[0,1].\\
+\end{array}\right.
+\label{eq:task}
+\end{equation}
+Введем равномерные сетки по $x$, $y$ и $t$: $x_n=nh_x$, при $n=\overline{0, [1/h_x]}$; $y_m=mh_y$, при $m=\overline{0, [1/h_y]}$; $t_k=k\tau$, при $k\in \mathbb{Z}_+$. Обозначим $[1/h_x]=N_x,\ [1/h_y]=N_y$. Рассмотрим разностную схему Письмена и Рекфорда
+\def\unindentone{87.2pt}
+\def\unindenttwo{8.5pt}
+\begin{equation}
+\def\arraystretch{1.4}
+\left\{
+\begin{array}{ll}
+\dfrac{2}{\tau}\big(u_{n\,m}^{k+1/2}-u_{n\,m}^{k}\big) = 
+\dfrac{1}{h_x^2}\big(u_{n+1\,m}^{k+1/2}-2u_{n\,m}^{k+1/2}+u_{n-1\,m}^{k+1/2}\big) +&\\
+\text{\hspace*{10pt}}+\dfrac{1}{h_y^2}\big(u_{n\,m+1}^{k}-2u_{n\,m}^{k}+u_{n\,m-1}^{k}\big)+\sin(3\pi nh_x)e^{-(k+1/2)\tau}, &\\
+& \text{\hspace*{-\unindentone}при }n=\overline{1, N_x-1},\ m=\overline{1, N_y-1},\ k\geq 0,\\
+\dfrac{2}{\tau}\big(u_{n\,m}^{k+1}-u_{n\,m}^{k+1/2}\big) = 
+\dfrac{1}{h_x^2}\big(u_{n+1\,m}^{k+1/2}-2u_{n\,m}^{k+1/2}+u_{n-1\,m}^{k+1/2}\big) +&\\
+\text{\hspace*{10pt}}+\dfrac{1}{h_y^2}\big(u_{n\,m+1}^{k+1}-2u_{n\,m}^{k+1}+u_{n\,m-1}^{k+1}\big)+\sin(3\pi nh_x)e^{-(k+1)\tau}, &\\
+& \text{\hspace*{-\unindentone}при }n=\overline{1, N_x-1},\ m=\overline{1, N_y-1},\ k\geq 0,\\
+u_{0\,m}^k=0,\ u_{N_x\,m}^k=0, & \text{\hspace*{-\unindenttwo}при } m=\overline{0, N_y},\ k\geq 0,\\
+u_{n\,0}^k=0,\ u_{n\,N_y}^k=0, & \text{\hspace*{-\unindenttwo}при }n=\overline{0, N_x},\ k\geq 0,\\
+u_{n\,m}^0=0, & \text{\hspace*{-\unindenttwo}при }n=\overline{0, N_x},\ m=\overline{0, N_y},\\
+\end{array}\right.
+\label{eq:scheme}
+\end{equation}
+где $u_{n\,m}^k=u\big(x=nh_x,y=mh_y,t=k\tau\big)$.
+
+\mysection{Аппроксимация и устойчивость}
+Для функций, трижды дифференцируемых по времени и четыре раза по координатам, описанная разностная схема аппроксимирует исходный дифференциальный оператор во втором порядке по каждому шагу: $u_\text{сеточн.}-u_\text{точн.}=z=\mathcal{O}(h_x^2+h_y^2+\tau^2)$. Также эта схема является безусловно устойчивой.
+
+\mysection{Аналитическое решение}
+Для поиска точного решения задачи (\ref{eq:task}) воспользуемся методом разделения переменных и разложением в ряд Фурье по собственным функциям области: $$u(x,y,t)=\sum\limits_{n,\,m}T_{n\,m}(t)\,X_n(x)\,Y_m(y),$$ где $X_n(x)=\sin(\pi nx)$, $Y_m(y)=\sin(\pi my)$. Подставив это выражение в дифференциальное уравнение, получим ответ:
+\begin{equation}
+\def\arraystretch{1.8}
+\begin{array}{c}\displaystyle
+T_m(t)=\frac{4}{\pi(2m+1)\big(\pi^2(4m^2+4m+10)-1\big)}\Big(e^{-t}-e^{-\pi^2(4m^2+4m+10)t}\Big),\\
+\displaystyle
+u(x,y,t)=\sum\limits_{m=0}^\infty T_m\,\sin\!\big(\pi (2m+1)y\big)\sin(3\pi x).
+\end{array}
+\label{eq:an}
+\end{equation}
+
+Функция, рассчитанная по этой формуле для времен $t=0,\ 0.045,\ 0.33,\ 1$, представлена на рисунках \ref{fig:an-t0}, \ref{fig:an-t.045}, \ref{fig:an-t.33}, \ref{fig:an-t1} соответственно. Как видно, она убывает экспоненциально со временем. Момент времени 0.045 был выбран, поскольку он соответствует максимуму функции.
+
+\mysection{Алгоритм решения}
+Для экономичного решения одномерных неявных схем с уравнением второго порядка существует способ, заключающийся во введении дополнительных параметров $\alpha_n$ и $\beta_n$ таких, чтобы $u_n=\alpha_nu_{n+1}+\beta_n$. Тогда, если $A_n u_{n+1}-C_nu_n+B_nu_{n-1}=F_n$, то $\alpha_{n}=-\frac{A_n}{B_n\alpha_{n-1}-C_n}$, $\beta_n=-\frac{F_n+B_n\beta_{n-1}}{B_n\alpha_{n-1}-C_n}$. Отправные значения $\alpha_0$ и $\beta_0$ определяются из граничных условий в начальной точке по координате, а исходя из граничных условий в конечной точке можно найти функцию между границами.
+
+В задаче (\ref{eq:scheme}) в каждый момент времени два уравнения разбиваются на две одномерные задачи со своими $\alpha$ и $\beta$, где вторая производная по одной из координат входит в аналогичную указанной в предыдущем параграфе функцию $F$. Таким образом, чтобы найти функцию в следующий момент времени, мы последовательно решаем одномерные задачи в двух направлениях, переходя через вспомогательный слой $t=(k+1/2)\tau$. 
+
+Полученные численные решения задачи (\ref{eq:scheme}) для тех же времен  $t=0,\ 0.045,\ 0.33,\ 1$ представлены на рисунках \ref{fig:cal-t0}, \ref{fig:cal-t.045}, \ref{fig:cal-t.33}, \ref{fig:cal-t1} соответственно. В отличие от задачи с нелинейным уравнением переноса, где решение имело слабый разрыв, эти решения сложно различить с виду. Функции для меньших чисел узлов представлены на рисунке \ref{fig:cal-t.045-odd}.
+
+\mysection{Точность решения}
+Было произведено несколько расчетов на сгущающихся по всем направлениям сетках и одинаковыми шагами и три расчета с минимальными шагами по двум направлением и большим шагом по третьему. Ошибка рассчитывалась в момент времени $t=1/32$, поскольку при увеличении времени она падала даже быстрее, чем экспоненциально, а это -- минимальное время, присутствующее во всех сетках. Погрешность оценивалась среднеквадратично: 
+$$z=\sqrt{\iint (u_\text{точн.}-u_\text{числ.})^2\d x\d y}=\sqrt{\sum\limits_{n\,m}\left((u_\text{точн.})_{n\,m}^{k_0}-(u_\text{числ.})_{n\,m}^{k_0}\right)^2/N_xN_y},$$
+где суммирование производится по всем узлам соответствующих функциям сеток. Именно такая норма выбрана, поскольку все ряды Фурье приближают раскладываемые функции в среднем. 
+
+Точность численных решений при названных шагах представлена в таблице \ref{tab:precision-new}. Как видно, схема (\ref{eq:scheme}) действительно имеет второй порядок аппроксимации по каждой переменной, не совсем квадратичную зависимость можно объяснить высшими порядками разложения ошибки по шагам, а разница в ошибках при большом шаге по $x$ и большом шаге по $y$ может быть следствием выбора неявного в первый шаг направления. 
+
+
+
+
+%\begin{table}
+%\centering
+%\caption{Точность решений в момент времени $t=0.045$ при разных шагах сетки.}
+%\begin{tabular}{| c c c | c | c |}
+%	\hline
+%	$h_x$ & $h_y$ & $\tau$ & $z$ & $z/(\tau^2+h_x^2+h_y^2)$\\
+%	\hline
+%	1/256 & 1/256 & 1/100 & 1.501$\times10^{-7}$ & 1.150$\times10^{-3}$ \\
+%	1/128 & 1/128 & 1/100 & 3.096$\times10^{-7}$ & 1.394$\times10^{-3}$\\
+%	1/64 & 1/64 & 1/100 & 7.031$\times10^{-7}$ & 1.195$\times10^{-3}$\\
+%	1/32 & 1/32 & 1/100 & 20.940$\times10^{-7}$ & 1.020$\times10^{-3}$\\
+%	1/256 & 1/64 & 1/100 & 3.697$\times10^{-7}$ & 1.029$\times10^{-3}$\\
+%	1/256 & 1/256 & 1/50 & 4.467$\times10^{-7}$ & 1.038$\times10^{-3}$\\
+%	\hline
+%\end{tabular}
+%\label{tab:precision}
+%\end{table}
+
+\begin{table}
+	\centering
+	\caption{Точность решений в момент времени $t=0.045$ при разных шагах сетки.}
+	\begin{tabular}{| c c c | c | c |}
+		\hline
+		$h_x$ & $h_y$ & $\tau$ & $z$ & $z/(\tau^2+h_x^2+h_y^2)$\\
+		\hline
+		1/256 & 1/256 & 1/256 & 1.0893$\times10^{-5}$ & 0.2380\\
+		1/128 & 1/128 & 1/128 & 4.3963$\times10^{-5}$ & 0.2401\\
+		1/64 & 1/64 & 1/64 & 15.791$\times10^{-5}$ & 0.2156\\
+		1/32 & 1/32 & 1/32 & 76.003$\times10^{-5}$ & 0.2594\\
+		1/32 & 1/256 & 1/256 & 23.172$\times10^{-5}$& 0.2301\\
+		1/256 & 1/32 & 1/256 & 21.251$\times10^{-5}$ & 0.2110\\
+		1/256 & 1/256 & 1/32 & 20.640$\times10^{-5}$ & 0.2049\\
+		\hline
+	\end{tabular}
+	\label{tab:precision-new}
+\end{table}
+
+
+\clearpage
+\begin{figure}[p!]
+	\includegraphics[width=\linewidth]{{solution-an-t0-N256}.pdf}
+	\caption{Точное решение задачи (\ref{eq:task}) в момент времени $t=0$.}
+	\label{fig:an-t0}
+\end{figure}
+\begin{figure}[p!]
+	\includegraphics[width=\linewidth]{{solution-t0-N256}.pdf}
+	\caption{Численное решение задачи (\ref{eq:scheme}) в момент времени $t=0$.}
+	\label{fig:cal-t0}
+\end{figure}
+\begin{figure}[p!]
+	\includegraphics[width=\linewidth]{{solution-an-t.04523-N256}.pdf}
+	\caption{Точное решение задачи (\ref{eq:task}) в момент времени $t=0.045$.}
+	\label{fig:an-t.045}
+\end{figure}
+\begin{figure}[p!]
+	\includegraphics[width=\linewidth]{{solution-t.04523-N256}.pdf}
+	\caption{Численное решение задачи (\ref{eq:scheme}) в момент времени $t=0.045$.}
+	\label{fig:cal-t.045}
+\end{figure}
+\begin{figure}[p!]
+	\includegraphics[width=\linewidth]{{solution-an-t.33-N256}.pdf}
+	\caption{Точное решение задачи (\ref{eq:task}) в момент времени $t=0.33$.}
+	\label{fig:an-t.33}
+\end{figure}
+\begin{figure}[p!]
+	\includegraphics[width=\linewidth]{{solution-t.33-N256}.pdf}
+	\caption{Численное решение задачи (\ref{eq:scheme}) в момент времени $t=0.33$.}
+	\label{fig:cal-t.33}
+\end{figure}
+\begin{figure}[p!]
+	\includegraphics[width=\linewidth]{{solution-an-t1-N256}.pdf}
+	\caption{Точное решение задачи (\ref{eq:task}) в момент времени $t=1$.}
+	\label{fig:an-t1}
+\end{figure}
+\begin{figure}[p!]
+	\includegraphics[width=\linewidth]{{solution-t1-N256}.pdf}
+	\caption{Численное решение задачи (\ref{eq:scheme}) в момент времени $t=1$.}
+	\label{fig:cal-t1}
+\end{figure}
+\begin{figure}[p!]
+	\includegraphics[width=\linewidth]{{solution-t.04523-N32}.pdf}
+	\includegraphics[width=\linewidth]{{solution-t.04523-Nodd}.pdf}
+	\caption{Численные решения задачи (\ref{eq:scheme}) в момент времени $t=0.045$ для шагов 1/32, 1/32 (выше) и 1/256, 1/64 (ниже).}
+	\label{fig:cal-t.045-odd}
+\end{figure}
+
+
+
+\end{document}

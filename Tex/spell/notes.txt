@@ -1,0 +1,25 @@
+=== Russian ===
+It is from the Firefox extension, koi8-r translated to utf-8. 
+It is stored in ~/.mozilla/firefox/{long}/extensions/ru* (should be unzipped).
+To convert to the VIM .spl file, run `mkspell ru ru` in VIM. 
+[url: https://addons.mozilla.org/en-US/firefox/addon/russian-spellchecking-dic-3703/]
+I have also added some words: 
+- адронный 
+- адронизация 
+- Керим, Гусейн(ов), Демир(ович)
+- изменил аффикс эффективность с F на N
+Добавить нужно:
++ каон
++ корректировка
++ коллаборация
+
+=== English ===
+American dictionary is a customized wordlist from wordlist.apell.net. The customization is:
+	* insane, common spelling variants, include both, hacker, roman numerals
+British dictionary was taken from LibreOffice GitHub. 
+To convert to the VIM .spl file, run `mkspell enins en_US en_GB` in VIM. 
+[url: http://app.aspell.net/create]
+[url: https://github.com/LibreOffice/dictionaries]
+The US dictionary is also expanded with:
+- hadronize,-ized,-ization
+- fermionic

@@ -1,0 +1,84 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+%\usepackage[T2A]{fontenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage[english, russian]{babel}
+\frenchspacing
+\usepackage[onehalfspacing]{setspace}
+
+\setcounter{tocdepth}{4}
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks=false}
+\hypersetup{linktocpage}
+\frenchspacing
+\righthyphenmin=2
+\usepackage{indentfirst}
+\usepackage{cite}
+\usepackage{cmap}
+\usepackage{calc}
+\pagestyle{empty}
+\usepackage{geometry}
+\usepackage{lscape}
+\geometry{left=0pt, right=0pt, top=10pt, bottom=0pt}
+%\usepackage{style}
+\renewcommand{\familydefault}{cmr}
+\newcounter{exnumber}
+\newcommand{\ex}{\subparagraph{Задача \thesection.\theexnumber} \stepcounter{exnumber}}
+
+\newlength{\wordanddescriptionlen}
+\newcommand{\wordanddescription}[3][t]{
+	\setlength{\wordanddescriptionlen}{\widthof{#2}}
+	\noindent
+	#2\parbox[#1]{\linewidth-\wordanddescriptionlen}{#3} \\\vspace*{-.3333333\baselineskip}}
+
+
+
+\begin{document}
+	
+\def\biggest{Военная подготовка}
+\begin{tabular}{r| l}
+\hline\hline
+  & \parbox{\widthof{\biggest}}{\centering Понедельник} \\
+1 & -- \\
+2 & Числ. мет. 5-18 \\
+3 & Числ. мет. 5-18 \\
+4 & -- \\
+5 & -- \\
+\hline
+ & \parbox{\widthof{\biggest}}{\centering Вторник} \\
+ & Военная подготовка \\
+\hline
+ & \parbox{\widthof{\biggest}}{\centering Среда} \\
+1 & Экономика 5-19 \\
+2 & Право / Экон. 5-19 \\
+3 & Право 5-19 \\
+4 & МФК \\
+5 & МФК \\
+\hline
+ & \parbox{\widthof{\biggest}}{\centering Четверг}\\
+1 & -- \\
+2 & Стат. физ. 5-52 \\
+3 & с.к. Капитонов \\
+4 & с.к. Смирнова \\
+5 & -- \\
+\hline
+ & \parbox{\widthof{\biggest}}{\centering Пятница} \\
+1 & -- \\
+2 & Стат. физика сфа \\
+3 & -- \\
+4 & -- \\
+5 & -- \\
+\hline
+% & \parbox{\widthof{\biggest}}{\centering Суббота} \\
+%1 &  \\
+%2 &  \\
+%3 &  \\
+%\hline
+\hline
+\end{tabular}
+
+
+\end{document}

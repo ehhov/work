@@ -1,0 +1,5 @@
+# vim:ft=sh
+source /opt/root/bin/thisroot.sh
+source /opt/ostap/thisostap.sh
+
+alias ostapnc='ostap --no-canvas'

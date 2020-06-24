@@ -1,0 +1,50 @@
+\usepackage{calc}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools, amssymb}
+\usepackage{gensymb}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{indentfirst}
+
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
+\usepackage[
+	colorlinks,
+	allcolors=dimblue
+]{hyperref}
+
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\g@addto@macro\@floatboxreset\centering
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\usepackage[
+	vmargin=1in,
+	hmargin=.8in
+]{geometry}
+\setlength{\columnsep}{.25in}
+%\usepackage[nospread]{flushend}
+\usepackage{cuted}
+\usepackage{titlesec}
+\titleformat{\section}
+[hang] % shape 
+{\bf\centering} % text format 
+{\thesection.} % label 
+{.5em} % separation 
+{} % before code 
+[] % after code 
+\def\thesection{\Roman{section}}
+\def\thefootnote{\fnsymbol{footnote}}
+
+\usepackage{ifthen}
+\newboolean{articletitles}
+\setboolean{articletitles}{true}
+\newboolean{italicNames}
+\setboolean{italicNames}{false}
+\newboolean{italicTitles}
+\setboolean{italicTitles}{true}
+
+\def\mailto#1{\href{mailto:#1}{#1}}
+\def\todo#1{\textcolor{red}{#1}}

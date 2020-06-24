@@ -1,0 +1,15 @@
+set view 60,45,1,1
+set pm3d
+#set palette rgbformulae 22, 5, -10
+set xlabel "t"
+set xtics offset 0,0,0
+set ylabel "x"
+set ytics offset 2,0,0
+set zlabel "u" offset 0,5,0
+set xyplane 0
+unset key
+#set term pdf color enhanced lw .8 font "Helvetica, 8"
+#set output "~/work/Tex/OMM-task1/iszero-impl.pdf"
+splot "task1_impl.dat" every 8:8 u 1:2:3 with points pointtype 0 pointsize .1
+pause -1
+

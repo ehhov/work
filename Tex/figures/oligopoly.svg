@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1035"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="oligopoly.svg">
+  <defs
+     id="defs1029" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8294048"
+     inkscape:cx="326.33565"
+     inkscape:cy="539.39481"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1900"
+     inkscape:window-height="1036"
+     inkscape:window-x="10"
+     inkscape:window-y="10"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1032">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 48.380951,123.13094 v 76.35119 L 127,198.72618"
+       id="path1037"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 53.745491,144.44629 c 1.589061,10.09243 11.657175,23.80216 22.561984,27.61715 10.485206,3.87276 17.616769,2.32896 25.549835,-0.38454 12.85842,-4.06811 21.67235,-19.69901 24.4915,-28.245"
+       id="path1039"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-155.75703"
+       y="36.060215"
+       id="text915"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan913"
+         x="-155.75703"
+         y="36.060215"
+         style="stroke-width:0.26458332">Долгосрочные </tspan><tspan
+         sodipodi:role="line"
+         x="-155.75703"
+         y="41.469635"
+         style="stroke-width:0.26458332"
+         id="tspan917">средние издержки</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="105.5224"
+       y="202.98103"
+       id="text921"><tspan
+         sodipodi:role="line"
+         id="tspan919"
+         x="105.5224"
+         y="202.98103"
+         style="stroke-width:0.26458332">Количество</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 75.20661,171.02893 c 0.09642,0.19283 0.209183,0.37833 0.289256,0.57851 0.02402,0.06 0,0.61652 0,0.72314 0,0.5303 0,1.0606 0,1.59091"
+       id="path1181"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 105,169.29339 c 0,0.57851 0,1.15702 0,1.73554 0,0.0482 0,0.0964 0,0.14462 0,0.0482 -0.0341,0.11054 0,0.14463 0.0341,0.0341 0.11054,-0.0341 0.14462,0 0.0341,0.0341 0.0482,0.14463 0,0.14463 -0.0482,0 0,-0.19284 0,-0.14463 0,0.0964 0,0.19284 0,0.28926 0,0.0482 -0.0341,0.11054 0,0.14463 0.0341,0.0341 0.11054,-0.0341 0.14463,0 0.0341,0.0341 0.0482,0.14462 0,0.14462 -0.0482,0 0,-0.19283 0,-0.14462 0,0.14462 0,0.28925 0,0.43388 0,0.0482 -0.0341,0.11054 0,0.14463 0.0341,0.0341 0.0964,0 0.14463,0"
+       id="path1183"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

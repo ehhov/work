@@ -1,0 +1,9 @@
+#! /bin/bash
+
+for i in 32 64 128 256 odd Todd
+do
+	python3 residual.py .04523 $i > /tmp/forpy 
+	echo "a=float(input()); b=float(input()); c=float(input()); step=$i; print(\"For {3} steps  Avg abs: {0}, Avg sq: {1}, Max: {2}\".format(a/(2/step/step+1/99/99), b/(2/step/step+1/99/99), c/(2/step/step+1/99/99), step))" > /tmp/py
+	python3 /tmp/py < /tmp/forpy
+done
+

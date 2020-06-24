@@ -1,0 +1,20 @@
+gnuplot << EOF
+set view 60,45,1,1
+set pm3d
+#set palette rgbformulae 22, 5, -10
+set xlabel "t"
+set xtics offset 0,0,0
+set ylabel "x"
+set ytics offset 2,0,0
+set zlabel "u" offset 0,0,0
+set xyplane 0
+unset key
+set term png transparent truecolor giant size 2000,1000 enhanced lw .8 font "DejaVu, 8"
+set output "~/work/Tex/OMM-task1/solution-$1-tr.png"
+splot "task1_$1.dat" u 1:2:3 with points pointtype 0 pointsize .1
+set view 60,330,1,1; set ytics offset -2,0,0
+set output "~/work/Tex/OMM-task1/iszero-$1-tr.png"
+splot "task1check_$1.dat" u 1:2:3 with points pointtype 0 pointsize .1
+#pause 30
+EOF
+

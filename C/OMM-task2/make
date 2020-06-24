@@ -1,0 +1,26 @@
+g++ task2$1.C 
+./a.out > task2$1-k$2-N$3.dat <<< $2
+
+#gnuplot << EOF
+#set view 60,45,1,1
+#set pm3d
+#set xlabel "x"
+#set xrange [0:1]
+#set xtics 0.1 offset 0,0,0
+#set ylabel "y"
+#set yrange [0:1]
+#set ytics 0.1 offset 2,0,0
+#set zlabel "u" offset 0,0,0
+#set zrange [-0.012:0.012]
+#set ztics 0.002
+##set zrange [-.0105809:.0105809]
+#set xyplane 0
+#unset key
+#set term pdf color enhanced lw .8 font "Helvetica, 8"
+#set output "Gnuplotted.pdf"
+#set output "~/work/Tex/OMM-task2/solution$1-k$2-N$3.pdf"
+#splot "task2$1-t$2-N$3.dat" with points pointtype 0
+#pause 30
+#EOF
+
+echo "$1-t$2-N$3 ended"

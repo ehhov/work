@@ -1,0 +1,44 @@
+\usepackage{calc}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools, amssymb}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{indentfirst}
+\usepackage[
+	vmargin=1in,
+	hmargin=1in
+]{geometry}
+
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
+\usepackage[
+	colorlinks,
+	allcolors=dimblue
+]{hyperref}
+
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage{subcaption}
+\usepackage[labelsep=period]{caption}
+\g@addto@macro\@floatboxreset\centering
+\usepackage[bottom]{footmisc}
+
+\usepackage{ifthen}
+\newboolean{articletitles}
+\setboolean{articletitles}{true}
+\newboolean{italicNames}
+\setboolean{italicNames}{false}
+\newboolean{italicTitles}
+\setboolean{italicTitles}{true}
+
+\newcounter{sec}
+\setcounter{sec}{0}
+\def\sec#1{
+	\stepcounter{sec}
+	\par\vspace{.6\baselineskip}
+	\noindent
+	\textbf{\large\thesec\hspace{1em}#1}
+	\vspace{.2\baselineskip}\par
+}
+
+\def\mailto#1{\href{mailto:#1}{#1}}
