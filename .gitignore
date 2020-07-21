@@ -1,6 +1,7 @@
 root-doc
 *ignored
 *__pycache__
+*.pyc
 
 *.swp
 *.ostap*
