@@ -1,0 +1,197 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian, english]{babel}
+
+\usepackage[
+	vmargin=1in,
+	hmargin=.6in
+]{geometry}
+\linespread{1.3}
+\usepackage{xcolor}
+\definecolor{allrefs}{HTML}{1010aa}
+\usepackage[
+	colorlinks=true, 
+	allcolors=allrefs
+]{hyperref}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools}
+
+%\usepackage{times}
+\usepackage{multicol}
+\usepackage{lipsum}
+\setlength{\columnsep}{.25in}
+
+\def\task#1{\begin{center}\it #1\end{center}}
+\def\ans#1{\textit{#1}}
+
+\newif\ifcols
+\colsfalse
+
+\begin{document}
+
+\noindent
+Kerim Guseynov, 113M group
+\hfill
+Oct 23
+
+\task{Unit 5, p. 54--55, translation}
+\ifcols\begin{multicols}{2}\fi% {{{
+\begin{otherlanguage}{russian}
+\begin{large}
+\bf\underline{Квантовая теория оптической когерентности}
+\end{large}
+\\\textbf{Нобелевская премия по физике 2005 --- пресс релиз}
+\\\textbf{4 октября 2005}
+
+Шведская королевская академия наук решила присудить Нобелевскую премию по 
+физике в 2005 году пополам Рою Дж. Глауберу, Гарвардский университет, Кэмбридж, 
+Массачусеттс, США, ``за вклад в квантовую теорию оптической когерентности'' 
+и Джону Л. Холлу, Объединенный институт лабораторной астрофизики, Университет 
+Колорадо и Национальный институт стандартов и технологий, Боулдер, Колорадо, 
+США, и Теодору В. Хеншу, Институт квантовой оптики имени Макса Планка, Гархинг 
+и Университет имени Людвига и Максимилианса, Мюнхен, Германия, ``за вклады 
+в развитие лазерной сверхточной спектроскопии, включая технику 
+оптическочастотного гребня''.
+
+\textbf{Современная оптика в новом свете}
+
+Ровно столько, сколько человечество населяло Землю, нас пленили оптические 
+эффекты и постепенно раскрываемая природа света. Нобелевская премия по физике 
+этого года была присуждена трем ученым в области оптики. Рой Глаубер награжден 
+половиной премии за его теоретическое описание поведения световых частиц. Джон 
+Холл и Теодор Хенш разделяют вторую половину премии за развитие лазерной 
+сверхточной спектроскопии, то есть, определение цвета атомного и молекулярного 
+света с чрезвычайной точностью.
+
+Точно как радиоволны, свет есть форма электромагнитного излучения. Максвелл 
+описал это в 1850-х. Его теория была использована в современных 
+коммуникационных технологиях, основанных на трансмиттерах и приемниках: 
+мобильные телефоны, телевидение и радио. Если приемник или детектор должен 
+зарегистрировать свет, он должен быть способен поглощать радиационную энергию 
+и перенаправлять сигнал. Эта энергия приходит в пачках, называемых квантами, 
+и сто лет назад Эйнштейн смог показать, как поглощение единственного кванта 
+(фотона) приводит к высвобождению фотоэлектрона. Именно эти непрямые 
+фотоэлектроны регистрируются в аппаратах, когда фотоны поглощаются.
+
+Таким образом, свет проявляет двойную природу --- его можно рассматривать и как 
+волны, и как поток частиц. Рой Глауберг установил основы квантовой оптики, 
+в которых квантовая теория включает область оптики. Он смог объяснить 
+фундаментальные различия между горячими источниками света, такими как лампы 
+накаливания, дающими набор частот и фаз, и лазерами, дающими определенную 
+частоту и фазу.
+
+Важные вклады, сделанные Джоном Холлом и Теодором Хеншом сделали возможным 
+измерение частот с точность вплоть до пятнадцати цифр. Стало возможно 
+конструировать лазеры с чрезвычайно резкими цветами, и с помощью техники 
+частотного гребня можно с точностью считывать свет всех цветов. Этот метод 
+позволяет изучать, например, стабильность постоянных природы с течением времени 
+и разработать чрезвычайно точные часы и улучшенную технологию GPS.
+
+\end{otherlanguage}
+\ifcols\end{multicols}\fi% }}}
+
+\task{Unit 5, p. 55--62, A--G, questions and main ideas}
+\ifcols\begin{multicols}{2}\fi% {{{
+
+\textbf{A}
+\\1. Who formulated the old theory of electromagnetic waves? \ans{The Scottish physicist James Clerk Maxwell.}
+\\2. What was the problem with describing the solar radiation? \ans{According to the old theory, the Sun should emit much more violet and ultraviolet waves.}
+\\3. What managed to solve the problems of quantum approach to electromagnetism? \ans{Quantum field theory and quantum electrodynamics.}
+\\ Light is an electromagnetic wave, which were described by Maxwell's theory, but it failed to describe the radiation of the Sun, and then Max Planck came up with a proper formula described later by Albert Einstein in terms of energy packets, whose theory evolved to become QED, the most successful modern theory.
+
+\textbf{B}
+\\1. What were the first devices whose operation could not be described by Maxwell's theory? \ans{Lasers, their operation is based on special quantum effects.}
+\\2. Is it possible to see interference using thermal light sources? \ans{It is possible, but not easily and requires special arrangements.}
+\\3. What is the main difference between the light emitted by a thermal source and a laser? \ans{The light coming from a thermal source is incoherent, and from a laser is coherent.}
+\\ Thermal sources and lasers represent the old and the new theories of light; both of them can be used to observe interference, but only laser reveals the nature of the phenomenon.
+
+\textbf{C}
+\\1. Can a single particle beam lead to an interference pattern? \ans{Yes, it can, after a sufficiently long time to form an image.}
+\\2. Does Glauber's theory describe experiments carried out later? \ans{Yes, it does.}
+\\3. Can we measure properties of light with infinite precision? \ans{No, the quantum nature of light, uncertainty principle, and so-called quantum noise set a limit.}
+\\ Glauber succeeded in applying quantum physics to optical phenomena and created the basics of theory describing quantum optical effects; photons are also subjected to quantum effects limiting precision.
+
+\textbf{D}
+\\1. What did improved resolution show us for atoms? \ans{It showed many phenomena some of which are fine structure resulting from spin and some properties of the atomic nucleus.}
+\\2. What is the interesting technique developed by Hall and H\"ansch? \ans{It is called the optical frequency comb technique.}
+\\3. How can we utilize such high precision spectroscopy? \ans{We can investigate constants of nature, extremely precisely measure time, and find out differences between matter and antimatter.}
+\\ To find new effects, we need greater precision, and large advances in precision measurements are highly appreciated; Hall and H\"aensch developed exactly that and were awarded with the Nobel Prize.
+
+\textbf{E}
+\\1. What was the previous standard of meter? \ans{It was a metal rod kept in Paris under a lock.}
+\\2. What was John Hall doing with his group? \ans{They measured the speed of light using extremely stable lasers.}
+\\3. What is the current definition of a meter? \ans{It is defined by the speed of light as the distance the light passes in vacuum in 1/299,792,458 s.}
+\\ The General conference of Weights and Measures abandoned material standards in 1960 replacing them with atom-based ones; these standards were improving over the years and are currently defined by cesium and the speed of light.
+
+\textbf{F}
+\\1. What is the optical frequency comb technique based on? \ans{It is based on the use of pulse lasers that have a frequency comb containing the whole visible spectrum.}
+\\2. How is this technique used? \ans{The spectrum of such a laser has peaks throughout the range of visible frequencies, and they are evenly distributed.}
+\\3. How can we create pulses with a comb broad enough to calculate the absolute frequencies? \ans{Such pulses are possible to create in so-called photonic crystal fibers, in which the material is partially replaced by air.}
+\\ Pulse lasers are characterized by the length of the pulse, and hence comprise many different, evenly located frequencies in their spectra; this provides an accurate measurement device in optics; if the spectrum is broad enough, it is possible to not only measure the difference between frequencies, but also their absolute values, and this may be used for an enhanced time standard.
+
+\textbf{G}
+\\1. What is the benefit of high precision time measurements for the GPS? \ans{GPS is based on time measurements and hence their greater precision will result in a better position determination.}
+\\2. How can we study matter-antimatter differences? \ans{The hydrogen atom is one of the simplest systems, and the comparison of hydrogen and anti-hydrogen spectra can be helpful.}
+\\3. Are the constants of nature really constant? \ans{We expect them to change over time with the expansion of Universe, but no deviations have been registered so far.}
+\\ The frequency comb technique opens new horizons for modern technology; it can enhance our GPS and telecommunication, improve spectra measurement precision, and even let us study the variations of constants of nature.
+\ifcols\end{multicols}\fi% }}}
+
+\task{Ex. 1, p. 62}
+\ifcols\begin{multicols}{2}\fi% {{{
+
+\textbf{a)} The distribution of the strength of the colors coming from the Sun did not agree at all with the theories that had been developed based on Maxwell’s equations. There should be much more violet and ultraviolet radiation from the sun than had actually been observed.
+
+\textbf{b)} When the light falls onto a material, it is absorbed as a number of individual photons that transmit their energies to individual electrons causing them to abandon their atoms and be emitted.
+
+\textbf{c)} The quantum is the smallest portion of something. For light it can also be defined as the basic energy packet and is a photon.
+
+\textbf{d)} Quantum electrodynamics solved the problem of infinite expressions appearing in quantum approach to electrodynamics. It described all effects resulting from the electromagnetic interaction, e.g. light, atomic energy spectra, and so on.
+
+\textbf{e)} Roy J. Glauber's pioneering work in physics consisted in applying quantum approach to optical phenomena.
+
+\textbf{f)} An essential feature of the theoretical quantum description of optical observations is that, when a photoelectron is observed, a photon has been absorbed and the state of the photon field has undergone a change.
+
+\textbf{g)} In some situations photons occur more infrequently in pairs than in a purely random signal. Such photons come from a quantum state that cannot in any way be described as classical waves.
+
+\textbf{h)} H\"ansch and his colleagues demonstrated that frequencies of pulse lasers were evenly distributed with extreme precision, and Hall developed a system having such a broad frequency comb that it could be used to measure absolute frequency values.
+
+\textbf{i)} The optical frequency comb technique is based on the fact that pulse lasers contain frequencies distributed evenly over a pretty large range, and the evenness is of extreme precision, so it can be used to for very high precision measurements.
+
+\textbf{j)} This technique can be used to study the fundamentals of nature, for example the difference between matter and antimatter, the variations of constants of nature. And it can also be used to enhance all technologies relying on time measurements, like GPS and telecommunication.
+\ifcols\end{multicols}\fi% }}}
+
+\task{Ex. 1, p. 66}
+\ifcols\begin{multicols}{2}\fi% {{{
+
+Physicists \emph{are now concerned with} developing technologies to utilize 
+quantum entanglement. In modern world, we all \emph{live with the technical 
+applications of light every day}. Humanity is \emph{slow in recognizing} its 
+impact on the planet. Smaller systems \emph{make it essential} to use quantum 
+laws and develop extraordinary approaches. It is important to 
+\emph{distinguish small systems from quantum systems} because now all 
+quantum systems are small. A friend of mine \emph{introduced me to his new 
+colleagues}. Werner Heisenberg \emph{laid the foundations for quantum physics} 
+and formulated formal approaches to it. Studying the spectrum of hydrogen atom 
+revealed \emph{the fundamental features of reality}. M\"ossbauer effect made it 
+possible to \emph{test the conception of general theory of relativity}. The 
+optical frequency comb technique allows us to \empn{measure frequency 
+differences with extreme accuracy}. Nothing can be measured with infinite 
+precision due to fundamental \emph{limitations of the laws of physics}. The 
+search for new physics beyond the Standard Model \emph{offers challenging tasks 
+for physicists all around the world}. The Large Hadron Collider, constructed in 
+2010s, was \emph{the present state of the art} back then and now needs some 
+modifications.
+\ifcols\end{multicols}\fi% }}}
+
+
+
+
+
+\end{document}

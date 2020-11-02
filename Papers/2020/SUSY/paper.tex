@@ -1,0 +1,69 @@
+\documentclass[a4paper, 10pt, twocolumn]{article}
+
+% Configuration {{{
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
+\usepackage[
+	colorlinks=true, 
+	allcolors=dimblue
+]{hyperref}
+\usepackage[
+	vmargin=1in,
+	hmargin=.8in
+]{geometry}
+\setlength{\columnsep}{.25in}
+%\usepackage[nospread]{flushend}
+\usepackage{cuted}
+\linespread{1.3}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+
+\usepackage{titlesec}
+\titleformat{\section}[hang]{\bf\centering}{\thesection.}{.5em}{}[]
+\def\thesection{\Roman{section}}
+\def\thefootnote{\fnsymbol{footnote}}
+
+\usepackage{ifthen}
+\newboolean{articletitles}
+\setboolean{articletitles}{true}
+\newboolean{italicNames}
+\setboolean{italicNames}{false}
+\newboolean{italicTitles}
+\setboolean{italicTitles}{true}
+% }}}
+
+
+\begin{document}
+
+% Title {{{
+\begin{strip}
+\begin{center}
+\vskip-2.4\baselineskip
+{\bf\large Модели суперсимметрии. Поиск суперсимметрии на БАК}
+\vskip.3\baselineskip
+{Керим Гусейнов\footnotemark}
+\vskip.3\baselineskip
+\today
+\end{center}
+\end{strip}
+\footnotetext{\href{mailto:guseynovkerim@gmail.com}{guseynovkerim@gmail.com}}
+% }}}
+
+\section{Введение}
+
+Текст обсуждается активно.~\cite{one, two}.
+
+
+\bibliographystyle{local}
+\bibliography{refs.bib}
+
+\end{document}

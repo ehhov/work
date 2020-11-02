@@ -10,6 +10,7 @@ replace() {
 	grep -Rl "$f" | while IFS= read -r file; do 
 		cat "$file" >| /tmp/temp
 		sed "s/$what/$with/g" /tmp/temp >| "$file"
+		rm /tmp/temp
 	done
 }
 funcs=""
