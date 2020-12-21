@@ -1,0 +1,171 @@
+\documentclass[a4paper, 12pt]{article}
+
+% Configuration {{{
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian, english]{babel}
+
+\usepackage[
+	vmargin=1in,
+	hmargin=1in
+]{geometry}
+\linespread{1.3}
+\usepackage{xcolor}
+\definecolor{allrefs}{HTML}{1010aa}
+\usepackage[
+	colorlinks=true,
+	allcolors=allrefs
+]{hyperref}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools}
+
+%\usepackage{times}
+\usepackage{multicol}
+\usepackage{lipsum}
+\setlength{\columnsep}{.25in}
+
+\def\task#1{\begin{center}\it #1\end{center}}
+\def\ans#1{\textit{#1}}
+
+\newif\ifcols
+\colsfalse
+%}}}
+
+\begin{document}
+
+\noindent
+Kerim Guseynov, 113M group
+\hfill
+Nov 27
+
+\task{P. 87--88, translation}
+% {{{
+\begin{otherlanguage}{russian}
+	\begin{large}
+		\textbf{Нобелевская премия по физике 2008}
+	\end{large}
+	\\\textbf{Пресс-релиз}
+	\\\textbf{7 октября 2008}
+
+	Шведская королевская академия наук решила присудить нобелевскую премию по физике 
+	в 2008 году пополам Йоширо Намбу, Институт имени Энрико Ферми, Университет Чикаго, 
+	Иллинойс, США, \textit{``за открытие механизма спонтанного нарушения симметрии 
+	в субатомных частицах''} и совместно Макото Кобаяши, КЕК, Цукуба, Япония, 
+	и Тошихиде Маскава, Институт теоретической физики имени Юкавы, Университет Кйото, 
+	Япония, за \textit{``за открытие природы нарушения мимметрии, предсказывающей 
+	существование как минимум трех семейств кварков в природе''}.
+
+	\vskip.5\baselineskip
+	\textbf{Жажда симметрии}\par
+	Сам факт, что наш мир не ведет себя идеально симметрично происходит от отклонений 
+	от симметрии на микроскопическом уровне.
+
+	Еще в 1960 году Йоширо Намбу сформулировал математическое описание спонтанного 
+	нарушения симметрии в физике элементарных частиц. Спонтанного нарушение симметрии 
+	скрывает порядок природы под по-видимому беспорядочной поверхностью. Оно оказалось 
+	чрезвычайно полезным, и теории Намбу проникли в Стандартную модель физики частиц. 
+	Модель объединяет наименьшие кирпичики всей материи и трех из четырех сил природы 
+	в единой теории.
+
+	Спонтанное нарушение симметрии, которое изучал Намбу, отличается от нарушенных 
+	симметрий, описанных Макото Кобаяши и Тошихиде Маскава. Эти спонтанные случайности, 
+	кажется, существовали в природе с самого начала вселенной и оказались совершенным 
+	сюрпризом, впервые появившись в экспериментах с частицами в 1964 году. И только 
+	в последние годы ученые полностью подтвердили объяснения, сделанные Кобаяши 
+	и Маскава еще в 1972 году. Именно благодаря этой работе им теперь присуждается 
+	Нобелевская премия по физике. Они объяснили нарушение симметрии в рамках 
+	Стандартной модели, но потребовали ее расширения до трех семейств кварков. Эти 
+	предсказанные гипотетические новые кварки недавно появились в физических 
+	экспериментах. Только в 2001 году два детектора частиц BaBar в Стенфорде, США, 
+	и Belle в Цакуба, Япония, оба обнаружили нарушение симметрий независимо друг от 
+	друга. Результаты оказались точно такими, как почти три десятка лет перед этим 
+	предсказали Кобаяши и Маскава.
+
+	До сих пор необъясненное нарушение симметрии подобного типа лежит в основе самого 
+	происхождения космоса в большом взрыве около 14 миллиарда лет назад. Если бы были 
+	созданы одинаковые количества вещества и антивещества, они должны были бы 
+	аннигилировать друг с другом. Однако этого не произошло, было крохотное отклонение 
+	в количестве одной частицы материи на каждые 10 миллиардов частиц антиматерии. 
+	Именно это нарушение симметрии, по видимому, повлекло выживание нашего космоса. 
+	Вопрос как именно это произошло до сих пор не имеет ответа. Возможно, новый 
+	ускоритель частиц, БАК в ЦЕРНе в Женеве, сможет распутать некоторые из загадок до 
+	сих пор озадачивающих нас.
+\end{otherlanguage}
+% }}}
+
+\task{Ex. 1, p. 88}
+% {{{
+Our world is not perfectly symmetric due to \textit{deviations from symmetry at the 
+microscopic level}. The mathematical description of spontaneous symmetry breaking 
+formulated by Yoichiro Nambu appeared to \textit{be extremely useful}, and now his 
+theories \textit{permeate the Standard Model} of particle physics. Symmetry breaking 
+considered by Kobayashi and Maskawa is of another kind. Its \textit{spontaneous 
+occurrences} existed ever but \textit{came as a complete surprise} in 1964. Only 
+recently scientists managed to \textit{fully confirm the explanations}. The 
+achievement of Kobayashi and Maskawa was to \textit{explain broken symmetry within 
+the framework of the Standard Model} by \textit{extending the model} to three pairs 
+of quarks. This extension was experimentally proved only in 2001 by two detectors 
+that \textit{detected broken symmetry independently of each other}. Another broken 
+symmetry has to \textit{lie behind the very origin of the cosmos} since we have more 
+matter than antimatter. This question is very fundamental as well but still 
+\textit{remains unanswered}. Perhaps, the new accelerator called LHC could 
+\textit{unravel the mysteries} that continue to puzzle us.
+% }}}
+
+\task{P. 88--93 (to meson factories), questions and main thoughts}
+% {{{
+\par\textbf{\textit{Unraveling the hidden symmetries of nature}}
+\\1. What two types of broken symmetries exist? \ans{A symmetry can be broken from the beginning of the universe or it could spontaneously lose its symmetry at some point.}
+\\2. How long ago was the Big Bang? \ans{It was 14 billion years ago.}
+\\3. What is the apparent amount of matter-antimatter symmetry breaking? \ans{There is only an excess of one particle of matter over ten billion particles.}
+\\ Broken symmetries are very interesting for us now, as we still don't know what exactly caused the excess of matter over antimatter and the survival of our cosmos in the early universe.
+
+\textbf{\textit{Through the looking glass}}
+\\1. What are the three basic symmetries in particle physics? \ans{They are called mirror symmetry, charge symmetry, and time symmetry.}
+\\2. What does the time symmetry state? \ans{Time symmetry states that all events should occur precisely the same forward and backward in time.}
+\\3. What is the most important mathematical effect of symmetries? \ans{Mathematically, symmetries lead to conservation laws.}
+\\ Symmetries are very important in our world, but to explain everything, we have to introduce broken symmetries as well. The symmetry types in particle physics are parity, charge, and time, and every symmetry corresponds to a conservation law.
+
+\textbf{\textit{The pattern emerges more clearly}}
+\\1. What is the greatest physics dream? \ans{It is to unite all nature's smallest building blocks and all forces in one theory.}
+\\2. How do heavier particle families behave? \ans{They are unstable and decay, sometimes faster, sometimes longer, into the lightest family.}
+\\3. What is the force not included in the Standard Model? \ans{Gravity has still not been added to the Standard Model.}
+\\ In the middle of the 20th century, the development of accelerators caused the discovery of the quark structure of baryons. Now the Standard Model has three generations of particles and describes three of the four forces of nature.
+
+\textbf{\textit{The mirror is shattered}}
+\\1. What were the crises of the Standard Model related to? \ans{They were related to symmetry laws that didn't apply to particle physics.}
+\\2. What was the first symmetry violation discovery? \ans{Mirror symmetry violation was discovered first in 1956.}
+\\3. What radioactive element revealed mirror symmetry violation? \ans{The radioactive $\beta$-decay of $^{60}$Co did it.}
+\\ The Standard Model was supposed to inherit symmetry laws from our world, but particle physics turned out to be more complicated. We needed to verify all of them once again, and when we did, we found that the mirror symmetry is violated.
+
+\textbf{\textit{Inherent asymmetry determines our fate}}
+\\1. What was the particle breaking the double CP-symmetry? \ans{It was one of the neutral kaons.}
+\\2. What does the broken CP-symmetry allow us to do? \ans{It allows us to distinguish between matter and antimatter.}
+\\3. Who suggested a chain necessary for matter to survive instead of antimatter? \ans{It was the Russian physicist and Nobel Peace Prize Laureate Andrei Sakharov.}
+\\ Scientists first thought that C and P symmetries combined are still not violated, but the weak interaction broke even that with kaons. Later it led to the formulation by Andrei Sakharov of three basic facts necessary for our universe to survive.
+
+\textbf{\textit{Solving the mystery of the broken symmetry}}
+\\1. Who found an explanation for symmetry breaking seen for kaons? \ans{Two young researchers from the University of Kyoto, Makoto Kobayashi and Toshihide Maskawa, did it.}
+\\2. How many families are required for Kobayashi's and Maskawa's theory? \ans{Their theory was based on a 3x3 matrix and thus required three families of particles.}
+\\3. What are the three quarks predicted by the symmetry violation explanation? \ans{These quarks are the charm quark, the bottom quark, and the top quark.}
+\\ CP-violation found in experiments needed to be included in the Standard Model, and it was done by extending it to three particle generations and introducing a 3x3 matrix describing weak transitions between them. All missing particles were found later.
+
+% }}}
+
+\end{document}
+
+Новые слова:
+- permeate -- проникать
+- unravel -- разгадать
+- jumble -- перемешивать, спутывать
+- hitherto -- до сих пор, до тех пор
+- crises -- plural of crisis
+- console -- утешать
+- limelight -- центр внимания
+- surplus -- избыток
+- acquaint -- ознакомить

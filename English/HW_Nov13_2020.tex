@@ -1,0 +1,224 @@
+\documentclass[a4paper, 12pt]{article}
+
+% Configuration {{{
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian, english]{babel}
+
+\usepackage[
+	vmargin=1in,
+	hmargin=1in
+]{geometry}
+\linespread{1.3}
+\usepackage{xcolor}
+\definecolor{allrefs}{HTML}{1010aa}
+\usepackage[
+	colorlinks=true,
+	allcolors=allrefs
+]{hyperref}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools}
+
+%\usepackage{times}
+\usepackage{multicol}
+\usepackage{lipsum}
+\setlength{\columnsep}{.25in}
+
+\def\task#1{\begin{center}\it #1\end{center}}
+\def\ans#1{\textit{#1}}
+
+\newif\ifcols
+\colsfalse
+%}}}
+
+\begin{document}
+
+\noindent
+Kerim Guseynov, 113M group
+\hfill
+Nov 13
+
+\task{Unit 7, p. 79--80, translation}
+\ifcols\begin{multicols}{2}\fi% {{{
+\begin{otherlanguage}{russian}
+	\begin{large}
+		\textbf{Нобелевская премия по физике 2007}
+	\end{large}
+	\\\textbf{Пресс релиз}
+	\\\textbf{9 октября 2007}
+
+	Шведская королевская академия наук решила присудить 
+	нобелевскую премию по физике в 2007 году совместно Альберту 
+	Ферту, Университет Париж-юг, Орсе, Франция, и Питеру 
+	Грюнбергу, Исследовательский центр Юлих, Германия, ``за 
+	открытие гигантского магнетосопротивления''.
+
+	\textbf{Нанотехнологии дают нам чувствительные считывающие 
+	головки для компактных жестких дисков}
+
+	В этом году премия по физике присуждается за технологию, 
+	используемую для считывания данных с жестких дисков. Именно 
+	благодаря этой технологии стало возможным радикально 
+	уменьшить жесткие диски в последние годы. Чувствительные 
+	считывающие головки нужны для считывания данных с компактных 
+	жестких дисков, используемых в ноутбуках и некоторых 
+	музыкальных проигрывателях.
+
+	В 1988 француз Альберт Ферт и немец Питер Грюнберг 
+	независимо друг от друга открыли совершенно новый физический 
+	эффект -- гигантское магнетосопротивление, или ГМР. 
+	В системе с ГМР очень слабые магнитные изменения приводят 
+	к существенным разницам в электрическом сопротивлении. 
+	Система такого типа -- идеальное приспособление для 
+	считывания данных с жестких дисков, когда информацию, 
+	определяемую магнитно, нужно перевести в электрический ток. 
+	Вскоре исследователи и инженеры начали пытаться применить 
+	этот эффект в считывающих головках. В 1997 году впервые была 
+	запущена считывающая головка, основанная на эффекте ГМР, 
+	а вскоре это стало стандартной технологией. Даже самые 
+	современные техники считывания сегодня являются дальнейшими 
+	разработками того же эффекта.
+
+	Жесткий диск хранит информацию, например как музыка, в виде 
+	микроскопически маленьких площадей, намагниченных в разных 
+	направлениях. Информация получается с помощью считывающей 
+	головки, которая сканирует диск и регистрирует магнитные 
+	изменения. Чем меньшие и более компактны жесткие диски, тем 
+	слабее индивидуальные магнитные области. А значит, более 
+	чувствительные считывающие головки нужны для упаковывания 
+	информации еще плотнее на жестком диске. Считывающая 
+	головка, основанная на эффекте ГМР, может переводить очень 
+	слабые магнитные изменения в ток, испускаемый считывающей 
+	головкой. Ток есть сигнал от считывающей головки, 
+	а различные его силы соответствуют единицам и нулям.
+
+	Эффект ГМР был открыт благодаря новым методам, развитым 
+	в 1970х, позволяющим производить очень тонкие слои разных 
+	материалов. Для существования ГМР нужны структуры, состоящие 
+	из слоев толщиной в несколько атомов. В связи с этим эффект 
+	ГМР можно считать одним из первых реальных применений 
+	многообещающей области нанотехнологий.
+\end{otherlanguage}
+\ifcols\end{multicols}\fi% }}}
+
+\task{Ex. 1, p. 80}
+\ifcols\begin{multicols}{2}\fi% {{{
+	\begin{enumerate}[label=\alph*)]
+		\item \textit{It is thanks to Giant Magnetoresistance that} it has 
+			been possible to \textit{miniaturize hard disks} so radically in 
+			recent years.
+
+		\item In 1988, the Frenchman Albert Fert and the German 
+			Peter Gr\"{u}nbergeach \textit{independently discovered} 
+			a totally new physical effect --- Giant 
+			Magnetoresistance.
+
+		\item A GMR system consists of layers that are only a few 
+			atoms thick. Such layers could only be produced using 
+			the state of the art technology of that time. This is 
+			why the GMR effect is \textit{one of the first real 
+			applications of nanotechnology}.
+
+		\item In a GMR system, very weak magnetic changes 
+			\textit{give rise to major differences} in electrical 
+			resistance. It makes such systems \textit{the perfect 
+			tool for reading data} from hard drives. The 
+			\textit{information is retrieved} by a read-out head 
+			that scans the disk and registers the magnetic changes 
+			which are then \textit{converted to electric current}. 
+			To make disks smaller, we need to \textit{pack information more 
+			densely on a hard disk}, so more sensitive read-out heads 
+			are required. A read-out head based on the GMR effect 
+			can \textit{convert very small magnetic changes into 
+			differences in electric resistance} and therefore 
+			\textit{read data} from a smaller disk.
+
+			For the first time, read-out heads based on the GMR 
+			effect were used in 1997 and quickly \textit{became the 
+			standard technology}. Even now, modern read-out 
+			techniques are only \textit{further developments of 
+			GMR}.
+	\end{enumerate}
+\ifcols\end{multicols}\fi% }}}
+
+\task{P. 81--82, translation, three questions}
+\ifcols\begin{multicols}{2}\fi% {{{
+\begin{otherlanguage}{russian}
+	\textbf{Гигант внутри малых устройств}
+
+	\textit{Внутри компьютера, который вы используете для чтения 
+	этой статьи, находится система получения памяти, основанная 
+	на открытия, за которые Нобелевская премия по физике в 2007 
+	году была дана Альберту Ферту и Питеру Грюнбергу. Они 
+	открыли, независимо друг от друга, новый способ 
+	использования магнетизма для контроля потока электрического 
+	тока через слои металлов, построенных в нанометровой шкале.}
+
+	150 лет назад Уиллиям Томсон наблюдал очень малые 
+	изменения в электрических свойствах металлов, когда их 
+	помещали в магнитное поле, феномен, названный им 
+	магнетосопротивление. В сове время его открытие нашло 
+	применение, магнитно индуцированные колебания тока стали 
+	принципом, лежащим в основе считывания компьютерной памяти. 
+	Затем, в 1988 году, Ферт и Грюнберг, работая со специально 
+	собранными кипами чередующихся слоев очень близко 
+	расположенных железа и хрома, неожиданно открыли, что можно 
+	использовать магнитное поле для гораздо более сильного 
+	увеличения электрического сопротивления, чем Томпсон или 
+	кто-либо еще наблюдал. Осознавая новизну эффекта, Ферт 
+	назвал его гигантским магнетосопротивлением, и это произошло 
+	лишь за несколько лет до того как улучшение 
+	и миниатюризация, предлагаемые этим эффектом, привели 
+	к замене классического магнетосопротивления.
+
+	Гигантское магнетосопротивление по своей сущности 
+	квантовомеханический эффект, зависящий от свойств спина 
+	электрона. Прикладывая магнитное поле для изменения 
+	направления спина электронов в атомах чередующихся 
+	металлических пластин, можно уменьшить количество 
+	электрического тока аналогично тому, как перпендикулярные 
+	поляризаторы блокируют солнечный свет. Однако когда 
+	магнитное поле располагает спины электронов сонаправленно, 
+	ток проходит проще, точно как свет проходит через 
+	параллельные поляризаторы.
+
+	Применение этого открытия было быстрым и широким 
+	и существенно улучшило объемы памяти во многих устройствах, 
+	от компьютеров до тормозов на машинах. И тихо проникая 
+	в технологии за нашей ежедневной жизнью, принципы 
+	гигантского магнетосопротивления сейчас используются для 
+	решения проблем в более широких областях, например, для 
+	селективного разделения генетического материала.
+\end{otherlanguage}
+
+	\textbf{Questions}
+	\begin{enumerate}
+		\item Who was the first to observe megnetoresistance?
+
+			William Thomson discovered magnetoresistance by 
+			observing  very small changes in the electrical 
+			properties of metals when they were placed in a magnetic 
+			field.
+
+		\item What system were Fert and Gr\"{u}nberg working on 
+			when they made the discovery?
+
+			They were working with specially-constructed stacks made 
+			from alternating layers of very thinly-spread iron and 
+			chromium.
+
+		\item What is the giant magnetoresistance effect based on?
+
+			It is based on the quantum properties of the electron 
+			spin. We can manipulate it using an applied magnetic 
+			field and make electrons move easily (conduct) or not.
+	\end{enumerate}
+\ifcols\end{multicols}\fi% }}}
+
+
+\end{document}

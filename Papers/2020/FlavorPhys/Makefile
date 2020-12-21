@@ -8,12 +8,9 @@ paper.pdf: paper.tex refs.bib local.bst
 	pdflatex paper
 	texclear paper
 
-p:
-	pdflatex presentation
-	pdflatex presentation
-	texclear presentation
+c: clean
 
 clean:
 	texclear *.tex
 
-.PHONY: clean p
+.PHONY: all c clean

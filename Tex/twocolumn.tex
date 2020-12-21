@@ -1,5 +1,6 @@
 \documentclass[a4paper, 10pt, twocolumn]{article}
 
+% Configuration {{{
 \usepackage[utf8]{inputenc}
 \usepackage[T2A]{fontenc} % T1 for English
 \usepackage[english, russian]{babel}
@@ -32,14 +33,15 @@
 \def\thefootnote{\fnsymbol{footnote}}
 
 %\usepackage{times} % for English
-
+% }}}
 
 \begin{document}
 
+% Title {{{
 \begin{strip}
 \begin{center}
 \vskip-2.4\baselineskip
-{\bf\large Title}
+{\large\textbf{Title}}
 \vskip.3\baselineskip
 {Author\footnotemark}
 \vskip.3\baselineskip
@@ -47,5 +49,6 @@
 \end{center}
 \end{strip}
 \footnotetext{About, email}
+% }}}
 
 \end{document}

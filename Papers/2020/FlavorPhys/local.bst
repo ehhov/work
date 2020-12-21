@@ -53,8 +53,7 @@ ENTRY
     extra2Year
     extra2Doi
 
-    isRus
-    url
+		isRus
   }
   {}
   { label }
@@ -533,9 +532,7 @@ FUNCTION {format.extra2Date.paren}
 FUNCTION {format.collaboration}
 { collaboration empty$
     { "" }
-    { ""
-            collaboration *
-    }
+    { "" * " (" * collaboration * ")" * "" }
   if$
 }
 
@@ -761,10 +758,7 @@ FUNCTION {format.tr.number}
   if$
   number empty$
     { "l" change.case$ }
-    { url empty$
-      { number tie.or.space.connect }
-      { " \href{" * url * "}{" number * "}" * tie.or.space.connect }
-    if$ }
+    { number tie.or.space.connect }
   if$
 }
 
@@ -905,8 +899,8 @@ FUNCTION {format.articledoi}
 		{ "\begin{otherlanguage}{english}" *}
 		{}
 	if$
-  format.collaboration "collaboration" output.check
   format.authors "author" output.check
+  format.collaboration output
   format.title "title" output.check
   article.sep
   crossref missing$
@@ -1292,7 +1286,7 @@ FUNCTION {proceedings}
 
 FUNCTION {techreport}
 { output.bibitem
-  format.collaboration "collaboration" output.check
+  format.collaboration output
   format.authors "author" output.check
   format.title "title" output.check
   blank.sep
