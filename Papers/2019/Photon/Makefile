@@ -9,7 +9,7 @@ open:
 	echo vim -p PhysVac.tex CasimirEff.tex Document.tex Refs.bib | xclip 
 
 d:
-	bash -ic 'texclear $(Document)'
+	texclean $(Document)
 	$(tex) $(texflags) $(Document)
 	$(bib) $(Document)
 	$(tex) $(texflags) $(Document)
@@ -19,6 +19,6 @@ p:
 	$(tex) $(Presentation)
 
 clear:
-	texclear *.tex
+	texclean *.tex
 
 .PHONY: d, p, clear, open

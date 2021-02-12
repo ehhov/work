@@ -8,13 +8,13 @@ open:
 	echo vim -p Document.tex tune.sty Refs.bib | xclip 
 
 d:
-	bash -ic 'texclear $(Document)'
+	texclean $(Document)
 	$(tex) $(texflags) $(Document)
 	$(bib) $(Document)
 	$(tex) $(texflags) $(Document)
 	$(tex) $(texflags) $(Document)
 
 clear:
-	texclear *.tex
+	texclean *.tex
 
 .PHONY: d, clear, open

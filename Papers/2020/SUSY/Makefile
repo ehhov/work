@@ -1,19 +1,19 @@
 all: paper.pdf
 
 paper.pdf: paper.tex refs.bib local.bst
-	texclear paper
+	texclean paper
 	pdflatex paper
 	bibtex paper
 	pdflatex paper
 	pdflatex paper
-	texclear paper
+	texclean paper
 
 p:
 	pdflatex presentation
 	pdflatex presentation
-	texclear presentation
+	texclean presentation
 
 clean:
-	texclear *.tex
+	texclean *.tex
 
 .PHONY: clean p

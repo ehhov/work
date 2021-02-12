@@ -1,16 +1,16 @@
 all: paper.pdf
 
 paper.pdf: paper.tex refs.bib local.bst
-	texclear paper
+	texclean paper
 	pdflatex paper
 	bibtex paper
 	pdflatex paper
 	pdflatex paper
-	texclear paper
+	texclean paper
 
 c: clean
 
 clean:
-	texclear *.tex
+	texclean *.tex
 
 .PHONY: all c clean
