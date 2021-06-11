@@ -1,0 +1,909 @@
+\documentclass[a4paper, 14pt]{extarticle}
+
+% Configuration {{{
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc} % T1 for English
+\usepackage[english, russian]{babel}
+
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
+\usepackage[
+	colorlinks=true, 
+	allcolors=dimblue
+]{hyperref}
+\usepackage[
+	left=30mm, right=10mm,
+	top=15mm, bottom=20mm,
+]{geometry}
+\frenchspacing
+\linespread{1.43}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\usepackage{subcaption}
+
+%\usepackage{times} % for English
+
+\usepackage[style=russian]{csquotes}
+\usepackage{longtable}
+% }}}
+
+\begin{document}
+
+% Title Page & ToC {{{
+\thispagestyle{empty}
+
+\begin{center}
+	\textbf{МОСКОВСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ имени~М.\,В.~ЛОМОНОСОВА}
+	\vskip.5\baselineskip
+	\textbf{ФИЗИЧЕСКИЙ ФАКУЛЬТЕТ}
+	\vskip.5\baselineskip
+	Кафедра общей ядерной физики
+\end{center}
+
+\vfill
+\begin{center}
+	РЕФЕРАТ\\по дисциплине\\\enquote{Английский язык}\\на тему\\
+	\enquote{ИЗУЧЕНИЕ ХАРАКТЕРИСТИК И КОНТРОЛЬ \\ КВАНТОВЫХ СИСТЕМ}
+\end{center}
+
+\vspace{\baselineskip}
+
+\begin{flushright}
+	Студента 113М группы\\Гусейнова А-К. Д.
+	\vskip.5\baselineskip
+	Научный руководитель\\канд. физ.-мат. наук Горелов И. В.
+	\vskip.5\baselineskip
+	Преподаватель\\ст. преп. Назарова Е. Н.
+\end{flushright}
+
+\vfill
+
+\begin{center}
+Москва --- 2021
+\end{center}
+
+\clearpage
+\tableofcontents
+\clearpage
+
+% }}}
+
+\section{Введение}
+% {{{
+
+Фундаментальные аспекты квантовой физики были развиты и сформулированы 
+в начале XX века, когда классические подходы не смогли описать некоторые 
+явления, включающие спектр теплового излучения абсолютно черного тела, 
+испускание фотоэлектронов и комптоновское рассеяние. Классическая физика 
+также не могла объяснить спектры некоторых атомов во внешнем магнитном 
+поле, но эта проблема не выглядела настолько критичной, и ученые 
+надеялись найти решение в рамках классической теории.
+
+Квантовая механика заставила человечество посмотреть на микромир 
+совершенно по-другому. Она показала сложность применения понятий, 
+которыми мы с легкостью оперируем в повседневной жизни и в классической 
+физике, к системам маленьких размеров. Было обнаружено множество 
+явлений, совершенно не согласующихся со старыми представлениями. 
+Оказалось, что свет одновременно со всеми характеристиками волны при 
+более внимательном изучении обладает всеми характеристиками частицы. То 
+же самое относится и к объектам, изначально считавшимся частицами, таким 
+как электроны, протоны и даже большие молекулы. Этот эффект называют 
+корпускулярно-волновым дуализмом, и он хорошо иллюстрирует, насколько 
+велико различие между квантовой и классической физикой.
+
+Изучение квантовых систем уже привело к созданию уникальных методов 
+и технологий, повсеместно используемых в повседневной жизни каждого 
+человека на Земле. При этом темп развития совершенно не замедляется. 
+Перед учеными встают все новые и новые вопросы по мере нахождения 
+объяснений для старых. Основой проблемой современных работ в области 
+квантовой физики является сложность любых разумных вычислений. 
+Математики и физики пытаются найти решение проблемы, прибегая 
+к принципиально новому способу вычислений, использующему квантовые 
+системы в своей сути. Но на данный момент каждая задача и каждый вопрос 
+требует практически диаметрально противоположного подхода. В упоминаемых 
+в реферате работах эта особенность квантового мира особенно заметна.
+
+% }}}
+
+\clearpage \section{Коэффициент преломления сред}
+% {{{
+
+Прозрачные материалы по-разному пропускают видимый свет. Их 
+разнообразные свойства включают прозрачность, коэффициент отражения, 
+закон дисперсии и коэффициент преломления. Большинство из них 
+обусловлены оптическим откликом вещества, который представляет собой 
+фундаментальную характеристику, определяемую атомной структурой. 
+Несмотря на то, что оптический отклик одиночного атома довольно просто 
+вычислить, любые попытки вывести из него показатель преломления атомного 
+вещества приводили к нереалистичным результатам. В этой статье 
+приводится принципиально новый подход к вычислению оптического отклика 
+и показателя преломления атомного вещества и проливается свет на 
+загадку, почему величины показателей преломления всегда порядка единицы.
+
+% optical response -- оптический отклик
+% atomic medium -- атомное вещество
+% refractive index
+% reflectivity
+% dispersion law
+% opacity
+
+% Transparent materials let the visible light come through differently. 
+% Some of their properties include opacity, reflectively, dispersion 
+% law, and refractive index. Most of them are related to the optical 
+% response of the material, which is its low-level characteristic 
+% resulting from the atomic structure. While the optical response of 
+% a single atom is easy to calculate, any attempts to derive the 
+% refractive index of an atomic medium have led to unrealistic results. 
+% This paper presents a completely new approach to calculating the 
+% optical response and the refractive index of an atomic medium and 
+% throws light on the mystery of why refractive indexes are of the order 
+% of unity.
+
+Чтобы понять проблему, нужно сначала проследовать за традиционным 
+подходом и обнаружить его слабости. Для избежания самых сложных 
+и требующих наибольшее компьютерное время вычислений атомы приближаются 
+полуклассическими двухуровневыми системами. Это сравнительно близко 
+к правде и охватывает наиболее важные характеристики атома. Отклик 
+одиночного атома хорошо известен, так что наша задача лишь в том, чтобы 
+применить его каким-либо образом к системе многих атомов. Традиционный 
+путь заключается в том, чтобы забыть о дискретной, зернистой атомной 
+структуре вещества, ввести его коллективные характеристики, такие как 
+плотность, поляризуемость и так далее, и оперировать с точки зрения 
+непрерывной среды. На этом этапе читатель уже, возможно, выявил 
+наибольшую слабость данного подхода, но, тем не менее, стоит довести 
+логическую цепочку до результата. Одной из отличительных особенностей 
+сплошной среды оказывается то, что электрическое поле, 
+распространяющееся в ней, постоянно и непрерывно находится под ее 
+влиянием и таким образом оставляет невозможным множественное рассеяние 
+и интерференцию. Это приводит к тому, что коэффициент преломления 
+в лидирующем порядке представляет собой лишь коэффициент преломления 
+единичного атома, масштабированный множителем, пропорциональным 
+квадратному корню числа атомов, разделенного на объем. Таким образом, 
+в резонансе коэффициент преломления бесконечно растет с увеличением 
+плотности, что, очевидно, не наблюдается в эксперименте.
+
+% continuous medium -- непрерывная среда
+% polarizability, density, discrete
+% leading order
+% to grow indefinitely
+
+% To understand the problem, we should first follow the conventional 
+% approach and find its weak point. To avoid very complex and 
+% time-consuming calculations, atoms are approximated as semi-classical 
+% two-level systems. This is fairly precise and incorporates the most 
+% important characteristics of the atom. The reaction of a single atom is 
+% well known, so our work is to apply it somehow to a system of many 
+% atoms. The conventional way is to forget about the atomic, discrete, 
+% granular structure of the matter, introduce its collective 
+% characteristics such as density, polarizability, etc., and operate in 
+% terms of a continuous medium. At this point you may have already 
+% gotten the largest weakness of the approach, but we should still reach 
+% its result. One distinction of a continuous medium is that the 
+% electric field traversing it is always and constantly influenced by 
+% it, thus making it impossible to experience multiple scattering and 
+% interference. The result of that is that the refractive index in the 
+% leading order is just the index of a single atom scaled by a factor 
+% proportional to the square root of the number of atoms divided by the 
+% volume. So at the resonance, the refractive index just grows 
+% indefinitely with density, what is obviously not observed in real 
+% life.
+
+Подход, предложенный в статье~\cite{one}, однако, не пренебрегает 
+атомной природой любого вещества. Он осуществляется для ансамбля 
+абсолютно одинаковых атомов, каждый из которых имеет одну и ту же 
+резонансную частоту, но остается отдельной точечной частицей. Основной 
+причиной рассмотрения приближения непрерывного вещества во всех 
+предшествовавших теоретических работах является то, что оно колоссально 
+упрощает все формулы и даже позволяет достичь результата аналитически. 
+При сохранении атомной структуры приходится вычислять множество больших 
+сумм по всем атомам, при этом зная величины электрического поля в точках 
+положения каждого атома. Еще сильнее усложняет задачу то, что 
+в правильном, то есть квантовом, подходе необходимо принять во внимание 
+смешивание состояний атомов, обусловленное принципом Паули, и оно 
+добавляет определитель размера $N\times N$ в каждое уравнение, 
+экспоненциально увеличивая затрачиваемое на вычисления время в случае 
+больших систем. Для значений $N$ даже порядка $10^3$ на вычисления 
+требуется колоссальное время. Тот факт, что в рассматриваемой задаче 
+атомы представляются простыми системами с лишь двумя энергетическими 
+уровнями, безусловно, упрощает работу, но недостаточно для полноценного 
+масштабного анализа. Однако, авторы также предлагают довольно элегантный 
+способ избавиться от такой сложности. Вскоре он будет описан, но для 
+начала нужно понять, как ведут себя два атома при попадании на них 
+электромагнитного излучения.
+
+% ensemble
+% large-scale масштабный
+% incident падающий
+
+% The approach suggested in this paper, however, does not forget about the 
+% atomic nature of any medium. It is implemented for an ensemble of 
+% perfectly identical atoms, each of which has the same resonant 
+% frequency, but remains a distinct and point-like particle. The main 
+% reason why theoretical studies have always considered the smooth medium 
+% approximation is that it dramatically simplifies all formulas and even 
+% lets one achieve the result analytically. To keep the atomic structure, 
+% one has to calculate large sums over all atoms including the values of 
+% the electric field at each atom's position. To make matters worse, in 
+% the correct, quantum approach, one has to take into account the mixing 
+% of atomic states due to the Pauli principle, which adds an 
+% N x N determinant to every equation, making it exponentially more 
+% time-consuming for larger systems. And for N even about 10\^3, it takes 
+% an enormous amount of time and work. The fact that in the system 
+% considered atoms have only two energy levels makes things easier, but 
+% not enough for a complete large-scale study. However, an elegant way out 
+% is also suggested by the authors. I will explain it in a minute, but 
+% first, you should understand how two atoms behave under a incident plain 
+% electromagnetic wave.
+
+Если два абсолютно идентичных атома с резонансной частотой $\omega_0$ 
+взаимодействуют друг с другом, их оптический отклик не окажется функцией 
+Лоренца с центром на частоте $\omega_0$ и высотой вдвое больше, чем для 
+одного атома. Вместо этого, отклик представляет собой два значительно 
+удаленных друг от друга лоренцевых пика обычной высоты с центрами на 
+смещенных частотах $\omega_0 + \delta\omega$ и $\omega_0 
+- \delta\omega$., где $\delta\omega$ зависит от расстояния между атомами 
+и силы взаимодействия между ними. Основываясь на оптическом отклике, 
+который определяет реакцию системы на падающий видимый свет, два 
+идентичных атома ведут себя почти как два атома, чьи резонансные частоты 
+слегка смещаются по сравнению с изначальной частотой атомов.
+
+% Lorentzian
+
+% If there are two perfectly identical atoms with the resonant frequency 
+% omega zero that interact with each other, their optical response is not 
+% a Lorentzian centered at omega zero with the height twice as large as 
+% for a single atom. Instead, the response is two substantially distant 
+% Lorentzian peaks of normal height centered at shifted frequencies of 
+% omega zero plus-minus delta omega, where delta omega depends on the 
+% distance between the atoms and their interaction strength. Based on the 
+% optical response, which defines the reaction of the system to visible 
+% light, two identical atoms behave almost like two atoms whose resonant 
+% frequencies are slightly shifted from the original atoms' frequency.
+
+Таким образом, можно ожидать, что набор идентичных атомов может быть 
+представлен в виде набора разных атомов с эффективными резонансными 
+частотами, зависящими от параметров пространственного распределения 
+исходной системы. В самом деле, авторы сравнивают приведенное упрощение 
+с прямым вычислением упомянутых выше объемных формул для малых 
+плотностей и получают хорошее согласие между ними. Кроме того, сравнение 
+показывает, что показатель преломления атомного вещества достигает 
+предельного значения по мере увеличения плотности. Для больших 
+плотностей возможно применение только упрощенного метода, но он 
+подтверждает, что показатель преломления испытывает насыщение 
+и достигает величины порядка 1.7, которая, очевидно, порядка единицы.
+
+% This way, one can expect that a set of identical atoms can be 
+% approximated by a set of different atoms with effective resonant 
+% frequencies depending on spatial parameters of the original system. And 
+% indeed, as the authors compare the simplification with a straightforward 
+% calculation of the aforementioned large formulas for smaller densities, 
+% this test shows good agreement between them. And it also shows that the 
+% refractive index n of an atomic medium approaches a limit as the density 
+% increases. For larger densities, only the simplified technique is 
+% applicable, but it confirms that the index saturates and reaches a value 
+% of about 1.7, which is of the order of unity.
+
+Результат анализа объясняет универсальное правило, что показатель 
+преломления любого наперед заданного вещества всегда имеет порядок 
+единицы. Это обусловлено зернистостью и атомной структурой всего во 
+Вселенной.
+
+% The result of the study explains the universal rule that the refractive 
+% index is always of the order of unity. It is because of the granularity 
+% and atomic structure of everything in the Universe.
+
+% }}}
+
+\clearpage \section{Наименьшее время перемещения квантовой системы}
+% {{{
+
+С самого зарождения квантовой физики в начале XX века было открыто 
+множество интересных, интригующих, необычных и странных явлений. 
+Некоторые из них оказались весьма полезными в приложениях. Сегодня, 
+целью многочисленных современных физических экспериментов служит 
+регулировка и контроль квантовых систем для полноценного использования 
+всех их свойств. Одной из таких целей является транспортировка квантовой 
+системы в пространстве. Разумеется, критически важно осуществлять 
+перенос когерентно, иначе состояние оказывается искаженным, а задача 
+транспортировки на этом провалена. Итак, должен существовать какой-то 
+естественный придел на длительность когерентной транспортировки. Эта 
+тема уже давно описана для простейших двухуровневых систем, но они редко 
+появляются, и люди в основном работают с более сложными системами. Можно 
+было бы ожидать, что результаты для сложных систем будут представлять 
+собой какую-либо модификацию более простых результатов, но эксперименты 
+свидетельствуют о существенной разнице. Таким образом, интересно как 
+понять, откуда идет эта разница, так и найти осмысленный нижний предел 
+этой длительности. В дополнение к этому было бы также интересно сравнить 
+результаты с классической физикой.
+
+% coherent, distort
+
+% Since the birth of quantum physics in the early 20th century, there have 
+% been discovered many interesting, unusual, and bizarre phenomena. Some 
+% of them were then found to be quite useful for applications. The 
+% objective of many modern physics experiments is to manage the control of 
+% quantum systems to fully exploit their properties. One of such 
+% objectives is to transport a quantum system in space. Of course, it's 
+% very important to do that coherently, or otherwise the state is 
+% distorted and the task of transporting it is failed. So there has to be 
+% some natural limit for the duration of coherent transportation. This 
+% topic is long understood for simple two-level systems. But those are 
+% rare, and we mostly deal with more complex ones. Some would expect 
+% complex systems to have some kind of modification of the simpler 
+% results, but experiments have shown a difference. So it is interesting 
+% both to understand where it comes from and to find a meaningful lower 
+% bound for the duration. As a complementary task, it would also be 
+% interesting to compare the results with classical physics.
+
+Задача оптимизации пути объекта с целью достижения минимального времени 
+была впервые поставлена Бернулли для массивного объекта, падающего под 
+действием однородного гравитационного поля. Решение хорошо известно 
+и называется брахистохроной, что с греческого переводится как 
+``кратчайшее время''. Эту задачу можно обобщить до нахождения 
+наименьшего времени, за которое физическая система может быть изменена 
+из ее начального состояния до определенного желаемого состояния. 
+Наименьшее время в таком случае зависит от доступного количества энергии 
+и типа управления.
+
+% brachistochrone, uniform, generalize
+
+% The task of optimizing the path of an object for minimal time was first 
+% posed by Bernoulli for a massive object falling under the influence of 
+% a uniform gravitational field. The solution is well known and called 
+% a brachistochrone curve. This problem can be generalized to finding the 
+% shortest time at which a physical system can be changed from its initial 
+% state to a desired final state. The shortest time would depend on the 
+% amount of energy available and the type of control.
+
+В квантовой физике такой предел скорости был выведен Мандельштамом 
+и Таммом~\cite{two.one} и напоминает принцип неопределенности 
+Гейзенберга $\tau_{\mathrm{MT}} = \frac{\pi\hbar}{2\Delta E}$. Он 
+показывает, что длительность перемещения не может стремиться к нулю, 
+если нет доступа к неограниченным запасам энергии. Этот предел был 
+экспериментально подтвержден для двухуровневых систем, однако для 
+сложных систем реальный предел оказывается существенно больше, 
+и существующий теряет свой смысл. Проблема здесь в том, что 
+двухуровневой системе желаемого состояния можно достичь одной 
+осцилляцией Раби, которая оказывается фундаментально неприменимой в для 
+непрерывного набора состояний, как в случае пространственного положения.
+
+% oscillation, continuous states
+
+% In quantum physics such a speed limit was derived by Mandelstam and Tamm 
+% and is reminiscent of Heisenberg's uncertainty principle. It shows that 
+% the duration cannot vanish unless one has access to unlimited energy. 
+% This limit was experimentally confirmed for two-level systems, however, 
+% for complex systems the real limit is much greater, making the existing 
+% one meaningless. The problem here is that two-level systems can be 
+% converted through a Rabi oscillation, which is fundamentally 
+% inapplicable to continuous states like the spatial position.
+
+В работе~\cite{two} конвейерная лента, основанная на оптической решетке 
+используется для транспортировки атомного волнового пакета на расстояние 
+примерно в 15 раз больше его размера. Потенциал ловушки настраивается 
+таким образом, чтобы глубина была достаточной для подавления квантового 
+туннелирования и чтобы траектория переносимой системы была оптимальной. 
+Оптимальная траектория определяется на основе численного моделирования.
+
+% conveyor belt, lattice, quantum tunneling,
+% numerical simulation численное моделирование
+
+% In this work, a conveyor belt based on optical lattice is used to 
+% transport an atomic wave packet on a distance 15 times its size. The 
+% trap potential is adjusted to be deep enough to suppress quantum 
+% tunneling and also so that the trajectory of the transported system is 
+% optimal. The optimal trajectory is obtained from numerical simulations.
+
+Точность транспортировки представляет собой пересечение между 
+фактическим и целевым конечными состояниями, со значением 1 отвечающим 
+идеальному результату, и определяется как функция длительности. Было 
+найдено, что точность испытывает насыщение для длительностей больше, чем 
+период квазигармонических осцилляций потенциала ловушки (этот же период 
+также ответственен за неопределенность энергии в транспортируемой 
+системе). Чтобы убедиться, что транспортировка осуществляется 
+когерентно, авторы приготовляют конкретную суперпозицию в качестве 
+начального состояния, затем транспортируют часть ее в целевое состояние 
+и обратно, а затем извлекают постоянную интерференции. Было найдено, что 
+постоянная интерференции в точности совпадает с чистотой, измеренной 
+ранее, что доказывает сохранение когерентности при использовании данного 
+метода.
+
+% superposition
+
+% The fidelity of the transportation, which is the overlap between the 
+% actual and targeted final states, with 1 being the perfect result, is 
+% obtained as a function of duration. It is found that the fidelity 
+% saturates for durations larger than quasi-harmonious oscillation period 
+% of the trap potential (which is also responsible for energy uncertainty 
+% of the system to transport). To ensure that the transportation is 
+% coherent, the authors prepared a specific superposition as an initial 
+% state, then transported part of it to a target state and back, and then 
+% extracted the interference constant. The constant was found to be 
+% exactly the same as the fidelity measured earlier, proving that the 
+% method keeps coherence.
+
+Такие же измерения и симуляции были осуществлены для нескольких 
+потенциалов ловушки с разными глубинами, и было показано, что 
+минимальное время обратно пропорционально глубине. Также интересен тот 
+факт, что классический и квантовый случаи различаются только на 25\%, 
+а значит, предел длительности по большей части обусловлен Гильбертовой 
+метрикой квантовых состояний.
+
+% metric
+
+% The same measurements and simulations were made for several trap 
+% potential depths, and the minimal time is shown to be inversely 
+% proportional to the depth. Interestingly, the classical and quantum 
+% cases differ only by 25\%, which shows that the limit comes mostly from 
+% the Hilbertian metric of quantum states.
+
+% }}}
+
+\clearpage \section{Свойства основного состояния водородной цепи}
+% {{{
+
+С точки зрения электрической проводимости существует три типа 
+материалов: диэлектрики, полупроводники и проводники (также называемые 
+металлами). Среди них трех наиболее интересными и сложными, конечно же, 
+являются полупроводники, однако даже два других типа далеко не полностью 
+поняты и описаны. Известно, что у диэлектриков электронная плотность 
+локализована вблизи атомов или внутри молекул. Касательно металлов 
+известно, что они формируют уникальную решеточную структуру положительно 
+заряженных ионов и практически свободно движущихся между ними 
+электронов, которые даже можно считать газом. Для более исчерпывающего 
+описания природы электрической проводимости необходимо симулировать всю 
+атомную систему целиком и вывести условия, при которых она ведет себя 
+как металл или как диэлектрик. Самая сложная часть этой задачи 
+в вычислениях самих по себе. Квантовые системы, очевидно, включающие 
+в себя атомные вещества, должны соответствовать определенным симметриям 
+волновой функции, и чем больше в системе электронов, тем сложнее эти 
+ограничения, а значит и вычисления. Сложность возрастает экспоненциально 
+с размером системы. Квантовые компьютеры могут значительно упростить 
+вычисления такого рода, но на данный момент для работы остаются лишь 
+малые системы.
+
+% wave-function, insulator
+
+% Regarding electrical conductivity, here exist three types of materials: 
+% insulators, semiconductors, and conductors (also called metals). Of the 
+% three of them, the most interesting and complex is of course 
+% semiconductors. But the other two kinds are far from being fully 
+% understood and described. We know that insulators have electron 
+% densities localized in the vicinity of atoms or inside molecules. 
+% Considering metals, we know that they form a unique lattice structure of 
+% positively charged ions and almost completely free electrons between 
+% them that can be even perceived as a gas. For a more comprehensive look 
+% at the nature of electrical conductivity, we have to simulate the whole 
+% atomic system and derive conditions under which it behaves as a metal or 
+% as an insulator. The difficult part here is in calculations. Quantum 
+% systems, which atomic materials obviously are, need to satisfy specific 
+% symmetries of their wave-function, and the more electrons they contain, 
+% the more complex are the bounds and hence the calculations. The 
+% complexity grows exponentially with the size of the system. Quantum 
+% computing may help us perform such computations more easily, but for now 
+% we have to work with smaller systems.
+
+В статье~\cite{three} авторы работают с системой $N$ идентичных атомов 
+водорода, размещенных вдоль оси $z$ на одинаковом расстоянии. Для еще 
+большего упрощения системы, протоны считаются неподвижными, так что 
+задача представляет собой лишь движение $N$ электронов в определенном 
+потенциале. Целью является анализ того, как электроны ведут себя 
+в случае различных расстояний между протонами и различных значениях $N$ 
+числа атомов. Даже при таком сильном упрощении обыкновенные 
+прямолинейные подходы не предоставляют каких-либо разумных результатов, 
+поэтому авторы использовали несколько численных методов и пытались 
+выявить согласующиеся результаты.
+
+% consistent, equidistantly
+
+% The authors work with a system of N identical hydrogen atoms 
+% equidistantly located along the z axis. To further simplify the system, 
+% the protons are considered fixed in place, so there are just N electrons 
+% moving in a certain potential. The aim was to analyze how the electrons 
+% behave for different proton separations and various numbers of atoms. 
+% Even with this kind of simplification, regular straightforward methods 
+% don't yield any rational results, so the authors used several numerical 
+% methods and tried to identify a consistent result.
+
+Авторы начали с больших расстояний между протонами. В этом случае каждый 
+электрон локализован вблизи соответствующего протона, а их 
+энергетические уровни практически совпадают с уровнями изолированных 
+атомов. Однако, интересный эффект наблюдается все равно. Хотя 
+энергетические уровни и почти совпадают, электроны, являясь частями 
+одной единой квантовой системы, ощущают друг друга из-за симметрий 
+волновой функции. Таким образом, при больших расстояниях когда 
+кулоновское взаимодействие между электронами мало, они располагают свои 
+спины в противоположных направлениях. В результате цепочка атомов 
+водорода проявляет антиферромагнитные корреляции, которые затухают 
+слегка быстрее по сравнению с простейшими соображениями, что может быть 
+обусловлено конечным размером цепочки.
+
+% antiferromagnetic, localized, Coulomb interaction, exhibit, fade, 
+% yield, finite
+
+% The authors started from a large separation. In this case, each electron 
+% is localized near the corresponding proton, and their energy levels are 
+% almost the same as of isolated atoms. However an interesting effect 
+% occurs anyway. Although energy levels are almost the same, the 
+% electrons, being part of a single quantum system, feel each other by 
+% symmetries of the wave-function. So at large separations, when the 
+% Coulomb interaction between the electrons is weak, they align their 
+% spins in opposite directions. This way, the hydrogen chain exhibits 
+% antiferromagnetic correlations which fade a bit faster than a simple 
+% approach yields; probably due to the finite size of the chain.
+
+По мере приближения протонов, они начинают формировать пары, называемые 
+димерами. Наиболее очевидное следствие димеризации в том, что 
+электронная плотность между протоном и его соседом справа отличается от 
+плотности между ним и соседом слева. Это очень тонкий эффект, и его 
+сложно уловить численно, но три из пяти принципиально различающихся 
+метода, использованных авторами, дали приблизительно одинаковые 
+результаты для разности электронной плотности в зависимости от длины 
+водородной цепи, что, безусловно, впечатляет. Другие свидетельства 
+димеризации содержатся в кинетической энергии электронов и энтропии 
+спутывания.
+
+% dimer, electron density, entropy, entanglement, fundamentally, 
+% evidence, kinetic energy
+
+% When the protons are brought closer, they start forming pars called 
+% dimers. The most obvious consequence of dimerization is that the 
+% electron density between a proton and its right neighbor differs from 
+% the density between it and the left neighbor. This effect is very subtle 
+% and hard to capture numerically, but three of five fundamentally 
+% different methods used by the authors gave approximately the same result 
+% for the difference in electron density depending on the length of the 
+% hydrogen chain, which is very impressive. More evidence of the 
+% dimerization is contained in kinetic energy and entanglement entropy.
+
+Для малых расстояний между протонами наиболее интересным для изучения 
+явлением представляется переход от диэлектрика к проводнику. Согласно 
+некоторым из наиболее успешных феноменологических моделей трехмерных 
+проводников, в исследуемой системе не должно быть такого перехода 
+вообще. Однако, он происходит по двум причинам. Во-первых, уровни 
+энергии одиночных атомов уширяются в присутствие других атомов. Чем 
+ближе они располагаются, тем шире становятся уровни. А значит, должен 
+быть момент, когда наивысший занятый уровень перекрывается с самым 
+низшим свободным, и электронам уже не нужна большая энергия, чтобы 
+перемещаться по цепи. Вторая причина несколько более техническая. 
+Квазиволновой вектор, порожденный периодической структурой, приобретает 
+второе возможное значение, вызванное механизмом самодопинга, вблизи 
+нуля. Это позволяет электронам диффундировать вдоль оси цепочки и, таким 
+образом, проводить электричество. Необходимо отметить, что в этом случае 
+меньшее количество методов дали согласующиеся результаты, но эта задача 
+в целом более сложна, так что согласие считается удовлетворительным.
+
+% phenomenological, quasi-wave-vector, self-doping, overlap, diffuse, 
+% axis, conductivity, satisfactory
+
+% For short proton separations, the most interesting effect to study is 
+% the metal-to-insulator transition (MIT). According to some of the most 
+% successful phenomenological models of three-dimensional conductors, 
+% there should be no such transition at all. However, it occurs for two 
+% reasons. The first is that single-atom energy levels broaden in presence 
+% of other atoms. The closer they are, the wider the levels become. And 
+% there comes a point when the highest occupied level overlaps with the 
+% lowest vacant level, and electrons don't need much energy to travel the 
+% chain. The second reason is a bit more technical. The quasi-wave-vector 
+% induced by the periodic structure gains a second allowed value closer to 
+% zero caused by self-doping. This allows some electrons diffuse along the 
+% chain axis and thus conduct electricity. It should be noted that fewer 
+% methods yielded consistent results here, but it's a generally more 
+% complex task, so the agreement is satisfactory.
+
+% }}}
+
+\clearpage \section{Заключение}
+% {{{
+
+Большой интерес представляют явления, происходящие на стыке дисциплин. 
+Коэффициент преломления с точки зрения микромира обусловлен законами 
+квантовой механики, волновыми функциями и очень тонкими характеристиками 
+межатомных взаимодействий. Атомы в этом случае являются сложными 
+квантовыми системами, отклик которых на электромагнитное излучение 
+в видимом диапазоне длин волн довольно причудливо. С другой стороны, 
+коэффициент преломления, являясь внутренней характеристикой среды, 
+описывает поведение света при прохождении через нее. На протяжении 
+долгого времени не удавалось связать эти две стороны показателя 
+преломления. Но новый подход к вычислениям, предложенный авторами 
+статьи, позволяет работать с большими количествами частиц, очевидно, 
+более подходящими для описания реальных систем, которые состоят из 
+порядка $10^{23}$ атомов. Важнейшим результатом их анализа является 
+достижение среды с показателем преломления разумной величины даже для 
+большой плотности вещества.
+
+Управление квантовыми системами без затрагивания классической стороны 
+также представляет большой интерес. При обращении с квантовыми системами 
+поддержание чистоты квантового состояния -- одна из самых сложных задач. 
+Особенно сложно это осуществить в случае непрерывного набора состояний, 
+как для пространственного положения волнового пакета. Таким образом, 
+оказывается проблематично перемещать квантовую систему в пространстве. 
+С точки зрения фундаментальной физики, интересно найти минимальный 
+предел времени транспортировки квантовой системы с сохранением 
+когерентности. Авторы статьи назвали эту задачу квантовой брахистохроной 
+по аналогии с подобной задачей, поставленной Бернулли. Авторы путем 
+моделирования выявили оптимальную траекторию, по которой должен 
+двигаться волновой пакет, чтобы сохранить чистоту состояния. При 
+движении по этой траектории искажение волнового пакета экспоненциально 
+убывает при достижении определенного предела. Таким образом, этот предел 
+и является наименьшим временем, требуемым для когерентного 
+пространственного переноса квантовой системы.
+
+Очередной системой, находящейся на стыке областей физики, является 
+твердое тело. С одной стороны, твердое тело -- это просто набор атомов, 
+находящихся под влиянием друг друга так, что они формируют равномерную 
+структуру. Все свойства твердого тела происходят от взаимодействия между 
+электронами разных атомов, которые объединены в одну систему. Наличие 
+общей системы приводит к множеству интересных корреляционных эффектов, 
+включая антиферромагнетизм, магнетизм вообще и электрическую 
+проводимость. Касательно проводимости хорошо разработанные теории 
+в состоянии лишь в общих чертах обосновать свободу движения электронов 
+и как она появляется при переходе от диэлектрического состояния 
+к металлическому. Авторы получают общую картину такого перехода 
+и объясняют на уровне одномерных систем, каким образом электроны 
+приобретают возможность беспрепятственно двигаться вдоль цепочки атомов 
+водорода. Это представление позволяет по-новому взглянуть явление 
+проводимости в металлах.
+
+% }}}
+
+% Vocabulary {{{
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{Глоссарий}
+\section*{Глоссарий}
+
+\begin{longtable}{r@{ -- }l}
+	advent & пришествие \\
+	antiferromagnetic & антиферромагнитный \\
+	to approximate & приблизить \\
+	atomic medium & атомная среда (состоящая из атомов) \\
+	attenuation & затухание \\
+	axis & ось \\
+	bond & связь \\
+	brachistochrone & брахистохрона \\
+	bulk & большой, крупный \\
+	coherent & когерентный \\
+	commensurate & соизмеримый, соразмерный \\
+	conductivity & проводимость \\
+	to confine & ограничивать \\
+	conjecture & предположение \\
+	consistent (results) & согласующиеся (результаты) \\
+	continuous medium & непрерывная среда \\
+	continuous states & непрерывный набор состояний \\
+	conundrum & загадка, парадокс \\
+	conveyor belt & конвейерная лента \\
+	to corroborate & подтверждать \\
+	Coulomb interaction & кулоновское взаимодействие \\
+	crest & гребень, вершина \\
+	cusp & пик, острие \\
+	to decompose & раскладывать \\
+	degeneracy & вырождение \\
+	density & плотность \\
+	diametrically opposite & диаметрально противоположный \\
+	diffuse & расплывчатый, размытый \\
+	to diffuse & диффундировать \\
+	dilute gas & разреженный газ \\
+	dimer & димер \\
+	discrete & дискретный \\
+	dispersion law & закон дисперсии \\
+	distorted & искаженный \\
+	dyadic & состоящий из двух частей \\
+	electron density & электронная плотность \\
+	to encode & представлять \\
+	ensemble & ансамбль \\
+	entanglement & спутанность \\
+	entropy & энтропия \\
+	envelope & огибающая \\
+	equidistantly & эквидистантно \\
+	evidence & свидетельство \\
+	to exhibit & проявлять \\
+	exquisitely & изящно \\
+	to fade & затухать \\
+	finite & ограниченный \\
+	to foster & стимулировать \\
+	fundamentally & принципиально \\
+	to generalize & обобщить \\
+	granularity & зернистость, дискретность \\
+	to grow indefinitely & неограниченно расти \\
+	hallmark & отличительная черта \\
+	hatched & заштрихованный \\
+	(it's) illuminating & хорошая иллюстрация \\
+	implication & последствие \\
+	in silico & путем моделирования \\
+	incident & падающий (свет) \\
+	inset & вставка \\
+	to instantiate & приводить в пример \\
+	insulator & диэлектрик \\
+	interrogation & извлечение данных \\
+	intertwined & переплетенные \\
+	intricate & сложный, запутанный \\
+	kinetic energy & кинетическая энергия \\
+	kink & излом \\
+	large-scale & масштабный \\
+	lattice & решетка \\
+	leading order & ведущий порядок (в теории возмущений) \\
+	localized & локализованный \\
+	Lorentzian & функция Лоренца \\
+	metric & метрика \\
+	to necessitate & требовать \\
+	numerical simulation & численное моделирование \\
+	opacity & непрозрачность \\
+	optical response & оптический отклик \\
+	oscillation & колебание \\
+	to overlap & перекрываться \\
+	paradigmatic & характерный \\
+	phenomenological & феноменологический \\
+	pictorial & наглядный \\
+	polarizability & поляризуемость \\
+	to prescribe & описывать, определять \\
+	profoundly & очень, глубоко \\
+	quantum tunneling & квантовое туннелирование \\
+	quasi-wave-vector & квазиволновой вектор \\
+	ramp & наклонная плоскость \\
+	readily & охотно \\
+	recoil energy & энергия отдачи \\
+	to reconcile & согласовать \\
+	reflectivity & коэффициент отражения \\
+	refractive index & коэффициент преломления \\
+	to render & превратить \\
+	to retain & сохранять \\
+	satisfactory & удовлетворительный \\
+	self-doping & самодопинг \\
+	spatial & пространственный \\
+	speckles & пятна \\
+	superposition & суперпозиция \\
+	swift & быстрый, резкий \\
+	synergistic & синергетический \\
+	tractability & управляемость \\
+	trough & впадина, минимум \\
+	uniform field & однородное поле \\
+	wave-function & волновая функция \\
+	wave-particle duality & корпускулярно-волновой дуализм \\
+	to yield & давать, приносить \\
+\end{longtable}
+% }}}
+
+% Bibliography {{{
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{Список литературы}
+\begin{thebibliography}{9}
+	\bibitem{one} F. Andreoli \textit{et al}., \textit{Maximum Refractive Index of an Atomic Medium}, \href{http://dx.doi.org/10.1103/PhysRevX.11.011026}{Phys. Rev. X \textbf{11}, 011026 (2021)}.
+
+	\bibitem{two.one} L. Mandelstam and I. Tamm, \textit{The Uncertainty Relation between Energy and Time in Non-Relativistic Quantum Mechanics}, \href{https://doi.org/10.1007/978-3-642-74626-0_8}{J. Phys. (Moscow) 9, 249 (1945)}.
+
+	\bibitem{two} M. R. Lam \textit{et al}., \textit{Demonstration of Quantum Brachistochrones between Distant States of an Atom}, \href{http://dx.doi.org/10.1103/PhysRevX.11.011035}{Phys. Rev. X \textbf{11}, 011035 (2021)}.
+
+	\bibitem{three} M. Motta \textit{et al}. (Simons Collaboration on the Many-Electron Problem), \textit{Ground-State Properties of the Hydrogen Chain: Dimerization, Insulator-to-Metal Transition, and Magnetic Phases}, \href{http://dx.doi.org/10.1103/PhysRevX.10.031058}{Phys. Rev. X \textbf{10}, 031058 (2020)}.
+\end{thebibliography}
+% }}}
+
+\end{document}
+
+% backup {{{
+		approximate to & приблизить \\
+		atomic medium & атомная среда (состоящая из атомов) \\
+		continuous medium & непрерывная среда \\
+		density & плотность \\
+		discrete & дискретный \\
+		dispersion law & закон дисперсии \\
+		ensemble & ансамбль \\
+		granularity & зернистость \\
+		grow indefinitely to & неограниченно расти \\
+		incident & падающий (свет) \\
+		large-scale & масштабный \\
+		leading order & ведущий порядок (в теории возмущений) \\
+		Lorentzian & функция Лоренца \\
+		opacity & непрозрачность \\
+		optical response & оптический отклик \\
+		polarizability & поляризуемость \\
+		reflectivity & коэффициент отражения \\
+		refractive index & коэффициент преломления \\
+		spatial & пространственный \\
+
+		attenuation & затухание \\
+		bulk & большой, крупный \\
+		decompose & раскладывать \\
+		dilute gas & разреженный газ \\
+		dyadic & состоящий из двух частей \\
+		encode & представлять \\
+		exquisitely & изящно \\
+		foster & стимулировать \\
+		granularity & гранулярность, дискретность \\
+		implication & последствие \\
+		inset & вставка \\
+		necessitate & требовать \\
+		pictorial(ly) & наглядный \\
+		prescribe & описывать, определять \\
+		readily & охотно \\
+		reconcile & согласовать \\
+		retain & сохранять \\
+		speckles & пятна \\
+
+		\hline
+
+		brachistochrone & брахистохрона \\
+		coherent & когерентный \\
+		continuous states & непрерывный набор состояний \\
+		conveyor belt & конвейерная лента \\
+		distorted & искаженный \\
+		generalize to & обобщить \\
+		lattice & решетка \\
+		metric & метрика \\
+		numerical simulation & численное моделирование \\
+		oscillation & колебание \\
+		quantum tunneling & квантовое туннелирование \\
+		superposition & суперпозиция \\
+		uniform & однородный \\
+
+		advent & пришествие \\
+		confine & ограничивать \\
+		conjecture & предположение \\
+		conundrum & загадка, парадокс \\
+		conveyor belt & ленточный конвейер \\
+		corroborate & подтверждать \\
+		crest & гребень, вершина \\
+		hatched & заштрихованный \\
+		interrogation & извлечение данных \\
+		paradigmatic & характерный \\
+		ramp & наклонная плоскость \\
+		recoil & отдача \\
+		render & превратить \\
+		swift & быстрый, резкий \\
+		trough & впадина, минимум \\
+
+		\hline
+
+		antiferromagnetic & антиферромагнитный \\
+		axis & ось \\
+		conductivity & проводимость \\
+		consistent (results) & согласующиеся (результаты) \\
+		Coulomb interaction & кулоновское взаимодействие \\
+		diffuse to & диффундировать \\
+		dimer & димер \\
+		electron density & электронная плотность \\
+		entanglement & спутанность \\
+		entropy & энтропия \\
+		equidistantly & эквидистантно \\
+		evidence & свидетельство \\
+		exhibit to & проявлять \\
+		fade to & затухать \\
+		finite & ограниченный \\
+		fundamentally & принципиально \\
+		insulator & диэлектрик \\
+		kinetic energy & кинетическая энергия \\
+		localized & локализованный \\
+		overlap to & перекрываться \\
+		phenomenological & феноменологический \\
+		quasi-wave-vector & квазиволновой вектор \\
+		satisfactory & удовлетворительный \\
+		self-doping & самодопинг \\
+		wave-function & волновая функция \\
+		yield to & давать, приносить \\
+
+		bond & связь \\
+		commensurate & соизмеримый, соразмерный \\
+		cusp & пик, острие \\
+		degeneracy & вырождение \\
+		diffuse & расплывчатый, размытый \\
+		envelope & огибающая \\
+		hallmark & отличительная черта \\
+		illuminating & хорошая иллюстрация \\
+		in silico & путем моделирования \\
+		instantiate & приводить в пример \\
+		intertwined & переплетенные \\
+		intricate & сложный, запутанный \\
+		kink & излом \\
+		profoundly & очень, глубоко \\
+		retain & сохранять \\
+		synergistic & синергетический \\
+		tractability & управляемость \\
+
+		
+% }}}

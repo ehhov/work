@@ -1,0 +1,193 @@
+\documentclass[a4paper, 12pt]{article}
+
+% Configuration {{{
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc} % T1 for English
+\usepackage[russian, english]{babel}
+
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
+\usepackage[
+	colorlinks=true, 
+	allcolors=dimblue
+]{hyperref}
+\usepackage[
+	vmargin=1in,
+	hmargin=1in
+]{geometry}
+\linespread{1.3}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+
+%\usepackage{times} % for English
+% }}}
+
+\begin{document}
+
+Kerim Guseynov, group 113M
+\hfill
+\today
+
+\begin{center}
+	\begin{large}
+		\textbf{Maximum Refractive Index of an Atomic Medium}
+	\end{large}
+
+	Sections I, II, III, IV, and VI (since Sec.~V is very technical and, as 
+	the paper says, ``casual readers can consider skipping'' it.)
+
+	The text is about 39k symbols.
+\end{center}
+
+\begin{center}
+	\textbf{Vocabulary}
+	\vskip.3\baselineskip
+	\begin{tabular}{rl|c}
+		\hline\hline
+		reconcile & согласовать & page 1, abstract \\
+		dilute gas & разреженный газ & page 1, abstract \\
+		implication & последствие & page 1, par. 1 (left) \\
+		readily & охотно & page 1, par. 1 (right) \\
+		\hline
+		granularity & гранулярность, дискретность & page 2, last par. (right) \\
+		exquisitely & изящно & page 2, last par. (right) \\
+		retain & сохранять & page 2, Fig. 1 caption \\
+		\hline
+		dyadic & состоящий из двух частей & page 3, par. 3 (left) \\
+		foster & стимулировать & page 3, par. 2 (right) \\
+		encode & представлять & page 3, par. 3 (left) \\
+		\hline
+		attenuation & затухание & page 4, par. 3 (left) \\
+		decompose & раскладывать & page 4, par. 3 (left) \\
+		speckles & пятна & page 4, last par. (left) \\
+		\hline
+		prescribe & описывать, определять & page 5, par. 2 (left) \\
+		inset & вставка & page 5, par. 2 (right) \\
+		necessitate & требовать & page 5, par. 3 (right) \\
+		\hline
+		pictorial(ly) & наглядный & page 6, last par. (right) \\
+		\hline
+		bulk & большой & page 8, par. 3 (left) \\
+		\hline\hline
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\textbf{Questions}
+\end{center}
+\vskip-.5\baselineskip
+\begin{enumerate}
+	\item What is the relation between the optical response and scattering 
+		cross-section of a single atom and its size?
+	\item How does the refractive index of a smooth medium behave when its 
+		density increases?
+	\item How can we take into account the local electric field in the 
+		smooth medium approximation?
+	\item Does this modification change the behavior of the refractive 
+		index at high densities?
+	\item What can we do to avoid the indefinite growth of the refractive 
+		index at the resonant frequency?
+	\item Is the optical response of two interacting identical atoms equal 
+		to the sum their individual responses?
+	\item What causes the change in the optical response?
+	\item How can we use this information to simplify calculations for an 
+		atomic medium?
+	\item How can we verify does the simplification work how exact is it?
+	\item What interaction remains between the atoms after the iterative 
+		simplification procedure?
+	\item How does the refractive index of an ensemble of identical atoms 
+		behave with density increase?
+	\item What is the ultimate reason for the absence of large refractive 
+		indexes of transparent media?
+\end{enumerate}
+
+\begin{center}
+	\textbf{Overview}
+\end{center}
+
+Transparent materials let the visible light come through differently. 
+Some of their properties include opacity, reflectively, dispersion law, 
+and refractive index. Most of them are related to the optical response 
+of the material, which is its low-level characteristic resulting from 
+the atomic structure. While the optical response of a single atom is 
+easy to calculate, any attempts to derive the refractive index of an 
+atomic medium have led to unrealistic results. This paper presents 
+a completely new approach to calculating the optical response and the 
+refractive index of an atomic medium and throws light on the mystery of 
+why refractive indexes are of the order of unity.
+
+To understand the problem, we should first follow the conventional 
+approach and find its weak point. To avoid very complex and 
+time-consuming calculations, atoms are approximated as semi-classical 
+two-level systems. This is fairly precise and incorporates the most 
+important characteristics of the atom. The reaction of a single atom is 
+well known, so our work is to apply it somehow to a system of many 
+atoms. The conventional way is to forget about the atomic, discrete, 
+granular structure of the matter, introduce its collective 
+characteristics such as density, polarizability, etc., and operate in 
+terms of a continuous medium. At this point you may have already gotten 
+the largest weakness of the approach, but we should still reach its 
+result. One distinction of a continuous medium is that the electric 
+field traversing it is always and constantly influenced by it, thus 
+making it impossible to experience multiple scattering and interference. 
+The result of that is that the refractive index in the leading order is 
+just the index of a single atom scaled by a factor proportional to the 
+square root of the number of atoms divided by the volume. So at the 
+resonance, the refractive index just grows indefinitely with density, 
+what is obviously not observed in real life.
+
+The approach suggested in this paper, however, does not forget about the 
+atomic nature of any medium. It is implemented for an ensemble of 
+perfectly identical atoms, each of which has the same resonant 
+frequency, but remains a distinct and point-like particle. The main 
+reason why theoretical studies have always considered the smooth medium 
+approximation is that it dramatically simplifies all formulas and even 
+lets one achieve the result analytically. To keep the atomic structure, 
+one has to calculate large sums over all atoms including the values of 
+the electric field at each atom's position. To make matters worse, in 
+the correct, quantum approach, one has to take into account the mixing 
+of atomic states due to the Pauli principle, which adds an 
+N x N determinant to every equation, making it exponentially more 
+time-consuming for larger systems. And for N even about 10\^3, it takes 
+an enormous amount of time and work. The fact that in the system 
+considered atoms have only two energy levels makes things easier, but 
+not enough for a complete large-scale study. However, an elegant way out 
+is also suggested by the authors. I will explain it in a minute, but 
+first, you should understand how two atoms behave under a incident plain 
+electromagnetic wave.
+
+If there are two perfectly identical atoms with the resonant frequency 
+omega zero that interact with each other, their optical response is not 
+a Lorentzian centered at omega zero with the height twice as large as 
+for a single atom. Instead, the response is two substantially distant 
+Lorentzian peaks of normal height centered at shifted frequencies of 
+omega zero plus-minus delta omega, where delta omega depends on the 
+distance between the atoms and their interaction strength. Based on the 
+optical response, which defines the reaction of the system to visible 
+light, two identical atoms behave almost like two atoms whose resonant 
+frequencies are slightly shifted from the original atoms' frequency.
+
+This way, one can expect that a set of identical atoms can be 
+approximated by a set of different atoms with effective resonant 
+frequencies depending on spatial parameters of the original system. And 
+indeed, as the authors compare the simplification with a straightforward 
+calculation of the aforementioned large formulas for smaller densities, 
+this test shows good agreement between them. And it also shows that the 
+refractive index n of an atomic medium approaches a limit as the density 
+increases. For larger densities, only the simplified technique is 
+applicable, but it confirms that the index saturates and reaches a value 
+of about 1.7, which is of the order of unity.
+
+The result of the study explains the universal rule that the refractive 
+index is always of the order of unity. It is because of the granularity 
+and atomic structure of everything in the Universe.
+
+So, thank you for your attention. I hope you enjoyed my talk and will 
+probably enjoy looking through the article. Goodbye.
+
+\end{document}

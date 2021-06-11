@@ -1,0 +1,173 @@
+\documentclass[a4paper, 12pt]{article}
+
+% Configuration {{{
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc} % T1 for English
+\usepackage[russian, english]{babel}
+
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
+\usepackage[
+	colorlinks=true, 
+	allcolors=dimblue
+]{hyperref}
+\usepackage[
+	vmargin=1in,
+	hmargin=1in
+]{geometry}
+\linespread{1.3}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\usepackage{subcaption}
+
+%\usepackage{times} % for English
+% }}}
+
+\begin{document}
+
+Kerim Guseynov, group 113M
+\hfill
+\today
+
+\begin{center}
+	\begin{large}
+		\textbf{Ground-State Properties of the Hydrogen Chain: Dimerization, Insulator-to-Metal Transition, and Magnetic Phases}
+	\end{large}
+
+	Sections I--IV.
+
+	The text is about 29k symbols.
+\end{center}
+
+\begin{center}
+	\textbf{Vocabulary}
+	\vskip.3\baselineskip
+	\begin{tabular}{rl|c}
+		\hline\hline
+		retain & сохранять & page 1, abstract \\
+		intricate & сложный, запутанный & page 1, abstract \\
+		intertwined & переплетенные & page 1, abstract \\
+		profoundly & очень, глубоко & page 1, par. 1 (right) \\
+		\hline
+		tractability & управляемость & page 2, par. 3 (left) \\
+		hallmark & отличительная черта & page 2, par. 3 (left) \\
+		synergistic & синергетический & page 2, par. 4 (left) \\
+		\hline
+		diffuse & расплывчатый, размытый & page 3, par. 3 (left) \\
+		envelope & огибающая & page 3, last par. (left) \\
+		illuminating & хорошая иллюстрация & page 3, last par. (right) \\
+		\hline
+		bond & связь & page 4, par. 2 (right) \\
+		\hline
+		commensurate & соизмеримый, соразмерный & page 5, last par. (left) \\
+		\hline
+		cusp & пик, острие & page 6, par. 1 (left) \\
+		degeneracy & вырождение & page 6, par. 1 (left) \\
+		kink & излом & page 6, par. 1 (right) \\
+		\hline
+		instantiate & приводить в пример & page 7, last par. (left) \\
+		in silico & путем моделирования & page 7, par. 2 (right) \\
+		\hline\hline
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\textbf{Questions}
+\end{center}
+\vskip-.5\baselineskip
+\begin{enumerate}
+	\item What system do the authors investigate?
+	\item How is dimerization first probed in this work?
+	\item How does it manifest itself apart from the electron density?
+	\item What type of materials often exhibits metal-insulator 
+		transitions?
+	\item What parameters should be varied if metal-to-insulator 
+		transition is to be observed?
+	\item What is the ground state of a one-band model with commensurate 
+		filling?
+	\item Where does the metal-to-insulator transition arise from in the 
+		hydrogen chain?
+	\item What is responsible for metallic behavior in multi-band systems?
+	\item What effects are absent in Hubbard model which give rise to the 
+		hydrogen chain conductivity?
+	\item Who pioneered the study of the metal-to-insulator transition?
+	\item What was the revolutionary approach to constructing electron 
+		wave-functions?
+	\item How can the physics described in the article be realized 
+		experimentally?
+\end{enumerate}
+
+\begin{center}
+	\textbf{Overview}
+\end{center}
+
+Regarding electrical conductivity, here exist three types of materials: 
+insulators, semiconductors, and conductors (also called metals). Of the 
+three of them, the most interesting and complex is of course 
+semiconductors. But the other two kinds are far from being fully 
+understood and described. We know that insulators have electron 
+densities localized in the vicinity of atoms or inside molecules. 
+Considering metals, we know that they form a unique lattice structure of 
+positively charged ions and almost completely free electrons between 
+them that can be even perceived as a gas. For a more comprehensive look 
+at the nature of electrical conductivity, we have to simulate the whole 
+atomic system and derive conditions under which it behaves as a metal or 
+as an insulator. The difficult part here is in calculations. Quantum 
+systems, which atomic materials obviously are, need to satisfy specific 
+symmetries of their wave-function, and the more electrons they contain, 
+the more complex are the bounds and hence the calculations. The 
+complexity grows exponentially with the size of the system. Quantum 
+computing may help us perform such computations more easily, but for now 
+we have to work with smaller systems.
+
+The authors work with a system of N identical hydrogen atoms 
+equidistantly located along the z axis. To further simplify the system, 
+the protons are considered fixed in place, so there are just N electrons 
+moving in a certain potential. The aim was to analyze how the electrons 
+behave for different proton separations and various numbers of atoms. 
+Even with this kind of simplification, regular straightforward methods 
+don't yield any rational results, so the authors used several numerical 
+methods and tried to identify a consistent result.
+
+The authors started from a large separation. In this case, each electron 
+is localized near the corresponding proton, and their energy levels are 
+almost the same as of isolated atoms. However an interesting effect 
+occurs anyway. Although energy levels are almost the same, the 
+electrons, being part of a single quantum system, feel each other by 
+symmetries of the wave-function. So at large separations, when the 
+Coulomb interaction between the electrons is weak, they align their 
+spins in opposite directions. This way, the hydrogen chain exhibits 
+antiferromagnetic correlations which fade a bit faster than a simple 
+approach yields; probably due to the finite size of the chain.
+
+When the protons are brought closer, they start forming pars called 
+dimers. The most obvious consequence of dimerization is that the 
+electron density between a proton and its right neighbor differs from 
+the density between it and the left neighbor. This effect is very subtle 
+and hard to capture numerically, but three of five fundamentally 
+different methods used by the authors gave approximately the same result 
+for the difference in electron density depending on the length of the 
+hydrogen chain, which is very impressive. More evidence of the 
+dimerization is contained in kinetic energy and entanglement entropy.
+
+For short proton separations, the most interesting effect to study is 
+the metal-to-insulator transition (MIT). According to some of the most 
+successful phenomenological models of three-dimensional conductors, 
+there should be no such transition at all. However, it occurs for two 
+reasons. The first is that single-atom energy levels broaden in presence 
+of other atoms. The closer they are, the wider the levels become. And 
+there comes a point when the highest occupied level overlaps with the 
+lowest vacant level, and electrons don't need much energy to travel the 
+chain. The second reason is a bit more technical. The quasi-wave-vector 
+induced by the periodic structure gains a second allowed value closer to 
+zero caused by self-doing. This allows some electrons diffuse along the 
+chain axis and thus conduct electricity. It should be noted that fewer 
+methods yielded consistent results here, but it's a generally more 
+complex task, so the agreement is satisfactory.
+
+\end{document}

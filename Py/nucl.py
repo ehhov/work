@@ -34,7 +34,7 @@ for line in lines:
 	N = int(inline[1])
 	D = float(inline[2])
 	Delta[Z, N+Z] = D
-	Eb[Z, N+Z] = N*mn+Z*mp - (D + (N+Z)*unit) - Z*me
+	Eb[Z, N+Z] = N*mn+Z*mp - (D + (N+Z)*unit) + Z*me
 	Mass[Z, N+Z] = D + (N+Z)*unit
 	NuclMass[Z, N+Z] = D + (N+Z)*unit - Z*me 
 

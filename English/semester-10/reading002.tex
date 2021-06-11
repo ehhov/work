@@ -1,0 +1,160 @@
+\documentclass[a4paper, 12pt]{article}
+
+% Configuration {{{
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc} % T1 for English
+\usepackage[russian, english]{babel}
+
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
+\usepackage[
+	colorlinks=true, 
+	allcolors=dimblue
+]{hyperref}
+\usepackage[
+	vmargin=1in,
+	hmargin=1in
+]{geometry}
+\linespread{1.3}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\usepackage{subcaption}
+
+%\usepackage{times} % for English
+% }}}
+
+\begin{document}
+
+Kerim Guseynov, group 113M
+\hfill
+\today
+
+\begin{center}
+	\begin{large}
+		\textbf{Demonstration of Quantum Brachistochrones between \linebreak Distant States of an Atom}
+	\end{large}
+
+	Sections I--VIII.
+
+	The text is about 27k symbols.
+\end{center}
+
+\begin{center}
+	\textbf{Vocabulary}
+	\vskip.3\baselineskip
+	\begin{tabular}{rl|c}
+		\hline\hline
+		paradigmatic & характерный & page 1, abstract \\
+		advent & пришествие & page 1, par. 2 (left) \\
+		\hline
+		conveyor belt & ленточный конвейер & page 2, Fig. 1 caption \\
+		conundrum & загадка, парадокс & page 2, par. 2 (right) \\
+		\hline
+		trough & впадина, минимум & page 3, par. 1 (left) \\
+		crest & гребень, вершина & page 3, par. 1 (left) \\
+		recoil & отдача & page 3, par. 1 (left) \\
+		swift & быстрый, резкий & page 3, par. 2 (right) \\
+		hatched & заштрихованный & page 3, 4th line from the bottom (right) \\
+		corroborate & подтверждать & page 3, 4th line from the bottom (right) \\
+		\hline
+		ramp & наклонная плоскость & page 4, Fig. 2 caption \\
+		render & превратить & page 4, last line (right) \\
+		\hline
+		interrogation & извлечение данных & page 5, par. 2 (left) \\
+		confine & ограничивать & page 5, par. 2 (right) \\
+		\hline
+		conjecture & предположение & page 6, par. 4 (left) \\
+		\hline\hline
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\textbf{Questions}
+\end{center}
+\vskip-.5\baselineskip
+\begin{enumerate}
+	\item What does the term brachistochrone refer to?
+	\item How can the Bernoulli's brachistochrone be generalized?
+	\item For what kind of quantum systems the transition speed limit is 
+		long known?
+	\item What does this limit resemble?
+	\item Why can't the same logic be applied to other kinds of quantum 
+		systems?
+	\item Why do we need a deep trap potential?
+	\item Why is the speed limit lower than the adiabatic time?
+	\item What is the obtained transportation speed limit?
+	\item How does it depend on the trap potential depth?
+	\item How can the coherence of the transportation be verified?
+	\item What is the relation between classical and quantum minimal times 
+		of transporting an atomic wave packet?
+	\item Where does the speed limit come from?
+\end{enumerate}
+
+\begin{center}
+	\textbf{Overview}
+\end{center}
+
+Since the birth of quantum physics in the early 20th century, there have 
+been discovered many interesting, unusual, and bizarre phenomena. Some 
+of them were then found to be quite useful for applications. The 
+objective of many modern physics experiments is to manage the control of 
+quantum systems to fully exploit their properties. One of such 
+objectives is to transport a quantum system in space. Of course, it's 
+very important to do that coherently, or otherwise the state is 
+distorted and the task of transporting it is failed. So there has to be 
+some natural limit for the duration of coherent transportation. This 
+topic is long understood for simple two-level systems. But those are 
+rare, and we mostly deal with more complex ones. Some would expect 
+complex systems to have some kind of modification of the simpler 
+results, but experiments have shown a difference. So it is interesting 
+both to understand where it comes from and to find a meaningful lower 
+bound for the duration. As a complementary task, it would also be 
+interesting to compare the results with classical physics.
+
+The task of optimizing the path of an object for minimal time was first 
+posed by Bernoulli for a massive object falling under the influence of 
+a uniform gravitational field. The solution is well known and called 
+a brachistochrone curve. This problem can be generalized to finding the 
+shortest time at which a physical system can be changed from its initial 
+state to a desired final state. The shortest time would depend on the 
+amount of energy available and the type of control.
+
+In quantum physics such a speed limit was derived by Mandelstam and Tamm 
+and is reminiscent of Heisenberg's uncertainty principle. It shows that 
+the duration cannot vanish unless one has access to unlimited energy. 
+This limit was experimentally confirmed for two-level systems, however, 
+for complex systems the real limit is much greater, making the existing 
+one meaningless. The problem here is that two-level systems can be 
+converted through a Rabi oscillation, which is fundamentally 
+inapplicable to continuous states like the spatial position.
+
+In this work, a conveyor belt based on optical lattice is used to 
+transport an atomic wave packet on a distance 15 times its size. The 
+trap potential is adjusted to be deep enough to suppress quantum 
+tunneling and also so that the trajectory of the transported system is 
+optimal. The optimal trajectory is obtained from numerical simulations.
+
+The fidelity of the transportation, which is the overlap between the 
+actual and targeted final states, with 1 being the perfect result, is 
+obtained as a function of duration. It is found that the fidelity 
+saturates for durations larger than quasi-harmonious oscillation period 
+of the trap potential (which is also responsible for energy uncertainty 
+of the system to transport). To ensure that the transportation is 
+coherent, the authors prepared a specific superposition as an initial 
+state, then transported part of it to a target state and back, and then 
+extracted the interference constant. The constant was found to be 
+exactly the same as the fidelity measured earlier, proving that the 
+method keeps coherence.
+
+The same measurements and simulations were made for several trap 
+potential depths, and the minimal time is shown to be inversely 
+proportional to the depth. Interestingly, the classical and quantum 
+cases differ only by 25\%, which shows that the limit comes mostly from 
+the Hilbertian metric of quantum states.
+
+\end{document}
