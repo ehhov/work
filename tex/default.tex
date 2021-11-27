@@ -1,4 +1,4 @@
-\documentclass[a4paper, 10pt, twocolumn]{article}
+\documentclass[a4paper, 12pt]{article}
 
 % Configuration {{{
 \usepackage[utf8]{inputenc}
@@ -16,39 +16,19 @@
 ]{hyperref}
 \usepackage[
 	vmargin=1in,
-	hmargin=.8in
+	hmargin=1in
 ]{geometry}
-\setlength{\columnsep}{.25in}
-%\usepackage[nospread]{flushend}
-\usepackage{cuted}
 \linespread{1.3}
 \usepackage{indentfirst}
 \usepackage{graphicx}
+\usepackage{tikz}
 \usepackage[multidot]{grffile}
 \usepackage[labelsep=period]{caption}
-
-\usepackage{titlesec}
-\titleformat{\section}[hang]{\bf\centering}{\thesection.}{.5em}{}[]
-\def\thesection{\Roman{section}}
-\def\thefootnote{\fnsymbol{footnote}}
+\usepackage{subcaption}
 
 %\usepackage{times} % for English
 % }}}
 
 \begin{document}
-
-% Title {{{
-\begin{strip}
-\begin{center}
-\vskip-2.4\baselineskip
-{\large\textbf{Title}}
-\vskip.3\baselineskip
-{Author\footnotemark}
-\vskip.3\baselineskip
-\today
-\end{center}
-\end{strip}
-\footnotetext{About, email}
-% }}}
 
 \end{document}
