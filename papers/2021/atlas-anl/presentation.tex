@@ -17,6 +17,7 @@
 \usetheme{Madrid}
 
 \linespread{1.2}
+\setlength{\parskip}{.3\baselineskip}
 
 \def\what#1{\textcolor{lightgray}{#1}}
 \def\meh#1{\textcolor{gray}{#1}}
@@ -58,6 +59,27 @@
 	% 6000 часов работы (8 мес в год).
 	\includegraphics[width=\textwidth]{figures/floor-plan}
 }% }}}
+\frame{% whole pic text {{{
+	Ускорительный комплекс атлас содержит три ускорительные секции: 
+	инжектор положительных ионов (Positive Ion Injector), бустер и сам 
+	atlas. Суммарное напряжение этих трех частей достигает 50 мегавольт, 
+	и ускоряться принципиально могут любые ядра от протона до урана.
+
+	RFQ -- радиочастотный квадруполь, предназначенный для фокусировки 
+	пучка.
+
+	ECR -- electron cyclotron resonance -- источник ионов, ионизатор.
+
+	% RIB -- radioactive ion beams
+
+	% EBIS -- electron beam ion source
+
+	CARIBU -- Californium Rare Isotope Breeder Upgrade
+
+	Кроме ускорителей, важной частью комплекса является CARIBU -- система, 
+	позволяющая выделять определенные нейтроноизбыточные осколки 
+	спонтанного распада калифорния 252.
+}% }}}
 
 \frame{% in-flight {{{
 	% Кроме того, система атлас предоставляет еще и пучки легких 
@@ -71,6 +93,18 @@
 	% Таким образом в роли налетающей частицы может выступать целый ряд 
 	% радиоактивных легких ядер до массы около 40.
 	\includegraphics[width=\textwidth]{figures/in-flight-nuclei}
+}% }}}
+\frame{% in-flight text {{{
+	Кроме того, система атлас предоставляет еще и пучки легких 
+	радиоактивных ядер вблизи долины стабильности. Для их получения 
+	пучок из ускорителя направляют в газовую камеру или на фольгу, где 
+	ядра пучка проходят через реакции нуклонного обмена, а затем 
+	продукты фокусируются и направляются уже в нужную мишень. Для 
+	повышения качества и чистоты пучка мгновенно распадающиеся обратно 
+	продукты отделяются, а также производится отбор по импульсу.
+
+	Таким образом, в роли налетающей частицы может выступать целый ряд 
+	радиоактивных легких ядер массами до примерно 40.
 }% }}}
 
 \frame{% neutron rich {{{
@@ -87,13 +121,39 @@
 	% Ускоряются они тут до 15 МэВ/нуклон
 	\includegraphics[width=\textwidth]{figures/cf-products}
 }% }}}
+\frame{% neutron rich text {{{
+	\frametitle{CARIBU -- подача продуктов распада $^{252}$Cf}
+	Калифорний распадается в камере с очень чистым гелием (газом), где 
+	фрагменты быстро теряют энергию, затем ускоряются до 30~КэВ и попадают 
+	в масс-анализатор, где производится отбор. Затем они переносятся 
+	к EBIS и к квадруполю RFQ в начало самого ускорителя.
+
+	Примерно половина продуктов становятся ионами с зарядом +1 или +2, 
+	а между распадом калифорния и попаданием в квадруполи проходит около 
+	40 мс. Кроме того разделение продуктов очевидно не зависит от
+	химических свойств.
+
+	Ускоряются такие ядра до 15 МэВ/нуклон
+
+	Максимальные энергии стабильных ядер изменяются от 18-20~МэВ/нуклон 
+	для легких до 9-10 для тяжелых.
+
+	Нестабильные легкие достигают около 15 МэВ/нуклон вместо 20.
+}% }}}
 
 \frame{% pie chart for projectiles {{{
 	% Максимальные энергии изменяются от 18-20 МэВ/нуклон для легких до 
 	% 9-10 для тяжелых.
 	%
 	% Для легких нестабильных около 15 вместо 20.
-	\includegraphics[width=\textwidth]{figures/stable}
+	\centering
+	\includegraphics[width=.9\textwidth]{figures/stable}
+
+	\small
+
+	Выше показаны доли наиболее часто используемых ядер. Каждый год 
+	проводится примерно 50 экспериментов, суммарно занимающих около 6000 
+	часов работы (8 месяцев в год).
 }% }}}
 
 \frame{% whole pic for targets {{{
@@ -120,6 +180,35 @@
 	%
 	% gammasphere состоит из 100 германиевых детекторов, детектор фотонов.
 	\includegraphics[width=\textwidth]{figures/floor-plan}
+}% }}}
+\frame{% whole pic for targets text {{{
+	Рассмотрим элементы установки после мишеней.
+
+	Анализатор фрагментов масс используется для разделения продуктов 
+	реакции на интересующей мишени и непровзаимодействовавших ядер. Также 
+	он используется в схеме совпадений при одновременной регистрации 
+	фотонов и ядер. Также он используется и в обычном назначении -- для 
+	определения отношения заряда к массе.
+
+	HELIOS (Helical Orbit Spectrometer) это винтовой орбитальный 
+	спектрометр или же спектрометр с винтовыми орбитами. Здесь мишень 
+	располагается непосредственно внутри соленоида, который представляет 
+	собой обычный магнит из МРТ. Мишень и детектор находятся на оси 
+	соленоида, а продукты реакции загибаются и летят обратно к оси. 
+	Детектор можно переставлять так, чтобы ловить продукты с определенной 
+	энергией, зарядом и прочее. HELIOS используется для изучения реакции 
+	передачи одного или нескольких нуклонов, кластеров, неупругого 
+	рассеяния, используют в основном для нестабильных пучков.
+}% }}}
+\frame{% whole pic for targets text {{{
+	AGFA -- argonne gas filled separator -- газовый сепаратор, 
+	используется для изучения тяжелых и сверхтяжелых ядер. Например, для 
+	поиска изомерных состояний в таких ядрах и изучения ядер вблизи 
+	протонной радиоактивности, а также изучения тяжелых нейтроноизбыточных 
+	ядер в глубоконеупругих реакциях.
+
+	Gammasphere -- детектор фотонов, состоящий из 100 германиевых 
+	детекторов.
 }% }}}
 
 \frame{% Program - Structure {{{
@@ -205,36 +294,37 @@
 }% }}}
 
 \frame{% Publications {{{
-	\frametitle{Публикации}
+	\frametitle{Публикации -- названия говорят за себя}
 
 	\begin{itemize}
 		\item Proton decay of $^{108}$I and its significance for the 
 			termination of the astrophysical $rp$-process.
-			Phys. Lett. B 792, 187 (2019)
-			% FMA, Fe54(Ni58, p3n)I108
+			[Phys. Lett. B 792, 187 (2019)]
 
 		\item Masses and $\beta$-Decay Spectroscopy of Neutron-Rich Odd-Odd 
 			$^{160,162}$Eu Nuclei: Evidence for a Subshell Gap with Large 
 			Deformation at N=98.
-			Phys. Rev. Lett. 120, 182502 (2018)
+			[Phys. Rev. Lett. 120, 182502 (2018)]
 
 		\item Direct Evidence of Octupole Deformation in Neutron-Rich 
 			$^{144}$Ba.
-			Phys. Rev. Lett. 116, 112503 (2016)
+			[Phys. Rev. Lett. 116, 112503 (2016)]
 
 		\item Precision Mass Measurements of Neutron-Rich Neodymium and 
 			Samarium Isotopes and Their Role in Understanding Rare-Earth Peak 
-			Formation. Phys. Rev. Lett. 120, 262702 (2018)
+			Formation.
+			[Phys. Rev. Lett. 120, 262702 (2018)]
 
 		\item Shape Coexistence and the Role of Axial Asymmetry in $^{72}$Ge.
-			Phys. Lett. B 754, 254 (2016)
+			[Phys. Lett. B 754, 254 (2016)]
 
 		\item
 			Modeling Multi-Nucleon Transfer in Symmetric Collisions of Massive 
-			Nuclei. Phys. Lett. B 771, 119 (2017)
+			Nuclei.
+			[Phys. Lett. B 771, 119 (2017)]
 
-		\item Reaction rate for carbon burning in massive stars Phys. Rev. 
-			C 97, 012801 (2017)
+		\item Reaction rate for carbon burning in massive stars.
+			[Phys. Rev. C 97, 012801 (2017)]
 
 	\end{itemize}
 }% }}}
@@ -268,11 +358,15 @@
 	\frametitle{Proton decay of $^{108}$I and its significance for the termination of the astrophysical $rp$-process}
 	\centering
 	\includegraphics[width=.7\linewidth]{figures/i-108-energy}
+
+	\small Все распады без каких-либо отборов.
 }% }}}
 \frame{% One publication {{{
 	\frametitle{Proton decay of $^{108}$I and its significance for the termination of the astrophysical $rp$-process}
 	\centering
 	\includegraphics[width=.7\linewidth]{figures/i-108-decays}
+
+	\small Все распады и парциальные распады по определенным каналам.
 }% }}}
 \frame{% One publication {{{
 	\frametitle{Proton decay of $^{108}$I and its significance for the termination of the astrophysical $rp$-process}
@@ -294,6 +388,28 @@
 	\frametitle{Proton decay of $^{108}$I and its significance for the termination of the astrophysical $rp$-process}
 	\centering
 	\includegraphics[width=.7\linewidth]{figures/i-108-table}
+}% }}}
+\frame{% One publication text {{{
+	\frametitle{Proton decay of $^{108}$I and its significance for the 
+	termination of the astrophysical $rp$-process}
+
+	Для начала рассмотрим сам йод 108. В сферической модели оболочек 
+	квазиклассическое приближение дает парциальное время жизни 150 мс и 70 
+	с для вылета из $d$ и $g$ состояния, соответственно. Полученное 
+	в работе значение 5 с находится ровно между этими, то есть 
+	с уверенностью можно сказать лишь что состояния сильно смешиваются. 
+	Однако можно предположить, что деформация йода 108 примерно такая, как 
+	у 109, а одиночные протон и нейтрон располагаются на смесях 
+	$\frac{1}{2}^+$ и $\frac{3}{2}^+$ по схеме Нильсона. Учитывая 
+	ожидаемый спин Te 107, получается, что преобладать должен $l=2$ 
+	протон.
+
+	\hrulefill
+	\small
+
+	Эта статья не может похвастаться прорывным результатом, но, мне 
+	кажется, она все равно хорошо демонстрирует производимую на ATLAS 
+	работу.
 }% }}}
 
 \frame{% Future {{{
