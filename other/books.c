@@ -14,7 +14,6 @@ void print_to_file(const char *filename, void (*printer)(FILE *stream, const cha
 
 static const char *plainfile = "books";
 static const char *htmlfile = "books.html";
-void (*print_book)(FILE *, struct book, int) = print_book_html;
 static const struct book math[] = {
 	{ "Э. Леман", "Проверка статистических гипотез", "https://www.studmed.ru/leman-e-proverka-statisticheskih-gipotez_397660debbc.html" },
 	{ "Кендалл, Стюарт", "Статистические выводы и связи", "https://www.studmed.ru/kendall-m-styuart-a-statisticheskie-vyvody-i-svyazi-tom-2_8d8707508ab.html" },
