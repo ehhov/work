@@ -1,0 +1,553 @@
+INSIGHT REVIEW
+NATURE|Vol 448|19 July 2007|doi:10.1038/nature06079
+Beyond the standard model with the LHC
+John Ellis1
+Whether or not the Large Hadron Collider reveals the long-awaited Higgs particle, it is likely to lead to
+discoveries that add to, or challenge, the standard model of particle physics. Data produced will be pored over
+for any evidence of supersymmetric partners for the existing denizens of the particle ‘zoo’ and for the curled-
+up extra dimensions demanded by string theory. There might also be clues as to why matter dominates over
+antimatter in the Universe, and as to the nature of the Universe’s dark matter.
+The unparalleled high energy of the Large Hadron Collider (LHC),
+with its 7 TeV per beam and its enormously high collision rate that
+should reach a billion collisions per second, makes it a microscope
+able to explore the inner structure of matter on a scale that is an
+order of magnitude smaller than previously achieved. Results at the
+energies and distances explored so far led physicists to successfully
+describe matter using the standard model of particle physics1–3. But this
+description is incomplete, and the standard model raises, but leaves
+unanswered, many fundamental questions. Explanations are needed
+for the origin of particle masses and the small differences seen in the
+properties of matter and antimatter, as well as to establish whether fun-
+damental interactions can be unified. Moreover, the standard model
+has no explanation for some of the basic puzzles of cosmology, such as
+the origin of matter and the nature of the Universe’s dark matter and
+dark energy. There are high hopes that the LHC will help resolve at
+least some of these basic issues in cosmology and in physics beyond
+the standard model4.
+Theoretical calculations made using the standard model agree well with
+data collected at lower-energy accelerators, such as at CERN’s Large Elec-
+tron–Positron (LEP) accelerator in the 1990s and, more recently, at the
+Tevatron proton–antiproton collider at Fermilab (Batavia, Illinois)5. Data
+collected at LEP agreed with the standard model at the per-mille level, and
+recent measurements of the masses of the intermediate vector boson W
+(ref. 6) and the top quark7 agree well with standard-model predictions.
+But the theoretical calculations are valid only with an ingredient that has
+not yet been observed — the notorious Higgs boson. Without this miss-
+ing ingredient, the calculations yield incomprehensible, infinite results8,9.
+The agreement of the data with the calculations implies not only that the
+Higgs boson (or something equivalent) must exist, but also suggests that
+its mass should be well within the reach of the LHC5.
+In this review, I discuss the likelihood of finding the Higgs boson and
+what other physics beyond the standard model the accelerator might
+reveal.
+There are two ways to break the symmetry of the standard model. The
+preferred way is to respect the symmetry of the underlying equations, in
+which the massless photon and the massive W and Z bosons appear in
+the same way, but look for an asymmetric solution, much as the reader
+and writer are lopsided solutions of the symmetric equations of electro-
+magnetism. According to this approach to the standard model, symmetry
+is thought to be already broken in the lowest-energy state, the so-called
+vacuum. This ‘spontaneous’ symmetry breaking is ascribed to a field that
+permeates all space, taking a specific value that can be calculated from the
+underlying equations, but with a random orientation in the internal ‘space’
+of particles that breaks the underlying symmetry. This mechanism, which
+was suggested by Peter Higgs10 and independently by Robert Brout and
+François Englert11, forces some particles, such as the photon, to remain
+massless, but gives masses to others in proportion to their coupling to this
+vacuum field (Fig. 1).
+In the same way that the electromagnetic field has a quantum particle
+associated with it, the photon, this vacuum field would also have an associ-
+ated quantum particle, the Higgs boson. Experiments at LEP seemed at
+one time to have found a hint of its existence12. In the end, however, these
+searches were unsuccessful and told us only that any Higgs boson must
+weigh at least 114 GeV (ref. 13). If its mass is less than about 200 GeV,
+researchers using the Tevatron may find some evidence for it before the
+LHC comes into operation14.
+The large experiments, ATLAS15 and CMS16, at the LHC will be looking
+for the Higgs boson in several ways (Fig. 2). The Higgs boson is predicted
+to be unstable and decay into other particles, such as photons, bottom
+quarks, tau leptons, W or Z bosons. It may well be necessary to combine
+several different decay modes to uncover a convincing signal. The LHC
+experiments should be able to find the Higgs boson even if it weighs as
+much as 1 TeV, and there are high expectations that it could be found
+during the first couple of years of LHC operation. Its discovery would set
+the seal on the success of the standard model.
+Higgs or bust?
+Searching for symmetry breaking
+Why should the Higgs boson exist, and are there any alternatives? In
+the underlying equations of the standard model, none of the elementary
+particles seems to have mass. In the real world, however, only the pho-
+ton and gluon, the carriers of the electromagnetic and strong nuclear
+interactions, are massless. All the other elementary particles are massive,
+with the W and Z bosons, intermediaries of the weak nuclear interac-
+tion, and the top quark weighing as much as decent-sized nuclei. The
+underlying symmetry between the different particles of the standard
+model must be broken so that some may acquire masses.
+With the impending confirmation or refutation of the Higgs hypothesis,
+many theorists are getting cold feet. Some are beginning to support
+alternative scenarios that go beyond the standard model17. One popular
+suggestion is that the Higgs boson might not be an ‘elementary’ particle
+in the same sense as the quarks, leptons and the photon, but instead
+might be composed of simpler constituents18. This model would be
+analogous to the Bardeen–Cooper–Schrieffer (BCS) theory of super-
+conductivity, in which a photon acquires an effective mass by interact-
+ing with ‘Cooper pairs’ of electrons. In this analogy, the W and Z bosons
+would ‘eat’ tightly bound pairs of novel strongly interacting fermions
+1
+Theory Division, Physics Department, CERN, CH-1211 Geneva 23, Switzerland.
+297INSIGHT REVIEW
+NATURE|Vol 448|19 July 2007
+is that the LHC will provide us with a clear-cut experimental answer and
+end the speculation.
+The hierarchy problem
+Figure 1 | Picturing the Higgs field. The behaviour of physicists in a crowded
+social event at a conference is an analogy for the Higgs mechanism, as
+proposed by David Miller (University College London). The physicists
+represent a non-trivial medium permeating space. In the upper panel, the
+physicists cluster around a famous scientist who enters the room, slowing
+the scientist’s progress. In much the same way, a particle passing through
+the Higgs–Brout–Englert field slows down and acquires a mass. In the
+lower panel, a rumour propagates. This is an excitation of the medium
+— the group of physicists — itself, forming a body with a large mass; this
+is analogous to the formation of a Higgs boson. Figure reproduced with
+permission from CERN.
+rather than an elementary Higgs field. It seems rather difficult to recon-
+cile this composite alternative with the accurate low-energy data from
+LEP5, but some enthusiasts are still pursuing this possibility. Alterna-
+tively, it has been suggested that the Higgs boson is indeed elementary,
+but is supplemented by some additional physics — for example, being
+supersymmetric (discussed later).
+The most radical alternative to the Higgs hypothesis exploits the sec-
+ond way of breaking the standard model’s symmetry. It postulates that,
+although the underlying equations are symmetric, their solution is sub-
+ject to boundary conditions that break that symmetry. What boundary
+would that be, given that space is apparently infinite (or at least very large
+compared to the scale of particle physics)? The answer is that there might
+be additional, very small dimensions of space with edges where the sym-
+metry may be broken19. Such models would have no Higgs boson, and are
+difficult to reconcile with the data already acquired that seem to require
+a relatively light Higgs boson.
+Theorists are amusing themselves discussing which would be worse:
+to discover a Higgs boson with exactly the properties predicted in the
+standard model or to discover that there is no Higgs boson. The former
+would be a vindication of theory, but would teach us little new. The lat-
+ter would upset the entire basis of the standard model. The absence of a
+Higgs boson would be exciting for particle physicists, but it might not be
+so funny to explain to the politicians who have funded the LHC mainly to
+discover this particle. Whichever option nature chooses, the good news
+298
+Resolving the Higgs question will set the seal on the standard model, but,
+as I mentioned at the beginning, there are plenty of reasons to expect
+other physics beyond the standard model to be discovered (Fig. 3). Spe-
+cifically, there are good reasons to expect other discoveries at the TeV
+energy scale, within reach of experiments at the LHC. Many would con-
+sider this to be the primary motivation for the leap into the unknown
+that the LHC represents.
+For example, it is generally thought that the elementary Higgs boson
+of the standard model cannot exist in isolation. Specifically, difficulties
+arise when one calculates quantum corrections to the mass of the Higgs
+boson owing to the exchanges of virtual particles (see, for example, ref. 20).
+Not only are these corrections infinite in the standard model, but, if the
+usual procedure of controlling them by cutting the theory off at some high
+energy or short distance is adopted, the net result depends on the square of
+the cut-off scale. This implies that, if the standard model were embedded
+in some more complete theory that kicks in at high energy — such as a
+grand unified theory of the particle interactions or a quantum theory of
+gravity — the mass of the Higgs boson would be sensitive to the details
+of this high-energy theory. This would make it difficult to understand why
+the Higgs boson has a (relatively) low mass. It would also, by extension,
+make it difficult to explain why the energy scale of the weak interactions
+— as reflected in the masses of the W and Z bosons — is so much smaller
+than that of unification or quantum gravity.
+One might be tempted simply to wish away this ‘hierarchy problem’ by
+postulating that the underlying parameters of the theory are tuned finely,
+so that the net value of the Higgs boson mass obtained after adding in the
+quantum corrections is unnaturally small as the result of some sneaky
+cancellation. But it would surely be more satisfactory either to abolish
+the extreme sensitivity to the quantum corrections or to cancel them in a
+systematic manner. Indeed, this has been one of the reasons for believing
+that the Higgs boson is composite. If it is, the Higgs boson would have a
+finite size, which would cut the pesky quantum corrections off at some
+relatively low scale. In this case, the LHC might uncover a cornucopia of
+new particles with masses around this cut-off scale, which should be near
+1 TeV. At the very least, the interactions of the W and Z vector bosons
+would be modified in an observable way.
+The supersymmetric solution
+An alternative way to get rid of these quantum corrections is provided by
+supersymmetry21. This is an elegant theory that would pair up fermions,
+such as the quarks and leptons that make up ordinary matter, with bosons,
+such as the photon, gluons, W and Z that carry forces between the mat-
+ter particles or even the Higgs itself (Fig. 4). Supersymmetry also seems
+to be essential for making a consistent quantum theory of gravity based
+on string theory (of which more later). However, these elegant argu-
+ments give no clue as to what energies would be required to observe
+supersymmetry in nature.
+The first argument that supersymmetry might appear near the TeV
+scale was provided by the hierarchy problem: in a supersymmetric theory,
+the quantum corrections owing to the pairs of virtual fermions and
+bosons cancel each other systematically22, and a low-mass Higgs boson
+no longer seems unnatural23. The residual quantum corrections to the
+mass of the Higgs boson would be small if differences in mass between
+supersymmetric partner particles were less than about 1 TeV. Because
+the fermions and bosons of the standard model do not pair up with
+each other in a neat supersymmetric manner, this theory would require
+each of the standard-model particles to be accompanied by an as-yet
+unseen supersymmetric partner. It might seem profligate for there to be
+all these partners, but at least the hypothesis predicts a ‘scornucopia’ of
+supersymmetric particles that should weigh less than about 1 TeV and
+hence could be produced by the LHC15,16..
+In the wake of this hierarchy argument, at least three other reasons have
+surfaced for thinking that supersymmetric particles weigh about 1 TeV.INSIGHT REVIEW
+NATURE|Vol 448|19 July 2007
+a
+c
+1
+–
+bb
+g
+WW
+t
+g
+b
+W, Z
+q
+ZZ
+H
+t
+Branching fraction
+t
+τ+τ–
+10–1
+cc–
+gg
+–
+tt
+10–2
+W, Z
+γγ
+q–
+H
+10–3
+50
+100
+Zγ
+200
+Higgs mass (GeV)
+500
+1,000
+Figure 2 | The Higgs boson at the LHC. A Higgs (H) boson may be
+produced by a range of interactions, two examples of which are shown
+here. The first, a, is through fusion of gluons (g) from the protons in the
+LHC beams, through a top (t) quark loop; and the second, b, is through
+a bremsstrahlung process, in which a quark (q) and antiquark (q‒)
+annihilate to create a W or Z boson, which may then radiate a Higgs.c, The Higgs itself then decays, and it is these decay products that
+will be caught in a detector. The ‘branching fraction’ or probability
+of decay to certain products depends on the (as-yet unknown) mass
+of the Higgs particle, which is dominated by decay to a bottom–
+antibottom quark pair at low mass, but by decay to pairs of W bosons
+at high mass.
+The first is that these particles would facilitate the unification of the strong,
+weak and electromagnetic forces into a simple grand unified theory24.
+Another argument is that a theory with low-energy supersymmetry would
+predict that the Higgs boson weighs less than about 150 GeV (ref. 25),
+which is precisely the range favoured indirectly by the present data. The
+final one is that, in many models, the lightest supersymmetric particle
+(LSP) is an ideal candidate for the dark matter advocated by astrophysicists
+and cosmologists.
+The LSP is ideal because it is stable when a suitable combination of
+baryon and lepton numbers is conserved26, as happens in the minimal
+supersymmetric extension of the standard model, as well as in simple
+models of grand unification and neutrino masses. In this case, LSPs
+would be left over as relics from early in the Big Bang, and calculations of
+their abundance yield a density of dark matter in the range favoured by
+astrophysics and cosmology if the LSP weighs at most a few hundred GeV,
+probably putting it within reach of the LHC27.
+Supersymmetry could be a bonanza for the LHC, with many types of
+supersymmetric particle being discovered. In many models, the LHC
+would produce pairs of gluinos (the supersymmetric partners of the
+gluons) or squarks (the supersymmetric partners of the quarks) that would
+subsequently decay through various intermediate supersymmetric parti-
+cles. Finally, each of these pairs of particles would yield a pair of LSPs that
+interact only weakly and hence carry energy away invisibly. In favourable
+cases, the masses of several intermediate particles could be reconstructed
+this way. It might even be possible to use these measurements to calculate
+what the supersymmetric dark-matter density should be, so as to compare
+the result with the astrophysical estimates28.the Planck length of around 10–33 cm. But more recently, it was realized
+that at least some of these new dimensions might be much larger and
+possibly have consequences observable at the LHC.
+One of the possibilities offered by these speculations is that gravity is
+strong when these extra dimensions appear, possibly at energies close to
+1 TeV. Under this condition, according to some variants of string theory,
+microscopic black holes might be produced by the LHC32. These would
+be short-lived, decaying rapidly through thermal (Hawking) radiation.
+Measurements of this radiation would offer a unique laboratory window
+on the mysteries of quantum gravity. The microscopic black holes would
+emit energetic photons, leptons, quarks and neutrinos, providing distinc-
+tive experimental signatures. In particular, the neutrinos they emit would
+carry away more invisible energy than LSPs would in the supersymmetric
+models discussed previously33.
+Although microscopic black holes would be the most dramatic sign
+of large extra dimensions, they are not the only sign of such theories that
+might be visible at the LHC. If the extra dimensions are curled up on a
+sufficiently large scale, the ATLAS and CMS projects might be able to
+see Kaluza–Klein excitations of standard-model particles, or even of the
+graviton, the mediator particle of gravity. Indeed, the spectroscopy of some
+extra-dimensional theories might be as rich as that of supersymmetry34.
+If so, how do we tell which cornucopia the LHC is uncovering? There
+are significant differences in the relationship between, for example, the
+masses of the partners of quarks and leptons in supersymmetric theories
+and in theories with large extra dimensions. Moreover, the spins of the
+Kaluza–Klein excitations would be the same as those of their standard-
+model progenitors, whereas the spins of the supersymmetric partners
+Into extra dimensions?
+Postulating a composite Higgs boson or supersymmetry are not the only
+strategies that have been proposed for dealing with the hierarchy problem.
+Another suggestion is that there are additional dimensions of space29.
+Clearly, space is three-dimensional on the scales that we know so far, but
+the idea that there are additional dimensions curled up so small that they
+are invisible has been in the air since it was first proposed by Kaluza and
+Klein over 80 years ago. This idea has gained ground in recent years with
+the realization that string theory predicts the existence of extra dimen-
+sions of space30.
+According to string theory, elementary particles are not idealized points
+of euclidean geometry, but are objects extended along one dimension
+(a string) or are membranes with more dimensions31. For the quantum
+theory of strings to be consistent, particles have to move in a space with
+more than the usual three dimensions. Initially, it was thought that these
+extra dimensions would be curled up on scales that might be as small as
+Strings?
+Extra dimensions?
+Supersymmetry?
+GUTs?
+103
+0
+GeV
+1014
+Standard
+model
+1016
+1019
+LHC
+Figure 3 | Physics beyond the TeV scale. The standard model has been well
+tested up to around the 100-GeV mass scale. The LHC will test beyond
+this, to the crucial 1,000-GeV level, the TeV scale, at which hints of new
+physics, such as supersymmetry and extra dimensions, may emerge. String
+theory or grand unified theories (GUTs) inhabit much higher energy scales,
+approaching 1019 GeV, which is called the Planck scale.
+299INSIGHT REVIEW
+Half-integer
+spin
+Integer
+spin
+NATURE|Vol 448|19 July 2007
+Known particles of
+the standard modelPostulated supersymmetric
+partners or ‘sparticles’
+ElectronSelectron
+NeutrinoSneutrino
+Top quarkStop
+GluonGluino
+PhotonPhotino
+Integer
+spin
+Half-integer
+spin
+Figure 4 | Examples of supersymmetric partners. Supersymmetry is a
+symmetry drawn between fermions (with half-integer spin) and bosons
+(with integer spin). It postulates that, for each fermion, there exists a
+bosonic partner — such as the supersymmetric electron, or ‘selectron’,
+which partners the electron. Similarly, each boson is thought to have a
+fermionic superpartner, which for the gluon is the ‘gluino’.
+would be different. These underlying differences translate into charac-
+teristic differences in the spectra of decay products in the two classes of
+model and into distinctive correlations between them35.
+It is amusing that, in some theories with extra dimensions, the light-
+est Kaluza–Klein particle (LKP) might be stable36, rather like the LSP in
+supersymmetric models. In this case, the LKP would be another candi-
+date for astrophysical dark matter. Thus, there is more than one way in
+which LHC physics beyond the standard model might explain the origin
+of dark matter: fortunately, the tools seem to be available for distinguish-
+ing between them.
+and antimatter would be insufficient to generate the matter seen in the
+Universe. It is possible that the deficit will be explained by new physics at
+the TeV scale revealed by the LHC. For example, supersymmetry allows
+many more possibilities for differences between the properties of matter
+and antimatter than are possible in the standard model38; some of these
+differences might explain the amount of matter in the Universe.
+This provides one of the motivations for the LHCb experiment39, which
+is dedicated to probing the differences between matter and antimatter,
+notably looking for discrepancies with the standard model (Box 1). In
+particular, LHCb has unique capabilities for probing the decays of mesons
+containing both bottom and strange quarks, the constituents of the B and
+K mesons probed in other experiments investigating matter–antimatter
+differences. There are many other ways to explore the physics of matter
+and antimatter, and the ATLAS and CMS experiments will also contribute
+to them, in particular by searching for rare decays of mesons containing
+bottom quarks.
+If these experiments detect any new particles beyond the standard
+model at the TeV scale, questions will immediately arise as to whether this
+new physics distinguishes between matter and antimatter, and whether
+or not this new physics explains the origin of matter in the Universe. For
+example, if the Higgs boson is discovered at the LHC, are its couplings
+to matter and antimatter the same? If supersymmetry is discovered at
+the LHC, do supersymmetric ‘sparticles’ and ‘antisparticles’ behave in the
+same way? There are many models in which matter–antimatter differences
+in the Higgs or sparticle sector are responsible for the origin of the matter
+in the Universe.
+The matter–antimatter conundrum
+Will the LHC explain the origin of conventional matter? As was first
+pointed out by the Russian physicist Andrei Sakharov37, particle physics
+can explain the origin of matter in the Universe in terms of small differ-
+ences in the properties of matter and antimatter, such as those discovered
+in the decays of K and B mesons. Present experimental data accord well
+with the matter–antimatter differences allowed by the standard model.
+However, by themselves, these differences in the properties of matter
+Box 1 | Penguin hunting at LHCb
+Why does matter dominate over antimatter
+in the Universe, considering that both were
+thought to be created in equal quantities
+in the Big Bang? Part of the explanation is
+that some interactions between particles
+take place at different rates when two
+fundamental symmetries of the quantum
+field theory that underlie them are
+simultaneously reversed. There are two
+symmetries involved: charge conjugation, C;
+and parity symmetry, P. Charge conjugation
+turns particles into their antiparticles by
+reversing internal properties such as electric
+charge. By contrast, parity symmetry flips
+external particle properties such as spin,
+similar to looking at an interaction in a
+mirror.
+CP violation was first discovered
+experimentally45 in decays of K mesons, which
+contain a strange quark in addition to an up or
+down quark. Later theoretical work showed46
+that CP violation would occur naturally in
+interactions mediated by the weak nuclear
+force in the standard model with three quark
+generations. (At the time, particles from only
+two were known.) The degree of violation is,
+however, insufficient to explain the Universe’s
+matter–antimatter imbalance.
+The subsequent discovery of the third quark
+generation, formed of the bottom (b) and top
+(t) quarks, vindicated the model. A plethora of
+300
+Into the future
+According to present plans, the first full-energy collisions of the LHC will
+take place in 2008, although it will take some time for the accelerator to
+build up to its designed nominal collision rate. There are hopes, however,
+that in its first couple of years of operation, it will already start to provide
+crucial information on physics beyond the standard model, for example
+by discovering the Higgs boson — or other new particles such as those
+W
+B0K0
+bs
+t
+t
+Gluon
+s
+ϕ
+–s
+experiments has since confirmed CP violation,
+indirectly and directly, in decay channels of
+B mesons (those containing bottom quarks),
+where the effect is expected to be particularly
+large. These experiments notably include two
+specially constructed ‘B factories’, the Belle
+detector at KEK in Japan, and BaBar at the
+Stanford Linear Accelerator Center (SLAC),
+in California, which have delivered a series of
+more precise values for the parameters of CP
+violation since 2001.
+The LHCb experiment is LHC’s dedicated
+CP-violation detector. It is a 20-m-long
+spectrometer with a conical detection volume
+expanding in radius along the beam axis. It is
+attuned to detecting the distinctive signature
+of B decays — charged particles with high
+transverse momenta originating from a vertex
+significantly displaced from the interaction
+point of the proton beams.
+To maximize the probability of only a single
+B interaction per beam crossing, the LHC
+beams are defocused slightly to a luminosity
+of around 2.5 × 1032 cm–2s–1, below the LHC’s
+nominal value of 1034 cm–2s–1. The implied
+collision rates and the high energy of the LHC
+beams should allow CP-violation parameters
+to be more tightly constrained and perhaps
+also provide a glimpse of physics beyond the
+standard model.
+Such physics could manifest itself, in
+particular, in ‘penguin’ processes such as
+B0 → K0 φ (see page 270) in which the decay
+of a highly energetic B meson takes place,
+legitimately according to the rules of the weak
+interaction, through an intermediate loop of
+massive particles such as a top quark and a
+W boson (see figure). Does the degree of CP
+violation in such a process differ significantly
+from that found, for example, in the decay
+B0 → K0 J/Ψ, which does not include a penguin
+loop? If so, that could be an indication of new
+physics participating in the penguin loop
+— such as the involvement of supersymmetric
+particles.INSIGHT REVIEW
+NATURE|Vol 448|19 July 2007
+predicted by supersymmetry, if they are not too heavy40. Continued run-
+ning of the LHC at its nominal luminosity would enable many properties
+of the Higgs boson to be verified, for example by providing measurements
+of its couplings to some other particles and checking whether these are
+proportional to the particles’ masses. This period should also enable the
+properties of any other newly discovered particles to be checked, such as
+establishing whether their spins are the same as those of their standard-
+model counterparts or are different.
+What might be possible using the LHC after these planned phases of
+exploitation? One possibility is to add new components to the existing
+ATLAS and CMS detectors that would provide new ways to study the
+Higgs boson. For example, new components close to the beams several
+hundred metres from the interaction points might be able to detect rare
+proton–proton collisions that produce nothing except a single isolated
+Higgs boson41. Another possibility is that supersymmetric or other new
+particles might show up in unexpected ways. For example, in some
+supersymmetric scenarios there would be a metastable charged particle
+that would have quite distinctive experimental signatures42, and it might
+be interesting to devise new detectors to explore this possibility.
+It might also be possible to increase the LHC collision rate significantly
+beyond the nominal value. This possibility would be particularly interest-
+ing if, for example, the initial runs of the LHC discover new physics with
+a very low production rate, perhaps because it has a high energy thresh-
+old. Increasing the LHC collision rate might be possible by redesigning
+the collision points using new magnet technologies; it would also require
+replacing at least some of CERN’s lower-energy accelerators, such as the
+low-energy linear proton accelerator and the Proton Synchrotron, so as
+to feed more intense beams into the LHC43. Technical options for increas-
+ing the LHC collision rate are now being evaluated, so that they can be
+considered when the first experimental results from the initial LHC runs
+become available, some time around 2010.
+Exploitation of the LHC and the study of possible upgrade options
+are among the highest priorities for European particle physics and were
+decided upon at a special meeting of the CERN Council in Lisbon in July
+2006 (ref. 44). Possible future accelerators were also considered, such as a
+linear electron–positron collider or a neutrino factory. The priorities for
+these options will surely depend on the nature and energy scale of what-
+ever new physics beyond the standard model the LHC reveals, as well as on
+developments in other areas such as neutrino physics. A central element in
+the European strategy for particle physics is the need to review advances
+in particle physics in the coming years, and in particular to review the
+implications of any LHC discoveries at the end of this decade.
+Particle physics stands on the brink of a new era. Research using the
+LHC will make the first exploration of physics in the TeV energy range.
+There are good reasons to hope that the LHC will find new physics beyond
+the standard model, but no guarantees. The most one can say for now is
+that the LHC has the potential to revolutionize particle physics, and that
+in a few years’ time we should know what course this revolution will take.
+Will there be a Higgs boson, or not? Will space reveal new properties at
+small distances, such as extra dimensions or supersymmetry? Will experi-
+ments at the LHC cast light on some fundamental cosmological questions,
+such as the origin of matter or the nature of dark matter? Whatever the
+answers to these questions might be or whatever surprises the LHC might
+spring, it will surely set the agenda for the next steps in particle physics.■

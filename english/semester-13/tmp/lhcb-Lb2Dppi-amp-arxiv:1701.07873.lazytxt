@@ -1,0 +1,985 @@
+              1 Introduction
+              Decays of beauty baryons to purely hadronic ﬁnal states provide a wealth of information
+              about the interactions between the fundamental constituents of matter. Studies of direct
+              CP violation in these decays can help constrain the parameters of the Standard Model and
+              New Physics eﬀects in a similar way as in decays of beauty mesons [1–7]. Studies of the
+              decay dynamics of beauty baryons can provide important information on the spectroscopy
+              of charmed baryons, since the known initial state provides strong constraints on the
+              quantum numbers of intermediate resonances. The recent observation of pentaquark
+              states at LHCb [8] has renewed the interest in baryon spectroscopy.
+                  The present analysis concerns the decay amplitude of the Cabibbo-favoured decay
+              Λ0 →D0pπ− (the inclusion of charge-conjugate processes is implied throughout this
+                b
+              paper). A measurement of the branching fraction of this decay with respect to the
+              Λ0 →Λ+π− mode was reported by the LHCb collaboration using a data sample cor-
+                b     c
+                                  −1                                      0      0  −
+              responding to 1.0fb    of integrated luminosity [9]. The Λb → D pπ      decay includes
+              resonant contributions in the D0p channel that are associated with intermediate excited
+              Λ+ states, as well as contributions in the pπ− channel due to excited nucleon (N) states.
+                c
+              The study of the D0p part of the amplitude will help to constrain the dynamics of the
+              Cabibbo-suppressed decay Λ0 → D0pK−, which is potentially sensitive to the angle γ
+                                           b
+              of the Cabibbo-Kobayashi-Maskawa quark mixing matrix [10,11]. The analysis of the
+              D0p amplitude is interesting in its own right. One of the states decaying to D0p, the
+                       +                                     ∗
+              Λc(2940) , has a possible interpretation as a D N molecule [12–20]. There are currently
+                                                                                   +
+              no experimental constraints on the quantum numbers of the Λc(2940)     state.
+                  The mass spectrum of the predicted and observed orbitally excited Λ+ states [21] is
+                                                                                      c
+                                                               +                     +              +
+              shown in Fig. 1. In addition to the ground state Λc and to the Λc(2595)  and Λc(2625)
+              states, which are identiﬁed as the members of the P-wave doublet, a D-wave doublet with
+              higher mass is predicted. One of the members of this doublet could be the state known as
+                           +                                              P       +
+              the Λc(2880) , which is measured to have spin and parity J    =5/2 [22,23], while no
+              candidate for the other state has been observed yet. Several theoretical studies provide
+              mass predictions for this state and other excited charm baryons [21,24–29]. The BaBar
+              collaboration has previously reported indications of a structure in the D0p mass spectrum
+              close to threshold, at a mass around 2.84GeV1, which could be the missing member of
+              the D-wave doublet [30].
+                  This analysis is based on a data sample corresponding to an integrated luminosity
+              of 3.0fb−1 of pp collisions recorded by the LHCb detector, with 1.0fb−1 collected at
+                                    √                             −1   √
+              centre-of-mass energy   s = 7TeV in 2011 and 2.0fb     at  s = 8TeV in 2012.
+                  The paper is organised as follows. Section 2 gives a brief description of the LHCb
+              experiment and its reconstruction and simulation software. The amplitude analysis
+              formalism and ﬁtting technique is introduced in Sec. 3. The selection of Λ0 → D0pπ−
+                                                                                         b
+              candidates is described in Sec. 4, followed by the measurement of signal and background
+              yields (Sec. 5), evaluation of the eﬃciency (Sec. 6), determination of the shape of the
+              background distribution (Sec. 7), and discussion of the eﬀects of momentum resolution
+              (Sec. 8). Results of the amplitude ﬁt are presented in Sec. 9 separately for four diﬀerent
+              regions of the Λ0 → D0pπ− phase space, along with the systematic uncertainties for those
+                              b
+              ﬁts. Section 10 gives a summary of the results.
+                 1Natural units with ~ = c = 1 are used throughout.
+                2 Detector and simulation
+                The LHCb detector [31, 32] is a single-arm forward spectrometer covering the
+                pseudorapidity range 2 < η < 5, designed for the study of particles containing b or
+                c quarks. The detector includes a high-precision tracking system consisting of a silicon-
+                strip vertex detector surrounding the pp interaction region, a large-area silicon-strip
+                detector located upstream of a dipole magnet with a bending power of about 4Tm,
+                and three stations of silicon-strip detectors and straw drift tubes placed downstream of
+                the magnet. The tracking system provides a measurement of momentum, p, of charged
+                particles with relative uncertainty that varies from 0.5% at low momentum to 1.0% at
+                200GeV. The minimum distance of a track to a primary vertex (PV), the impact parame-
+                ter (IP), is measured with a resolution of (15 + 29/p )µm, where p is the component
+                                                                             T                T
+                of the momentum transverse to the beam, in GeV. Diﬀerent types of charged hadrons
+                are distinguished using information from two ring-imaging Cherenkov detectors. Photons,
+                electrons and hadrons are identiﬁed by a calorimeter system consisting of scintillating-pad
+                and preshower detectors, an electromagnetic calorimeter and a hadronic calorimeter.
+                Muons are identiﬁed by a system composed of alternating layers of iron and multiwire
+                proportional chambers.
+                    The online event selection is performed by a trigger [33], which consists of a hardware
+                stage, based on information from the calorimeter and muon systems, followed by a software
+                stage, which applies a full event reconstruction. At the hardware trigger stage, events
+                are required to have a muon with high pT or a hadron, photon or electron with high
+                transverse energy in the calorimeters. The software trigger requires a two-, three- or
+                four-track secondary vertex with signiﬁcant displacement from any PV in the event. At
+                least one charged particle forming the vertex must exceed a pT threshold in the range
+                1.6–1.7GeV and be inconsistent with originating from a PV. A multivariate algorithm [34]
+                is used for the identiﬁcation of secondary vertices consistent with the decay of a b hadron.
+                    In the simulation, pp collisions are generated using Pythia 8 [35] with a speciﬁc
+                LHCb conﬁguration [36]. Decays of hadronic particles are described by EvtGen [37],
+                in which ﬁnal-state radiation is generated using Photos [38]. The interaction of the
+               3 Amplitude analysis formalism
+               The amplitude analysis is based on the helicity formalism used in previous LHCb analyses.
+               Adetailed description of the formalism can be found in Refs. [8,41,42]. This section gives
+               details of the implementation speciﬁc to the decay Λ0 → D0pπ−.
+                                                                     b
+                                                             0        0    −
+               3.1    Phase space of the decay Λ → D pπ
+                                                             b
+               Three-body decays of scalar particles are described by the two-dimensional phase space of
+               independent kinematic parameters, often represented as a Dalitz plot [43]. For baryon
+               decays, in general also the additional angular dependence of the decay products on the
+               polarisation of the decaying particle has to be considered.
+                  Avector of ﬁve kinematic variables (denoted Ω) describes the phase space of the decay
+               Λ0 → D0pπ−. The kinematic variables are the two Dalitz plot variables, namely the
+                 b
+               invariant masses squared of the D0p and pπ− combinations M2(D0p) and M2(pπ−), and
+               three angles that determine the orientation of the three-body decay plane (Fig. 2). These
+               angles are deﬁned in the rest frame of the decaying Λ0 baryon with the xˆ axis given by
+                                                                      b
+               the direction of the Λ0 baryon in the laboratory frame, the polarisation axis zˆ given by
+                                     b
+               the cross-product of beam direction and xˆ axis, and the yˆ axis given by the cross-product
+               of the zˆ and xˆ axes. The angular variables are the cosine of the polar angle cosϑp, and
+               the azimuthal angle ϕ of the proton momentum in the reference frame deﬁned above
+                                      p
+               (Fig. 2(a)), and the angle ϕ     between the D0π− plane and the plane formed by the
+                                            Dπ
+               proton direction and the polarisation axis zˆ (Fig. 2(b)).
+               3.2    Helicity formalism
+               The baseline amplitude ﬁt uses the helicity formalism where the interfering amplitude
+               components are expressed as sequential quasi-two-body decays Λ0 → Rπ−, R → D0p
+                                                                                    b
+               (where R denotes the intermediate resonant or nonresonant state). The decay amplitude
+                                                           3
+                for a Λ0 baryon with spin projection µ decaying via an intermediate state R with helicity
+                        b
+                λ into a ﬁnal state with proton helicity λ is
+                where J      =1/2 and J are the spins of the Λ baryon and the R state, d                    (θ) are
+                         Λb                R                           b                               λ1,λ2
+                the reduced Wigner functions, and a          and b     are complex constants (couplings). The
+                                                          λ         λp
+                                                           R
+                mass-dependent complex lineshape R(M2) deﬁnes the dynamics of the R decay. The
+                angles deﬁning the helicity amplitude are the polar (θ ) and azimuthal (φ ) angles of
+                                                                               R                      R
+                the intermediate state R in the reference frame deﬁned above, and the polar (θp) and
+                azimuthal (φp) angles of the ﬁnal-state proton in the frame where the intermediate state
+                Ris at rest and the polar axis points in the direction of R in the Λ0 rest frame. All of
+                                                                                              b
+                these angles are functions of the ﬁve phase space variables Ω deﬁned previously and thus
+                do not constitute additional degrees of freedom.
+                    The strong decay R → D0p conserves parity, which implies that
+                where J = 1/2, J = 0 and J are the spins of the proton, D0 meson and resonance R,
+                         p           D            R
+                respectively, and ηp = +1, ηD = −1 and ηR are their parities. This relation reduces the
+                number of free parameters in the helicity amplitudes: |b | is absorbed by a             , and each
+                                                                               λ                      λ
+                                                                                 p                     R
+                coeﬃcient a      enters the amplitude multiplied by a factor η       =±1. The convention used
+                As a result, only two couplings aλ     remain for each intermediate state R, corresponding to
+                                                     R
+                                                                                                                 ±
+                its two allowed helicity conﬁgurations. The two couplings are denoted for brevity as a .
+                    The amplitude, for ﬁxed µ and λ , after summation over the intermediate resonances
+                                                         p
+                R and their two possible helicities λ        =±1/2is
+                                                                                                                (4)
+                To obtain the decay probability density, the amplitudes corresponding to diﬀerent po-
+                larisations of the initial- and ﬁnal-state particles have to be summed up incoherently.
+                The Λ0 baryons produced in pp collisions can only have polarisation transverse to the
+                        b
+                production plane, i.e. along the zˆ axis. The longitudinal component is forbidden due to
+                parity conservation in the strong processes that dominate Λ0 production. In this case, the
+                                                                                  b
+                probability density function (PDF) of the kinematic variables that characterise the decay
+                of a Λ0 with the transverse polarisation P , after summation over µ and λ , is proportional
+                       b                                      z                                  p
+                to                                        X
+                                  Equations (4) and (5) can be combined to yield the simpliﬁed expression:
+                                 where J                      is the highest spin among the intermediate resonances and p and q are
+                                                     max                                                                                                                                                          n                  n
+                                  functions of only M2(D0p). As a consequence, p(Ω,P ) does not depend on the azimuthal
+                                                                                                                                                            z
+                                  angles φ and φ . Dependence on the angle θ appears only if the Λ0 is polarised. In the
+                                                     p                R                                                                    R                                                     b
+                                  unpolarised case the density depends only on the internal degrees of freedom M2(D0p)
+                                  and θ (which in turn can be expressed as a function of the other Dalitz plot variable,
+                                               p
+                                  M2(pπ−)). Moreover, after integration over the angle θ , the dependence on polarisation
+                                                                                                                                                                  R
+                                  cancels if the detection eﬃciency is symmetric over cosθ . Since Λ0 polarisation in pp
+                                                                                                                                                                         R                         b
+                                  collisions is measured to be small (P = 0.06±0.07±0.02, [44]) and the eﬃciency is highly
+                                                                                                                    z
+                                  symmetric in cosθR, the eﬀects of polarisation can safely be neglected in the amplitude
+                                  analysis, and only the Dalitz plot variables ω = (M2(D0p),M2(pπ−)) need to be used to
+                                  describe the probability density p(ω) of the decay. The density p(ω) is given by Eq. (5)
+                                 with P = 0 such that no dependence on the angles ϑ , ϕ or ϕ                                                                                                  remains.
+                                                 z                                                                                                             p        p             Dπ
+                                          Up to this point, the formalism has assumed that resonances are present only in
+                                  the D0p channel. While in the case of Λ0 → D0pπ− decays the regions of phase space
+                                                                                                                                   b
+                                 with contributions from D0p and pπ− resonances are generally well separated, there
+                                  is a small region where they can overlap, and thus interference between resonances in
+                                  the two channels has to be taken into account. In the helicity formalism, the proton
+                                  spin-quantisation axes are diﬀerent for the helicity amplitudes corresponding to D0p and
+                                  pπ− resonances [8]: they are parallel to the proton direction in the D0p and pπ− rest
+                                  frames, and are thus antiparallel to the π− and D0 momenta, respectively. The rotation
+                                  angle between the two spin-quantisation axes is given by
+                                 where p~(p) and p~(p) are the momenta of the π− and D0 mesons, respectively, in the proton
+                                                   π−                   D0
+                                  rest frame.
+                                          If the proton spin-quantisation axis is chosen with respect to the D0p resonances and
+                                                                                                                                                                        0                                                     −
+                                  the helicity basis is denoted as |λ i, the helicity states |λ i corresponding to pπ                                                                                                              states
+                                                                                                                p                                                       p
+                                  are                                                                                       X
+                                  and thus the additional terms in the amplitude (Eq. (4)) related to the pπ− channel are
+                                  expressed as
+                                 where the angles θ , φ , θ                                       and φ are deﬁned in a similar way as θ , φ , θ                                                                     and φ , but
+                                 with the intermediate state R in the pπ− channel.
+                                                                                                                                        5
+                3.3     Resonant and nonresonant lineshapes
+                The part of the amplitude that describes the dynamics of the quasi-two-body decay,
+                R(M2), is given by one of the following functions. Resonances are parametrised with
+                relativistic Breit–Wigner lineshapes multiplied by angular barrier terms and corrected by
+                Blatt–Weisskopf form factors [45]:
+                with mass-dependent width Γ(M) given by
+                where m and Γ are the pole parameters of the resonance. The Blatt–Weisskopf form
+                          R        0
+                factors for the resonance, F (M,L ), and for the Λ0, F 0(M,L 0), are parametrised as
+                where the deﬁnitions of the terms z(M) and z0 depend on whether the form factor for
+                the resonance R or for the Λ0 is being considered. For R these terms are given by
+                                                   b
+                z(M)=p(M)d and z =p d, where p(M) is the centre-of-mass momentum of the decay
+                                        0     0
+                products in the two-body decay R → D0p with the mass of the resonance R equal to M,
+                p ≡p(m ), and d is a radial parameter taken to be 1.5GeV−1. For Λ0 the respective
+                  0        R                                                                      b
+                functions are z(M) = q(M)d and z0 = q0d, where q(M) is the centre-of-mass momentum
+                of decay products in the two-body decay Λ0 → Rπ−, q = q(m ), and d = 5.0GeV−1.
+                                                                   b            0         R
+                The analysis is very weakly sensitive to the values of d, and these are varied in a wide
+                range for assessing the associated systematic uncertainty (Sec. 9.2).
+                    The mass-dependent width and form factors depend on the orbital angular momenta
+                of the two-body decays. For the weak decay of the Λ0, the minimum possible angular
+                                                                              b
+                momentum L 0 = J −1/2 (where J is the spin of the resonance) is taken, while for the
+                                Λb
+                strong decay of the intermediate resonance, the angular momentum LR is fully determined
+                                                               LR+1
+                by the parity of the resonance, P = (−1)            , and conservation of angular momentum,
+                which requires LR = J ±1/2.
+                    Twoparametrisationsareusedfornonresonantamplitudes: exponentialandpolynomial
+                functions. The exponential nonresonant lineshape [46] used is
+                where α is a shape parameter. The polynomial nonresonant lineshape [47] used is
+                    where ∆M =M −M , and M is a constant that is chosen to minimise the correlations
+                                                   0            0
+                    between the coeﬃcients a when they are treated as free parameters. In the case of the
+                                                         i
+                    D0p amplitude ﬁt, M is chosen to be near the middle of the ﬁt range, M ≡ 2.88GeV.
+                                                   0                                                                           0
+                    In both the exponential and the polynomial parametrisations, M0 also serves as the
+                    resonance mass parameter in the deﬁnition of p0 and q0 in the angular barrier terms. Note
+                    that in Ref. [47] the polynomial form was introduced to describe the slow variations of
+                    a nonresonant amplitude across the large phase space of charmless B decays, and thus
+                    the parameters a were deﬁned as complex constants to allow slow phase motion over the
+                                            i
+                    wide range of invariant masses. In the present analysis, the phase space is much more
+                    constrained and no signiﬁcant phase rotation is expected for the nonresonant amplitudes.
+                    The coeﬃcients a thus are taken to be real.
+                                             i
+                         Tostudy the resonant nature of the D0p states, model-independent parametrisations of
+                    the lineshape are used. One approach used here consists of interpolation with cubic splines,
+                    done independently for the real and imaginary parts of the amplitude (referred to as the
+                    “complex spline” lineshape) [48]. The free parameters of such a ﬁt are the real Re(Ri)
+                    and imaginary Im(R ) parts of the amplitude at the spline knot positions. Alternatively,
+                                                  i
+                    to assess the signiﬁcance of the complex phase rotation in a model-independent way, a
+                    spline-interpolated shape is used in which the imaginary parts of the amplitude at all
+                    knots are ﬁxed to zero (“real spline”).
+                    3.4        Fitting procedure
+                    An unbinned maximum likelihood ﬁt is performed in the two-dimensional phase space
+                    ω =(M2(D0p),M2(pπ−)). Deﬁning L as the likelihood function, the ﬁt minimises
+                    where the summation is performed over all candidates in the data sample and ptot is the
+                    normalised PDF. It is given by
+                    where p(ω) is the signal PDF, pbck(ω) is the background PDF, (ω) is the eﬃciency, and
+                    N and N            are the signal and background normalisations:
+                                  bck
+                    and                                                        Z
+                    where the integrals are taken over the part of the phase space D used in the ﬁt (Section 5),
+                    and n        and n        are the numbers of signal and background events in the signal region,
+                             sig         bck
+                    respectively, evaluated from a ﬁt to the M(D0pπ−) invariant mass distribution. The
+                    normalisation integrals are calculated numerically using a ﬁne grid with 400 × 400 cells
+                    in the baseline ﬁts; the numerical uncertainty is negligible compared with the other
+                    uncertainties in the analysis.
+                                                                                  7
+                3.5     Fit parameters and ﬁt fractions
+                                                                     ±
+                The free parameters in the ﬁt are the couplings a      for each of the amplitude components
+                and certain parameters of the lineshapes (such as the masses and/or widths of the resonant
+                states, or shape parameters of the nonresonant lineshapes). Since the overall normalisation
+                of the density is arbitrary, one of the couplings can be set to unity. In this analysis,
+                                  +                         +
+                the convention a     ≡ 1 for the Λc(2880)      state is used. Additionally, the amplitudes
+                corresponding to diﬀerent helicity states of the initial- and ﬁnal-state particles are added
+                                                                     +       −
+                incoherently, so that the relative phase between a     and a for one of the contributions is
+                                                  −                        +
+                arbitrary. The convention Im(a ) ≡ 0 for the Λc(2880)         is used.
+                   The deﬁnitions of the polynomial and spline-interpolated shapes already contain terms
+                that characterise the relative magnitudes of the corresponding amplitudes. The couplings
+                for them are deﬁned in such a way as to remove the additional degree of freedom from
+                the ﬁt. For the polynomial and real spline lineshapes, the following couplings are used:
+                                                +      iφ      −            iφ
+                                               a =re +, a =(1−r)e −,                                       (19)
+                where r, φ+ and φ− are free parameters. For the complex spline lineshape, a similar
+                parametrisation is used with φ+ ﬁxed to zero, since the complex phase is already included
+                in the spline deﬁnition.
+                   The observable decay density for an unpolarised particle in the initial state does not
+                allow each polarisation amplitude to be obtained independently. As a result, the couplings
+                 ±
+                a in the ﬁt can be strongly correlated. However, the size of each contribution can be
+                characterised by its spin-averaged ﬁt fraction
+                If all the components correspond to partial waves with diﬀerent spin-parities, the sum
+                of the spin-averaged ﬁt fractions will be 100%; otherwise it can diﬀer from 100% due to
+                interference eﬀects. The statistical uncertainties on the ﬁt fractions are obtained from
+                ensembles of pseudoexperiments.
+                3.6     Evaluation of ﬁt quality
+                                                        2
+                To assess the goodness of each ﬁt, a χ value is calculated by summing over the bins of the
+                two-dimensional Dalitz plot. Since the amplitude is highly non-uniform and a meaningful
+                χ2 test requires a certain minimum number of entries in each bin, an adaptive binning
+                method is used to ensure that each bin contains at least 20 entries in the data.
+                   Since the ﬁt itself is unbinned, some information is lost by the binning. The number of
+                                              2
+                degrees of freedom for the χ test in such a case is not well deﬁned. The eﬀective number
+                of degrees of freedom (ndfeﬀ) should be in the range Nbins −Npar −1 ≤ ndfeﬀ ≤ Nbins −1,
+                where N      is the number of bins and N        is the number of free parameters in the ﬁt.
+                         bins                                par
+                For each ﬁt, ndfeﬀ is obtained from ensembles of pseudoexperiments by requiring that the
+                probability value for the χ2 distribution with ndf       degrees of freedom, P(χ2,ndf ), is
+                                                                      eﬀ                                 eﬀ
+                distributed uniformly.
+                                                               8
+                  Note that when two ﬁts with diﬀerent models have similar binned χ2 values, it does
+              not necessarily follow that both models describe the data equally well. Since the bins in
+              regions with low population density have large area, the binning can obscure features that
+              could discriminate between the models. This information is preserved in the unbinned
+              likelihood. Thus, discrimination between ﬁt models is based on the diﬀerence ∆lnL, the
+              statistical signiﬁcance of which is determined using ensembles of pseudoexperiments. The
+              binned χ2 serves as a measure of the ﬁt quality for individual models and is not used to
+              discriminate between them.
+              4 Signal selection
+              The analysis uses the decay Λ0 → D0pπ−, where D0 mesons are reconstructed in the ﬁnal
+                                           b
+              state K−π+. The selection of Λ0 candidates is performed in three stages: a preliminary
+                                              b
+              selection, a kinematic ﬁt, and a ﬁnal selection. The preliminary selection uses loose criteria
+              on the kinematic and topological properties of the Λ0 candidate. All tracks forming a
+                                                                   b
+              candidate, as well as the Λ0 and D0 vertices, are required to be of good quality and be
+                                         b
+              separated from every PV in the event. The separation from a PV is characterised by a
+                         2                                          2
+              quantity χ , deﬁned as the increase in the vertex-ﬁt χ when the track (or combination
+                         IP
+              of tracks corresponding to a short-lived particle) is included into the vertex ﬁt. The tracks
+              forming a D0 candidate are required to be positively identiﬁed as a pion and a kaon, and
+              the Λ0 and D0 decay vertices are required to be downstream of their production vertices.
+                    b
+              All of the tracks are required to have no associated hits in the muon detector.
+                  For candidates passing this initial selection, a kinematic ﬁt is performed [49]. Con-
+              straints are imposed that the Λ0 and D0 decay products originate from the corresponding
+                                             b
+              vertices, that the Λ0 candidate originate from its associated PV (the one with the smallest
+                                 b
+                        2           0                              0
+              value of χ   for the Λ ), and that the mass of the D candidate be equal to its known
+                        IP          b
+              value [23]. The kinematic ﬁt is required to converge with a good χ2, and the mass of
+              the Λ0 candidate after the ﬁt is required to be in the range 5400–5900MeV. To suppress
+                    b
+              background from charmless Λ0 → pK−π+π− decays, the decay time signiﬁcance of the D0
+                                           b
+              candidate obtained after the ﬁt is required to be greater than one standard deviation. To
+              improve the resolution of the squared invariant masses M2(D0p) and M2(pπ−) entering the
+              amplitude ﬁt, the additional constraint that the invariant mass of the D0pπ− combination
+              be equal to the known Λ0 mass [23] is applied when calculating these variables.
+                                       b
+                  After the initial selection, the background in the region of the Λ0 → D0pπ− signal is
+                                                                                 b
+              dominated by random combinations of tracks. The ﬁnal selection is based on a boosted
+              decision tree (BDT) algorithm [50,51] designed to separate signal from this background.
+              Theselection is trained using simulated Λ0 → D0pπ− events generated uniformly across the
+                                                      b
+              phase space as the signal sample, and the sample of opposite-ﬂavour D0pπ−, D0 → K+π−
+              combinations from data as background. In total, 12 discriminating variables are used in
+              the BDT selection: the χ2 of the kinematic ﬁt, the angle between the momentum and the
+              direction of ﬂight of the Λ0 candidate, the χ2 of the Λ0 and D0 vertex ﬁts, the lifetime
+                                        b                           b
+                                   0                                0             2
+              signiﬁcance of the D candidate with respect to the Λ vertex, the χ     of the ﬁnal-state
+                                                                    b             IP
+              tracks and the D0 candidate, and the particle identiﬁcation (PID) information of the
+              proton and pion tracks from the Λ0 vertex. Due to diﬀerences between simulation and
+                                                 b
+              data, corrections are applied to all the variables from the simulated sample used in the
+              BDTtraining, except for the PID variables. These corrections are typically about 10%
+                                                         9
+               and are obtained from a large and clean sample of Λ0 → Λ+π− decays. The simulated
+                                                                     b     c
+               proton and pion PID variables are replaced with values generated using distributions
+               obtained from calibration samples of D∗+ → D0π+ and Λ+ → pK−π+ decays in data.
+                                                                           c
+               For these calibration samples, the four-dimensional distributions of PID variable, pT, η
+               and the track multiplicity of the event are described using a nonparametric kernel-based
+               procedure [52]. The resulting distributions are used to generate PID variables for each
+               pion or proton track given its pT, η and the track multiplicity in the simulated event.
+                  The BDT requirement is chosen such that the fraction of background in the signal
+               region used for the subsequent amplitude ﬁt, |M(D0pπ−)−m(Λ0)| < 30MeV, does not
+                                                                                b
+               exceed 15%. This corresponds to a signal eﬃciency of 66% and a background rejection of
+               96% with respect to the preliminary selection. After all selection requirements are applied,
+               fewer than 1% of selected events contain a second candidate. All multiple candidates are
+               retained; the associated systematic uncertainty is negligible.
+               5 Fit regions and event yields
+               The Dalitz plot of selected events, without background subtraction or eﬃciency correction,
+               in the signal D0pπ− invariant mass range deﬁned in Sec. 4 is shown in Fig. 3(a). The
+               part of the phase space near the D0p threshold that contains contributions from Λ∗+
+                                                                                                     c
+               resonances is shown in Fig. 3(b). The latter uses M(D0p) as the horizontal axis instead
+               of M2(D0p).
+                  In Fig. 3, the four amplitude ﬁt regions of the Λ0 → D0pπ− phase space are indicated.
+                                                                  b
+               These are denoted regions 1–4. Region 1, M(D0p) > 3GeV and M(pπ−) > 2GeV,
+               is the part of the phase space that does not include resonant contributions and is
+               used only to constrain the nonresonant pπ− amplitude in the D0p regions. Region 2,
+                            0                                                   +
+               2.86 < M(D p) < 2.90GeV, contains the well-known Λc(2880)           state and is used to
+                measure its parameters and to constrain the slowly varying amplitude underneath it in a
+                model-independent way. The ﬁt in region 3 near the D0p threshold, M(D0p) < 2.90GeV,
+                provides additional information about the slowly-varying D0p amplitude. Finally, the ﬁt
+                in region 4, M(D0p) < 3.00GeV, which includes the Λ (2940)+ state, gives information
+                                                                           c
+                about the properties of this resonance and the relative magnitudes of the resonant and
+                nonresonant contributions. Note that region 2 is fully contained in region 3, while region
+                3 is fully contained in region 4.
+                   The signal and background yields in each region are obtained from extended unbinned
+                maximum likelihood ﬁts of the D0pπ− invariant mass distribution in the range 5400–
+                5900MeV. The ﬁt model includes the signal component, a contribution from random
+                combinations of tracks (combinatorial background) and the background from partially
+                reconstructed Λ0 → D∗0pπ− decays (where D∗0 decays into D0π0 or D0γ and the π0 or γ
+                                b
+                are not included in the reconstruction).
+                   The signal component is modelled as the sum of two Crystal Ball functions [53] with
+                the same most probable value and power-law tails on both sides. All parameters of the
+                model are ﬁxed from simulation except for the peak position and a common scale factor
+                for the core widths, which are ﬂoated in the ﬁt to data. The combinatorial background is
+                parametrised by an exponential function, and the partially reconstructed background is
+                described by a bifurcated Gaussian distribution. The shape parameters of the background
+                distributions are free parameters of the ﬁt.
+                   The results of the ﬁt for candidates in the entire D0pπ− phase space are shown in
+                Fig. 4. The background and signal yields in the entire D0pπ− phase space, as well as in
+                the regions used in the amplitude ﬁt, are given in Table 1.
+                                                              11
+               6 Eﬃciency variation over the Dalitz plot
+               Thesamesampleofsimulatedeventsasintheselectiontraining(Sec.4)isusedtodetermine
+               the variation of the eﬃciency across the Dalitz plot. The sample is generated uniformly
+                                                                                     4  0       0   −
+               in the decay phase space and consists of approximately 8 × 10 Λb → D pπ                events
+               satisfying the selection requirements. Each simulated event is assigned a weight, derived
+               from control samples of data, to correct for known diﬀerences in track reconstruction
+               and hardware trigger eﬃciency between data and simulation. Since the PID variables in
+               the sample are replaced by those generated from calibration data, the eﬃciency of PID
+               requirements is included in the eﬃciency calculation and does not need to be treated
+               separately.
+                   The Dalitz plot eﬃciency proﬁle is calculated separately for two disjoint sets of
+               candidates, deﬁned according to whether the hardware trigger was activated by one of
+               the Λ0 decay products or by other particles in the event. For each of those samples, a
+                     b
+               kernel-based density estimation procedure with a correction for boundary eﬀects [52] is
+               used to obtain a description of the relative eﬃciency as a function of the Dalitz plot
+               variables. The overall eﬃciency is then given by the average of the two proﬁles, weighted
+               according to the ratio of yields of the two classes of events in data. The resulting proﬁle
+               is shown in Fig. 5(a). The normalisation of the eﬃciency proﬁle used in the amplitude ﬁt
+               likelihood (Eqs. (15) and (16)) does not aﬀect the result. The eﬃciency proﬁle shown in
+               Fig. 5(a) is normalised such that the average eﬃciency over the phase space is equal to
+               unity.
+               7 Background distribution
+               Background in the vicinity of the Λ0 → D0pπ− invariant mass peak is dominated by
+                                                       b
+               randomcombinationsofD0 mesons, proton, and pion tracks. To determine the background
+               shape as a function of Dalitz plot variables M2(D0p) and M2(pπ−), the Λ0 mass sidebands
+                                                                                           b
+               are used: 5500 < M(D0pπ−) < 5560MeV and 5680 < M(D0pπ−) < 5900MeV. The same
+               procedure is applied to the opposite-ﬂavour D0pπ− sample to verify that the background
+               shape in the mass sidebands is representative of that in the signal window. Good agreement
+               is found.
+                   The background distribution as a function of the Dalitz plot variables is estimated
+                                                             12
+                   8 Eﬀect of momentum resolution
+                   Finite momentum resolution smears the structures in the Dalitz plot. The use of the
+                   kinematic ﬁt with Λ0 and D0 mass constraints signiﬁcantly improves the resolution near
+                                             b
+                   the edges of the phase space, but less so in the central region. The only structure in
+                   the Λ0 → D0pπ− amplitude that is expected to be aﬀected by the ﬁnite resolution is the
+                          b
+                                           +
+                   resonance Λc(2880) , which has a natural width of approximately 6MeV. Therefore, only
+                   the M(D0p) resolution is considered, and is obtained from a sample of simulated events by
+                   comparing the generated and reconstructed values of M(D0p). The width of the resolution
+                   function at M(D0p) = 2.88GeV is 1.1MeV, i.e. signiﬁcantly smaller than the natural
+                                               +
+                   width of the Λc(2880) . However, simulation shows that neglecting the resolution would
+                                                         +                                                      0
+                   lead to a bias on the Λc(2880)           width of about 10%. Therefore, the M(D p) resolution is
+                   taken into account in the ﬁt by convolving the signal PDF with a Gaussian resolution
+                   function, where the width of the Gaussian is a function of M(D0p).
+                                                                          13
+               9 Amplitude analysis
+               The amplitude ﬁt is performed in the four phase space regions deﬁned in Fig. 3. This
+               approach has been chosen instead of performing the ﬁt to the entire Dalitz plot since
+               the amplitude contains many unexplored contributions. The full ﬁt would include too
+               many degrees of freedom and a very large range of systematic variations would need to be
+               considered. Instead, the ﬁt is ﬁrst performed around the well-known resonance Λ (2880)+
+                                                                                                  c
+               and then the ﬁtting region is gradually extended to include a larger portion of the phase
+               space.
+               9.1    Fit in the nonresonant region
+               The ﬁt in region 1, where no signiﬁcant resonant contributions are expected, provides
+               constraints on the high-mass behaviour of the pπ− amplitude, and thus on the pπ−
+               partial waves in the D0p ﬁt regions. The ﬁt model includes four exponential nonresonant
+               components (Eq. (13)) in each of the D0p and pπ− spectra, corresponding to the four
+               combinations of spin (1/2 and 3/2) and parity (negative and positive). Since there is no
+               reference amplitude with known parity in this region, there is an ambiguity: all parities
+               can be reversed simultaneously without changing the amplitude. The shape parameters α
+               of all eight nonresonant components are varied in the ﬁt.
+                   The projections of the ﬁtted data are shown in Fig. 6. The ﬁtted pπ− amplitude is
+               extrapolated into the regions 2–4 of the Λ0 → D0pπ− phase space using the ﬁtted helicity
+                                                          b
+               distributions. The estimated contributions of the pπ− nonresonant components in the
+               D0p mass regions are given in Table 2 and compared with the total numbers of signal
+               events in those regions. They amount to less than 1% of the signal yield for the regions
+               2 and 3, and around 1.5% for region 4. Therefore, the baseline ﬁt models for regions 2
+               and 3 do not include pπ− crossfeed (although it is taken into account as a part of the
+               uncertainty due to modelling of nonresonant amplitudes), while for region 4 the pπ−
+               nonresonant component is included in the model. Since only a small part of the pπ−
+               helicity distribution enters the D0p ﬁt region, the spin and parity assignment of the pπ−
+                                                                                         P       −
+               amplitude should have a very small eﬀect. Thus only one partial wave (J     =1/2 ) of the
+               nonresonant pπ− component is included for the D0p amplitude ﬁt.
+               9.2    Fit in the region of Λc(2880)+
+               Next, an amplitude ﬁt is performed in region 2, in the vicinity of the well-established
+                        +
+               Λc(2880)   resonance. The quantum numbers of this state have been measured by the
+                                                           14
+                                            P        +                                                       0
+                Belle collaboration to be J   =5/2 [22,23]. The ﬁt probes the structure of the wide D p
+                amplitude component underneath the Λ (2880)+ peak using the shape of the latter as a
+                                                           c
+                                           +
+                reference. Other Λc(2880)     spin assignments from 1/2 to 7/2 are also tried (spin 7/2 was
+                not tested in the Belle analysis [22]). Since the amplitude is not sensitive to the absolute
+                                                                         +
+                parities of the components, the parity of the Λc(2880)      is always ﬁxed to be positive; the
+                parities of the other amplitude components are determined relative to its parity.
+                   As for region 1, the nonresonant amplitude model consists of four contributions with
+                spins 1/2 and 3/2 and both parities. The nonresonant components are parametrised either
+                with the exponential model of Eq. 13 (“Exponential”), or the amplitude with both real
+                and imaginary parts varying linearly in M2(D0p) (“Linear”, which is a special case of the
+                                                                                                              +
+                spline-interpolated shape with only two knots). The mass and width of the Λc(2880)
+                state are free parameters.
+                                                         +
+                   The model in which the Λc(2880)         has spin 5/2 is preferred for both nonresonant
+                models, while the diﬀerence between exponential and linear models is negligible. The
+                model with spin 5/2 and linear nonresonant amplitude parametrisation is taken as the
+                baseline. Table 3 gives the diﬀerences in lnL compared to the baseline, along with the
+                χ2 values and the associated probabilities. The quality of the ﬁt is obtained using the
+                adaptive binning approach with at least 20 data entries in each bin and with the eﬀective
+                number of degrees of freedom ndfeﬀ obtained from pseudoexperiments. The results of the
+                ﬁt with the baseline model are shown in Fig. 7.
+                   Argand diagrams illustrating the amplitude and phase motion of the ﬁt components
+                are shown in Fig. 8. The plots contain a hint of phase rotation for the JP = 3/2+ partial
+                wave in a counter-clockwise direction, consistent with the resonance-like phase motion
+                observed in the near-threshold ﬁt (Sec. 9.3). The statistical signiﬁcance of this eﬀect is
+                studied with a series of pseudoexperiments where the samples are generated according
+                to the ﬁt where the complex phase in all the nonresonant components is constant. Each
+                is ﬁtted with two models, with the complex phase constrained to be the same for both
+                endpoints, and ﬂoated freely. The distribution of the logarithmic likelihood diﬀerence
+                ∆lnLbetween the two ﬁts is studied and compared to the value obtained in data. The
+                                                              15
+                study shows that around 55% of the samples have ∆lnL greater than the value observed
+                in data (1.4), i.e. this eﬀect is not statistically signiﬁcant with the data in region 2 alone.
+                   Ensembles of pseudoexperiments, where the baseline model is used both to generate
+                and to ﬁt samples of the same size as in the data, are used to validate the statistical
+                   uncertainties obtained from the ﬁt, check for systematic biases due to the ﬁtting procedure,
+                   evaluate the statistical uncertainties on the ﬁt fractions, and obtain the eﬀective number
+                                                                                                               2
+                   of degrees of freedom for the ﬁt quality evaluation based on a binned χ measure.
+                       The unbinned maximum likelihood ﬁt is unbiased only in the limit of a large data
+                   sample; in general a ﬁt to a ﬁnite sample can exhibit a bias that is usually signiﬁcantly
+                   smaller than the statistical uncertainty. Pseudoexperiments are used to evaluate and
+                                                                                                     +
+                   correct for such biases on the mass and the width of the Λc(2880)                    state, as well as on the
+                   ﬁt fractions of the amplitude components obtained from the ﬁt. The corrected values are
+                   The uncertainties are statistical only. Correlations between the ﬁt parameters do not
+                   exceed 20%. Since all the amplitude components have diﬀerent quantum numbers, the
+                   interference terms cancel out after integrating over the phase space, and the sum of
+                                                                          17
+              uncorrected ﬁt fractions is exactly 100%. After the bias correction is applied individually
+              for each ﬁt fraction, statistical ﬂuctuations in the corrections lead to a small, statistically
+              not signiﬁcant, diﬀerence from 100% (in this case, the sum of ﬁt fractions increases to
+              102.6%).
+                                                                                   +
+                  Anumber of experimental systematic uncertainties on the Λc(2880)   mass and width
+              and on the diﬀerence ∆lnL between the baseline (5/2) and the next-best (7/2) spin
+              assignments are considered and are given in Table 4. These arise from:
+                 1. Uncertainty on the background fraction in the signal region (Sec. 5). The statistical
+                    uncertainty is obtained from the ﬁt to the M(D0pπ−) distribution, and a systematic
+                    uncertainty arising from the modelling of the signal and background M(D0pπ−)
+                    distributions is estimated by performing ﬁts with modiﬁed M(D0pπ−) models. The
+                    sum in quadrature of these contributions is taken as the systematic uncertainty.
+                 2. Uncertainty on the eﬃciency proﬁle (Sec. 6). The statistical uncertainty is evaluated
+                    via a bootstrapping procedure [54]. The uncertainty related to the kernel density
+                    estimation procedure is obtained by varying the kernel size. The uncertainty due
+                    to diﬀerences between data and simulation in the input variables of the BDT is
+                    estimated by varying the scaling factors for these variables. In addition, the replace-
+                    ment of simulated proton and pion PID variables with values drawn from control
+                    samples in the data with matching kinematics, described in Section 4, introduces
+                    further systematic uncertainties. The uncertainty associated with the limited size of
+                    these control samples is evaluated again with a bootstrapping procedure, and the
+                    uncertainty associated with the kinematic matching process is assessed by changing
+                    the kernel size in the nonparametric algorithm used to estimate the PID response
+                    as a function of the kinematic properties of the track.
+                 3. Uncertainty on the background shape (Sec. 7). This is assessed by varying the
+                    density estimation procedure (changing the number of Gaussian cores in the mixture
+                    model, or using kernel density estimation instead of a Gaussian mixture model),
+                    and by using only a narrower upper sideband of the M(D0pπ−) distribution, 5680 <
+                    M(D0pπ−) < 5780MeV. The statistical uncertainty due to the ﬁnite size of the
+                    background sample is estimated by bootstrapping.
+                 4. Uncertainty on the momentum resolution (Sec. 8). This is estimated by varying the
+                      2   0                                                              +
+                    M (D p) resolution by 15%. It mainly aﬀects the width of the Λc(2880)  resonance.
+                 5. Uncertainties on the mass scale. Due to the constraints on the hadron masses,
+                    the momentum scale uncertainty of the detector has a negligible eﬀect on the ﬁt.
+                    However, the uncertainties on the assigned mass values themselves do contribute. For
+                    M(D0p)amplitudes the dominant contribution comes from the D0 mass uncertainty.
+                 6. Uncertainty on the ﬁt procedure itself. This is assessed by ﬁtting ensembles of
+                    pseudoexperiments, where the baseline amplitude model is used for both generation
+                    and ﬁtting, and the number of events generated for each pseudoexperiment is equal
+                    to the number of events in the data sample. The mean value for each ﬁtted parameter
+                    is used as a correction for ﬁtting bias, while the statistical uncertainty on the mean
+                    is taken as the uncertainty due to the ﬁt procedure.
+                                                        18
+                The uncertainties on the D0 mass and the ﬁt procedure do not aﬀect the signiﬁcance of
+                the quantum number assignment and are thus not included in ∆lnL uncertainty.
+                   Also reported in Table 4 is the uncertainty related to the amplitude model. It
+                consists of two contributions, corresponding to the uncertainties in the modelling of the
+                                   +
+                resonant Λc(2880)     shape and the nonresonant amplitudes. The model uncertainties
+                are asymmetric, and the positive and negative uncertainties for the two components are
+                combined in quadrature separately to obtain the total model uncertainty.
+                                                                                                  +
+                   The uncertainty due to the Breit–Wigner parametrisation of the Λc(2880)          amplitude
+                is estimated by varying the radial parameters r 0 and r           + between 0 and 10GeV−1
+                                                                  Λ        Λ (2880)
+                                                                    b       c
+                and 0 and 3GeV−1, respectively, and by removing the angular barrier factor from the
+                Breit–Wigner amplitude. The maximum deviation is taken as the uncertainty.
+                   The uncertainty due to the modelling of the nonresonant amplitudes is estimated by
+                taking the diﬀerence between the ﬁt results obtained with the default linear nonresonant
+                model and the alternative exponential model. The possible crossfeed from the pπ− channel
+                                             P        −                         −
+                is estimated by adding a J      =1/2 component in the pπ channel to the amplitude.
+                This component has a ﬁxed exponential lineshape with shape parameter α = 0.5GeV−2
+               (obtained in the ﬁt to region 1 data) and its complex couplings are free parameters in the
+                ﬁt.
+                   Thehelicity formalism used to describe the amplitudes is inherently non-relativistic. To
+                assess the model uncertainty due to this limitation, an alternative description is obtained
+                with covariant tensors using the qft++ framework [55], but it is much more expensive from
+                a computational point of view and is therefore not used for the baseline ﬁts. Diﬀerences
+                between the helicity and the covariant formalism are mainly associated with the broad
+                amplitude components and are therefore treated as a part of the uncertainty due to the
+                nonresonant model. Although this contribution is included in the nonresonant model
+                uncertainty in Table 4, it is also reported separately.
+                                                              19
+                  The signiﬁcance of the spin assignment J = 5/2 with respect to the next most likely
+                                                  +
+               hypothesis J = 7/2 for the Λc(2880) state is evaluated with a series of pseudoexperiments,
+               where the samples are generated from the model with J = 7/2 and then ﬁtted with both
+               J = 5/2 and 7/2 hypotheses. The diﬀerence of the logarithmic likelihoods ∆lnL is
+               used as the test statistic. The distribution in ∆lnL is ﬁtted with a Gaussian function
+               and compared to the value of ∆lnL observed in data. The statistical signiﬁcance is
+               expressed in terms of a number of standard deviations (σ). The uncertainty in ∆lnL due
+               to systematic eﬀects is small compared to the statistical uncertainty; combining them in
+               quadrature results in an overall signiﬁcance of 4.0σ. The ﬁts with spins 1/2 and 3/2 for
+                            +
+               the Λc(2880)   state yield large ∆lnL and poor ﬁt quality, as seen from Table 3. These
+               spin assignments are thus excluded.
+                                                                     +
+                  In conclusion, the mass and width of the Λc(2880)     resonance are found to be
+                                     +                                      +0.14
+                         m(Λc(2880) ) = 2881.75±0.29(stat)±0.07(syst)−0.20(model)MeV,
+                                     +         +0.77                  +0.75
+                          Γ(Λc(2880) ) = 5.43      (stat) ± 0.29(syst)    (model)MeV.
+                                               −0.71                  −0.00
+               These are consistent with the current world averages, and have comparable precision. The
+               preferred value for the spin of this state is conﬁrmed to be 5/2, with a signiﬁcance of 4σ
+               over the next most likely hypothesis, 7/2. The spin assignments 1/2 and 3/2 are excluded.
+                                                                             +
+               Thelargest nonresonant contribution underneath the Λc(2880) state comes from a partial
+               wave with spin 3/2 and positive parity. With a larger dataset, it would be possible to
+               constrain the phase motion of the nonresonant amplitude in a model-independent way
+                                  +
+               using the Λc(2880)   amplitude as a reference.
+               9.3    Fit in the near-threshold region
+               Extending the M(D0p) range down to the D0p threshold (region 3), it becomes evident
+               that a simple model for the broad amplitude components, such as an exponential lineshape,
+               cannot describe the data (Fig. 9). The hypothesis that an additional resonance is present
+               in the amplitude is tested in a model-dependent way by introducing a Breit–Wigner
+               resonance in each of the D0p partial waves. Model-independent tests are also performed
+               via ﬁts in which one or more partial waves are parametrised with a spline-interpolated
+               shape. The results of these tests are summarised in Table 5. The mass and width of the
+               Λ (2880)+ state are ﬁxed to their known values [23] in these ﬁts.
+                c
+                  There are no states with mass around the D0p threshold (2800MeV) that are currently
+               known to decay to the D0p ﬁnal state. A broad structure has been seen previously in
+                    + + −                                                 +
+               the Λc π π   ﬁnal state that is referred to as the Λc(2765)   [56]. It could contribute to
+               the D0p amplitude if its width is large. Since neither the quantum numbers nor the
+               width of this structure have been measured, ﬁts are carried out in which this structure is
+                                                                                    ±        ±
+               included, modelled as a Breit–Wigner amplitude with spin-parity 1/2    or 3/2 , and with
+               a width that is free to vary; its mass is ﬁxed to 2765MeV. In addition, four exponential
+               nonresonant components with JP = 1/2+, 1/2−, 3/2+, and 3/2− are included. None of
+               these ﬁts are of acceptable quality, as shown in Table 5. A Flatt´e parametrisation of the
+               line shape [57] with couplings to Λ+π+π− and D0p channels is also considered, but does
+                                                  c
+               not produce a ﬁt of acceptable quality either. Therefore, a resonance with a ﬁxed mass of
+               2765MeV is not suﬃcient to explain the data.
+                  If the mass of the Breit–Wigner resonance is allowed to vary in the ﬁt, good agreement
+                                                                            P        +
+               with data can be obtained for the spin-parity assignment J     =3/2 . Moreover, if the
+                                                          20
+                     resonance is assumed to have JP = 3/2+, the exponential nonresonant component with
+                     JP = 3/2+ can be removed from the amplitude model without loss of ﬁt quality. This
+                     model is taken as the baseline for this ﬁt region. The mass and the width of the resonance
+                     obtained from the ﬁt are around 2856MeV and 65MeV, respectively, and therefore this
+                                                                               +
+                     structure will be referred to as Λc(2860)                    hereafter. The results of this ﬁt are shown in
+                     Fig. 10.
+                          One model-independent test for the presence of structure in the broad component is
+                     to describe the real and imaginary parts with spline-interpolated shapes. Cubic splines
+                     with six knots at D0p masses of 2800, 2820, 2840, 2860, 2880 and 2900MeV are used.
+                     Of the models where only one partial wave is described by a spline while the others
+                     remain exponential, the best ﬁt is again given by the model where the spline-interpolated
+                                           P           +                                                +
+                     amplitude has J          =3/2 . TheArganddiagramfor the 3/2 amplitude in this ﬁt is shown
+                     in Fig. 11(a). Each of the points numbered from 0 to 5 corresponds to one spline knot
+                     at increasing values of M(D0p). Note that knots 3 and 5 at masses 2860 and 2900MeV
+                     correspond to the boundaries of the region 2 where the nonresonant amplitude is described
+                     by a linear function (Sec. 9.1) and that the amplitudes and phases in those two knots
+                     can be compared directly to Fig. 8, since the convention is the same in both ﬁts. The
+                                                                                                                        +
+                     Argand diagram demonstrates resonance-like phase rotation of the 3/2                                  partial wave with
+                     respect to the other broad components in the D0p amplitude, which are assumed to be
+                     constant in phase. Note that the absolute phase motion cannot be obtained from this ﬁt
+                     since there are no reference amplitudes covering the entire D0p mass range used in the ﬁt.
+                                                                                                                                +
+                          As seen in Table 5, inclusion of a spline-interpolated shape in the 1/2                                  component
+                                        +                                                                                                 +
+                     instead of 3/2        also gives a reasonable ﬁt quality. The Argand diagram for the 1/2                                wave
+                     in this ﬁt is shown in Fig. 11(b). Since the phase rotates clockwise, this solution cannot
+                     be described by a single resonance.
+                          Agenuine resonance has characteristic phase motion as a function of M(D0p). As
+                     a null test, the ﬁts are repeated with a spline function with no phase motion. This is
+                     implemented as a real spline function multiplied by a constant phase. The ﬁts where only
+                     one partial wave is replaced by a real spline give poor ﬁts. If both spin-3/2 amplitudes are
+                     represented by real splines, the ﬁt quality is good, but the resulting amplitudes oscillate as
+                     functions of M(D0p), which is not physical. Figure 12(a) shows the real spline amplitudes
+                                                                                  21
+              without the contribution of the phase space term, which exhibit oscillating behaviour,
+              while Fig. 12(b) shows the M(D0p) projection of the decay density for this solution.
+                                                                       +
+                  As in the case of the amplitude ﬁt in the Λc(2880)      region, pseudoexperiments
+              are used to validate the ﬁt procedure, obtain uncertainties on the ﬁt fractions, and
+              determine values of ndfeﬀ for the binned ﬁt quality test. Pseudoexperiments are also
+              used to obtain the ∆lnL distributions for ﬁts with various spin-parity hypotheses. After
+                                                                               +
+              correcting for ﬁt bias, the mass and width of the broad Λc(2860)   resonance are found
+                                +            +2.0                     +         +10.1
+              to be m(Λc(2860) ) = 2856.1       MeV and Γ(Λc(2860) ) = 67.6          MeV, where the
+                                             −1.7                               −8.1
+              uncertainties are statistical only.
+                  Systematic uncertainties are obtained following the same procedure as for the amplitude
+                                 +
+              ﬁt in the Λc(2880)   region (Sec. 9.2) and are summarised in Table 6. An additional
+              contribution to the list of systematic uncertainties is the uncertainty in the knowledge of
+                                                 +
+              the mass and width of the Λc(2880)   resonance, which are ﬁxed in the ﬁt. It is estimated
+              by varying these parameters within their uncertainties. The model uncertainty associated
+              with the parametrisation of the nonresonant components is estimated by performing ﬁts
+                                                +                                       −
+              with an additional exponential 3/2  amplitude component and with the 3/2 component
+              removed, as well as by adding the pπ− amplitude and using the covariant amplitude
+              formalism in the same way as in Sec. 9.2.
+                                                        22
+                             P         +                                                 +
+                      The J =3/2 hypothesis is preferred for the Λc(2860) state, since its ﬁt likelihood,
+                  as measured by ∆lnL, is substantially better than those of the other JP values tested.
+                  The signiﬁcance of this diﬀerence is assessed with pseudoexperiments and corresponds
+                                                              +      −             −
+                  to 8.8σ, 6.3σ, and 6.6σ for the 1/2 , 1/2 , and 3/2                 hypotheses, respectively. When
+                  systematic uncertainties are included, these reduce to 8.4σ, 6.2σ and 6.4σ. For JP = 3/2+,
+                  the following parameters are obtained for the near-threshold resonant state:
+                      Thelargest uncertainties are associated with the modelling of the nonresonant components
+                      of the D0p amplitude.
+               9.4    Fit including Λ (2940)+
+                                            c
+               Finally, the D0p mass region in the amplitude ﬁt is extended up to M(D0p) = 3.0GeV
+                                       +                                                                0
+               to include the Λc(2940)   state (region 4). Since the behaviour of the slowly-varying D p
+                                                                                     P        +
+               amplitude is consistent with the presence of a resonance in the J       =3/2 wave and
+                                                   +      −          −
+               nonresonant amplitudes in the 1/2 , 1/2 , and 3/2       waves, the same model is used to
+                                                                                              +
+               describe those parts of the amplitude in the extended ﬁt region. The Λc(2940)    resonance
+               is modelled by a Breit–Wigner lineshape. The masses and widths of the Λ (2940)+ and
+                                                                                             c
+                        +                                                         +
+               Λc(2860) states are ﬂoated in the ﬁt, while those of the Λc(2880)    resonance are ﬁxed to
+               their nominal values [23]. Several variants of the ﬁt are performed in which the spin of
+                        +
+               Λc(2940) is assigned to be 1/2, 3/2, 5/2 or 7/2, with both positive and negative parities
+               considered. Two diﬀerent parametrisations of the nonresonant components are considered:
+               the exponential model (taken as the baseline) and a second-order polynomial (Eq. (14)).
+                   The results of the ﬁts are given in Table 8. For both nonresonant parametrisations, the
+                                      +                                −
+               best ﬁt has a Λc(2940)    spin-parity assignment of 3/2 . The results of the ﬁt with this
+               hypothesis and an exponential model for the nonresonant amplitudes, which is taken as
+                                                                                   −
+               the baseline for ﬁt region 4, are shown in Fig. 13. Although the 3/2   hypothesis describes
+               the data signiﬁcantly better than all others in ﬁts using an exponential nonresonant model,
+               this is not the case for the more ﬂexible polynomial model: the assignment JP = 5/2− is
+               only slightly worse (∆lnL = 3.6) and a number of other spin-parity assignments are not
+               excluded either.
+                                                                           +
+                   In the baseline model, the mass of the Λc(2940)            state is measured to be
+                           +            +3.5                                     +         +8.2
+               m(Λc(2940) ) = 2944.8        MeV, and the width is Γ(Λc(2940) ) = 27.7          MeV. The
+                                        −2.5                          0                    −6.0      +
+               ﬁt fractions for the resonant components of the D p amplitude are F(Λc(2860) ) =
+                    +2.9                +           +1.0                     +          +2.3
+               (47.2    )%, F(Λc(2880) ) = (12.9        )%, and F(Λc(2940) ) = (8.2        )%. All these
+                    −2.8                            −0.9                                −1.1
+               uncertainties are statistical. Pseudoexperiments are used to correct for ﬁt bias, which is
+                                                           25
+                small compared to the statistical uncertainties, and to determine the linear correlation
+                coeﬃcients for the statistical uncertainties between the measured masses, widths and ﬁt
+                fractions (Table 7).
+                    The systematic and model uncertainties for the parameters given above, obtained
+                following the procedure described in Sections 9.2 and 9.3, are presented in Table 9. The
+                part of the model uncertainty associated with the nonresonant amplitude is estimated
+                                                               26
+               from ﬁts that use the polynomial nonresonant parametrisation instead of the default
+                                                     +                                                  −
+               exponential form, by adding a 3/2        nonresonant amplitude or removing the 3/2          or
+               pπ− amplitudes, and by using the covariant formalism instead of the baseline helicity
+                                                                                                     +
+               formalism. The uncertainty due to the unknown quantum numbers of the Λc(2940) state
+               is estimated from the variation among the ﬁts with spin-parity assignments that give
+                                            2                  +      −     +      −
+               reasonable ﬁt quality (P(χ ,ndf) > 5%): 3/2 , 3/2 , 5/2 , 5/2 .
+                                                                                               +
+                   The systematic uncertainties on ∆lnL between the various Λc(2940)             spin-parity
+                                                              P        −
+               hypotheses and the baseline hypothesis, J         = 3/2 , are shown in Table 10 (for the
+               exponential nonresonant model) and Table 11 (for the polynomial model). Only those
+               systematic variations from Table 9 that can aﬀect the signiﬁcance of the quantum number
+               assignment are considered. Since the cases with exponential and polynomial nonresonant
+               amplitudes are treated separately, the model uncertainty associated with the nonresonant
+               amplitudes does not include the diﬀerence between these two models.
+                   For each JP hypothesis, the signiﬁcance with respect to the baseline is obtained from
+               ensembles of pseudoexperiments and shown in Table 12. The column marked “Statistical”
+               includes only statistical uncertainties on ∆lnL, while that marked “Total” is the sum in
+               quadrature of the statistical, systematic, and model uncertainties.
+                                                                                                            +
+                   Including the systematic and model uncertainties, the mass and width of the Λc(2940)
+               resonance are
+                                          +            +3.5                  +0.1
+                              m(Λc(2940) ) = 2944.8        (stat) ± 0.4(syst)   (model)MeV
+                                                       −2.5                  −4.6
+                                          +         +8.2                  +5.2
+                               Γ(Λc(2940) ) = 27.7      (stat) ± 0.9(syst)     (model)MeV.
+                                                    −6.0                  −10.4
+               The largest uncertainties in the measurement of these parameters, apart from those
+               of statistical origin, are related to the model of the nonresonant amplitude and the
+                                               +
+               uncertainties for the Λc(2940)    quantum numbers. The ﬁt fractions of the resonances in
+                                                             28
+                the region of the Λ0 → D0pπ− phase space used in the ﬁt, M(D0p) < 3GeV, are
+                                     b
+                    The contributions of individual resonant components, integrated over the entire phase
+                space of the Λ0 → D0pπ− decay, can be used to extract the ratios of branching fractions
+                               b
+                which assumes the ratios of the branching fractions to be equal to the ratios of the ﬁt
+                fractions.
+                                                               29
+                                                  +
+                  The constraints on the Λc(2940)   quantum numbers depend on the description of the
+               nonresonant amplitudes. If an exponential model is used for the nonresonant components,
+                                                            P        −               +     +          −
+               the single best spin-parity assignment is J    = 3/2 , and the 3/2 , 5/2       and 5/2
+               assignments are excluded at the levels of 3.7, 4.4 and 4.5 standard deviations, respectively
+              (including systematic uncertainties), while spins of 1/2 or 7/2 are excluded by more than
+                                                                                              −
+               5σ. If a polynomial nonresonant parametrisation is used, the solution with 3/2   is again
+               the most likely one, though the data are consistent with the 5/2− hypothesis at 2.2σ.
+                        P                 +      +     −     +        −
+               Several J  assignments (5/2 , 3/2 , 7/2 , 1/2 and 1/2 ) are disfavoured with respect to
+                      −                                                                    +
+               the 3/2 hypothesis with signiﬁcances between 3.1 and 4.5σ, and only the 7/2   hypothesis
+               is excluded by more than 5σ. Since the data are consistent with both the exponential
+               and polynomial nonresonant models, only weak constraints on the spin and parity are
+                               P       −
+               obtained, with J   =3/2 favoured and with positive parity excluded at the 3σ level.
+               10 Conclusion
+               An amplitude analysis of the decay Λ0 → D0pπ− is performed in the region of the phase
+                                                    b
+               space containing D0p resonant contributions. This study provides important information
+               about the structure of the D0p amplitude for future studies of CP violation in Λ0 → DpK−
+                                                                                            b
+               decays, as well as on the spectroscopy of excited Λ+ states.
+                                                                  c
+                                                     +
+                  The preferred spin of the Λc(2880)    state is found to be J = 5/2, with the J = 7/2
+               hypothesis disfavoured by 4.0 standard deviations. The solutions with J = 1/2 and 3/2
+               are excluded with a signiﬁcance of more than 5 standard deviations. The mass and width
+                                                          30
+              of the Λ (2880)+ state are found to be:
+                      c
+                                    +                                     +0.14
+                         m(Λc(2880) ) = 2881.75±0.29(stat)±0.07(syst)−0.20(model)MeV,
+                                    +         +0.77                 +0.75
+                         Γ(Λc(2880) ) = 5.43      (stat) ± 0.29(syst)   (model)MeV.
+                                              −0.71                 −0.00
+              These results are consistent with and have comparable precision to the current world
+                                                      +                                          +
+              averages (WA), which are m     (Λ (2880) ) = 2881.53±0.35MeV, and Γ       (Λ (2880) ) =
+                                          WA c                                       WA c
+              5.8 ±1.1MeV [23].                          0
+                  Anear-threshold enhancement in the D p amplitude is studied. The enhancement is
+                                                                                    +
+              consistent with being a resonant state (referred to here as the Λc(2860) ) with mass and
+              width
+                                       +           +2.0                +1.1
+                            m(Λc(2860) ) = 2856.1     (stat) ± 0.5(syst)   (model)MeV,
+                                                   −1.7                −5.6
+                                       +         +10.1                +5.9
+                            Γ(Λc(2860) ) = 67.6      (stat) ± 1.4(syst)   (model)MeV
+                                                 −8.1                 −20.0
+                                        P        +
+              and quantum numbers J       = 3/2 , with the parity measured relative to that of the
+              Λ (2880)+ state. The other quantum numbers are excluded with a signiﬁcance of more
+                c
+                                                                      +
+              than 6 standard deviations. The phase motion of the 3/2   component with respect to the
+              nonresonant amplitudes is obtained in a model-independent way and is consistent with
+              resonant behaviour. With a larger dataset, it should be possible to constrain the phase
+                                +                                 +
+              motion of the 3/2   partial wave using the Λc(2880)   amplitude as a reference, without
+                                                                                                     +
+              making assumptions on the nonresonant amplitude behaviour. The mass of the Λc(2860)
+              state is consistent with recent predictions for an orbital D-wave Λ+ excitation with
+                                                                                    c
+              quantum numbers 3/2+ based on the nonrelativistic heavy quark-light diquark model [24]
+              and from QCD sum rules in the HQET framework [26].
+                                                                          +
+                  First constraints on the spin and parity of the Λc(2940)  state are obtained in this
+              analysis, and its mass and width are measured. The most likely spin-parity assignment for
+                       +     P      −
+              Λc(2940) is J    =3/2 but the other solutions with spins 1/2 to 7/2 cannot be excluded.
+                                                  +
+              The mass and width of the Λc(2940) state are measured to be
+                                       +           +3.5                +0.1
+                            m(Λc(2940) ) = 2944.8     (stat) ± 0.4(syst)   (model)MeV,
+                                                   −2.5                −4.6
+                                       +         +8.2                +5.2
+                            Γ(Λc(2940) ) = 27.7     (stat) ± 0.9(syst)   (model)MeV.
+                                                 −6.0                −10.4
+                    P       −                         +
+              The J =3/2 assignment for Λc(2940) state is consistent with its interpretations as a
+              D∗N molecule [16,17,19] or a radial 2P excitation [21].

@@ -1,0 +1,445 @@
+                                  INTRODUCTION                                   pressed as it can only happen through the low-mass tail
+                                                                                 of the Σ (2520)++/0. The d-wave decay to the JP = 1+
+                                                                                          c                                                 2
+                                                                                 Σc(2455)++/0 states is allowed, but its contribution is
+                 The Λ+ charmed baryons consist of a heavy charm                                                           +
+                        c                                                        knowntobesmall. Thus,theΛ (2625) decayisthought
+              quark and two light (ud) quarks with the ground state                                                c
+                                                      +                          to proceed primarily via the direct three-body, p-wave
+              having quantum numbers JP = 1 . The Λ (2595)+                                       +      + + −
+                                                     2             c             decay Λ (2625) → Λ π π .
+                             +                                                            c              c
+              andΛ (2625) arethetwolowest-lyingexcited states ob-
+                     c                                                                            +
+                                                               P    1−             TheΛ (2625) wasﬁrstobservedin1993[1]. TheCDF
+              served, and are generally believed to have J       =      and               c
+                       −                                            2            collaboration reported the most recent measurements of
+              JP = 3 , respectively. The Λ (2595)+ predominantly                           +
+                      2                          c                               Λ (2625) properties in 2011 using a data sample of 6.2k
+                                P     1+            ++/0                           c
+              decays to the J      =      Σc(2455)         states via an s-                                                            +
+                                                                                 events [2]. Their measurement for the Λ (2625)           mass
+                                      2                                +                                                       c
+              wave decay. The analogous decay for the Λ (2625)            to                             +
+                                                               c                 with respect to the Λc mass is much more precise com-
+                    P     3−            ++/0
+              the J    = 2    Σc(2520)        states is kinematically sup-       pared with previous measurements, and an upper limit
+                                                                                                                                    2
+                              +
+             on the Λ (2625)    width was reported. The limited decay       GEANT3[14] and the event reconstruction is performed
+                      c
+                                      +      + + −
+             phase space of Λ (2625)     →Λ π π makes it diﬃcult            using data converted with the Belle-to-Belle-II (B2BII)
+                               c             c
+             to extract the Σc(2455)++/0 yields by ﬁtting the Λ+π±          software package [15] and then analyzed using Belle II
+                                                                   c
+             invariant mass due to the presence of reﬂection peaks          software [16, 17].
+                                                  +
+             formed by the combination of the Λ     and the other ﬁnal
+                                                  c
+             state pion. The large data sample collected by Belle, to-
+             gether with the use of an amplitude model [3] to describe                            ANALYSIS
+             the decay, allows us to use a full Dalitz ﬁt that naturally
+             includes the reﬂections.                                                                  +
+                                                                              The candidate Λ (2625)      baryons are reconstructed
+                                                                                                c
+                                           +                   + mass,                                       +       + + −      +
+                The mass of the Λc(2625) , relative to the Λ                from the decay chain Λ (2625)       → Λ π π , Λ →
+                                                               c                                     c               c          c
+             is already relatively well known, but the large Belle data     pK−π+ [18]. The ﬁnal-state charged particles, π±, K−
+             sample allows for a more precise measurement. No in-           and p, are selected based on the likelihood information
+                                            +
+             trinsic width of the Λc(2625)     has yet been measured,       fromthetracking(SVD,CDC)andparticleidentiﬁcation
+                                                              2
+             and the current upper limit Γ < 0.97 MeV/c at 90%              (CDC, ACC, TOF) systems into a combined likelihood,
+             credibility level by the Particle Data Group (PDG) [4] is      L(h :h ) = L(h )/(L(h )+L(h )), where h and h are
+                                                                                1  2        1       1       2            1       2
+             based on the CDF measurement.                                  p, K or π [19]. We require the proton candidates to have
+                Theoretical predictions for the width vary for this nar-    L(p:K) > 0.6 and L(p:π) > 0.6, kaon candidates to have
+             row state [3, 5–7]. An improved limit on the width of          L(K:p) > 0.6 and L(K:π) > 0.6, and pion candidates to
+             the Λc(2625)+ will help to constrain these predictions,        have L(π:K) > 0.6 and L(π:p) > 0.6. Electrons are sup-
+             and provide insights into other charmed baryons since                                   −       −
+                                                                            pressed by requiring L(e )/(L(e ) + L(hadrons)) < 0.1
+             their widths are related through common coupling con-                                                −
+             stants [8].                                                    for all candidates; the likelihoods L(e ) and L(hadrons)
+                                                                            include information from the ECL in addition to the
+                                                                            tracking and particle identiﬁcation systems [19].     The
+                                                                            particle identiﬁcation eﬃciency is approximately 87% for
+                          DETECTORANDDATASET                                proton, 85% for kaons and 96% for pions. Charged tracks
+                                                                            are also required to have a point of closest approach with
+                                                                                                                                    +
+                Themeasurementpresentedhereis based on the entire           respect to the interaction point less than 3 cm in the e
+             dataset collected by the Belle detector [9, 10] operating      beam direction and less than 1 cm in the plane perpen-
+                                                  + −                       dicular to it.
+             at the KEKB asymmetric-energy e e         collider [11, 12].
+                                                                    −1        A vertex ﬁt is applied to the daughter particles of
+             Thetotalintegratedluminosityofthedatasetis980fb           ,
+             which is mostly collected at or near the Υ(4S) resonance.      the Λ+ candidates and the resultant χ2 probability of
+                                                                                  c
+                TheBelledetector is a large-solid-angle magnetic spec-      the ﬁt is required to be greater than 0.001. Candidates
+                                                                                                 2
+             trometer that consists of a silicon vertex detector (SVD),     within ±7.0 MeV/c (≈ 1.6σ) are selected and mass-
+                                                                                                +                               2
+             a 50-layer central drift chamber (CDC), an array of aero-      constrained to the Λ   PDGmassof2286.46MeV/c [4].
+                                                                                                c
+             gel threshold Cherenkov counters (ACC), a barrel-like ar-      Two pions of opposite charge are then combined with
+                                                                                              +                                +
+             rangement of time-of-ﬂight scintillation counters (TOF),       the constrained Λ   candidate to form a Λ (2625)     can-
+                                                                                              c                        c
+             and an electromagnetic calorimeter comprised of CsI(Tl)        didate. The Λc(2625)+ daughters are then kinematically
+             crystals (ECL)locatedinsideasuper-conductingsolenoid           ﬁtted to come from a common vertex, with a constraint
+             coil that provides a 1.5 T magnetic ﬁeld. An iron ﬂux-         that the vertex has to be within the beamspot since the
+                                                                                     +                        2
+             return located outside of the coil is instrumented to de-      Λ (2625)   is short-lived. The χ probability of this ﬁt
+                                                                             c
+             tect K0 mesons and to identify muons (KLM). The de-            is required to be greater than 0.001 to ensure the qual-
+                    L
+             tector is described in detail elsewhere [9].   Two inner       ity of the ﬁt. As excited charmed baryons including the
+                                                                                     +
+             detector conﬁgurations were used. The ﬁrst consisted of        Λ (2625) typically have a hard momentum distribution,
+                                                                             c
+             a 2.0 cm radius beampipe and a 3-layer silicon vertex de-      we only keep Λ (2625)+ candidates with x > 0.7, where
+                                                                                      p c                              p
+             tector, while the second used a 1.5 cm radius beampipe, a              ∗     2      2     2 2        ∗
+                                                                            x = p / E          /c −M c and p is momentum of
+                                                                             p            beam
+             4-layer silicon detector and a small-cell inner drift cham-                 +         + −
+                                                                            the Λ (2625)   in the e e   center of mass frame. As the
+                                                                                 c
+             ber.                                                           mass of the Λ+ is constrained to its PDG value, the re-
+                                                                                          c
+                Monte Carlo (MC) events are generated using EVT-            constructed mass M(Λ+π+π−) has the resolution of the
+                                                                                                   c
+                                                                                                         +         +
+             GEN [13] to optimize selection criteria and to be used         mass diﬀerence M(Λc(2625) )−M(Λc ).
+                                                   +       + + −
+             in the Dalitz plot ﬁt. The Λc(2625)      →Λ π π and              Correctly calibrating the momentum scale for low mo-
+                                                           c
+               +         − +
+             Λ → pK π samples are generated using a phase                   mentum pions is critical for this analysis. We calibrate
+               c
+             space model.    A D∗+ → D0π+, with D0 → K−π+,                  the momentumscaleusingcopiousK0 → π+π− eventsin
+                                                                                                                 S
+             sample is also generated to compare the mass-resolution        the experimental data. Low-momentum tracks are itera-
+             function in the MC sample and the experimental data,           tively calibrated as a function of the curvature, polar an-
+             and thus to estimate the systematic uncertainties on the       gle, and momentum of each track in the laboratory frame
+             measurements. The detector response is simulated with          by comparing the reconstructed and world-average mass
+                                                                                                                                                        3
+               of the K0 meson as a function of the K0 momentum.                      upper limit for the measurement of the intrinsic width
+                          S                                      S
+                                                                     ++/0                        +
+               This correction has been used in a previous Σ               study      of the Λ (2625). If we use the mass resolution with-
+                                                                     c                           c
+               using Belle data [20]. Since the mass-resolution function              out track smearing, scaled by 114%, the ﬁtted width is
+                                                                                +                              2
+               is crucial for the precise measurement of the Λc(2625)                 0.490 ± 0.025MeV/c . With the mass-resolution func-
+               mass and width, the MC tracks are smeared using the                    tion with track smearing scaled by 86%, the ﬁtted width
+                                                                                                                 2
+               analysis software during reconstruction, as otherwise the              is 0.293±0.026MeV/c . These ﬁnite values for the ﬁtted
+               MCmassresolutionisknowntobebetterthanthatofthe                         width after scaling the mass resolution are only used to
+               experimental data. This track smearing aﬀects the width                ﬁnd the limit on the intrinsic width including systematic
+               of the mass-resolution function but not its central value.             uncertainties.
+                                                                      +                  The ﬁtted mass of Λ (2625)+ in the signal MC sample
+               The mass-resolution function of the Λc(2625)              mass is                                 c
+               parameterized as a sum of two Gaussian functions with                  is slightly diﬀerent from the generated value. Applying
+               parameters ﬁxed according to a signal MC sample with                   a bias correction, determined by the mass shift observed
+                                                                                                                                                    +
+                                                                                      in the signal MC sample, the mass of the Λ (2625)                is
+               both corrections as detailed above.                                                                                          c
+                                                                                                                                      2
+                  The consistency between the MC sample and the ex-                   measured to be 2627.978±0.007MeV/c , where the un-
+                                                                                      certainty is statistical.
+               perimental data is checked by comparing the mass res-                     Two upper limits on the width are calculated based
+               olution of D∗+ events, which have similar kinematics to                on the two ﬁt methods described in the previous section
+               the events under study. The low-momentum track cor-                    and the larger upper limit is reported as the ﬁnal answer.
+               rection ensures that the measured D∗+ mass in data                     Using the mass-resolution function determined from MC
+               and MC are independent of the momentum of the soft                     scaled by 114% without track smearing, the upper limit
+               pion [20]. The resolution of the D∗+ mass relative to                  is determined to be
+               the D0 mass in the experimental data is found by ﬁtting
+                          0 +            0                                                                          +                   2
+               the M(D π )−M(D ) mass distribution in the experi-                                      Γ(Λc(2625) ) < 0.52MeV/c                       (1)
+               mental data with a Breit-Wigner distribution convoluted
+               with a double-Gaussian mass-resolution function, where                 at 90%credibility level by integrating the likelihood func-
+               the width of the Breit-Wigner is ﬁxed to the PDG value                 tion to ﬁnd the value for which the integral contains 90%
+                               2                                                      of the total area.      Using the mass-resolution function
+               of 83.4 keV/c [4]. In this study, without track smearing,
+               the mass resolution in the experimental data is measured               scaled by 86% with track smearing would yield a tighter
+               to be 114% of the value obtained from the MC sample.                   upper limit. Therefore, we conservatively report the for-
+                                                                                                                                                +
+                                                                                      mer as the upper limit on the width of Λ (2625) .
+               However, with track smearing, the mass resolution in the                                                                c
+               experimental data is measured to be 86% of the value
+               obtained from the MC sample. In all other narrow sig- 
+                                                    +                
+               nals studied, for instance the Λ , the track smearing 
+                                                    c                
+               sures that the MC and data agrees reasonably. The trac
+               smearing has negligible eﬀect on the mass measurement.
+               The results of these consistency checks are used in th
+               estimation of the systematic uncertainties described b
+               low.                                                  
+                  The reconstructed M(Λ+π+π−) mass distribution in   
+                                               c
+               the experimental is ﬁtted using RooFit [21]. Figure 1 
+               shows the M(Λ+π+π−) mass distribution in the ex-
+                                   c                                 
+               perimental data overlaid with the ﬁt result.          
+                                                                     
+               nal function is a Breit-Wigner distribution convolved 
+                                                                     
+               with a double-Gaussian mass-resolution function, and
+               the background function is a second-order Chebychev   
+                                                                     
+                                                                     
+               polynomial.      The resolution function for the invar
+                                                                     
+               mass distribution is obtained from the MC sample, with
+               out track smearing, and scaled by 114% in accordance  
+               with the D∗+ study. The solid line shows the overall
+               ﬁt and the dashed lines show the individual signal and
+               background components of the ﬁt. The ﬁtted mass is
+               2628.025 ± 0.006MeV/c2, independent of which version                                        DALITZ PLOT FIT
+               of the mass-resolution function we use. If we use the
+               track-smearing correction without any rescaling, the ﬁt-                  A Dalitz plot ﬁt is made in order to determine the
+                                                                                                                                   +
+               ted width is found to be zero, so we have no deﬁnitive                 relative branching ratios of Λ (2625)           with respect to
+                                                                                                                           c
+                                                                                                             +        + + −
+               evidence of a non-zero width and will present only an                  the mode Λ (2625)          →Λ π π . For the Dalitz plot
+                                                                                                     c                c
+                                                                                                                                    4
+                               +                               2                                           +
+             ﬁt, only Λ (2625)    candidates within ±2MeV/c of the          signal region is N   (Λ (2625) )) = 30319 ± 371. The
+                        c                                                                     sig  c
+                      +                                                      0                 0                          ++
+             Λ (2625)    PDG mass are accepted [4]. The invariant           Σ yield is N    (Σ ) = 1964 ± 66 and the Σ        yield is
+               c                                                             c            sig  c                          c
+                                    +                                             ++
+             mass of the Λ (2625)      candidates is then constrained       N (Σ )=2022±76.
+                             c                                                sig c
+                             +                               2                                         ++/0
+             to the Λ (2625)   PDGmassof2628.11MeV/c , and the                To account for Σ (2455)        candidates that are not
+                      c                                                                         c
+             four-vectors of the daughter particles are updated accord-     decay products of the Λ (2625)+, the Σ (2455)++/0
+                                                                                                       c                 c
+             ingly. A ﬁt is made to the Dalitz plot using an amplitude      yields from the M(Λ+π+π−) sidebands are subtracted
+                                                                                                  c
+             model as presented by Ariﬁ et al. [3] using the AmpTools       from the Σ (2455)++/0 yields found from the amplitude
+                                                                                       c
+                                                  +                                                               2
+             software package [22]. The Λ (2625)     signal distribution    ﬁt.  The sidebands are six 4MeV/c regions near the
+                                           c
+             is calculated from the squared amplitude with spin sum                  +
+                                                                            Λ (2625)   signal region, as shown in Fig. 4. Each side-
+                                                                             c
+             of ﬁnal states and spin average of the initial states          band region is ﬁtted as an incoherent sum of the contri-
+                                                                                                        0                ++
+                                                                            butions from the Σ (2455) , the Σ (2455)        , and the
+                            X                                                                   c                c
+                                                        2                   three-body phasespace decay.      Figures 5 and 6 show
+                                |T1 +T2 +T3 +T4 +T5|                (2)     the projections of the ﬁt results for each sideband re-
+             where T1 through T5 are the decay amplitudes through           gion with each component labeled on the plot.         The
+                                       0          0   ++            ++      Σ (2455)++/0 yields in the signal region are determined
+             theintermediatestatesΣ , Σ (2520) , Σ       , Σ (2520)    ,     c
+                                       c   c          c     c
+             and the direct three-body decay, respectively. Each am-        by extrapolating the yields from the sidebands accord-
+             plitude is modeled as a Breit-Wigner function multi-           ing to a linear ﬁt, as shown in Fig. 7 and tabulated
+             plied by a form factor speciﬁc to each decay channel.          in Table I. The background yields to be subtracted are
+             A constant amplitude is used to model the background           N (Σ0) = 391±11 and N           (Σ++) = 467±12. The
+                                                                              bkg  c                     bkg   c
+               + + −                                                        branching ratio of Λ (2625)+ → Σ0π+ relative to the ref-
+             Λ π π combinations, which are not decay products of                                c              c
+               c                                                                                  +      + + −
+             Λ (2625)+. The yield of each decay channel is calcu-           erence mode Λ (2625) → Λ π π is calculated using
+               c                                                                           c             c
+             lated using AmpTools by an integration of the individual
+                                                                                B(Λ (2625)+ → Σ0π+)          N (Σ0)−N (Σ0)
+             component over the Dalitz plot. The contribution of the                c              c       = sig    c      bkg   c
+                                                                                          +      + + −          N (Λ (2625)+)
+             three-body decay in the signal model is diﬀerent from             B(Λ (2625) →Λ π π )                sig c
+                                                                                   c             c
+             the background phasespace decay in that the former is                                                                 (3)
+             not ﬂat across the Dalitz plot. During the ﬁt, the masses
+                                                                                                   ++ −
+             andwidthsoftheseintermediateparticlesareconstrained            and similarly for the Σ   π mode.
+                                                                                                   c
+             to their respective PDG values to facilitate the conver-         Wemeasure relative branching ratios to be
+             gence. The small variations of the detector acceptance                            +      0 +
+             across the Dalitz plot are taken into account by using the             B(Λc(2625) →Σcπ ) =(5.19±0.23)%
+                                                                                              +      + + −
+                                                                                  B(Λ (2625) →Λ π π )
+             output of a phasespace MC sample passed through the                      c              c                             (4)
+             GEANT3detector simulation as input to the AmpTools                    B(Λc(2625)+ → Σ++π−)
+                                                                                                     c        =(5.13±0.26)%
+             ﬁtting package.                                                                  +      + + −
+                                                                                  B(Λ (2625) →Λ π π )
+                                                                                      c              c
+                Figure 2 shows the Dalitz plots for candidates in the
+             signal region. On the left subplot, the contributions from     where the errors are statistical only.
+               ++                            0
+             Σ     and the reﬂection from Σ constitute the two hor-
+               c                             c
+             izontal stripes. The upper and lower parts of the Dalitz
+             plot show slight excesses due to Σc(2520)++/0 decays.                   SYSTEMATIC UNCERTAINTIES
+             There is also a clear excess on the left side of the Dalitz
+             plot compared to the right in agreement with the three-          The primary source of systematic uncertainty on
+             body decay taking into account the spin, as predicted          the Λ (2625)+ width is the inconsistency of the mass-
+                                                                                  c
+             in the amplitude model [3]. On the right subplot, the          resolution function between the MC sample and the ex-
+                                                            ++        0                                         ∗+        0 +
+             horizontal and vertical stripes indicate the Σ     and Σ       perimental data.    We use the D        → D π decay
+                                                            c         c
+             decays respectively. It is straightforward to see the origin   as a control sample to determine the under- or over-
+             of the reﬂection peaks on the M(Λ+π+) mass projection          estimation of the mass resolution in the MC sample rel-
+                                                 c
+             from this 2D Dalitz plot.                                      ative to the experimental data. The mass resolution in
+                Figure 3 shows the projections of the ﬁtted results         the experimental data is found to be 86% of that in the
+             with each component labeled on the plot.        The Σ++        MC sample with track smearing, 114% without track
+                                                                    c
+                                                   0                        smearing. Both mass-resolution functions are used to
+             peak and the reﬂection peak from Σ are evident on the
+                                                   c
+             M(Λ+π+) mass projection. The shoulders on the left             determine the upper limit on the Λ (2625)+ width in the
+                  c                                                                                            c
+             and right side of the mass region are mostly formed by         experimental data. When applied to the experimental
+                                                     ++/0                   data, the mass resolution without track smearing scaled
+             the decays from the oﬀ-shell Σ (2520)        . The three-
+                                              c
+             body p-wave decay in the signal model shows up in the          by 114% results in a more conservative upper limit on
+             M(π+π−)massprojection as an assymetric distribution,           the Λ (2625)+ width, thus reported as the ﬁnal result.
+                                                                                 c
+             in contrast to the symmetric distribution from the back-         The systematic uncertainty on the Λ (2625)+ mass
+                                                                                                                      c
+             ground phasespace decay. The Λc(2625)+ yield in the            is not greatly aﬀected by the uncertainty on the
+ that the measured D∗+ mass diﬀerence with respect to
+                                                 2
+ the world-average value is 0.004MeV/c . Any imper-
+ fection in the soft pion momentum calibration changes
+                                           +
+ the measured mass of the Λc(2625)            more than that of
+ the D∗+. We determine the scale factor required to cor-
+ rect the soft pion momentum such that the D∗+ mass
+ matches its PDG value, then apply the same scale fac-
+ tor to the daughter pions from Λc(2625)+ candidates.
+                  +                                       2
+ The Λ (2625)        mass changed by 0.042MeV/c , which
+         c
+ we assign as the systematic uncertainty due to the mass
+ scale. The track smearing correction applied to tracks in
+ the MC sample has a negligible eﬀect on the mass mea-
+
+
+ surement. The systematic uncertainty due to the low
+                                               2
+ momentum correction is 0.025MeV/c , which is found
+ by comparing the measured Λ (2625)+ mass with and
+                                      c
+ without the low momentum correction. Summing the
+ contributions from the mass scale and low momentum
+ track correction in quadrature, the total systematic un-
+                                                              2
+ certainty on the mass measurement is 0.049MeV/c .
+               M(Λ+π+π−)massresolution,butislimitedbythepreci-
+                     c
+               sion with which the Belle detector can measure the mass                    The systematic uncertainties on the relative branch-
+               in this range. Studies with D∗+ → D0π+ decays show                      ing ratios, which are calculated from Eq. (3), are derived
+                                                              +
+                from the uncertainty of the Λ (2625)             yield in the signal        widths, and mass resolutions are systematically varied
+                                                     c
+                region, the Σ++/0 yields ﬁtted in the signal Dalitz plot                    within the PDG uncertainties, and the maximum change
+                                 c                                                                             ++/0
+                                  ++/0                                                      in the ﬁtted Σ            yield is taken as the systematic un-
+                ﬁt, and the Σc           subtracted yields extrapolated from                                   c
+                the sideband ﬁts. The systematic uncertainty associated                     certainty. In order to determine the sideband subtracted
+                                                                             +              yield, the six sidebands are ﬁtted individually to deter-
+                with each is tabulated in Table II. The Λ (2625)                signal
+                                                                    c                                      ++/0
+                yield is most aﬀected by the mass-resolution function.                      mine the Σ            yields, with the yield and uncertainty
+                                                                                                           c
+                Weﬁttheexperimentaldatawithamass-resolutionfunc-                            in each sideband region shown in Fig. 7. The extrapo-
+                tion determined with and without track smearing. The                        lated yield at the nominal Λc(2625)+ mass is a weighted
+                diﬀerence in the yields is taken as the systematic uncer-                   average of the yields of the six sidebands. We take the
+                                             +                           ++/0               diﬀerence between the linear and quadratic extrapolation
+                tainty on the Λ (2625)          signal yield. The Σc            signal
+                                    c
+                yields are determined from the Dalitz plot ﬁt, with their                   as shown in Table I as the systematic uncertainty due to
+                masses and widths ﬁxed to PDG values. The masses,                           the extrapolation. To account for the statistical ﬂuctu-
+
+                 ation due the ﬁnite MC sample sizes in the Dalitz plot                                    
+                                                                                                           
+                 ﬁts, we compare the ﬁtted results using two statistically
+                 independent MC samples of the same size. The diﬀer-                                       
+                                                                                                           
+                 ence is taken as the systematic uncertainty due to the                                    
+                 MC sample size. With systematic uncertainties on the                                      
+                 yields in Eq. (3) listed in Table II, the total systematic                                
+                                                                                                           
+                 uncertainties on the ratio of branching fractions are cal-
+                 culated from the propagation of error and are listed in
+                 Table III. the total systematic uncertainty on the ratio                                                  DISCUSSION
+                 of branching fractions is found to be 0.40% for the Σ0π+
+                                                                                     c
+                                                       ++ −
+                 channel, and 0.32% for the Σ              π channel.                                                                                +
+                                                       c                                           We report the most precise Λ (2625)                  mass, width,
+                                                                                                                                            c
+                                                                                                and branching ratio measurements to date. The mea-
+             sured mass is consistent with previous results. The mea-                     CONCLUSIONS
+                                         +                     +
+             sured upper limit on Λ (2625)  width is Γ(Λ (2625) ) <
+                                  c                     c
+                        2                                                                                            +
+             0.52MeV/c at the 90% credibility level. Theoretical          We measure the mass of the Λc(2625)           to be
+                                         +                                                             2
+             predictions for the Λc(2625)  width vary. Ariﬁ et al.     2627.978±0.006±0.049MeV/c , where the uncertainty
+                                                  2                             +
+             predict the width to be 0.570 MeV/c based on chiral       on the Λc mass is not included since it is constrained to
+             and heavy quark symmetry [3]. The width is revised to     the PDG value during reconstruction. This is equivalent
+             be between 0.09 and 0.26 MeV/c2 in a subsequent pub-      to
+             lication with the inclusion of relativistic corrections [5].          +        +                                 2
+             Kawakami et al. predict a width in the range of 0.11 -    M(Λc(2625) )−M(Λc ) = 341.518±0.006±0.049MeV/c
+                        2                                                                                                  (5)
+             0.73 MeV/c based on chiral symmetry [6]. Guo et al.
+             predict a much smaller width of 1.13 × 10−2 MeV/c2,       The mass measurement is consistent with the previous
+             based on the 3P model [7].                                CDF measurement but with approximately half the un-
+                            0                                          certainty [2].
+                                                                          An upper limit on the Λ (2625)+ width is determined
+                                                                                                  c
+                                                                       to be
+               The relative branching ratios of Λc(2625)+ → Σ0π+
+                                                                c                              +                2
+                          +     ++ −                                                Γ(Λc(2625) ) < 0.52MeV/c               (6)
+             and Λ (2625) → Σ      π relative to the reference mode
+                  c             c
+                     +      ++ + −
+             Λ (2625) →Λ       π π are extracted from a full Dalitz
+              c             c                                          at 90% credibility level which is around a factor of two
+             plot ﬁt. Backgrounds from non-Λc(2625)+ decays are        more stringent than the previous limit.
+             subtracted from the Σ++/0 yields. Our measurements           Based on a full Dalitz plot ﬁt and with sideband sub-
+                                   c
+             align with the prediction by Ariﬁ et al., who assume                      ++/0
+                                                                       traction of the Σ     yields, the branching ratios relative
+                     +                                                                 c
+             Λ (2625)   is a λ mode excitation [3]. Kawakami et al.                          +     + + −
+              c                                                        to the mode Λ (2625) → Λ π π are obtained:
+                                                                                      c            c
+             predicted a wide range [6] and Guo et al.’s predicted
+                          ++ −
+             the ratio Γ(Σ   π )/Γ      to be 29.9% [7], which is al-
+                          c        total                                    B(Λ (2625)+ → Σ0π+)
+             ready in contradiction with the previous measurement.              c            c       =(5.19±0.23±0.40)%
+                                                                                     +      + + −
+                                                                  +       B(Λ (2625) →Λ π π )
+             Our measurements of the properties of the Λ (2625)               c             c
+                                                           c
+                                                                                      +     ++ −
+             charmed baryon will be useful to further constrain the        B(Λc(2625) →Σc π ) =(5.13±0.26±0.32)%
+             parameter space of the quark models and can be applied                  +      + + −
+                                                                          B(Λ (2625) →Λ π π )
+                                                                              c             c
+             to other heavy quark systems.                                                                                 (7)
+               This is the ﬁrst measurement made of these branching                 
+               fractions as previously only limits have been presented.             
+               These measurements can be used as inputs to theoreti-                
+               cal models to generate predictions for other heavy quark             
+               baryons.                                                             

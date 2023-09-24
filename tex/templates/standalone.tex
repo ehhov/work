@@ -1,0 +1,21 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+%\usetikzlibrary{matrix}
+%\usetikzlibrary{patterns}
+%\usetikzlibrary{decorations.pathmorphing}
+%\usetikzlibrary{decorations.markings}
+
+\newlength{\len}
+\setlength{\len}{.8mm}
+
+\begin{document}
+
+\begin{tikzpicture}[x=\len, y=\len]
+
+  \path (0, 0) node{\includegraphics[width=100\len]{...}};
+
+\end{tikzpicture}
+
+\end{document}

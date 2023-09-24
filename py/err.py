@@ -1,6 +1,6 @@
 from math import sqrt
 
-class val_err:
+class val_err: #  {{{
 	def __init__(self, val, err):
 		self.val = float(val)
 		self.err = abs(float(err))
@@ -38,8 +38,75 @@ class val_err:
 	
 	def __str__(self):
 		return "{0} +- {1}".format(self.val, self.err)
+# }}}
 
 if __name__ == '__main__':
+
+    piz = val_err(30.7, 0.5)
+    gamma = val_err(1.6, 0.4)
+    rho = -0.44
+    print(gamma.div(piz, rho))
+
+    exit()
+
+    n1 = val_err(1933, 56)
+    n1r = val_err(862, 55)
+    n0 = val_err(26505, 177)
+    print(n1/n0, n1r/n1, sep='\n')
+    exit()
+
+    dic = {}
+    dic['fitmodel'] = 1.5, 5.7
+    dic['multiple'] = 0.8, 0.7
+    dic['lbkin'] = 0.2, .4
+    dic['doptstarpkin'] = .1, .2
+    dic['lckin'] = .3, .0
+    dic['pid'] = .7, .5
+    dic['track'] = .2, .0
+    dic['trig'] = .9, .5
+    dic['simreweight'] = 1.9, 2.8
+    dic['effstat'] = .8, .9
+
+    signal = 0.0
+    normal = 0.0
+    for e in dic.values():
+        signal = sqrt(signal**2 + e[0]**2)
+        normal = sqrt(normal**2 + e[1]**2)
+    print(f"signal = {signal}, normal = {normal}")
+
+    simcorr_sources = ['lbkin', 'doptstarpkin', 'lckin', 'simreweight']
+    effcorr_sources = ['pid', 'track', 'trig']
+    simcorr = [0.0, 0.0]
+    for s in simcorr_sources:
+        e = dic[s]
+        simcorr[0] = sqrt(simcorr[0]**2 + e[0]**2)
+        simcorr[1] = sqrt(simcorr[1]**2 + e[1]**2)
+    effcorr = [0.0, 0.0]
+    for s in effcorr_sources:
+        e = dic[s]
+        effcorr[0] = sqrt(effcorr[0]**2 + e[0]**2)
+        effcorr[1] = sqrt(effcorr[1]**2 + e[1]**2)
+    print(f'sim {simcorr}, eff {effcorr}')
+
+    other_sources = ['fitmodel', 'multiple', 'effstat']
+    other = [0.0, 0.0]
+    for s in other_sources:
+        e = dic[s]
+        other[0] = sqrt(other[0]**2 + e[0]**2)
+        other[1] = sqrt(other[1]**2 + e[1]**2)
+
+    total = [0.0, 0.0]
+    total[0] = sqrt(simcorr[0]**2 + effcorr[0]**2 + other[0]**2)
+    total[1] = sqrt(simcorr[1]**2 + effcorr[1]**2 + other[1]**2)
+    print(total)
+
+    #apo2 = val_err(1.0950, .0126)
+    #johnsonsu = val_err(1.1089, .0130)
+    #cb2 = val_err(1.1119, .0131)
+    #genhyp = val_err(1.0921, .0122)
+    #print(johnsonsu - apo2)
+    #print(cb2 - apo2)
+    #print(genhyp - apo2)
 	# do the thing
 
 	### Bachelor BR using PDG ### Dp  = .0938

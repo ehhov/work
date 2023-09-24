@@ -1,0 +1,530 @@
+I. INTRODUCTION
+Hadrons containing a b or c quark are referred to as heavy-quark hadrons and 
+provide an interesting laboratory for studying and testing quantum 
+chromodynamics (QCD), the theory of strong interactions [1, 2]. Because the 
+strong coupling constant αs is large for interactions involving small momentum 
+transfer, masses and decay widths of the heavy-quark states cannot be 
+calculated within the framework of perturbative QCD. As a result, many 
+different approaches have been developed, for example, based on heavy-quark 
+effective theory (HQET) [3], nonrelativistic and relativistic potential models 
+[4], or lattice QCD [5].
+In the limit of HQET, heavy-quark mesons, comprised of one heavy and one light 
+quark, are the closest analogy to the hydrogen atom, which provided important 
+tests of quantum electrodynamics. Heavy-quark baryons, comprised of one heavy 
+and two light quarks, extend the hydrogen atom analogy of HQET by treating the 
+two light quarks as a diquark system. This leads to degenerate spin-1/2 states 
+resulting from the combination of a spin0, or a spin-1, light diquark with the 
+heavy quark, and thus represents a complementary situation compared to 
+heavy-quark mesons. Measurements of the mass spectrum and spin splittings of 
+heavy-quark baryons are important for validating the theoretical techniques, 
+and build confidence in their predictions for other heavy flavor studies. In 
+this paper, we measure the properties of heavyquark baryons that contain 
+a c quark, namely the resonances Λc(2595)+, Λc(2625)+, Σc(2455)++,0 , and Σc 
+(2520)++,0. For simplification, we refer to Σ++,0 c as Σc wherever this 
+information is not crucial. Throughout the paper, the use of a specific 
+particle state implies the use of the charge-conjugate state as well. The quark 
+model predicts the Λc (2595)+ and Λc (2625)+ , referred to as Λ∗+ c , to be the 
+lowest orbital excitations of the Λc + groundstate with a spin-0 light diquark. 
+The two Σc resonances are expected to have no orbital excitation and a spin-1 
+light diquark.
+Some theoretical predictions of the resonance masses are summarized in Table I, 
+where Ref. [6] uses lattice QCD, Refs. [7–9] are based on the quark model, Ref. 
+[10] employs QCD sum rules and Ref. [11] uses a bag model. There are a few 
+calculations that predict the Σc (2455) natural width in the region of 1–3 
+MeV/c2 [12–17] and the Σc (2520) width to be about 18 MeV/c2 [17]. No 
+predictions are available for the Λc (2595) + and Λc(2625)+ widths. 
+Experimental observation of all four states studied here and measurements of 
+some of their properties have been reported earlier [19–26]. We list the world 
+average masses and widths in Table II, omitting Σ+ c states, which are 
+difficult to reconstruct with the CDF II detector due to the inefficiency in π0 
+identification. For Σc (2455), many measurements exist with most of the 
+information coming from CLEO [19] and FOCUS [20]. Experimental information on 
+the Σc (2520) states comes exclusively from CLEO [21, 22] and it is worth 
+noting that the two measurements of the Σc (2520)++ mass are inconsistent. For 
+Λc (2595)+ and Λc (2625)+ three experiments have contributed, namely ARGUS 
+[23], E687 at Fermilab [24, 25] and CLEO [26], all of which suffer from rather 
+small data samples. In addition, Blechman and co-authors [27] showed that 
+a more sophisticated treatment of the mass line shape, which takes into account 
+the proximity of the Λc (2595)+ mass to the sum of the masses of its decay 
+products, yields a Λc (2595) + mass which is 2–3 MeV/c2 lower than the one 
+observed. The Σc (2455) and Σc(2520) decay directly to Λ+ c π, whereas the 
+Λc(2595)+ and Λc(2625)+ end mainly in a Λ+ c ππ final state with dominating 
+decays through intermediate Σc resonances. Therefore, these four resonances 
+contribute to each other’s background, which requires a dedicated cross-feed 
+background modeling in each case. p K In − this π + decays analysis, produced 
+we exploit in app̄ large collisions sample at of Λ √ c + s → = 1.96 TeV and 
+collected by the CDF II detector. Measurements of the masses and widths of the 
+charmed baryons are performed through fits to the reconstructed mass 
+distributions calculated from the momenta of the final state tracks. We take 
+into account all expected cross-feeds and threshold effects. The paper is 
+organized as follows. In Sec. II we briefly describe the CDF II detector and 
+the trigger components important for this analysis. Secs. III and IV describe 
+the candidate reconstruction and selection, respectively. In Sec. V we explain 
+the fits involved in the measurements, followed by a discussion of systematic 
+uncertainties in Sec. VI. Finally the results and conclusions are presented in 
+Sec. VII.
+
+II. CDF II DETECTOR AND TRIGGER
+Among the components and capabilities of the CDF II detector [28], the tracking 
+system is the one most relevant to this analysis. It lies within a uniform, 
+axial magnetic field of 1.4 T strength. The inner tracking volume up to 
+a radius of 28 cm is comprised of 6–7 layers of double-sided silicon microstrip 
+detectors [29]. An additional layer of single-sided silicon is mounted directly 
+on the beam-pipe at a radius of 1.5 cm, allowing excellent resolution on the 
+impact parameter d0 , defined as the distance of closest approach of the track 
+to the interaction point in the plane transverse to the beam line. The silicon 
+detector provides a vertex resolution of approximately 15 μm in the transverse 
+and 70 μm in the longitudinal direction. The remainder of the tracking volume 
+from a radius of 40 to 137 cm is occupied by an open-cell drift chamber (COT) 
+[30], providing a transverse momentum resolution of σ(pT )/p2 T ≈ 0.1%/(GeV/c). 
+Hadron identification, which is crucial for distinguishing slow kaons and 
+protons from pions, is achieved by a likelihood combination of information from 
+a time-of-flight system (TOF) [31] and ionization energy loss in the COT. This 
+offers about 1.5σ separation between kaons, or protons, and pions. 
+A three-level trigger system is used for the online event selection. The most 
+important device for this analysis at level 1 is the extremely fast tracker 
+(XFT) [32]. It identifies charged particles using information from the COT and 
+measures their transverse momenta and azimuthal angles around the beam 
+direction. The basic requirement at level 1 is two charged particles with 
+transverse momentum, pT , greater than 2 GeV/c. At level 2, the silicon vertex 
+trigger [33] adds silicon hit information to the XFT tracks, thus allowing the 
+precise measurement of impact parameters of tracks. The two level 1 tracks are 
+required to have impact parameters between 0.1 and 1 mm and to be consistent 
+with coming from a common vertex displaced from the interaction point by at 
+least 100 μm in the plane transverse to the beam line. The level 3 trigger is 
+implemented in software and provides the final online selection by confirming 
+the first two trigger-level decisions using a more precise reconstruction 
+similar to the offline software. This trigger is designed to collect hadronic 
+decays of long-lived particles such as b and c hadrons. As determined by 
+a study of the impact parameter distributions, the sample of charmed baryons 
+recorded by the trigger consists of approximately equal contributions from Λb 
+decays and direct cc production.
+
+III. DATA SET AND RECONSTRUCTION
+The analysis is performed on a data set collected by the CDF II detector at the 
+Tevatron pp̄ collider between February 2002 and June 2009 corresponding to an 
+integrated luminosity of 5.2 fb−1. The data were accumulated using the 
+displaced two track vertex trigger described in the previous Section. The 
+offline reconstruction of candidates starts with refitting tracks using pion, 
+kaon and proton mass hypotheses to properly take into account differences in 
+the multiple scattering and ionization energy loss. In the second step, three 
+tracks, one with pion, one with kaon, and one with proton mass hypotheses, are 
+combined to form a Λ+ c candidate. The three tracks are subjected to 
+a kinematic fit that constrains them to originate from a common vertex. We 
+require that the proton and pion candidates have the same charge and that the 
+total charge of all three tracks is ±1. To construct Σc (2455) and Σc (2520) 
+candidates we combine each Λ+ c candidate with one of the remaining tracks in 
+the event using a pion mass hypothesis. The Λc (2595)+ and Λc(2625)+ candidates 
+are obtained by combining each Λ+ c candidate with all possible oppositely 
+charged track pairs taken from the remaining tracks in the event using the pion 
+mass hypothesis for each of them. The tracks forming each baryon candidate are 
+subjected to a kinematic fit that constrains them to originate from a common 
+point. In each step of the reconstruction, standard quality requirements on 
+tracks and vertices are used to ensure well-measured masses and 
+decay-positions. We use simulated events to estimate the detector mass 
+resolutions of the charmed baryons studied here. The decays are simulated by 
+means of the evtgen package [34], where the Λ + c is forced to decay into pK 
+− π + with its resonance structure taken into account. Afterwards, the 
+generated events are passed through the detector simulation and then 
+reconstructed by the same software used for data.
+
+IV. CANDIDATE SELECTION
+The selection of the candidates is done in two steps. In each one we first 
+impose some quality requirements to suppress the most obvious background. For 
+the surviving candidates we use a neural network to distinguish signal from 
+background. Since all final states feature a Λ+ c daughter, the first step is 
+the Λc + selection. In the second step, we perform a dedicated selection of the 
+four states under study. All neural networks are constructed with the 
+NeuroBayes package [35, 36] and trained, only using data, by means of the sPlot 
+technique [37, 38]. This technique assigns a weight to each candidate 
+proportional to the probability that the candidate is signal. The candidate 
+weight is based on the discriminating variables, which are required to be 
+independent of the ones used in the neural network training. In our case, the 
+discriminating variable is the invariant mass of the candidate. In the 
+training, each candidate enters with a weight calculated from the signal 
+probability that is derived from its mass. Based on these weights, the neural 
+network can learn the features of signal and background events. Since we use 
+only data for the neural network trainings, we randomly split each sample into 
+two parts (even and odd event numbers) and train two networks. Each of them is 
+then applied to the complementary subsample in order to maintain a selection 
+which is trained on a sample independent from the one to which it is applied. 
+This approach avoids a bias of the selection originating from statistical 
+fluctuations possibly learnt by the network. Additionally, using candidates 
+from two different mass regions populated by background only for the training, 
+we verify that the network selection does not depend on the mass or create an 
+artificial excess in the spectrum.
+
+A. Λ+ c selection
+The Λ+ c → pK − π + candidates are required to decay to a proton with pT > 1.9 
+GeV/c and other particles with pT > 400 MeV/c. The displacement of the 
+associated secondary vertex, projected onto the Λ+ c transverse momentum 
+direction, to the beam, Lxy , is required to be greater than 0.25 mm. In 
+addition, we use particle identification information from the TOF and dE/dx 
+from the COT. We combine the two sources of information for each track t into 
+a single variable where the index P i j=π,K,p denotesfj the PdE/dx hypothesis 
+(t)PT OF of (t) the particle type. The PT i OF (t) is the probability to 
+observe the measured time-of-flight given a particle of type i, and PdE/dx 
+i (t) is the probability to observe the measured dE/dx. The fractions fj are fπ 
+= 0.7, fK = 0.2, and fp = 0.1, as estimated from TOF information of a generic 
+background sample. We apply the requirement LLp > 0.6 on the proton track and 
+LLK > 0.2 on the kaon track. In case TOF or dE/dx information is not available 
+for a given track, we do not impose the corresponding requirement. The mass 
+distribution of the candidates with even event numbers is shown in Fig. 1. 
+A fit with a Gaussian signal and a linear background function defines the 
+probability density functions (PDFs) used to calculate the s Plot weights for 
+the Λ+ c network training. The corresponding distribution of odd-numbered 
+events is similar. The full list of input quantities of the neural network, 
+sorted by their importance, can be found in Table III. In the table, d0 denotes 
+the impact parameter with respect to the primary vertex of the pp̄ interaction 
+for a track in the plane transverse to the beam direction, σd0 its uncertainty, 
+χ 2 (Λ+ c ) the quality of the kinematic fit of the Λ+ c candidate, and 
+cos(∢(Λ+ c , t)) the cosine of the angle between the momentum of the Λ+ 
+c candidate in the lab frame and the momentum of the proton or kaon track in 
+the Λ+ c rest frame. These angles carry information about the resonant 
+substructure of the decay Λ+ c → pK − π+ . To demonstrate the ability of the 
+neural network to classify signal and background, the mass distributions of Λ+ 
+c candidates with even event numbers before and after requiring their neural 
+network output to correspond to an a posteriori signal probability greater than 
+2.5% is shown in Fig. 2. This requirement leads to a background reduction of 
+32% while keeping 97% of the signal. We use the output of the Λ+ c neural 
+network as input to the neural networks for selecting the Σc and Λ ∗+ 
+c resonances.
+
+B. Σc (2455) and Σ c (2520) selection
+The Σc (2455)++,0 and Σc (2520)++,0 → Λ+ c π +,− selection starts with the 
+application of a few loose requirements to remove the most obvious background, 
+followed by the use of a neural network. We require the a posteriori signal 
+probability of the Λ+ c neural network to be greater than 2.5% (see Fig. 2), 
+the pT (π) of the added pion to be greater than 400 MeV/c, d0 (π) < 1.5 mm, and 
+the mass of the Λ+ c candidate to be within ±10 MeV/c 2 of the nominal Λ+ 
+c mass [18], 2276.46 < M (pK −π +) < 2296.46 MeV/c2 (see Fig. 2). These 
+requirements are common for both neutral and doubly-charged states. The mass 
+difference + ∆M + = − M (Σc ) − M (Λ+ c ) distributions of all the Λ+ c π and 
+Λc π candidates are shown in Fig. 3. In the ∆M definition, M (Σc) and M (Λ+ 
+c ) correspond to the reconstructed masses of the Σc and Λ+ c candidates. The 
+neural network for the final selection of the Σc (2455) and Σc (2520) 
+candidates uses five input quantities. Ordered by their importance, these are 
+the output of the Λ + c neural network N N (Λ + c ), the proper decay time of 
+the Σc candidate t(Σc ) = (Lxy (Σc ) · M (Σc))/(c · pT (Σc)), the quality of 
+the kinematic fit of the Σc candidate χ 2 (Σc), the uncertainty of the Σc 
+impact parameter in the transverse plane σd0 (Σc ), and the impact parameter in 
+the transverse plane of the pion from the Σc decay d0(π). Independent neural 
+networks are employed for Σ++ c and Σ0 c . The training itself is performed 
+using candidates in the mass difference region from 155 to 180 MeV/c2 
+. Although this includes only Σc (2455) candidates, it is applied to select Σc 
+(2520) candidates as well. The s Plot weights are determined by a fit to the ∆M 
+distribution with a Gaussian function for the signal and a linear function for 
+the background PDF. We choose the threshold on the output of the Σc neural 
+network to maximize S/√S + B, where S is the number of signal Σc events and 
+B is the number of background events in ∆M between 162.3 and 172.3 MeV/c2. The 
+S and B yields are derived from a fit to the ∆M distribution which uses 
+a Gaussian function for the signal and a linear function for the background and 
+covers the ∆M range used for the neural network training. The resulting neural 
+network output requirement is the same for both charge combinations and 
+corresponds to an a posteriori signal probability of the neural networks 
+greater than 10%. The ∆M distributions of the selected candidates are shown in 
+Fig. 3.
+
+C. Λc (2595)+ and Λc (2625)+ selection
++ The + initial − step of the Λc(2595)+ and Λc(2625)+ → Λc π π selection 
+requires the a posteriori signal probability of the Λ+ c neural network to be 
+greater than 2.5%, 2276.46 < M (pK − π+) < 2296.46 MeV/c2 (see Fig. 2), pT (π) 
+of both added pions to be greater than 400 MeV/c, and the impact parameter of 
+the object constructed from the two additional pions to be d0(π+ π− ) < 1.0 mm. 
+The mass difference ∆M = M (Λ∗+ c ) − M (Λc +) distribution is shown in Fig. 4. 
+We use the ∆M region between 327 and 357 MeV/c2 for the neural network 
+training. Although this includes only Λc (2625)+ candidates, it is applied to 
+select Λc (2595)+ candidates as well. The s Plot weights are based on a fit to 
+the ∆M distribution with a Gaussian function for the signal and a linear 
+function for the background PDF. The neural network uses four inputs. Ordered 
+by their importance, these are the quality of the Λ∗+ c kinematic fit χ2 (Λc 
+∗+), the uncertainty of the impact parameter of the combined two-pion object 
+σd0 (π+π − ), the output of the Λ + c neural network N N (Λc +), and the proper 
+decay time of the Λ∗+ c candidate t(Λ∗+ c ). We choose the requirement that 
+maximizes S/√ S + B, corresponding to an a posteriori signal probability of the 
+neural network greater than 12.5%. The S and B yields are derived from a fit to 
+the ∆M distribution using a Gaussian function for the signal and a linear 
+function for the background, where we consider events in the region 336.7 < ∆M 
+< 346.7 MeV/c2. The resulting mass difference distribution after the final 
+requirements is shown in Fig. 4.
+
+V. FIT DESCRIPTION
+To determine the mass differences relative to the Λ+ c and the widths of the 
+six studied states, we perform binned maximum likelihood fits to three separate 
+mass difference distributions. The first two are Λ+ c π + and Λc + π − , where 
+the states Σc (2455) ++,0 and Σc (2520)++,0 are studied. The last one is 
+Λ c + π+ π− for Λc (2595)+ and Λc(2625)+ . In the case of the Σc states, part 
+of the background comes from Λ∗+ c decays and thus has different properties 
+compared to the combinatorial background. On the other hand, when fitting Λ∗+ 
+c states, there is a background contribution from random Σ++,0 c π−,+ com
+binations which have a threshold close to the Λc(2595)+ state. The negative 
+logarithm of the likelihood function has a general form of where ~a are the 
+free parameters, J is the number of bins in the histogram of the corresponding 
+mass difference distribution, nj is the number of entries in bin j, and μj is 
+the expected number of entries in bin j. The values μj are obtained using the 
+function where s1 (∆M ) and s2 (∆M ) are the PDFs for the two signals, b(∆M 
+) is the background function and Ni are the corresponding numbers of events. 
+All three PDFs depend on a subset of the free parameters ~a. The function is 
+evaluated at the bin center to calculate the expectation for μj . While the 
+general structure is the same in all three fits, the PDFs are specific to Σc 
+and Λ∗+ c states.
+
+A. Σc (2455) and Σc (2520) fit
+In each of the two distributions we need to parametrize two signals and several 
+background components. We use a 150–320 MeV/c2 range to avoid complications 
+arising from the description of the steep rise of the background at threshold. 
+Both Σc(2455) and Σc (2520) are described by a nonrelativistic Breit-Wigner 
+function, convolved with a resolution function. The resolution function itself 
+is parametrized by three Gaussians with mean zero and the other parameters 
+derived from simulated events. The average width of the resolution function is 
+about 1.6 MeV/c2 for Σc(2455)++,0 and about 2.6 MeV/c2 for Σc (2520)++,0. For 
+illustration, the simulated Σc (2520)0 mass resolution is shown in Fig. 5. We 
+introduce a single common scaling factor s for the widths of all three 
+Gaussians to correct for a possible mismatch in our mass resolution estimate. 
+This scaling factor is allowed to float within a Gaussian constraint in the 
+fit, what corresponds to adding
+with μ = 1 and σ = 0.2, reflecting a 20% uncertainty on the mass resolution 
+(see Sec. VI), to the negative logarithm of the likelihood. Three different 
+types of background are considered, namely, random combinations without real Λ+ 
+c , combinations of real Λ+ c with a random pion, and events due to the decay 
+of Λ∗+ c to Λ+ c π+ π− . The random combinations without a real Λ+ c dominate 
+and are described by a second-order polynomial with shape and normalization 
+derived in a fit to the ∆M distribution from the Λ+ c mass sidebands 2261.46 
+< M (pK − π + ) < 2266.46 MeV/c2 and 2306.46 < M (pK − π+ ) < 2311.46 MeV/c2 
+. In the Σc fit, this contribution is allowed to float within a Gaussian 
+constraint implemented by the addition of to the negative logarithm of the 
+likelihood, where V is the covariance matrix of the fit to the ∆M distribution 
+from the Λ+ c mass sidebands and ∆ ~ is the vector of parameters of the 
+second-order polynomial. The fits to the distributions from the Λ+ c mass 
+sidebands can be found in Fig. 6. The difference between doubly-charged and 
+neutral spectra is due to D∗ (2010)+ → D0 0 π+ mesons with multibody D0 decays, 
+where not all D decay products are reconstructed. In order to describe this 
+reflection, an additional Gaussian function is used. The second background 
+source consisting of real Λ+ c combined with a random pion is modeled by 
+a third-order polynomial, where all parameters are left free in the fit. The 
+background originating from Λ∗+ c decays is described using theoretical 
+considerations. With good approximation, there are two states that contribute, 
+namely Λc(2595)+ and Λc (2625) + , decaying into a Λ+ c π+ π− final state. The 
+Λc(2595)+ decays dominantly to a Σc π final state [18] and thus contributes 
+mainly to the signal. We therefore neglect its contributions to the backgrounds 
+in the Λc π distributions. On the other hand, the Λc (2625)+ decay is 
+dominantly nonresonant [18]. To model it, we start from a flat Λ+ 
+c π + π − Dalitz plot and project it on the appropriate axis. Since the shape 
+of the projection depends on the reconstructed Λc(2625)+ → Λ+ c π+ π − mass, we 
+use ten different values of this mass and weight their contribution according 
+to the Λc (2625)+ shape we obtain from our fit to the Λ+ c π + π − data. This 
+contribution amounts to about 2% of the total background. The full fit to the 
+∆M distribution, containing all signal and background components, can be found 
+in Fig. 7. The χ2 value of the Σ++ c fit is 340 (324 degrees of freedom) and 
+that of the Σ0 c fit is 384 (321 degrees of freedom).
+
+B. Λc (2595)+ and Λc (2625)+ fit
+The fit for Λ c(2595)+ and Λc (2625)+ includes two signals and several 
+background components and is performed in a ∆M region from 290 to 400 MeV/c2. 
+Previous measurements of the Λc (2595)+ properties indicate that it decays 
+dominantly to the final state Σc π, with the threshold very close to the 
+Λc(2595)+ mass [18]. This introduces an additional complication to the fit 
+compared to the Σc case. Blechman et al. [27] showed that taking into account 
+the mass dependence of the natural width yields a lower Λc (2595)+ mass 
+measurement than observed by previous experiments. With the present event 
+sample we are more sensitive to the details of the Λc(2595)+ line shape than 
+previous analyses and include this dependence in the model. The Λc (2595)+ 
+parametrization follows Ref. [27]. The state is described by a nonrelativistic 
+Breit-Wigner function of the form where Γ(Λ+ c π+ π−) and Γ(Λc +π0π0) are the 
+massdependent partial widths to the Λ+ c π+ π − and Λ+ c π 0 π 0 final states. 
+Assuming that those two final states saturate nearly 100% of the Λc(2595)+ 
+decay width, the sum in the denominator corresponds to the total width. The two 
+partial widths are derived in Ref. [39] as
+Here, fπ = 132 MeV/c2 is the pion decay constant [40], mΛ+ c is the world 
+average Λ+ c mass, E1 ,E2 are the energies of the two pions in the rest frame 
+of the Λc (2595)+, and ~1,~ p p2 are the corresponding momenta. Following Ref. 
+[27], the coupling constant g2 is determined by the Σc decay width using the 
+relation with mΣc being the world average mass of the Σc (2455) and ~pπ the 
+momentum of the pion from the Σc (2455) decay to Λc π in the Σc (2455) rest 
+frame. From the world average ΓΣc = 2.2 MeV/c2 [18] we obtain the value g2 
+2 = 0.365 which is fixed in the fit. The amplitudes A, B, and C for the decays 
+Λc (2595)+ → Σc (2455)0 π + , Λc(2595)+ → Σc (2455)++ π− , and Λc (2595)+ → Σc 
+(2455)+ π0 are parametrized as
+In these definitions, mΣ++,+,0 c and ΓΣ ++,+,0 c are the mass and the width of 
+the Σc (2455)++,+,0 taken from Ref. [18]. The coupling constant h2 , defined in 
+Ref. [16], is related to the decay width of the Λc(2595)+ and represents the 
+actual quantity we measure instead of the natural width. This approach 
+describes a purely S-wave decay, a possible D-wave contribution is assumed to 
+be negligible and ignored. For illustration, we show the dependence of the two 
+partial widths on M (Λc (2595)+ ) − M (Λ+ c ) in Fig. 8. The shape defined by 
+Eq. 7 is then numerically convolved with a resolution function determined from 
+simulation and consisting of three Gaussians with mean zero. The average width 
+of the resolution function is about 1.8 MeV/c2 . As for the Σc case, we 
+introduce a common, Gaussian constrained, scaling factor for the widths of all 
+three Gaussians, in order to account for the uncertainty in the width of the 
+resolution function. The signal PDF for the Λ c(2625)+ is the nonrelativistic 
+Breit-Wigner function of Eq. 4 convolved with a three Gaussian resolution 
+function determined from simulation, which has an average width of about 2.4 
+MeV/c2 . Again, all three Gaussians have mean zero and a common, Gaussian 
+constrained, scaling factor for their widths is introduced. The background 
+consists of three different sources, which include combinatorial background 
+without real Λ+ c , real Λc + combined with two random pions, and real Σc ++,0 
+combined with a random pion. The combinatorial background without real Λ+ 
+c is parametrized by a second-order polynomial whose parameters are deter
+mined in a fit to the ∆M distribution of candidates from the Λ+ c mass 
+sidebands, 2261.46 < M (pK −π +) < 2266.46 MeV/c2 and 2306.46 < M (pK − π+) 
+< 2311.46 MeV/c2. This distribution is shown in Fig. 9 together with the fit. 
+In the final fit, we keep the parameters for this background floating within 
+a Gaussian constraint of the form of Eq. 6 to the values found in the fit to 
+the candidates from the Λ+ c mass sidebands. The second source, consisting of 
+real Λ+ c combined with two random pions, is parametrized by a second-order 
+polynomial with all parameters allowed to float in the fit. The final source of 
+background are real Σc combined with a random pion. For this source, the main 
+issue is to have the proper shape close to the threshold. Small imperfections 
+at higher ∆M can be ignored, as the second background source has enough 
+flexibility to absorb it. The PDF of this Σc background is based on a constant 
+function defined from the threshold to the end of the fit range. In order to 
+take into account the natural widths as well as resolution effects, we use the 
+weighted sum of ten such functions for both Σc (2455)++ and Σc (2455)0 . Their 
+thresholds and weights are chosen according to the shapes derived in the Σc 
+fits shown in Fig. 7. The size of this contribution is constrained to the Σc 
+(2455) yield obtained from the fits to the M (Σc ) − M (pK −π+) 
+− + distributions for 2 candidates with M (Λ∗+ c ) − M (pK π ) > 355 MeV/c 
+. These two distributions together with the fits are shown in Fig. 10. The full 
+fit to the ∆M distribution, containing all signal and background components, 
+can be found in Fig. 11. The χ2 value of the fit is 227 (206 degrees of 
+freedom). Compared to that, the χ2 value of a fit with a massindependent Λc 
+(2595)+ decay width, shown in Fig. 12, increases to 286 (206 degrees of 
+freedom).
+
+VI. SYSTEMATIC UNCERTAINTIES
+We investigate several systematic effects that can affect the measurements. 
+Generally, they can be categorized as imperfect modeling by the simulation, 
+imperfect knowledge of the momentum scale of the detector, ambiguities in the 
+fit model, and uncertainties on the external inputs to the fit. In this Section 
+we discuss how they can affect our results and the way we assess them. 
+A summary of the assigned uncertainties can be found in Tables IV–VI. To obtain 
+the total systematic uncertainties, we add up the contributions from all 
+sources in quadrature.
+
+A. Mass resolution model
+To properly describe the signal shapes, we need to understand the intrinsic 
+mass resolution of the detector. Since we estimate this using simulated events, 
+it is necessary to verify that the resolution obtained from simulation agrees 
+with that in real data. We use D ∗(2010)+ → D 0 − π + with D 0 → K − π+ decays 
+and ψ(2S) → J/ψ π+ π with J/ψ → μ+ μ− decays for this purpose. We compare the 
+resolution in data and simulated events as a function of the p T of the pions 
+added to D0 or J/ψ as well as the instantaneous luminosity. We also compare the 
+overall resolution scale between data and simulated events and find that all 
+discrepancies are less than 20%, which we assign as uncertainty on our 
+knowledge of the resolution function. The contribution from this uncertainty is 
+already included in the uncertainties on the resonance parameters determined by 
+the default fit with Gaussian constraint on the resolution scaling factor s, 
+the resulting values for which are listed in Table VII. These values are 
+consistent with 1, indicating that the resolution is well understood within the 
+assigned uncertainty. To disentangle it from the statistical component, we 
+repeat the fits on data without multiplying the widths of the resolution 
+function by the scaling factor s from Eq. 5. The systematic uncertainty due to 
+the imperfect modeling of the resolution function is then obtained by the 
+difference in quadrature of the uncertainty of the fit with and without the 
+Gaussian constraint. This uncertainty in the resolution has a large impact on 
+the natural widths, but a negligible effect on the mass differences.
+
+B. Momentum scale
+The accuracy of the momentum scale depends on the precision with which the 
+magnetic field and the amount of material in the detector are known. Both 
+effects are originally calibrated using J/ψ → μ+ μ− decays [41]. A limitation 
+of this calibration is that it uses muons that are required by the detector 
+acceptance to have pT > 1.5 GeV/c, while pions from Σc or Λ∗+ c decays 
+typically have much lower pT . The estimate of the uncertainty on the mass 
+differences comes from our previous work on the X(3872) hadron [42]. There, 
+ψ(2S) → J/ψ π+ π − decays are used to study the momentum scale uncertainties by 
+comparing the measured ψ(2S) mass with the world average value [18]. In 
+addition, we study the ψ(2S) mass dependence on the kinematic properties of the 
+pions, which constrains the sizes of possible effects. Furthermore, we verify 
+the momentum scale by using D∗ (2010)+ → D0 π + decays, where the resulting 
+deviation from the world average is far below the uncertainty derived from 
+ψ(2S). Based on Ref. [42], we assign a 0.12 MeV/c2 uncertainty on the mass 
+differences of all states under study due to the imperfect knowledge of the 
+momentum scale. The corresponding effect on the natural widths was studied in 
+our previous measurements of the masses and widths of the excited charmed meson 
+states D1 0 and D2 ∗0 [43], and we assign the 0.2 MeV/c2 found there as the 
+uncertainty on the natural widths due to this source. To translate this 
+uncertainty to the coupling constant h2 , we assign it to the sum Γ(Λ+ c π+ π−) 
++ Γ(Λc + π0 π0) (see Eqs. 8 and 9), which is a function of h2 , and perform 
+Gaussian error propagation.
+
+C. Fit model
+In terms of our fit model and procedure we check two effects, the internal 
+consistency of the fit and the shape of the signal PDFs. We do not perform an 
+explicit check of the background parametrizations as those are described by 
+polynomials and any analytic function can be approximated by a polynomial of 
+sufficient complexity. Since the fit quality does not indicate significant 
+discrepancies between data and the model, we conclude that the degree of the 
+polynomial functions used is sufficient. Some backgrounds are determined from 
+independent sources, but as the appropriate parameters are Gaussian constrained 
+in the fit, the uncertainty originating from the sample size of the external 
+sources, like Λ+ c mass sidebands, is already included in the statistical 
+uncertainties of the results. To check the internal consistency of the fit 
+procedure, we generate a large ensemble of statistical trials using PDFs of our 
+fit model with parameters obtained from the fit to data. Estimates of all 
+physics parameters except the mass differences and natural widths of the Σc 
+(2520) resonances are found to be unbiased. The Σc (2520) mass differences have 
+small biases towards higher values and the Σc (2520) natural widths are biased 
+towards lower values. These biases on the Σc(2520) resonance parameters result 
+from the fairly low signal to background ratio and the flexibility in the 
+background PDF, which tends to absorb the tails of the relatively broad signal 
+structure. We repeat the study with a true value for the Σc (2520) natural 
+width below (Γ = 7.5 MeV/c2) and above (Γ = 20 MeV/c2) the measured value and 
+find that the biases have a small dependence on the true value. The biases are 
+largest for a true value of the natural width of 20 MeV/c2 and we consequently 
+assign these biases as systematic uncertainties on the mass differences and 
+natural widths of the Σc (2520) states. Concerning the uncertainty on the 
+signal shape, we check whether our signal parametrization using nonrelativistic 
+Breit-Wigner functions provides a proper description. We refit the Σc and Λc 
+(2625)+ data using a P -wave relativistic Breit-Wigner function of the form 
+with where m = ∆M + mΛ+ c , R is the Blatt-Weisskopf radius set to 3 (GeV/c) −1 
+[44, 45], m0 and Γ0 are the nominal mass and width, and q(q0 ) is the 
+momentum of the daughters in the Σc or Λc (2625)+ rest frame calculated from 
+the nominal mass. For the Λc (2595)+ we replace the nonrelativistic 
+Breit-Wigner function of Eq. 7 by a relativistic one and use the variable width 
+defined in Eqs. 8 and 9. For the Σc (2455) we observe a difference of 0.02 
+MeV/c2 in the mass difference, which we assign as a systematic uncertainty. In 
+the cases of Σc (2520) and Λ∗+ c resonances we do not observe any shift and 
+conclude that the effect is negligible.
+
+D. External inputs
+Finally, the line shape of the Λc(2595)+ depends on the input values of the Σc 
+(2455) masses and widths and the pion decay constant fπ . We repeat the fit 
+using values of those parameters smaller or larger by 1 standard deviation 
+and take the stronger variation as systematic uncertainty. The effect of the 
+uncertainty on the world average Σc (2455) masses and widths used as input is 
+dominant compared to the effect of the uncertainty on fπ .
+
+VII. RESULTS AND CONCLUSIONS
+We perform + fits to the − M (pK − π+ π+ ) − − M (pK + − π+ ), M (pK −π + π− 
+) − M (pK π+ ), and M (pK π+ π π −) − M (pK −π ) mass difference distributions 
+to obtain the desired resonance properties. The data distributions and fits are 
+shown in Figs. 7 and 11. We select about 13800 Σc (2455)++, 15900 Σc (2455)0, 
+8800 Σc (2520)++, 9000 Σc (2520)0, 3500 Λc (2595)+ , and 6200 Λc (2625)+ signal 
+events. The resonance parameters obtained can be found in Table VIII. For the 
+width of the Λ c(2625)+ we observe a value consistent with zero and therefore 
+calculate an upper limit using a Bayesian approach with a uniform prior 
+restricted to positive values. At the 90% credibility level we obtain Γ(Λc 
+(2625)+ ) < 0.97 MeV/c2. For easier comparison to previous results [23, 26], 
+h22 corresponds to a Λc (2595)+ decay width of Γ(Λc (2595)+) = 2.59 ± 0.30 
+± 0.47 MeV/c2 , calculated at ∆M (Λ c(2595)+ ). Our precise measurement of the 
+coupling constant h2 can, for instance, be used to predict the width of the Ξc 
+(2645), as discussed in Ref. [46]. In Figs. 13–15, our results are compared to 
+previous measurements by other experiments. Except for ∆M (Λc (2595)+ ), all 
+our measurements agree with the previous world average values. For ∆M 
+(Λc(2595)+) we show that a mass-independent natural width does not describe the 
+data (see Fig. 12) and observe a value which is 3.1 MeV/c2 smaller than the 
+existing world average. This difference is the same size as estimated in Ref. 
+[27]. Since this data sample is 25 times larger than the ones studied so far, 
+our results on the properties of Λ∗+ c states provide a significant improvement 
+in precision compared to previous measurements. The precision for the Σc states 
+is comparable to the precision of the world averages. Concerning the 
+inconsistency of the two CLEO measurements [21, 22] of the Σc(2520)++ mass, our 
+data favor a smaller value. In conclusion, we exploit the world largest samples 
+of excited charmed baryons to measure the resonance parameters of six states, 
+namely Σc(2455)++ , Σc(2455)0, Σc (2520)++, Σc (2520)0, Λc (2595)+ , and 
+Λc(2625)+ . Table IX summarizes the results for their masses and widths. These 
+measurements provide a significant improvement in the knowledge of the 
+resonance parameters of the states and represent the first analysis of charmed 
+baryons at a hadron collider.

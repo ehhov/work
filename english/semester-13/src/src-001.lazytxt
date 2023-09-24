@@ -1,0 +1,996 @@
+                                                                                                 I.  INTRODUCTION
+              ∗Deceased                                                           Hadrons containing a b or c quark are referred to as
+              †With visitors from aUniversity of MA Amherst, Amherst, MA       heavy-quark hadrons and provide an interesting labora-
+              01003, USA, bIstituto Nazionale di Fisica Nucleare, Sezione di   tory for studying and testing quantum chromodynam-
+              Cagliari, 09042 Monserrato (Cagliari), Italy, cUniversity of CA
+              Irvine, Irvine, CA 92697, USA, dUniversity of CA Santa Barbara,  ics (QCD), the theory of strong interactions [1, 2]. Be-
+                                              e                                cause the strong coupling constant ³ is large for in-
+              Santa Barbara, CA 93106, USA, University of CA Santa Cruz,                                                 s
+              Santa Cruz, CA 95064, USA, fCERN,CH-1211 Geneva, Switzer-        teractions involving small momentum transfer, masses
+              land, gCornell University, Ithaca, NY 14853, USA, hUniversity    and decay widths of the heavy-quark states cannot be
+              of Cyprus, Nicosia CY-1678, Cyprus, iUniversity College Dublin,  calculated within the framework of perturbative QCD.
+              Dublin 4, Ireland, jUniversity of Fukui, Fukui City, Fukui Prefec-
+              ture, Japan 910-0017, kUniversidad Iberoamericana, Mexico D.F.,  As a result, many diﬀerent approaches have been devel-
+              Mexico, lIowa State University, Ames, IA 50011, USA, mUniversity oped, for example, based on heavy-quark eﬀective the-
+              of Iowa, Iowa City, IA 52242, USA, nKinki University, Higashi-   ory (HQET) [3], nonrelativistic and relativistic potential
+              Osaka City, Japan 577-8502, oKansas State University, Manhat-    models [4], or lattice QCD [5].
+              tan, KS 66506, USA, pUniversity of Manchester, Manchester M13
+              9PL, United Kingdom, qQueen Mary, University of London, Lon-
+              don, E1 4NS, United Kingdom, rUniversity of Melbourne, Vic-
+              toria 3010, Australia, sMuons, Inc., Batavia, IL 60510, USA,
+              tNagasaki Institute of Applied Science, Nagasaki, Japan, uNational     y
+                                                        v                      USA, UniversidadTecnicaFederico Santa Maria, 110v Valparaiso,
+              Research Nuclear University, Moscow, Russia, University of Notre Chile, zYarmouk University, Irbid 211-63, Jordan, iiUniversity of
+              Dame, Notre Dame, IN 46556, USA, wUniversidad de Oviedo, E-                                                    hh
+                                  x                                            Warwick, Coventry CV4 7AL, United Kingdom,      On leave from
+              33007 Oviedo, Spain, Texas Tech University, Lubbock, TX 79609,   J. Stefan Institute, Ljubljana, Slovenia,
+                                                                                                                                    4
+                In the limit of HQET, heavy-quark mesons, comprised        TABLE II: World average values of the mass diﬀerences be-
+             of one heavy and one light quark, are the closest analogy                                                  +
+                                                                           tween the charmed baryon resonances and the Λ  mass, ∆M,
+             to the hydrogen atom, which provided important tests of                                                    c
+             quantum electrodynamics. Heavy-quark baryons, com-            and their natural widths, Γ [18].
+                                                                                                          2              2
+             prised of one heavy and two light quarks, extend the hy-              Hadron     ∆M[MeV/c ]        Γ [MeV/c ]
+                                                                                 Σ (2455)++ 167.56±0.11         2.23 ±0.30
+             drogen atom analogy of HQET by treating the two light                 c
+                                                                                  Σ (2455)0   167.30 ±0.11       2.2 ±0.4
+             quarks as a diquark system. This leads to degenerate                   c
+                                                                                 Σ (2520)++     231.9 ±0.6       14.9 ±1.9
+             spin-1/2 states resulting from the combination of a spin-             c
+                                                                                  Σ (2520)0     231.6 ±0.5       16.1 ±2.1
+             0, or a spin-1, light diquark with the heavy quark, and                c
+                                                                                          +                          +2.0
+                                                                                  Λ (2595)      308.9 ±0.6        3.6
+             thus represents a complementary situation compared to                  c                                −1.3
+                                                                                  Λ (2625)+     341.7 ±0.6   <1.9at 90% C.L.
+             heavy-quark mesons. Measurements of the mass spec-                     c
+             trum and spin splittings of heavy-quark baryons are im-
+             portant for validating the theoretical techniques, and
+             build conﬁdence in their predictions for other heavy ﬂa-      iments have contributed, namely ARGUS [23], E687 at
+             vor studies.                                                  Fermilab [24, 25] and CLEO [26], all of which suﬀer from
+                In this paper, we measure the properties of heavy-         rather small data samples. In addition, Blechman and
+             quark baryons that contain a c quark, namely the              co-authors [27] showed that a more sophisticated treat-
+                                   +           +            ++,0           ment of the mass line shape, which takes into account
+             resonances Λc(2595) , Λc(2625) , Σc(2455)           , and                                    +
+                      ++,0                                     ++,0        the proximity of the Λc(2595)     mass to the sum of the
+             Σc(2520)      . For simpliﬁcation, we refer to Σ        as
+                                                               c                                                             +
+             Σ wherever this information is not crucial. Through-          masses of its decay products, yields a Λc(2595)      mass
+               c                                                           which is 2–3MeV/c2 lower than the one observed. The
+             out the paper, the use of a speciﬁc particle state implies    Σ (2455) and Σ (2520) decay directly to Λ+Ã, whereas
+             the use of the charge-conjugate state as well. The quark        c              c                           c
+                                                                                        +               +                  +
+                                           +                +              the Λc(2595) andΛc(2625) endmainlyinaΛc ÃÃ ﬁnal
+             model predicts the Λc(2595)      and Λc(2625) , referred      state with dominating decays through intermediate Σ
+             to as Λ∗+, to be the lowest orbital excitations of the Λ+                                                              c
+                     c                                               c     resonances. Therefore, these four resonances contribute
+             groundstate with a spin-0 light diquark. The two Σc res-      to each other’s background, which requires a dedicated
+             onances are expected to have no orbital excitation and a      cross-feed background modeling in each case.
+             spin-1 light diquark.                                                                                              +
+                                                                             In this analysis, we exploit a large sample of Λc →
+                                                                               − +                                            √
+                                                                           pK Ã decays produced in pp¯ collisions at            s =
+             TABLE I: Theoretical predictions for the masses of the        1.96TeVandcollected by the CDF II detector. Measure-
+                                                                     2     ments of the masses and widths of the charmed baryons
+             charmedbaryonsunderstudy. AllvaluesaregiveninMeV/c .
+                      Hadron    [6]   [7] [8, 9]   [10]    [11]            are performed through ﬁts to the reconstructed mass dis-
+                     Σ (2455) 2452 2455 2439 2400±310 2393                 tributions calculated from the momenta of the ﬁnal state
+                       c                                                   tracks. We take into account all expected cross-feeds and
+                     Σ (2520) 2538 2519 2518 2560±240 2489
+                       c
+                    Λ (2595)+ ··· 2625 2598 2530±220 ···                   threshold eﬀects.
+                      c
+                    Λ (2625)+ ··· 2636 2628 2580±240 ···                     The paper is organized as follows. In Sec. II we brieﬂy
+                      c
+                                                                           describe the CDF II detector and the trigger components
+                Some theoretical predictions of the resonance masses       important for this analysis. Secs. III and IV describe the
+             are summarized in Table I, where Ref. [6] uses lattice        candidate reconstruction and selection, respectively. In
+             QCD,Refs. [7–9] are based on the quark model, Ref. [10]       Sec. V we explain the ﬁts involved in the measurements,
+             employs QCD sum rules and Ref. [11] uses a bag model.         followed by a discussion of systematic uncertainties in
+             There are a few calculations that predict the Σ (2455)        Sec. VI. Finally the results and conclusions are presented
+                                                               c           in Sec. VII.
+             natural width in the region of 1–3MeV/c2 [12–17] and
+             the Σc(2520) width to be about 18MeV/c2 [17]. No pre-
+                                                     +               +
+             dictions are available for the Λc(2595)    and Λc(2625)
+             widths.                                                            II.  CDFII DETECTORANDTRIGGER
+                Experimental observation of all four states studied
+             here and measurements of some of their properties have          Amongthe components and capabilities of the CDF II
+             been reported earlier [19–26]. We list the world aver-        detector [28], the tracking system is the one most relevant
+             age masses and widths in Table II, omitting Σ+ states,        to this analysis. It lies within a uniform, axial magnetic
+                                                              c
+             which are diﬃcult to reconstruct with the CDF II de-          ﬁeld of 1.4T strength. The inner tracking volume up to a
+             tector due to the ineﬃciency in Ã0 identiﬁcation. For         radius of 28cm is comprised of 6–7 layers of double-sided
+             Σc(2455), many measurements exist with most of the            silicon microstrip detectors [29]. An additional layer of
+             information coming from CLEO [19] and FOCUS [20].             single-sided silicon is mounted directly on the beam-pipe
+             Experimental information on the Σc(2520) states comes         at a radius of 1.5cm, allowing excellent resolution on
+             exclusively from CLEO [21, 22] and it is worth noting         the impact parameter d , deﬁned as the distance of clos-
+                                                                                                   0
+                                                          ++
+             that the two measurements of the Σ (2520)        mass are     est approach of the track to the interaction point in the
+                                                   c
+                                        +               +
+             inconsistent. For Λc(2595)    and Λc(2625) three exper-       plane transverse to the beam line. The silicon detector
+                                                                                                                                                                                                                                                                                                                                                        5
+                                  provides a vertex resolution of approximately 15µm in
+                                  the transverse and 70µm in the longitudinal direction.                                                                                                                    2    16000
+                                                                                                                                                                                                                                     S ≈   110000                                                              Data
+                                  The remainder of the tracking volume from a radius of                                                                                                                                              B ≈ 1300000                                                               Fit Function
+                                                                                                                                                                                                                 14000                                                                                         Λ+
+                                                                                                                                                                                                                                                                                                                  c
+                                  40 to 137cm is occupied by an open-cell drift chamber                                                                                                                          12000                                                                                         Background
+                                  (COT)[30], providing a transverse momentum resolution
+                                  of Ã(pT)/p2 ≈ 0.1%/(GeV/c). Hadron identiﬁcation,                                                                                                                              10000
+                                                               T
+                                  which is crucial for distinguishing slow kaons and pro-                                                                                                                           8000
+                                  tons from pions, is achieved by a likelihood combination                                                                                                                          6000
+                                  of information from a time-of-ﬂight system (TOF) [31]                                                                                                                       Candidates per 0.5 MeV/c
+                                  and ionization energy loss in the COT. This oﬀers about                                                                                                                           4000
+                                  1.5Ã separation between kaons, or protons, and pions.                                                                                                                             2000
+                                        Athree-level trigger system is used for the online event                                                                                                                           0 2.26                 2.27             2.28              2.29              2.3              2.31
+                                  selection. The most important device for this analysis at                                                                                                                                                                                                                    -   +                2
+                                                                                                                                                                                                                                                                                              Mass(pKπ ) [GeV/c ]
+                                  level 1 is the extremely fast tracker (XFT) [32]. It iden-
+                                  tiﬁes charged particles using information from the COT                                                                                                                                                                                                                                             +
+                                                                                                                                                                                                    FIG. 1: (color online) The mass distribution of Λ                                                                                       candi-
+                                                                                                                                                                                                                                                                                                                                     c
+                                  and measures their transverse momenta and azimuthal                                                                                                                                                                                                                                                                  +
+                                                                                                                                                                                                    dates used to train one of the two neural networks for the Λ
+                                                                                                                                                                                                                                                                                                                                                       c
+                                  angles around the beam direction. The basic require-                                                                                                              selection.
+                                  ment at level 1 is two charged particles with transverse
+                                  momentum, pT, greater than 2GeV/c. At level 2, the
+                                                                                                                                                                                                                                                                                                                                +
+                                  silicon vertex trigger [33] adds silicon hit information                                                                                                          TABLEIII:Inputsto the neural network for the Λ selection
+                                                                                                                                                                                                                                                                                                                                c
+                                  to the XFT tracks, thus allowing the precise measure-                                                                                                             sorted by their importance.
+                                  ment of impact parameters of tracks. The two level 1                                                                                                                                    Index                  Variable                     Index                   Variable
+                                  tracks are required to have impact parameters between                                                                                                                                         1                 LL (p)                            8                     p (p)
+                                                                                                                                                                                                                                                          p                                                  T
+                                  0.1 and 1mm and to be consistent with coming from a                                                                                                                                                                            +                                                 +
+                                                                                                                                                                                                                                2              σL (Λ )                              9          cos("(Λ ,K))
+                                                                                                                                                                                                                                                      xy         c                                                 c
+                                  common vertex displaced from the interaction point by                                                                                                                                         3               LL (K)                            10                     p (π)
+                                                                                                                                                                                                                                                        K                                                   T
+                                                                                                                                                                                                                                                              +
+                                  at least 100µm in the plane transverse to the beam line.                                                                                                                                      4         cos("(Λ ,p))                            11                d0/σd (K)
+                                                                                                                                                                                                                                                              c                                                  0
+                                                                                                                                                                                                                                                      2       +
+                                                                                                                                                                                                                                5                 χ (Λ )                          12                     pT(K)
+                                  The level 3 trigger is implemented in software and pro-                                                                                                                                                                     c
+                                                                                                                                                                                                                                                                +
+                                                                                                                                                                                                                                6                L (Λ )                           13                 d /σ (p)
+                                  vides the ﬁnal online selection by conﬁrming the ﬁrst two                                                                                                                                                         xy          c                                       0       d0
+                                  trigger-level decisions using a more precise reconstruction                                                                                                                                   7              d0/σd0(π)
+                                  similar to the oﬄine software. This trigger is designed to
+                                  collect hadronic decays of long-lived particles such as b
+                                                                                                                                                                                                                                                        +                                         +
+                                  and c hadrons. As determined by a study of the impact                                                                                                             esis. The Λc(2595)                                        and Λc(2625)                               candidates are ob-
+                                  parameter distributions, the sample of charmed baryons                                                                                                            tained by combining each Λ+ candidate with all possible
+                                                                                                                                                                                                                                                                              c
+                                  recorded by the trigger consists of approximately equal                                                                                                           oppositely charged track pairs taken from the remain-
+                                  contributions from Λb decays and direct cc production.                                                                                                            ing tracks in the event using the pion mass hypothesis
+                                                                                                                                                                                                    for each of them. The tracks forming each baryon candi-
+                                                                                                                                                                                                    date are subjected to a kinematic ﬁt that constrains them
+                                           III.            DATASETANDRECONSTRUCTION                                                                                                                 to originate from a common point. In each step of the
+                                                                                                                                                                                                    reconstruction, standard quality requirements on tracks
+                                        The analysis is performed on a data set collected by                                                                                                        andverticesare used to ensure well-measured masses and
+                                  the CDF II detector at the Tevatron pp¯ collider between                                                                                                          decay-positions.
+                                  February 2002 and June 2009 corresponding to an inte-                                                                                                                   Weusesimulated events to estimate the detector mass
+                                                                                                          −1                                                                                        resolutions of the charmed baryons studied here. The de-
+                                  grated luminosity of 5.2fb                                                     .     The data were accumu-                                                        cays are simulated by means of the evtgen package [34],
+                                  lated using the displaced two track vertex trigger de-                                                                                                            where the Λ+ is forced to decay into pK−Ã+ with its
+                                  scribed in the previous Section.                                                                                                                                                                    c
+                                        The oﬄine reconstruction of candidates starts with re-                                                                                                      resonance structure taken into account. Afterwards, the
+                                  ﬁtting tracks using pion, kaon and proton mass hypothe-                                                                                                           generated events are passed through the detector simu-
+                                  ses to properly take into account diﬀerences in the mul-                                                                                                          lation and then reconstructed by the same software used
+                                  tiple scattering and ionization energy loss. In the second                                                                                                        for data.
+                                  step, three tracks, one with pion, one with kaon, and one
+                                  with proton mass hypotheses, are combined to form a Λ+
+                                                                                                                                                                                     c                                         IV.             CANDIDATESELECTION
+                                  candidate. The three tracks are subjected to a kinematic
+                                  ﬁt that constrains them to originate from a common ver-
+                                  tex.           We require that the proton and pion candidates                                                                                                           The selection of the candidates is done in two steps.
+                                  have the same charge and that the total charge of all                                                                                                             In each one we ﬁrst impose some quality requirements
+                                  three tracks is ±1. To construct Σc(2455) and Σc(2520)                                                                                                            to suppress the most obvious background. For the sur-
+                                  candidates wecombineeachΛ+ candidatewithoneofthe                                                                                                                  viving candidates we use a neural network to distinguish
+                                                                                                                 c
+                                  remaining tracks in the event using a pion mass hypoth-                                                                                                           signal from background. Since all ﬁnal states feature a
+                                                                                                                                                                                                                                                                                                                                                        6
+                                                                                                                                                                                                    momentumdirection, to the beam, Lxy, is required to be
+                                           2   16000                                                                                                                                                greater than 0.25mm. In addition, we use particle iden-
+                                                                                                                                  before NN selection                                               tiﬁcation information from the TOF and dE/dx from
+                                               14000                                                                              after NN selection
+                                               12000                                                                                                                                                the COT. We combine the two sources of information for
+                                                                                                                                                                                                    each track t into a single variable
+                                               10000
+                                                                                                                                                                                                                                                                   Pi                 (t)Pi                 (t)
+                                                 8000                                                                                                                                                                    LL(t) =                                       dE/dx                     TOF                                ,              (1)
+                                                 6000                                                                                                                                                                            i                 P                         fjPj                     (t)Pj                 (t)
+                                             Candidates per 0.5 MeV/c                                                                                                                                                                                     j=π,K,p                      dE/dx                     TOF
+                                                 4000
+                                                 2000                                                                                                                                               where the index i denotes the hypothesis of the par-
+                                                                                                                                                                                                    ticle type.                      The Pi                       (t) is the probability to observe
+                                                         0                                                                                                                                                                                            TOF
+                                                              2.26              2.27             2.28              2.29              2.3              2.31                                          the measured time-of-ﬂight given a particle of type i,
+                                                                                                                                             -   +                2                                 and Pi                          (t) is the probability to observe the mea-
+                                                                                                                            Mass(pKπ ) [GeV/c ]                                                                      dE/dx
+                                                                                                                                                                                                    sured dE/dx. The fractions fj are fπ = 0.7, fK = 0.2,
+                                                                                                                                                                   +
+                                  FIG. 2: (color online) The mass distributions of Λ                                                                                      candi-                    and f = 0.1, as estimated from TOF information of a
+                                                                                                                                                                   c                                               p
+                                  dates before (blue full squares) and after (red open triangles)                                                                                                   generic background sample. We apply the requirement
+                                  requiring their neural network output to correspond to an a                                                                                                       LLp > 0.6 on the proton track and LLK > 0.2 on the
+                                  posteriori signal probability greater than 2.5%. The vertical                                                                                                     kaon track. In case TOF or dE/dx information is not
+                                                                                                                         2
+                                  dashed lines indicate a ±10MeV/c region around the nom-                                                                                                           available for a given track, we do not impose the corre-
+                                                 +                                                                                                                                 ∗+
+                                  inal Λ               mass [18] used for the selection of the Σ and Λ
+                                                 c                                                                                                            c                    c                sponding requirement. The mass distribution of the can-
+                                  states.                                                                                                                                                           didates with even event numbers is shown in Fig. 1. A ﬁt
+                                                                                                                                                                                                    with a Gaussian signal and a linear background function
+                                  Λ+ daughter, the ﬁrst step is the Λ+ selection. In the                                                                                                            deﬁnes the probability density functions (PDFs) used to
+                                      c                                                                                              c                                                              calculate the Plot weights for the Λ+ network training.
+                                  second step, we perform a dedicated selection of the four                                                                                                                                             s                                                             c
+                                  states under study. All neural networks are constructed                                                                                                           The corresponding distribution of odd-numbered events
+                                  with the NeuroBayes package [35, 36] and trained, only                                                                                                            is similar.
+                                  using data, by means of the Plot technique [37, 38]. This                                                                                                               The full list of input quantities of the neural network,
+                                                                                                           s                                                                                        sorted by their importance, can be found in Table III. In
+                                  techniqueassignsaweighttoeachcandidateproportional
+                                                                                                                                                                                                    the table, d denotes the impact parameter with respect
+                                  to the probability that the candidate is signal. The can-                                                                                                                                        0
+                                  didate weight is based on the discriminating variables,                                                                                                           to the primary vertex of the pp¯ interaction for a track
+                                                                                                                                                                                                    in the plane transverse to the beam direction, Ã                                                                                                its
+                                  which are required to be independent of the ones used                                                                                                                                                                                                                                                     d0
+                                                                                                                                                                                                    uncertainty, Ç2(Λ+) the quality of the kinematic ﬁt of the
+                                  in the neural network training. In our case, the discrim-                                                                                                                                                       c
+                                                                                                                                                                                                    Λ+ candidate, and cos("(Λ+,t)) the cosine of the angle
+                                  inating variable is the invariant mass of the candidate.                                                                                                              c                                                                     c
+                                                                                                                                                                                                    between the momentum of the Λ+ candidate in the lab
+                                  In the training, each candidate enters with a weight cal-                                                                                                                                                                                                   c
+                                  culated from the signal probability that is derived from                                                                                                          frame and the momentum of the proton or kaon track in
+                                                                                                                                                                                                    the Λ+ rest frame. These angles carry information about
+                                  its mass. Based on these weights, the neural network                                                                                                                            c
+                                                                                                                                                                                                    the resonant substructure of the decay Λ+ → pK−Ã+.
+                                  can learn the features of signal and background events.                                                                                                                                                                                                                         c
+                                  Since we use only data for the neural network trainings,                                                                                                                To demonstrate the ability of the neural network to
+                                  we randomly split each sample into two parts (even and                                                                                                            classify signal and background, the mass distributions of
+                                                                                                                                                                                                    Λ+ candidates with even event numbers before and after
+                                  odd event numbers) and train two networks. Each of                                                                                                                    c
+                                  them is then applied to the complementary subsample                                                                                                               requiring their neural network output to correspond to
+                                  in order to maintain a selection which is trained on a                                                                                                            an a posteriori signal probability greater than 2.5% is
+                                  sample independent from the one to which it is applied.                                                                                                           shown in Fig. 2. This requirement leads to a background
+                                  This approach avoids a bias of the selection originating                                                                                                          reduction of 32% while keeping 97% of the signal. We
+                                                                                                                                                                                                    use the output of the Λ+ neural network as input to the
+                                  from statistical ﬂuctuations possibly learnt by the net-                                                                                                                                                                         c
+                                                                                                                                                                                                    neural networks for selecting the Σ and Λ∗+ resonances.
+                                  work. Additionally, using candidates from two diﬀerent                                                                                                                                                                                                        c                   c
+                                  massregionspopulated by backgroundonly for the train-
+                                  ing, we verify that the network selection does not depend                                                                                                                                   B.           Σ (2455) and Σ (2520) selection
+                                  onthemassorcreateanartiﬁcialexcess in the spectrum.                                                                                                                                                          c                                    c
+                                                                                                                                                                                                                                               ++,0                                                ++,0                        + +,−
+                                                                                                                                                                                                          The Σc(2455)                                        and Σc(2520)                                       →Λc Ã                              se-
+                                                                                                       +                                                                                            lection starts with the application of a few loose require-
+                                                                                     A. Λ selection
+                                                                                                       c                                                                                            ments to remove the most obvious background, followed
+                                                                                                                                                                                                    by the use of a neural network. We require the a poste-
+                                        The Λ+ → pK−Ã+ candidates are required to decay                                                                                                             riori signal probability of the Λ+ neural network to be
+                                                         c                                                                                                                                                                                                                                 c
+                                  to a proton with pT > 1.9GeV/c and other particles                                                                                                                greater than 2.5% (see Fig. 2), the pT(Ã) of the added
+                                  with p                 >400MeV/c. The displacement of the associ-                                                                                                 pion to be greater than 400MeV/c, d (Ã) < 1.5mm, and
+                                                   T                                                                                                                                                                                                                                                   0
+                                  ated secondary vertex, projected onto the Λ+ transverse                                                                                                           the mass of the Λ+ candidate to be within ±10MeV/c2
+                                                                                                                                                        c                                                                                           c
+                                                                                                                                                                                                                                                                                                                                                        7
+                                                     2                                                                                                                                             2     5500
+                                                            4000                                                                            before NN selection                                          5000                                                                             before NN selection
+                                                            3500                                                                            after NN selection                                                                                                                            after NN selection
+                                                                                                                                                                                                         4500
+                                                            3000                                                                                                                                         4000
+                                                            2500                                                                                                                                         3500
+                                                                                                                                                                                                         3000
+                                                            2000                                                                                                                                         2500
+                                                       Candidates per 0.5 MeV/c1500                                                                                                                  Candidates per 0.5 MeV/c2000
+                                                            1000                                                                                                                                         1500
+                                                              500                                                                                                                                        1000
+                                                                                                                                                                                                            500
+                                                                   0                                                                                                                                             0
+                                                                   140 160 180 200 220 240 260 280 300 320                                                                                                       140 160 180 200 220 240 260 280 300 320
+                                                                                                                        -   + +                        -   +                 2                                                                                         -  + -                        -  +                 2
+                                                                                                       Mass(pKπ  π )-Mass(pKπ ) [MeV/c ]                                                                                                             Mass(pKπ  π)-Mass(pKπ ) [MeV/c ]
+                                                                                                                                                                                                         + +                                         + −
+                                  FIG. 3: (color online) The mass diﬀerence distributions of the Λ π                                                                                                                  (left) and Λ π                              (right) candidates before (blue full
+                                                                                                                                                                                                         c                                           c
+                                  squares) and after (red open triangles) applying the neural network selection.
+                                           2    1400                                                                                                                                                well. The sPlot weights are determined by a ﬁt to the
+                                                                        before NN selection                                                                                                         ∆M distribution with a Gaussian function for the sig-
+                                                1200                    after NN selection                                                                                                          nal and a linear function for the background PDF. We
+                                                                                                                                                                                                    choose the threshold on the output of the Σc neural net-
+                                                1000                                                                                                                                                work to maximize S/√
+                                                                                                                                                                                                                                                                     S+B, where S is the number
+                                                   800                                                                                                                                              of signal Σc events and B is the number of background
+                                                                                                                                                                                                    events in ∆M between 162.3 and 172.3MeV/c2. The S
+                                                   600                                                                                                                                              and B yields are derived from a ﬁt to the ∆M distribu-
+                                             Candidates per 0.5 MeV/c400                                                                                                                            tion which uses a Gaussian function for the signal and
+                                                   200                                                                                                                                              a linear function for the background and covers the ∆M
+                                                                                                                                                                                                    range used for the neural network training. The resulting
+                                                       0                                                                                                                                            neural network output requirement is the same for both
+                                                        280               300              320               340              360               380              400
+                                                                                                           -  + + -                          -  +                 2                                 charge combinations and corresponds to an a posteriori
+                                                                                         Mass(pKπ  π π)-Mass(pKπ ) [MeV/c ]
+                                                                                                                                                                                                    signal probability of the neural networks greater than
+                                  FIG. 4: (color online) The mass diﬀerence distribution of the                                                                                                     10%. The ∆M distributions of the selected candidates
+                                      + + −                                                                                                                                                         are shown in Fig. 3.
+                                  Λ π π candidates before (blue full squares) and after (red
+                                      c
+                                  open triangles) applying the neural network selection.
+                                                                                                                                                                                                                          C. Λ (2595)+ and Λ (2625)+ selection
+                                                                                                                                                                                                                                           c                                        c
+                                  of the nominal Λ+ mass [18], 2276.46 < M(pK−Ã+) <
+                                                                                c
+                                  2296.46MeV/c2 (see Fig. 2).                                                           These requirements are                                                                                                                                                    +                                           +
+                                                                                                                                                                                                          The initial step of the Λc(2595)                                                               and Λc(2625)                                →
+                                  commonforbothneutralanddoubly-chargedstates. The                                                                                                                  Λ+Ã+Ã− selection requires the a posteriori signal prob-
+                                                                                                                                       +                                                                c
+                                  mass diﬀerence ∆M = M(Σc)−M(Λ ) distributions of                                                                                                                  ability of the Λ+ neural network to be greater than 2.5%,
+                                                                                                                                       c                                                                                                    c
+                                  all the Λ+Ã+ and Λ+Ã− candidates are shown in Fig. 3.                                                                                                             2276.46 < M(pK−Ã+) < 2296.46MeV/c2 (see Fig. 2),
+                                                         c                             c
+                                  In the ∆M deﬁnition, M(Σc) and M(Λ+) correspond to                                                                                                                p (Ã) of both added pions to be greater than 400MeV/c,
+                                                                                                                                            c                                                          T
+                                  the reconstructed masses of the Σ and Λ+ candidates.                                                                                                              andthe impact parameter of the object constructed from
+                                                                                                                             c                    c
+                                        The neural network for the ﬁnal selection of the                                                                                                            the two additional pions to be d (Ã+Ã−) < 1.0mm. The
+                                                                                                                                                                                                                                                                                         0
+                                  Σ (2455) and Σ (2520) candidates uses ﬁve input quan-                                                                                                             mass diﬀerence ∆M = M(Λ∗+)−M(Λ+) distribution is
+                                      c                                     c                                                                                                                                                                                                  c                             c
+                                  tities. Ordered by their importance, these are the output                                                                                                         shown in Fig. 4.
+                                  of the Λ+ neural network NN(Λ+), the proper decay                                                                                                                       We use the ∆M region between 327 and 357MeV/c2
+                                                         c                                                                    c
+                                  time of the Σc candidate t(Σc) = (Lxy(Σc)· M(Σc))/(c·                                                                                                             for the neural network training.                                                                     Although this in-
+                                                                                                                                                                                                                                                              +
+                                  pT(Σc)), the quality of the kinematic ﬁt of the Σc candi-                                                                                                         cludes only Λc(2625)                                             candidates, it is applied to se-
+                                                   2                                                                                                                                                                                    +
+                                  date Ç (Σc), the uncertainty of the Σc impact parameter                                                                                                           lect Λc(2595)                              candidates as well. The sPlot weights
+                                  in the transverse plane Ã (Σ ), and the impact param-                                                                                                             are based on a ﬁt to the ∆M distribution with a Gaus-
+                                                                                                     d0          c
+                                  eter in the transverse plane of the pion from the Σc de-                                                                                                          sian function for the signal and a linear function for the
+                                  cay d (Ã). Independent neural networks are employed                                                                                                               background PDF. The neural network uses four inputs.
+                                                 0
+                                  for Σ++ and Σ0. The training itself is performed us-                                                                                                              Ordered by their importance, these are the quality of the
+                                                c                           c
+                                  ing candidates in the mass diﬀerence region from 155 to                                                                                                           Λ∗+ kinematic ﬁt Ç2(Λ∗+), the uncertainty of the impact
+                                                                                                                                                                                                        c                                                        c
+                                  180MeV/c2. Although this includes only Σc(2455) can-                                                                                                              parameter of the combined two-pion object Ã (Ã+Ã−),
+                                                                                                                                                                                                                                                                                                                               d0
+                                  didates, it is applied to select Σ (2520) candidates as                                                                                                           the output of the Λ+ neural network NN(Λ+), and the
+                                                                                                                             c                                                                                                                           c                                                                  c
+                                                                                                                                                                                                                                                       8
+                        proper decay time of the Λ∗+ candidate t(Λ∗+).                                                         We
+                                                                                 c                         √ c
+                        choose the requirement that maximizes S/ S +B, cor-                                                                         2 12000
+                        responding to an a posteriori signal probability of the                                                                       10000
+                        neural network greater than 12.5%. The S and B yields
+                        are derived from a ﬁt to the ∆M distribution using a                                                                            8000
+                        Gaussian function for the signal and a linear function for
+                        the background, where we consider events in the region                                                                          6000
+                        336.7 < ∆M <346.7MeV/c2. The resulting mass diﬀer-
+                        ence distribution after the ﬁnal requirements is shown in                                                                    Candidates per 0.5 MeV/c4000
+                        Fig. 4.                                                                                                                         2000
+                                                                                                                                                             0
+                                                    V. FIT DESCRIPTION                                                                                        -15         -10           -5           0           5           10          15
+                                                                                                                                                                                                 0                          0            2
+                                                                                                                                                                            ∆ M (Σ (2520) ) - ∆ M              (Σ (2520) ) [MeV/c ]
+                                                                                                                                                                                 rec   c                    gen   c
+                             To determine the mass diﬀerences relative to the Λ+                                                             FIG. 5:            Σ (2520)0 mass resolution obtained from sim-
+                                                                                                                                  c                                c
+                        and the widths of the six studied states, we perform                                                                 ulated events by subtracting the generated mass dif-
+                        binned maximum likelihood ﬁts to three separate mass                                                                 ference         ∆M (Σ (2520)0) from the reconstructed one
+                                                                                                                                                                    gen       c
+                        diﬀerence distributions.                           The ﬁrst two are Λ+Ã+ and                                         ∆M (Σ (2520)0). The ﬁtted function is a combination of
+                                                                                                                   c                                rec      c
+                           + −                                                           ++,0                                ++,0            three Gaussians with mean zero.
+                        Λc Ã , where the states Σc(2455)                                           and Σc(2520)
+                                                                                  + + −                                  +
+                        are studied. The last one is Λc Ã Ã                                       for Λc(2595)                and
+                                          +
+                        Λc(2625) . In the case of the Σc states, part of the back-                                                           from the description of the steep rise of the background
+                        ground comes from Λ∗+ decays and thus has diﬀerent
+                                                                    c                                                                        at threshold. Both Σc(2455) and Σc(2520) are described
+                        properties compared to the combinatorial background.                                                                 by a nonrelativistic Breit-Wigner function,
+                        On the other hand, when ﬁtting Λ∗+ states, there is a
+                                                                                             c
+                        background contribution from random Σ++,0Ã−,+ com-                                                                                            dN                                  Γ
+                                                                                                        c                         +                                             ∝                                                 ,                 (4)
+                        binations which have a threshold close to the Λc(2595)                                                                                                                                   2         2
+                        state.                                                                                                                                      d∆M               (∆M−∆M0) +Γ /4
+                             The negative logarithm of the likelihood function has                                                           convolved with a resolution function.                                           The resolution
+                        a general form of                                                                                                    function itself is parametrized by three Gaussians with
+                                                                                                                                             mean zero and the other parameters derived from simu-
+                                                                       n                 !
+                                                           J                 j   −µ
+                                                                                      j
+                                                         X µj e                                                                              lated events. The average width of the resolution func-
+                              −lnL(a)=−                         ln                                                                                                                           2                            ++,0
+                                                                              n !                                                            tion is about 1.6MeV/c for Σc(2455)                                                     and about
+                                                         j=1                    j                                                                                2                          ++,0
+                                                                                                                               (2)           2.6MeV/c for Σc(2520)                                   . For illustration, the simu-
+                                                           J                          J                J                                                                 0
+                                                                                                                                             lated Σ (2520) mass resolution is shown in Fig. 5.
+                                                =−Xn lnµ +Xµ +Xln(n !),                                                                                    c
+                                                                   j         j                j                     j                            Weintroduce a single common scaling factor s for the
+                                                         j=1                        j=1              j=1                                     widths of all three Gaussians to correct for a possible
+                                                                                                                                             mismatch in our mass resolution estimate. This scaling
+                        wherea are the free parameters, J is the number of bins                                                              factor is allowed to ﬂoat within a Gaussian constraint in
+                        in the histogram of the corresponding mass diﬀerence                                                                 the ﬁt, what corresponds to adding
+                        distribution, nj is the number of entries in bin j, and µj
+                                                                                                                                                                                                           
+                        is the expected number of entries in bin j. The values µ                                                                                                                 s−µ 2
+                                                                                                                                   j                                                 0.5 ·                                                          (5)
+                        are obtained using the function                                                                                                                                              Ã
+                            µ(∆M)=N1·s1(∆M)+N2·s2(∆M)+b(∆M), (3)                                                                             with µ = 1 and Ã = 0.2, reﬂecting a 20% uncertainty on
+                                                                                                                                             the mass resolution (see Sec. VI), to the negative loga-
+                        where s1(∆M) and s2(∆M) are the PDFs for the two                                                                     rithm of the likelihood.
+                        signals, b(∆M) is the background function and Ni are                                                                     Three diﬀerent types of background are considered,
+                        the corresponding numbers of events. All three PDFs                                                                  namely, random combinations without real Λ+, combi-
+                                                                                                                                                                                                                                      c
+                        dependonasubsetofthefreeparametersa. Thefunction                                                                     nations of real Λ+ with a random pion, and events due
+                                                                                                                                                                              c
+                        is evaluated at the bin center to calculate the expectation                                                          to the decay of Λ∗+ to Λ+Ã+Ã−. The random combina-
+                                                                                                                                                                              c              c
+                        for µj. While the generalstructure is the same in all three                                                          tions without a real Λ+ dominate and are described by
+                        ﬁts, the PDFs are speciﬁc to Σ and Λ∗+ states.                                                                                                                  c
+                                                                                    c              c                                         a second-order polynomial with shape and normalization
+                                                                                                                                             derived in a ﬁt to the ∆M distribution from the Λ+ mass
+                                                                                                                                                                                                                                            c
+                                                                                                                                             sidebands 2261.46 < M(pK−Ã+) < 2266.46MeV/c2 and
+                                                  A. Σ (2455) and Σ (2520) ﬁt
+                                                              c                          c                                                   2306.46 < M(pK−Ã+) < 2311.46MeV/c2. In the Σ ﬁt,
+                                                                                                                                                                                                                                                 c
+                                                                                                                                             this contribution is allowed to ﬂoat within a Gaussian
+                             In each of the two distributions we need to parametrize                                                         constraint implemented by the addition of
+                        two signals and several background components. We use
+                                                          2                                                                                                                                T −1 
+                        a 150–320MeV/c range to avoid complications arising                                                                                                       0.5 · ∆         · V         · ∆                                   (6)
+                                                                                                                                                                                                                                                                                                                                                        9
+                                                     2    1200                                                                                                                                     2    1400
+                                                          1000                                                                                                                                          1200
+                                                             800                                                                                                                                        1000
+                                                                                                                                                                                                          800
+                                                             600
+                                                                                                                                                                                                          600
+                                                       Candidates per 0.5 MeV/c400                                                                                                                   Candidates per 0.5 MeV/c400
+                                                             200                                                                                                                                          200
+                                                                 0                                                                                                                                             0
+                                                                  140 160 180 200 220 240 260 280 300 320                                                                                                      140 160 180 200 220 240 260 280 300 320
+                                                                                                                        -   + +                        -   +                 2                                                                                         -  + -                        -  +                 2
+                                                                                                       Mass(pKπ  π )-Mass(pKπ ) [MeV/c ]                                                                                                             Mass(pKπ  π)-Mass(pKπ ) [MeV/c ]
+                                  FIG. 6: Fit to the M(pK−π+π+)−M(pK−π+) (left) and M(pK−π+π−)−M(pK−π+) (right) distributions of the candidates
+                                                   +
+                                  from Λ mass sidebands.
+                                                   c
+                                  to the negative logarithm of the likelihood, where V is                                                                                                           to about 2% of the total background.
+                                  the covariance matrix of the ﬁt to the ∆M distribution                                                                                                                  The full ﬁt to the ∆M distribution, containing all sig-
+                                                                +                                                             
+                                  from the Λc mass sidebands and ∆ is the vector of pa-                                                                                                             nal and background components, can be found in Fig. 7.
+                                  rameters of the second-order polynomial. The ﬁts to the                                                                                                           The Ç2 value of the Σ++ ﬁt is 340 (324 degrees of free-
+                                                                                                    +                                                                                                                                                           c
+                                  distributions from the Λc mass sidebands can be found                                                                                                             dom) and that of the Σ0 ﬁt is 384 (321 degrees of free-
+                                                                                                                                                                                                                                                                     c
+                                  in Fig. 6. The diﬀerence between doubly-charged and                                                                                                               dom).
+                                                                                                              ∗                   +                    0       +
+                                  neutral spectra is due to D (2010)                                                                     →D Ã mesons
+                                  with multibody D0 decays, where not all D0 decay prod-
+                                  ucts are reconstructed. In order to describe this reﬂec-                                                                                                                                         B.           Λ (2595)+ and Λ (2625)+ ﬁt
+                                  tion, an additional Gaussianfunction is used. The second                                                                                                                                                          c                                        c
+                                  background source consisting of real Λ+ combined with
+                                                                                                                                           c                                                                                                                        +                                            +
+                                  a random pion is modeled by a third-order polynomial,                                                                                                                   The ﬁt for Λc(2595)                                              and Λc(2625)                                 includes two
+                                  where all parameters are left free in the ﬁt. The back-                                                                                                           signals and several background components and is per-
+                                  ground originating from Λ∗+ decays is described using                                                                                                             formed in a ∆M region from 290 to 400MeV/c2. Pre-
+                                                                                                           c                                                                                                                                                                                             +
+                                  theoretical considerations.                                                  With good approximation,                                                             vious measurements of the Λc(2595)                                                                          properties indi-
+                                                                                                                                                                                     +              cate that it decays dominantly to the ﬁnal state Σ Ã,
+                                  there are two states that contribute, namely Λc(2595)                                                                                                                                                                                                                                                            c
+                                                                     +                                                    + + −                                                                                                                                                                                            +
+                                  andΛc(2625) , decaying into a Λc Ã Ã                                                                          ﬁnal state. The                                     with the threshold very close to the Λc(2595)                                                                                mass [18].
+                                                          +                                                                                                                                         Thisintroducesanadditionalcomplicationtotheﬁtcom-
+                                  Λ (2595)                      decays dominantly to a Σ Ã ﬁnal state [18]
+                                      c                                                                                                 c
+                                  and thus contributes mainly to the signal. We therefore                                                                                                           pared to the Σc case. Blechman et al. [27] showed that
+                                  neglect its contributions to the backgrounds in the ΛcÃ                                                                                                           taking into account the mass dependence of the natu-
+                                                                                                                                                              +                                                                                                                                  +
+                                  distributions. On the other hand, the Λc(2625)                                                                                    decay is                        ral width yields a lower Λc(2595)                                                                   mass measurement
+                                  dominantly nonresonant [18]. To model it, we start from                                                                                                           thanobservedbypreviousexperiments. Withthepresent
+                                  a ﬂat Λ+Ã+Ã− Dalitz plot and project it on the appro-                                                                                                             event sample we are more sensitive to the details of the
+                                                       c                                                                                                                                                                    +
+                                  priate axis. Since the shape of the projection depends on                                                                                                         Λc(2595) line shape than previous analyses and include
+                                                                                                           +                  + + −                                                                 this dependence in the model.
+                                  the reconstructed Λc(2625)                                                     →Λc Ã Ã mass, we use                                                                                                         +
+                                  ten diﬀerent values of this mass and weight their contri-                                                                                                               The Λc(2595) parametrization follows Ref. [27]. The
+                                                                                                                          +
+                                  bution according to the Λc(2625)                                                              shape we obtain from                                                state is described by a nonrelativistic Breit-Wigner func-
+                                  our ﬁt to the Λ+Ã+Ã− data. This contribution amounts                                                                                                              tion of the form
+                                                                           c
+                                                                                                        dN                                                                               Γ(Λ+Ã+Ã−)
+                                                                                                                      ∝                                                                             c                                                                                  ,                                                           (7)
+                                                                                                     d∆M                                                                               2                       + + −                                   + 0 0 2
+                                                                                                                             (∆M−∆MΛ(2595)+) +(Γ(ΛcÃ Ã )+Γ(ΛcÃ Ã )) /4
+                                                                                                                                                                 c
+                                                                 + + −                                                + 0 0                                                                                                                                                                 +
+                                  where Γ(Λc Ã Ã ) and Γ(Λc Ã Ã ) are the mass-                                                                                                                     rate nearly 100% of the Λc(2595)                                                              decay width, the sum
+                                  dependent partial widths to the Λ+Ã+Ã− and Λ+Ã0Ã0                                                                                                                 in the denominator corresponds to the total width. The
+                                                                                                                                 c                                      c
+                                  ﬁnal states. Assuming that those two ﬁnal states satu-
+                                                                                                                                                                                                                                                                                                                              10
+                                                 2     2500                                                                                                                           2    3000
+                                                                                                                                        Data                                                                                                                                Data
+                                                                                                                                        Fit Function                                                                                                                        Fit Function
+                                                                                                                                                     ++         +   +                                                                                                                     0        +   -
+                                                                                                                                        Σ (2455)  → Λ  π                                                                                                                    Σ (2455)  → Λ  π
+                                                                                                                                          c                     c                                                                                                             c                    c
+                                                                                                                                                     ++         +   +                      2500                                                                                           0        +   -
+                                                                                                                                        Σ (2520)  → Λ  π                                                                                                                    Σ (2520)  → Λ  π
+                                                       2000                                                                               c                     c                                                                                                             c                    c
+                                                                                                                                                    ++                                                                                                                                  0
+                                                                                                                                   N(Σ (2455) ) ≈ 13800                                                                                                                N(Σ (2455) ) ≈ 15900
+                                                                                                                                         c          ++                                                                                                                       c          0
+                                                                                                                                   N(Σ (2520) ) ≈ 8800                                                                                                                 N(Σ (2520) ) ≈ 9000
+                                                                                                                                         c                                                 2000                                                                              c
+                                                       1500
+                                                                                                                                                                                           1500
+                                                       1000
+                                                    Candidates per 0.5 MeV/c                                                                                                            Candidates per 0.5 MeV/c1000
+                                                          500                                                                                                                                 500
+                                                              0 150                              200                          250                          300                                     0 150                             200                          250                          300
+                                                               4                                                                                                                                    2
+                                                             fit2                                                                                                                                 fit0
+                                                               0
+                                                        (data - fit)-2                                                                                                                      (data - fit)-2
+                                                                                                                                                                                                  -4
+                                                                                                                   -  +     +                     -  +                  2                                                                               -  +     -                    -   +                 2
+                                                                                                 Mass(pKπ  π )-Mass(pKπ ) [MeV/c ]                                                                                                    Mass(pKπ  π)-Mass(pKπ ) [MeV/c ]
+                                FIG. 7: (color online) The M(pK−π+π+)−M(pK−π+) (left) and M(pK−π+π−)−M(pK−π+) (right) distributions obtained
+                                from data (points with error bars) together with the ﬁts (black solid line). The brown dashed and purple dotted lines correspond
+                                                                                                                                                                                                                                                                                                                               +
+                                to the two signal contributions, the green dash-double-dotted line represents the combinatorial background without real Λ ,
+                                                                                                                                                                                                                                                                                                                               c
+                                                                                                                       +
+                                the blue long-dashed line shows real Λ                                                       combined with a random pion and the red long-dash-dotted line represents a reﬂection
+                                                                                                                       c
+                                                ∗+
+                                from Λ                 decays. The red dash-dotted line corresponds to the sum of all three background contributions.
+                                                c
+                                two partial widths are derived in Ref. [39] as                                                                                                                             B(E)=                                                  h2E                                         ,
+                                                                                                                                                                                                                                                                                                                          (12)
+                                                                                                                                                                                                                                 ∆m−∆m ++−E+iΓ ++/2
+                                                                                                          Z                                                                                                                                                 Σ                                 Σ
+                                                                                 g2                                                                                                                                                                            c                                 c
+                                              + + −                                 2                                                           2                    2
+                                    Γ(Λ Ã Ã )=                                                m +                dE dE (|p | |A(E )|
+                                              c                                     3 4            Λ                    1         2         2                  1
+                                                                           16Ã fπ                     c                                                                                                                    1                                     h E
+                                                                                                                                                                                                     C(E)= ·                                                        2                                     .               (13)
+                                                        2                    2                                                       ∗
+                                         +|p | |B(E )| +2p ·p Re[A(E )B (E )]),                                                                                                                                            2 ∆m−∆m +−E+iΓ +/2
+                                                    1                  2                     1        2                     1                 2                                                                                                               Σ                              Σ
+                                                                                                                                                                                                                                                                 c                              c
+                                                                                                                                                                     (8)               In these deﬁnitions, m ++,+,0 and Γ ++,+,0 are the mass
+                                                                                                                                                                                                                                               Σ                                 Σ
+                                                                                                                                                                                                                                                  c                                 c
+                                                                                   2                     Z                                                                                                                                                      ++,+,0
+                                                                                g                                                                                                      andthewidthoftheΣc(2455)                                                                   taken from Ref. [18].
+                                               + 0 0                               2                                                          2                     2
+                                      Γ(Λ Ã Ã ) =                                           m +                 dE dE (|p | |C(E )|
+                                               c                                   3 4           Λ                     1         2        2                  1                         The coupling constant h2, deﬁned in Ref. [16], is related
+                                                                          16Ã fπ                    c
+                                                                                                                                                                                                                                                                                +
+                                                         2                    2                                                       ∗                                                to the decay width of the Λc(2595)                                                            and represents the
+                                          +|p | |C(E )| +2p ·p Re[C(E )C (E )]).
+                                                     1                  2                     1        2                     1                 2                                       actual quantity we measure instead of the natural width.
+                                                                                                                                                                     (9)               This approach describes a purely S-wave decay, a pos-
+                                Here, f = 132MeV/c2 is the pion decay constant [40],                                                                                                   sible D-wave contribution is assumed to be negligible
+                                                  π                                                                                                                                    and ignored. For illustration, we show the dependence
+                                                                                                      +
+                                m + is the world average Λ                                                 mass, E ,E are the ener-
+                                     Λ                                                                c                        1        2                                                                                                                                                          +                          +
+                                        c                                                                                                                                              of the two partial widths on M(Λc(2595) ) − M(Λ )
+                                                                                                                                                                       +                                                                                                                                                      c
+                                gies of the two pions in the rest frame of the Λc(2595) ,                                                                                              in Fig. 8. The shape deﬁned by Eq. 7 is then numer-
+                                and p ,p are the corresponding momenta. Following
+                                               1      2                                                                                                                                ically convolved with a resolution function determined
+                                Ref. [27], the coupling constant g2 is determined by the                                                                                               from simulation and consisting of three Gaussians with
+                                Σc decay width using the relation                                                                                                                      mean zero. The average width of the resolution function
+                                                                                               g2 m +                                                                                  is about 1.8MeV/c2. As for the Σ case, we introduce
+                                                                                                 2            Λ               3                                                                                                                                                 c
+                                                                          Γ         =                            c |p | ,                                         (10)
+                                                                             Σ                                            π
+                                                                                c          2Ãf2 m                                                                                      a common, Gaussian constrained, scaling factor for the
+                                                                                                              Σ
+                                                                                                    π             c
+                                with m                   being the world average mass of the Σ (2455)                                                                                  widths of all three Gaussians, in order to account for the
+                                                  Σ                                                                                                       c
+                                                     c                                                                                                                                 uncertainty in the width of the resolution function.
+                                and pπ the momentum of the pion from the Σc(2455)                                                                                                                                                                                              +
+                                decay to Λ Ã in the Σ (2455) rest frame.                                                                            From the                                 The signal PDF for the Λc(2625)                                                         is the nonrelativis-
+                                                             c                               c                                                                                         tic Breit-Wigner function of Eq. 4 convolved with a three
+                                world average ΓΣ = 2.2MeV/c2 [18] we obtain the value
+                                                                          c                                                                                                            Gaussian resolution function determined from simula-
+                                g2 = 0.365 which is ﬁxed in the ﬁt. The amplitudes A,
+                                  2                                                                                                                                                    tion, which has an average width of about 2.4MeV/c2.
+                                                                                                                          +                                     0      +
+                                B, and C for the decays Λc(2595)                                                                 → Σc(2455) Ã ,                                        Again, all three Gaussians have mean zero and a com-
+                                                      +                                           ++ −                                                       +
+                                Λc(2595)                        → Σc(2455)                                Ã , and Λc(2595)                                             → mon, Gaussian constrained, scaling factor for their
+                                                      + 0
+                                Σc(2455) Ã are parametrized as                                                                                                                         widths is introduced.
+                                                        A(E)=                                              h2E                                    ,                                          The background consists of three diﬀerent sources,
+                                                                              ∆m−∆m 0−E+iΓ 0/2                                                                    (11)                 which include combinatorial background without real
+                                                                                                        Σ                             Σ
+                                                                                                            c                             c
+                                                                                                                                                                                                                                                   11
+                                ]                                                                                                           into account the natural widths as well as resolution ef-
+                              2    10                 +                                                                                     fects, we use the weighted sum of ten such functions for
+                                                          +  -
+                                                  Γ(Λc π  π )              + 0                  0   +     ++ -
+                                     9                +   0  0           Σ  π                 Σ  π      Σ  π                                                            ++                               0
+                                                  Γ(Λ  π  π )              c                    c         c                                 both Σc(2455)                      and Σc(2455) . Their thresholds and
+                                     8                c
+                              2  [MeV/c2                                                                                                    weights are chosen according to the shapes derived in the
+                                ) / h7                                                                                                      Σc ﬁts shown in Fig. 7. The size of this contribution is
+                              +      6                                                                                                      constrained to the Σ (2455) yield obtained from the ﬁts
+                                                                                                                                                                                   c
+                                (2595)5                                                                                                     to the M(Σc)−M(pK−Ã+) distributions for candidates
+                                Λc   4                                                                                                      with M(Λ∗+)−M(pK−Ã+) > 355MeV/c2. These two
+                                (                                                                                                                               c
+                                Γ    3                                                                                                      distributions together with the ﬁts are shown in Fig. 10.
+                                     2                                                                                                          The full ﬁt to the ∆M distribution, containing all sig-
+                                     1                                                                                                      nal and backgroundcomponents, can be found in Fig. 11.
+                                     0                                                                                                      The Ç2 value of the ﬁt is 227 (206 degrees of freedom).
+                                          296       298        300       302        304       306        308       310                                                                        2
+                                                                                         +             +            2                       Compared to that, the Ç value of a ﬁt with a mass-
+                                                                    Mass(Λ (2595) )-Mass(Λ ) [MeV/c ]
+                                                                               c                       c                                                                              +
+                                                                                                                                            independent Λc(2595)                           decay width, shown in Fig. 12,
+                                                                                                                     + + −                  increases to 286 (206 degrees of freedom).
+                        FIG. 8: (color online) Calculated dependence of Γ(Λ π π )
+                                                                                                                     c
+                                       + 0 0                                      +                 +
+                        and Γ(Λ π π ) on M(Λ (2595) ) − M(Λ ). The constant
+                                       c                             c                              c
+                                      2
+                        factor h is determined by a ﬁt to the experimental data.
+                                      2
+                                                                                                                                                        VI.        SYSTEMATICUNCERTAINTIES
+                               2   500                                                                                                          Weinvestigateseveralsystematiceﬀects thatcanaﬀect
+                                                                                                                                            the measurements. Generally, they can be categorized as
+                                   400                                                                                                      imperfect modeling by the simulation, imperfect knowl-
+                                                                                                                                            edge of the momentum scale of the detector, ambiguities
+                                   300                                                                                                      in the ﬁt model, and uncertainties on the external inputs
+                                                                                                                                            to the ﬁt. In this Section we discuss how they can aﬀect
+                                   200                                                                                                      our results and the way we assess them. A summary of
+                                Candidates per 0.5 MeV/c                                                                                    the assigned uncertainties can be found in Tables IV–VI.
+                                   100                                                                                                      To obtain the total systematic uncertainties, we add up
+                                                                                                                                            the contributions from all sources in quadrature.
+                                       0
+                                       280          300          320         340          360          380         400
+                                                                            -  + + -                 - +            2
+                                                                Mass(pKπ  π π)-Mass(pKπ ) [MeV/c ]
+                                                                                                                                                                      A. Mass resolution model
+                        FIG. 9: Fit to the M(pK−π+π+π−)−M(pK−π+) distribu-
+                                                                             +                                                                  To properly describe the signal shapes, we need to
+                        tion of the candidates from Λ                            mass sidebands.
+                                                                             c
+                                                                                                                                            understand the intrinsic mass resolution of the detec-
+                                                                                                                                            tor.        Since we estimate this using simulated events,
+                        Λ+, real Λ+ combined with two random pions, and real                                                                it is necessary to verify that the resolution obtained
+                           c                 c
+                        Σ++,0 combined with a random pion.                                               The combina-                       from simulation agrees with that in real data. We use
+                           c
+                                                                                          +                                                     ∗             +               0    +                   0              − +
+                        torial background without real Λc is parametrized by                                                                D (2010)               → D Ã with D → K Ã decays and
+                        a second-order polynomial whose parameters are deter-                                                               Ë(2S) → J/ËÃ+Ã− with J/Ë → µ+µ− decays for this
+                        mined in a ﬁt to the ∆M distribution of candidates                                                                  purpose. We compare the resolution in data and simu-
+                        from the Λ+ mass sidebands, 2261.46 < M(pK−Ã+) <                                                                    lated events as a function of the pT of the pions added
+                                              c
+                        2266.46MeV/c2 and 2306.46                                         < M(pK−Ã+) <                                      to D0 or J/Ë as well as the instantaneous luminosity. We
+                        2311.46MeV/c2. This distribution is shown in Fig. 9                                                                 also compare the overall resolution scale between data
+                        together with the ﬁt. In the ﬁnal ﬁt, we keep the param-                                                            and simulated events and ﬁnd that all discrepancies are
+                        eters for this background ﬂoating within a Gaussian con-                                                            less than 20%, which we assign as uncertainty on our
+                        straint of the form of Eq. 6 to the values found in the ﬁt to                                                       knowledge of the resolution function. The contribution
+                        the candidates from the Λ+ mass sidebands. The second                                                               from this uncertainty is already included in the uncer-
+                                                                          c
+                        source, consisting of real Λ+ combined with two random                                                              tainties on the resonance parameters determined by the
+                                                                           c
+                        pions, is parametrized by a second-order polynomial with                                                            default ﬁt with Gaussian constraint on the resolution
+                        all parameters allowed to ﬂoat in the ﬁt. The ﬁnal source                                                           scaling factor s, the resulting values for which are listed in
+                        of background are real Σc combined with a random pion.                                                              Table VII. These values are consistent with 1, indicating
+                        Forthis source, the main issue is to have the proper shape                                                          that the resolution is well understood within the assigned
+                        close to the threshold.                          Small imperfections at higher                                      uncertainty. To disentangle it from the statistical com-
+                        ∆M can be ignored, as the second background source                                                                  ponent, we repeat the ﬁts on data without multiplying
+                        has enough ﬂexibility to absorb it. The PDF of this Σc                                                              the widths of the resolution function by the scaling fac-
+                        background is based on a constant function deﬁned from                                                              tor s from Eq. 5. The systematic uncertainty due to the
+                        the threshold to the end of the ﬁt range. In order to take                                                          imperfect modeling of the resolution function is then ob-
+                                                                                                                                                                                                                                                                                                                                                     12
+                                                      2      500                                                                                                                                    2
+                                                             450                                                                                  Data                                                    450                                                                                  Data
+                                                                                                                                                  Fit Function                                            400                                                                                  Fit Function
+                                                             400                                                                                               ++                                                                                                                                            0
+                                                                                                                                                  Σ (2455)                                                                                                                                     Σ (2455)
+                                                                                                                                                    c                                                     350                                                                                    c
+                                                             350                                                                                                                                          300
+                                                             300
+                                                             250                                                                                                                                          250
+                                                             200                                                                                                                                          200
+                                                        Candidates per 1.0 MeV/c150                                                                                                                   Candidates per 1.0 MeV/c150
+                                                             100                                                                                                                                          100
+                                                               50                                                                                                                                            50
+                                                                 0       140            160            180            200             220            240            260                                        0       140            160            180            200            220             240            260
+                                                                                                                        -   + +                        -   +                 2                                                                                         -  + -                        -  +                 2
+                                                                                                       Mass(pKπ  π )-Mass(pKπ ) [MeV/c ]                                                                                                             Mass(pKπ  π)-Mass(pKπ ) [MeV/c ]
+                                                                                                                                                    ++                               − +                                                   0                            − +
+                                  FIG. 10: (color online) Distributions of M(Σ                                                                             ) − M(pK π ) (left) and M(Σ ) − M(pK π ) (right) for candidates with
+                                                                                                                                                    c                                                                                      c
+                                              ∗+                              − +                                            2
+                                  M(Λ )−M(pK π )>355MeV/c together with the ﬁts.
+                                              c
+                                                                                                                                                                                                                                                                                                                     ++
+                                  TABLE IV: Systematic uncertainties on the measurements of the mass diﬀerences and decay widths of the Σ                                                                                                                                                                                      resonances.
+                                                                                                                                                                                                                                                                                                                     c
+                                  The corresponding statistical uncertainties are listed for comparison.
+                                                                                 Source                                       ∆M(Σ (2455)++) Γ(Σ (2455)++) ∆M(Σ (2520)++) Γ(Σ (2520)++)
+                                                                                                                                               c                                       c                                              c                                       c
+                                                                                                                                                           2                                           2                                          2                                           2
+                                                                                                                                        [MeV/c ]                                    [MeV/c ]                                   [MeV/c ]                                    [MeV/c ]
+                                                                                 Resolution model                                                · · ·                                     0.40                                         · · ·                                     0.69
+                                                                                 Momentum scale                                                 0.12                                       0.20                                        0.12                                       0.20
+                                                                                 Fit model                                                      0.02                                         · · ·                                     0.11                                       1.16
+                                                                                 External inputs                                                 · · ·                                       · · ·                                      · · ·                                       · · ·
+                                                                                 Sum                                                            0.12                                       0.45                                        0.16                                       1.36
+                                                                                 Statistical                                                    0.04                                       0.13                                        0.56                                       2.12
+                                  tained by the diﬀerence in quadrature of the uncertainty                                                                                                          on the mass diﬀerences of all states under study due to
+                                  of the ﬁt with and without the Gaussian constraint. This                                                                                                          the imperfect knowledge of the momentum scale. The
+                                  uncertainty in the resolution has a large impact on the                                                                                                           corresponding eﬀect on the natural widths was studied
+                                  natural widths, but a negligible eﬀect on the mass diﬀer-                                                                                                         in our previous measurements of the masses and widths
+                                  ences.                                                                                                                                                            of the excited charmedmesonstatesD0 andD∗0 [43], and
+                                                                                                                                                                                                                                                                                                         1                   2
+                                                                                                                                                                                                    we assign the 0.2MeV/c2 found there as the uncertainty
+                                                                                                                                                                                                    on the natural widths due to this source. To translate
+                                                                              B.           Momentum scale                                                                                           this uncertainty to the coupling constant h2, we assign
+                                                                                                                                                                                                    it to the sum Γ(Λ+Ã+Ã−)+Γ(Λ+Ã0Ã0) (see Eqs. 8 and
+                                                                                                                                                                                                                                                    c                                       c
+                                        The accuracy of the momentum scale depends on the                                                                                                           9), which is a function of h2, and perform Gaussian error
+                                  precision with which the magnetic ﬁeld and the amount                                                                                                             propagation.
+                                  of material in the detector are known. Both eﬀects are
+                                  originally calibrated using J/Ë → µ+µ− decays [41]. A
+                                  limitation of this calibration is that it uses muons that                                                                                                                                                                C. Fit model
+                                  are required by the detector acceptance to have pT >
+                                  1.5GeV/c, while pions from Σc or Λ∗+ decays typically                                                                                                                   In terms of our ﬁt model and procedure we check two
+                                                                                                                                     c
+                                  have much lower pT. The estimate of the uncertainty on                                                                                                            eﬀects, the internal consistency of the ﬁt and the shape of
+                                  the mass diﬀerences comes from our previous work on the                                                                                                           the signal PDFs. We do not perform an explicit check of
+                                  X(3872) hadron [42]. There, Ë(2S) → J/ËÃ+Ã− decays                                                                                                                the background parametrizations as those are described
+                                  are used to study the momentum scale uncertainties by                                                                                                             by polynomials and any analytic function can be approx-
+                                  comparingthemeasuredË(2S)masswiththeworldaver-                                                                                                                    imated by a polynomial of suﬃcient complexity. Since
+                                  age value [18]. In addition, we study the Ë(2S) mass de-                                                                                                          the ﬁt quality does not indicate signiﬁcant discrepancies
+                                  pendence on the kinematic properties of the pions, which                                                                                                          betweendataandthemodel, weconcludethatthedegree
+                                  constrains the sizes of possible eﬀects. Furthermore, we                                                                                                          of the polynomial functions used is suﬃcient. Some back-
+                                                                                                                                      ∗                   +                  0       +
+                                  verify the momentumscalebyusingD (2010) → D Ã                                                                                                                     groundsaredeterminedfromindependentsources, but as
+                                  decays, where the resulting deviation from the world av-                                                                                                          the appropriate parameters are Gaussian constrained in
+                                  erage is far below the uncertainty derived from Ë(2S).                                                                                                            theﬁt, the uncertainty originatingfrom the samplesize of
+                                  Based on Ref. [42], we assign a 0.12MeV/c2 uncertainty                                                                                                            the external sources, like Λ+ mass sidebands, is already
+                                                                                                                                                                                                                                                                             c
+                                                                                                                                              13
+                                                                                                                              0
+              TABLEV:Systematic uncertainties on the measurements of the mass diﬀerences and decay widths of the Σ resonances. The
+                                                                                                                              c
+              corresponding statistical uncertainties are listed for comparison.
+                                      Source             ∆M(Σ (2455)0) Γ(Σ (2455)0) ∆M(Σ (2520)0) Γ(Σ (2520)0)
+                                                                c              c                c              c
+                                                                    2               2               2               2
+                                                            [MeV/c ]        [MeV/c ]        [MeV/c ]        [MeV/c ]
+                                      Resolution model          · · ·          0.45             · · ·           0.70
+                                      Momentum scale           0.12            0.20            0.12             0.20
+                                      Fit model                0.02             · · ·          0.11             1.16
+                                      External inputs           · · ·           · · ·           · · ·           · · ·
+                                      Sum                      0.12            0.49            0.16             1.37
+                                      Statistical              0.03            0.11            0.43             1.82
+                                                                                                           ∗+
+              TABLEVI:Systematic uncertainties on the measurements of the mass diﬀerences of the Λ             resonances and the pion coupling
+                                                                                                           c
+                         2              +
+              constant h (Γ(Λ (2595) )). The corresponding statistical uncertainties are listed for comparison.
+                         2      c
+                                                                           +     2              +                 +
+                                          Source             ∆M(Λ (2595) ) h        Γ(Λ (2595) ) ∆M(Λ (2625) )
+                                                                    c            2      c                 c
+                                                                        2                     2                2
+                                                                [MeV/c ]              [MeV/c ]         [MeV/c ]
+                                          Resolution model         0.06        0.03      0.22             · · ·
+                                          Momentum scale           0.12        0.03      0.20             0.12
+                                          Fit model                 · · ·       · · ·     · · ·           · · ·
+                                          External inputs          0.15        0.06      0.36             · · ·
+                                          Sum                      0.20        0.07      0.47             0.12
+                                          Statistical              0.14        0.04      0.30             0.04
+              TABLEVII:Mass resolution scaling factors s ﬂoating within           tivistic Breit-Wigner functions provides a proper descrip-
+                                                                                                                        +
+              Gaussian constraints in the ﬁts.                                    tion. We reﬁt the Σc and Λc(2625)       data using a P-wave
+                                                                                  relativistic Breit-Wigner function of the form
+                                   Hadron          s
+                                 Σ (2455)++ 0.93±0.17                                          dN               m·Γ(m)
+                                   c                                                                ∝                                       (14)
+                                  Σ (2455)0 1.07±0.13                                                     2      2 2     2    2
+                                    c     ++                                                   dm      (m0−m ) +m0·Γ (m)
+                                 Σ (2520)     1.02 ±0.20
+                                   c                                              with
+                                  Σ (2520)0 1.00±0.20
+                                    c
+                                                                                                                                 
+                                                                                                               3
+                                  Λ (2595)+ 0.95±0.15                                                      q    m  1+q2R2
+                                    c                                                      Γ(m)=Γ                   0          0      ,     (15)
+                                                                                                      0   q        m      1+q2R2
+                                                                                                           0
+                                                                                  where m=∆M+m +,RistheBlatt-Weisskopf radius
+                                                                                                         Λ
+                                                                                                          c
+              included in the statistical uncertainties of the results.                              −1
+                                                                                  set to 3(GeV/c)        [44, 45], m0 and Γ0 are the nomi-
+                 To check the internal consistency of the ﬁt procedure,           nal mass and width, and q(q ) is the momentum of the
+                                                                                                                  0
+              we generate a large ensemble of statistical trials using                                                +
+                                                                                  daughters in the Σc or Λc(2625)        rest frame calculated
+              PDFsofourﬁtmodelwithparametersobtainedfromthe                                                                       +
+                                                                                  from the nominal mass. For the Λc(2595)            we replace
+              ﬁt to data. Estimates of all physics parameters except              the nonrelativistic Breit-Wigner function of Eq. 7 by a
+              the mass diﬀerences and natural widths of the Σ (2520)              relativistic one and use the variable width deﬁned in
+                                                                     c
+              resonances are found to be unbiased. The Σc(2520) mass              Eqs. 8 and 9. For the Σc(2455) we observe a diﬀerence of
+              diﬀerences have small biases towards higher values and              0.02MeV/c2 in the mass diﬀerence, which we assign as
+              the Σc(2520) natural widths are biased towards lower                a systematic uncertainty. In the cases of Σ (2520) and
+                                                                                                                                   c
+              values. These biases on the Σc(2520) resonance parame-              Λ∗+ resonances we do not observe any shift and conclude
+                                                                                    c
+              ters result from the fairly low signal to background ratio          that the eﬀect is negligible.
+              and the ﬂexibility in the background PDF, which tends
+              to absorb the tails of the relatively broad signal struc-
+              ture.   We repeat the study with a true value for the                                  D. External inputs
+              Σc(2520) natural width below (Γ = 7.5MeV/c2) and
+              above(Γ = 20MeV/c2)themeasuredvalueandﬁndthat                                                                   +
+                                                                                    Finally, the line shape of the Λc(2595)     dependsonthe
+              the biases have a small dependence on the true value.               input values of the Σc(2455) masses and widths and the
+              The biases are largest for a true value of the natural              pion decay constant fπ. We repeat the ﬁt using values of
+              width of 20MeV/c2 and we consequently assign these bi-              those parameters smaller or larger by 1 standard devia-
+              ases as systematic uncertainties on the mass diﬀerences             tion and take the stronger variation as systematic uncer-
+              and natural widths of the Σc(2520) states.                          tainty. The eﬀect of the uncertainty on the world average
+                 Concerning the uncertainty on the signal shape, we               Σc(2455) masses and widths used as input is dominant
+              check whether our signal parametrization using nonrela-             compared to the eﬀect of the uncertainty on fπ.
+                                                                                                                                                                                                                                       14
+                             2   1000                                                                                                TABLEVIII:Measuredresonanceparameters, wheretheﬁrst
+                                                   Data                                                                              uncertainty is statistical and the second is systematic.
+                                                   Fit Function
+                                                             +     +  +  -
+                                                   Λc(2595)  → Λc π  π                                                                                                                 2                                   2
+                                                             +     +  +  -                                                                 Hadron                ∆M[MeV/c ]                               Γ [MeV/c ]
+                                   800             Λc(2625)  → Λc π  π
+                                                           +                                                                            Σ (2455)++ 167.44±0.04±0.12                                  2.34 ±0.13 ±0.45
+                                              N(Λ (2595) ) ≈ 3500                                                                         c
+                                                  c        +                                                                                            0
+                                              N(Λ (2625) ) ≈ 6200                                                                        Σ (2455)            167.28 ±0.03 ±0.12                      1.65 ±0.11 ±0.49
+                                                  c                                                                                         c
+                                   600                                                                                                  Σ (2520)++ 230.73±0.56±0.16                                 15.03 ±2.12 ±1.36
+                                                                                                                                          c
+                                                                                                                                         Σ (2520)0 232.88±0.43±0.16                                 12.51 ±1.82 ±1.37
+                                                                                                                                            c
+                                                                                                                                                        +                                          2
+                                                                                                                                         Λ (2595)            305.79 ±0.14 ±0.20 h = 0.36±0.04±0.07
+                                                                                                                                           c                                                       2
+                                   400                                                                                                   Λ (2625)+ 341.65±0.04±0.12
+                               Candidates per 0.5 MeV/c                                                                                    c
+                                   200
+                                                                                                                                                 VII.         RESULTS AND CONCLUSIONS
+                                       0            300                            350                            400
+                                                                                                                                         We perform ﬁts to the M(pK−Ã+Ã+)−M(pK−Ã+),
+                                      fit2                                                                                           M(pK−Ã+Ã−)−M(pK−Ã+), and M(pK−Ã+Ã+Ã−)−
+                                       0                                                                                                         − +
+                                  (data - fit)                                                                                       M(pK Ã ) mass diﬀerence distributions to obtain the
+                                      -2                                                                                             desired resonance properties. The data distributions and
+                                                                          -  +   + -               -  +            2
+                                                             Mass(pKπ  π π)-Mass(pKπ ) [MeV/c ]                                      ﬁts are shown in Figs. 7 and 11. We select about 13800
+                                                                                                                                                     ++                                    0                               ++
+                                                                                                                                     Σc(2455)              , 15900 Σc(2455) , 8800 Σc(2520)                                     , 9000
+                       FIG. 11: (color online) The M(pK−π+π+π−)−M(pK−π+)                                                                             0                              +                                        +
+                                                                                                                                     Σc(2520) , 3500 Λc(2595) , and 6200 Λc(2625)                                                signal
+                       distribution obtained from data (points with error bars) to-                                                  events. The resonance parameters obtained can be found
+                       gether with the ﬁt (black solid line). The brown dashed and                                                                                                                                   +
+                                                                                                                                     in Table VIII. For the width of the Λc(2625)                                       weobserve
+                       purpledottedlinescorrespond to thetwosignal contributions,                                                    a value consistent with zero and therefore calculate an
+                       the green dash-double-dotted line represents the combinato-                                                   upper limit using a Bayesian approach with a uniform
+                                                                             +
+                       rial background without real Λ , the blue long-dashed line
+                                                                             c                                                       prior restricted to positive values. At the 90% credibility
+                                            +
+                       shows real Λ             combined with two random pions and the red
+                                            c                                                                                                                                         +                              2
+                       long-dash-dotted line represents real Σ combined with a ran-                                                  level we obtain Γ(Λc(2625) ) < 0.97MeV/c . For easier
+                                                                                       c                                             comparison to previous results [23, 26], h2 corresponds
+                       dom pion. The red dash-dotted line corresponds to the sum                                                                                                                                   2
+                                                                                                                                                               +                                                     +
+                       of all three background contributions.                                                                        to a Λc(2595)                 decay width of Γ(Λc(2595) ) = 2.59 ±
+                                                                                                                                                                      2                                                      +
+                                                                                                                                     0.30±0.47MeV/c , calculated at ∆M(Λc(2595) ). Our
+                                                                                                                                     precise measurement of the coupling constant h2 can, for
+                                                                                                                                     instance, be used to predict the width of the Ξ (2645),
+                             2   1000                                                                                                                                                                                        c
+                                                   Data                                                                              as discussed in Ref. [46].
+                                                   Fit Function
+                                                             +     +  +  -                                                               In Figs. 13–15, our results are compared to previ-
+                                                   Λc(2595)  → Λc π  π
+                                                             +     +  +  -
+                                   800             Λc(2625)  → Λc π  π                                                               ous measurements by other experiments.                                             Except for
+                                                                                                                                                               +
+                                                                                                                                     ∆M(Λc(2595) ), all our measurements agree with the
+                                                                                                                                                                                                                                 +
+                                   600                                                                                               previous world average values. For ∆M(Λc(2595) ) we
+                                                                                                                                     showthatamass-independentnaturalwidthdoesnotde-
+                                                                                                                                     scribe the data (see Fig. 12) and observe a value which is
+                                   400                                                                                               3.1MeV/c2 smallerthanthe existing worldaverage. This
+                               Candidates per 0.5 MeV/c                                                                              diﬀerence is the same size as estimated in Ref. [27]. Since
+                                   200                                                                                               this data sample is 25 times larger than the ones studied
+                                                                                                                                     so far, our results on the properties of Λ∗+ states pro-
+                                                                                                                                                                                                                  c
+                                                                                                                                     vide a signiﬁcant improvement in precision compared to
+                                       0                                                                                             previous measurements. The precision for the Σ states
+                                                    300                            350                            400                                                                                                         c
+                                       2                                                                                             is comparable to the precision of the world averages.
+                                      fit                                                                                            Concerning the inconsistency of the two CLEO measure-
+                                       0                                                                                                                                                    ++
+                                  (data - fit)-2                                                                                     ments [21, 22] of the Σc(2520)                                mass, our data favor a
+                                                                          -  +   + -               -  +            2                 smaller value.
+                                                             Mass(pKπ  π π)-Mass(pKπ ) [MeV/c ]                                          In conclusion, we exploit the world largest samples of
+                                                                                                                                     excited charmed baryons to measure the resonance pa-
+                       FIG. 12: (color online) The M(pK−π+π+π−)−M(pK−π+)                                                                                                                                        ++                       0
+                                                                                                                                     rameters of six states, namely Σ (2455)                                         , Σ (2455) ,
+                                                                                                                                                                                                   c                       c
+                       distribution obtained from data (points with error bars) to-                                                                  ++                       0                   +                             +
+                                                                                                                                     Σc(2520)              , Σc(2520) , Λc(2595) , and Λc(2625) . Ta-
+                       gether with the ﬁt (black solid line), where a Breit-Wigner                                                   ble IX summarizes the results for their masses and
+                       function with a mass-independent decay width is used to                                                       widths. These measurements provide a signiﬁcant im-
+                       model the Λ (2595)+ line shape. Explanations of the vari-
+                                             c                                                                                       provement in the knowledge of the resonance parameters
+                       ous background contributions can be found in the caption of                                                   of the states and represent the ﬁrst analysis of charmed
+                       Fig. 11.
+                                                                                                                                     baryons at a hadron collider.
+                                                                                                                                               15
+              TABLEIX:Resultsfor themasses and widths of the charmed              ment of Energy and National Science Foundation; the
+              baryons under study. The ﬁrst uncertainty is the combined           Italian Istituto Nazionale di Fisica Nucleare; the Min-
+              statistical and systematic experimental uncertainty. For the        istry of Education, Culture, Sports, Science and Tech-
+              masses, the second uncertainty originates from the world av-        nology of Japan; the Natural Sciences and Engineering
+                      +                                                           Research Council of Canada; the National Science Coun-
+              erage Λ    mass [18].
+                      c
+                                              2                     2             cil of the Republic of China; the Swiss National Science
+                    Hadron         M[MeV/c ]              Γ [MeV/c ]              Foundation; the A.P. Sloan Foundation; the Bundesmin-
+                  Σ (2455)++ 2453.90 ±0.13±0.14           2.34 ±0.47
+                   c                                                              isterium fu¨r Bildung und Forschung, Germany; the Ko-
+                   Σ (2455)0 2453.74 ±0.12±0.14           1.65 ±0.50
+                    c                                                             rean World Class University Program, the National Re-
+                  Σ (2520)++ 2517.19 ±0.46±0.14           15.03 ±2.52
+                   c                                                              search Foundation of Korea; the Science and Technol-
+                   Σ (2520)0 2519.34 ±0.58±0.14           12.51 ±2.28
+                    c
+                            +                            2                        ogy Facilities Council and the Royal Society, UK; the
+                  Λ (2595)     2592.25 ±0.24 ±0.14     h =0.36±0.08
+                    c                                    2
+                  Λ (2625)+ 2628.11 ±0.13±0.14 < 0.97at 90% C.L.                  Institut National de Physique Nucleaire et Physique des
+                    c
+                                                                                  Particules/CNRS; the Russian Foundation for Basic Re-
+                                                                                  search; the Ministerio de Ciencia e Innovaci´on, and Pro-
+                                   Acknowledgments                                grama Consolider-Ingenio 2010, Spain; the Slovak R&D
+                                                                                  Agency; the Academy of Finland; and the Australian Re-
+                 We thank the Fermilab staﬀ and the technical staﬀs               search Council (ARC). We thank Andrew Blechman for
+                                                                                                                                                +
+              of the participating institutions for their vital contribu-         providing feedback on the calculation of the Λc(2595)
+              tions.   This work was supported by the U.S. Depart-                line shape.

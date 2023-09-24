@@ -1,0 +1,253 @@
+In this paper we report on the study of charm baryons which strongly decay to the lowest
+mass charm baryon +c , namely ?c + (2625) ! +c +  , ?c + (2593) ! +c +  , 0c ! +c 
+and ++
+! +c + (throughout this paper charge conjugate states are implicitly assumed). Sev-
+c
+eral experiments have observed the isospin triplet states 0c , +c , ++
+c which decay strongly to
++c . Here we concentrate only on the two decays 0c ! +c  and ++
+! +c + , since our
+c
+reconstruction eciency for 0 is considerably lower than for  . Few experiments have ob-
+served the ?c + excited states. ARGUS[1], CLEO[2] and E687[3] have reported the existence of
+one such state, the ?c + (2625) , with a mass di erence M(?c + (2625) ) M(+c ) ' 341MeV=c2,
+reconstructed through its decay to +c  + . ARGUS reports a signi cant resonant component
+for the decay, (?c + (2625) ! c  )/ (?c + (2625) ! +c +  ) = 0:46  0:14, yet both CLEO
+and E687 did not see any resonant decay: E687[3] estimated the total resonant fraction to be
+BR(?c + (2625) ! c  / ?c + (2625) ! +c +  ) < 0:36 (90% c.l.) and CLEO[4] measured
+the two separate upper limits BR(?c + (2625) ! 0c + / ?c + (2625) ! +c +  ) < 0:07 and
+?+
++ +
+BR(?c + (2625) ! ++
+c  / c (2625) ! c   ) < 0:08 (90% c.l.). CLEO[4] has also reported
+evidence for a lower mass ?c + excited state, which we shall refer to as ?c + (2593) , at a mass dif-
+ference M(?c + (2593) ) M(+c ) = 307:5  0:4  1:0MeV=c2. The ?c + (2593) was reconstructed
+from the nal state +c  + , and the resonant decay ?c + (2593) ! c  , c ! +c  (where the
+?+
+c can either be a 0c or a ++
+c ) was reported to be dominant. In our earlier c paper, where we
+reconstrcted +c only in the decay mode +c ! pK + , we could neither con rm nor rule out the
+existence of such a state. In this paper we make use of more +c decay modes and tighter analysis
+conditions, and we are able to present evidence for a ?c + signal at approximately the same mass
+di erence as the observed CLEO ?c + (2593) state.
+The newly discovered ?c + states have been interpreted[5] as a ne structure doublet in which
+the light diquark ud carries a unit of orbital angular momentum L = 1 with respect to the heavy c
+quark. Combining this orbital angular momentum with the spin S = 21 of the baryon, the two states
+have been assumed to have total angular momentum and parity J P as follows: ?c + (2593) = 21
+and ?c + (2625) = 32 , with the isospin for both being I = 0. The ?c + can not decay to +c via single
+pion emission because of isospin conservation but requires two pions in the nal state. Angular
+momentum and parity conservation allow the state ?c + ( 21 ) to decay to the intermediate resonant
+state c ( 12 + ) via an S-wave, but the state ?c + ( 32 ) would have to decay to c ( 12 + ) via a D-wave.
+Therefore the resonant decay ?c + (2625) ! c  (c ! +c ) should be strongly suppressed,
+3while the decay ?c + (2593) ! c  (c ! +c ) should not. Thus the analysis of the resonant
+components of the decays of the ?c + is important in establishing the true nature of the states.
+The analysis presented in this paper is based on the data collected at Fermilab during the 1990-
+91 xed target run by high energy photoproduction experiment E687. Photons of average tagged
+energy E = 220 GeV impacted on a 4 cm long Beryllium target and produced charm hadrons.
+The charm decay products were detected by a multi-purpose spectrometer which is described in
+detail elsewhere[6]. This analysis makes use of the information from the charge tracking system and
+the C erenkov counters for particle identi cation. The charged tracking system is composed of a
+high resolution silicon microvertex detector, 5 stations of multi-wire proportional chambers and two
+analyzing magnets with opposite polarities. We rst reconstruct +c via their decays to pK + ,
+pK 0 , pK 0 +  , 0 + and 0+  + and then we combine the +c with one or two additional
+pions to search for higher mass charm states (?c + , c ).
+The +c candidates are reconstructed through a candidate driven vertex algorithm[6]. The neu-
+tral daughters of the +c decay (K 0 and 0 ) are identi ed via their decays Ks0 ! +  and
+0 ! p . In both cases two oppositely charged tracks (reconstructed by either the silicon vertex
+detector and the PWC system or by the PWC system alone) are required to originate from a common
+vertex and the invariant mass of the pair is required to be contained within a certain range of the
+K 0 or 0 nominal masses. The charged +c decay daughters (p,K  , ) are reconstructed as linked
+microstrip-PWC tracks which satisfy the identi cation by the C erenkov system: the protons must be
+identi ed as proton de nite or p=K ambiguous, the kaons must be kaon de nite or p=K ambiguous
+and the pions must not be identi ed as de nite electrons, kaons, protons or p=K ambiguous. For
+each decay mode, all the decay daughters have to extrapolate back to a single point (the secondary
+or decay vertex) with a con dence level greater than 1%. The primary vertex is constructed by
+intersecting the momentum vector of the reconstructed +c with the remaining microstrip tracks and
+by requiring the con dence level of the total object to be greater than 1%. The distance between
+the two vertices, L, is computed and divided by its error, L to determine the signi cance of the
+detachment between production and decay vertices: L=L. The +c must also satisfy some isolation
+criteria: tracks from the secondary vertex can not be compatible with coming from the primary
+vertex and other tracks in the event can not be compatible with coming from the secondary vertex.
+The full set of analysis cuts employed for each decay mode is described in Table I. In Figure 1
+we show the cumulative +c sample reconstructed through the ve decay modes mentioned above.
+4The invariant mass distribution is t with a Gaussian function for the signal plus a second degree
+polynomial for the background, giving a yield of Y (+c ) = 1564  101 events.
+For each decay mode, we select +c combinations which are contained within approximately 2
+of the nominal +c mass, and we compute the invariant mass of the +c with one or two (oppositely
+charged) tracks coming from the primary vertex. These additional tracks are linked microstrip-
+PWC tracks and the C erenkov identi cation must be compatible with the pion hypothesis (same
+as above). In order to reduce systematic errors in the mass measurements, we measure the mass
+di erence between the +c + pion(s) state and the original +c state.
+In Figure 2 we present the mass di erence M(+c  + ) M(+c ): there is evidence for two
+peaks above the background. The histogram is t with two Gaussian functions for the signals plus a
+second degree polynomial for the background. The t yields Y1 = 13:9  4:5 events for the lower mass
+peak, and Y2 = 38:8  8:0 events for the upper mass peak. The tted mass di erences are M1 =
+309:20:7MeV=c2 and M2 = 341:40:4MeV=c2, respectively. Since our value M1 agrees with the
+mass di erence measured by CLEO[4] for the ?c + (2593) state (see Table II), we con rm the existence
+of the ?c + (2593) . The width of the ?c + (2593) peak is measured to be 1 = 1:8  0:6MeV=c2, which
+is consistent with our Monte Carlo simulation of a zero intrinsic width particle. We checked the
+stability of the ?c + (2593) signal when di erent sets of analysis cuts were applied and found that both
+the ?c + (2593) mass and the ratio of the two yields Y (?c + (2593) )=Y (?c + (2625) ) were consistent
+within the statistical errors to the quoted values for each cut tested.
+We quote a conservative upper limit of 0:3MeV=c2 as a systematic error in the ?c + (2593) mass
+measurement. This uncertainty is derived from uctuations in the tted mass observed when dif-
+ferent tting techniques and analysis cuts are applied and when the pK + mode alone is used
+to reconstuct +c candidates. Monte Carlo studies show that the shift between the generated and
+reconstructed mass di erence M(?c + (2593) ) M(+c ) is negligible.
+In our previous paper[3] we investigated the resonant decays ?c ! 0c + (0c ! +c  )
+++ ! + + ) for the ?+ (2625) state. Since we did not nd any evi-
+and ?c ! ++
+c  (c
+c
+c
+dence for an intermediate resonant state, we measured the upper limit BR(?c + (2625) ! c  /
+?c + (2625) ! +c +  ) < 0:36 at 90% con dence level. In this paper we perform the same study
+for the ?c + (2593) state, using only our cleanest and most copious +c signal, that which is recon-
+structed via the +c ! pK + decay mode (with the analysis cuts described in Table I). In Figure
+3(a), 3(b) and 3(c) we plot the mass di erences M(+c  + ) M(+c ), M(+c  ) M(+c )
+5and M(+c + ) M(+c ) (where in all cases +c ! pK + ), showing evidence for the four states
+?c + (2593) , ?c + (2625) , 0c and ++
+c , respectively. The histograms are t with Gaussian curves
+for signals plus a second degree polynomial for the background. The yields resulting from the ts
+are listed in Table III, together with the corresponding Monte Carlo reconstruction eciency for
+each channel. In Figure 3(d) we plot again the mass di erences M(+c  + ) M(+c ) with the
+additional requirement that one of the two submasses +c  is compatible with being either a 0c
+2
+0
+++
+or a ++
+c (within 4MeV=c ( 2) of the values for the c and c masses obtained from his-
+tograms 3(b) and 3(c)). The tted yields for the ?c + states after the c requirement has been
+imposed are Y (?c + (2593) ) = 10:4  3:4 and Y (?c + (2625) ) = 10:6  3:7 events (which must
+be compared to the yields obtained without the c requirement: Y (?c + (2593) ) = 10:2  3:7
+and Y (?c + (2625) ) = 24:4  6:3). If the same c cut is applied to non-resonant ?c + (2593) !
++c +  and ?c + (2625) ! +c +  Monte Carlo samples, it is found that 33.2% and 31.2% (re-
+spectively) of the original ?c + yield is retained. This shows that the ?c + (2593) sample is consistent
+with being completely resonant, while the ?c + (2625) sample (as expected from our previous analy-
+sis) is consistent with being completely non-resonant.
+We also measured a lower limit for the resonant fraction of the ?c + (2593) ! +c +  decay.
+We looked at the M(+c  + ) M(+c ) mass di erence when one of the two submasses +c  is
+contained within one of two (properly normalized) sidebands of the 0c , ++
+c masses and subtracted
+this contribution from the ?c + (2593) yield obtained in Figure 3(d). At 90% con dence level, we
+found:
++?
+
+BR( +?c (2593) ! +c+ ) > 51%
+c (2593) ! c  
+Our results for the resonant fraction of the ?c + (2593) ! +c +  and ?c + (2625) ! +c +  decays
+agree with the results found by CLEO[4] and support the interpretation of the ?c + (2593) as the
+J P = 21 state and the ?c + (2625) as the J P = 32 state of the orbitally excited ?c + doublet.
+We use the charm baryon signals in Figures 3(a), 3(b) and 3(c) to measure the inclusive pho-
+toproduction cross sections of ?c + and c relative to the inclusive photoproduction cross section of
++c . For c we use the formula:
+c =
+Y (c )
+(c ! pK)  BR(c ! pK)
+
+c (c ! c ; c ! pK)  BR(c ! c )  BR(c ! pK)
+Y (c)
+( denotes the Monte Carlo reconstruction eciency and BR a Branching Ratio), where we assume
+BR(c ! c ) = 1.
+6In the case of ?c we use the formula:
+?c
+Y (?c )
+(c ! pK)
+=
+
+?
+?
++
+c (c ! c; c ! pK)  BR(c ! c   )
+Y (c )
+but this time BR(+c ? ! +c +  ) 6= 1 since the +c ? can also decay to +c 0 0 . We thus measure
+the combined quantity:
+?
+(?c )
+(c ! pK)
+BR(+c ? ! +c +  )  c = (? !  Y;
+
+c ! pK)
+Y (c )
+c
+c
+c
+The measured relative photoproduction cross sections are listed in Table III. We conservatively
+estimate that any systematics due to tracking is less than 4% per track. We checked the stability
+of our results by using di erent analysis cuts and di erent tting techniques and found that the
+uctuations were consistent within statistical errors to the quoted values for each test. We also
+investigated a possible dependence of the measured values on the momentum of the reconstructed
++c . We divided the +c momentum spectrum into three di erent ranges (between 30 and 60 GeV/c,
+between 60 and 90 GeV/c, above 90 GeV/c); tted each data histogram separately; computed
+the Monte Carlo reconstruction eciency for each momentum range; and nally summed the three
+eciency-corrected yields. The results obtained with this momentum dependent eciency technique
+proved to be in agreement, within the statistical errors, with the ones obtained by use of global
+reconstruction eciencies.
+We can perform a rough estimate of the number of +c originating from higher mass charm
+baryons by summing the relative photoproduction cross sections for each of the ?c + and c states
+observed. For the c , we average the two results for 0c and ++
+c and multiply by 3 to take into
+account the decay mode +c ! +c 0 , which is not reconstructed in this analysis but nevertheless
+contributes to the total +c ! pK + sample observed. For the ?c + , we assume that the decay
+?c + (2593) ! +c +  is completely dominated by the resonant mode ?c + (2593) ! c  (c !
++c  ), so that these events are already included in the 0c , ++
+c photoproduction cross sections.
+On the other hand we assume the decay ?c + (2625) ! +c +  to be completely non-resonant and
+also take BR(?c + (2625) ! +c +  ) to be 2=3 (from isospin invariance). We obtain:
+(c ; ?c ) 3 0c ++
+3 BR(? (2625) !  +  )  ?c (2625) = (32:2  5:1  1:7)%:
+c
+'
+(
++
+)
++
+c
+c
+c
+2 c c
+2
+c
+Finally we measure the mass di erence between each of the two c states and the +c . For the
+measurement, we use the c signals reconstructed through the +c ! pK + decay mode, but we
+subject the signals to tighter analysis cuts than those listed in Table I in order to improve the signal
+7to noise: we require the con dence level of the +c decay vertex to be greater than 5% and at least one
+of the two heavy prongs of the decay (i.e. the proton or the kaon) to be positively identi ed by the
+C erenkov counters. We also use c candidates reconstructed via the +c ! pK 0 decay mode, where
+(with respect to the cuts used in Table I) we tighten the invariant mass cut around the nominal
++c mass to be M = 20MeV and we require the error on the primary and secondary vertex
+separation to be less than L < 1:5mm. Figure 4(a) and 4(b) show the M(+c  ) M(+c ) and
+M(+c + ) M(+c ) mass di erences for the combined pK + + pK 0 sample with the additional
+analysis cuts. Both histograms are t with a Gaussian curve for the signal (with a xed width of
+ = 2:2MeV determined from Monte Carlo simulation) plus a second degree polynomial for the
+background. The resulting mass di erences are M(0c ) M(+c ) = 166:6  0:5  0:6MeV=c2 and
++
+2
+M(++
+c ) M(c ) = 167:6  0:6  0:6MeV=c where the second error is the systematic uncertainty.
+The systematic error is determined from non-statistical uctuations of the measured values when the
+total 0c , ++
+c samples are split into four statistically separate subsamples: candidates originating
+from di erent +c decays (pK + or pK 0) and data taken by our experiment during two di erent
+run periods (1990 or 1991). The larger systematic error in the measurement of the c masses, as
+compared to the measurement of the ?c + (2593) mass, re ects the higher level of background under
+the 0c , ++
+c signals.
+In Table II we summarize our measurements for the M(?c + ) M(+c ) and M(c ) M(+c )
+mass di erences and compare them to the values obtained by CLEO [4] [8] and to the current PDG
+world averages[9].
+In conclusion, we present con rming evidence for the excited state ?c + (2593) rst observed by
+CLEO[4] and we measure its mass to be M(?c + (2593) ) M(+c ) = 309:2  0:7  0:3MeV=c2 above
+the +c mass. We observe the resonant fraction of the decay ?c + (2593) ! c  to be dominant
+and we estimate the lower limit BR(?c + (2593) ! c  / ?c + (2593) ! +c +  ) > 0:51 (90%
++
+0
+c.l.). We further measure the mass di erences between the 0c , ++
+c and the c to be M(c )
+M(+c ) = 166:6  0:5  0:6MeV=c2 and M(++
+M(+c ) = 167:6  0:6  0:6MeV=c2. We
+c )
+measure the photoproduction cross section for the ?c + (2625) , ?c + (2593) , 0c and ++
+c relative to
+the inclusive photoproduction cross section for the +c . Our data indicate that roughly a third of
+the photoproduced +c comes from the decay of higher mass charm baryon states

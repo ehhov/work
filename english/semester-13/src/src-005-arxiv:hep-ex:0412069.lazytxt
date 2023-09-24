@@ -1,0 +1,289 @@
+                Charmed baryon spectroscopy provides an excellent           small-cell inner drift chamber were used [5]. We use a
+             laboratory to study the dynamics of a light diquark in         GEANT based Monte-Carlo (MC) simulation to model
+             the environment of a heavy quark, allowing the predic-         the response of the detector and to determine its accep-
+             tions of diﬀerent theoretical approaches to be tested [1].     tance. Signal MC events are produced with run depen-
+             The baryons containing one c quark and two light (u or         dent conditions and correspond to relative luminosities
+             d) quarks are denoted Λc and Σc for states with isospin        of diﬀerent running periods.
+             zero and one, respectively. All known excited charmed            Λ+ baryons are reconstructed using the pK2Ã+ de-
+             baryonsdecayintoΛ+Ã andΛ+ÃÃﬁnalstates. Thereare                    c
+                                  c         c                               cay mode (the inclusion of charge conjugate modes is
+             four excited charmed baryons observed in the Λ+Ã+Ã2            implied throughout this Letter). Charged hadron can-
+                                                                c
+             ﬁnal state [2]; the lower two are identiﬁed as orbital exci-   didates are required to originate from the vicinity of
+             tations of Λ+ while the upper two are not yet identiﬁed.       the run-averaged interaction point. For charged parti-
+                         c
+             In the Λ+Ã ﬁnalstate only the Σ (2455)groundstate and
+                      c                       c                             cle identiﬁcation (PID), the combined information from
+             the Σc(2520) spin excitation have been observed so far,        CDC(dE/dx), TOFandACCisused. Protons, charged
+             while the orbital excitations of the Σc remain to be found.    kaons and pions are selected with PID criteria that have
+             In this Letter we present the results of a search for new      eﬃciencies of 83%, 84% and 90%, respectively (the PID
+             states decaying into a Λ+ baryon and a charged or neu-         criteria are not applied for pions originating from Λ+
+                                      c                                                                                             c
+             tral pion. This study is performed using a data sample of      decays).  The PID criteria reduce the background to
+                   21                                             21
+             253fb     collected at the Υ(4S) resonance and 28fb     at     3%, 13% and 53%, respectively. In addition we remove
+             an energy 60MeV below the resonance. The data were             charged hadron candidates if they are consistent with
+             collected with the Belle detector [3] at the KEKB asym-        being electrons based on the ECL, CDC and ACC in-
+             metric energy e+e2 storage rings [4].                          formation. We deﬁne the signal window around the Λ+
+                                                                                                                                    c
+                                                                            masstobe±8MeV/c2whichcorrespondstoaneﬃciency
+                TheBelledetector is a large-solid-angle magnetic spec-      of about 90% (1.6Ã).
+             trometer that consists of a silicon vertex detector (SVD),
+             a 50-layer cylindrical drift chamber (CDC), an array of          A pair of calorimeter showers with an invariant mass
+             aerogel threshold Cherenkov counters (ACC), a barrel-          within 10MeV/c2 (1.6Ã) of the nominal Ã0 mass is con-
+             like array of time-of-ﬂight scintillation counters (TOF),      sidered as a Ã0 candidate. An energy of at least 50MeV
+             and an array of CsI(Tl) crystals (ECL) located inside          is required for each shower.
+             a superconducting solenoidal coil that produces a 1.5T           To reduce the combinatorial background in Λ+ and
+                                                                                                                               c
+             magnetic ﬁeld. An iron ﬂux return located outside the          Λ+Ã resonance reconstruction, we impose a requirement
+                                                                             c
+             coil is instrumented to detect muons and K0 mesons             on the scaled momentum x ≡ p7/p7         , where p7 is the
+                                                             L                                          p        max
+             (KLM). Two diﬀerent inner detector conﬁgurations were          momentum of the charmed baryon candidate in the cen-
+                                                      21                                                      7       p 72          2
+             used.   For the ﬁrst sample of 155fb       , a 2.0cm ra-       ter of mass (c.m.) frame, and pmax ≡        E      −M ;
+                                                                                                                          beam
+             dius beampipe and a 3-layer silicon vertex detector were       E7     is the beam energy in the c.m. frame, and M is
+                                                   21                        beam
+             used; for the latter sample of 126fb     , a 1.5cm radius      the mass of the candidate. To allow a comparison of our
+             beampipe and a 4-layer silicon vertex detector and a           Λ+samplewiththatofotherexperiments and to demon-
+                                                                             c
+                                                                                                                              3
+             strate its high purity, we apply a x > 0.5 requirement                  +        + 0 0                           +
+                                                p                       the Λc(2880)    → ΛcÃ Ã decay.        If the Λc(2880)
+             on Λ+ candidates. The Λ+ yield with this requirement       isospin is zero, then the following relations are valid:
+                 c                     c
+                             3                                                     +        + 0 0                         +
+             is (516 ± 2) × 10 and the signal-to-background ratio is    B(Λc(2880)     → ΛcÃ Ã ) = 0.5 · B(Λc(2880)          →
+                                                                          + + 2                     +                 + 0
+             2.3.                                                       Λc Ã Ã ) and B(Λc(2880)         → Σc(2455) Ã )        =
+                              +                                                    +               ++ 2                   +
+               We combine Λc candidates with the remaining pion         B(Λc(2880)    → Σc(2455)      Ã ) = B(Λc(2880)       →
+                                                                  +              0 +                                      +
+             candidates in the event. The x requirement on the Λ        Σc(2455) Ã ).   We do not observe the Λc(2880)       →
+                                           p                      c
+             candidate is released, and a x   > 0.7 requirement on      Λ+Ã0Ã0 decay due to the lower reconstruction eﬃciency
+                                            p                             c
+             the Λ+Ã pair is applied. The tight x cut is justiﬁed by    for Ã0, compared to Ã± (the expected signal yield is
+                  c                              p
+             the hardness of the momentum spectra of known excited      about 100 events, while the square root of the back-
+             charmed baryons. To further suppress the combinatorial     groundis 110). Therefore the shape and normalization of
+                                                                                    +      + 0 0
+             backgroundfromlowmomentumpionswerequirethede-              the Λc(2880)  →ΛcÃ Ã feed-downisdeterminedbased
+                                                                                        +      + + 2
+             cay angle »dec to satisfy cos»dec > −0.4. »dec is deﬁned   on the Λc(2880)   →ΛcÃ Ã feed-down and the above
+             as the angle between the Ã momentum measured in the        isospin relations. We take into account the diﬀerences
+             rest frame of the Λ+Ã system, and the boost direction      in the reconstruction eﬃciencies and mass resolutions for
+                                c
+                     +                                                       + 0       + 3                             +
+             of the Λc Ã system in the c.m. frame. The requirement      the Λc Ã andΛc Ã ﬁnalstates. IftheΛc(2880) isospin
+                                                                                                  +      + 0 0
+             cos»dec > −0.4 is chosen assuming a ﬂat cos»dec distri-    is one, then the Λc(2880)   →ΛcÃ Ã decay is forbid-
+             bution for the signal.                                     den. Thispossibility is taken into account as a systematic
+               Fig. 1 shows distributions of the mass diﬀerence         uncertainty.
+             ∆M(Λ+Ã)≡M(Λ+Ã)−M(Λ+)fortheΛ+Ã2,Λ+Ã0and                       We perform a ﬁt to the Λ+Ã mass spectra of Fig. 1
+                   c           c         c           c      c                                        c
+              + +                                                                                                             0
+             Λ Ã combinationsintheregionabovetheΣ (2455)and             to extract the parameters and yields of the Σ (2800) ,
+              c                                          c                                                            c
+                                                                                 +               ++
+             Σc(2520)resonances. All the distributions show enhance-    Σc(2800)   and Σc(2800)     . The ﬁtting function is a
+             ments near 0.51GeV/c2, which we interpret as signals       sum of three components: signal, feed-down and combi-
+             of new excited charmed baryons, forming an isotriplet.     natorial background functions. We tentatively identify
+                                                                  0                                                       +
+             The new baryons are hereafter denoted the Σc(2800) ,       the Σc(2800) states as Σc2 baryons, decaying to Λc Ã in
+                     +               ++
+             Σc(2800) and Σc(2800)      for the three ﬁnal states, re-  D-wave, so the signal is parameterized by a relativistic
+             spectively. Scaled Λ+ sidebands, which are also shown      D-waveBreit-Wignerfunction(Blatt-Weisskopfformfac-
+                                 c
+             in Fig. 1, exhibit featureless ∆M distributions. We also   tors [7] are included), convolved with the detector reso-
+             check the ∆M(Λ+Ã) spectra for e+e2 → cc¯ MC events,        lution of 2MeV/c2 (7MeV/c2) for ﬁnal states containing
+                             c
+             and ﬁnd no enhancement in our signal region.               only charged (one neutral) pions. The shape and the
+                                                           2                                                          +
+               The enhancement near ∆M = 0.43GeV/c in the               normalization of the feed-down from Λc(2880)    is ﬁxed
+             ∆M(Λ+Ã2) and ∆M(Λ+Ã+) spectra is attributed to             as described above. The background is parameterized by
+                   c                 c
+                                                +      + + 2                                                                2
+             feed-down from the decay Λ (2880)    →Λ Ã Ã . The          an inverse third order polynomial (1/{C +C x+C x +
+                                         c             c                                                       0    1     2
+                     +                                                      3
+             Λ (2880)   resonance was observed by CLEO [6] in the       C x }, where the C are ﬂoating parameters). The ﬁt
+              c                                                           3                 i
+             Λ+Ã+Ã2 ﬁnal state; 30% of decays proceed via an in-        interval starts at 0.37GeV/c2 since at lower mass a feed-
+              c
+                                 0            ++                                            +      + + 2
+             termediate Σc(2455) or Σc(2455)     . From a MC study      down from Λc(2765)    →ΛcÃ Ã [6] is expected. The
+             we ﬁnd that if Λ+Ã± pairs are produced from interme-       ﬁts are shown in Fig. 1, and their results are summa-
+                              c
+                           ++/0                   + 3                   rized in Table I. The signal yield is deﬁned as the inte-
+             diate Σc(2455)     , then the ∆M(Λc Ã ) spectrum is
+             peaked around 0.43GeV/c2. To determine the yield of        gral of the Breit-Wigner function over the mass interval
+                                                      +      + + 2      0.34GeV/c2 < ∆M < 0.69GeV/c2 (∼ 2.5Γ).
+             the feed-down we reconstruct the Λc(2880)  →ΛcÃ Ã
+             decays: selected Λ+Ã3 pairs are combined with all re-
+                               c
+             maining pions Ã±     in the event.   We observe clear
+                              rem                                       
+                              +               +                         
+             peaks of Λc(2880)   and Λc(2765) , consistent with the     
+                                                                        
+             observation of these states by CLEO. We then ﬁt the        
+             ∆M(Λ+Ã3Ã± ) ≡ M(Λ+Ã3Ã± )−M(Λ+) spectra to                  
+                   c     rem         c     rem         c
+                                +                        + +            
+             obtain the Λc(2880)   yield in bins of ∆M(Λ Ã     ) and    
+                                                         c  rem
+             ∆M(Λ+Ã2 ). Theresultsofthe ﬁts are shown in Fig. 2.        
+                   c  rem                                               
+                                                                        
+             Each distribution shows a peak in the second bin due       
+                                                                        
+                                                                        
+             to an intermediate Σc(2455) state.    The ﬁtting func-     
+                                                                        
+             tion, shown in Fig. 2, includes both resonant and non-     
+             resonant contributions and is determined from the MC
+             simulation. The result of this ﬁt is used to determine       The signal signiﬁcances are 8.6,       6.2  and 10.0
+                         ++/0                      +                                                        0           +
+             the Σc(2455)      fractions in Λc(2880) decay, and thus    standard deviations for Σc(2800) , Σc(2800)         and
+                                      +                    + 3                   ++
+             the shape of the Λc(2880)  feed-down to the Λc Ã   dis-    Σc(2800)    , respectively. The signiﬁcance is deﬁned as
+             tributions. In this calculation, we correct the feed-down  p
+                                                                          −2ln(L /L      ), where L and L      are the likelihood
+                                                                                  0   max          0       max
+             normalization for the eﬃciency of Ã±   reconstruction.     values returned by ﬁts with the signal yield ﬁxed at zero
+                                                rem
+               For the Λ+Ã0 ﬁnal state we expect a feed-down from       and the best ﬁt values respectively.
+                         c
+    by ±2Ã and in the Λ+Ã0 case we also consider the pos-
+                           c
+    sibility of zero feed-down. We tighten the x cut to 0.75
+                                                  p
+
+    and we vary the cos»dec cut from −0.5 to −0.3. In each
+    case we take the largest positive and negative variation
+
+    in the ﬁtted parameters as the systematic uncertainty
+
+    from this source; each term is then added in quadrature
+
+    to give the total systematic uncertainty. The dominant
+    contribution originates from the variation of the inter-
+    val used in the ﬁt and the background parameterization.
+
+    The parameters for the observed states with statistical
+    and systematic uncertainties are summarized in Table I.
+    For all background parameterizations the signal signiﬁ-
+    cance exceeds 5.3Ã in all ﬁnal states. As a cross-check,
+    werepeat the analysis using the Λ+ → pK0 and ΛÃ+ de-
+                                        c       S
+    cay modes, and ﬁnd consistent results. (We do not per-
+    form an average since the relative yields are low and the
+                                                  +        2 +
+    branchingratiosof these modes relativeto Λ      →pK Ã
+                                                  c
+    are poorly known).     We also check that the observed
+    Σc(2800) signals are not feed-downs from unknown res-
+
+                             +                      + 3
+    onances decaying to Λc ÃÃ, by combining Λc Ã          pairs
+
+                                                      ±
+    from the Σc(2800) region with all remaining Ã        in the
+
+    event. The resulting ∆M(Λ+Ã+Ã2) spectra exhibit no
+                                  c
+    structure.
+                                                                                To determine the eﬃciency of the cos»dec > −0.4 re-
+                To estimate the systematic uncertainty on the re-            quirement, we assume that the cos»dec distribution is
+              sults of the ﬁt we vary the signal parameterization, us-       symmetric about zero, as required by the conservation of
+              ing S-wave and P-wave Breit-Wigner functions.          We      P-parity in strong decays. We check that the observed
+              vary the interval in ∆M used for the ﬁt and the back-          distributions are compatible with this assumption. We
+              ground parameterization, using polynomials and inverse         ﬁt the ∆M(Λ+Ã) spectra in the 0.4 < cos»             ≤ 1.0
+                                                                                            c                                 dec
+              polynomials of diﬀerent orders, a function (C + C x) ·         interval, ﬁxing the signal parameters to the values ob-
+                                                              1     2
+                              2
+              exp(C x+C x ), where the C are ﬂoating parameters,             tained above and assuming the same background param-
+                    3      4                  i
+              and these functions plus the normalized Λ+ sidebands.                                      +
+                                                           c                 eterization. The Λc(2880)      feed-down normalization is
+                                                            +
+              We vary the normalization of the Λc(2880)       feed-down      determined for the selected cos»dec interval. The recon-
+                                                                                                                                       5
+              struction eﬃciency corrections are taken into account.         states [10]. One of the candidates is a Σc2 doublet with
+              The statistical uncertainty in the obtained signal yield is    JP = 3/22 and 5/22, where the subscript 2 denotes
+              included in the systematic uncertainty of the eﬃciency.        the total angular momentum of the light quark system.
+                                                                             The Σc2 baryon is expected to decay principally into the
+                                                                             Λ+Ã ﬁnal state in D-wave; the predicted mass diﬀerence
+      c
+    ∆M=500MeV/c2isclosetothatobservedhere,butthe
+
+
+
+    expected width Γ ∼ 15MeV [11] is smaller than the one
+    we observe. However, we note that the Σ       (JP =3/22)
+                                               c2
+    baryoncan mix with the nearby Σc1 (JP = 3/22), which
+    would produce a wider physical state.
+       In summary, we report the observation of an
+    isotriplet of excited charmed baryons, decaying into
+    Λ+Ã2, Λ+Ã0 and Λ+Ã+.              We measure the mass
+      c        c            c
+
+    diﬀerences   M(Λ+Ã) − M(Λ+) and widths to be
+                       c             c
+    515.4+3.2+2.1 MeV/c2, 61+18+22MeV for the neutral
+          23.126.0              213213
+    state;  505.4+5.8+12.4 MeV/c2, 62+37+52MeV for the
+                  24.62 2.0              223238
+    charged state and 514.5+3.4+2.8MeV/c2, 75+18+12MeV
+                              23.124.9             213211
+    for the doubly charged state, where the uncertainties
+    are statistical and systematic, respectively. We tenta-
+
+    tively identify these states as members of the predicted
+    Σc2, JP = 3/22 isospin triplet.
+
+                                                                             
+                To ﬁnd the eﬃciency of the x        > 0.7 requirement,       
+                                                  p
+              we consider an extended interval x      > 0.5 and ﬁt the
+                                                    p
+                     +                                      +
+              ∆M(Λ Ã)spectra in x bins. The Λ (2880) feed-down
+                     c                p             c
+              normalization is determined in each x bin separately.
+                                                       p
+              The obtained eﬃciency-corrected x spectra are shown            
+                                                   p                         
+              in Fig. 3; the curves show ﬁts using the Peterson [8] pa-      
+                                          21                        2 22
+              rameterization dN/dx ∼ x       [1−1/x −ë/(1−x ) ] .            
+                                     p    p          p            p
+                                   +0.021              0           +0.032    
+              Weobtain ë = 0.07820.017 for Σc(2800) , ë = 0.09520.024
+                           +               +0.015              ++            
+              for Σc(2800)   and ë = 0.06920.012 for Σc(2800)     ; these    
+              values are similar to other measurements for excited           
+              charmed baryons with nonzero orbital angular momen-            
+              tum [9]. The eﬃciency of the x > 0.7 requirement is            
+                                                 p
+              calculated using the ë values from the ﬁts. The statistical    
+              uncertainty in ë is included in the systematic uncertainty     
+              of the eﬃciency.                                               
+                We calculate the product Ã[e+e2 → Σ (2800)X] ×               
+                                                            c                
+              B[Σ (2800) → Λ+Ã] to be (2.04+0.72+0.97 ± 0.53)pb
+                  c              c                 20.5020.52                
+                           0      +1.8+2.4                        +
+              for Σc(2800) , (2.621.021.5 ± 0.7)pb for Σc(2800)      and     
+                   +0.69+0.64                          ++                    
+              (2.3620.5020.47 ± 0.61)pb for Σc(2800)      ; the ﬁrst un-
+              certainty is statistical, the second is systematic, and the    
+              third is due to the uncertainty in the Λ+ → pK2Ã+              
+                                                          c                  
+              branching fraction.                                            
+                Theoretical models predict a rich spectrum of ex-            
+              cited charmed baryons in the vicinity of the observed          

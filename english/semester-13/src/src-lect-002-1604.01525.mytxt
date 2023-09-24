@@ -1,0 +1,990 @@
+1 Introduction
+The Standard Model (SM) description of CP violation can be tested through measurements
+of the angle γ of the unitarity triangle of the Cabibbo-Kobayashi-Maskawa (CKM) matrix [1,
+2], where γ ≡ arg(−VudV
+∗
+ub/VcdV
+∗
+cb). It is the only CKM angle easily accessible in tree-level
+processes and can be measured, with a small uncertainty from theory of δγ/γ ≤ 10−7
+[3].
+Hence, in the absence of new physics effects at tree level [4], a precision measurement of γ
+provides an SM benchmark which can be compared with other CKM matrix observables
+that are more likely to be affected by physics beyond the SM. Such comparisons are
+currently limited by the uncertainty on direct measurements of γ, which is about 7◦
+[5, 6].
+The CKM angle γ is experimentally accessible through the interference between ¯b → cu¯ s¯
+and ¯b → uc¯ s¯ transitions. The traditional golden mode is B− → DK−, with chargeconjugation implied throughout, where D represents a neutral D meson reconstructed in
+a final state that is common to both D0 and D0 decays. This mode has been studied at
+LHCb with a wide range of D meson final states to measure observables with sensitivity to
+γ [7–10]. In addition to these studies, other B decays have also been used with a variety
+of techniques to determine γ [11–14].
+This paper presents an analysis in which the decay B0 → DK∗0 provides sensitivity
+to the CKM angle γ through the interfering amplitudes shown in Fig. 1. Here the K∗0
+refers to the K∗
+(892)0
+, and the charge of the kaon from the K∗0 unambiguously identifies
+the flavour of the decaying B meson as B0 or B0
+. Although the branching fraction of
+the B0 → DK∗0 decay is an order of magnitude smaller than that of the B− → DK−
+decay [15], it is expected to exhibit larger CP-violating effects as the two colour-suppressed
+Feynman diagrams in Fig. 1 are comparable in magnitude. Measurements sensitive to
+γ using the B0 → DK∗0 decay mode were pioneered by the BaBar [16] and Belle [17]
+collaborations, and have been pursued by the LHCb collaboration [11, 14].
+The three-body self-conjugate decays D → K0
+S π
++π
+− and D → K0
+SK+K−, designated
+collectively as D → K0
+S h
++h
+−, are accessible to both D0 and D0
+. They have large variation
+of the strong phase over the Dalitz plot, and thus provide a powerful method to determine
+the angle γ. Sensitivity to γ is obtained by comparing the distribution of events in the
+D → K0
+S h
++h
+− Dalitz plots of B mesons reconstructed in each flavour, as described in
+1
+Refs. [18–20]. To determine γ from the comparison, input is required on the variation
+within the Dalitz plot of the strong-interaction phase difference between D0 and D0 decays.
+An amplitude model of the D0 → K0
+S h
++h
+− decay can be used to provide this information
+and this technique has been used to study the B0 → DK∗0
+, D → K0
+S π
++π
+− decay mode
+by BaBar [21] and LHCb [22]. In Ref. [22] the same dataset is used as the one analysed
+in this paper. An attractive alternative is to use model-independent measurements of
+the strong-phase difference variation over the Dalitz plot, which removes the need to
+assign model-related systematic uncertainties [19, 20]. Measurements of the strong-phase
+variation in binned regions of the Dalitz plot cannot be done with LHCb data alone, but
+can be accomplished using an analysis of quantum-correlated neutral D meson pairs from
+ψ(3770) decays, and have been made at the CLEO-c experiment [23]. These measurements
+have direct access to the strong-phase difference, which is not the case for the amplitude
+models based on fits to flavour-tagged D decays only [24, 25]. The separation of data into
+binned regions of the Dalitz plot leads to a loss in statistical sensitivity in comparison
+to using an amplitude model; however, the advantage of using the measurements from
+CLEO is that the systematic uncertainties remain free of any model assumptions on the
+strong-phase difference. This model-independent method has been used by Belle [26] to
+study the B0 → DK∗0
+, D → K0
+S π
++π
+− decay mode, and by LHCb [8] and Belle [27] to
+study B± → DK± decays.
+In this paper, pp collision data at a centre-of-mass energy √
+s = 7 (8) TeV, accumulated
+by LHCb in 2011 (2012) and corresponding to a total integrated luminosity of 3.0 fb−1
+,
+are exploited to perform a model-independent measurement of γ in the decay mode
+B0 → DK∗0
+, with D → K0
+S π
++π
+− and D → K0
+SK+K−. The yield of B0 → DK∗0 with
+D → K0
+S π
++π
+− is twice that previously analysed at Belle [27] and the D → K0
+SK+K−
+decay is included for the first time. This allows for a precise measurement of x±, y± using
+the techniques developed for similar analyses of B− → DK− decays [8].
+The remainder of the paper is organised as follows. Section 2 describes the analysis
+framework. Section 3 describes the LHCb detector, and Sect. 4 presents the candidate
+selection and the parametrisation of the B candidate invariant mass spectrum. Section 5
+is concerned with the use of semileptonic decays in order to determine the populations
+in different bins of the D0 → K0
+S h
++h
+− Dalitz plot. Section 6 discusses the binned Dalitz
+plot fit and presents the measurements of the CP violation parameters. The evaluation of
+systematic uncertainties is summarised in Sect. 7. The determination of the CKM angle γ
+using the measured CP parameters is described in Sect. 8.
+2 Overview of the analysis
+The favoured and suppressed B0 decay amplitudes can be expressed as
+where p is the (m2
+(Kπ), m2
+(Dπ)) coordinate on the B0 → DKπ Dalitz plot, Au(p) and
+Ac(p) are the moduli of the b → u and b → c amplitudes, and δc,u(p) represent the
+strong phases of the relevant decay amplitudes. The symbol X0
+s
+refers to a resonant or
+nonresonant K+π
+− pair, which could be produced by the decay of the K∗0 meson or by
+other contributions to the B0 → DK+π
+− final state. Similar expressions can be written for
+the B0 decay, where the parameter γ enters with opposite sign. The natural width of the
+K∗0
+(approximately 50 MeV/c2
+[15]) must be considered when analysing these decays. In
+the region near the K∗0 mass there is interference between the signal K∗0 decay amplitude
+and amplitudes due to the other B0 → DK+π
+− Dalitz plot contributions, such as higher
+mass Kπ resonances and nonresonant Kπ decays. Hence, the magnitude ratio between
+the suppressed and favoured amplitudes rB0 , the coherence factor κ [28], and the effective
+strong phase difference δB0 depend on the region of the B0 Dalitz plot to be analysed.
+These are defined as
+where 0 ≤ κ ≤ 1. For this analysis the integration is over K+π
+− masses within 50 MeV/c2
+of the known K∗0 mass [15] and an absolute value of the cosine of the K∗0 helicity angle
+θ
+∗ greater than 0.4. The helicity angle θ
+∗
+is defined as the angle between the K∗0 daughter
+kaon momentum vector and the direction opposite to the B0 momentum vector in the K∗0
+rest frame. This region is chosen to obtain a large value of κ and to facilitate combination
+with results in Refs. [11, 14], which impose the same limits. The coherence factor has
+recently been determined by the LHCb collaboration to be κ = 0.958 +0.005
+−0.010
++0.002
+−0.045 [14],
+through an amplitude analysis that measures the b → c and b → u amplitudes in the
+B0 → DK+π
+− decay.
+The amplitude of the D0 meson decay at a particular point on the D Dalitz plot is
+defined as AD(m2
+−, m2
++) ≡ A(m2
+−, m2
++)e
+iδ(m2
+−,m2
++)
+, where m2
+− (m2
++) is the invariant mass of
+the K0
+S h
+− (K0
+S h
++) pair. Neglecting CP violation in charm decays, which is known to be
+small [15], the charge-conjugated amplitudes are related by AD(m2
+−, m2
++) = AD(m2
++, m2
+−).
+The partial widths for the B decays can be written as
+3
+Expanding and integrating over the defined K∗0
+region, one obtains
+The D Dalitz plot is partitioned into bins symmetric under the exchange m2
+− ↔ m2
++.
+The cosine of the strong-phase difference between the D0 and D0 decay weighted by the
+decay amplitude and averaged in bin i is called ci
+[19, 20], and is given by
+where the integrals are evaluated over the phase space of bin i. An analogous expression
+can be written for si which is the sine of the strong-phase difference weighted by the decay
+amplitude and averaged in the bin.
+Measurements of ci and si are provided by CLEO in four different 2 × 8 binning
+schemes for the D → K0
+S π
++π
+− decay [23]. The bins are labelled from −8 to +8, excluding
+zero, where the bins containing a positive label satisfy the condition m2
+− ≥ m2
++. The
+binning scheme used in this analysis is referred to as the ‘modified optimal’ binning. The
+optimisation was performed assuming a strong-phase difference distribution given by the
+BaBar model presented in Ref. [24]. This modified optimal binning is described in Ref. [23]
+and was designed to be statistically optimal in a scenario where the signal purity is low.
+It is also more robust for analyses with low yields in comparison to the alternatives, as no
+individual bin is very small. For the K0
+SK+K− final state, the measurements of ci and
+si are available in three variants containing a different number of bins, with the guiding
+model being that from the BaBar study described in Ref. [25]. For the present analysis
+the variant with the 2 × 2 binning is chosen, given the very low signal yields expected in
+this decay. The measurements of ci and si are not biased by the use of a specific amplitude
+model in defining the bin boundaries, which only affects this analysis to the extent that if
+the model gives a poor description of the underlying decay then there will be a reduction
+in the statistical sensitivity of the γ measurement. The binning choices for the two decay
+modes are shown in Fig. 2.
+The integrals of Eqs. (6) and (7) over the phase space of a Dalitz plot bin are proportional
+to the expected yield in that bin. The physics parameters of interest, rB0 , δB0 , and γ, are
+translated into four Cartesian variables [29, 30]. These are the measured observables and
+are defined as
+x± ≡ rB0 cos(δB0 ± γ) and y± ≡ rB0 sin(δB0 ± γ). (9)
+From Eqs. (6) and (7) it follows that
+where Fi are defined later in Eq. (12) and N
++
+i
+(N
+−
+i
+) is the expected number of B0
+(B0
+)
+decays in bin i. The superscript on N refers to the charge of the kaon from the K∗0
+decay. The parameters n+ and n− provide the normalisation, which can be different due
+to production, detection and CP asymmetries between B0 and B0 mesons. However the
+integrated yields are not used and the analysis is insensitive to such effects. The detector
+and selection requirements placed on the data lead to a non-uniform efficiency over the
+Dalitz plot. The efficiency profile for the signal candidates is given by η = η(m2
+−, m2
++).
+Only the relative efficiency from one point to another matters and not the absolute
+normalisation. The parameters Fi are given by
+and are the fraction of decays in bin i of the D0 → K0
+S h
++h
+− Dalitz plot.
+The values of Fi are determined from the control decay mode B0 → D∗−µ
++νµX, where
+the D∗− decays to D0π
+− and the D0 decays to either the K0
+S π
++π
+− or K0
+SK+K− final state.
+The symbol X, hereinafter omitted, indicates other particles which may be produced in
+the decay but are not reconstructed. Samples of simulated events are used to correct
+for the small differences in efficiency arising through necessary differences in selecting
+B0 → D∗−µ
++νµ and B0 → DK∗0 decays, which are discussed further in Sect. 5.
+Effects due to D0
+-D0 mixing and CP violation in K0
+-K0 mixing are ignored: the
+corrections are discussed in Refs. [31, 32] and are expected to be of order 0.2
+◦
+(1◦
+) for
+D mixing (CP violation in K mixing) in B− → DK− decays. In both cases the size
+of the correction is reduced as the value of rB0 is expected to be approximately three
+5
+times larger than the value of rB in B− → DK− decays. The effect of different nuclear
+interactions within the detector material for K0 and K0 mesons is expected to be of a
+similar magnitude and is also ignored [33].
+3 Detector and simulation
+The LHCb detector [34,35] is a single-arm forward spectrometer covering the pseudorapidity
+range 2 < η < 5, designed for the study of particles containing b or c quarks. The detector
+includes a high-precision tracking system consisting of a silicon-strip vertex detector
+surrounding the pp interaction region, a large-area silicon-strip detector located upstream
+of a dipole magnet with a bending power of about 4 Tm, and three stations of siliconstrip detectors and straw drift tubes placed downstream of the magnet. The tracking
+system provides a measurement of momentum, p, of charged particles with a relative
+uncertainty that varies from 0.5% at low momentum to 1.0% at 200 GeV/c. The minimum
+distance of a track to a primary vertex (PV), the impact parameter (IP), is measured
+with a resolution of (15 + 29/pT) µm, where pT is the component of the momentum
+transverse to the beam, in GeV/c. Different types of charged hadrons are distinguished
+using information from two ring-imaging Cherenkov detectors. Photons, electrons and
+hadrons are identified by a calorimeter system consisting of scintillating-pad and preshower
+detectors, an electromagnetic calorimeter and a hadronic calorimeter. Muons are identified
+by a system composed of alternating layers of iron and multiwire proportional chambers.
+The online event selection is performed by a trigger, which consists of a hardware stage,
+based on information from the calorimeter and muon systems, followed by a software stage,
+which applies a full event reconstruction. The trigger algorithms used to select hadronic
+and semileptonic B decay candidates are slightly different, due to the presence of the
+muon in the latter, and are described in Sects. 4 and 5.
+In the simulation, pp collisions are generated using Pythia [36, 37] with a specific
+LHCb configuration [38]. Decays of hadronic particles are described by EvtGen [39],
+in which final-state radiation is generated using Photos [40]. The interaction of the
+generated particles with the detector, and its response, are implemented using the Geant4
+toolkit [41, 42] as described in Ref. [43].
+4 Event selection and fit to the B candidate invariant
+mass distribution
+Decays of the K0
+S meson to the π
++π
+− final state are reconstructed in two different categories,
+the first involving K0
+S mesons that decay early enough for the pion track segments to be
+reconstructed in the vertex detector, the second containing K0
+S mesons that decay later
+such that track segments of the pions cannot be formed in the vertex detector. These
+categories are referred to as long and downstream. The candidates in the long category have
+better mass, momentum, and vertex resolution than those in the downstream category.
+6
+Signal events considered in the analysis must first fulfil hardware and software trigger
+requirements. At the hardware stage at least one of the two following criteria must be
+satisfied: either a particle produced in the decay of the signal B candidate leaves a deposit
+with high transverse energy in the hadronic calorimeter, or the event is accepted because
+particles not associated with the signal candidate fulfil the trigger requirements. At least
+one charged particle should have a high pT and a large χ
+2
+IP with respect to any PV, where
+χ
+2
+IP is defined as the difference in χ
+2 of a given PV fitted with and without the considered
+track. At the software stage, a multivariate algorithm [44] is used for the identification of
+secondary vertices that are consistent with the decay of a b hadron. The software trigger
+designed to select B0 → DK∗0
+candidates requires a two-, three- or four-track secondary
+vertex with a large scalar sum of the pT of the associated charged particles and a significant
+displacement from the PVs. The PVs are fitted with and without the B candidate tracks,
+and the PV that gives the smallest χ
+2
+IP is associated with the B candidate.
+Combinatorial background is rejected primarily through the use of a multivariate
+approach with a boosted decision tree (BDT) [45,46]. The signal and background training
+samples for the BDT are simulated signal events and candidates in data with reconstructed
+B candidate mass in a sideband region. Loose selection criteria are applied to the training
+samples on all intermediate states (D, K0
+S
+, K∗0
+). Separate BDTs are trained for candidates
+containing long and downstream K0
+S
+candidates. Due to the presence of the topologically
+indistinguishable B0
+s → DK∗0 decay, the available background event sample for the
+training is limited to the mass range 5500–6000 MeV/c2
+. To make full use of all background
+candidates for the training of the BDTs, all events are divided into two sets at random.
+For each K0
+S
+category two BDTs are trained, using each set of events in the sideband. The
+results of each BDT training are applied to the events in the other sample. Hence, in total
+four BDTs are trained, and in this way the BDT applied to one set of events is trained
+with a statistically independent set of events.
+Each BDT uses a total of 16 variables, of which the most discriminating are the
+χ
+2 of the kinematic fit of the whole decay chain (described below), the K∗0
+transverse
+momentum, and the flight distance significance of the B candidate from the associated
+PV. In the BDT for long K0
+S
+candidates, two further variables are found to provide high
+separation power: the flight distance significance of the K0
+S decay vertex from the PV and
+a variable characterising the flight distance significance of the K0
+S vertex from the D vertex
+along the beam line. The remaining variables in the BDT are the χ
+2
+IP of the B candidate,
+the sum of χ
+2
+IP of the two K0
+S daughter tracks, the sum of the χ
+2
+IP of all the other tracks,
+the vertex quality of the B and D candidates, the flight distance significance of the D
+vertex from the PV, a variable characterising the flight distance significance between the
+D and B vertices along the beam line, the transverse momentum of each of the D and
+B candidates, the cosine of the angle between the B momentum vector and the vector
+between the production and decay vertex, and the helicity angle θ
+∗
+. It has been verified
+that the use of θ
+∗
+in the BDT has no significant impact on the value of κ. An optimal
+criterion on the BDT discriminator is determined with a series of pseudoexperiments to
+obtain the value that provides the best sensitivity to x±, y±.
+A kinematic fit [47] is imposed on the full B decay chain. The fit constrains the B
+7
+candidate to point towards the PV, and the D and K0
+S
+candidates to have their known
+masses [15]. This fit improves the B mass resolution and therefore provides greater
+discrimination between signal and background; furthermore, it improves the resolution on
+the Dalitz plot and ensures that all candidates lie within the kinematically-allowed region
+of the D → K0
+S h
++h
+− Dalitz plot. The kinematic variables obtained in this fit are used to
+determine the physics parameters of interest and the χ
+2 of this fit is used in the BDT
+training.
+To suppress background further, particle identification (PID) requirements are placed
+on both daughter tracks of the K∗0
+to identify the kaon and the pion. This also removes
+the possibility of a second K∗0
+candidate being built from the same pair of tracks with
+opposite particle hypotheses. The PID requirement on the kaon is tight, with an efficiency
+of 81%, and is necessary to suppress 98% of the background from B0 → Dρ0 decays where
+a pion from the ρ
+0 decay is misidentified as a kaon. The absolute value of cos θ
+∗
+is required
+to be greater than 0.4, as discussed in Sect. 2.
+For the selection on the D (K0
+S
+) mass, the mass is computed from a kinematic fit [47]
+that constrains the K0
+S
+(D) mass to its known value and the B candidate to point towards
+the PV. The D meson mass is required to be within 30 MeV/c2 of the nominal mass [15]
+which is three times the mass resolution. The long (downstream) K0
+S
+candidates are
+required to be within 14.4 (19.9) MeV/c2 of their nominal mass which again corresponds
+to three times the mass resolution. In the case of D → K0
+SK+K− candidates a loose
+PID cut is also placed on the kaon daughters of the D to remove cross-feed from other
+D → K0
+S h
++h
+− decays. One further physics background is due to D decays to four pions
+where two pions are consistent with a long K0
+S
+candidate. To suppress this background to
+negligible levels, a tight requirement is placed on the flight distance significance of the
+long K0
+S
+candidate from the D vertex along the beam line.
+While the selection is different for long and downstream K0
+S
+candidates, the small
+differences between the B candidate mass resolution for the two categories observed in
+simulation are negligible for this analysis. This is because of the D mass constraint applied
+in the kinematic fit. Therefore, both K0
+S
+categories are combined in the fit of the B
+invariant mass distribution. All B meson candidates with invariant mass between 5200
+and 5800 MeV/c2 are fitted together to obtain the signal and background yields.
+The invariant mass distributions of the selected candidates are shown in Fig. 3 for
+both D decay modes. The B0 and B0
+candidates are summed. The result of an extended
+maximum likelihood fit to these distributions is superimposed. The fit is performed
+simultaneously for candidates from both D decays, allowing parameters, unless otherwise
+stated, to be common between both D decay categories. Figure 3 shows the various
+components that are considered in the fit to the invariant mass spectra. In addition
+to the signal B0 → DK∗0
+component, there are contributions from B0
+s → DK∗0
+, from
+B0 → Dρ0 where one pion is misidentified as a kaon, and from B → DK decays where
+one pion from the rest of the event is added to create a fake K∗0
+. A large background
+comes from B0
+s → D∗0K∗0 decays where the photon or neutral pion from the D∗0 decay
+is not reconstructed. The purpose of this fit is to determine the parametrisation of the
+signal and background components, and the size of the background contributions, which
+8
+are used in the fit of partitioned regions of the Dalitz plot described in Sect. 6.
+The B0
+s → DK∗0 and B0 → DK∗0 decays are modelled by the same probability density
+function (PDF), a sum of two Crystal Ball [48] functions with common mean and width
+parameters. The mean for the B0
+s meson is determined in the fit and the mean for the
+B0 meson is required to be 87.19 MeV/c2
+[15] lower. The width is allowed to vary in the
+fit and is required to be the same for the two decays. All other parameters are fixed
+from simulation. The combinatorial background is modelled by an exponential function
+with slope determined by the fit for the D → K0
+S π
++π
+− and D → K0
+SK+K− categories
+separately. The PDF for B0 → Dρ0 decays is derived from simulation with additional
+9
+data-driven corrections applied to take into account PID response differences between
+data and simulation [49]. This background is described with the sum of two Crystal
+Ball functions, whose parameters are obtained from the weighted simulated events. The
+B → DK background is treated in a similar fashion.
+For the partially reconstructed background from B0
+s → D∗0K∗0 decays the distribution
+in the invariant mass spectrum is dependent on the helicity state of the D∗0 meson. The
+initial decay of the B0
+s
+involves the decay of a pseudoscalar to two vector particles. Hence,
+due to angular momentum conservation there are three helicity amplitudes to consider,
+which can be labelled by the D∗0 helicity state λ = −1, 0, +1. In the subsequent parityconserving decay D∗0 → D0{π
+0
+, γ}, the value of λ and the spin of the missing neutral
+particle determines the distribution of the D∗0 helicity angle, which is defined as the angle
+between the missing neutral particle’s momentum vector and the direction opposite to
+the B meson in the D∗0
+rest frame. The resulting distributions for λ = −1 or +1 are
+identical and hence are grouped together. The functional forms of the underlying DKπ
+invariant mass spectrum, shown in Table 1, can be calculated based on λ, and the spin and
+mass of the missing particle. The parameters aX and bX are the kinematic endpoints of
+the reconstructed DKπ invariant mass, where X is the particle that is not reconstructed.
+These distributions are further modified to take into account detector resolution and
+reconstruction efficiency. The parameters for the resolution and efficiency are determined
+from fits to simulated samples, while the endpoints are calculated using the masses of the
+particles involved.
+The lower range of the mass fit is 5200 MeV/c2
+. The removal of candidates with invariant
+mass below this value reduces the background from B0 → D∗0K∗0 decays to a small level,
+which is neglected in the baseline fit. Other contributions such as B± → Dh±π
++π
+−, where
+one particle is missing and another may be misidentified, are also reduced to a negligible
+level.
+With the large number of overlapping signal and background contributions it is not
+possible to let all yield parameters vary freely, especially as some background contributions
+10
+are expected to have small yields. Therefore, the strategy employed is to constrain the
+ratio of these background yields to the B0
+s → DK∗0
+contribution. The constraints are
+determined by taking into account all relevant branching fractions [15], fragmentation
+fractions [50] and selection efficiencies determined from simulation. This is possible for the
+contributions B0 → Dρ0 and B → DK where the branching fractions are measured. The
+ratio of B0 → Dρ0
+(B → DK) to B0
+s → DK∗0
+is constrained in the fit to Rρ = (2.9±0.8)%
+(RDK = (4.2 ± 1.0)%). In the case of the B0
+s → D∗0K∗0 background, neither its branching
+fraction nor the relative fraction of the D∗0 helicity states has been measured. Therefore,
+information is taken from the higher statistics B0
+s → D(→ Kπ)K∗0 decay, which has
+been studied by the LHCb collaboration [11]. In these Cabibbo-favoured decays the
+mass distribution is simpler since the B0 → DK∗0 and B0 → D∗0K∗0 decays are doubly
+Cabibbo-suppressed, hence allowing the shape parameters and yields for the B0
+s → DK∗0
+and B0
+s → D∗0K∗0 decays to be reliably determined. The expected ratio Rs between
+B0
+s → D∗0K∗0 and B0
+s → DK∗0
+can be determined using the information from the analysis
+of D → Kπ decays, with a correction for the selection efficiencies. The ratio between the
+total yield of the B0
+s → D∗0K∗0
+candidates with reconstructed mass above 5200 MeV/c2
+and B0
+s → DK∗0
+candidates is determined to be Rs = (35 ± 14)%. The fraction of
+B0
+s → D∗0K∗0
+candidates where λ = 0 is determined to be α = 0.72 ± 0.13. The yields of
+the B0
+s → DK∗0
+, B0 → DK∗0 and the combinatorial background are free parameters in
+the fit. Pseudoexperiments for this fit configuration show that only negligible biases are
+expected. The fitted yields and parameters of the fit are given in Table 2. The purity in the
+signal region, defined as ±25 MeV/c2 around the B0 mass measured in the fit, is 59% (44%)
+for the K0
+S π
++π
+− (K0
+SK+K−) candidates. The background is dominated by combinatorial
+and B0
+s → D∗0K∗0 decays. Contributions from the other backgrounds considered are
+small.
+The Dalitz plots for B0 → DK∗0
+candidates restricted to the signal region for the two
+D → K0
+S h
++h
+− final states are shown in Figs. 4 and 5. Separate plots are shown for B0
+and B0 decays.
+5 Event selection and yield determination for B0 →
+D∗−µ
++νµ decays
+A sample of B0 → D∗−µ
++νµ, D∗− → D0π
+−, D0 → K0
+S h
++h
+− decays is used to determine
+the quantities Fi
+, defined in Eq. (12), as the expected fractions of D0 decays falling
+into Dalitz plot bin i, taking into account the efficiency profile of the signal decay. The
+semileptonic decay of the B meson and the strong-interaction decay of the D∗± meson
+allow the flavour of the D0 meson to be determined from the charge of the muon and D∗±
+daughter pion. This particular decay chain, involving a flavour-tagged D0 decay, is chosen
+due to its high yield, low background level, and low mistag probability. The selection
+requirements are chosen to minimise changes to the efficiency profile with respect to that
+associated with the B0 → DK∗0
+channel and are the same as those listed in Ref. [8], with
+two exceptions. First, only events which pass the hardware trigger that selects muons
+11
+with a transverse momentum pT > 1.48 GeV/c are used. Those where the hardware trigger
+only satisfies the criterion of a high transverse energy deposit in the hadronic calorimeter
+are not considered. Second, the multivariate algorithm in the software trigger designed to
+select secondary vertices that are consistent with the decay of a b hadron is identical to
+the one used for B0 → DK∗0
+candidates; an algorithm that also required the presence of
+a muon track was previously used. The changes remove approximately 20% of the sample
+used in Ref. [8]; however, in simulated data they improve the agreement in the variation of
+the efficiency over the Dalitz plot between the B0 → DK∗0 and B0 → D∗−µ
++νµ decays.
+The D0
+invariant mass, m(K0
+S h
++h
+−), and the invariant mass difference ∆m ≡
+m(K0
+S h
++h
+−π
+±) − m(K0
+S h
++h
+−) are fitted simultaneously to determine the signal and background yields. No significant correlation between these two variables is observed within
+the ranges chosen for the fit. This two-dimensional parametrisation allows the yield of
+selected candidates to be measured in three categories: true D∗± candidates (signal),
+candidates containing a true D0 but a random soft pion (RSP) and candidates formed
+from random track combinations that fall within the fit range (combinatorial background).
+An example fit projection is shown in Fig. 6. The result of the two-dimensional extended
+unbinned maximum likelihood fit is superimposed. The fit is performed simultaneously
+for the two D0 final states and the two K0
+S
+categories, with some parameters allowed to
+vary between categories. Candidates selected from data recorded at √
+s = 7 and 8 TeV
+are fitted separately, due to their slightly different Dalitz plot efficiency profiles. The fit
+12
+range is 1830 < m(K0
+S h
++h
+−) < 1910 MeV/c2 and 139.5 < ∆m < 153.0 MeV/c2
+. The PDFs
+used to model the various components in the fit are unchanged from those used in Ref. [8],
+where further details can be found.
+A total signal yield of approximately 90 000 (12 000) D → K0
+S π
++π
+− (D → K0
+SK+K−)
+candidates is obtained. The sample is three orders of magnitude larger than the B0 → DK∗0
+yield. The signal mass range is defined as 1840–1890 MeV/c2
+(1850–1880 MeV/c2
+) in
+13
+m(K0
+S π
++π
+−) (m(K0
+SK+K−)) and 143.9–146.9 MeV/c2
+in ∆m. Within this range the
+background contamination is 3–6% depending on the category.
+The two-dimensional fit in m(K0
+S h
++h
+−) and ∆m of the B0 → D∗−µ
++νµ decay is
+repeated in each Dalitz plot bin with all of the PDF parameters fixed, resulting in a raw
+control mode yield, Ri
+, for each bin i. The measured Ri are not equivalent to the Fi
+fractions required to determine the CP parameters due to unavoidable differences from
+selection criteria in the efficiency profiles of the signal and control modes. Hence, a set of
+correction factors is determined from simulation. The efficiency profiles from simulation
+of D → K0
+S π
++π
+− decays are shown in Fig. 7. They show a variation of 50% between the
+highest and lowest efficiency regions, although the efficiency changes within a bin are not
+as large. The variation over the D → K0
+SK+K− Dalitz plot is smaller, at approximately
+35%.
+The raw yields of the control decay must be corrected to take into account the differences
+in efficiency profiles. For each Dalitz plot bin a correction factor is determined,
+where ηDK∗0 and ηD∗µ are the efficiency profiles of the B0 → DK∗0 and B0 → D∗−µ
++νµ
+decays, respectively, and are determined with simulation. The amplitude models used
+to determine the Dalitz plot intensity for the correction factor are those from Ref. [24]
+and Ref. [25] for the K0
+S π
++π
+− and K0
+SK+K− decays, respectively. The amplitude models
+used here only provide a description of the intensity distribution over the Dalitz plot and
+introduce no significant model dependence into the analysis. The correction factors are
+determined separately for data reconstructed with each K0
+S
+type, as the efficiency profile is
+different between the two K0
+S
+categories. This method of determining the Fi parameters is
+preferable to using solely the amplitude models and B0 → DK∗0
+simulated events, since
+14
+the method is data-driven and the efficiency correction causes deficiencies in the simulation
+and the model to cancel at first order. The correction factors are within 10% of unity.
+The Fi values can be determined via the relation Fi = h
+0
+ξiRi
+, where h
+0
+is a normalisation
+factor such that the sum of all Fi
+is unity. The Fi parameters are determined for each year
+of data taking and K0
+S
+category separately and are then combined in the fraction observed
+in the B0 → DK∗0
+signal region in data. The total uncertainty on Fi
+is 5% or less in all
+of the bins, and is a combination of the uncertainty on Ri due to the size of the control
+channel, and the uncertainty on ξi due to the limited size of the simulated samples. The
+two contributions are similar in size.
+15
+6 Dalitz plot fit to determine the CP -violating parameters x± and y±
+The Dalitz plot fit is used to measure the CP-violating parameters x± and y±, as introduced
+in Sect. 2. Following Eqs. (10) and (11), these parameters can be determined from the
+populations of the B0 and B0 Dalitz plot bins, given the external information of the ci
+and si parameters from CLEO-c data, the values of Fi
+from the semileptonic control decay
+modes and the measured value of κ.
+Although the absolute numbers of B0 and B0 decays integrated over the D Dalitz plot
+have some dependence on x± and y±, the sensitivity gained compared to using just the
+relations in Eqs. (10) and (11) is negligible [51]. Consequently, as stated previously, the
+integrated yields are not used and the analysis is insensitive to B meson production and
+detection asymmetries.
+The B0 → DK∗0 data are split into four categories, one for each D decay and then
+by the charge of the K∗0 daughter kaon. As in the case of the fit to the invariant mass,
+data from the two K0
+S
+categories are merged. Each category is then divided into the
+Dalitz plot bins shown in Fig. 2, where there are 16 bins for D → K0
+S π
++π
+− and 4 bins
+for D → K0
+SK+K−. Since the Dalitz plots for B0 and B0 data are analysed separately,
+this gives a total of 40 bins. The PDF parameters for the signal and background invariant
+mass distributions are fixed to the values determined in the invariant mass fit described in
+Sect. 4.
+The yield of the combinatorial background in each bin is a free parameter, apart from
+the yields in bins in which an auxiliary fit determines it to be negligible. It is necessary to
+set these to zero to facilitate the calculation of the covariance matrix. The total yield of
+B0
+s → DK∗0 decays integrated over the Dalitz plot for each category is a free parameter.
+The value of rB(B0
+s → DK∗0
+) is expected to be an order of magnitude smaller than rB0
+due to suppression from CKM factors. Hence, the fractions in each Dalitz plot bin are
+assigned assuming that CP violation in these decays are negligible, which is also consistent
+with observations in Ref. [14]. Therefore, the decay of the B0
+s
+(B0
+s
+) meson contains a D0
+(D0
+) meson. It is verified in simulation that the reconstruction efficiency over the D Dalitz
+plot does not depend on the parent B decay and hence the yield of B0
+s → DK∗0 decays in
+bin i is given by the relevant total yield multiplied by F−i
+.
+The total yields of the B0
+s → D∗0K∗0
+, B0 → Dρ0 and B → DK backgrounds in each
+category are determined by multiplying the total yield of B0
+s → DK∗0
+in that category
+by the values of Rs, Rρ and RDK, respectively, that are listed in Table 2. The following
+assumptions are made about the Dalitz plot distributions of these backgrounds. The CP
+violation in B0
+s → D∗0K∗0 decays is expected to be negligible as the underlying CKM
+factors are the same as that for B0
+s → DK∗0 decays. Hence, the B0
+s → D∗0K∗0 decays are
+distributed over the D → K0
+S h
++h
+− Dalitz plot in the same way as B0
+s → DK∗0 decays.
+The D meson from B0 → Dρ0 decays is assumed to be an equal admixture of D0 and D0
+and hence the yield is distributed according to (F+i + F−i), because the pion misidentified
+as a kaon is equally likely to be of either charge. In the case of the B → DK decay, CP
+violation is expected and the yield is distributed according to Eqs. (10) and (11), where
+16
+the values of the CP violating parameters are those determined in Ref. [8].
+The B0 → DK∗0 yield in each bin is determined using the total yield of B0 → DK∗0
+in each category, which is a free parameter, and Eqs. (10) and (11). The parameters
+of interest, x± and y±, are allowed to vary. The values of ci and si are constrained to
+their measured values from CLEO [23], assuming Gaussian errors and taking into account
+statistical and systematic correlations. The values of Fi are fixed. The value of κ is also
+fixed in the fit to the central value measured in Ref. [14].
+An ensemble of 10 000 pseudoexperiments is generated to validate the fit procedure. In
+each pseudoexperiment the numbers and distributions of signal and background candidates
+are generated according to the expected distribution in data, taking care to smear the
+input values of ci and si
+. The full fit procedure is then performed. A variety of x± and
+y± values consistent with previous measurements is used [50]. Small biases in the central
+values, with magnitudes around 10% of the statistical uncertainty, are observed in the
+pseudoexperiments. These biases are due to the low event yields in some of the bins and
+they reduce in simulated experiments with higher yields. The central values are corrected
+for the biases.
+The results of the fit are x+ = 0.05 ± 0.35, x− = −0.31 ± 0.20, y+ = −0.81 ± 0.28, and
+y− = 0.31 ± 0.21. The statistical uncertainties are compatible with those predicted by
+the pseudoexperiments. The measured values of (x±, y±) from the fit to data, with their
+likelihood contours, corresponding to statistical uncertainties only, are displayed in Fig. 8.
+The expected signature for a sample that exhibits CP violation is that the two vectors
+defined by the coordinates (x−, y−) and (x+, y+) should both be non-zero in magnitude
+and have a non-zero opening angle. This opening angle is equal to 2γ. No evidence for
+CP violation is observed.
+To investigate whether the binned fit gives an adequate description of the distribution
+of events over the Dalitz plot, the signal yield in each bin is fitted directly as a cross-check.
+A comparison of these yields and those predicted by the fitted values of x± and y± shows
+good agreement.
+7 Systematic uncertainties
+Systematic uncertainties are evaluated on the measurements of the Cartesian parameters
+and are presented in Table 3. The source of each systematic uncertainty is described
+in turn below. Unless otherwise described, the systematic uncertainties are determined
+from an ensemble of pseudoexperiments where the simulated data are generated in an
+alternative configuration, and fitted with the default method described in Sect. 6. The
+mean shift in the fitted values of x± and y± in comparison to their input values is taken
+as the systematic uncertainty. Uncertainties arising from the CLEO measurements are
+included within the statistical uncertainties since the values of ci and si are constrained in
+the Dalitz plot fit. Their contribution to the statistical uncertainty is approximately 0.02
+for x± and 0.05 for y±.
+A systematic uncertainty arises from imperfect modelling in the simulation used to
+17
+derive the efficiency correction in the determination of the Fi parameters. To determine
+this systematic uncertainty, a conservative approach is used, where an alternative set
+of Fi values is determined using only the amplitude models and simulated B0 → DK∗0
+decays. These alternative Fi are used in the generation of pseudoexperiments to determine
+the systematic uncertainty. A further uncertainty on the Fi parameters arises from the
+fractions in which the individual Fi parameters from the differing categories (year of data
+taking and K0
+S
+type) are combined. A second alternate set of Fi are obtained by combining
+the values of Fi
+for each category using the fractions of data observed in the B0
+s mass
+window. The fractions in the B0 window are statistically consistent with those observed
+in the B0
+s mass window. The associated uncertainty is determined through the use of
+pseudoexperiments which are generated with the alternate set of Fi values.
+Several systematic uncertainties are associated with the parametrisation of the invariant
+mass distribution. These arise from uncertainties in the shape of the B0
+s → D∗0K∗0 background, the size of the B0 → Dρ0 background, CP violation in the B → DK background,
+the PDF shape used to describe the signal peak and the inclusion of backgrounds that are
+neglected in the nominal fit, because of their small yield.
+The uncertainty in the shape of the B0
+s → D∗0K∗0 background arises from the relative
+contribution of the different D∗0 decay and helicity state components, each of which
+have a different DKπ invariant mass distribution. A different parametrisation of the
+18
+data with the lower mass limit extending down to 4900 MeV/c2
+results in a measurement
+α = 0.9 ± 0.1, in comparison to the value of 0.74 ± 0.13 obtained in the fit described
+in Sect. 4. Accounting for the difference in mass range, the uncertainty is estimated by
+generating pseudoexperiments with α = 0.91, and is found to be 2×10−3 or less in each of
+the CP parameters.
+A separate systematic uncertainty is evaluated for the relative fraction of D∗0 → D0π
+0
+and D∗0 → D0γ decays in the B0
+s → D∗0K∗0
+contribution. The uncertainties in the
+relative fractions are due to uncertainties in the branching fractions of the D∗0 decays
+and in the selection efficiencies determined in simulation. In this case the systematic
+uncertainty is small and is determined by fitting the data repeatedly with the fractions
+smeared around the central values.
+The estimation of the B0 → Dρ0 yield ignores the B0 → Dπ+π
+− S-wave contributions,
+which will contribute if the misidentified π
++π
+− invariant mass falls within the K∗0 mass
+window. The amplitude analysis of B0 → Dπ+π
+− decays in Ref. [52] is used to determine
+that the potential size of the S-wave contribution could increase the apparent B0 → Dρ0
+yield by approximately 50%. Assuming that the additional S-wave contribution will
+have the same DKπ invariant mass distribution, the systematic uncertainty on the CP
+parameters is estimated by generating pseudoexperiments with the B0 → Dρ0
+contribution
+increased by 50%. The resulting uncertainties on x±, y± are lower than 4×10−3
+.
+In the default fit the CP parameters of the B → DK background are fixed to the
+central values measured in Ref. [8]. The fits to the data are repeated with multiple
+values of the CP parameters of the B → DK decay, smeared according to the measured
+19
+uncertainties and correlations, and the shifts in x±, y± are found to be less than 0.001.
+An alternative PDF to describe the B0 and B0
+s
+signals is considered by taking the sum
+of three Gaussian functions. The mean and width of the primary Gaussian is determined
+by performing a mass fit to data with the relative means and widths of the two secondary
+Gaussians taken from simulation. The systematic uncertainty is small and is estimated by
+generating pseudoexperiments with this alternative PDF.
+In the default mass fit the contributions of B0 → D∗0K∗0
+, B± → D∗0π
+±, B± → D∗0K±
+and B± → Dπ±π
++π
+− decays are ignored as they are estimated to contribute approximately
+2−3 events each. A systematic uncertainty from neglecting each of these decays is evaluated.
+The B0 → D∗0K∗0 decays can be described with the same PDFs as the B0
+s → D∗0K∗0
+decays but shifted by the B0
+s − B0 mass difference. The B mass fit described in Sect. 4
+is performed with this background included, where the yield of B0 → D∗0K∗0 decays is
+constrained relative to that of the B0
+s → DK∗0
+in a similar manner to the B0
+s → D∗0K∗0
+decays. Although the addition of this background only has a small impact on the mass fit
+parameters, its CP parameters are unknown. Hence, pseudoexperiments are generated
+with the B0 → D∗0K∗0 background in three different CP violating hypotheses and are
+fitted with the default configuration. The uncertainty is found to be less than 0.01 for all
+choices of the CP parameters. Further pseudoexperiments are generated with B± → D∗0h
+±
+and B± → Dπ±π
++π
+− decays, where their PDF shapes and yields are determined from
+simulation. Fitting the pseudoexperiments with the nominal fit demonstrates that the
+uncertainty due to ignoring these decays is 7×10−3 or less for all CP parameters.
+The systematic uncertainty from the effect of candidates being assigned the wrong
+Dalitz plot bin number is considered. This can occur if reconstruction effects cause shifts
+in the measured values of m2
++ and m2
+− away from their true values. For both B0 → DK∗0
+and B0 → D∗−µ
++νµ decays the resolution in m2
++ and m2
+− is approximately 0.005 GeV2/c4
+(0.006 GeV2/c4
+) for candidates with long (downstream) K0
+S decays. This is small compared
+to the typical width of a bin, but net migration can occur if the candidate lies close to the
+edge of a Dalitz plot bin. To first order, this effect is accounted for by use of the control
+channel, but residual effects enter due to the non-zero value of rB0 in the signal decay,
+causing a different distribution in the Dalitz plot. The uncertainty due to these residual
+effects is determined via pseudoexperiments, in which different input Fi values are used
+to reflect the residual migration. The size of this possible bias is found to vary between
+3×10−3 and 7×10−3
+.
+The value of κ has an associated uncertainty, and so pseudoexperiments are generated
+assuming the value κ = 0.912, which corresponds to the central value of κ lowered by one
+standard deviation. The mean shifts in x±, y± are of order 0.01. As described in Sect. 6,
+the central values of the fit parameters x± and y± are corrected by a fitter bias that is
+determined with pseudoexperiments. The systematic uncertainty is assigned using half
+the size of the correction.
+The total experimental systematic uncertainty is determined by adding all sources in
+quadrature and is 0.02 on x+, 0.04 on x−, 0.06 on y+, and 0.05 on y−. These uncertainties
+are dominated by the efficiency corrections in Fi and the fitter bias. The systematic
+uncertainties are less than 20% of the corresponding statistical uncertainties.
+20
+8 Results and interpretation
+The results for x± and y± are
+x+ = 0.05 ± 0.35 ± 0.02,
+x− = −0.31 ± 0.20 ± 0.04,
+y+ = −0.81 ± 0.28 ± 0.06,
+y− = 0.31 ± 0.21 ± 0.05,
+where the first uncertainties are statistical and the second are systematic. After accounting for all sources of uncertainty, the correlation matrix between the measured x±, y±
+parameters for the full data set is obtained, and is given in Table 4. Correlations for the
+statistical uncertainties are determined by the fit. The systematic uncertainties are only
+weakly correlated and the correlations are ignored.
+The results for x± and y± can be interpreted in terms of the underlying physics
+parameters γ, rB0 and δB0 . This interpretation is performed using a Neyman construction
+with Feldman-Cousins ordering [53], using the same procedure as described in Ref. [27],
+yielding confidence levels for the three physics parameters.
+In Fig. 9, the projections of the three-dimensional surfaces containing the one and two
+standard deviation volumes (i.e., ∆χ
+2 = 1 and 4) onto the (γ, rB0 ) and (γ, δB0 ) planes
+are shown; the statistical and systematic uncertainties on x± and y± are combined in
+quadrature. The solution for the physics parameters has a two-fold ambiguity, with a
+second solution corresponding to (γ, δB0 ) → (γ + 180◦
+, δB0 + 180◦
+). For the solution that
+satisfies 0 < γ < 180◦
+, the following results are obtained:
+rB0 = 0.56 ± 0.17,
+δB0 = (204 +21
+−20)
+◦
+,
+γ = (71 ± 20)◦
+.
+The central value for γ is consistent with the world average from previous measurements [5,
+6]. The value for rB0 , while consistent with current knowledge, has a central value that is
+larger than expected [16, 17, 24, 26]. The results are also consistent with, but cannot be
+combined with, the model-dependent analysis of the same dataset performed by LHCb [22].
+A key advantage of having direct measurements of x± and y± is that there is only a
+two-fold ambiguity in the value of γ from the trigonometric expressions. This means that
+when combined with the results of other CP violation studies in B0 → DK∗0 decays such
+as those in Ref. [11], these measurements will provide strong constraints on the hadronic
+parameters, and will provide improved sensitivity to γ when combined with all other
+measurements.

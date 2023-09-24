@@ -1,0 +1,274 @@
+International Journal of Modern Physics A
+Vol. 28 (2013) 1330016 (6 pages)
+c World Scientific Publishing Company
+DOI: 10.1142/S0217751X13300160
+THE STORY OF QUARKS∗
+Int. J. Mod. Phys. A Downloaded from www.worldscientific.com
+by GEORGE WASHINGTON UNIVERSITY on 05/14/13. For personal use only.
+MURRAY GELL-MANN
+Santa Fe Institute, Santa Fe, New Mexico 87501, USA
+California Institute of Technology, Pasadena, California 91125, USA
+Published 14 May 2013
+This public lecture was presented at the National University of Singapore on the 5th
+of March, 2013. It was organized by the Institute of Advanced Studies as part of the
+Distinguished Public Lecture series.
+Keyword: Quarks.
+It’s a pleasure to be here discussing quarks with a distinguished audience from our
+leading Singaporean researchers. I’ve traveled here several times and I’ve enjoyed
+every visit.
+The quarks are a very important discovery, as Professor Phua mentioned. But
+I will not actually adhere to the scheme of describing the story. Instead of con-
+centrating on the story, I propose to concentrate on the facts. I’ll try to present a
+picture of how we look at the quarks today and a little bit of what we know about
+them.
+In elementary science classes, you learn that a great deal of matter is in the
+form of atoms, with a central nucleus, and electrons going round. The nucleus is
+composed of protons with electric charge +1 in suitable units and neutrons with
+electric charge 0. For a long time, it was thought that protons and neutrons would
+be like electrons — elementary, and not composed of anything simpler, but we know
+now that that’s not true. In fact, the neutron and proton are made up of quarks.
+It’s an obvious name for the fundamental constituents of strongly interacting
+matter. Let’s listen to that sound, quark, just the right sound. And as to the spelling,
+we got that from James Joyce’s Finnegans Wake “Three quarks for Muster Mark!”
+The idea of the proton and neutron being not elementary, as we so long thought,
+took awhile to catch on, but now I think it’s generally recognized that it’s correct.
+It’s actually not hard to see, when you look at not just the neutron and proton
+states, but at the higher energy states of these corresponding particles which are
+∗ Invited talk in Singapore, 5 March 2013. Edited by Harald Fritzsch (Munich).
+1330016-1Int. J. Mod. Phys. A Downloaded from www.worldscientific.com
+by GEORGE WASHINGTON UNIVERSITY on 05/14/13. For personal use only.
+M. Gell-Mann
+known as baryons. So you have not only the neutrons and protons but a little bit
+heavier you have the Λ particle and a little heavier than that you have the three Σ
+particles and so on and so forth.
+The states that lie relatively low in energy or mass, you remember the formula
+E = mc2 , so we can talk about rest mass (m) or rest energy be the same, except for
+the factor of c2 . The easily accessible baryons are described in terms of three flavors
+of quarks — the three flavors that are light and have relatively small masses. And
+then there are also three heavier flavors of quarks, which you can’t get at without a
+very high energy accelerator. I’ll talk mainly about the light quarks, the ones that
+we run into more often in most theory and experiments.
+The three light quarks are called s, d and u — singlet, up and down. The d and
+u are very light indeed and have very very low mass, and the s quark is somewhat
+heavier. More recently discovered, and as I said, more difficult to access, are the
+heavy quarks. Three more “flavors,” called b, t and c, or bottom, top and charm.
+When we look at the whole set of six “flavors,” three of them with charge −1/3
+in conventional units where the proton charge is 1, and t, c and u with electric
+charge +2/3 in units of the proton charge, we have the six “flavors” altogether, the
+three heavy ones and the three light ones. They may be compared to the six flavors
+of lepton, including the electron, the muon — which is a heavy electron, and the
+tauon — which is the still heavier electron. For each electron, there is a neutrino.
+We know now that those neutrinos are distinct from one another. So there is the
+three charged leptons, e, µ and τ , and three corresponding neutrinos with 0 charge.
+So we have these interesting patterns of six states in each case. Six for the
+leptons, six for the quarks. Why is that? A very good question for which we don’t
+know the answer. While we know more about this fascinating and fundamental
+subject, we hope to understand better why the patterns resemble each other.
+Here I repeat that the six flavor pattern is not really understood today, but we
+hope to understand it sometime in the future. And we don’t understand why the
+flavor pattern is approximately the same for leptons and for quarks, but it’s very
+symmetrical.
+Here we see the diagram of the neutron and the proton (Fig. 1) and the set of
+the excited states — the Lambda, the three Sigmas, and the two Xi particles. It
+is fairly straightforward that these can be thought of as made up of three quarks.
+The u and d quarks make up the neutron and proton. When we go over to the Λ
+particle, one of the quarks changes to an s. Same for the Σ, when we go to the Ξ,
+two quarks become an s quark.
+That is perfectly reasonable. We see why these states are heavier than these,
+and these are heavier than these, because they contain s quarks, which are heavier
+than the u and the d. Then theory tells us that there is a sum rule for the masses.
+N
+The approximate sum rule, MΞ +M
+= 3MΛ4+MΣ , N : neutron or proton. And it
+2
+works — theoretical formula compared with observation — it works very well.
+Then there’s another set of states, a different pattern, starts out with the ∆
+particles which have the charges — 1, 0, +1 and +2. They are made up of d and u
+1330016-2The Story of Quarks
+Spin ½ baryons made of three light quarks and glue
+ȩିȩ଴dssussȭିȭ଴ȭା
+ddsuds + dusuus
+Xi
+Ȧ଴
+Sigma
+Lambda
+Int. J. Mod. Phys. A Downloaded from www.worldscientific.com
+by GEORGE WASHINGTON UNIVERSITY on 05/14/13. For personal use only.
+uds – dus
+Mass
+଴ା
+udduud
+(neutron)(proton)
+Nucleon
+M Ξ + M N 3M Λ + M Σ
+=
+2
+4
+Predicted by theory & verified
+–1
+0
++1
+Electric Charge
+Fig. 1.
+quarks ranging from ddd for ∆− , all the way to uuu for ∆++ . If we substitute one
+s quark, we get the Σ. If we substitute two s quarks, we get the Ξ. If we substitute
+three s quarks, so that we have just three s quarks altogether, then we get the Ω− .
+The Ω− has some spectacular properties experimentally. It decays in a sequence,
+in a cascade sequence it decays: Ω → Ξ, Ξ → Λ, Λ → proton.
+The way it was proposed was the following: there was a meeting in 1958, an
+international meeting on particle physics at CERN near Geneva, Switzerland. I
+attended that meeting and I heard presentations about excited states of the baryon,
+including one that fitted this pattern: Σ− , Σ−0 , Σ−+ . I said to myself “Gosh! If one
+of this set of particles is like this, then the masses are equally spaced. This minus
+this, is the same as this minus this, is the same as this minus this.” And that’s what
+the speaker was saying — he was saying they just discovered an excited state with
+a suitable mass for this. That meant that had to be the final one, the Ω− with the
+spectacular properties had to exist, and we could predict its mass quite accurately.
+So I got up and told the international meeting about that, and two young
+experimentalists at the Brookhaven National Laboratory in New York State, Long
+Island, came up to me and asked me to write a recommendation that they be funded
+for searching for this particle, the Ω− . I seized a napkin at the CERN cafeteria
+and scrawled on the napkin a request for funds for these two experimentalists, and
+handed it to the director of Brookhaven, who happened to be there also. He granted
+the request, they started their procedure. It took them two years and scanning 2
+million feet of film to find an event that corresponded to a decay, a cascade decay
+of the Ω− .
+1330016-3Int. J. Mod. Phys. A Downloaded from www.worldscientific.com
+by GEORGE WASHINGTON UNIVERSITY on 05/14/13. For personal use only.
+M. Gell-Mann
+Not only did they find one — they found two — the same day after waiting for
+two years, representing two different decay modes of the Ω− .
+The masses came out in accordance to that sum rule formula. Everything seemed
+perfect. Still, we were not describing these states in terms of quarks, it would have
+been so simple. We had the mathematics right, but the very simple way of stating
+the mathematics would be that these things were made of three quarks. It was not,
+at that time, the way we talked about it.
+It took a few years, then came this date which was very important for me —
+February 1, 1964. That’s the day that the discovery of the Ω− was made. It was
+also the day when my letter to the journal Physics Letters B about the quarks
+was printed. We can think of that as a time of transition — before quarks to after
+quarks.
+Here’s how these particles look in terms of quarks. Four states, with charges
+ranging from −1 to +2 — ddd, ddu, duu and uuu — then there’s a strangeness
+−1 standard particles, with one s quark, then there are these with two s quarks,
+and finally the Ω− , which was composed of three s quarks. Looking at it in terms
+of quarks makes these things very very simple, very easy to understand. It is also
+very reasonable that the mass differences should also be the same, equally spaced
+states in energy or mass.
+Now we have to mention another property of the quark which was not under-
+stood for a number of years. That is, that the quarks carry besides the flavor label,
+another label which is called “color.” It has nothing to do with regular color — it’s
+just part of a joke — nevertheless, we use that name “color.” Primary colors for
+mixing lights can be thought of as red and blue and green. So we can think of these
+quarks as being red or blue or green. It is designated by RBG. It’s just a three-
+value variable RBG. Colors is just a nickname. It’s very important that the quarks
+bear this additional label. So the number of states is no longer two for particle and
+antiparticle: six plus six through six flavors, giving 24. Instead, we now have two
+for particle and antiparticle, three, for the three colors times the six flavors, plus
+one, for the leptons, and their six flavors. So we get 48 states instead of 24, when
+we include the color.
+Now this color variable turns out to be very very important. It’s not just a label,
+it’s the analogue for the strong interaction of electric charge for the electromagnetic
+interaction. The whole basis of the dynamics of quarks has to do with color. The
+color variable acts like the charge. But this is a more complicated kind of charge.
+Also, just as the electromagnetic interaction is mediated by photons with quantum
+electromagnetism. So, here the strong force that binds the quarks together acts on
+color, and is mediated by gluons, which are the quanta of the strong color force,
+just the way photons are the quanta of electromagnetism.
+We see that analogy now. We have gluons instead of photons. We have strong
+interactions that include electromagnetism, and the gluons are the quanta of the
+strong color force. That made it possible to write down a theory — a serious,
+quantitative, exact proposal for a theory which we call quantum chromodynamics.
+1330016-4Int. J. Mod. Phys. A Downloaded from www.worldscientific.com
+by GEORGE WASHINGTON UNIVERSITY on 05/14/13. For personal use only.
+The Story of Quarks
+Again, making use of that joke about colors. “Chromo,” of course, comes from
+the Greek word “color.” So, QCD is the field theory of quarks and gluons, and
+it accounts very well for the strong interactions and for the strongly interactive
+particles — generally accepted as the correct theory of quarks and gluons.
+Here, I digress to describe some work that must take place in the future. We look
+forward to a unified theory of quantum electrodynamics, the theory of the weak
+force, and the theory of the strong force quantum chromodynamics, all unified
+together in a single coherent theory. We don’t quite have that, but we have some
+hints as to how to get it, and my colleague Harald Fritzsch among other people has
+worked on this idea. When that’s achieved, there will be corrections to quantum
+chromodynamics coming from the rest of this unified theory.
+Beyond that, there is a still further unified theory that we all hope to see some
+day, which incorporates not only the strong and weak and electromagnetic inter-
+actions, but also, general relativistic Einsteinian gravitational altogether the same
+unified theory. That’s a sort of holy grail for particle physicists. Everybody would
+like to discover and understand that hypothetical theory that would unify all the
+forces in a single description. We don’t have it, but we look forward to having it
+someday.
+When it comes, it will contain, of course, corrections to QCD. So QCD is not in
+that sense a perfectly final theory, there will have to be some final corrections to it
+from the unification. Even the minor unification including strong electromagnetic
+and weak interactions — even that will produce changes in QCD. But for the
+moment, the level of accuracy in which we work today, QCD is the complete theory
+of the strong interaction.
+Now I’m sometimes asked on occasions like this: “How did you come up with
+this idea of quarks? Was that very difficult?” My answer is: “It was not difficult at
+all! It was almost obvious that the neutron and proton in their excited states were
+made of quarks.” You start to look at the patterns and it’s indicated very clearly
+by the patterns. So that was not the difficult step. What was tricky was to get rid
+of three false principles which inhibited our understanding. These are three slogans,
+not all of them false, that made it difficult to utilize the quark idea.
+The first one is that the neutron and proton are elementary and they are not
+composed of simpler things. Everybody knew that, and there was only one problem
+with it: it was false. The neutron and proton are made up of simpler objects, namely
+the quarks.
+The second wrong principle was that the elementary particles cannot be trapped
+inside things like the neutron and proton, never to emerge singly, to be handled
+singly. Not to emerge as to be handled in quarkonics industry. There is no quarkonics
+industry. Well, it’s true, unfortunately, that proposition is false, also. The quarks
+are confined inside color-neutral objects like the neutron and proton, not to emerge
+so as to be used in industry.
+The third wrong principle is that elementary particles have to have integral
+electric charges in units of the proton charge: +1, 0, −1, +2 are alright, but
+1330016-5Int. J. Mod. Phys. A Downloaded from www.worldscientific.com
+by GEORGE WASHINGTON UNIVERSITY on 05/14/13. For personal use only.
+M. Gell-Mann
++2/3 and −1/3 are not alright. It’s another interesting principle, and again,
+false.
+In fact, the quarks have fractional electric charges: +2/3 and −1/3, and the
+antiquarks −2/3 and +1/3. It’s not unheard of for theory to run into this kind of
+thing. It happens from time to time.
+Here again I mention that there is no quarkonics industry. If the colorful parti-
+cles were not confined, there probably would be a quarkonics industry. They could
+probably mediate thermonuclear reaction to give thermonuclear control and ther-
+monuclear energy, it would be very useful. In fact, they don’t because they are
+confined.
+So, here I mention another case of a false principle that impeded progress. Back
+in the 1940s and 1950s, and earlier, American students of geology were taught by
+their geology professors that continental drift was wrong and impossible. Many
+schoolchildren have looked at the maps of the continents and see that they fit
+together, like a jigsaw puzzle. These bright children asked their teachers: “Isn’t that
+important? Were those continents together at one time?” The teacher, if properly
+trained in American geology, said: “No, no, no. That’s a silly idea, forget it.” But
+of course, it was not a silly idea. The continents were together 200 million years
+ago when they began to split up into pieces. But the students kept being taught
+for a long time that continental drift was wrong. Finally, in the early 1960s, the
+evidence for the continental drift became so strong, and the appeal of the new
+theory of continental drift — called plate tectonics — canceled out all those years
+of instruction in the wrong principle.
+Finally, geology teachers taught that continental drift was okay, provided it
+fitted in with plate tectonics. Except, I am told, in Harvard, where they held out
+for another 10 years.
+In my opinion, when faced with these arbitrary prohibitions of thinking, one
+should cultivate the habit of asking “Why not? Why not confine quarks? Why not
+continental drift? Are you really sure that thinking along these lines is bad?” and
+so on and so forth. I mention here another case of Dr. Semmelweis, in Budapest
+in the 19th century, who tried to prevent the spread of puerperal fever, which
+afflicted mothers and babies. Brand new babies and mothers were dying in enormous
+numbers in hospitals, and Semmelweis suggested that if the health workers, doctors
+and midwives wash their hands thoroughly, there wouldn’t be a problem. Well, they
+considered this false and insulting, and nothing was done about it for a number of
+years. Many mothers and babies died during those years unnecessarily.
+Finally, Dr. Lister came along in England and washed everything in carbolic
+acid, and became Lord Lister, and puerperal fever was wiped out. But it took a
+while.
+So we have to be very careful when faced with these negative proclamations to
+say “why not?”, and make sure that there really is a case against the condemned
+idea.
+In case there’s time, I hope you won’t be afraid to ask questions. Thank you.
+1330016-6

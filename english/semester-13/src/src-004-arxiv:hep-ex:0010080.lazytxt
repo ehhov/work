@@ -1,0 +1,222 @@
+                                       3
+                  Studies in the last decade have revealed a rich spectroscopy of charmed baryon states.
+               Baryons consisting of a charmed quark and two light (up or down) quarks are denoted the
+               Λ and Σ baryons, depending on the symmetry properties of the wave function. All three
+                c       c
+                                     P   1+                                         P  3+   7
+               of the ground state J =      Σ and all three of the ground state J =        Σ particles have
+                                         2    c                                        2    c
+               been identiﬁed. Knowledge of orbitally excited states in the sequence is presently limited
+               to the observation of two states decaying into Λ+π+π2 [1]. These have been identiﬁed as
+                                                                 c
+               the JP=12, 32 Λ+ particles, where the numerical subscript denotes one unit of light quark
+                        2   2    c1
+               angular momentum. There must be many more excited states still to be found. Here we
+               detail the results of a search for such states that decay into a Λ+ baryon with the emission
+                                                                                c
+               of two oppositely charged pions.
+                  The data presented here were taken using the CLEO II and CLEO II.V detector conﬁg-
+               urations operating at the Cornell Electron Storage Ring. The sample used in this analysis
+                                                                 21
+               corresponds to an integrated luminosity of 13.7 fb   from data taken on the Υ(4S) resonance
+                                                                                               21
+               and in the continuum at energies just below the Υ(4S). Of this data, 4.7 fb        was taken
+               with the CLEO II detector [2], in which we detected charged tracks using a cylindrical drift
+               chamber system inside a solenoidal magnet and photons using an electromagnetic calorime-
+               ter consisting of 7800 CsI crystals. The remainder of the data was taken with the CLEO
+               II.V conﬁguration [3], which has upgraded charged particle measurement capabilities, but
+               the same CsI array to observe photons.
+                  In order to obtain large statistics we reconstructed the Λ+ baryons using 15 diﬀerent
+                                                                               c
+               decay modes. 1 Measurements of the branching fractions into these modes have previously
+               been presented by the CLEO collaboration [4], and the general procedures for ﬁnding those
+               decay modes can be found in these references. For this search and data set, the exact
+               analysis used has been optimized for high eﬃciency and low background. Brieﬂy, particle
+               identiﬁcation of p,K, and π candidates was performed using speciﬁc ionization measurements
+               in the drift chamber and, when available, time-of-ﬂight measurements. Hyperons were found
+               by detecting their decay points separated from the main event vertex.
+                  Wereducethecombinatorialbackground, which ishighest forcharmed baryon candidates
+               with low momentum, by applying a cut on the scaled momentum x = p/p            . Here p is the
+                                                                                   p      max
+                                                                      q 2        2
+               momentum of the charmed baryon candidate, p         = E −M ,E isthebeamenergy,
+                                                               max        bm         bm
+               and M is the invariant mass of the candidate. Note that charmed baryons produced from
+               decays of B mesons are kinematically limited to x < 0.4. Requiring x > 0.5, we ﬁt the
+                                                                   p                     p
+               invariant mass distributions for these modes to a sum of a Gaussian signal and a low-order
+               polynomial background. Combinations within 1.6σ of the mass of the Λ+ in each decay
+                                                                                           c
+               modeare taken as Λ+ candidates, where the resolution, σ, of each decay mode is taken from
+                                    c
+               a GEANT-based [5] Monte Carlo simulation for the two detector conﬁgurations separately.
+               In this x region, we ﬁnd a total yield of Λ+ signal combinations of ≈ 58,000, and a signal
+                        p                                  c
+               to background ratio ≈5:6. This is the same sample of Λ+ baryons that has been used in our
+                                                                       c
+                                 7+
+               discovery of the Σ   [6]. This x restriction was released before continuing with the analysis
+                                 c             p
+               as we prefer to apply such a criterion only on the parent Λ+π+π2 combinations.
+                                                                           c
+                  The Λ+ candidates were then combined with two oppositely charged π candidates in the
+                         c
+                1Charge conjugate modes are implicit throughout.
+                                                             4
+              event. To obtain the best resolution, the trajectories of the π candidates were constrained to
+              pass through the main event vertex. The large combinatoric backgrounds and the hardness
+              of the momentum spectrum of the known excited charmed baryons led us to place a cut
+              of x > 0.7 on the combination. Figure 1 shows the mass diﬀerence spectrum, ∆M          =
+                  p                                                                               ππ
+              M(Λ+π+π2)−M(Λ+), for the region above the well-known Λ           resonances. Also shown
+                   c              c                                          c1
+              in Figure 1 are combinations formed using appropriately scaled sidebands of the Λ+ signal.
+                                                                                               c
+              An attempt to ﬁt the upper plot in Figure 1 to only a second order polynomial shape
+                                       2
+              yields an unacceptable χ of 184 for 77 degrees of freedom. However, if it is ﬁt to the
+                                                                                          2
+              sum of a second order polynomial and two Gaussian signals, the resultant χ is 59 for 71
+              degrees of freedom. Of these two signals, the lower one has a yield of 997+141, ∆M =
+                                                                                          2129     ππ
+              480.1 ± 2.4 MeV, and a width of σ = 20.9 ± 2.6 MeV. The upper signal has a yield of
+              350+57, ∆M     = 595.8 ± 0.8 MeV and σ = 4.2 ± 0.7 MeV. All of these uncertainties
+                 255      ππ
+              are statistical, coming from the ﬁt. The mass resolutions in these regions are ≈ 2.0 and
+              ≈2.8 MeV, respectively, based on our Monte Carlo simulation. The lower peak clearly has
+              a width greater than the experimental resolution. If we ﬁt it to a Breit-Wigner function, we
+              obtain a width, Γ, of ≈ 50 MeV, but it can equally well be ﬁt to a sum of more than one wide
+              peak. If we ﬁt the upper peak to a Breit-Wigner convolved with a double Gaussian detector
+              resolution function, we obtain a width of Γ = 4 ± 2 ± 2 MeV where the uncertainties are
+              statistical and systematic, respectively. The dominant systematic uncertainty comes from
+              uncertainties in the detector resolution function. This experimental width is not signiﬁcantly
+              diﬀerent from zero; we place an upper limit of Γ < 8 MeV at 90% conﬁdence level. We
+              estimate the systematic uncertainty on the mass diﬀerence measurement of the upper state to
+              be ±2 MeV, due principally to uncertainties in the momenta measurements and diﬀerences
+              in the mass obtained using diﬀerent ﬁtting procedures.
+                 To help identify these new states, we investigate whether the decays proceed via inter-
+                                   7
+              mediate Σ and/or Σ baryons. There is very little isospin splitting in the masses of these
+                        c          c
+              intermediate states, and, by isospin conservation, we expect equally many decays to proceed
+                                     (7)
+              via a doubly charged Σ    as via a neutral one. To search for resonant substructure in the
+                                     c
+              upper, narrower, state we use a signal mass band of 589<∆M < 603 MeV and sidebands
+                                                                           ππ
+              of 527<∆M <575MeVand617<∆M <665MeV.Thissignalbandhasasignalyield of
+                          ππ                         ππ
+              314±50 . We then plot the single π mass diﬀerence, ∆M = M(Λ+π±) − M(Λ+) for both
+                                                                      π        c            c
+              transition pions in the signal region and subtract the sideband data, appropriately scaled.
+              The resultant plot (Figure 2) is ﬁt to a sum of a polynomial background and two signal
+                                      7
+              shapes for the Σ and Σ baryons, with these shapes obtained by ﬁtting the inclusive ∆M
+                              c       c                                                               π
+              plot, i.e., without any cut on ∆M  . The signal yields obtained by the ﬁt are 96 ± 18 and
+                                               ππ
+              −34±28 events respectively. This gives a fraction of this state proceeding via an interme-
+                                                                                               7
+              diate Σ of (31±6±3)%, and an upper limit on the fraction proceeding through Σ of 11%
+                     c                                                                         c
+              at 90% conﬁdence level. The dominant contribution to the systematic uncertainty in the Σ
+                                                                                                      c
+              fraction is from our ﬁtting procedures. We cannot perform the same analysis for the lower
+              state because the limited kinematics of the decays makes kinematic reﬂections in the ∆M
+                                                                                                      π
+              mass diﬀerence plots that the subtraction procedure cannot remove.
+                 Wealsodisplay the data by ﬁrst making a requirement of 163 <∆M <171 MeV and then
+                                                                                  π
+              plotting the dipion mass diﬀerence ∆M    (see Figure 3(a)). This requirement includes most
+                                                    ππ
+              of the decays that proceed via a Σ , but excludes the majority that decay non-resonantly to
+                                               c
+              Λ+π+π2. Figure 3(a) is ﬁt to a sum of the two signal peaks, using ﬁxed signal shapes and
+                c
+                                                          5
+               masses that were found from Figure 1, and a polynomial background shape. The yield for
+               the two signals 262 ± 45 and 105 ± 16 respectively. This second yield agrees well with the
+               expectation from Figure 2, and conﬁrms that a large fraction of the upper peak decays via
+               Σπ. The yield of the lower peak also indicates that it also resonates through Σ . We can
+                 c                                                                                   c
+               also make a similar plot, using a cut on the single pion mass diﬀerence consistent with being
+                           7
+               due to a Σ , namely 223 <∆M < 243 MeV. This is more problematical, because this mass
+                           c                    π
+               window will include much of the phase-space available for non-resonant decays, and will also
+                                               7
+               not include the entire broad Σ region. The dipion mass diﬀerence plot (Figure 3(b)), shows
+                                               c
+               very little evidence of the upper peak, conﬁrming the conclusion obtained from Figure 2.
+               It does show considerable excess (331±47) events in the region of the lower peak, but it is
+                                                                          7
+               diﬃcult to calculate how much of this is really due to Σ . We display Figure 3 starting from
+                                                                          c
+               ∆M =420MeVtoavoidirrelevant enhancements due to Σ production that appears below
+                    π                                                         c
+               this threshold.
+                   In summary, we ﬁnd the lower peak to decay resonantly via Σ and probably also via
+                                                                                       c
+                 7                                                               + + 2
+               Σ ; we cannot rule out a contribution from non-resonant Λ π π . The upper peak is
+                 c                                                               c
+               comparatively narrow, and appears to decay via Σ π and to non-resonant Λ+π+π2, but not
+                                                                    c                          c
+                     7
+               via Σ π.
+                     c
+                   Most models of charmed baryon spectroscopy start from the assumption that the baryon
+               consists of a heavy charm quark, and a light diquark which is itself in a well deﬁned spin and
+               parity state, JP   . The decays that take place need to obey quantum mechanical decay rules
+                              light
+               for conservation of both JP and JP      separately. The lowest lying orbital excitations in the
+                                                   light
+               Σ baryons should, like those of the Λ baryons, have the unit of orbital angular momentum
+                 c                                     c
+               between the diquark and the charm quark; this will give ﬁve isotriplets. At higher masses,
+               there should be ﬁve Λ+ particles and two isotriplets of Σ particles with L=1 between the
+                                       c                                    c
+               two light quarks. Here we will refer to this second generation of orbital excitations as Λ2
+                                                                                                               c
+                      2                            2       2
+               and Σ states. Many of the Σ , Σ and Λ particles with L = 1 will decay rapidly and have
+                      c                        c   c       c
+               large intrinsic widths. Only one undiscovered state in the sequence has no allowed two-body
+               decays to a lower mass charmed baryon, and that is the Λ+2, which has JP=12 and JP         =02.
+                                                                           c0                 2        light
+               This is therefore a candidate for the upper peak that we have found. Conservation of JP         ,
+                                                                                                           light
+               as required by Heavy Quark Eﬀective Theory, would not allow this particle to decay via
+               Σπ. However, there is another state (the Λ+2) with same overall quantum numbers, but this
+                 c                                           c1
+               time with JP     =12, which is expected to be at a similar mass. As the two states have the
+                            light
+               same quantum numbers, they might mix, and as the latter state can decay via an S-wave
+               to Σ π, this could explain the fraction of decays of our peak resonating in that manner.
+                    c
+               Identiﬁcation of the lower, wider, state is also open to interpretation. One possibility is that
+                                         +                          P   12       P   32
+               is consists of a pair of Σ  particles, with overall J =     and J =     . These particles might
+                                         c1                             2            2
+               be expected to be split in mass by around 30 MeV, and should have preferred decay mode
+                             7
+               of Σ π and Σ (π) respectively. Their widths have been predicted to be around 100 MeV [7].
+                    c        c
+               Westress that there may be many other interpretations of our data, including the decay of
+               radial excitations of charmed baryons.
+                   In conclusion, we report the observation of structure in the M(Λ+π+π2)−M(Λ+) mass
+                                                                                       c               c
+               diﬀerence plot, which we believe corresponds to the discovery of new excited charmed
+               baryons. One enhancement, at ∆M            ≈ 480 MeV, is very wide (Γ ≈ 50 MeV) and it
+                                                      ππ
+                                                                      7
+               appears to resonate through Σ and probably also Σ . The other, with a mass of 596±1±2
+                                               c                      c
+               MeVabove the Λ+, is much narrower (Γ < 8 MeV at 90% conﬁdence level), and appears to
+                                  c
+                                                               6
+                                       + + 2         7
+          decay both via Σ π and non resonantly to Λ π π , but not via Σ . We have no measure-
+                     c                 c             c
+          ments of the spin and parity of these new states, but we make educated guesses as to their
+          identities.

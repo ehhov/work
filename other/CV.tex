@@ -1,104 +1,225 @@
 \documentclass[a4paper, 12pt]{article}
 
+% Configuration {{{
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage[T2A]{fontenc} % T1 for English
 \usepackage[english]{babel}
 
-\usepackage[
-	colorlinks=true,
-	allcolors=blue
-]{hyperref}
 \usepackage{enumitem}
-
+\setlist{nolistsep}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
 \usepackage[
-	%showframe,
-	vmargin=1in,
-	hmargin=.6in
+  colorlinks=true,
+  allcolors=dimblue
+]{hyperref}
+\usepackage[
+  %showframe,
+  vmargin=1.8cm,
+  hmargin=2cm
 ]{geometry}
 \linespread{1.3}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\usepackage{multirow}
 
-%\usepackage{times}
+%\usepackage{times} % for English
 
+%\pagestyle{empty}
 \setlength{\parindent}{0pt}
 
-
-%%%%%%%%%%%%%%%
-\newlength{\indlen}
-\setlength{\indlen}{.5in}
-\newlength{\contw}
-\setlength{\contw}{\dimexpr(\linewidth-\indlen-1pt)}
-\def\field#1{{ \bf #1 } \\*[.05in] }
-\newcommand{\content}[3][]{
-	\hspace*{#1\indlen}
-	\parbox[t]{\contw}{
-	\begin{tabular}{#2}
-		#3
-	\end{tabular}
-	}
-	\\[.5\baselineskip]
-}
-\newcommand{\contentnotab}[2][]{
-	\hspace*{#1\indlen}
-	\parbox[t]{\contw}{
-		#2
-	}
-	\\[.5\baselineskip]
-}
 \def\mailto#1{\href{mailto:#1}{#1}}
 
+\def\saneskip{.5\baselineskip}
 
-%%%%%%%%%%%%%%%%
+\newcommand{\cvitem}[2]{
+  \vskip .5\baselineskip
+  \textbf{\large #1}
+  \nopagebreak \vskip -.6\baselineskip
+  \hrulefill
+  \nopagebreak \vskip -.3\baselineskip #2
+  %\parbox[t]{.2\linewidth}{\textsc{#1}}
+  %\hfill
+  %\parbox[t]{.7\linewidth}{#2}
+}
+% }}}
+
+\usepackage{lipsum}
+
 \begin{document}
 
-{ \bf\large
-	Curriculum Vitae
-	\hfill
-	Abdul-Kerim Guseinov
+% Name, contact information {{{
+\parbox[c]{.5\linewidth}{\Large\bf Abdul-Kerim Guseinov}
+\hfill \parbox[c]{.4\linewidth}{
+  \flushright \vskip -.5\baselineskip
+  %\mailto{guseynovkerim@gmail.com} \\
+  \mailto{kerim.guseinov@cern.ch} \\
+  Moscow, Russia \\
+  +7 915 273 3700%
+  \strut
 }
-\vskip\baselineskip
+%}}}
 
-\field{Personal data}
-\content{ll}{
-	Born & Nov 13, 1998 \\
-	Location & Moscow, Russia \\ 
-	Nationality & Russian \\ 
-	Mobile phone & +7 915 273 3700 \\
-	Email & \mailto{guseynovkerim@gmail.com} \\
-}
+%\cvitem{Research Interests}{% Removed {{{
+%  Particle physics, heavy flavor physics, hadron spectroscopy
+%}%}}}
 
-\field{Education}
-\content[0]{rl}{
-	Sep 2020 -- Jun 2022 & \textbf{Lomonosov Moscow State University} \\
-	& Faculty of Physics, department of General Nuclear Physics \\
-	& Awarded for only excellent grades achieved throughout the course of study \\
-	Sep 2016 -- Jun 2020 & \textbf{Lomonosov Moscow State University} \\
-	& Faculty of Physics, department of General Nuclear Physics \\
-	& Twice awarded and graduated with distinction for only excellent grades achieved throughout the course of study \\
-	-- Jun 2016 & \textbf{Lyceum N1586 in Moscow, Russia} \\
-	& Graduated with distinction (only excellent grades in Grade Certificate)
-}
+\cvitem{Education}{%{{{
+  \begin{itemize}
+    \item \textbf{Lomonosov Moscow State University}, Moscow, Russia
+      \hfill Sep 2022 -- present
+      \\ Postgraduate student,
+      Faculty of~Physics, Department of General Nuclear Physics.
+      %\\ Topic: \textit{\color{red} Some title or general words...}
 
-\field{Research and other educational activities}\\[-2\baselineskip]
-\begin{itemize}[nolistsep]
-\item Since 2019, I am a member of a HEP research group at my University which works with the LHCb collab.
-\item In 2019 I was awarded a grant to take part in the Second Trans-Siberian School on High Energy Physics, organized by Tomsk Polytechnic University and CERN.
-\item On behalf of the LHCb collab., I have presented the preliminary results on $\Lambda_b^0$ multihadron decays at a conference at my University. 
-\item The talk was published in an e-magazine Memoirs of the Faculty of Physics, Lomonosov Moscow State University. (text available only in Russian)
-\url{http://uzmu.phys.msu.ru/abstract/2020/2/2020301/}
-\item Currently I am working on systematic uncertainties of the mesured $\Lambda_b^0$ baryon decays' branching ratios.
-\item I am one of the 14 authors of a book about the photon, my section tells about the physical vacuum and Casimir effect. (also in Russian) \url{http://dx.doi.org/10.31453/kdu.ru.91304.0112}
-\end{itemize}
-\hspace*{0pt}
+    \item \textbf{Lomonosov Moscow State University}, Moscow, Russia
+      \hfill Sep 2020 -- Jun 2022
+      \\ M. Sc. in Physics, Department of General Nuclear Physics.
+      \\ Thesis: \textit{Properties of multihadron decays of bottom 
+      baryons produced in proton-proton collisions at the Large Hadron 
+      Collider.}
+      \\ Graduated summa cum laude: excellent grades throughout 
+      the course of study.
 
-\field{Computing skills}
-\content[0.09]{ll}{
-	Languages: & C, C++, Python  \\
-	\hfill C, C++ & Completed a course at my University \\ 
-	\hfill Python & Studied on my own \\ 
-	Working experience: & Linux, Bash shell, ROOT, PyROOT \\
-}
+    \item \textbf{Lomonosov Moscow State University}, Moscow, Russia
+      \hfill Sep 2016 -- Jun 2020
+      \\ B. Sc. in Physics, Department of General Nuclear Physics.
+      \\ Thesis: \textit{Multiparticle hadronic decays of bottom baryons 
+      produced in the LHCb detector.}
+      \\ Graduated summa cum laude: excellent grades throughout 
+      the course of study.
 
+    \item \textbf{Lyceum N1586}, Moscow, Russia
+      \hfill Grad. in Jun 2016
+      \\ Specialized in Physics and Mathematics.
+      \\ Graduated with distinction: grade average 5.0 of 5 in Grade 
+      Certificate.
+  \end{itemize}
+}%}}}
+
+\cvitem{Working Experience}{%{{{
+  \begin{itemize}
+    \item Laboratory Assistant at~the~Institute for~Theoretical 
+      and~Experimental Physics (ITEP).
+      \\ \null \hfill 2019 -- 2023
+    \item Member of the LHCb research groups at ITEP and SINP MSU since 
+      2019.
+    %\item Member of an LHCb research group at SINP MSU since 2019.
+    \item Primary author of LHCb-ANA-2015-020:
+      First observation of the $\Lambda_b^0{\to}D^+p\pi^-\pi^-$ and 
+      $\Lambda_b^0{\to}D^{*+}p\pi^-\pi^-$ decays.
+      Paper published in~JHEP (see below).
+      \\ My contribution: fitting model development and tuning, 
+      estimation of~fitting model systematics,
+      statistical experiments studies.
+    \item Primary author of LHCb-ANA-2021-060:
+      Study of charm baryon resonances in the 
+      $\Lambda_b^0\to\Lambda_c^+\pi^+\pi^-\pi^-$ decay. (in preparation)
+      \\ My contribution: development of~fitting models for~all relevant 
+      spectra, fitter stabilization, measurements of~masses and~widths 
+      of~baryon resonances, preliminary estimates of~systematics.
+    \item Reported on~the~status of~the~analysis of~charm resonances in 
+      $\Lambda_b^0\to\Lambda_c^+\pi^+\pi^-\pi^-$ at~B2OC Meetings 
+      on~24~Nov~2022 and~15~Jun~2023.
+      (\href{https://indico.cern.ch/event/1221243/%
+      \#26-study-of-charm-baryons-in-l}{Indico page 1},
+      \href{https://indico.cern.ch/event/1273384/%
+      \#1-charm-baryon-resonances-in-l}{2})
+  \end{itemize}
+}%}}}
+
+\cvitem{Conferences and Workshops}{%{{{
+  \begin{itemize}
+    \item 2nd Trans-Siberian School on High Energy Physics,
+      organized by Tomsk Polytechnic University and CERN.
+      \hfill \makebox{Apr 2019}
+    \item 20th Interuniversity Concentrated Energy Flows Conference 
+      organized by Lomonosov MSU:
+      Preliminary results on~$\Lambda_b$~multihadron decays branching 
+      ratios on~behalf of~the~LHCb Collaboration.
+      \hfill \makebox{Nov 2019}
+    \item 54th Winter School organized by PNPI in St. Petersburg.
+      \hfill \makebox{Mar 2020}
+    \item Lomonosov Universiade: Analysis of~fitting model systematics 
+      and fit bias in~$\Lambda_b$ \textit{BR} measurements.
+      \hfill \makebox{May 2020}
+    \item 30th International Scientific Lomonosov Conference organized 
+      by Lomonosov MSU:
+      Preliminary results on~$\Lambda_b$~multihadron decay spectroscopy.
+      %on~behalf of~the LHCb Collaboration.
+      \hfill \makebox{Apr 2023}
+  \end{itemize}
+}%}}}
+
+\cvitem{Publications}{%{{{
+  \begin{itemize}
+    \item % R. Aaij \textit{et al.} (LHCb Collaboration),
+      LHCb Collaboration,
+      Observation of $\Lambda_b^0{\to}D^+p\pi^-\pi^-$ and 
+      $\Lambda_b^0{\to}D^{*+}p\pi^-\pi^-$ decays,
+      \href{https://doi.org/10.1007/JHEP03(2022)153}
+      {JHEP 03 153 (2022)}.
+    \item A-K.\,D.~Guseinov, Measurement of~decays 
+      $\Lambda_b^0{\to}D^+p\pi^-\pi^-$ and 
+      $\Lambda_b^0{\to}D^{*+}p\pi^-\pi^-$ in~$pp$ collisions 
+      at~the~Large Hadron Collider,
+      \href{http://uzmu.phys.msu.ru/abstract/2020/2/2020301/}
+      {Materials of~the~Faculty of~Physics of Lomonosov MSU, 2~(2020)}.
+    \item A-K.\,D.~Guseinov \textit{et al.}, The Photon, ed. 
+      Prof.~B.\,S.~Ishkhanov. Co-author of~a~book on~the~photon. 
+      My~section is~concerned with~physical vacuum and Casimir effect. 
+      (in~Russian)
+      \href{http://dx.doi.org/10.31453/kdu.ru.91304.0112}
+      {DOI: 10.31453/kdu.ru.91304.0112}.
+      %{\color{red} move to activities?}
+      %{\color{red} The only available link tries to sell a PDF version 
+      %for 200 rub, but gives ISBN, DOI, etc.}
+  \end{itemize}
+}%}}}
+
+\cvitem{Awards}{%{{{
+  \begin{itemize}
+    \item 6 times awarded the Increased State Academic Scholarship.
+    \item 8 times awarded University Scholarships named after
+      M.\,V.~Lomonosov, I.\,V.~Kurchatov, L.\,A.~Artsimovich, 
+      R.\,V.~Khokhlov, and~S.\,I.~Vavilov.
+    \item Was on~the~hall~of~fame at~the~Faculty of~Physics during 
+      the~5th and~6th years at Lomonosov MSU.
+    \item Trans-Siberian School on High Energy Physics visiting 
+      fellowship.
+  \end{itemize}
+}%}}}
+
+\cvitem{Teaching Experience}{%{{{
+  \begin{itemize}
+    \item Laboratory Instructor for 2nd year students practicum 
+      on~Nuclear Physics.
+      \\\null \hfill \makebox{Sep 2020 -- May 2021}
+    \item Teaching Assistant, Mathematical analysis.
+      \hfill Sep -- Dec 2017
+    \item Teaching Assistant, Calculus. \hfill Jan -- Jul 2018
+    \item {Many years of helping other students and answering their 
+      meticulous questions about every course.}
+  \end{itemize}
+}%}}}
+
+\cvitem{Software Experience}{%{{{
+  \begin{itemize}
+    \item Languages: C, C++, Python, Rust, Lua, Unix shells.
+    \item Data analysis: ROOT, RooFit, PyROOT, Ostap.
+    \item Other experience: Unix/Linux, Vim, Git, LaTeX.
+  \end{itemize}
+}%}}}
+
+%\cvitem{Hardware Experience}{% Removed {{{
+%  I don't have hardware experience yet, but I am very eager to acquire 
+%  it and enthusiastic about such opportunities.
+%  {\color{red} Move to the Motivation Letter}
+%}%}}}
 
 \end{document}
-
-I am interested in physics of heavy b,c quarks as well as in high pT physics including measurements of top quark properties. Currently I am involved in physics data analysis, but I would be very excited to extend my field of study with research programs on modern detectors development for HEP and on the front-end DAQ systems, since these would be quite a new experience for me. 

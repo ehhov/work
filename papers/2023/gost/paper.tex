@@ -1,0 +1,35 @@
+\documentclass[a4paper, 14pt]{extarticle}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+
+\usepackage{local}
+\usepackage{definitions}
+
+\begin{document}
+
+\input{tex/titlepage}
+
+\clearpage
+\def\contentsname{Содержание}
+\tableofcontents
+\clearpage
+
+\input{tex/introduction}
+\input{tex/detector}
+\input{tex/fitting}
+\input{tex/corrections}
+\input{tex/conclusion}
+
+\clearpage
+\color{trollbrown}
+\pagecolor{trollyellow}
+\phantomsection
+\def\refname{Список использованных источников}
+%\def\bibnumfmt#1{#1.}
+\addcontentsline{toc}{section}{\refname}
+\bibliographystyle{gost}
+\bibliography{references}
+
+\end{document}

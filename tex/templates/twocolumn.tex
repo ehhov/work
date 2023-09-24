@@ -1,0 +1,57 @@
+\documentclass[a4paper, 10pt, twocolumn]{article}
+
+% Configuration {{{
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc} % T1 for English
+\usepackage[english, russian]{babel}
+
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
+\usepackage[
+  colorlinks=true,
+  allcolors=dimblue
+]{hyperref}
+\usepackage[
+  vmargin=25mm,
+  hmargin=20mm
+]{geometry}
+\setlength{\columnsep}{6mm}
+%\usepackage[nospread]{flushend}
+\usepackage{cuted}
+\linespread{1.3}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[multidot]{grffile}
+\usepackage[labelsep=period]{caption}
+\usepackage{multirow}
+
+\usepackage{titlesec}
+\titleformat{\section}[hang]{\bf\centering}{\thesection.}{.5em}{}[]
+\def\thesection{\Roman{section}}
+\def\thefootnote{\fnsymbol{footnote}}
+
+%\usepackage{times} % for English
+% }}}
+
+\begin{document}
+
+% Title {{{
+\begin{strip}
+\begin{center}
+\vskip-2.4\baselineskip
+{\large\textbf{Title}}
+\vskip.3\baselineskip
+{Author\footnotemark}
+\vskip.3\baselineskip
+\today
+\end{center}
+\end{strip}
+\footnotetext{About, email}
+% }}}
+
+\end{document}

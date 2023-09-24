@@ -10,7 +10,8 @@ mod module {
         }
 
         pub fn asstr(&self) -> String {
-            return format!("{}, {}", (*self).a, (*self).b);
+            let var = self.a as f32 * self.b;
+            return format!("{}, {}, var = {}", (self).a, (*self).b, var);
         }
     }
 
@@ -23,15 +24,15 @@ mod module {
 
 }
 
-    impl module::Braces for i32 {
-        fn asstr(&self) -> String {
-            format!("{}", self)
-        }
+impl module::Braces for i32 {
+    fn asstr(&self) -> String {
+        format!("{}", self)
     }
+}
 
 fn main() {
     let var = module::I::new(1, 1.3);
-    println!("integer {}\nfloating point number {}", var.asstr(), 1);
+    println!("integer {}\nfloating point number {}", var.asstr(), 1 as f32);
     use module::Braces;
     println!("{}", (1 as i32).inbraces());
 }

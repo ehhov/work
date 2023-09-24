@@ -1,0 +1,637 @@
+Review
+doi:10.1038/nature21721
+Flavour-changing neutral currents
+making and breaking the standard model
+F. Archilli1, M.-O. Bettler2, P. Owen3 & K. A. Petridis4
+The standard model of particle physics is our best description yet of fundamental particles and their interactions, but it
+is known to be incomplete. As yet undiscovered particles and interactions might exist. One of the most powerful ways to
+search for new particles is by studying processes known as flavour-changing neutral current decays, whereby a quark
+changes its flavour without altering its electric charge. One example of such a transition is the decay of a beauty quark
+into a strange quark. Here we review some intriguing anomalies in these decays, which have revealed potential cracks
+in the standard model—hinting at the existence of new phenomena.
+T
+he standard model of particle physics has been a spectacularly
+successful theory for explaining the properties and interactions
+of fundamental particles, with many measurements confirming
+its predictions to extraordinary precision. However, cosmological obser-
+vations of the apparent dark-matter content of the Universe, and of the
+domi­nance of matter over antimatter, suggest that the standard model is
+an incomplete theory. In addition, the standard model does not provide an
+explanation for the observed patterns of masses of elementary particles.
+Therefore, one of the current goals of experimental particle physics is to
+discover new particles and interactions—commonly referred to as ‘new
+physics’—that could provide an explanation for these observations.
+Searches for such new particles are performed in two ways. The first
+requires the production of a new particle directly from the collisions of
+highly energetic beams of protons or electrons. The new particle sub-
+sequently decays to a set of known standard model particles, whose
+properties are measured in particle physics detectors. The ATLAS1 and
+CMS2 collaborations at the Large Hadron Collider3 (LHC) at CERN are
+examples of experiments that search directly for new particles produced
+through the collisions of proton beams at unprecedented energies and
+intensities.
+The second method involves performing precise measurements of the
+properties of known decays of hadrons (composites of quarks) that are
+accurately described by the standard model. In this case, processes that
+occur via the weak force—such as the decay of a kaon (a hadron containing
+a strange quark) or of a b hadron (which contains a beauty quark)—
+are particularly interesting. As a consequence of quantum-field theory,
+such decays can occur through transient particles that have a physical
+mass larger than the amount of mass-energy available from the decaying
+particle. These transient particles are referred to as ‘virtual’. Heavy new
+particles can cause large deviations from the standard model predictions
+of the decay rate and of the dynamics of the decay products. Precise meas-
+urements of such quantities are sensitive to particles beyond the standard
+model that have masses far exceeding the available collision energy of the
+LHC. The LHCb experiment4 operating at the LHC is an example of an
+experiment that is searching for new physics through precision measure-
+ments of the properties of known decays.
+Decays involving the weak force
+The weak force is mediated by the heavy W+, W− and Z0 bosons.
+Transitions mediated by the W+ or W− boson are known as charged-
+current processes, whereas those mediated by the Z0 boson are known as
+neutral-current processes. There are six types (flavours) of quarks: down
+(d), up (u), strange (s), charm (c), beauty (b) and top (t). These quarks
+can change their flavour by interacting with the W+ or W− bosons, but
+cannot by interacting with the Z0 boson.
+Flavour-changing neutral currents (FCNCs)
+By the end of the 1960s, the charged-current process that occurs when a
+charged kaon decays into a muon and a neutrino (K+ →​  μ+νμ) had been
+well established, but the neutral-current counterpart of this process,
+K 0L →​  μ+μ−, had not been observed, posing a major puzzle in particle
+physics. At the time, only three different flavours of quark were known to
+exist, and while the existence of a fourth had been postulated5, there was
+no experimental evidence for it. In 1970, Glashow, Iliopoulos and Maiani6
+provided an explanation (the GIM mechanism) behind the suppression
+of the neutral-current process relative to the charge-current process, by
+proposing the existence of a fourth type of quark with specific couplings
+to the known quarks. The contribution from this fourth quark would
+cancel out the contribution from other quarks involved in the K 0L →​  μ+μ−
+decay. In today’s language, the strange quark and the down quark that
+make up the K 0L particle interact via a quantum-loop transition involving
+predominantly a W boson and either an up quark or a charm quark, as
+shown in Fig. 1a. Given the limitation that the quarks have the same mass,
+the diagram involving the up quark exactly cancels that of the charm
+quark, explaining the suppression of the K 0L →​  μ+μ− decay relative to the
+K+ →​  μ+νμ decay.
+The combination of experimental measurements and the proposed
+GIM mechanism provided an indirect observation of the charm quark,
+four years before it was observed directly7,8, with the discovery of the
+J/ψ hadron (a bound state of a charm quark and an anticharm quark).
+Such interplay between experimental measurements and theoretical pre-
+dictions of quark flavours has shaped the standard model over the past
+50 years.
+FCNCs in decays of beauty quarks
+Another example of a FCNC process involves the transition of a beauty
+quark into a strange quark. This process can occur through the same
+quantum-loop transition of the GIM mechanism, but is dominated by
+the contribution from the top quark, as shown in Fig. 1b.
+Owing to the large collision energy of the proton beams at the LHC,
+hundreds of billions of b hadrons have been produced. As a result, the
+LHCb collaboration’s measurements of FCNC decays of b hadrons are
+1
+National Institute for Subatomic Physics (Nikhef), Amsterdam, The Netherlands. 2European Organization for Nuclear Research (CERN), Geneva, Switzerland. 3Physik-Institut, Universität Zürich,
+Zürich, Switzerland. 4HH Wills Physics Laboratory, University of Bristol, Bristol, UK.
+8 J u n e 2 0 1 7 | VO L 5 4 6 | NAT U R E | 2 2 1
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.RESEARCH Review
+a
+b
+s
+K0L
+d
+P−
+W
+u, c
+W
+QP
+P+
+b
+B0s
+s
+P−
+W
+t
+W
+QP
+P+
+Figure 1 | Examples of FCNC decays. Feynman diagrams depicting two
+FCNC decays. a, The decay K 0L →​  μ+μ−. The strange quark (s) and the
+down quark (d) that make up the K 0L particle interact via a quantum-loop
+transition involving two virtual W bosons, either a virtual up quark (u) or
+a virtual charm quark (c), and a muonic neutrino (νμ). The outcome is twoneutrinos, μ+ and μ−. b, The decay B0s →​  μ+μ−. The B0s particle is made up
+of a beauty (b) and a strange (s) quark. This decay can occur through the
+same quantum-loop transition as in a, but involves a virtual top quark (t)
+instead.
+often the most precise available, with important contributions also being
+made by the CMS and ATLAS experiments. By contrast, a previous genera-
+tion of experiments—BaBar9 and Belle10—collided beams of electrons and
+positrons, producing fewer b hadrons (by a factor of approximately 1,000)
+than the LHC. However, the clean environment of an electron–positron
+collider did allow certain measurements to be made that are difficult in
+the rather complicated proton–proton collision process at the LHC.
+A particularly rare b-hadron FCNC decay involves the decay of a B0s
+hadron (which comprises a beauty antiquark and a strange quark) into a
+pair of muons, denoted B0s →​  μ+μ−. Using a combination of data from
+the CMS and LHCb experiments11, this decay was for the first time
+observed to a significance of more than five standard deviations placing
+stringent constraints on new physics models, such as supersymmetry.
+Another more common FCNC process involves the decay of a beauty
+quark into a strange quark and two leptons (leptons are electrons, muons,
+tauons and neutrinos). These decays are known as semileptonic, as their
+decay products comprise part leptons and part hadrons. Measurements
+of the properties of these decays are sensitive to new particles with masses
+up to around 100 TeV (ref. 12). Recent measurements of semileptonic
+FCNC decays have revealed discrepancies with standard model predic-
+tions, which could indicate the existence of a new particle that is similar
+to the Z0 boson of the standard model but up to 30 times heavier.
+Alternatively, these discrepancies could also be explained through
+unexpectedly large effects of the strong force, acting between the quarks
+involved in the process.
+Here we review the latest measurements of FCNC decays of b had-
+rons and how these measurements are revealing potential cracks in the
+standard model.+1.6
+−10
+and B(B 0 → µ+µ−) = (3.9−
+1.4 ) × 10     . The statistical significances of the
+hypothesis that the excess of data over the background is attributed to
+signal are 6.2 and 3.0 standard deviations for the B0s and B 0 mode, respec-
+tively. This represented the first observation of the B0s →​  μ+μ− decay, after
+more than three decades of searching. Recently, the ATLAS collaboration
+also published its results on the search for B0s →​  μ+μ− and B0 →​  μ+μ−
+decays24, but no significant excess was observed in the signal region.
+However, given the uncertainties related to these two sets of
+measurements23,24, they are still compatible within each other. Moreover,
+so far the measured branching fractions are in agreement with the stand-
+ard model predictions. More data will make it possible to reduce
+the uncertainty in the measurements and potentially reveal effects of
+new physics.
+Discovery of the decay B(0s ) →​  μ+μ−​
+The purely leptonic decays of neutral B hadrons (B0s and B0, which com-
+prise a beauty antiquark bound to a strange quark or a down quark,
+respectively) into two muons are particularly rare b →​  sℓℓ transitions,
+denoted B0(s ) →​  μ+μ−. These decays are suppressed not only by the GIM
+mechanism, but also by angular momentum conservation and by the
+chiral nature of the weak force (helicity suppression). This suppression
+is not necessarily present for new-physics particles. For example13–16,
+extensions of the standard model such as supersymmetry15,16 predict the
+existence of additional Higgs bosons13,14 that can substantially enhance
+the rate of these decays.
+The standard model prediction17–20 of the relative probability of a B0s
+or B0 meson decaying into two muons (the branching fraction) is calcu-
+lated to be: B(B0s → µ+µ−) = (3.66 ± 0.23) × 10−9 and B(B 0 → µ+µ−)   =
+(1.06 ± 0.09) × 10−10. These branching-fraction predictions are particu-
+larly precise thanks to the purely leptonic final state, which reduces the
+dependence on computations of the strong force. The decay B0 →​  μ+μ− is
+a factor of 30 times rarer than its B0s counterpart, as down quarks couple
+more weakly than do strange quarks to the top quark21,22.
+A fit to the invariant mass of the dimuon candidates mμμ can be
+performed to measure the yields of the B0s and B 0 signals. These yields
+can then be used to determine the branching fractions of the B0s →​  μ+μ−
+and B0 →​  μ+μ− decays. Figure 2 shows the invariant mass distribution of
+mμμ, along with the fit result, identified in the CMS and LHCb data. The
++0.7
+−9
+measured branching fractions23 are: B(B0s → µ+µ−) = (2.8−
+0.6 ) × 10
+Semileptonic b →​  sℓℓ transitions
+Another FCNC decay occurs when the b hadron is not annihilated (as in
+the leptonic decay described above), but instead its beauty quark decays
+into a new strange quark and two leptons. Such decays are not helicity-
+suppressed, and so occur about 1,000 times more frequently than does
+the B0(s ) →​  μ+μ− decay. This means that thousands of signal decays can
+be collected, allowing for a more detailed study of their behaviour.
+Branching fractions and lepton flavour universality
+The simplest property to measure for these decays is the branching
+fraction, as before. For semileptonic decays, the branching fraction is
+measured as a function of the squared four-momentum transferred
+to the two leptons, q2. This is important because the influence of new
+physics—as well as theoretical uncertainties arising from strong-force
+interactions—depends on q2.
+The branching fraction has been measured as a function of q2 for
+several types of b-hadron decays. For almost all of these channels,
+the branching-fraction measurements sit below the theoretical
+predictions25–27. While presenting an interesting pattern, these data
+are not significant by themselves, because of the relatively large
+theoretical uncertainties associated with the branching-fraction
+predictions.
+In addition, one can consider the ratio of branching fractions between
+decays involving electrons and muons. Owing to its interaction with the
+Higgs boson, the muon is 200 times heavier than the electron; but apart
+from that it interacts in exactly the same way as the electron in the stand-
+ard model. This concept is known as ‘lepton universality’. New particles
+that are not predicted by the standard model do not have to follow this
+behaviour, and so looking at the branching-fraction ratios is a very
+sensitive way to search for physics beyond the standard model. In rare
+b-hadron decays, the most well known example of these ratios is known
+as RK: RK = B(B + → K+µ+µ−)/B(B + → K+e+e−)  . This ratio is known
+to be unity in the standard model, with very high precision28,29. Any
+measurement that deviates significantly from unity would be an unam-
+biguous sign of physics beyond the standard model. The most precise
+measurement of the ratio RK was performed by the LHCb collaboration30
++0.090
+and was found to be RK=0.745−
+0.074 ± 0.036   , where the first uncertainty
+is statistical and the second systematic. The measurement is 2.6 standard
+deviations below the standard model expectation of unity, implying an
+excess of the decay involving electrons with respect to the muonic decay,
+2 2 2 | NAT U R E | VO L 5 4 6 | 8 J u n e 2 0 1 7
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Review RESEARCH
+Data
+Signal and background
+B0s → P+P–
+B0 → P+P–
+Combinatorial background
+Semileptonic background
+Peaking background
+14
+12
+10
+8
+6
+Standard model predictions (ref. 38)
+P+P– (ref. 35)
+P+P– (ref. 36)
+e+e– (ref. 36)
+1
+P′5
+Candidates per 40 MeV/c2
+16
+0
+4
+2
+0
+5,000
+5,200
+5,400
+mP+P– (MeV/c2)
+5,600
+5,800
+Figure 2 | Observation of the decay B 0s → μ+μ−. The graph shows the
+distribution of the dimuon invariant mass, mµ +µ −, as found in the
+combined CMS and LHCb measurement23. Superimposed on the data
+points (black dots) are the following: blue line, the fit obtained from the
+combined signal-plus-background results; yellow area, the component of
+the signal that results from the B0s decay; blue area, the component of the
+signal that results from the B0 decay; dashed green line, the combinatorial
+background made of a random combination of two muons produced by
+independent sources; dashed red line, the sum of semileptonic background
+decays; violet dashed line, the background obtained when the hadrons
+from the decay B →​  hh′​are misidentified as muons. The excess of data seen
+in the peak of this graph shows the discovery of the decay B0s →​  μ+μ−.
+Image reproduced from ref. 23, Nature Publishing Group.
+which is not predicted by the standard model. A powerful cross-check of
+the analysis involves comparing the branching-fraction ratio of the nor-
+malization channel B + →​  J /ψK+, where the J/ψ decays into electrons or
+muons. This ratio is consistent with unity and gives confidence that the
+experimentally detected differences in muons and electrons are well
+understood30. The result is consistent with the measurements performed
+by the BaBar31 and Belle32 collaborations, which are compatible with the
+standard model.
+In addition to studying b-hadron decays into a specific final state, one
+can also consider the inclusive b →​  sℓℓ process, where the final state can
+comprise any number of hadrons. The theoretical uncertainty in pre-
+dicting this inclusive branching fraction is smaller than the uncertainty
+in predicting a specific final state. The BaBar and Belle collaborations
+have measured this process33,34, and the results are consistent with the
+standard model prediction, albeit with larger experimental uncertainties
+than for measurements of specific decays. These collaborations report the
+branching fractions involving electrons and muons separately. However,
+so far no significant discrepancy with lepton universality has been seen.
+Angular analysis of the decay B →​  K∗ℓ+ℓ−
+As well as influencing the rate of FCNC decays, particles in models
+beyond the standard model can modify the distribution of the decay
+products in space. In the standard model, the spatial distribution (or
+‘angular distribution’) of the final-state particles from the FCNC decay
+of the b hadron is precisely known. The angular distribution reflects the
+nature of the virtual particle mediating the decay. For instance, if the b
+hadron is stationary, a spin-0 (scalar) interaction will result in an isotropic
+distribution of the products of the b-hadron decay. In contrast, a spin-1
+interaction—which is either antisymmetric (vector) or symmetric (axial-
+vector) under a parity (mirror reflection) transformation—will result
+in the decay products concentrating in certain regions of space, owing
+to the conservation of angular momentum in the decay. As a consequence,
+the measurement of the angular distribution of the leptons in b →​  sℓℓ
+transitions is sensitive not only to the presence of particles beyond the
+standard model, but also to their spin.
+The angular distribution of the decay B →​  K∗ℓ+ℓ− (where K∗ denotes
+an excited state of a kaon that subsequently decays to a ground-state kaon
+and a pion) is particularly sensitive to the effects of new physics, as one
+–1
+0
+5
+10
+q2 (GeV2/c4)
+15
+Figure 3 | Measurements of the P ′5 observable in B → K∗ℓ+ℓ− decays.
+P 5′ is a measure of the chiral asymmetry of the interference between the
+transversely and longitudinally polarized amplitudes of the decay
+B →​  K∗ℓ+ℓ−. Measurements of P 5′ are shown here as a function of the
+squared four-momentum transferred to the leptons, q2. The q2 regions
+around 9 GeV2/c4 and 12 GeV2/c4 have been removed owing to the
+presence of narrow resonances resulting from charm–anticharm particles
+(c  c), J/ψ and ψ(2S), respectively. In the q2 region just below the J/ψ
+resonance (at 9 GeV2/c4), the observable P ′5 is measured to be less negative
+than the standard model prediction. The filled black circles (muon (μ+
+and μ−) final states) and orange squares (standard model predictions) are
+reproduced from ref. 35, the latter based on data from ref. 38. The green
+circles and blue triangles are from ref. 36 and show different measurements
+performed for muon (μ+ and μ−) and electron (e+ and e−) final states,
+respectively.
+can measure the polarization of both the K∗ and the dimuon pair. In total
+there are at least 16 independent measurable quantities (observables) that
+∗
+describe the decays of both B →​  K∗ℓ+ℓ− and its CP conjugate, B → K ℓ+ℓ−
+decay (in CP symmetry, a particle is swapped for its antiparticle, and its
+spatial coordinates are mirror-reflected). One example of these quantities
+is the fraction of decays in which the K∗ is longitudinally polarized in
+relation to the total decay rate; another is the difference between the
+number of decays in which the muons are forward-moving or back-
+ward-moving relative to the B momentum in the dimuon rest frame, again
+as a fraction of the total decay rate. The measurements of all quantities
+are performed in different regions of q2, because the influence of new
+particles, and the theoretical uncertainties of the standard model predic-
+tion, depends on q2.
+The LHCb collaboration has performed measurements of all 16
+observables35 for the muonic mode, B →​  K∗μ+μ−. Most of these meas-
+urements, when taken individually, are compatible with the predictions
+of the standard model. There are, however, some discrepancies. The quan-
+tity P5′ is a measure of the chiral asymmetry of the interference between
+the transversely and longitudinally polarized amplitudes of the decay
+B →​  K∗ℓ+ℓ−. The measurements of P5′ in the q2 region just below the J/ψ
+resonance show less negative values than those predicted by the standard
+model (Fig. 3). For example, the two LHCb measurements closest
+to the J/ψ region are 2.8 and 3.0 standard deviations away from the stand-
+ard model predictions. The Belle collaboration has also measured this
+quantity for the electronic and muonic modes36, both of which are com-
+patible with the LHCb measurements and with lepton universality. The
+dominant uncertainties of the measurements are statistical in nature and
+are therefore expected to decrease with a larger dataset. For a more
+exhaustive collection of recent experimental data from FCNC beauty
+decays, see ref. 37; for standard model predictions, see ref. 38.
+To maximize the sensitivity of these measurements to the effect of new
+physics, a more rigorous approach is required. This involves combining
+all measurements of B →​  K∗ℓ+ℓ− and other b →​  sℓℓ decays, inclu­ding
+measurements of B0s →​  μ+μ− and B0 →​  μ+μ− transitions. By exploiting
+the known correlations between all these measurements from theory and
+8 J u n e 2 0 1 7 | VO L 5 4 6 | NAT U R E | 2 2 3
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.RESEARCH Review
+a
+b
+b
+W
+s
+P–P+
+bs
+Figure 4 | Illustration of an effective field theory for b → sℓ+ℓ− decays.
+a, Feynman ‘penguin’ diagram for the transition of a b quark (left) into an
+s quark (right) according to the standard model; this transition is realised
+by the exchange of a virtual W boson and a virtual top quark (t), which
+radiate a virtual photon (γ) or a virtual Z0 boson, in turn producing a
+couple of muons of opposite charge. b, Feynman diagram for the same
+transition using an effective theory description, in which the b →​  sℓ+ℓ−
+process can be described by a diagram that does not depend on the top
+quark, or on the W and Z0 bosons.
+looking for a pattern in the observed discrepancies, a clearer picture of
+potential new-physics effects can be formed.
+Interpretation
+3
+2
+NP)
+Re( 10
+J, Z0
+t
+4
+P+
+P–
+1
+0
+–1
+The energy scale of b-hadron decays is set by the mass of the initial
+b quark, which is approximately 5 GeV. However, the particles involved
+in the quantum-loop transition of the GIM mechanism, such as the
+W boson and the top quark, have physical masses of around 100 GeV.
+Decays of hadrons through FCNC transitions can therefore be described
+by an effective theory39, which does not explicitly depend on the degrees
+of freedom of, for instance, the top quark and the W and Z0 bosons that
+become relevant at higher energy scales (Fig. 4). Instead, the effects
+of such contributions are described in terms of quantum-mechanical
+operators: Wilson operators40, which encode the Lorentz structure of a
+particular interaction; and Wilson coefficients, which give the strength
+of the interaction.
+The operators that contribute depend on the specific decay that is being
+analysed. For example, the Wilson operator O9 describes the b →​  sℓℓ
+decay mediated by vector interaction, whereas O10 corresponds to an
+axial-vector interaction. The strength of each interaction is expressed
+in terms of corresponding Wilson coefficients, C9 and C10. Deviations of
+C9 or C10 from their standard model expectations would not only indicate
+the presence of one or more new particles mediating the decay, but also
+provide information about the spin of those particles.
+Global analyses
+The challenge in predicting the behaviour of semileptonic b →​  sℓℓ decays
+is related to the part of the decay that is mediated by the strong force,
+which is responsible for the dynamics of the initial-state and final-state
+hadrons. The effects of the strong force in these decays cannot be deter-
+mined within the framework of perturbation theory and are therefore
+difficult to calculate, unlike the effects of the electroweak force. These
+strong-force effects introduce relatively large uncertainties in measure-
+ments such as the branching fractions of b →​  sℓℓ decays. To minimize the
+impact of these uncertainties, ratios of observables are constructed that
+partially cancel the uncertainties related to the strong force. The angular
+observable P5′ is such a construction, formed from the ratio of decay
+amplitudes, and has asmaller uncertainty than do the individual ampli-
+tudes themselves41. The degree of cancellation is an important point, and
+is what the residual theoretical uncertainty depends most heavily upon.
+Another key feature of these global analyses is the use of the comple-
+mentarity between different measurements. For example, the branching
+fraction of B0s →​  μ+μ− is mediated in the standard model by an axial-
+vector interaction, and so is sensitive to the Wilson coefficient C10
+squared. The semileptonic b →​  sℓℓ transitions have both vector and axial-
+vector contributions, and their branching fractions are sensitive to the
+sum of C10 squared and C9 squared. Angular observables are sensitive to
+various combinations, depending on the particular observable that is
+being studied. By combining all information, the values of all the different
+Wilson coefficients can be deduced. The result for C9 and C10 is shown in
+–4
+–3
+–2
+–1
+0
+1
+Re( NP
+9 )
+Figure 5 | Global fit of rare beauty decays. Global fit for new-physics
+contributions to the real part of the vector and axial-vector Wilson
+NP
+. The contours indicate 68% (inner contours) and
+coefficients, C 9NP and C10
+95% (outer contours) confidence regions. The red contours show the
+constraints from angular analysis; the green contours show the constraints
+from branching-fraction measurements; and the blue contours show the
+combination of all information. The experimental measurements
+demonstrate a sizable negative contribution of new physics to C9. Image
+reproduced from ref. 54, Springer.
+Fig. 5, and indicates that a significantly negative contribution to the stand-
+ard model value for C9 is preferred. Globally, the likelihood that there is
+an additional contribution to C9 is supported to around three to four
+standard deviations, depending on the analysis and on which observables
+are included12,38,42–54. This significance includes both experimental and
+theoretical uncertainties.
+A significant variation from the standard model of more than three
+standard deviations corresponds to a P value of less than 0.3%. In particle
+physics, the statistical significance that is needed to claim a discovery is
+more stringent, being at the level of five standard deviations, or a P value
+of less than one in a million. This strict definition of observation is used
+because hundreds of analyses are performed in high-energy physics each
+year. Over a period of time, it is inevitable that a few discrepancies of
+three standard deviations will appear. What is encouraging here is that the
+global significance is driven by different smaller discrepancies, which are
+based on different experimental and theoretical systematic uncertainties.
+Nevertheless, it is important to remain cautious when interpreting the
+results.
+Interpretation beyond the standard model
+The deviations described above with respect to the standard model
+predictions could be explained by the existence of a new particle, not pre-
+dicted by the standard model, whose contribution to the decay amplitude
+destructively interferes with the standard model diagram. If this particle
+were also to interact differently with electrons and with muons, it could
+also explain the deviation seen in RK. There is a multitude of new-physics
+models that could explain some or all of these anomalies. Here we give
+two well studied examples.
+One example of an extension to the standard model that could explain
+these deviations involves a heavy version of the Z0 boson, denoted Z′​
+(refs 43, 51). Such an extension to the model must satisfy direct searches
+for such particles at the CMS and ATLAS experiments, which in practice
+means either that the Z′​candidate must be at least 30 times heavier than
+the standard model Z0 boson, or that it must have small couplings to the
+2 2 4 | NAT U R E | VO L 5 4 6 | 8 J u n e 2 0 1 7
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Review RESEARCH
+up and down quarks. If the Z′​is very heavy, it would not have a sizable
+impact on the decay compared with the standard model contribution,
+unless it could change the flavour of quarks directly without going
+through a quantum-loop transition. This model has consequences for
+other flavour observables, such as B0s oscillations, where the B0s hadron
+could annihilate to produce a Z′​boson, which would then decay to
+0
+B s . The interesting outcome of these Z′​models is that there is room
+to satisfy all existing experimental constraints and explain all
+b →​  sℓℓ anomalies. If such a hypothesis were confirmed, it would it
+be a major breakthrough in particle physics and could be the first
+real step towards addressing any of the outstanding questions in fun-
+damental physics55.
+Another proposed particle that could explain the deviations from the
+standard model is a leptoquark56—which, as the name suggests, carries
+quantum numbers of both quarks and leptons and can directly couple to
+the two. Here, typical solutions require a leptoquark that couples more
+strongly to the second and third generations of decay than to the first.
+This hierarchical flavour structure can naturally explain the lepton non-
+universality ratio RK, and could be related to other hints of lepton
+non-universality seen in other b-hadron decays57,58. Interestingly, there
+are some models (see, for example, ref. 59) that predict a leptoquark mass
+of around 1 TeV, which with some luck could be directly observed at
+the LHC.
+Interpretation within the standard model
+As well as undergoing the FCNC process, the b hadron can decay into
+a final state containing a strange hadron and a pair of muons, via the
+process B →​  K∗​J/ψ, with the J/ψ often decaying into two muons. As this
+decay (B →​  K∗​J/ψ then J/ψ →​  μ+μ−) shares the same final state as the
+signal decay B →​  K∗​μ +μ −, the two processes undergo quantum-
+mechanical interference, which can mimic the effects of physics beyond
+the standard model. As discussed above, the strong interaction at the
+energy scale corresponding to the B-hadron mass is difficult to compute
+theoretically. The strong interaction for the process B →​  K∗​J/ψ with
+J/ψ →​  μ+μ− is particularly difficult to calculate, because this process
+receives much larger contributions from the strong force than does the
+FCNC B →​  K∗​μ+μ− decay.
+The decay of a b hadron into a final state containing a strange hadron
+and a pair of muons proceeds via the J/ψ and the ψ(2S) hadrons
+(an excited state of J/ψ) 99% of the time. The branching fractions of these
+decays are known to a relative precision of 5%, which constrains the size
+of the interference with the FCNC decay. However, an additional com-
+plication arises owing to the Heisenberg uncertainty principle, which
+relates the lifetime of a hadron to its mass-energy. The short lifetime of
+the J/ψ hadron results in a small but non-negligible spread of possible
+values of mass that this hadron can have before it decays. Such a spread
+is known as the ‘natural width’ of the hadron. The problem therefore lies
+in considering the effect of the interference between the FCNC decay
+B0 →​  K∗0μ+μ− and the B0 →​  K∗0J/ψ decay, with the latter being very far
+away from the nominal mass of the J/ψ hadron.
+The discrepancy in P5′ between measurements and the standard model
+predictions is localized in a q2 region approximately 1,000 natural widths
+away from the nominal J/ψ mass. The effect of this resonance in this
+region depends on the level of quantum-mechanical interference between
+the FCNC decay and the decay involving a J/ψ hadron. In global analyses
+of b →​  sℓℓ transitions, this interference is estimated using the method
+described in refs 60 and 61, which relies on a non-perturbative quantum-
+chromodynamics calculation, starting at low q2 values and extrapolated
+to higher q2 values using knowledge of the spectrum of hadronic states,
+such as the J/ψ and ψ(2S) hadrons. Given the difficulties in calculating
+these contributions, there is much discussion in the field regarding
+whether the level of the interference between the FCNC decay and the decay
+involving the J/ψ hadron could result in the discrepancies seen in P5′ .
+Disentangling this effect from the more exotic explanation enlisting new
+particles is of the highest priority for both experimental and theoretical
+particle physicists.
+Summary and outlook
+FCNC decays continue to play an important part in understanding
+the fundamental forces of nature. Not only have they been crucial in
+the development of the standard model, the present set of discrepan-
+cies also provides evidence for new particles that would extend the
+standard model and could lead to a more complete description of
+particle physics. At the moment, however, this evidence is intriguing
+but inconclusive, and the most important question now is whether
+these discrepancies could instead be explained by a combination of
+statistical fluctuations and contributions by charmoniums (such as
+the J/ψ hadron). The former possibility will be addressed with the
+increased dataset collected at the LHC during 2015 to 2018, which is
+expected to be four times larger than the dataset used in the measure-
+ments described here. The larger dataset would also allow a more
+precise test of the q2 dependence of the P5′ discrepancy—a character-
+istic that would be present only if the deviation were due to hadronic
+interactions.
+As well as obtaining more data, there is a specific analysis that could
+help to shed light on the observed discrepancies from standard model
+predictions. This would involve measuring the level of quantum-mechanical
+interference between the FCNC decay and the decay that proceeds via
+charmonium states. Such a measurement would be crucial to understanding
+the validity of theoretical predictions of this quantity, and therefore of
+standard model predictions of b →​  sℓℓ processes. We note that the axial-
+vector Wilson coefficient, C10, is not affected by the interference of the
+FCNC decay with decays involving charmonium states. In global fits to
+the Wilson coefficients, there is a solution in which the contribution of
+new physics to C9 and to C10 is equal in magnitude. If this scenario were
+realized, then one would expect the branching fraction of B0s →​  μ+μ−
+decay to remain lower than the standard model prediction, and that devi-
+ations would start appearing in other angular observables of
+B0 →​  K∗0μ+μ− decays.
+Another type of analysis—which avoids complicated discussion of
+hadronic uncertainties—requires measurements that test the hypothesis
+of lepton universality. Measurements of b →​  sℓℓ processes that involve
+other hadrons in the final state (for example, measurements of R K ∗ )
+should soon provide a valuable piece to this puzzle, as well as improving
+the precision of RK measurement with more data. Moreover, with more
+data, an angular analysis of final states that comprise electrons can be
+performed, as in ref. 36. If the angular distribution of B0 →​  K∗0e+e− is
+significantly different from that of B0 →​  K∗0μ+μ−, it would be an unam-
+biguous signal of new physics.
+Looking further ahead, an upgrade of the Belle experiment, Belle II
+(ref. 62), is being commissioned at the moment. Over its lifetime—from
+2018 to 2025—it will collect 50 times more data than its predecessor.
+The Belle II experiment will be particularly important for further
+testing lepton universality in b →​  sℓℓ decays, but also for measuring
+the decay properties of the inclusive b →​  sℓℓ process. The standard
+model predictions of inclusive decays have different theoretical uncer-
+tainties to those of the decays to specific final states described here.
+Therefore, inclusive b →​  sℓℓ measurements could help to disentangle
+new-physics and standard model interpretations of the observed
+discrepancies.
+The LHCb, CMS and ATLAS detectors will also undergo upgrades,
+increasing the number of signal decays collected by at least a factor of
+30 compared with those described here. The motivation for such a dataset
+is clear. In the pessimistic scenario that the anomalies discussed fade with
+time owing to statistical variations, then the largest possible dataset will
+be needed to reveal smaller putative contributions from new physics. If
+instead the more optimistic scenario is realized—that these anomalies
+remain—then a huge dataset from these decays would allow a detailed
+study of the exact model behind these new-physics effects, and of whether
+such a model could address any of the outstanding questions in funda-
+mental physics.

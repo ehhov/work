@@ -1,0 +1,229 @@
+                           PACSnumbers: 14.20.Lq, 13.85.Ni
+                Charmed baryons are expected to exhibit a rich spec-
+              trum of states. Only a few of these states have been
+              conﬁrmed[1]. The heaviest singly-charmedbaryonprevi-
+                                             +                  + −
+              ously observed is the Λc(2880)   decaying to Λcπ π      [2].
+                            +
+              The Λc(2880) baryon is notable not only due to its nar-
+              row width (< 8 MeV) but also because it one of only
+              two singly-charmed bayrons, along with the Ξ (2815) [3],
+                                                             c
+              found above the Dp mass threshold.
+                Presented in this Letter is the observation of a new
+              charmed baryon decaying to D0p [4] with a mass of ap-
+              proximately 2.94 GeV/c2 and an intrinsic width of ap-
+              proximately 20 MeV. This baryon, tentatively labeled
+                           +                          −1      + −
+              the Λc(2940) , is observed in 287 fb        of e e   anni-
+                                             √
+              hilation data collected near     s = 10.58 GeV by the
+              BABAR detector [5] at the PEP-II asymmetric-energy
+              e+e− storage rings. Along with this new baryon, the
+                              +       0
+              decay Λc(2880)    →Dpisalso observed. The masses,
+              intrinsic widths of both baryons and their relative pro-
+              duction rate are measured.
+                                                                   
+                The goal of this analysis is to study the inclusive
+              mass spectrum. Two samples of D0 mesons are identi-  
+                                                                   
+              ﬁed using the K−π+ and K−π+π−π+ ﬁnal states. Each
+                                                                   
+              sample is produced by combining charged tracks of the
+              appropriate composition in a geometric ﬁt to a common
+              vertex. The χ2 probability of this ﬁt is required to 
+              2%. Charged particle species (K+,π+,p) are separated
+              using a likelihood algorithm that combines data from 
+              ring-imaging Cherenkov detector with the measured en-
+              ergy loss in the tracking systems [5]. Each proton candi-      gion near 2940 MeV/c2. The resulting best criteria are
+              date is combined with each D0 candidate using a geomet-        |∆m| < 14 MeV/c2, p∗ > 2.6 GeV/c, and cosϑ < 0.8 for
+              ric vertex ﬁt that assumes a common production point           the D0 → K−π+ sample and |∆m| < 9 MeV/c2, p∗ >
+              within the nominal beam envelope. The χ2 probability           2.8 GeV/c, and cosϑ < 0.8 for the D0 → K−π+π−π+
+              of this ﬁt is required to be better than 2%.                   sample. The ∆m requirements correspond to approxi-
+                                                                             mately two standard deviations in D0 mass resolution.
+                Requirements are imposed on three additional quan-           The p∗ requirement removes all sources of D0p combina-
+              tities to improve the signal purity of the D0p samples:
+              ∆m, the diﬀerence between the reconstructed D0 mass            tions from B meson decay.
+                                                                   2            AMCsimulation of a baryon of mass 2.94 GeV/c2 de-
+              and the accepted value of mD0 = 1864.6 MeV/c [1];
+              p∗, the center-of-mass momentum of the D0p system;             caying to D0p predicts selection eﬃciencies between 30%
+              and cosϑ, where ϑ is angle of the proton with respect          and 38% for the D0 → K−π+ ﬁnal state depending on
+              to the e+e− system in the D0p center-of-mass frame.            p∗ and between 12% and 14% for the D0 → K−π+π−π+
+                                                                      +      ﬁnal state. A proton purity of approximately 83% in the
+              For isotropic production (expected for the Λc(2940) ),
+              the cosϑ distribution will be ﬂat whereas background           ﬁnal D0p sample is estimated from studies of a compa-
+              tends to peak at ±1. Studies of Monte Carlo (MC) sim-          rable MC sample.
+              ulated data samples are used to determine the speciﬁc             To calculate a D0p invariant mass, each D0 candidate
+              requirements on these quantities that maximize the ex-         is assigned an energy that is consistent with a D0 mass of
+                                                                                                                0
+              pected signiﬁcance of signals introduced in the mass re-       mD0. The resulting combined D p invariant mass spec-
+                                                                                                                                       5
+              trum is shown in Fig. 1. Two peaks are apparent. The
+              clear signal at 2.88 GeV/c2 is likely due to the decay
+                              +                                      2
+              of the Λc(2880)    baryon. The signal at 2.94 GeV/c is
+                                                  +
+              the evidence for the new Λc(2940)      baryon. No similar
+              structures are observed in the wrong-sign D0p candidate
+              combinations. Candidates selected from D0 mass side-
+              bands are used to estimate the contribution from non-
+              D0 sources (see Fig. 1). This sideband sample shows no
+              structure.
+                An unbinned likelihood ﬁt is used to model the D0p
+              spectrum from the kinematic limit up to 3.05 GeV/c2.
+                                         +                +
+              This ﬁt includes Λc(2880)     and Λc(2940)    states, each
+              modeled by a relativistic Breit-Wigner lineshape σ(m)
+              convolved with a Gaussian resolution function.         The
+              Breit-Wigner line shape σ(m) is:
+                           σ(m) ∝           q(m)          ,           (1)
+                                    (m2−m2)2+m2Γ2
+                                              0       0
+              where Γ is the intrinsic width and is constant (i.e. not
+              mass dependent), m0 is the mass pole, and q is the
+              three-momentum magnitude of the D0 or proton in the                                                                0
+                0                                                            
+              D p rest frame for a given mass m. The detector res-           
+                                                                             
+              olution is obtained from MC simulation which predicts          
+                         2                 2           0       − +           
+              1.8 MeV/c and 1.3 MeV/c for the D → K π                and     
+              D0 →K−π+π−π+ samples, respectively.                            
+                The product of a fourth-order polynomial and two-
+              body phase space [1] is used to model the combinatorial
+              background. A ﬁt based on this background shape and            in mass, and a smaller width (12.5 MeV). The changes
+                           +                +                                                       +
+              the Λc(2880)    and Λc(2940)    signals is shown in Fig. 1     in the ﬁtted Λc(2940)     properties are much smaller if a
+                                        +                              2
+              and results in a Λc(2940)   mass of 2939.8±1.3 MeV/c ,         third signal line shape (of variable mass and width) is
+              a width of 17.5±5.2 MeV, and a raw yield of 2280±310           added to the ﬁt (Fig. 2(c)). None of these alternate ﬁts
+                                                               +
+              decays (statistical errors only). The Λc(2880)     proper-     lead to a reduction in the statistical signiﬁcance of the
+              ties obtained are a mass of 2881.9 ± 0.1 MeV/c2 and a                    +
+                                                                             Λc(2940)    signal below 7.2 standard deviations.
+              width of 5.8 ± 1.5 MeV, consistent with the CLEO re-                                     +                +
+                                                                                Because the Λc(2880)      and Λc(2940)     are near the
+              sults [2], and a raw yield of 2800 ± 190 decays (statis-       D0p threshold, the systematic uncertainty in mass from
+                                                   +
+              tical errors only).  If the Λc(2940)    signal is removed      possible detector biases is relatively small.     This un-
+              from the ﬁt, the log likelihood changes by 38.2, which is      certainty is calculated by considering appropriate vari-
+              equivalent (in one degree of freedom) to a signal signiﬁ-      ations in the assumed B ﬁeld strength and detector ma-
+              cance of 8.7 standard deviations. If the D0 → K−π+ and         terial using a procedure developed for measuring the Λ
+                                                                                                                                       c
+              D0 →K−π+π−π+ samplesare ﬁt separately, the result-             mass [6]. This procedure is also used to calculate small
+                                                                       +                     2                                        0
+              ing masses, widths, and relative yields of the Λc(2880)        (< 0.1 MeV/c ) corrections to the reconstructed D p
+                            +                                                                                                   2
+              and Λc(2940)    baryons are consistent within statistical      mass. An additional uncertainty of 0.5 MeV/c arises
+              errors. After accounting for selection eﬃciency and D0
+                                                                             from the current knowledge of mD0. The results for the
+              branching fractions, the absolute yields for the two D0                  +
+                                                                             Λc(2940)    baryon are:
+                                                                   +
+              decays modes are consistent for both the Λc(2880)      and
+                       +                                                                                                           2
+              Λc(2940)   baryons.                                                m=[2939.8±1.3(stat.)±1.0(syst.) ] MeV/c
+                The above likelihood ﬁt models the mass spectrum                  Γ=[ 17.5±5.2(stat.)±5.9(syst.) ] MeV .
+              near 2.84 GeV/c2 as a smooth distribution (Fig. 2(a)).
+              There is, however, a non-distinct structure near a mass                          +
+                                                                             For the Λc(2880)    baryon the results are:
+              of 2.84 GeV/c2 whose origin is not understood, and so
+              this model may not be accurate. Various modiﬁcations               m=[2881.9±0.1(stat.)±0.5(syst.) ] MeV/c2
+              of the ﬁt are employed as systematic checks. At one                 Γ=[       5.8 ± 1.5 (stat.) ± 1.1 (syst.) ] MeV .
+              extreme, if the likelihood ﬁt is limited to masses above
+              2.8525 GeV/c2 (Fig. 2(b)), the result is a substantial de-     Fromthe baryon yields obtained from the likelihood ﬁts,
+                                            +                     2
+              crease (29%) in the Λc(2940)     yield, a 0.5 MeV/c shift      the following ratio of production cross sections and decay
+                                                                                                                                     6
+             branching ratios is calculated:
+                                     +              +      0
+                         σ(Λc(2940) )Br(Λc(2940) → D p)
+                                     +              +      0
+                         σ(Λc(2880) )Br(Λc(2880) → D p)
+                          =0.81±0.13(stat.)±0.35(syst.) ,
+             where the systematic uncertainty is dominated by uncer-
+             tainties in the background shape.
+                Various tests are applied to the data to conﬁrm the
+                      +
+             Λc(2940) signal. Since the signal is observed in two dif-
+             ferent D0 decay modes, it appears to be associated with
+             real D0 decays. The lack of any structure in the D0 side-
+             band samples and the relative size of these samples sup-
+             port this conclusion. Since the sample of protons is 83%
+                                                   +
+             pure, it is unlikely that the Λc(2940)   signal could arise    
+             from proton mis-identiﬁcation. As further conﬁrmation,         
+             when the K+ or π+ mass is assigned to the protons, the         
+                                                                            
+             resulting D0K+ and D0π+ invariant mass distributions           
+                                                                            
+             show no evidence of structure.                                 
+                                                                            
+                Even if the observed signal is attributed to a com-
+             bination of D0 and protons, it is still possible to pro-
+             duce a false signal from the reﬂection of heavier states.
+             One example of such a possible reﬂection is a hypothet-        D+p sample are |∆m| < 12 MeV/c2, p∗ > 2.7 GeV/c,
+             ical baryon of mass near 3.10 GeV/c2 decaying to either
+               ∗       +       ∗       0                                    and cosϑ < 0.8. The eﬃciency for this selection is ap-
+             D (2010) porD (2007) p. Such a baryon, if suﬃciently           proximately 23%.
+             narrow, would produce a D0p mass spectrum (after ig-
+             noring the π+ or π0 from D∗ decay) of approximately              The resulting D+p distribution is shown in Fig. 3.
+                                                                                                                                 +
+             the correct mass and width. Such a baryon would also           No signals corresponding to either the Λc(2880)         or
+                                        ∗      +        ∗      0                     +
+             be clearly visible in the D (2010) p or D (2007) p mass        Λc(2940)   baryon are apparent. A likelihood ﬁt which
+                                                                                                                                 +
+             distributions. An explicit search in those mass distribu-      assumes a doubly-charged partner of the Λc(2940)        of
+             tions shows no signal, and thus this hypothesis is strongly    identical mass and width results in a yield of −40 ± 120
+             disfavored.                                                    candidates (statistical error only).
+                Another possible reﬂection is from a baryon of mass           Based on previous observations, such as the CLEO
+             3.13 GeV/c2 decaying to D0Σ+. The kinematics of such           measurement of the Σ0 and Σ++ [7], one would expect
+                                                                                                   c       c
+                                                                 2                                                     +
+             a decay could produce peaks at both 2.85 GeV/c and             similar production rates for the Λc(2940)    and a hypo-
+             2.94 GeV/c2 if the Σ+ had the appropriate spin align-          thetical doubly-charged partner. Under the additional
+             ment. The Σ+, however, is a long-lived particle, and MC        assumption that the branching fraction of the doubly-
+             studies indicate that for this decay the proton vertex χ2      charged baryon to Dp is the same, the expected doubly-
+             probability distribution would peak at zero. An investi-       charged signal yield would be approximately 2200 decays
+                             2                            +                 once the D0 and D+ branching fractions and selection
+             gation of the χ probability of the Λc(2940)    signal seen
+             in the data indicates a ﬂat distribution. Thus, a reﬂec-       eﬃciencies are accounted for (see Fig. 3). It thus seems
+             tion from D0Σ+ decay is also strongly disfavored.              unlikely that a doubly-charged partner exists, unless its
+                                                             +              production is largely suppressed or it decays in an unex-
+                The simplest interpretation of the Λc(2940)    signal is
+             that it arises from a charmed baryon of quark content          pected fashion.
+             cdu. UnderthisscenariothedecaytoD0pinvolvessimple                              +
+                                                                              The Λc(2940)     baryon is interesting for several rea-
+             uu gluon splitting. The remaining question is whether          sons. Relativistic quark model calculations [8] predict
+                           +
+             the Λc(2940)    belongs to an isotriplet. The most direct      three excited Λc baryons of diﬀerent spin-parity quan-
+             way to address this question is to explicitly search for       tum numbers near a mass of 2.94 GeV/c2. The DN
+             a neutral or doubly-charged partner of nearly the same         decay mode, although not unexpected [9, 10], is a ﬁnal
+             mass and width, analogous to the Σ0 and Σ++. The               state that has received relatively little theoretical inves-
+                                                     c        c
+             BABAR detector cannot isolate the most obvious neutral         tigation. If this baryon had a signiﬁcant branching frac-
+             decay mode (D0n). It is possible, however, to search for       tion to Λ π+π− it probably would have been observed
+                                                                                     c
+             a doubly-charged baryon decaying to D+p.                                          +
+                                                                            with the Λc(2880)    by CLEO [2]. It is not clear, how-
+                To select a sample of D+ candidates, the same meth-         ever, why this particular decay mode, which is favored by
+             ods used for the D0 samples are applied to the decay           phase space, is suppressed. One observation which is no-
+             D+ → K−π+π+. The selection requirements for the                table, even if it might be a simple coincidence, is that at
+                                                                                                                                   7
+                                     2              +                2      
+             a mass of 2939.8 MeV/c , the Λc(2940) is just 6 MeV/c          
+             below the D∗0p threshold. It is also interesting that the      
+                      +                                                     
+             Λc(2940)    is approximately one pion mass heavier than
+                          +                                                 
+             the Σc(2800) , a charmed baryon recently discovered by         
+             BELLE[11] decaying to Λ π0.
+                                        c                                   
+                             +
+               The Λc(2880) mass and width results presented here           
+             areconsistentwithbutmoreprecisethantheCLEOmea-                 
+             surementofm=2880.9±2.3 MeV/c2 andΓ < 8 MeV(at                  
+                                                             +      0       
+             90% CL). The existence of the decay Λc(2880)      →Dp          
+             rules out various interpretations of this baryon [10].

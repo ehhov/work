@@ -1,0 +1,1020 @@
+INTRODUCTION
+The disparity between the time symmetry of the fundamental laws of physics and the
+time asymmetries of the observed universe has been a subject of fascination for physicists
+since the late 19th century.1 The following general time asymmetries are observed in this
+universe:
+• The thermodynamic arrow of time — the fact that approximately isolated systems are
+now almost all evolving towards equilibrium in the same direction of time.
+• The psychological arrow of time — we remember the past, we predict the future.
+• The arrow of time of retarded electromagnetic radiation.
+• The arrow of time supplied by the CP non-invariance of the weak interactions and
+the CP T invariance of field theory.
+• The arrow of time of the approximately uniform expansion of the universe.
+• The arrow of time supplied by the growth of inhomogeneity in the expanding universe.
+All of these time asymmetries could arise from time-symmetric dynamical laws solved
+with time-asymmetric boundary conditions. The thermodynamic arrow of time, for exam-
+ple, is implied by an initial condition in which the progenitors of today’s approximately
+isolated systems were all far from equilibrium at an initial time. The CP arrow of time
+could arise as a spontaneously broken symmetry of the Hamiltonian. The approximate uni-
+form expansion of the universe and the growth of inhomogeneity follow from an initial “big
+bang” of sufficient spatial homogeneity and isotropy, given the attractive nature of gravity.
+Characteristically such arrows of time can be reversed temporarily, locally, in isolated sub-
+systems, although typically at an expense so great that the experiment can be carried out
+only in our imaginations. If we could, in the classical example of Loschmidt [4], reverse the
+momenta of all particles and fields of an isolated subsystem, it would “run backwards” with
+thermodynamic and electromagnetic arrows of time reversed.
+Quantum cosmology is that part of physics concerned with the theory of the boundary
+conditions of our universe. It is, therefore, the natural and most general context in which
+to investigate the origin of observed time asymmetries. In the context of contemporary
+quantum cosmology, several such investigations have been carried out [2, 5, 6, 7, 8, 9, 10, 11],
+starting with those of Penrose [2] on classical time-asymmetric initial and final conditions
+and those of Page [5] and Hawking [6] on the emergence of the thermodynamic arrow of
+time from the “no-boundary” theory of the initial condition of the universe. It is not our
+purpose to review these results or the status of our understanding of the time asymmetries
+mentioned above. Rather, we shall discuss in this essay, from the perspective of quantum
+cosmology, a time asymmetry not specifically mentioned above. That is the arrow of time
+of familiar quantum mechanics.
+Conventional formulations of quantum mechanics incorporate a fundamental distinction
+between the future and the past, as we shall review in Section II. This quantum-mechanical
+1
+For clear reviews, see [1, 2, 3].
+2arrow of time has, in a way, a distinct status in the theory from the time asymmetries
+discussed above. It does not arise, as they do, from a time-asymmetric choice of boundary
+conditions for time-neutral dynamical laws. Rather, it can be regarded as a time asymmetry
+of the laws themselves. However, the quantum mechanics of cosmology does not have to be
+formulated in this time-asymmetric way. In Section III, extending discussions of Aharonov,
+Bergman, and Lebovitz [12] and of Griffiths [13], we consider a generalized quantum me-
+chanics for cosmology that utilizes both initial and final conditions to give a time-neutral,
+two-boundary formulation that does not necessarily have an arrow of time [14]. In such a
+formulation all time asymmetries arise from properties of the initial and final conditions, in
+particular differences between them, or, at particular epochs, from nearness to the begin-
+ning or end. A theory of both initial and final conditions would be the objective of quantum
+cosmology.
+In the context of a time-neutral formulation, the usual quantum mechanics results from
+utilizing a special initial condition, together with what amounts to a final condition repre-
+senting complete indifference with respect to the future states, thus yielding the quantum-
+mechanical arrow of time, which is sufficient to explain the observed time asymmetries of
+this universe. However, a time-neutral formulation of quantum mechanics allows us to inves-
+tigate to what extent the familiar final condition of indifference with respect to future states
+is mandated by our observations. In particular, it allows us to investigate whether quantum
+cosmologies with less blatantly asymmetric initial and final conditions might also be consis-
+tent with the observed general time asymmetries. As a step in this direction we discuss a
+quantum cosmology that would be, in a sense, the opposite extreme — a cosmology with a
+time-symmetric pair of initial and final conditions leading to a universe that is statistically
+symmetric about a moment of time. Such boundary conditions imply deviations from the
+thermodynamic arrow of time and the arrow of time supplied by the CP non-invariance of
+the weak interactions. We investigate such deviations to see if they are inconsistent with
+observations. The classical statistical models reviewed in Section IV and the models of CP
+symmetry breaking discussed in Section V suggest that the predicted deviations may be
+insufficient to exclude time-symmetric boundary conditions if the interval between initial
+and final conditions is much longer than our distance in time from the initial condition.
+Next, we review and augment the arguments of Davies and Twamley that electromagnetic
+radiation may supply a probe of the final condition that is sufficiently accurate to rule out
+time-symmetric boundary conditions.
+We should emphasize that we are not advocating a time-symmetric cosmology but only
+using it as a foil to test the extent to which observation now requires the usual asymmetric
+boundary conditions and to search for more refined experimental tests. The important
+result of this paper is a quantum framework for examining cosmologies with less asymmetric
+boundary conditions than the usual ones, so that the quantum-mechanical arrow of time
+(with its consequent time asymmetries) can be treated, or derived, as one possibility out of
+many, to be confronted with observation, rather than as an axiom of theory.
+Relations between the initial and final conditions of a quantum-mechanical universe suf-
+ficient for both CP T -symmetric cosmologies and time-symmetric cosmologies are discussed
+in Section V. Ways in which the T -violation exhibited by the weak interaction could arise
+in such universes are described there as well. In Section VI we discuss the limitations on
+time-symmetric quantum boundary conditions following from the requirements of decoher-
+ence and classicality. Specifically, we show that for a set of alternative histories to have
+3the negligible interference between its individual members that is necessary for them to
+be assigned probabilities at all, there must be some impurity in the initial or final density
+matrices or both, except in the highly unorthodox case in which there are only one or two
+coarse-grained histories with non-negligible probability.
+We should make clear that our discussion of time-symmetric cosmologies, based on spec-
+ulative generalizations of quantum mechanics and causality, with separate initial and final
+density matrices that are related by time symmetry, is essentially different from the conjec-
+ture that has sometimes been made that ordinary causal quantum or classical mechanics,
+with just a single boundary condition or a single prescribed wave function, CP T -invariant
+about some time in the distant future, might lead to a T -symmetric or CP T -symmetric cos-
+mology with a contracting phase in which the arrows of time are reversed [6, 15, 16, 17, 18].
+It is the latter notion, by the way, that Hawking refers to as his “greatest mistake” [19]. We
+shall return to this topic in Section V.
+II.
+THE ARROW OF TIME IN QUANTUM MECHANICS
+As usually formulated, the laws of quantum mechanics are not time-neutral but incorpo-
+rate an arrow of time. This can be seen clearly from the expression for the probabilities of
+histories consisting of alternatives at definite moments of time t1 < t2 < · · · < tn . Let {αk }
+be an exhaustive set of alternatives at time tk represented by {Pαkk (tk )}, a set of projection
+operators in the Heisenberg picture. For example, the alternatives {αk } might be defined by
+an exhaustive set of ranges for the center-of-mass position of a massive body. A particular
+history corresponds to a specific sequence of alternatives (α1 , · · · , αn ). The probability for
+a particular history in the exhaustive set of histories is
+h
+i
+p (αn , · · · , α1 ) = T r Pαnn (tn ) · · · Pα11 (t1 )ρPα11 (t1 ) · · · Pαnn (tn ) ,
+(2.1)
+where ρ is the density matrix describing the initial state of the system and the projection
+operators are time-ordered from the density matrix to the trace.2
+The expression for the probabilities (2.1) is not time-neutral. This is not because of
+the time ordering of the projection operators. Field theory is invariant under CP T and
+the ordering of the operators could be reversed by a CP T transformation of the projection
+operators and density matrix, leaving the probabilities unchanged. (See e.g. [20] or [14]).
+Either time ordering may therefore be used; it is by convention that we usually use the one
+with the condition represented by the density matrix ρ in the past.
+Rather, (2.1) is not time-neutral because there is a density matrix on one end of the chain
+of projections representing a history while at the other end there is the trace [12, 13, 14].
+Whatever conventions are used for time ordering, there is thus an asymmetry between future
+and past exhibited in the formula for probabilities (2.1). That asymmetry is the arrow of
+time in quantum mechanics.
+2
+This compact expression of the probabilities of ordinary quantum mechanics has been noted by many
+authors. For more details of this and other aspects of the quantum mechanical formalism we shall employ
+the reader is referred to [20] and [14] where references to earlier literature may be found.
+4The asymmetry between past and future exhibited by quantum mechanics implies the
+familiar notion of causality. From an effective density matrix describing the present alone it
+is possible to predict the probabilities for the future. More precisely, given that alternatives
+α1 , · · · , αk have “happened” at times t1 < · · · < tk before time t, the conditional probability
+for alternatives αk+1 , · · · , αn to occur in the future at times tk+1 , · · · , tn may be determined
+from an effective density matrix ρeff (t) at time t. Specifically, the conditional probabilities
+for future prediction are
+p(αn , · · · , αk+1 |αk , · · · , α1 ) =
+p(αn , · · · , α1 )
+.
+p(αk , · · · , α1 )
+(2.2)
+These can be expressed as
+h
+i
+k+1
+n
+p(αn , · · · , αk+1|αk , · · · , α1 ) = T r Pαnn (tn ) · · · Pαk+1
+(t
+)ρ
+(t
+)P
+(t
+)
+·
+·
+·
+P
+(t
+)
+,
+k+1 eff k
+αk+1 1
+αn n
+k+1
+(2.3)
+where the effective density matrix ρeff is
+Pαkk (tk ) · · · Pα11 (t1 )ρPα11 (t1 ) · · · Pαkk (tk )
+
+.
+ρeff (tk ) =
+T r Pαkk (tk ) · · · Pα11 (t1 )ρPα11 (t1 ) · · · Pαkk (tk )
+(2.4)
+The density matrix ρeff (tk ) can be said to define the effective state of the universe at time
+tk , given the history (α1 , · · · , αk ).
+What is the physical origin of the time asymmetry in the basic laws of quantum mechanics
+and what is its connection with the other observed time asymmetries of our universe? The
+rest of this Section addresses that question.
+The reader may be most familiar with the expression for probabilities (2.1) in the context
+of the approximate “Copenhagen” quantum mechanics of measured subsystems. In that
+case operators, the density matrix, etc. all refer to the Hilbert space of the subsystem. The
+sets of projection operators {Pαkk (tk )} describe alternative outcomes of measurements of the
+subsystem.
+Formula (2.1) for the probabilities of a sequence of measured outcomes is then a unified
+expression of the “two forms of evolution” usually discussed in the quantum mechanics
+of subsystems — unitary evolution in between measurements and the “reduction of the
+state vector” on measurement. The time asymmetry of (2.1) does not arise from the unitary
+evolution of the projection operators representing the measured quantities in the Heisenberg
+picture; that is time-reversible. Rather, it can be said to arise from the successive reductions
+represented by the projections in (2.4) that occur on measurement. The common explanation
+for the origin of the arrow of time in the quantum mechanics of measured subsystems is that
+measurement is an irreversible process and that quantum mechanics inherits its arrow of
+time from the arrow of time of thermodynamics.3 If that is the case, then the origin of the
+3
+This connection between the thermodynamic arrow of time and the quantum-mechanical arrow of time can
+be ambiguous. Suppose, for example, a measuring apparatus is constructed in which the local approach
+to equilibrium is in the opposite direction of time from that generally prevailing in the larger universe.
+If that apparatus interacts with a subsystem (perhaps previously measured by other apparatus adhering
+to the general thermodynamic arrow of time) should the operators representing those measurements be
+5quantum-mechanical arrow of time must ultimately be cosmological, for the straightforward
+explanation of the thermodynamic arrow of time is a special initial condition for the universe
+implying that its constituents were far from equilibrium across a spacelike surface. Let us,
+therefore, investigate more fundamentally the quantum-mechanical arrow of time, not in an
+approximate quantum mechanics of measured subsystems, but in the quantum mechanics
+of a closed system — most realistically and generally the universe as a whole.
+The formula (2.1) for the probabilities of histories also holds in the quantum mechanics of
+a closed system such as the universe as a whole, at least in an approximation in which gross
+fluctuations in the geometry of spacetime are neglected. The sets of projection operators
+describe alternatives for the whole system, say the universe, and the density matrix can be
+thought of as describing its initial condition.4 Not every set of histories that may be described
+can be assigned probabilities according to eqreftwoone. In the quantum mechanics of closed
+systems consistent probabilities given by (2.1) are predicted only for those sets of histories
+for which there is negligible interference between the individual members of the set [14] as
+a consequence of the particular initial ρ. Such sets of histories are said to “decohere”. We
+shall defer until Section V a discussion of the precise measure of the coherence between
+histories and the implications of decoherence for time symmetry in quantum mechanics. We
+concentrate now on the theoretical status of the arrow of time exhibited by (2.1) in the
+quantum mechanics of cosmology.
+An arrow of time built into a basic quantum mechanics of cosmology may not (as in
+the approximate “Copenhagen” quantum mechanics of measured subsystems) be attributed
+to the thermodynamic arrow of an external measuring apparatus or larger universe. In
+general, these external objects are not there. An arrow of time in the quantum mechanics
+of cosmology would be a fundamental time asymmetry in the basic laws of physics. Indeed,
+given that, as we mentioned in the Introduction, the other observed time asymmetries
+could all arise from time-symmetric dynamical laws solved with time-asymmetric boundary
+conditions, a fundamental arrow of time in the laws of quantum mechanics could be the only
+fundamental source of time asymmetry in all of physics.
+There is no inconsistency between known data and a fundamental arrow of time in quan-
+tum mechanics. General time asymmetries are exhibited by our universe and there is no
+evidence suggesting any violation of causality. The observed time asymmetries such as the
+thermodynamic arrow of time, the arrow of retarded electromagnetic radiation, the absence
+of white holes, etc. could all be seen to follow from a fundamental quantum-mechanical dis-
+tinction between the past and future. That is, they could all be seen to arise from a special
+initial ρ in a quantum-mechanical framework based on (2.1).
+But might it not be instructive to generalize quantum mechanics so that it does not so
+blatantly distinguish past from future? One could then investigate a more general class
+of quantum cosmologies and identify those that are compatible with the observed time
+asymmetries. Even if it is highly unlikely that ordinary quantum mechanics needs to be
+ordered according to the thermodynamic arrow of the apparatus or of the larger universe with respect to
+which it is running backwards? Such puzzles are resolvable in the more general quantum mechanics of
+closed systems to be discussed below, where “measurements”, the “thermodynamic arrow of time”, and
+any connection between the two are all approximate notions holding in only special situations.
+4
+For a more detailed exposition of this quantum mechanics of cosmology, the reader is referred to our
+previous work [14, 20, 21], where references to the earlier literature may also be found.
+6replaced by such a generalization, the generalization can still provide an instructive way of
+viewing the origin of time asymmetry in the universe and provide a framework for discussing
+tests of the usual assumptions. We shall discuss in the next section a quantum mechanics
+that employs two boundary conditions, one for the past and one for the future, to give a
+time-neutral formulation. Each condition is represented by a density matrix and the usual
+theory is recovered when the future density matrix is proportional to the unit matrix while
+the one for the past is much more special.
+III.
+A TIME-NEUTRAL FORMULATION OF QUANTUM MECHANICS FOR
+COSMOLOGY
+Nearly thirty years ago, Aharonov, Bergmann, and Lebovitz [12] showed how to cast
+the quantum mechanics of measured subsystems into time-neutral form by considering final
+conditions as well as initial ones. The same type of framework for the quantum mechanics
+of closed systems has been discussed by Griffiths [13] and ourselves [14]. In this formulation
+the probabilities for the individual members of a set of alternative histories is given by
+i
+h
+(3.1a)
+p(αn , · · · , α1 ) = NT r ρf Pαnn (tn ) · · · Pα11 (t1 ) ρi Pα11 (t1 ) · · · Pαnn (tn ) ,
+where
+N −1 = T r (ρf ρi ) .
+(3.1b)
+Here, ρi and ρf are Hermitian, positive operators that we may conventionally call Heisenberg
+operators representing initial and final conditions for the universe respectively. They need
+not be normalized as density matrices with T r(ρ) = 1 because (3.1) is invariant under
+changes of normalization.
+The expression (3.1) for the probabilities of histories is time-neutral. There is a density
+matrix at both ends of each history. Initial and final conditions may be interchanged by
+making use of the cyclic property of the trace. Therefore, the quantum mechanics of closed
+systems based on (3.1) need not have a fundamental arrow of time.
+Different quantum-mechanical theories of cosmology are specified by different choices for
+the initial and final conditions ρi and ρf . For those cases with ρf ∝ I, where I is the unit
+matrix, this formulation reduces to that discussed in the previous Section because then (3.1)
+coincides with (2.1).
+Of course, the condition for decoherence must also be extended to incorporate initial and
+final conditions. That extension, however, is straightforward [13, 14] and will be reviewed
+briefly in Section V. The result is a generalized quantum mechanics in the sense of Refs. [14]
+and [21].
+Lost in this generalization is a built-in notion of causality in quantum mechanics. Lost
+also, when ρf is not proportional to I, is any notion of a unitarily evolving “state of the
+system at a moment of time”. There is generally no effective density matrix like ρeff (t)
+in (2.4) from which alone probabilities for either the future or past could be computed.
+What is gained is a quantum mechanics without a fundamental arrow of time in which
+all time asymmetries may arise in particular cosmologies because of differences between ρi
+and ρf or at particular epochs from their being near to the beginning or the end. That
+7generalized quantum mechanics embraces a richer variety of possible universes, allowing for
+the possibility of violations of causality and advanced as well as retarded effects. These,
+therefore, become testable features of the universe rather than axioms of the fundamental
+quantum framework.
+From the perspective of this generalized quantum mechanics the task of quantum cosmol-
+ogy is to find a theory of both the initial and final conditions that is theoretically compelling
+and fits our existing data as well as possible. Certainly a final condition of indifference,
+ρf ∝ I, and a special initial condition, ρi , seem to fit our data well, and there is no known
+reason for modifying them. But how accurately is ρf ∝ I mandated by the data? What
+would be the observable consequences of a completely time-symmetric boundary condition
+that is, in a sense, the opposite extreme?
+Our ability to detect the presence of a final condition differing from ρf ∝ I depends on
+our experimental access to systems whose behavior today predicted with ρf 6∝ I would be
+measurably different from the predictions of that behavior with ρf ∝ I. Loosely speaking, it
+depends on our finding physical systems which can “see” the final condition of the universe
+today. In the following we examine several candidates for such systems, beginning with
+simple classical analyses in Section IV and proceeding to more quantum-mechanical ones in
+Section V.
+IV.
+A.
+CLASSICAL TWO-TIME BOUNDARY PROBLEMS
+A Simple Statistical Model
+The simplest explanation of the observed thermodynamic arrow of time is the asymmetry
+between a special, low-entropy,5 initial condition and a maximal-entropy final condition
+describable as indifference with respect to final state (or as no condition at all!). Studying
+deviations of the entropy increase predicted by statistical mechanics with these boundary
+conditions from that predicted with time-symmetric boundary conditions is a natural way
+to try to discriminate between the two. Such studies were carried out in classical statistical
+models by by Cocke [22], Schulman [23], Wheeler [24], and others in the late ’60s and early
+’70s. Schulman, in particular, has written extensively on these problems both in classical
+and quantum mechanics [25]. We briefly review such statistical models here.
+Relaxation to equilibrium is a time-symmetric process in a universe with an underlying
+dynamics that is time reversal invariant. Without boundary conditions, a system out of
+equilibrium is just as likely to have evolved from a state of higher entropy as it is to evolve
+to a state of higher entropy. The characteristic relaxation time for a system to evolve to
+equilibrium depends on the size of the system and the strength of the interactions that
+equilibrate it. Other factors being equal, the larger the system the longer the relaxation
+time.
+There is no simpler instructive model to illustrate the approach to equilibrium than the
+Ehrenfest urn model [26]. For this reason, it and related models have been much studied
+in connection with statistical two-time boundary problems [22, 23]. The model consists of
+5
+For quantitative estimates of how low the initial entropy is, see [2].
+8two boxes and a numbered set of n balls that are distributed between them. The system
+evolves in time according to the following dynamical rule: At each time step a random
+number between 1 and n is produced, and the ball with that number is moved from the box
+containing it to the other box. This dynamical rule is time-symmetric.
+The fine-grained description of this system specifies which ball is in which box (a “mi-
+crostate”). An interesting coarse-grained description involves following just the total number
+of balls in each box ( a “macrostate”) irrespective of which balls are in which box. Let us
+use this coarse graining to consider an initial condition in which all the balls are in one box
+and follow the approach to equilibrium as a function of the number of time steps, with no
+further conditions. Figure 1 shows a numerical calculation of how the entropy averaged over
+many realizations of this evolution grows with time to approach its maximum, equilibrium
+value. The relaxation time, obtained either analytically or numerically, is approximately
+the total number of balls, trelax ∼ n. If there are no further constraints, the system tends to
+relax to equilibrium and remain there.
+Consider evolution in the Ehrenfest urn model when a final condition identical to the
+initial one is imposed at a later time T . Specifically, construct an ensemble of evolutions
+consistent with these boundary conditions by evolving forward from an initial condition
+where all the balls are in one box but accepting only those evolutions where all the balls are
+back in this box at time T . Figure 1 shows the results of two such calculations, one for a
+system with a small number of balls (where the relaxation time is significantly smaller than
+T ) and the other for a system with a larger number of balls (where it is significantly larger
+than T .)
+For both systems the time-symmetric boundary conditions imply a behavior of the average
+entropy that is time-symmetric about the midpoint, T /2. For the system with a relaxation
+time short compared to the time at which the final condition is imposed, the initial approach
+to equilibrium is nearly indistinguishable from that in the case with no final condition. That
+is because, in equilibrium, the system’s coarse-grained dynamics is essentially independent of
+its initial or final condition. It, in effect, “forgets” both from whence it started and whither
+it is going.
+By contrast, if the relaxation time is comparable to or greater than the time interval
+between initial and final condition, then there will be significant deviations from the uncon-
+strained approach to equilibrium. Such systems typically do not reach equilibrium before
+the effect of the final condition forces their entropy to decrease.
+The evolution of the entropy in the presence of time-symmetric initial and final conditions
+must itself be time-symmetric when averaged over many evolutions, as the simulations in
+Figure 1 show. However, in a statistical theory with time-symmetric boundary conditions
+the individual histories need not be time-symmetric. Figure 2 shows an example of a single
+history from an urn model calculation for which the average behavior of the entropy is shown
+in Figure 1. The ensemble of histories is time-symmetric by construction; the individual
+histories need not be. Since, by definition, we experience only one history of the universe,
+this leaves open the possibility that the time-asymmetries that we see could be the result of
+a statistical fluctuation in a universe with time-symmetric boundary conditions. In quantum
+cosmology, we would not count such a theory of the initial and final conditions as successful if
+the fluctuations required were very improbable. However, in some examples the magnitude of
+the fluctuation need not be so very large. For instance, consider a classical statistical theory
+in which the boundary conditions allow an ensemble of classical histories each one of which
+9Figure 1: Simulation of the approach to equilibrium in the Ehrenfest urn model. The entropy
+of a coarse-grained state in which only the total number of balls in each box is followed is the
+logarithm number of different ways of distributing the balls between the boxes consistent with
+a given total number in each. This figure shows this entropy averaged over a large number of
+different evolutions of the system for several situations. These simulations were carried out by the
+authors but are no different in spirit from those discussed by Cocke [22].
+The left figure shows the evolution of a system of four balls. In each case the system starts with
+all balls in one box — a configuration of zero entropy as far from equilibrium as it is possible to
+get. The ×’s show how the average entropy of 12,556 cases approaches equilibrium when there are
+no further constraints. The entropy approaches its equilibrium value in a relaxation time given
+approximately by its size, trelax ∼ 4, and remains there. The curve of +’s shows the evolution when
+a time symmetric final condition is imposed at T = 12 that all balls have returned to the one box
+from whence they started at t = 0. A total of 100,000 evolutions were tried.
+The average entropy of the 12,556 cases that met the final condition is shown. It is time symmetric
+about the midpoint, T /2 = 6. The initial approach to equilibrium is virtually indistinguishable
+from the approach without a final condition because trelax ∼ 4 is significantly less than the time
+T = 12 at which the final condition is imposed. Only within one relaxation time of the final
+condition is the deviation of the evolution from the unconstrained case apparent.
+The right figure shows the same two cases for a larger system of twenty balls. The unconstrained
+approach to equilibrium shown by the ×’s was calculated from the average of 1010 evolutions
+and exhibits a relaxation time, trelax ∼ 20. The average entropy when time-symmetric boundary
+conditions are imposed at T = 12 is shown in the curve of +’s. 10,000,000 evolutions were tried
+of which 1010 met the time-symmetric final condition. (This demonstrates vividly that it is very
+improbable for the entropy of even a modest size system to fluctuate far from equilibrium as
+measured by the CP U time needed to find such fluctuations.)
+The deviation from the unconstrained approach to equilibrium caused by the imposition of a time-
+symmetric final condition is significant from an early time of about t = 3 as the differences between
+the +’s and the ×’s show. These models suggest that to detect the effects of a time symmetric
+final condition for the universe we must have access to systems for which the relaxation time is at
+least comparable to the time difference between initial and final conditions.
+displays an arrow of time and also, with equal probability, the time-reversed of that history
+displaying the opposite arrow of time. The boundary conditions and the resulting ensemble
+are time-symmetric, but predict an observed time-asymmetry with probability one. Of
+course, such a theory might be indistinguishable from one that posited boundary conditions
+10allowing just one arrow of time. However, other theoretical considerations may make it
+reasonable to consider such proposals, for example, the “no boundary” initial condition
+which is believed to have this character [5]. In the subsequent discussion of time-symmetric
+cosmological boundary conditions we shall assume that they predict with high probability
+some observable differences from the usual special initial conditions and final condition of
+indifference and investigate what these are.
+B.
+Classical Dynamical Systems with Two-Time Statistical Boundary Conditions
+The analysis of such simple classical statistical models with two-time boundary condi-
+tions suggests the behavior of a classical cosmology with time-symmetric initial and final
+conditions. A classical dynamical system is described by a phase space and a Hamiltonian,
+H. We write z = (q, p) for a set of canonical phase-space coördinates. The histories of the
+classical dynamical system are the phase-space curves z(t) that satisfy Hamilton’s equations
+of motion.
+A statistical classical dynamical system is described by a distribution function on phase
+space ρcl (z) that gives the probability of finding it in a phase-space volume. For analogy
+with quantum mechanics it is simplest to use a “Heisenberg picture” description in which the
+distribution function does not depend explicitly on time but time-dependent coördinates on
+phase space are used to describe the dynamics. That is, if z0 is a set of canonical coördinates
+at time t = 0, a set zt appropriate to time t may be defined by zt = z0 (t) where z0 (t) is
+the classical evolution of z0 generated in a time t by the Hamiltonian H. The statistical
+system at time t is then distributed according to the function ρcl expressed in terms of the
+coördinates zt , viz. ρcl (zt ). The distributions ρcl (zt ) and ρcl (zt′ ) will therefore typically have
+different functional forms.
+An ensemble of histories distributed according to the probabilities of a statistical classical
+dynamical system with boundary conditions at two times ti and tf might be constructed as
+follows: Evolve a large number of systems distributed according to the initial distribution
+function ρcl
+i (zi ) forward from time ti to time tf . If a particular system arrives at time tf in the
+phase space volume ∆v centered about point zf , select it for inclusion in the ensemble with
+cl
+probability ρcl
+f (zf )∆v where ρf is the distribution function representing the final boundary
+cl
+cl
+condition. Thus, if ρi and ρf are referred to a common set of phase-space coördinates, say
+zt , the time-symmetric ensemble of systems will be distributed according to the function
+cl
+ρ̄cl (zt ) = Nρcl
+f (zt )ρi (zt ) ,
+where
+N
+−1
+=
+Z
+cl
+dzt ρcl
+f (zt )ρi (zt ) .
+(4.1a)
+(4.1b)
+Referred to the initial time, (4.1) has a simple interpretation: Since classical evolution is
+unique and deterministic the selection at the final time could equally well be carried out at
+cl
+the initial time with ρcl
+f evolved back to the initial time. The distribution ρ̄ is the result.
+cl
+We now discuss the relation between ρcl
+i and ρf that is necessary for the probabilities
+of this classical cosmology to be symmetric about a moment of time. Take this time to be
+t = 0 and introduce the operation, T , of time-reversal about it.
+T ρcl (q0 , p0 ) ≡ ρcl (q0 , −p0 ) .
+11
+(4.2)If we assume that the Hamiltonian is itself time-reversal invariant
+H(q0 , p0 , t) = H(q0 , −p0 , −t) ,(4.3)
+T ρcl (qt , pt ) = ρcl (q−t , −p−t ) .(4.4)
+this implies
+The distribution function (4.1) may then be conveniently rewritten
+cl
+ρ̄cl (qt , pt ) = Nρcl
+i (qt , pt )T ρf (q−t , −p−t ) .
+(4.5)
+cl
+cl
+A relation between ρcl
+i and ρf sufficient to imply the time-symmetry of the distribution ρ̄
+is now evident, namely
+−1 cl
+ρcl
+ρi (qt , pt ) .
+(4.6)
+f (qt , pt ) = T
+The final condition is just the time-reversed version of the initial one.
+The imposition of time-symmetric statistical boundary conditions on a classical cosmology
+means in particular that the entropy must behave time-symmetrically if it is computed
+utilizing a coarse graining that is itself time-symmetric. The entropy of the final distribution
+must be the same as the initial one. The thermodynamic arrow of time will run backwards
+on one side of the moment of time symmetry as compared to the other side. This does not
+mean, of course, that the histories of the ensemble need be individually time-symmetric,
+as the example in Figure 2 shows. In particular, subsystems with relaxation times long
+compared to the interval between initial and final conditions might have non-negligible
+probabilities for fluctuations from exactly time-symmetric behavior. There would appear to
+be no principle, for example, forbidding us to live on into the recontracting phase of the
+universe and see it as recontracting. It is just that as time progressed events judged to be
+unexpected on the basis of just an initial condition would happen with increasing frequency.
+It is by the frequency of such unexpected events that we could detect the existence of a final
+condition.
+Could we infer the existence of a time-symmetric final condition for the universe from
+the deviations that it would imply for the approach to equilibrium that would be expected
+were there no such final condition? The statistical models reviewed in above suggest that to
+do so we would need to study systems with relaxation times comparable to or longer than
+the lifetime of the universe between the “big bang” and the “big crunch”. If the lifetime of
+the universe is comparable to the present age of the universe from the “big bang”, then we
+certainly know such systems. Systems of stars such as galaxies and clusters provide ready
+examples. Any single star, with the ambient radiation, provides another as long as the star’s
+temperature is above that of the cosmic background radiation. Black holes with lifetime to
+decay by the Hawking radiation longer than the Hubble time are further examples. Indeed,
+from the point of view of global cosmological geometry, the singularities contained within
+black holes can be considered to be parts of the final singularity of the universe, where a final
+condition would naturally be imposed [27]. The singularities of detectable black holes may
+be the parts of this final singularity closest to us. On smaller scales, samples of radioactive
+material with very long half-lives may be other such examples and Wheeler [24] has discussed
+experiments utilizing them to search for a time-symmetric final condition. We may hope,
+as mentioned above, that the evolving collective complex adaptive system of which we are
+a part could be such a long-lasting phenomenon!
+12Fig 2. An individual evolution in the urn model with time-symmetric initial and final conditions.
+The history of the entropy averaged over many evolutions must clearly be time-symmetric in a
+statistical theory with time-symmetric initial and final conditions as Figure 1 shows. However, the
+individual evolutions need not be separately time-symmetric. This figure shows the entropy for the
+case of twenty balls in the first evolution among the 10,000,000 described in Figure 1 that met the
+time-symmetric final condition. It is not time-symmetric. For systems such as this with relaxation
+time, trelax , larger than the time between initial and final conditions, significant deviations from
+exact time symmetry may be expected.
+However, if the lifetime of the universe is much longer than the present age from the “big
+bang”, then it might be much more difficult to find systems that remain out of equilibrium
+long enough for their initial approach to equilibrium to be significantly affected by a time-
+symmetric final condition. That could be the case with the Ω-near-one universe that would
+result from a rapid initial inflation. If its lifetime were long enough, we might never be able
+to detect the existence of a time-symmetric final condition for the universe.
+The lifetime of our classical universe obeying the Einstein equation is, of course, in
+principle determinable from present observations (for example, of the Hubble constant, mean
+mass density, and deceleration parameter). Unfortunately we do not have enough data
+to distinguish observationally between a lifetime of about twenty-five billion years and an
+infinite lifetime. Very long lifetimes are not only consistent with observations, but also, as
+we now describe, are suggested theoretically by quantum cosmology as a consequence of
+inflation.
+The quasiclassical cosmological evolution that we observe should be, on a more fundamen-
+tal level, a likely prediction of a quantum theory of the universe and its boundary conditions.
+We shall discuss time symmetry in the context of quantum cosmology in later sections, but
+for the present discussion we note that, in quantum cosmology, the probabilities for differ-
+ent lifetimes of the universe are predictable from a theory of its initial and final conditions.
+That is because in a quantum theory that includes gravitation the geometry of spacetime,
+including such features as the time between the “big bang” and a “big crunch”, if any, is
+quantum-probabilistic.
+13A quantum state that predicts quasiclassical behavior does not typically predict a unique
+classical history but rather an ensemble of possible classical histories with different prob-
+abilities. This is familiar from wave functions of WKB form, which do not predict single
+classical trajectories but only the classical connection between momentum and classical ac-
+tion. Similarly, in the quantum mechanics of closed cosmologies, we expect a theory of
+quantum boundary conditions to determine an ensemble of different classical cosmological
+geometries with different probabilities.6 The geometries in the ensemble will have different
+times between the “big bang” and the “big crunch” because in quantum gravity that time is
+a dynamical variable and not a matter of our choice. In this way, the probability distribution
+of lifetimes of the universe becomes predictable in quantum cosmology.
+Cosmological theories that predict inflation lead to very large expected values for the
+lifetime of the universe; and inflation seems to be implied by some currently interesting
+theories of the boundary conditions of the universe. The question has been analyzed only
+for theories with a special initial condition, such as the “no-boundary proposal” and the
+“tunneling-from-nothing proposal”. Analyses by Hawking and Page [10], Grishchuk and
+Rozhansky [28], and Barvinsky and Kamenshchik [29] suggest very large expected lifetimes
+for the “no-boundary proposal”. Analyses by Vilenkin [30] and by Mijić, Morris, and Suen
+[31] do likewise for the “tunneling-from-nothing” case.
+C.
+Electromagnetic Radiation
+The above discussion suggests that in order to probe the nature of a non-trivial final con-
+dition, one should study processes today that are sensitive to that final condition no matter
+how far in the future it is imposed. At the conference, P.C.W. Davies suggested that elec-
+tromagnetic radiation might provide such a mechanism for “seeing” a final condition in the
+arbitrarily far future in realistic cosmologies. In an approximately static and homogeneous
+cosmology, radiation must travel through ever more material the longer the time separation
+between initial and final conditions. For sufficiently large separations, the universe becomes
+opaque to the electromagnetic radiation necessary to probe the details of the final condition
+directly. However, in an expanding universe the dilution of matter caused by the expansion
+competes with the longer path length as the separation between initial big bang and final big
+crunch becomes longer and longer. Davies and Twamley [32] show that, under reasonable
+conditions, the expansion wins and that the future light cone is transparent to photons all
+the way to a distance from the final singularity comparable to ours from the big bang.
+Transparency of the forward light cone raises the possibility of constraining the final
+condition by present observations of electromagnetic radiation and perhaps ruling out time-
+symmetric boundary conditions. Partridge [33] has actually carried out experiments which
+could be interpreted in this way and Davies and Twamley discuss others. The following is
+an example of a further argument of a very direct kind.
+Suppose the universe to have initial and final classical distributions that are time-
+symmetric in the sense of (4.6). Suppose further that these boundary conditions imply
+with high probability an initial epoch with stars in galaxies distributed approximately ho-
+6
+For further discussion see e.g. [14].
+14mogeneously and a similar final epoch of stars in galaxies at the symmetric time. Consider
+the radiation emitted from a particular star in the present epoch. If the universe is trans-
+parent, it is likely to reach the final epoch without being absorbed or scattered. There it
+may either be absorbed in the stars or proceed past them towards the final singularity. If a
+significant fraction of the radiation proceeds past, then by time-symmetry we should expect
+a corresponding amount of radiation to have been emitted from the big bang. Observa-
+tions of the brightness of the night sky could therefore constrain the possibility of a final
+boundary condition time-symmetrically related to the initial one. The alternative that the
+radiation is completely absorbed in future stars implies constraints on present emission that
+are probably inconsistent with observation because the total cross section of future stars is
+only a small fraction of the whole sky, as it is today.7
+By such arguments, made quantitative, and extended to neutrinos, gravitational and
+other forms of radiation, we may hope to constrain the final condition of the universe no
+matter how long the separation between the big bang and the big crunch.
+V.
+HYPOTHETICAL QUANTUM COSMOLOGIES WITH TIME SYMMETRIES
+A.
+CP T - and T -Symmetric Boundary Conditions
+The time-neutral generalized quantum mechanics with initial and final conditions devel-
+oped in Section III permits the construction of model quantum cosmologies that exhibit
+symmetries with respect to reflection about a moment of time. By this we mean that the
+probabilities given by (3.1) for a set of alternative histories are identical to those of the
+symmetrically related set. This section explores the relations between ρf and ρi and the
+conditions on the Hamiltonian under which such symmetries exist.
+CP T -symmetric universes are the most straightforward to implement because local field
+theory in flat spacetime is invariant under CP T . We expect CP T invariance as well for
+field theories in curved cosmological spacetimes such as closed Friedmann universes that are
+symmetric under a space inversion and symmetric about a moment of time.
+To construct a CP T -invariant quantum cosmology, choose the origin of time so that
+the time reflection symmetry is about t = 0. Let Θ denote the antiunitary CP T transfor-
+mation and for simplicity consider alternatives {Pαkk (tk )} such that their CP T transforms,
+{Peαkk (−tk )}, are given by
+Peαkk (−tk ) = Θ−1 Pαkk (tk )Θ .
+(5.1)
+A CP T -symmetric universe would be one in which the probabilities of histories of alter-
+natives at times t1 < t2 < · · · < tn would be identical to the probabilities of the CP T -
+transformed histories of alternatives at times −tn < · · · < −t2 < −t1 . Denote by Cα the
+string of projection operators representing one history
+Cα = Pαnn (tn ) · · · Pα11 (t1 ) ,
+7
+Thanks are due to D. Craig for discussions of this example.
+15
+(5.2)eα the corresponding string of CP T -transformed alternatives written in standard
+and by C
+time order with the earliest alternatives to the right
+Thus,
+eα ≡ Peα1 (−t1 ) · · · Peαn (−tn ) .
+C
+n
+1(5.3a)
+eα = Θ−1 C † Θ .
+C
+α(5.3b)
+The requirement of CP T symmetry is then, from (3.1),
+
+
+
+eα ρi C
+eα† .
+T r ρf Cα ρi Cα† = T r ρf C
+(5.4)
+Using (5.1), (5.3), the cyclic property of the trace, and the identity T r[AΘ−1 BΘ] =
+T r[B † ΘA† Θ−1 ] following from the antiunitarity of Θ, the right hand side of (5.4) may be
+rewritten to yield the following form of the requirement of CP T symmetry
+
+
+T r ρf Cα ρi Cα† = T r Θρi Θ−1 Cα Θρf Θ−1 Cα† .
+(5.5)
+Evidently a sufficient condition for a CP T -symmetric universe is that the initial and final
+conditions be CP T transforms of each other:
+ρf = Θρi Θ−1
+(5.6)
+because acting on Bose operators Θ2 is effectively unity and as a consequence of (5.6)
+ρi = Θρf Θ−1 .
+As stressed by Page [34], a CP T -symmetric universe can also be realized with within the
+usual formulation of quantum mechanics with an initial ρi and a final ρf = I, provided the
+ρi representing the condition at the initial instant is CP T -invariant about some time in the
+future. Thus, initial and final conditions that are not related by (5.6) do not necessarily
+imply differing probabilities for sets of histories connected by CP T . Further, as discussed in
+the previous section, both ways of realizing a CP T -symmetric universe can, with appropiate
+kinds of initial and final conditions and coarse-graining, lead to sets of histories in which
+each individual member is CP T -asymmetric about the moment of symmetry. Thus, neither
+are CP T -symmetric boundary conditions necessarily inconsistent with arrows of time that
+extend consistently over the whole of the universe’s evolution.
+A universe is time-symmetric about a moment of time if the probabilities of any set of
+alternative histories are identical to those of the time-inverted set. The relation between
+initial and final conditions necessary for a purely time-symmetric universe is analogous to
+that for a CP T -symmetric one and derived in the same way. However, we cannot expect
+boundary conditions to impose time symmetry if the Hamiltonian itself distinguishes past
+from future. We must assume that the Hamiltonian is symmetric under time inversion, T ,
+T −1 H(t)T = H(−t) .
+(5.7)
+Given (5.7), a time-symmetric universe will result if the initial and final conditions are
+related by time inversion:
+ρf = T ρi T −1 .
+(5.8)
+16For realistic quantum cosmologies, the time-neutral quantum mechanics of universes in
+a box, described in Section III, must be generalized to allow for significant quantum fluc-
+tuations in spacetime geometry, and notions of space and time inversion must be similarly
+generalized. A sketch of a generalized quantum mechanics for spacetime can be found in
+[14] and discussions of time inversion in the quantum mechanics of cosmology in [34], [5],
+and [6].
+B.
+T Violation in the Weak Interactions
+The effective Hamiltonian describing the weak interaction on accessible energy scales is
+not CP -invariant. As a consequence of the CP T invariance of field theory it is also not T -
+invariant. T violation of this kind is a small effect in laboratory experiments but is thought to
+be of central importance in the evolution of the matter content of the universe. It is believed
+to be responsible, together with the non-conservation of baryons, for the emergence of a
+matter-dominated universe from an initial equality of matter and antimatter, as originally
+pointed out by Sakharov.8 Can the symmetric universes just discussed be consistent with
+this effective T violation in the weak interaction?
+The violation of time-inversion symmetry that we observe in the effective weak interac-
+tion Hamiltonian could arise in three ways: First, it could be the result of T violation in the
+fundamental Hamiltonian. Second, it could arise throughout the universe even if the funda-
+mental Hamiltonian were time-inversion-symmetric, from asymmetries in the cosmological
+boundary conditions of the universe. Third, it could be an asymmetry of our particular
+epoch and spatial location arising dynamically in extended domains from a time-inversion
+symmetric Hamiltonian and boundary conditions. We shall now offer a few comments on
+each of these possibilities.
+If the fundamental Hamiltonian is time-inversion asymmetric, then we cannot expect a
+time-symmetric universe, as we have already discussed. One could investigate whether such
+a fundamental time asymmetry is the source of the other observed time asymmetries. So
+far such an approach has neither been much studied nor shown much promise.
+Even though a T -symmetric universe is inconsistent with a T -asymmetric fundamental
+Hamiltonian, a CP T -symmetric universe could be realized if the initial and final density
+matrices were related by (5.6). That is because a field-theoretic Hamiltonian is always
+CP T -symmetric even if it is not T -symmetric. But CP T symmetry needs to be reconciled
+with the observed matter-antimatter asymmetry over large domains9 of the universe and the
+classical behavior of their matter content. If the universe is homogeneously matter-dominated
+now, then CP T symmetry would imply that it will be homogeneously antimatter-dominated
+at the time-inverted epoch in the future. What evolution of the present universe could lead
+to such an inversion? One possibility is a universe that lasts much longer than the proton
+lifetime.10
+8
+Ref. [36]. For an accessible recent review of these ideas see [37].
+For a classic review of the observational evidence that there is a matter-antimatter asymmetry over a
+domain at least the size of the local group of galaxies see [38].
+10
+We owe this suggestion to W. Unruh.
+9
+17There is no evidence for CP violation in the basic dynamics of superstring theory. If it is
+the correct theory, the effective CP violation in the weak interaction in four dimensions has
+to arise in the course of compactification or from some other form of spontaneous symmetry
+breaking. From the four-dimensional point of view, which we are taking for convenience
+in this article, this would correspond to having a non-zero expected value of a CP -odd
+quantity. Then, as discussed above, it is possible to investigate time-symmetric universes
+with initial and final conditions related by (5.8). An effective CP violation could arise from
+CP asymmetries of the initial or final states or both. Typical theories of these boundary
+conditions relate them to the Hamiltonian or an equivalent action. Each density matrix, ρi
+or ρf , may either inherit the symmetries of the fundamental Hamiltonian or be an asym-
+metrical member of a symmetrical family of density matrices determined by it. This is the
+case, for example, with “spontaneous symmetry breaking” of familiar field theory where
+there are degenerate candidates for the ground state not individually symmetrical under the
+symmetries of the Hamiltonian. Before discussing the possibility of effective CP violation in
+time-symmetric universes, let us review how an effective CP violation can arise in familiar
+field theory and in usual quantum cosmology with just an initial condition.
+Effective CP violation can arise in field theory even when the fundamental Hamiltonian
+is CP -invariant, provided there is a non-vanishing vacuum expected value of a CP -odd field
+φ(~x, t) [39], i.e. one such that
+φ(−~x, t) = −(CP)−1 φ(~x, t)(CP) .
+(5.9)
+Usually the vacuum state |Ψ0 i inherits the symmetry of the Hamiltonian that determines
+it and the vacuum expected value of a CP -odd field would vanish if the Hamiltonian is
+CP -invariant. However, if there is a symmetrical family of degenerate candidates for the
+ground state that are individually not CP -invariant, then the expected value
+hφ(~x, t)i = T r [φ(~x, t)|Ψ0 ihΨ0 |]
+(5.10)
+may be non-zero for the physical vacuum.
+Similarly, in usual quantum cosmology with just an initial condition ρi , a non-zero value
+of
+hφ(~x, t)i = T r [φ(~x, t)ρi ]
+(5.11)
+can lead to effective CP violation. The “no-boundary” wave function of the universe [35]
+is the generalization of the flat space notion of ground state, i.e. vacuum, to the quantum
+mechanics of closed cosmological spacetimes. The “no-boundary” prescription with matter
+theories that would lead to spontaneous CP violation in flat space thereby becomes an inter-
+esting topic for investigation. In such situations, we expect the “no-boundary” construction
+to yield a CP -symmetric set of possible wave functions for the universe that are individually
+CP -asymmetric.
+We now turn to effective CP violation in time-symmetric universes with initial and fi-
+nal states related by (5.8). An expected value for a field is defined when probabilities are
+assignable to its alternative values — that is, when there is decoherence among the alter-
+natives. The requirements of decoherence will be discussed in the next Section. They are
+automatically satisfied for alternatives at a single moment of time when ρf ∝ I but they
+are non-trivial when ρf is non-trivial. We have not analyzed the circumstances in which the
+18values of the field decohere but we assume those circumstances to obtain here so that the
+expectation value of the field may be defined.
+A consequence of decoherence and the probability formula (3.1) is the validity of two
+equivalent expressions for the expected value of the field that are analogous to (5.10) and
+(5.11):
+hφ(~x, t)i = NT r [ρf φ(~x, t)ρi ] = NT r [ρi φ(~x, t)ρf ] .
+(5.12)
+These are demonstrated in the Appendix. The symmetry between the initial and final
+conditions in (5.12) can be understood from the fact that it is not probabilities at one
+moment of time that distinguish the future from the past. We shall now show that for a
+CP -odd field this expected value is odd under time inversion for a time-symmetric universe.
+We carry over from flat space field theory the assumption that we are dealing with a
+CP T -even field φ(~x, t). In flat space that is necessary if the field is to have a non-vanishing
+vacuum expected value. The CP T invariance of field theory then means that it is possible
+to choose a (real) representation of φ(~x, t) such that
+φ(−~x, −t) = (CPT )−1 φ(~x, t)(CPT ) .
+Therefore, since φ(~x, t) is CP -odd it must be T -odd and then
+
+
+hφ(~x, −t)i = −T r ρf T −1 φ(~x, t)T ρi .
+But if ρi and ρf are related by (5.8) this relation may be written
+
+
+hφ(~x, −t)i = −T r T −1 ρi T T −1 φ(~x, t)T T −1 ρf T
+= −T r [ρi φ(~x, t)ρf ] = −hφ(~x, t)i .
+(5.13)
+(5.14)
+(5.15)
+The conclusion is that it is possible to choose initial and final conditions so that a universe
+is time-symmetric and has a non-vanishing expected value of a CP -odd field. That expected
+value is odd in time (the correct time-symmetric behavior for a T -odd field.) As a conse-
+quence the sign of CP violation would be opposite on opposite sides of the moment of time
+symmetry and the magnitude of CP violation would decrease on cosmological time scales
+as the moment of time symmetry is approached. The CP violation in the early universe
+might well be larger than generally supposed and Sakharov’s mechanism for the generation
+of the baryons more effective. However, if the moment of time symmetry is far in our future,
+then such variation in the strength of CP violation would be small and it would be difficult
+to distinguish this time-symmetric situation from the kind of CP violation that arises from
+just an initial condition as discussed above.
+In the class of time-symmetric universes just discussed, CP violation arises from initial
+and final conditions that are not CP -symmetric. However, an effective CP violation could
+also exist in our epoch, in local spatial domains, even if both Hamiltonian and initial and
+final states were CP -symmetric:
+H = (CP)−1 H(CP) , ρi = (CP)−1 ρi (CP) , ρf = (CP)−1 ρf (CP) .
+(5.16)
+Dynamical mechanisms would need to exist that make likely the existence of large spacetime
+domains in which CP is effectively broken, say by the expected value of a CP -odd field that
+grows to be homogeneous over such a domain. In such a picture the set of histories of the
+19universe would be overall CP -symmetric and T -symmetric, as follows from (5.16). Individual
+histories would display effective CP violation in domains with sizes and durations that are
+quantum-probabilistic. If very large sizes and durations were probable it would be difficult
+to distinguish this kind of mechanism from any of those discussed above.
+Overall matter-antimatter symmetry would be expected for such universes with matter
+or anti-matter predominant only in local domains. Their size must therefore be larger than
+the known scales on which matter is dominant [38]. The calculation of the probabilities for
+these sizes and durations thus becomes an important question in such pictures. An extreme
+example occurs in the proposal of Linde [40], in which such domains are far larger than the
+present Hubble radius.
+VI.
+THE LIMITATIONS OF DECOHERENCE AND CLASSICALITY
+As we mentioned in Section II, the quantum mechanics of a closed system such as the
+universe as a whole predicts probabilities only for those sets of alternative histories for
+which there is negligible interference between the individual members in the set. Sets of
+histories that exhibit such negligible interference as a consequence of the Hamiltonian and
+boundary conditions are said to decohere. A minimal requirement on any theory of the
+boundary conditions for cosmology is that the universe exhibit a decoherent set of histories
+that corresponds to the quasiclassical domain of everyday experience. This requirement
+places significant restrictions on the relation between ρi and ρf in the generalized quantum
+mechanics for cosmology, as we shall now show.
+A.
+Decoherence
+Coherence between individual histories in an exhaustive set of coarse-grained histories is
+measured by the decoherence functional [20]. This is a complex-valued functional on each
+pair of histories in the set. If the cosmos is replaced by a box, so that possible complications
+from quantum gravity disappear, then individual coarse-grained histories are specified by
+sequences of alternatives α = (α1 , · · · , αn ) at discrete moments of time, t1 , · · · , tn . The
+decoherence functional for the case of two-time boundary conditions is given by [15]
+
+
+D(α′, α) = NT r ρf Cα′ ρi Cα† .
+(6.1)
+A set of histories decoheres when the real parts of the “off-diagonal” elements of the deco-
+herence functional — those between two histories with any αk 6= αk′ — vanish to sufficient
+accuracy. As first shown by Griffiths [13], this is the necessary and sufficient condition that
+the probabilities (3.1), which are the “diagonal” elements of D, satisfy the sum rules defining
+probability theory.
+The possibility of decoherence is limited by the choice of initial and final density matrices
+ρi and ρf . To see an example of this, consider the case in which both are pure, ρi = |Ψi ><
+Ψi | and ρf = |Ψf >< Ψf |. The decoherence functional would then factor:
+D(α′ , α) = N < Ψf |Cα′ |Ψi >< Ψi |Cα |Ψf > ,
+20
+(6.2)where N now is | < Ψi |Ψf > |−2 . In this circumstance the requirement that the real part of
+D vanish for α′ 6= α can be satisfied only if there are at most two non-vanishing quantities
+< Ψi |Cα |Ψf >, with phases differing by 90◦ , giving at most two histories with non-vanishing
+probabilities! Thus initial and final states that are both pure, such as those corresponding to
+a “wave function of the universe”, leads to a highly unorthodox quantum mechanics in which
+there are only one or two coarse-grained histories. All the apparent accidents of quantum
+mechanics would be determined11 by the boundary conditions ρi and ρf . The usual idea of
+a simple ρi (or ρi and ρf ), with the algorithmic complexity of the universe contained almost
+entirely in the throws of the quantum dice, would here be replaced by a picture in which
+the algorithmic complexity is transferred to the state vectors |Ψi i and |Ψf i. Presumably
+these would be described by a simple set of rules plus a huge amount of specific information,
+unknowable except by experiment and described in practice by a huge set of parameters
+with random values.
+This bizarre situation refers to the use of a pure ρi and a pure ρf , whether or not there
+is any kind of time symmetry relating them.
+B.
+Impossibility of a Universe with ρf = ρi .
+We shall now give a very special example of a relation between ρi and ρf , stronger than
+time symmetry, that is inconsistent with the existence of a quasiclassical domain. More
+precisely we shall show that in the extreme case
+ρf = ρi ≡ ρ
+(6.3)
+only sets of histories exhibiting trivial dynamics can exactly decohere. This condition means
+that ρf has the same form when expressed in terms of the initial fields φ(~x, t0 ) as ρi does.
+Such a situation could arise if, in addition to time symmetry, we had ρi and ρf separately,
+individually time-symmetric and with effectively no time difference between the initial and
+final conditions. We know of no theoretical reason to expect such a situation, but it does
+supply an example that leads to a contradiction with experience.
+Given the artificial condition, (6.3), we can write the decoherence condition as
+(T rρ2 )−1 ReT r(ρCα′ ρCα† ) = δα′ α p(α) ,
+(6.4)
+where p(α) is the probability of the history α. Summing over all the {αn } and {αn′ } except
+αk and αk′ , we have
+(T rρ2 )−1 ReT r[ρPαk′k (tk )ρPαkk (tk )] = δα′k αk p(αk ) .
+We note that Pαkk (tk ) and Pαk′ (tk ) are just projection operators and thus of the form
+k
+X
+|n >< n| and
+n
+11
+X
+|n′ >< n′ |
+n′
+This situation is closely related to the one described by L. Schulman [41].
+21
+(6.5)respectively, where the |n > and |n′ > are mutually orthogonal for αk 6= αk′ . Eq. (6.5) then
+tells us that
+X
+(T rρ2 )−1
+| < n|ρ|n′ > |2 = 0 for αk 6= αk′ .
+(6.6)
+n,n′
+Thus ρ has no matrix elements between any |n > and any |n′ > for αk 6= αk′ . In other words,
+ρ commutes with all the P ’s and therefore with all the chains Cα of P ’s:
+[Cα , ρ] = 0 for all α .
+(6.7)
+This consequence of perfect decoherence for the special case (6.3) has some important im-
+plications. For one thing, the decoherence formula can now be written
+(T rρ2 )−1 T r(Cα′ ρ2 Cα† ) = δα′ α p(α) ,
+(6.8)
+so that we are back to ordinary quantum mechanics with only an initial density matrix
+ρ̄ ≡ (T rρ2 )−1 ρ2 [cf. (4.5) in the classical case] but with the very restrictive condition
+[Cα , ρ̄] = 0 for all α .
+(6.9)
+The cosmology with the symmetry (6.3) was supposed to be in contrast to the usual one
+with only an initial density matrix, and yet it turns out to be only a special case of the
+usual one with the stringent set of conditions (6.9) imposed in addition. The resolution of
+this apparent paradox is that Eq. (6.9) permits essentially no dynamics and thus achieves
+symmetry between ρi and ρf in a rather trivial way. That is not surprising in view of the
+nature of this condition discussed above.
+We have seen that any Pαkk (tk ) has to commute with ρ̄ if it is to be permitted in a chain of
+P ’s constituting a member of a decohering set of alternative coarse-grained histories. Now
+it is unreasonable that for a given projection operator P there should be only a discrete set
+of times at which it is permissible to use it in a history (e.g., for a measurement). Thus
+we would expect that there should be a continuous range of such times, which means that
+Ṗ = −i[P, H] must commute with ρ̄. But ρ̄ and P , since they commute, are simultaneously
+diagonalizable, with eigenvalues πi and qi respectively. The time derivative of the probability
+T r(ρ̄P ) is
+X
+T r(ρ̄Ṗ ) = −iT r(ρ̄[P, H]) = −i
+πi (qi − qi )Hii = 0 .
+(6.10)
+i
+The probabilities of the different projections P remain constant in time, so that there is
+essentially no dynamics and certainly no second law of thermodynamics.
+C.
+Classicality
+A theory of the boundary conditions of the universe must imply the quasiclassical domain
+of familiar experience. A set of histories describing a quasiclassical domain must, of course,
+decohere. That is the prerequisite for assigning probabilities in quantum mechanics. But
+further, the probabilities must be high that these histories are approximately correlated
+by classical dynamical laws, except for the intervention of occasional amplified quantum
+fluctuations.
+22There are, of course, limitations on classical two-time boundary conditions. We cannot,
+for example, specify both coördinates and their conjugate momenta at both an initial and a
+final time. There would, in general, be no corresponding solutions of the classical equations
+of motion. Even if initial and final conditions in quantum cosmology allow for decoherence
+as discussed above, they could still be too restrictive to allow for classical correlations. One
+would expect this to be the case, for example, if they required a narrow distribution of
+both coordinates and momenta both initially and finally. Quantum cosmologies with two
+boundary conditions are therefore limited by both decoherence and classicality.
+VII.
+CONCLUSIONS
+Time-symmetric quantum cosmologies can be constructed utilizing a time-neutral gen-
+eralized quantum mechanics of closed systems with initial and final conditions related by
+time-inversion symmetry. From the point of view of familiar quantum mechanics such time-
+symmetric cosmologies are highly unusual. If we think of Hilbert space as finite-dimensional,
+we could introduce a normalization T r(ρf ) T r(ρi ) = T r(I), which would agree with the
+usual case T r(ρi ) = 1, T r(ρf ) = T r(I). (Note that both N = T r(ρf ρi ) and the quantity
+T r(ρf ) T r(ρi ) are invariant under multiplication of ρi by a factor and ρf by the inverse
+factor.) With this normalization we may think of N −1 = T r(ρf ρi ) as a measure of the
+likelihood of the final condition given the initial one. The similarly defined quantity N −1
+in the analogous classical time-symmetric cosmologies is just that. It is the fraction of tra-
+jectories meeting the initial condition that also meet the final one [cf. (4.1)]. The measure
+N −1 is unity for the usual cases where ρf = I. It can be expected to be very small for
+large systems with time-symmetric boundary conditions, as the simple model described in
+Figure 1 suggests. The measure N −1 is likely to be extraordinarily small in the case of the
+universe itself. Were it exactly zero the initial and final boundary condition construction
+would become doubtful. We are unsure how much of that doubt survives if it is merely
+extraordinarily small.
+As a prerequisite for a time-symmetric quantum cosmology, the fundamental Hamiltonian
+must be time-inversion symmetric to give a meaningful notion of time-symmetry and this
+restricts the mechanisms by which the effective CP violation in the weak interactions can
+arise. There must be some impurity in the initial or final density matrices or in both for any
+non-trivial probabilities to be predicted at all. If we wish to exclude the highly unorthodox
+quantum mechanics in which |Ψii and |Ψf i determine all the throws of the quantum dice,
+then we could not have, for example, a time-symmetric quantum cosmology with both the
+initial and final conditions resembling something like the “no-boundary” proposal. These
+results have been obtained by assuming unrealistic exact decoherence and by neglecting
+gross quantum variations in the structure of spacetime, which may be important in the early
+universe. It would be desirable to extend the discussion to remove these special restrictions.
+Even if these purely theoretical requirements for time-symmetry were met, observations
+might rule out such boundary conditions. Deviations from the usual thermodynamic or CP
+arrows of time may be undetectably small if the time between initial and final conditions
+is long enough. But, as suggested by Davies and Twamley, an expanding and contracting
+time-symmetric cosmology may be transparent enough to electromagnetic and other forms of
+radiation that the effects of time-symmetric initial and final conditions would be inconsistent
+23with observations today. In the absence of some compelling theoretical principle mandating
+time symmetry, the simplest possibility seems to be the usually postulated universe where
+there is a fundamental distinction between past and future — a universe with a special initial
+state and a final condition of indifference with respect to state. Nevertheless, the notion of
+complete T symmetry or CP T symmetry remains sufficiently intriguing to warrant further
+investigation of how such a symmetry could occur or what observations could rule it out. In
+this paper we have provided a quantum-mechanical framework for such investigations.

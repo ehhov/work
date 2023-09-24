@@ -1,0 +1,21 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+
+\newlength{\len}
+\setlength{\len}{.5mm}
+
+
+\begin{document}
+
+\begin{tikzpicture}[x=1\len, y=1\len]
+
+  \path (0, 0) node[anchor=south west](a){
+    \includegraphics[width=100\len]{src/sc2800-babar}
+  };
+
+  \path (75, 60) node{$\Sigma_c(2800)^0$};
+
+\end{tikzpicture}
+
+\end{document}

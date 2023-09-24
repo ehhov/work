@@ -1,0 +1,326 @@
+                Charmed baryon spectroscopy provides an excellent               ray of CsI(Tl) crystals located inside a superconducting
+              laboratory to study the dynamics of a light diquark in            solenoidal coil that produces a 1.5T magnetic ﬁeld. An
+              the environment of a heavy quark, allowing the predic-            iron ﬂux return located outside the coil is instrumented
+              tions of diﬀerent theoretical approaches to be tested [1,         to detect muons and K0 mesons. We use a GEANT
+                                                                                                           L
+              2, 3, 4].    There are twelve experimentally observed             based Monte-Carlo (MC) simulation [13] to model the
+              charmed baryons for which the spins and parities are as-          response of the detector and to determine its acceptance.
+              signed [5, 6]. They include ground states, spin excita-           Signal MC events are generated with experimental run
+              tions and lowest orbital excitations. Except for the Λ+,          dependence in proportion to the relative luminosities of
+                                                                         c
+              the JP quantum numbers for these states have not been             diﬀerent running periods.
+              determined experimentally but are assigned based on the             Λ+ baryons are reconstructed using the pK−π+ decay
+              quark model predictions for their masses. There are also              c
+                                                                                mode (the inclusion of charge conjugate modes is im-
+              six charmed baryons, recently observed at the CLEO [7],           plied throughout this Letter). To select proton, charged
+              Belle [8, 9] and BaBar [10] experiments, for which the            kaon and pion candidates we use the same track qual-
+              spins and parities are not well constrained.       The new        ity and particle identiﬁcation criteria as for observa-
+              states are in a mass region where the quark model pre-            tion of the Σc(2800) isotriplet [8]. The invariant mass
+              dicts many levels with small spacing, which makes the             of the pK−π+ combinations is required to be within
+              JP assignment diﬃcult. In this Letter we investigate              ±8MeV/c2 (1.6σ) of the Λ+ mass value, recently mea-
+                                                                                                              c
+              possible spin and parity values of one such state, the            sured by BaBar [14]. To improve the accuracy of the Λ+
+                        +                                                                                                                  c
+              Λc(2880) baryon[7, 10], by studying the resonantstruc-            momentummeasurementweperforma massconstrained
+                                +      + + −                                                   − +                             +
+              ture of Λc(2880)    →Λcπ π decaysandperformingan                  ﬁt to the pK π       vertex. We combine Λc candidates
+                                             +               0,++ +,−                                 + −
+              angular analysis of Λc(2880)      →Σc(2455)         π     de-     with the remaining π π      candidates in the event. To re-
+                                                                      +
+              cays. WealsoreporttheﬁrstobservationofΛc(2940) →                  duce the combinatorial background we impose a require-
+                        0,++ +,−                                    +                                                     + + −
+              Σc(2455)      π      decay and measure Λc(2880)          and      ment on the scaled momentum of the Λc π π          combina-
+                        +                                                                   ∗ p ∗2            2                 ∗
+              Λc(2940)    parameters.                                           tion x ≡ p / E           −M >0.7, where p is the mo-
+                                                                                      p            beam
+                                 −1                                             mentumandM istheinvariantmassofthe combination,
+                Weusea553fb         data sample collected with the Belle
+              detector at or 60MeV below the Υ(4S) resonance, at the            E∗     is the beam energy, all variables being measured in
+                                                                                  beam
+              KEKB asymmetric-energy (3.5GeV on 8.0GeV) e+e−                    the center-of-mass frame. To improve the M(Λ+π+π−)
+                                                                                                                                    c
+              collider [11]. The Belle detector [12] is a large-solid-angle     resolution we perform an interaction point constrained
+              magnetic spectrometer that consists of a silicon vertex           ﬁt to the Λ+π+π− vertex.
+                                                                                            c
+                                                                                                               +
+              detector, a 50-layer cylindrical drift chamber, an array            To measure the Λc(2880)         mass and width we ap-
+              of aerogel threshold Cherenkov counters, a barrel-like            ply an additional requirement that either M(Λ+π−) or
+                                                                                                                                    c
+              array of time-of-ﬂight scintillation counters, and an ar-         M(Λ+π+) be in the Σc(2455) signal region deﬁned as
+                                                                                     c
+                                                                                                                                     3
+             2450MeV/c2 < M <2458MeV/c2. Whereas 35% of sig-
+                                                                            
+             nal events pass this cut, only 12% of background events        
+                                                                            
+             do so. From MC simulation we ﬁnd that the mass res-            
+                                       +              0,++ +,−              
+             olution for the Λc(2880)     →Σc(2455)        π     decays     
+             depends strongly on the decay angle θ, deﬁned as the an-       
+                                                                 +          
+             gle between the pion momentum in the Λ (2880)          rest    
+                                                          c                 
+                                                              +             
+             frame and the boost direction of the Λc(2880) . To as-         
+                                                                            
+                                                     +
+             sure good resolution for the Λc(2880)     mass and width
+             measurementwerequirecosθ > 0. This requirement also
+             helps to suppress combinatorial background. The result-
+             ing M(Λ+π+π−) distribution is shown in Fig. 1. One             The normalized χ2 of the ﬁt is χ2/d.o.f. = 132.2/134. If
+                       c                                                                 +
+                                                                            the Λc(2940)    signal is removed from the ﬁt, the double
+                 log likelihood changes by 59.8, which corresponds (for 3
+                 degrees of freedom) to a signal signiﬁcance of 7.2 stan-
+             
+                 dard deviations.
+             
+                    To estimate the systematic uncertainty on the re-
+             
+             
+                 sults of the ﬁt we vary the background parameteriza-
+             
+                 tion, using a fourth-order polynomial and the inverse
+             
+                                                                          +
+                 of a third-order polynomial. We include the Λc(2765)
+             
+                 signal region into the ﬁt interval, parameterizing the
+                          +
+                 Λc(2765)    signal by an S-wave Breit-Wigner function.
+                               +
+                 The Λc(2765)     mass and width determined from the ﬁt
+                 are M = (2761±1)MeV/c2 and Γ = (73±5)MeV. We
+                 vary the selection requirements; we take into account the
+                 uncertainty in the Λ+ mass of ±0.14MeV/c2 [14], the
+                                       c    +0.19
+                 mass scale uncertainty of        MeV/c2 [15] and the un-
+                                            −0.21
+             
+                 certainty in the detector resolution of ±10% as estimated
+                 by comparison of the inclusive Λ+ → pK−π+ signal in
+                                                    c
+                                                                     +
+                 data and MC. In the region between the Λc(2880)        and
+             
+                          +
+                 Λc(2940) signals the ﬁt is systematically below the data
+                 points, which might be due to a presence of an additional
+                                                                            resonance or due to interference. We take into account
+                                                     +                +     these possibilities as a systematic uncertainty. In each
+             can see clear peaks from the Λc(2765)      and Λc(2880) .
+             A peak in the region M = 2940MeV/c2 is associated              case we consider the largest positive and negative varia-
+                                +                                     0                           +               +
+             with the Λc(2940)    baryon recently observed in the D p       tion in the Λc(2880)    and Λc(2940)     parameters to be
+             ﬁnal state by BaBar [10]. Scaled Σc(2455) sidebands,           the systematic uncertainty from this source; each term
+             which are also shown in Fig. 1, are featureless in the         is then added in quadrature to give the total system-
+                                      +                                     atic uncertainty, quoted in Table I. The main sources
+             region of the Λc(2940) . The Σc(2455) sidebands are
+             deﬁned as 2438MeV/c2 < M(Λ+π) < 2446MeV/c2 and                 of the systematic uncertainty are a possible contribution
+                                              c
+                          2        +                   2                                     +
+             2462MeV/c <M(Λcπ)<2470MeV/c .                                  of the Λc(2765)    tail into the ﬁt region (the shape of
+                We perform a binned likelihood ﬁt to the Λ+π+π−             the tail is not well constrained) and the excess of events
+                                                                c                                  +               +
+             mass spectrum of Fig. 1 to extract the parameters and          between the Λc(2880)     and Λc(2940)     signals. None of
+                                    +               +                                                                         +
+             yields of the Λc(2880)   and Λc(2940) . The ﬁtting func-       the variations in the analysis alters the Λc(2940)   signal
+                                                               +            signiﬁcance to less than 6.2 standard deviations.
+             tion is a sum of three components: Λc(2880)         signal,
+                       +
+             Λc(2940)    signal and combinatorial background func-             For further analysis, we remove the cosθ > 0 re-
+             tions. As shown below, the favored spin-parity assign-         quirement.    To study the resonant structure of the
+                                     +    5+                          +              +       + + −                       + + −
+             ment for the Λc(2880)     is 2 , therefore the Λc(2880)        Λc(2880)    →Λcπ π decays we ﬁt the Λc π π mass
+             signal is parameterized by an F-wave Breit-Wigner func-        spectruminM(Λ+π±)bins. Byisospinsymmetry,weex-
+                                                                                              c
+             tion convolved with the detector resolution function, de-      pectequallymanydecaystoproceedviaadoublycharged
+                                                    2                 +
+             termined from MC (σ = 2.2MeV/c ). The Λc(2940)                 Σc(2455) (Σc(2520)) as via a neutral one.        Since the
+             signal is an S-wave Breit-Wigner function convolved with       corresponding doubly charged and neutral channels are
+             the detector resolution function (σ = 2.4MeV/c2). The          kinematically separated in phase space, we combine the
+             background is parameterized by a third-order polyno-           M(Λ+π+π−)distributions for M(Λ+π−) and M(Λ+π+)
+                                                                                 c                               c               c
+             mial. The ﬁt is shown in Fig. 1, and the results are sum-      bins. To ﬁt the Λ+π+π− mass spectra we use the same
+                                                                                               c
+                                                                                                                                +
+             marized in Table I. The signal yield is deﬁned as the in-      ﬁt function as described above.      The Λc(2880)      and
+                                                                                     +
+             tegral of the Breit-Wigner function over a ±2.5Γ interval.     Λc(2940)    parameters are ﬁxed to the values in Table I.
+                                                                                                                                                4
+                              +                               + ±
+              The Λc(2880) yield as a function of M(Λc π ) is shown               duces the signiﬁcance of the Σc(2520) signal below three
+              in Fig. 2. We ﬁnd a clear signal for the Σc(2455) and               standard deviations.
+                                                                                                                                          +
+                        To perform angular analysis of Λc(2880)                   →
+                               0,++ +,−                          + + −
+                     Σc(2455)       π      decays we ﬁt the Λc π π        spectrum
+                     in cosθ and φ bins for the Σ (2455) signal region and
+                                                       c
+                     sidebands. Here, φ is the angle between the e+e− →
+              
+                               +
+                     Λc(2880) X reaction plane and the plane deﬁned by the
+                                                             +
+                     pion momentum and the Λc(2880)             boost direction in
+                                                         +
+                     the rest frame of the Λc(2880) . Figure 3 shows the
+              
+                                         +
+                     yield of Λc(2880)      as a function of cosθ and φ, after
+                     Σc(2455) sideband subtraction (to account for nonreso-
+                     nant Λ+π+π− decays) and eﬃciency correction.
+                             c
+              
+              
+                                                                                 
+              an excess of events in the region of the Σ (2520). We              
+                                                               c
+              perform a χ2 ﬁt to the Λ+π± mass spectrum of Fig. 2 to
+                                          c
+              extract the yields of the Σc(2455) and Σc(2520). The ﬁt-           
+              ting function is a sum of three components: Σ (2455)
+                                                                      c
+              signal, Σc(2520) signal and a non-resonant contribu-
+              tion. The Σc(2455) and Σc(2520) signals are parameter-             
+              ized by a P-wave Breit-Wigner function convolved with              
+              the detector resolution functions, determined from MC              
+              (σ = 0.9MeV/c2 for the Σc(2455) and σ = 1.5MeV/c2                  
+                                                                                 
+              for the Σ (2520)). The mass and width of the Σ (2455)              
+                         c                                            c          
+                                                                                 
+              are ﬂoated, while the mass and width of the Σ (2520) are           
+                                                                 c               
+              ﬁxed to the world average values [5]. The shape of the             
+                                                                                 
+              non-resonantcontributionisdeterminedfromMCassum-                   
+                                                                                 
+                                                                                 
+              ing a uniform distribution of the signal over phase space.         
+                                                                            +    
+              TheﬁtisshowninFig.2. WeﬁndtheratiosofΛc(2880)
+                                Γ(Σ (2455)π±)
+              partial widths        c           = 0.404 ± 0.021 ± 0.014,         
+                                     + + −
+                                  Γ(Λ π π )
+                                     c
+               Γ(Σ (2520)π±)                                 Γ(Σ (2520)π±)
+                  c           =0.091±0.025±0.010and             c           =
+                   + + −                                     Γ(Σ (2455)π±)       
+                Γ(Λ π π )                                       c
+                   c
+              0.225±0.062±0.025, where the uncertainties are statis-             
+              tical and systematic, respectively. The Σ (2455) param-
+                                                             c
+              eters determined from the ﬁt M = (2453.7±0.1)MeV/c2                
+              and Γ = (2.0 ± 0.2)MeV are consistent with the world               
+                                                             2                                                           decays
+              average values [5].      The normalized χ        of the ﬁt is      
+              χ2/d.o.f. = 106.6/75. The signiﬁcance of the Σ (2520)              
+                                                                      c
+              signal is 3.7 standard deviations.
+                 To estimate the systematic uncertainties on the ratios
+                            +                                          +                                                   +
+              of Λc(2880)     partial widths we vary the Λc(2880)         pa-        The parameterization of Λc(2880)         →Σc(2455)π de-
+              rameters, ﬁt interval and background parameterization               cay angular distributions depends on the spin of the
+              in the ﬁt to the M(Λ+π+π−) spectrum; we vary the                              +                    1
+                                         c                                        Λc(2880) . For the spin 2 hypothesis both cosθ and
+              Σc(2520) parameters; we allow the shape of the non-                 φ distributions are expected to be uniform [16]. χ2 ﬁts
+              resonant contribution to ﬂoat in the ﬁt, parameterizing             to a constant are shown in Fig. 3 by a dotted line. The
+              it with a second-order polynomial multiplied by a thresh-           agreement is good for φ: χ2/d.o.f. = 5.3/9, but poor for
+              old function or by a third-order polynomial; we take into           cosθ: χ2/d.o.f. = 46.7/9.
+              account the uncertainty in the detector resolution and in
+              the reconstruction eﬃciency. None of the variations re-                The angular distribution for the spin 3 hypothesis
+                                                                                                                                   2
+                                                                                                                                                5
+              is [16]                                                                      5+                                    +
+                                                                                     The 2      assignment for the Λc(2880)          makes it a
+                                                                                  special state that lies on the leading Λ+ Regge trajec-
+                                                                                                                                c
+                                      3         2          1       2              tory, whose lower JP members are the 1+ Λ+ and 3−
+                            W = [ρ33sin θ+ρ11( +cos θ)−                                                                         2     c        2
+                              3/2    4π                    3                                           +
+                                                                                            +        5                                   +
+                     2                            2                               Λc(2625) . The 2       assignment for the Λc(2880)       based
+                    √              2             √
+                      3Reρ3−1sin θcos2φ−           3Reρ31sin2θcosφ],              on a string model for baryons was proposed in Ref. [18].
+                                                                                                                                            +
+                                                                                     In summary, from angular analysis of Λc(2880)             →
+              where ρ      are the elements of the production density                       0,++ +,−                                       +
+                        ij                                                        Σc(2455)       π      decays we ﬁnd that a Λc(2880)        spin
+              matrix.     The diagonal elements are real and satisfy              hypothesis of 5 is strongly favored over 1 and 3. We
+                                                                                                   2                              2       2
+              2(ρ33 + ρ11) = 1. Since the measured distribution in                ﬁnd ﬁrst evidence for Σc(2520)π intermediate states
+              φ is consistent with being uniform (this also holds sep-                               +          + + −
+                                                                                  in the Λc(2880)        → Λcπ π decays and measure
+                                                                                   Γ(Σ (2520)π±)
+              arately for cosθ > 0 and cosθ < 0 samples), the non-                    c           = 0.225 ± 0.062 ± 0.025.        This value is
+                                                                                   Γ(Σ (2455)π±)
+              diagonal elements are small.        The result of the ﬁt to             c
+                                                    3                             in agreement with Heavy Quark Symmetry predictions
+              the cosθ spectrum for the spin 2 hypothesis is shown                and favors the 5+ over the 5− hypothesis for the spin-
+              in Fig. 3 with a dashed curve. The agreement is poor:                                 2       +      2
+              χ2/d.o.f. = 35.1/8.                                                 parity of the Λc(2880) . We also report the ﬁrst obser-
+                                                                                                       +
+                 The angular distribution for the spin 5 hypothesis               vation of Λc(2940)      →Σc(2455)π decays, and measure
+                                                               2                                 +                +
+              is [16]                                                             the Λc(2880)     and Λc(2940) parameters.
+                                                                                  
+                                        3            4          2                 
+                              W = [ρ552(5cos θ−2cos θ+1)+
+                                 5/2    8                                         
+                               4           2                        2   2         
+                  ρ33(−15cos θ+14cos θ+1)+ρ115(1−cos θ) ],                        
+              where non-diagonal elements are ignored. The result of              
+              the ﬁt to the cosθ spectrum for the spin 5 hypothesis               
+                                                               2                  
+              is shown in Fig. 3 with a solid curve. The agreement is
+              good: χ2/d.o.f. = 12.1/7. We ﬁnd ρ55 = 0.09±0.02 and                
+                                                        +                         
+              ρ33 = 0.00±0.03. Thus the Λc(2880)          populates mainly
+              thehelicity ±1 states, 2ρ      =1−2ρ −2ρ =0.82±0.05.                
+                              2           11         33     55
+                 Theχ2diﬀerenceofthespin 1 (3)andspin 5 ﬁtsisdis-                 
+                             2                   2  2            2
+              tributed as χ with two degrees (one degree) of freedom,
+              therefore the exclusion level of the spin 1 (3) hypothesis
+                                                           2   2
+              is 5.5 (4.8) standard deviations.
+                 To estimate the systematic uncertainty in the angular           
+                                           +                0,++ +,−
+              analysis of the Λc(2880)        → Σc(2455)         π     decay     
+                                      +
+              we vary the Λc(2880)      parameters, ﬁt interval and back-        
+              ground parameterization in the ﬁt to the M(Λ+π+π−)                 
+                                                                    c
+              spectrum. None of the variations alters the exclusion              
+              level of the spin 1 (3) hypothesis to less than 5.5 (4.5)          
+                                  2   2                                          
+              standard deviations.                                               
+                 The Capstick-Isgur quark model predicts the lowest              
+              JP = 5− Λ+ state at 2900MeV/c2 and the lowest JP =
+                      2    c                                                     
+               5+ Λ+ state at 2910MeV/c2 [1]. The typical accuracy               
+               2     c                                                           
+              of quark model predictions is 50MeV/c2, therefore the
+                                                                            +    
+              agreementwiththeexperimentalvaluefor the Λc(2880)                  
+              mass is quite good. The lowest spin 5 states are well              
+                                                 5         2            2
+              separated from the next J = 2 levels (3130MeV/c for                
+              negative and 3140MeV/c2 for positive parities) and from            
+              J = 7 levels (3125MeV/c2 for negative and 3175MeV/c2               
+                    2                                                            
+              for positive parities).                                            
+                                                              Γ(Σ (2520)π)
+                 Heavy Quark Symmetry predicts R ≡                c         =
+                                                              Γ(Σ (2455)π)       
+                                                                  c
+              1.4 for the 5− state and R = 0.23 − 0.36 for the                   
+                             2                                                   
+               5+ state [2, 17].     The measured value R = 0.225 ±
+               2                                                                 
+              0.062 ± 0.025 favors the positive parity assignment for            
+                             +
+              the Λc(2880) .                                                     

@@ -1,0 +1,70 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\newlength{\len}
+\setlength{\len}{1mm}
+
+\begin{document}
+
+\begin{tikzpicture}[x=\len, y=\len]
+  \draw (000, 0) node(s){\includegraphics[width=100\len, draft]{src/mva-training-sig-splot-2018-raw.pdf}};
+  \draw (100, 0) node(b){\includegraphics[width=100\len, draft]{src/mva-training-bkg-raw.pdf}};
+
+  \draw (s.south) node{$m(\Lambda_c\pi^+\pi^-\pi^-)$};
+  \draw (s.south east) node[anchor=east]{$[\mathrm{GeV}/c^2]$};
+  \draw (b.south) node{$m(\Lambda_c\pi^+\pi^-\pi^-)$};
+  \draw (b.south east) node[anchor=east]{$[\mathrm{GeV}/c^2]$};
+
+  %\draw (s.north west) node[rotate=90, anchor=east]{Events / 2 MeV$/c^2$};
+  \draw (s.north west) node[rotate=90, anchor=east]{Events / 5 MeV$/c^2$};
+  \draw (b.north west) node[rotate=90, anchor=east]{Events / 2 MeV$/c^2$};
+
+  %\path (s.south west) -- (s.north east) node[pos=.9, anchor=north east]{LHCb Unofficial};
+  \path (s.south west) -- (s.north east) node[pos=.9, anchor=north east]{LHCb Unofficial};
+  \path (b.south west) -- (b.north east) node[pos=.9, anchor=north east]{LHCb Unofficial};
+
+  %\path (s.south) -- (s.north) coordinate[pos=.8](st) coordinate[pos=.14](sb) coordinate[pos=.7](sm);
+  %\path (s.west) -- (s.east) coordinate[pos=.195](sl) coordinate[pos=.535](sr);
+  \path (b.south) -- (b.north) coordinate[pos=.8](bt) coordinate[pos=.14](bb) coordinate[pos=.7](bm);
+  \path (b.west) -- (b.east) coordinate[pos=.365](bl) coordinate[pos=.87](br);
+
+  %\draw let \p1 = (st), \p2 = (sb), \p3 = (sl), \p4 = (sr), \p5 = (sm) in
+  %     [dashed] (\x3, \y1) -- (\x3, \y2)
+  %     [dashed] (\x4, \y1) -- (\x4, \y2)
+  %     [<->] (\x3, \y5) -- (\x4, \y5) node[pos=.55, below]{Signal};
+  \draw let \p1 = (bt), \p2 = (bb), \p3 = (bl), \p4 = (br), \p5 = (bm) in
+       [dashed] (\x3, \y1) -- (\x3, \y2)
+       [dashed] (\x4, \y1) -- (\x4, \y2)
+       [<->] (\x3, \y5) -- (\x4, \y5) node[pos=.5, below]{Background}
+       node at ($(\x3, \y2) - (0, 2)$) [anchor=north]{5.750};
+
+  \path (s.north west) -- (s.east) node[pos=.45, anchor=north west]{
+    \begin{tabular}{cl}
+      \begin{tikzpicture}[x=.8\len, y=.8\len, baseline=-.7ex]
+        \draw[fill=black, thick] (0, 0) circle (.7)
+        (-2, 0) -- (2, 0) (0, -2) -- (0, 2);
+      \end{tikzpicture} &
+      2018 Data \\
+      \begin{tikzpicture}[x=1\len, y=1\len]
+        \draw[draw=red, fill=red!35!white, thick] (0, 0) rectangle (6, 3);
+      \end{tikzpicture} &
+      $ \Lambda_b^0 \rightarrow \Lambda_c^+ \pi^+ \pi^- \pi^- $ \\
+      %$\Lambda_b^0$ signal \\
+      \begin{tikzpicture}[x=1\len, y=1\len, baseline=-.7ex]
+        \draw[draw=blue, thick, dashed] (0, 0) -- (6, 0);
+      \end{tikzpicture} &
+      Comb. background \\
+      \begin{tikzpicture}[x=1\len, y=1\len, baseline=-.7ex]
+        \draw[draw=orange, very thick] (0, 0) -- (6, 0);
+      \end{tikzpicture} &
+      Total \\
+      \\[1ex]
+      \multicolumn{2}{l}{Background-subtracted $\Lambda_b^0$} \\
+      \multicolumn{2}{l}{is used as the signal} \\
+    \end{tabular}
+  };
+\end{tikzpicture}
+
+\end{document}

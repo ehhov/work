@@ -1,0 +1,812 @@
+Review
+doi:10.1038/nature22346
+A challenge to lepton universality in
+B-meson decays
+Gregory Ciezarek1, Manuel Franco Sevilla2, Brian Hamilton3, Robert Kowalewski4, Thomas Kuhr5, Vera Lüth6 & Yutaro Sato7
+One of the key assumptions of the standard model of particle physics is that the interactions of the charged leptons, namely
+electrons, muons and taus, differ only because of their different masses. Whereas precision tests comparing processes
+involving electrons and muons have not revealed any definite violation of this assumption, recent studies of B-meson
+decays involving the higher-mass tau lepton have resulted in observations that challenge lepton universality at the level
+of four standard deviations. A confirmation of these results would point to new particles or interactions, and could have
+profound implications for our understanding of particle physics.
+M
+ore than 70 years of particle physics research have led to an
+elegant and concise theory of particle interactions at the sub-
+nuclear level, commonly referred to as the standard model1,2.
+On the basis of information extracted from experiments, theorists have
+combined the theory of electroweak interactions with quantum chro-
+modynamics, the theory of strong interactions, and experiments have
+validated this theory to an extraordinary degree. Any observation that is
+proven to be inconsistent with standard model assumptions would sug-
+gest a new type of interaction or particle.
+In the framework of the standard model of particle physics, the fun-
+damental building blocks, quarks and leptons, are each grouped in three
+generations of two members each. The three generations of charged
+leptons—the electron (e−), the muon (μ−) and the tau (τ−)—are each
+paired with an electrically neutral lepton, a very low mass neutrino,
+νe, νμ and ντ, respectively. The electron, a critical component of matter, was
+discovered by Thomson3 in 1897. The discovery of the muon in cosmic
+rays by Anderson and Neddermeyer4 in 1937 came as a surprise. Similarly
+surprising was the first observation of τ+τ− pair production by Perl et al.5
+at the SPEAR e+e− storage ring in 1975. As far as we know, all leptons are
+point-like particles, that is, they have no substructure.
+The three generations are ordered by the mass of the charged lepton,
+which ranges from 0.511 MeV for e± to 105 MeV for μ± and to 1,777 MeV
+for τ± (ref. 6). These different masses lead to vastly different lifetimes, from
+the stable electron to 2.2 μs for muons, and to 0.29 ps for taus. Charged
+leptons participate in electromagnetic and weak interactions, but not in
+strong interactions, whereas neutrinos only undergo weak interactions.
+The standard model assumes that these interactions of the charged and
+neutral leptons are universal, that is, the same for the three generations.
+Precision tests of lepton universality have been performed over many
+years by many experiments. To date no definite violation of lepton uni-
+versality has been observed. Among the most precise tests is a comparison
+of the decay rates of K mesons, that is, K− → e−νe versus K− → µ−νµ
+(ref. 7). (Unless stated otherwise, the inclusion of charged-conjugate states
+and decay modes is implied here and in the following.) Furthermore,
+taking into account precision measurements of the tau and muon masses
+and lifetimes and the decay rates τ − → e−νeντ and µ− → e−νeνµ , the equality
+of the weak coupling strengths of the tau and muon was confirmed6. On
+the other hand, a recent determination of the proton (p) radius, derived
+from very precise measurements of the Lamb shift in muonic hydrogen
+atoms8, differs by about 4% from measurements of normal hydrogen
+atoms and e–p scattering data. Studies of the origin of this puzzling
+  
+difference are underway9. They are aimed at a better understanding of
+the proton radius and structure, and may reveal details of the true impact
+of muons and electrons on these interactions.
+Recent studies have focused on purely leptonic decays of B mesons of
+the form B− → τ −ντ and semileptonic B decays such as B → D (∗)ℓ −νℓ   ,
+with ℓ = e, μ or τ, and where D(*) refers to a low-mass charm meson, D or
+D*. These studies have resulted in observations that seem to challenge
+lepton universality. These weak decays involving leptons are well under-
+stood in the framework of the standard model, and therefore offer a
+unique opportunity to search for unknown phenomena and processes
+involving new particles: for instance, a yet undiscovered charged partner
+of the Higgs boson10. Such searches have been performed on data col-
+lected by three different experiments: the LHCb experiment at the pp
+collider at CERN in Europe, and the BaBar and Belle experiments at e+e−
+colliders in the USA and in Japan, respectively.
+Measurements by these three experiments favour larger than expected
+rates for semileptonic B decays involving τ leptons. Currently, the com-
+bined significance of these results is at the level of four standard devi-
+ations, and the fact that all three experiments report an unexpected
+enhancement has drawn considerable attention. A confirmation of
+this violation of lepton universality and an explanation in terms of
+new-physics processes would be very exciting. In the following, we
+present details of the experimental techniques and preliminary studies
+to understand the observed effects, along with prospects of improved
+sensitivity and complementary measurements at current and future
+facilities.
+Standard model predictions of B-meson decay rates
+According to the standard model, purely leptonic and semileptonic decays
+of B mesons are mediated by the W− boson, as shown schematically
+in Fig. 1. B mesons are assumed to be composed of a b-quark and an
+antiquark (anti-u or anti-d), either B−(b, u ) or B 0(b, d ), whereas charm
+mesons (the spin-0 D and spin-1 D* state) contain a c-quark and an anti-
+quark (anti-u or anti-d), D 0(∗)(c, u ) or D +(∗)(c, d ).
+For purely leptonic B- decays, the standard model prediction of the
+total decay rate Γ, which depends critically on the lepton mass squared
+m2ℓ , is:
+Γ SM(B− → ℓ −νℓ ) =
+2
+
+G2FmBm2ℓ
+m2 
+|Vub|2 1 − 2ℓ  f 2B
+
+8π
+mB 
+(1)
+1
+Nikhef National Institute for Subatomic Physics, Amsterdam, The Netherlands. 2University of California at Santa Barbara, Santa Barbara, California 93106, USA. 3University of Maryland, College
+Park, Maryland 20742, USA. 4University of Victoria, Victoria, British Columbia V8P 5C2, Canada. 5Ludwig Maximilians University, 80539 Munich, Germany. 6SLAC National Accelerator Laboratory,
+Stanford, California 94309, USA. 7Kobayashi-Maskawa Institute, Nagoya University, Nagoya 464-8602, Japan.
+8 J u n e 2 0 1 7 | VO L 5 4 6 | NAT U R E | 2 2 7
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.RESEARCH Review
+a
+–
+Vub
+b
+B–
+W–
+ū
+RSM
+D∗ =
+B-meson production and detection
+b
+Q̄
+Vcb
+W–
+B–, B¯ 0
+c
+ū, d̄
+D0,(∗), D+,(∗)
+ū, d̄
+Figure 1 | Diagrams for standard-model decay processes. a, B− → ℓ −νℓ ,
+with a purely leptonic final state. b, B → D (∗)ℓ −νℓ , involving a charm
+meson (D or D*) and lepton pair and mediated by a vector boson (W−).
+Vub and Vcb refer to the quark mixing parameters in b → u and b → c
+transitions (commonly referred to as CKM parameters13).
+The first factor contains the Fermi constant GF = 1.1663797 × 10−5 GeV−2
+and the B-meson mass, mB = 5.279 GeV. All hadronic effects, due to the
+binding of quarks inside the meson, are encapsulated in the decay con-
+stant fB. Recent lattice quantum chromodynamics calculations11 predict
+fB = (0.191 ± 0.009) GeV. Taking into account the current world averages
+for the B− lifetime, τB = (1.638 ± 0.004) ps (ref. 12), and the quark mixing
+parameter13 for b → u transitions, |Vub| (ref. 14), the expected branching
+fraction, that is, the frequency of this decay relative to all decay modes, is
+(ref. 15, and recent updates at http://ckmfitter.in2p3.fr):
+−4
+B SM(B− → τ −ντ ) = (0.75±00..10
+05) × 10
+(2)
+Decays to the lower-mass charged leptons, e− and μ−, are strongly sup-
+pressed by spin effects and have not yet been observed.
+The differential decay rate, dΓ, for semileptonic decays involving D(*)
+mesons depends on both m2ℓ and q2, the invariant mass squared of the
+lepton pair16:
+2
+∗
+2
+m2 
+dΓ SM(B → D (∗)ℓ −νℓ ) GF|Vcb| |p D (∗) |q 
+=
+1 − 2ℓ 
+2
+2
+3
+q 
+dq
+96π m
+
+B
+
+2
+2
+Universal and phase space factors
+
+
+
+m2  3m2
+× (|H+|2 + |H−|2 + |H0|2 )1 + ℓ2  + 2ℓ |Hs|2 
+
+2q  2q
+ 
+(3)
+Hadronic effects
+The first factor is universal for all semileptonic B decays, containing a
+quark flavour mixing parameter13, in this case |Vcb| (ref. 14) for b → c
+quark transitions, and p∗D (∗), the 3-momentum of the hadron in the B rest
+frame, in this case a D or D* meson. The four helicity amplitudes H+, H−,
+H0 and Hs capture the impact of hadronic effects. (Helicity refers to the
+component of the angular momentum of a particle parallel to the direc-
+tion of its momentum.) They depend on the spin of the charm meson and
+on q2. The kinematic range, m2ℓ ≤ q2 ≤ (mB − m D (∗))2 , is sensitive to the
+lepton mass mℓ and the charm meson mass m D∗. The much larger mass
+of the τ not only affects the rate, but also the kinematics of the decays via
+the Hs amplitude. All four amplitudes contribute to B → D ∗ℓ −νℓ , while
+only H0 and Hs contribute to B → Dℓ −νℓ , which leads to a higher sensi-
+tivity of this decay mode to the scalar contribution Hs.
+Measurements of the ratios of semileptonic branching fractions remove
+the dependence on |Vcb|, lead to a partial cancellation of theoretical uncer-
+tainties related to hadronic effects, and reduce the impact of experimental
+uncertainties. Current standard model predictions17–19 are:
+B(B → Dτ −ντ )
+RSM
+= 0.300 ± 0.008
+D =
+B(B → De−νe )
+(5)
+The predicted ratios relative to B(B → D∗µ−νµ) are identical within the
+quoted precision.
+Q̄
+–
+b
+B(B → D∗τ −ντ )
+= 0.252 ± 0.003
+B(B → D∗e−νe )
+(4)
+B-meson decays have been studied at pp and e+e− colliding beam facilities
+operating at very different beam energies. The e+e− colliders operated at
+a fixed energy of 10.579 GeV in the years 1999 to 2010. At this energy,
+about 20 MeV above the kinematic threshold for BB production,
+e+ and e− annihilate and produce a particle, commonly referred to
+as ϒ (4S), which decays almost exclusively to B+B− or B 0B 0 pairs. The
+maximum production rate for these ϒ (4S) → BB events of 20 Hz was
+achieved at KEK (the High Energy Accelerator Research Organization in
+Tsukuba, Japan), compared to the multi-hadron non-BB background rate
+of about 80 Hz.
+B mesons from ϒ (4S) decays have very low momenta, about 300 MeV,
+and therefore their decay products are distributed almost isotropically in
+the rest frame of the ϒ (4S). For this reason, the BaBar20,21 and Belle22
+detectors were designed to cover close to 90% of the total solid angle,
+thereby enabling the reconstruction of all final state particles from decays
+of the two B mesons, except for neutrinos. Both detectors consist of cylin-
+drical layers of sensors surrounding the beam pipe, plus endcaps to cover
+the small polar angles. Constraints from energy-momentum conservation
+allow events containing a single neutrino to be discriminated from those
+containing multiple undetected particles. This feature also allows for an
+effective suppression of non-BB background and misreconstructed
+events.
+The LHC pp collider operated at total energies of 7 TeV and 8 TeV from
+2008 to 2012. In inelastic pp collisions, high-energy gluons, the carriers of
+the strong force between the quarks inside the protons, collide and pro-
+duce a pair of B hadrons (mesons or baryons) along with a large number
+of other charged and neutral particles, in roughly one of every hundred
+pp interactions. The B hadrons are typically produced at small angles to
+the beam and with high momenta. These features determined the design
+of the LHCb detector23,24, a single-arm forward spectrometer, covering
+the polar angle range of 3°–23°. The high momentum and relatively long
+B hadron lifetime result in decay distances of several centimetres. Very
+precise measurements of the pp interaction point, combined with the
+detection of charged particle trajectories from B decays which do not
+intersect this point, are the very effective, primary method to separate B
+decays from background.
+All three experiments rely on several layers of finely segmented silicon
+strip detectors to locate the beam–beam interaction point and decay ver-
+tices of long-lived particles. A combination of silicon strip detectors and
+multiple layers of gaseous detectors measure the trajectories of charged
+particles, and determine their momenta from the deflection in a magnetic
+field. Examples of reconstructed signal events recorded by the LHCb and
+Belle experiments are shown in Fig. 2.
+For a given momentum, charged particles of different masses, primarily
+pions and kaons, are identified by their different velocities. All three
+experiments make use of devices that sense Cherenkov radiation, which
+is emitted by particles with velocities that exceed the speed of light in a
+chosen radiator material. For lower-velocity particles, Belle complements
+this with time-of-flight measurements. BaBar and Belle also measure the
+velocity-dependent energy loss due to ionization in the tracking detectors.
+Arrays of caesium iodide crystals measure the energy of photons and
+identify electrons in BaBar and Belle. Muons are identified as particles
+penetrating a stack of steel absorbers interleaved with large area gaseous
+detectors.
+Measurements of B−→τ−   ντ decays
+The decays B− → τ −ντ with two or three neutrinos in the final state have
+only been observed by the BaBar and Belle collaborations. These two
+experiments exploit the BB pair production at the ϒ (4S) resonance via
+2 2 8 | NAT U R E | VO L 5 4 6 | 8 J u n e 2 0 1 7
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Review RESEARCH
+a
+b
+p–p
+1m
+B0
+QW
+D0
+S+
+Qe
+P–
+K–
+S+
+K–
+1m
+S+
+e–
+QW
+3m
+Figure 2 | Belle and LHCb single-event displays illustrating the
+reconstruction of semileptonic B-meson decays. Trajectories of charged
+particles are shown as coloured solid lines; energy deposits in the
+calorimeters are depicted by red bars. a, The Belle display is an end view
+perpendicular to the beam axis, with the silicon detector in the centre
+(small orange circle) and the device measuring the particle velocity (dark
+purple polygon). This is a ϒ (4S) → B+B− event, with B− → D 0τ −ντ ,
+D0 → K−π+ and τ − → e−ντνe , and the B+ decaying to five charged particles
+(white solid lines) and two photons. The trajectories of undetectedneutrinos are marked as dashed yellow lines. b, The LHCb display is a side
+view, with the proton beams indicated as a white horizontal line with the
+interaction point far to the left, followed by the dipole magnet (white
+trapezoid) and the Cherenkov detector (red lines). The area close to the
+interaction point is enlarged above, showing the tracks of the charged
+particles produced in the pp interaction, the B0 path (dotted orange line),
+and its decay B 0 → D∗+τ −ντ , with D*+ → D0π+ and D0 → K−π+, plus the
+μ− from the decay of a very short-lived τ−.
+the process e+e− → ϒ (4S) → BB . These BB pairs can be tagged by the
+reconstruction of a hadronic or semileptonic decay of one of the two B
+mesons, referred to as Btag. If this decay is correctly reconstructed, all
+remaining particles in the event originate from the other B decay, either
+a signal leptonic or semileptonic B decay or another B decay passing the
+selection criteria.
+The BaBar and Belle collaborations have independently developed two
+sets of algorithms to tag BB events. The hadronic tag algorithms25,26
+search for the best match between one of more than a thousand possible
+decay chains and a subset of all detected particles in the event. The
+­efficiency for finding a correctly matched Btag is unfortunately quite small,
+0.3%. The benefit of reconstructing all final state particles is that the total
+energy, Emiss, and momentum vector, pmiss, of all undetected particles of
+the other B decay can be inferred from energy and momentum
+­conservation. The invariant mass squared of all undetected particles,
+m2miss = E 2miss − p2miss , is used to distinguish events with one neutrino
+(m2miss ≈ 0) from events with multiple neutrinos or other missing particles
+(m2miss >0). The semileptonic tag algorithms exploit the large branching
+fractions for B decays involving a charm meson, a charged lepton and
+associated neutrino, B → D (∗)ℓ +νℓ , with ℓ+ = e+, μ+. The efficiency for
+finding these tag decays is about 1%. However, the presence of the
+­neutrino leads to weaker constraints on the Btag and signal B decay.
+Measurements of B− → τ −ντ decays are based on leptonic τ decays,
+τ − → e−νeντ and τ − → µ−νµντ , and on semileptonic τ decays, τ− → π−ντ
+and τ− → π−π0ντ, which together account for 70% of all τ− decays. Thus,
+the signature for signal events is a single charged particle, either a charged
+lepton, a π−, or a π− accompanied by a π0, plus a Btag.
+The presence of multiple neutrinos precludes the use of kinematic con-
+straints to effectively suppress backgrounds from other B decays. A vari­
+able that is sensitive to backgrounds with additional photons or
+undetected charged particles due to efficiency and acceptance losses is
+Eextra, the sum of the energy deposits in the calorimeter which are not
+associated with the tag or signal B decay. Figure 3 shows a Eextra distribu-
+tion measured by the Belle collaboration for a subset of events withτ− → π−ντ. Signal events have low values of Eextra, while background
+events extend to higher values. The signal yield is determined from a fit
+to the data using signal and background distributions based on data
+­control samples and Monte Carlo simulation. The sum of the fitted signal
+yields for the four subsamples of purely leptonic and semileptonic τ
+decays, corrected for the efficiency of the tag and signal B decays, is used
+to determine the B− → τ −ντ branching fraction.
+As shown in Fig. 4, current measurements by the Belle27,28 and
+BaBar29,30 collaborations are of limited precision owing to very small
+signal samples and high backgrounds, and uncertainties in the Btag
+70
+Events per 0.05 GeV
+60
+50
+Data
+Fit
+Non BB background
+BB background
+Signal
+40
+30
+20
+10
+0
+0.0
+0.5
+Eextra (GeV)
+1.0
+Figure 3 | Extraction of the B− → τ − ντ yield from Belle data. Shown,
+for a subset of events with τ− → π−ντ candidates (solid histogram), is the
+result of a fit to the Eextra distribution (data points with statistical errors)
+for the sum of signal and backgrounds from BB and non-BB events27. The
+green histogram at the bottom indicates the predicted signal distribution.
+Image adapted from ref. 27, American Physical Society.
+8 J u n e 2 0 1 7 | VO L 5 4 6 | NAT U R E | 2 2 9
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.RESEARCH Review
+a
+b
+BaBar (ST)1.7 ± 0.8
+BaBar (HT)1.83 –0.55
+Belle (ST)1.25 ± 0.39
+Belle (HT)+0.29
+0.72 –0.27
+c
++0.58
+0.440 ± 0.072
+0.332 ± 0.030
+0.302 ± 0.032
+0.375 ± 0.069
+0.293 ± 0.041
+0.336 ± 0.040
+LHCb
+0
+1
+2
+3
+(B– → W– QW) (10–4)
+0.3
+0.4
+0.5
+0.6
+0.7
+0.3
+0.4
+0.5
+Figure 4 | Comparison of measurements with standard model
+predictions. a–c, Shown are the branching fraction B(B− → τ −ντ ) (a), and
+the ratios RD (b) and R D∗ (c) measured by the BaBar26,29,30, Belle27,28,32,33
+and LHCb34 collaborations. The data points indicate statistical and total
+uncertainties. ST and HT refer to the measurements with semileptonic andhadronic tags, respectively. The average values of the measurements and
+their combined uncertainties, obtained by the Heavy Flavor Averaging
+Group31,39, are shown in red as vertical lines and bands, and the expectations
+from the standard model calculations15,17,18 are shown in blue.
+e­ fficiencies. The combination of these four measurements constitutes
+the first observation of a purely leptonic B− decay. Whereas the early
+measurements favoured somewhat larger values, the current average31 ofBelle collaboration performs a one-dimensional fit to the m2miss distribu-
+tion in the low-m2miss region (m2miss <0.85GeV 2) dominated by the nor-
+malization decays, combined with a fit to a multivariate classifier in the
+high-m2miss region. This classifier includes m2miss, E ∗ℓ , Eextra, and additional
+kinematic variables.
+Figure 5 shows one-dimensional projections of the data and the fitted
+contributions from signal, normalization, and background decays. For
+BaBar (and likewise for Belle), the m2miss distributions show a narrow peak
+at zero (Fig. 5a, d), dominated by normalization decays with a single neu-
+trino, whereas the signal events with three neutrinos extend to about
+10 GeV2. For B → Dℓ −ντ decays, there is a sizeable contribution from
+B → D ∗ℓ −ντ decays, for which the pion or photon from the D* → Dπ or
+D* → Dγ decay was not reconstructed. For LHCb, the peak at zero is
+somewhat broader and has a long tail into the signal region (Fig. 5h)
+because of the sizeable uncertainty in the estimation of the Bsig
+momentum. The E ∗ℓ distributions (Fig. 5c, f, i) provide additional discri­
+mination, since a lepton from a normalization decay has a higher average
+momentum than a lepton originating from a secondary τ − → ℓ −ντνℓ
+decay in signal B decays.
+Among the background contributions, semileptonic B decays to D**
+mesons (charm mesons of higher mass than the D* mesons) are of con-
+cern, primarily because their branching fractions are not well known.
+These D** states decay to a D or D* meson plus additional particles that,
+if not reconstructed, contribute to the missing momentum of the decay.
+As a result, B → D ∗∗ℓ −νℓ decays have a broader m2miss distribution than
+do normalization decays. They can be distinguished from signal decays
+by their E ∗ℓ distributions which extend to higher values. At LHCb, an
+important background arises from B → D(*)HcX decays, where Hc is a
+charm hadron decaying either leptonically or semileptonically, and X
+refers to additional low-mass hadrons, if present. These decays produce
+m2miss and E ∗ℓ spectra that are similar to those of signal events (Fig. 5h, i).
+Figure 4 shows the measured values for RD and R D∗ by the BaBar26,
+Belle32,33 and LHCb34 collaborations. These results include a recent
+­measurement of R D∗ by Belle that uses a semileptonic tag, but do not
+include earlier results from BaBar35,36 and Belle37,38 based on partial
+­datasets. The averages of the measurements39 are
+B(B− → τ −ντ )=(1.06 ± 0.19) ×10−4
+(6)
+is compatible with the standard model prediction (equation (1)), which
+is lower by 1.4 standard deviations.
+Measurements of B → D(*)τ−   ντ decays​
+As defined in equations (4) and (5), R D (∗) corresponds to the ratio of
+branching fractions for B → D (∗)τ −ντ (signal) and B → D (∗)ℓ −ντ (normali­
+zation). BaBar and Belle events containing such decays are selected by
+requiring a hadronic Btag, a D or D* meson, and a charged lepton
+ℓ− = e−, μ−. Charged and neutral D candidates are reconstructed from
+combinations of pions and kaons with invariant masses compatible with
+the D meson mass. The higher-mass D*0 and D*+ mesons are identified
+by their D* → Dπ and D* → Dγ decays. In signal decays, the lepton ℓ−
+originates from the τ − → ℓ −ντνℓ decay, leading to a final state with three
+neutrinos and resulting in a broad m2miss distribution, while in normali-
+zation decays the lepton originates from the B decay with a single neutrino
+and therefore m2miss ≈ 0 . Non-BB backgrounds and misreconstructed
+events are greatly suppressed by the Btag reconstruction. The remaining
+background is further reduced by multivariate selections.
+0
+At LHCb, only decays of B mesons producing a μ− and D*+ meson
+are selected. Muons are favoured over electrons because of their higher
+detection efficiency and momentum resolution. The D*+ meson is recon-
+structed exclusively in D*+ → D0(→K−π+)π+ decays. B mesons produced
+at LHCb have a flight path of the order of 1 cm. This feature is exploited
+to reject the bulk of the background, by requiring that the charged parti-
+cles from the B candidate and no other tracks originate from a common
+vertex that is significantly separated from the pp collision point. The
+reduction in signal efficiency due to the use of a single decay chain is
+compensated by the very large production rate of B mesons at the LHC.
+The direction of the B momentum is inferred from the reconstructed pp
+collision point and the D*+μ− vertex, but its magnitude is unknown.
+LHCb approximates the B momentum by equating its component parallel
+to the beam axis to that of the D*+μ− combination, rescaled by the ratio
+of the B mass to the measured D*+μ− mass.
+The yields for the signal, normalization, and various background con-
+tributions are determined by maximum likelihood fits to the observed
+data distributions. Control samples are used to validate the simulated
+distributions and constrain the size and kinematic features of the back-
+ground contributions.
+All three experiments rely on the variables m2miss, E ∗ℓ (the energy of the
+charged lepton in the B rest frame) and q2. BaBar and Belle restrict the
+data to q2 > 4 GeV2 to enhance the contribution from signal decays. BaBar
+performs the fit in two dimensions whereas LHCb covers the whole q2
+range in four intervals, thus performing a fully three-dimensional fit. The
+RD = 0.397 ± 0.040stat ± 0.028syst(7)
+R D∗ = 0.316 ± 0.016 stat ± 0.010syst(8)
+Both values exceed the standard model expectations. Taking into account
+the correlations (Fig. 6), the combined difference between the measured
+and expected values has a significance of about four standard deviations.
+Interpretations of results
+The results presented here have attracted the attention of the physics
+community, and have resulted in several potential explanations of this
+apparent violation of lepton universality for decays involving the τ lepton.
+2 3 0 | NAT U R E | VO L 5 4 6 | 8 J u n e 2 0 1 7
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.Review RESEARCH
+800
+a
+b
+BaBar
+0
+–2
+–1
+0
+1
+2
+m2miss (GeV2)
+20,000 g –0.40 < q2 < 2.85 GeV2
+3
+15,000
+10,000
+5,000
+–2
+–1
+0
+1
+2
+m2miss (GeV2)
+LHCb
+3
+100
+150 e
+100
+0
+–2
+4,000
+0
+h
+2
+4
+6
+m2miss (GeV2)
+q2 > 9.35 GeV2
+8
+LHCb
+3,000
+2,000
+1,000
+0
+4
+100
+150 f
+m2miss > 1 GeV2
+100
+50
+50
+4
+Data
+B → D∗WQ
+B → D∗Hc
+(→ QX′)X
+B → D∗∗ Q
+B → D∗PQ
+Combinatorial
+Misidentified P
+BaBar
+m2miss > 1 GeV2
+200
+Events per 0.1 GeV
+Data
+B → DWQ
+B → D∗WQ
+B→D Q
+B → D∗ Q
+B → D∗∗( /W)Q
+Background
+c
+300
+–2
+0
+2
+4
+6
+m2miss (GeV2)
+8
+0
+0
+10
+Events per 0.075 GeV
+d
+1,000
+500
+Events per 0.3 GeV2
+Events per 0.25 GeV2
+200
+Events per 0.3 GeV2
+Events per 0.05 GeV2
+400
+0
+BaBar
+200
+600
+10
+4,000
+0.5
+i
+1
+E ∗ (GeV)
+q2 > 9.35 GeV2
+1.5
+2
+LHCb
+3,000
+2,000
+1,000
+0
+0
+0.5
+1
+1.5
+E∗P (GeV)
+2
+2.5
+Figure 5 | Extraction of the ratios RD and R D∗ by maximum likelihood
+2
+and
+fits. Shown are comparisons of the projections of the measured mmiss
+E∗ℓ distributions (data points with statistical errors) and the fitted
+distributions of signal and background contributions (coloured areas; see
+keys in d and g) for the fit by the BaBar collaboration26 to the Dℓ samples
+(a–c) and to the D∗ℓ samples (d–f), as well the fit by the LHCb
+collaboration34 to the D∗+ℓ sample (g–i). The Dℓ samples in a–c show
+sizeable contributions from B 0 → D∗+ℓ −νℓ and B 0 → D∗+τ −ντ decays,
+because the low-energy pion or photon originating from a D* → Dπ orD* → Dγ decay was undetected. The BaBar data exclude q2 < 4 GeV2,
+where the contributions from signal decays is very small. The E∗ℓ
+distributions in c and f are signal enhanced by the restriction
+2
+> 1GeV2. The LHCb results are presented for two different q2
+mmiss
+intervals: the lowest, which is free of B 0 → D∗+τ −ντ decays (g); and the
+highest, where this contribution is large (h, i). Panels a–f adapted from
+ref. 26, American Physical Society; panels g–i adapted from ref. 34,
+American Physical Society.
+In the standard model, these B decays are mediated by a virtual charged
+vector boson, a particle of spin 1, usually referred to as the W− (as indi-
+cated in the diagram in Fig. 1), which couples equally to all leptons. If a
+hitherto unknown virtual particle existed that interacted differently with
+leptons of higher mass such as the τ, this could change the B decay rates
+and their kinematics.
+Among the simplest explanations for the observed rate increases for
+decays involving τ− would be the existence of a new vector boson, W′−,similar to the standard model W− boson, but with a greater mass, and
+with couplings of varying strengths to different leptons and quarks. This
+could lead to changes in RD and R D∗ , but not in the kinematics of the
+decays, which are observed to be consistent with the standard model.
+However, this choice is constrained by searches for W ′− → tb decays40,41
+at the LHC collider at CERN, as well as by precision measurements of
+μ (ref. 42) and τ (ref. 43) decays.
+Another potentially interesting candidate would be a new type of Higgs
+boson, a particle of spin 0, similar to the recently discovered neutral
+Higgs44,45, but electrically charged. This charged Higgs (H−) was pro-
+posed in minimal extensions of the standard model46, which are part of
+broader theoretical frameworks such as supersymmetry47. The H− would
+mediate weak decays, similar to the W− (as indicated in Fig. 1), but couple
+differently to leptons of different mass. The q2 and angular distributions
+would be affected by this kind of mediator because of its different spin.
+Another feasible solution might be leptoquarks48, hypothetical parti-
+cles with both electric and colour (strong) charges that allow transitions
+from quarks to leptons and vice versa, and offer a unified description of
+three generations of quarks and leptons. Among the ten different types
+of leptoquarks, six could contribute to B → D(*)τν decays49. A diagram
+of a spin-0 state mediating quark-lepton transitions is shown in Fig. 7 for
+the B decay modes under study.
+The BaBar and Belle collaborations have studied the implications of
+these hypothetical particles in the context of specific models26,32. The
+measured values of RD and R D∗ do not support the simplest of the two-
+Higgs doublet models (type II), however, more general Higgs models with
+appropriate parameter choices can accommodate these values50–52. Some
+of the leptoquark models could also explain the measured values of RD
+and R D∗ (refs 53–55), evading constraints from direct searches of lep-
+toquarks in ep collisions56 at HERA57,58 and pp collisions at LHC59,60.
+The three-body kinematics of B → D(*)τντ decays should permit further
+discrimination of new-physics scenarios based on the decay distribu-
+tions of final state particles. The q2 spectrum26,32 and the momentum
+0.45
+0.40
+BaBar (HT)Belle (HT)
+LHCbBelle (ST)
+Heavy Flavor
+Averaging GroupStandard model
+expectation
+0.35
+0.30
+0.25
+0.25
+0.30
+0.35
+0.40
+0.45
+0.50
+0.55
+Figure 6 | RD and R D∗ measurements. Results from the BaBar26,
+Belle32,33 and LHCb34 collaborations, showing their measured values and
+1σ contours. The average calculated by the Heavy Flavor Averaging
+Group39 (taking into account the statistical and systematic uncertainties
+and their correlations) is compared to standard model predictions17–19.
+ST and HT refer to the measurements with semileptonic and hadronic
+tags, respectively.
+8 J u n e 2 0 1 7 | VO L 5 4 6 | NAT U R E | 2 3 1
+© 2017 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.RESEARCH Review
+a
+−
+b
+B–
+LQ
+u¯
+Q¯
+−
+b
+b
+B–, B¯ 0
+ū, d̄
+In recent years, several experiments have examined decay rates and
+angular distributions for B+ decays involving a K(*)+ meson and a lepton
+pair, B + → K (∗) +µ+µ− and B + → K (∗) +e+e− . In the framework of the
+standard model these decays are very rare, since they involve b → s quark
+transitions. The LHCb collaboration62 recently published a measurement
+of the ratio:
+RK =
+Q¯
+LQ
+c
+ū, d̄
+D0,(∗), D+,(∗)
+Figure 7 | Diagrams for non-standard-model decay processes.
+a, B− → ℓ −νℓ , with a purely leptonic final state; b, B− → D (∗)ℓ −νℓ , involving
+a charm meson (D or D*) and lepton pair and mediated by a spin-0
+leptoquark (LQ).
+distributions of the D(*) and electron or muon33 have been examined.
+Within the uncertainties of existing measurements, the observed shapes
+of these distributions are consistent with standard model predictions.
+Conclusions and outlook
+Although the observed enhancements of the leptonic and semileptonic
+B-meson decay rates involving a τ lepton relative to the expectations
+of the standard model of electroweak interactions are intriguing, their
+significance is not sufficient at present to establish a violation of lepton
+universality unambiguously. However, the fact that these unexpected
+enhancements have been observed by three experiments operating in
+very different environments deserves further attention.
+At present, the measurements are limited by the size of the available
+data samples and uncertainties in the reconstruction efficiencies and
+background estimates. It is not inconceivable that the experiments have
+underestimated these uncertainties, or missed a more conventional
+explanation. Furthermore, although it is unlikely, it cannot be totally
+excluded that the theoretical standard model predictions are not as firm as
+assumed. The experimenters are continuing their analysis efforts, refining
+their methods, enhancing the signal samples by adding additional decay
+modes, improving the efficiency and selectivity of the tagging algorithms,
+as well as the Monte Carlo simulations, and scrutinizing all other aspects
+of the signal extraction.
+In the near future, the LHCb collaboration will make several important
+contributions, among them their first measurement of the B → Dτ −ντ
+decay, which will also improve results for B → D∗τ −ντ . Furthermore, the
+τ − → π−π +π−ντ decay mode will be included. In addition, searches for
+lepton universality violation in semileptonic decays of other B mesons
+and baryons are being planned. Beyond that, LHCb will continue to
+record data at the highest pp collision energy available. By the end of 2017,
+the accumulated data sample is expected to increase by a factor of three.
+In the longer-term future, the LHCb collaboration is planning to further
+enhance the data rate capability and record much larger event samples.
+At KEK in Japan, the e+e− collider is undergoing a major upgrade and
+is expected to enlarge the data sample by almost two orders of magnitude
+over a period of about ten years. In parallel, the capabilities of the Belle
+detector are also being upgraded. The operation of this new and more
+powerful detector is expected to start in 2018. The much larger event
+samples and the constrained BB kinematics will allow more precise meas-
+urements of kinematic distributions and detailed studies of, for instance,
+the τ polarization in B → D(*)τντ decays. The feasibility of such a meas-
+urement was recently presented61. For B− → τ −ντ decays, which currently
+have statistical and systematic uncertainties of 30% or more for individual
+measurements, the substantially larger data samples are expected to lead
+to major reductions in these uncertainties, allowing more accurate assess-
+ments of the compatibility with the standard model predictions. Detailed
+studies of the overall physics goals and precision measurements that can
+be achieved by the upgraded Belle and LHCb experiments are
+continuing.
+B(B + → K+µ+µ−)
+= 0.745 ±00..090
+074 ± 0.036
+B(B + → K+e+e−)
+(9)
+This value is 2.6 standard deviations below the standard model expecta-
+tion of about 1.0. Earlier measurements by the Belle63, CDF64 and BaBar65
+collaborations had significantly larger uncertainties and were fully con-
+sistent with lepton universality. Some theoretical models include new
+types of interactions that can explain this result: for example, leptoquarks
+which can mediate this decay and result in higher rates for electrons than
+muons66,67. The BaBar65, LHCb68 and Belle69 collaborations have a­ nalysed
+angular distributions for the four decay modes and observed general
+agreement with standard model predictions, except for local deviations,
+the most significant by LHCb at the level of 3.4 standard deviations. More
+data are needed to enhance the significance of these measurements and
+find possible links to B decays involving τ leptons.
+If the currently observed excess in the ratios RD and R D∗ is confirmed,
+experimenters will use their large data samples to measure properties of
+signal events and learn about the nature of the new particles and interac-
+tions that contribute to these decays70,71.
+In conclusion, we can expect much larger event samples from the
+upgraded LHCb and Belle experiments in the not too distant future.
+These data will be critical to the effort to understand whether the
+­tantalizing results obtained so far are an early indication of beyond-the-
+standard-model physics processes or the result of larger-than-expected
+statistical or systematic deviations. A confirmation of new-physics
+­contributions in these decays would shake the foundations of our under-
+standing of matter and trigger an intense programme of experimental
+and theoretical research.

@@ -1,0 +1,634 @@
+                1 Introduction
+                                                                        0      +   − −         0     + − + −
+                Nonleptonic decays with multiple hadrons, such as Λb→ D pπ π and Λb→ Λc π π π ,
+                are a useful platform for testing non-perturbative quantum chromodynamics (QCD)
+                                                                                               0
+                approaches such as QCD factorisation (QCDF). At the quark level these Λ baryon decays
+                                                                                               b
+                                                                                  1
+                are mediated by the weak b→ ccs and b→ cud transitions.              Calculating the rates for
+                                                                                           −¯
+                these decays is more challenging than for their semileptonic b→ c` ν` partners, since
+                strong interactions are present in both the hadronic initial and ﬁnal states. Despite
+                these diﬃculties, which are due to QCD eﬀects, substantial progress has been made
+                in computing hadronic two-body and quasi-two-body decays; earlier calculations [1–4]
+                have been reﬁned in Refs. [5,6]. These theory predictions agree well with both the CDF
+                                    0
+                measurement of Λ production and decays [7], and a similar LHCb measurement [8].
+                                    b
+                Formulated within the framework of QCDF, these predictions are calculated for several
+                                  0     + − − −
+                decay modes, Λ → Λ (π ,ρ ,a ), including exclusive modes where the intermediate
+                                  b     c           1
+                resonance decays into a ﬁnal state with multiple pions, e.g. a−→ π−π−π+ [5]. Such decay
+                                                                                 1
+                                                             0      + − + −
+                channels contribute to the multihadron Λ → Λc π π π decay analysed in this study.
+                                                             b
+                    Final state protons and charm mesons are of particular interest in multihadron decays
+                of beauty baryons, where the c-quark from the b → c transition hadronises into the ﬁnal
+                state separate from the baryon, i.e. a charm meson and a proton. This topology is not
+                only important for charm baryon and meson spectroscopy, but also sensitive to QCD
+                eﬀects in beauty baryons as well as charm-quark hadronisation. However, this topology
+                has not been widely studied. Currently, only a few decay modes of beauty baryons with
+                                                                              0     0   −           0     0    −
+                the ﬁnal state conﬁguration described above are known: Λb→ D pπ [9–11], Λb→ D pK
+                      0      0   −                                       0     0   −
+                and Ξb→D pK [11]. The amplitude analysis of Λb→ D pK decays discovered a rich
+                resonance structure allowing the study of excited charm baryons [12]. Recently, the LHCb
+                collaboration reported an observation of the Λ0→ DpK− channel with a D→ K∓π± decay,
+                                                                 b
+                                                                0        0
+                where the state D is a superposition of D and D states [13]. The CP asymmetry
+                                                                                   0            − +       −
+                in this decay and the ratio of branching fractions for the Λb→ (D→ K π )pK                  and
+                 0            + −       −
+                Λb→(D→K π )pK decaysare also measured.
+                    In this paper, the ﬁrst observation of the Λ0→ D+pπ−π− and Λ0→ D∗+pπ−π− multi-
+                                                                  b                      b
+                hadron decay modes is reported. The measurements are based on proton-proton (pp) col-
+                                                                                         −1
+                lision data, corresponding to integrated luminosities of 1 and 2fb          collected with the
+                LHCb detector at center-of-mass energies of 7 and 8TeV, respectively. The following
+                ratios of branching fractions are reported
+                                                   0      +   − −            +      − + +
+                                   RD+ ≡ B(Λb→D pπ π ) ×B(D →K π π ),                                       (1a)
+                                                   0     + + − −              +       − +
+                                              B(Λ →Λ π π π )             B(Λ →pK π )
+                                                   b     c                    c
+                                                   0     ∗+   − −
+                                     ∗+       B(Λb→D pπ π )                 ∗+      + 0
+                                  RD      ≡ B(Λ0→D+pπ−π−) ×B(D →D π /γ),                                    (1b)
+                                                   b
+                               ∗+      + 0                        ∗+      + 0              ∗+      +
+                where     B(D →D π /γ)            equals     B(D →D π ) + B(D →D γ),                        and
+                the Λ0→Λ+π+π−π− mode with the Λ+→pK−π+ decay is used as the normali-
+                       b     c                                c
+                sation channel.    No theory predictions are currently available for the decay modes
+                 0      +   − −         0      ∗+   − −
+                Λb→D pπ π andΛb→D pπ π .
+                1The inclusion of charge-conjugate processes is implied throughout the paper.
+                                                               1
+              2 Detector and simulation
+              The LHCb detector [14, 15] is a single-arm forward spectrometer covering
+              the pseudorapidity range 2 < η < 5, designed for the study of particles containing
+              b or c quarks. The detector includes a high-precision tracking system consisting of a sili-
+              con-strip vertex detector surrounding the pp interaction region, a large-area silicon-strip
+              detector located upstream of a dipole magnet with a bending power of about 4Tm, and
+              silicon-strip detectors and straw drift tubes placed downstream of the magnet. The track-
+              ing system provides a measurement of the momentum, p, of charged particles with
+              a relative uncertainty that varies from 0.5% at low momentum to 1.0% at 200GeV/c.
+              The minimum distance of a track to a primary pp collision vertex(PV), the impact param-
+              eter(IP), is measured with a resolution of (15 + 29/p )µm, where p is the component
+                                                                 T              T
+              of the momentum transverse to the beam, in GeV/c. Diﬀerent types of charged hadrons
+              are distinguished using information from two ring-imaging Cherenkov detectors. Photons,
+              electrons and hadrons are identiﬁed by a calorimeter system consisting of scintillating-pad
+              and preshower detectors, an electromagnetic and a hadronic calorimeter. Muons are
+              identiﬁed by a system composed of alternating layers of iron and multiwire proportional
+              chambers.
+                 The online event selection is performed by a trigger system. The trigger consists of
+              a hardware stage, based on information from the calorimeter and muon systems, followed
+              by a software stage, which applies a full event reconstruction [16]. The events used in
+              this analysis are selected at the hardware stage by requiring a cluster in the calorimeters
+              with transverse energy greater than 3.6GeV. The software trigger requires a two-, three-
+              or four-track secondary vertex with a large pT sum of the particles and a signiﬁcant
+              displacement from the primary pp interaction vertices(PVs). At least one charged particle
+                                                   2                                2
+              should have pT > 1.7GeV/c and large χ   with respect to any PV, where χ  is deﬁned as
+                                                   IP                               IP
+              the diﬀerence in ﬁt χ2 of a given PV reconstructed with and without the considered track.
+              Amultivariate algorithm is used for the identiﬁcation of secondary vertices consistent
+              with the decay of a b hadron [17].
+                 Simulated collision events are used to model the eﬀects of the detector acceptance
+              and the imposed selection requirements for signal decay modes. In the simulation,
+              pp collisions are generated using Pythia [18] with a speciﬁc LHCb conﬁguration [19].
+              The p and rapidity spectra of the Λ0 baryons in simulation are corrected to match
+                    T                              b
+              those for the reconstructed Λ0→ Λ+π+π−π− decays, which constitute a large data sample
+                                         b     c
+              used for normalisation. Decays of unstable particles are described by EvtGen [20], in
+              which ﬁnal-state radiation is generated using Photos [21]. A four-body phase-space
+              decay model is used for the Λ0→ D+pπ−π− and Λ0→ D∗+pπ−π− decay modes. The de-
+                                          b                   b
+              cays Λ0→Λ+π+π−π− are simulated as a mixture of decays via intermediate excited
+                    b     c                                                       
+               (∗)             0      (∗)++    + + − −           0      (∗)0   + − + −
+              Σ resonances Λ → Σ           →Λ π π π and Λ → Σ →Λ π π π ; excited
+               c               b      c        c                 b      c      c
+               +            0            +     + + − −          0            +     + + − −
+              Λc baryons Λb→ Λc(2595) →Λcπ π π and Λb→ Λc(2625) →Λcπ π π ; or
+                                         0     + −   0     + 0 −        0     +         −
+              light unﬂavoured hadrons Λ → Λ a , Λ → Λ ρ π , and Λ → Λ f2(1270)π . The de-
+                                         b     c 1   b     c            b     c
+              cay models are corrected to reproduce the ten two- and three-body mass distributions
+              from the signals observed in data. The corrections are applied subsequently for ten mass
+              distributions in several iterations untill convergence is achieved. The interaction of the gen-
+              erated particles with the detector and its response are implemented using the Geant4
+              toolkit [22] as described in Ref. [23]. To account for imperfections in the simulation
+              of charged-particle reconstruction, the track reconstruction eﬃciency determined from
+                                                       2
+              simulation is corrected using control channels in data [24].
+              3 Event selection
+                      0     +   − −           0     + + − −
+              The Λb→D pπ π           and   Λb→Λcπ π π          decays   are  reconstructed   using
+                    +     − + +          +      − +
+              the D →K π π and Λc →pK π decay channels, respectively.                The selection
+              begins with good-quality reconstructed charged tracks that are inconsistent with
+              being produced in a pp interaction vertex. Kaons, pions and protons, identiﬁed using
+              information from the RICH detectors [25,26], are selected from well-reconstructed tracks
+              within the acceptance of the spectrometer with pT > 100MeV/c. To allow for eﬃcient
+              particle identiﬁcation, kaons and pions are required to have a momentum between
+              3 and 120GeV/c, while protons must have momenta between 9 and 120GeV/c.
+                 The D+→K−π+π+ and Λ+→pK−π+ candidates are reconstructed from selected
+                                            c
+                                                           − + +         − +
+              kaon, pion and proton candidates requiring K π π and pK π combinations to form
+              a good quality three-prong common vertex, which is signiﬁcantly separated from any PV.
+                                             +       +
+              Areconstructed mass for the D and Λ candidates is required to be within ±34 and
+                                                     c
+                         2                                                  +       +
+              ±24MeV/c mass windows around the known masses of the D and Λc hadrons [27],
+              respectively. These mass ranges correspond to approximately ±4σ   regions, where σ  is
+                                                                             m                 m
+              the mass resolution. Three-track combinations are also formed of pπ−π− and π+π−π−
+              particle triplets, and are required to have a good-quality common vertex that is distinct
+                                                 − −        + − −
+              from the PV. The mass of these pπ π and π π π combinations are required to be
+              below 4 and 3GeV/c2, respectively.
+                                      +       +                                           − −
+                 The reconstructed D    and Λc candidates are combined with selected pπ π      and
+               − + −                       0                   0
+              π π π candidates to form Λ candidates. Only Λ candidates with a transverse momen-
+                                           b                   b
+              tum above 3GeV/c are selected for further analysis. To improve the mass resolution for
+              the Λ0 candidates, a kinematic ﬁt is performed [28], which constrains the mass of the D+
+                   b
+              and Λ+ hadron candidates to their known masses [27] and requires the Λ0 candidate to
+                    c                                                                b
+              originate from its associated PV. A requirement on the χ2 from this ﬁt further suppresses
+              background. The reconstructed Λ0 decay vertex is required to be distinct from the
+                                                 b
+                                                       0
+              PV, with the proper decay time of the Λ candidate restricted to be above 100µm/c.
+                                                       b
+                                             +       +
+              The proper decay time of the D   and Λc candidates calculated with respect to the re-
+              constructed Λ0 decay vertex is required to be positive within the resolution. These
+                            b
+              two requirements reduce the background contributions from charmed hadrons produced
+                                                                                               +
+              directly in the pp interaction, and random combinations of tracks forming fake D   or
+              Λ+ candidates. At least one track from the selected Λ0 candidate must be matched
+               c                                                     b
+              with a high energy deposit in the calorimeter system, used in the hardware-trigger stage.
+              The mass distributions for selected Λ0→ D+pπ−π− and Λ0→ Λ+π+π−π− candidates are
+                                                 b                    b    c
+              shown in Figs. 1 and 2, respectively.
+              4 Signal determination
+                    +   − −
+              The D pπ π mass distribution shown in Fig. 1 exhibits a narrow peak corresponding
+                      0     +   − −                                                        2
+              to the Λb→ D pπ π decay. In addition, a structure around 5.4−5.5GeV/c is visi-
+                                                      0     ∗+  − −
+              ble. This structure corresponds to the Λb→ D    pπ π decay followed by the decay of
+                    ∗+             + 0      +
+              the D   meson into D π or D γ states, where the neutral particle is not reconstructed.
+                                                        3
+                                                               +  − −
+             An extended unbinned maximum-likelihood ﬁt to the D pπ π  mass distribution is
+             performed using a function consisting of a sum of the four following contributions.
+                     0    +   − −
+                • A Λb→D pπ π component, parameterised by a modiﬁed Gaussian function with
+                  power-law tails on both sides of the distribution [29,30]. The tail parameters are
+                  ﬁxed to values obtained from simulation, while the width and peak position are
+                  allowed to vary in the ﬁt.
+                     0    ∗+  − −                         ∗+    + 0      ∗+    +
+                • A Λb→D pπ π component, followed by D →D π and D →D γ decays.
+                 The shape of the component is taken from simulation and modiﬁed by a ﬁrst order
+                  positive polynomial which accounts for the unknown Λ0 decay model. The parameters
+                                                              b
+                  of the polynomial function are allowed to vary in the ﬁt.
+                     0    +   − − 0                      0
+                • A Λb→D pπ π π component, where the π meson is undetected. The shape is
+                  also taken from simulation.
+                • A combinatorial-background  component,  parameterised  with  a  positive
+                  monotonically-decreasing third-order polynomial function.
+                                                  4
+              The ﬁt result is overlaid on Fig. 1.    The signal yields for the Λ0→ D+pπ−π− and
+                                                                                   b
+                0     ∗+   − −
+              Λb→D pπ π decays are presented in Table 1. A similar four-component function is
+               used to describe the Λ+π+π+π− mass spectrum.
+                                     c
+                  • A Λ0→Λ+π+π−π− component, parameterised with a modiﬁed Gaussian function
+                        b     c
+                    with power-law tails on both sides of the distribution [29,30]. The tail parameters are
+                    ﬁxed to values obtained from simulation, while the width and position are allowed
+                    to vary in the ﬁt.
+                        0     (∗)+ + − −                              (∗)+    + 0
+                  • A Λ →Σ        π π π component, followed by a Σ        →Λ π decay with an unde-
+                        b     c                                       c       c
+                    tected π0 meson. The shape is taken from simulation.
+                  • A Λ0→Λ+π+π−π−π0 component, where the π0 meson is undetected. The shape is
+                        b     c
+                    taken from simulation based on a phase-space decay model.
+                  • A combinatorial-background       component,     parameterised   with   a   positive
+                    monotonically-decreasing third-order polynomial function.
+                                                          5
+              The ﬁt result is overlaid on Fig. 2 and the signal yield for the Λ0→ Λ+π+π−π− decays is
+                                                                         b    c
+              presented in Table 1.
+                 Several corrections, described below, are applied to the ﬁtted yields.    Since
+                    +   − −                    +     − + +                     + + − −
+              the D pπ π     channel with a D →K π π         decay and the Λc π π π      channel
+              with a Λ+→pK−π+ decay consist of the same ﬁnal state particles, there can be
+                       c
+              cross-feed between the two where true Λ0 → Λ+π+π−π− decays are misreconstructed
+                                                     b     c
+              as Λ0→D+pπ−π− decays. This contribution is studied using background-subtracted
+                  b
+              pK−π+ mass distributions from Λ0 → D+pπ−π− decays. The sPlot technique [31] is
+                                               b
+                                                                        +   − −
+              applied to the result of the ﬁt described above, using the D pπ π  mass as the dis-
+              criminating variable. The resulting background-subtracted pK−π+ mass spectra from
+                                                                            1,2
+              the Λ0→D+pπ−π− channel with D+→ K−π+π+ decays are shown in Fig. 3. The peaks
+                   b                                    1 2
+              at the known mass of the Λ+ baryon correspond to true Λ0→ Λ+π+π−π− decays re-
+                                         c                             b     c
+                              0    +   − −
+              constructed as Λb→ D pπ π decays. Fits are performed to these distributions with
+              a function consisting of the following two terms.
+                         0     +      − +    + − −
+                 • The Λ →(Λ →pK π )π π π contribution is modelled by a Gaussian function
+                         b     c
+                   with the mean value and width taken from the ﬁt to the Λ+→ pK−π+ signal from
+                                                                          c
+                    0      +      − +   + − −
+                   Λ →(Λ →pK π )π π π decays.
+                    b      c
+                                                                                        0
+                 • A ﬁrst-order polynomial term models the baseline background from Λ baryon
+                                                                                        b
+                                     +
+                   decays without a Λ  baryon in the ﬁnal state.
+                                     c
+                                                          0      +     − + +     − −
+              This ﬁt yields 395 ± 23 misreconstructed Λb→ (D → K π π )pπ π           candidates,
+              which are subtracted from the total ﬁt yield of the Λ0→ D+pπ−π− mode. No anal-
+                                                                   b
+              ogous pattern is observed in the background-subtracted pK−π+ mass spectra from
+               0      ∗+   − −                                     0    (∗)+  − −
+              Λb → D pπ π decays. Possible cross-feed from Λb→ D            pπ π decays in the
+               0     +       − +   + − −
+              Λ →(Λ →pK π )π π π normalisation signal is found to be negligible.
+               b     c
+                                             + − −                       0    + + − −
+                 The background-subtracted π π π mass spectrum from Λb→ Λc π π π decays is
+              shown in Fig. 4 (left), where background subtraction is performed with the sPlot technique
+              using the Λ+π+π−π− mass as the discriminating variable. A small contribution from
+                         c
+               0     + −                         −     + − −                         + − −
+              Λ →Λ D decays, followed by the D → π π π decay, is visible in the π π π mass
+               b     c s                         s
+                                                                 + − −
+              spectrum [32]. A ﬁt to the background-subtracted π π π     mass distribution is per-
+              formed with a Gaussian function summed with a positive ﬁrst-order polynomial function.
+              The Gaussian mean is set to the known mass of the D− meson [27], while the resolution is
+                                                               s
+              taken from the ﬁt to a larger data sample available at an earlier stage of the selection.
+              The polynomial function models the Λ0→ Λ+π+π−π− decays without an intermediate
+                                                   b    c
+                                                      6
+                  −                                    0     + −
+                D meson. Theﬁtyields176±25Λ →Λ D decays,whicharesubtractedfromthetotal
+                  s                                    b     c  s
+                ﬁtted yield of the Λ0→ Λ+π+π−π− decays.
+                                     b      c                  
+                                          0       +       − +     + − −
+                    Asmall fraction of Λb→ Λc → pK π1 π2π π decays satisﬁes all selection criteria
+                after the interchange of two positive pions, π+ ↔ π+, causing the same six-track combina-
+                                                                1      2
+                tion to be reconstructed twice. This eﬀect is studied using the background-subtracted
+                pK−π+ mass distribution from the selected Λ0→  Λ+→ pK−π+π+π−π− decays, shown
+                      2                                          b       c          1    2
+                in Fig. 4 (right). Duplicate candidates appear near the known mass of the Λ+ baryon.
+                                                                                                      c
+                                   − +
+                A ﬁt to the pK π2 mass distribution is performed using a Gaussian function for
+                the Λ0→ Λ+→pK−π+π+π−π− decays and a ﬁrst-order polynomial function for
+                       b      c           2   1
+                the Λ0→ Λ+→pK−π+π+π−π− decays. The mean and width of the Gaussian function
+                      b      c           1   2
+                                             +       − +                      0      +        − +    + − −
+                are taken from a ﬁt to the Λc → pK π candidates from Λb→ (Λc → pK π )π π π de-
+                             0     +         − + + − −
+                cays. TheΛb→ Λc →pK π2 π1π π yieldis416±32,andissubtractedfromthetotal
+                                  0     + + − −
+                ﬁt yield of the Λb→ Λc π π π decays. 0              (∗)+   − −         0     + + − −
+                    Possible biases in the yields of the Λb→ D          pπ π and Λb→Λcπ π π decays
+                from the relevant ﬁts are studied using pseudoexperiments. The largest bias is found
+                for the yield of Λ0→ D∗+pπ−π− decays and it is 1.5%. For the Λ0→ D+pπ−π− and
+                                    b                                                      b
+                 0      + + − −
+                Λb→Λcπ π π decaysthecorresponding biases are much smaller. The ﬁnal yields, after
+                all corrections described above are applied, are given in Table 1 for the Λ0→ D(∗)+pπ−π−
+                                                                                              b
+                      0      + + − −
+                and Λb→Λcπ π π decays.
+                5 Eﬃciency and ratios of branching fractions
+                The ratios R + and R ∗+, deﬁned by Eq. (1) are calculated as
+                              D          D
+                                                    Ncor
+                                                       0   + − −       ε 0   + + − −
+                                                      Λ →D pπ π         Λ →Λ π π π
+                                                       b                 b   c
+                                           RD+ =      cor           ×                                       (2a)
+                                                    N 0    +           ε 0    + − −
+                                                             + − −      Λ →D pπ π
+                                                      Λ →Λ π π π          b
+                                                       b   c
+                                                               7
+                and
+                                                     Ncor
+                                                         0  ∗+   − −     ε 0   + − −
+                                                       Λ →D pπ π          Λ →D pπ π
+                                           R ∗+ =        b            × b               ,                      (2b)
+                                              D         cor
+                                                      N 0    + − −      ε 0    ∗+  − −
+                                                        Λ →D pπ π         Λ →D pπ π
+                                                         b                 b
+                where Ncor is the corrected signal yield for decay mode X, as per Table 1, and ε
+                          X                                                                                       X
+                is the corresponding eﬃciency. This eﬃciency is deﬁned as a product of the detector
+                acceptance εacc, reconstruction and selection eﬃciency εrec&sel, eﬃciency of the hardware
+                                        trg                                              PID
+                stage of the trigger ε     and the hadron-identiﬁcation eﬃciency ε           ,
+                                                           acc rec&sel trg PID
+                                                     ε = ε    ε      ε   ε    ,                                 (3)
+                where each subsequent eﬃciency is deﬁned with respect to the product of previous eﬃcien-
+                cies. The detector acceptance, and reconstruction and selection eﬃciency, are determined
+                using the simulation samples described in Sec. 2. The reconstruction and selection eﬃ-
+                ciency is corrected for a small diﬀerence in the track reconstruction eﬃciency between
+                data and simulation [24]. The trigger eﬃciency is calculated from single-particle hadron-
+                trigger eﬃciencies, which are determined separately for protons, kaons and pions from
+                a large Λ0→ (Λ+→ pK−π+)π− data sample. The hadron-identiﬁcation eﬃciency is a
+                           b       c
+                combination of single-particle identiﬁcation eﬃciencies for protons, kaons and pions deter-
+                                                              +        − +           −    ∗+       0      − +     +
+                mined with large calibration samples of Λc → pK π , Λ→ pπ , D                →(D →K π )π ,
+                D+→(φ→K+K−)π+andK0→π+π−decaysindata[26]. Theratiosofeﬃciencies are,
+                  s                              S
+                                                   ε 0   + − −
+                                                    Λ →D pπ π
+                                                     b            =1.11±0.01                                   (4a)
+                                                  ε 0   + + − −
+                                                   Λ →Λ π π π
+                                                    b   c
+                and
+                                                  ε 0    ∗+  − −
+                                                    Λ →D pπ π
+                                                     b            =0.93±0.01,                                  (4b)
+                                                   ε 0   + − −
+                                                    Λ →D pπ π
+                                                     b
+                                                                 8
+              where the uncertainties arise from the ﬁnite size of the simulation samples. Using
+              the corrected yields from Table 1 and eﬃciencies from Eq. (4), the ratios RD+ and RD∗+
+              are found to be
+                                             RD+ =(5.35±0.21) %                              (5a)
+              and
+                                            R ∗+ = (61.3±4.3) %,                             (5b)
+                                              D
+              where the uncertainties are statistical only. Systematic uncertainties are discussed in
+              Sec. 6.
+                 Thebackground-subtractedtwo-andthree-bodymassspectrafromtheΛ0→ D+pπ−π−
+                                                                                    b
+              and Λ0→D∗+pπ−π− decays are shown in Figs. 5 through 8 with the expectation from
+                    b
+              phase-space simulated decays overlaid. The sPlot technique [31] is used for background
+              subtraction using the Λ0 candidate mass as a discriminating variable. The analogous
+                                     b
+              distributions for the Λ0→ Λ+π+π−π− decays are shown in Appendix A; corresponding
+                                   b     c
+              distributions from the corrected simulation samples, used for evaluation of the eﬃciencies,
+              are also shown. Large deviations between data and phase-space based simulation are
+              observed, demonstrating a rich structure of intermediate resonances for the decay of this
+              study.
+              6 Systematic uncertainties
+              Due to the shared analysis techniques used to determine the yields for
+                   0     (∗)+ − −       0     + + − −
+              the Λb→ D     pπ π andΛb→Λcπ π π decays,manysystematicuncertainties cancel
+              for the ratios RD+ and RD∗+. The remaining contributions to systematic uncertainty are
+              summarised in Table 2 and discussed below.
+                 Animportant source of systematic uncertainty on the ratios of the branching fractions
+              arises from the imperfect knowledge of the mass shapes of the signal and background
+              components used in the ﬁts. To estimate this uncertainty, several alternative mod-
+              els for the signal and background components are tested. For the Λ0→ D+pπ−π−
+                                                                                    b
+              and Λ0→Λ+π+π−π− signal shapes the tail parameters of modiﬁed Gaussian func-
+                    b     c
+              tions are varied within uncertainties, determined from ﬁts to corresponding simula-
+              tion samples. The order of the positive monotonically-decreasing polynomial function,
+              used for modelling of the background components, is varied between two and four.
+                                                        ∗+     +         ∗+    + 0
+              The ratio of branching fractions for the D  →D γ and D →D π decays aﬀects
+              the shape of the Λ0→ D∗+pπ−π− component. This ratio is varied within the known
+                                b
+              uncertainty [27,33,34]. For the Λ0→ D∗+pπ−π− ﬁt component, the polynomial fac-
+                                                b
+              tor that modiﬁes the shape obtained from the simulation is removed. To account for
+                                                        0     + + − − 0     0     (∗)+ + − −
+              the unknown resonance structure for the Λ → D π π π π , Λ → Σ          π π π and
+                                                        b                   b     c
+               0     + + − − 0
+              Λb→Λcπ π π π decays,thecorrespondingﬁtcomponents,determinedfromsimulation,
+              have been modiﬁed by the positive-deﬁnite linear polynomial functions. The parameters
+              of these polynomial functions are allowed to vary in the ﬁts. For each alternative model
+              the ratio of event yields is determined, and the maximal deviation with respect to the de-
+              fault model is taken as the systematic uncertainty. This uncertainty is 1.5% and 5.7% for
+              the ratios RD+ and RD∗, respectively.
+                                                       9
+                  Asmall fraction of events contain multiple Λ0 candidates. These Λ0 candidates have
+                                                                b                      b
+               an approximately uniform mass distribution between 5.3 and 6.0GeV/c2. To estimate
+               the uncertainty associated with the presence of multiple Λ0 candidates, a single random
+                                                                           b
+               Λ0 candidate is kept, while the other candidates are discarded and the ratios of the event
+                b
+                                                           10
+                yields are measured. This procedure is repeated for multiple trials to mitigate the eﬀects of
+                statistical ﬂuctuations. The diﬀerences between the original mean values of RD+ and RD∗+
+                and the values obtained using randomisation are found to be 0.8% and 0.7%, respectively.
+                These diﬀerences are taken as systematic uncertainty associated with the selection of
+                multiple candidates.
+                                                                                 0
+                    The transverse momentum and rapidity spectra of Λ baryons in the simulation
+                                                                                 b
+                samples are corrected to reproduce those observed for the Λ0→ Λ+π+π−π− signal in
+                                                                                     b     c
+                data. This correction is a source of additional uncertainty, which is evaluated with
+                several sets of corrections obtained using diﬀerent interval schemes for the pT and rapidity
+                distributions of the Λ0 candidates. These corrections are applied to the simulation samples
+                                       b
+                and maximal deviations of 0.2% and 0.4% are observed for the ratios R + and R ∗,
+                                                                                                  D          D
+                respectively. These deviations are set as the systematic uncertainty due to imperfect
+                knowledge of the production spectra of the Λ0 baryons.
+                                                                 b
+                    The simulated Λ0→ D+pπ−π−, Λ0→ D∗+pπ−π− and Λ0→ Λ+π+π−π− samples are
+                                      b                  b                       b      c
+                corrected to reproduce the two- and three-body signal mass distributions observed in data.
+                Due to a large number of variables and their correlations, the method requires several
+                iterations to converge. The corrections made for binned distributions are illustrated in
+                                             0     +    − −     0     ∗+   − −
+                Figs. 5 through 8 for the Λb→ D pπ π , Λb→ D pπ π samples and Figs. A1 and A2
+                for the Λ0→ Λ+π+π−π− sample. The correction procedure has been further validated by
+                          b     c
+                comparison of simulation and data for multiple randomly constructed linear combinations
+                of the ten mass variables. To estimate the systematic uncertainty related to the imper-
+                                                             0      (∗)+  − −          0     + + − −
+                fect knowledge of the decay model for Λb→ D            pπ π and Λb→Λcπ π π decays,
+                the number of iterations is varied. The diﬀerences with respect to the baseline results
+                for the RD+ and RD∗+ ratios are assigned as systematic uncertainty due to the imperfect
+                                     0     (∗)+   − −         0      + + − −
+                knowledge of the Λ → D         pπ π and Λ →Λcπ π π decay models.
+                                     b                        b
+                    The hadron-identiﬁcation eﬃciency for protons, kaons and pions is estimated using
+                large calibration samples. The uncertainty due to the ﬁnite size of the calibration samples
+                is propagated to the ratios RD+ and RD∗+ using pseudoexperiments. The obtained
+                variations of 0.7% and 0.5% for the R + and R ∗+ ratios, respectively, are used as the
+                                                          D          D
+                systematic uncertainty associated to the hadron identiﬁcation.
+                    There are residual diﬀerences in the reconstruction eﬃciency of charged-particle tracks
+                that do not cancel completely in the ratio due to small diﬀerences in the kinematic
+                distributions of the ﬁnal-state particles. The track-ﬁnding eﬃciencies obtained from
+                simulation samples are corrected using calibration modes [24]. The uncertainties related
+                to the eﬃciency correction factors are propagated to the ratios of the total eﬃciencies using
+                pseudoexperiments and are determined as 0.2% and smaller than 0.1% for the RD+ and
+                RD∗+ ratios, respectively. These values are taken as the systematic uncertainty associated
+                with the tracking eﬃciency.
+                    The hardware-trigger eﬃciency for protons, kaons and pions is estimated using a large
+                 0       +       − +     −
+                Λ →(Λ →pK π )π              calibration sample. Eﬃciencies from alternative calibration
+                 b       c
+                                ∗+       0      − +    +                                                       +
+                samples, e.g. D    →(D →K π )π decays, yield 0.9% and 0.5% variations for the RD
+                and R ∗+ ratios, respectively. These variations are taken as the systematic uncertainty
+                       D
+                due to the hardware-trigger eﬃciency.
+                    The stability of the results is checked by changing the selection criteria on trans-
+                verse momenta for the ﬁnal state hadrons, the χ2 from the kinematic ﬁt and decay time
+                      0                                +          ∗+
+                for Λ candidates. The ratios RD and RD               vary by up to 1.9% and 2.8%, respec-
+                      b
+                tively, and these variation are conservatively assigned as a systematic uncertainty due to
+                                                               15
+                data-simulation diﬀerences not considered elsewhere. Finally, the 0.8% and 0.9% relative
+                uncertainties from Eq. (4) are assigned as a systematic uncertainty due to the ﬁnite size
+                of the simulated samples for the RD+ and RD∗+ ratios, respectively.
+                7 Results and summary
+                The decays Λ0→ D+pπ−π− and Λ0→ D∗+pπ−π− are observed using data collected with
+                              b                      b                                         −1
+                the LHCb detector in proton-proton collisions corresponding to 1 and 2fb           of integrated
+                luminosity at centre-of-mass energies of 7 and 8TeV, respectively. Both decay modes
+                belong to the relatively unexplored class of beauty-baryon decays where the c-quark from
+                the b → c transition hadronises into the ﬁnal state separate from the baryon, i.e. a charm
+                meson and a proton. These multihadron decays exhibit a rich resonance structure.
+                                 0     + + − −
+                    Using the Λb→ Λc π π π decay as a normalisation channel, the ratios of branching
+                fractions deﬁned by Eq. (1) are measured to be
+                                                RD+ =(5.35±0.21±0.16) %
+                and
+                                               R ∗+ = (61.3±4.3±4.0) %,
+                                                 D
+                where the ﬁrst uncertainty is statistical and the second systematic. Using known branching
+                                     +      − + +           +       − +
+                fractions for the D → K π π          and Λc → pK π decays [27] the ratio of branching
+                fractions for the Λ0→ D+pπ−π− and Λ0→ Λ+π+π−π− decays is found to be
+                                    b                      b     c
+                                        0     +    − −
+                                   B(Λ →D pπ π )
+                                        b                 =(3.58±0.14±0.11±0.19) %,
+                                   B(Λ0→Λ+π+π−π−)
+                                       b     c
+                where the last uncertainty is due to imprecise knowledge of the branching fractions for
+                the Λ+ and D+ hadrons.
+                      c
+                                            0      ∗+   + +         0      +   + +             ∗
+                    The relative rate for Λ → D      pπ π and Λ →D pπ π decays r                 is deﬁned as
+                                            b                       b                         D
+                                            B(Λ0→D∗+pπ+π+)                    RD∗+
+                                    r ∗+ ≡       b                 =                       .
+                                     D       B(Λ0→D+pπ+π+)            B(D∗+→D+π0/γ)
+                                                 b
+                                                                  ∗+                          ∗+
+                Using the known branching fractions of the D         meson [27], the ratio rD    is 1.90 ± 0.19.
+                For multihadron b→ c decays with a large energy release, a relative yield of the D∗+
+                       +                                                        ∗+        +
+                and D mesons is expected to be similar to one for the D            and D     mesons produced
+                                                                                    + −
+                via a charm quark fragmentation in high-energy hadron or e e             interactions. A na¨ıve
+                spin-counting rule [35,36] predicts the ratio r ∗+ to be as large as 3. The relative
+                                                                     D                           √
+                                 ∗+        +
+                production of D      and D mesons produced promptly in pp collisions at            s = 5, 7 and
+                                                                                           ∗+        +
+                13TeV is estimated using the cross sections of directly produced D            and D mesons,
+                 direct          direct
+                σ     ∗+   and σ      + , as
+                 pp→D X          pp→D X
+                                       direct
+                                     σ      ∗+                       σ      ∗+
+                             rpp  ≡ pp→D X ≈                           pp→D X                     ,
+                               ∗+
+                              D        direct             +          ∗+      + 0              ∗+
+                                      σ     +      σ         −B(D →D π /γ)×σ
+                                       pp→D X        pp→D X                              pp→D X
+                where σ      ∗+   and σ       +  are the measured inclusive cross sections of the promptly
+                         pp→D X          pp→D X
+                produced D∗+ and D+ mesons. Assuming an independent fragmentation of the c quark
+                                                               16
+                into D∗+ and D+ mesons in direct production, and averaging rpp            over the diﬀerent proton
+                                                                                  pp D∗+
+                collision energies of 5, 7, and 13TeV [37–39], the value r ∗+ is 1.5 ± 0.1. The obtained
+                                                                                  D
+                                                             ∗+                          0      (∗)+   − −
+                value is smaller than the value of r            obtained from the Λ → D             pπ π decays,
+                                                           D                             b
+                but consistent within two standard deviations. The value for the ratio of production
+                                                                                       + −
+                                       ∗+         +                + −                e e
+                cross-sections of D        and D mesons in e e collisions, rD∗              = 1.86 ± 0.16, from
+                Ref. [36] is obtained from a combination of measurements performed by the CLEO [40],
+                ARGUS[41], ALEPH[42] and VENUS [43] collaborations analysing data from high energy
+                e+e− annihilation. The similarity between these values indicates a possible correspondence
+                between direct charm-meson production and fragmentation, and charm-meson production
+                in the multihadron decays of beauty hadrons.
+                                        + + − −                             0     (∗)+ + − −
+                    Analysis of the Λ π π π spectra shows that Λ → Σ                  π π π decays are largely
+                                        c                                   b     c
+                suppressed with respect to Λ0→ Λ+π+π−π− decays, see Fig. 2. The relative production
+                                                 b      c
+                of charmed Σ(∗)+ and Λ+ baryons exhibits the same trend both in e+e− annihilation [44]
+                                c          c
+                and in high energy hadroproduction [45]. From these measurements, a consistent picture
+                emerges where formation and production of a light isoscalar diquark that is a scalar is
+                more favourable during the hadronisation of heavy charm quarks, than a light isovector
+                diquark that is an axial vector [46–48]. This observation supports the diquark model for
+                heavy-ﬂavor baryon structure and production [49].
+                                       0     +    − −          0     ∗+    − −
+                    In conclusion, Λb→ D pπ π and Λb→ D pπ π decays are observed for the ﬁrst
+                time and their relative branching ratios are measured.                 Both these decays, and
+                the Λ0→ Λ+π+π−π− decays used in this analysis as a normalisation channel, demonstrate
+                       b     c
+                a rich resonance structure. A similarity between prompt charm-meson production and
+                charm-meson production from multihadron decays of Λ0 baryons is observed. In the future,
+                                                                             b
+                the observed decay Λ0 → D+pπ−π− can serve as a normalisation mode for studies of
+                                          b
+                                              0      +    − −         0      ∗+    − −
+                similar rare decays, e.g. Ξb→ D pK π and Ξb→ D pK π decays.

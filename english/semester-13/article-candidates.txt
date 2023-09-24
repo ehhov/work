@@ -1,0 +1,112 @@
+                 Lecture
+=============================================
+[ ]  D0 p amplitude in the Lb to D0 p pi-
+     Amplitude analysis. Meson from baryon
+     https://arxiv.org/abs/1701.07873
+     45k
+
+[x]  CKM gamma angle from B to D K*
+     gamma angle measurement
+     https://arxiv.org/abs/1604.01525
+     38k
+
+[x]  Bc to DD search
+     Partially reconstructed events
+     https://arxiv.org/abs/2109.00488
+     20k
+
+[x]  Lb to D p K- and its CP violation
+     CP violation
+     Open charm meson from a baryon
+     https://arxiv.org/abs/2109.02621
+     15k
+
+
+                  Conference
+=================================================
+[x]  B and Bs to D* K pi
+     https://arxiv.org/abs/2112.11428
+     35-40k
+
+[x]  B and Bs to D D, D Ds, Ds Ds, etc.
+     https://arxiv.org/abs/1302.5854
+     22k
+
+[x]  Lb to D p pi pi
+     https://arxiv.org/abs/2112.02013
+     22k
+
+
+               Lc2595
+=====================================
+[_] Blechman. Lc2595 threshold.
+    Very small (11k).
+    https://inspirehep.net/literature/612938
+
+[_] E687. Study of charm resonances -> Lc
+    Very old. Very small (10k).
+    https://inspirehep.net/literature/402059
+
+
+               Lc2625
+=====================================
+[1] CDF. Properties of Lc2595, Lc2625, Sc2455, Sc2520
+    https://inspirehep.net/literature/901840
+    30k
+
+[5] Belle. Measurement of Lc2625
+    NEW https://arxiv.org/abs/2212.04062
+    16k
+
+[_] ARGUS. First observation of Lc2625
+    Very old. Very small.
+    https://inspirehep.net/literature/357132
+
+[_] ARGUS. Observation of Lc2595
+    Very old. Very small.
+    https://inspirehep.net/literature/440304
+
+[_] CLEO. Observation of excited Lc*
+    Very old. Very small.
+    https://inspirehep.net/literature/381696
+
+[_] E687. Observation of Lc2625.
+    Very old. Very small.
+    https://inspirehep.net/literature/381696
+
+
+               Lc2880
+=====================================
+
+[?] LHCb. Lb to Dz p pim Amplitude analysis
+    Lc2880 width, Lc2940, Lc2860
+    Probably too large.
+    Probably not my subject, very difficult.
+    https://inspirehep.net/literature/1511124
+
+[4] BaBar. Lc2880, Lc2940 in D0p
+    Very small.
+    https://inspirehep.net/literature/713270
+    9k
+
+[4] Belle. Lc2880 and its JP
+    Very small.
+    https://inspirehep.net/literature/723916
+    9k
+
+[4] CLEO. First observation of Lc2880, Lc2765
+    Very small.
+    https://inspirehep.net/literature/535988
+    8k
+
+
+               Sc2800
+=====================================
+
+[_] Belle. Isotriplet Sc2800
+    Very small.
+    https://inspirehep.net/literature/668024
+
+[2] BaBar. Sc2455 and Sc2800.
+    https://inspirehep.net/literature/791879
+    33k

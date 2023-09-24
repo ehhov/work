@@ -1,0 +1,78 @@
+\usepackage{enumitem}
+\setlist{nolistsep}
+\usepackage{multirow}
+
+\usepackage{mathtools}
+\usepackage{amssymb}
+
+\usepackage{xcolor}
+\definecolor{dimblue}{HTML}{1010aa}
+\usepackage[
+  hidelinks=true,
+]{hyperref}
+
+\usepackage[
+  %showframe,
+  vmargin=20mm,
+  left=30mm,
+  right=20mm,
+]{geometry}
+\linespread{1.3}
+\usepackage{indentfirst}
+\usepackage{csquotes}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[multidot]{grffile}
+
+\usepackage{caption}
+\DeclareCaptionLabelSeparator{emdash}{\space\textemdash\space}
+\captionsetup{labelsep=emdash}
+\captionsetup[figure]{name=Рисунок}
+\captionsetup[table]{name=Таблица}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\numberwithin{equation}{section}
+
+\usepackage{titlesec}
+
+\titleformat{\section}
+	[hang] % shape 
+	{\normalsize\centering\bfseries\MakeUppercase} % text format 
+	{\thesection.} % label 
+	{1ex} % separation 
+	{} % before code 
+	[] % after code 
+
+\titleformat{\subsection}
+	[hang] % shape 
+	{\normalsize\bfseries} % text format 
+	{\thesubsection.} % label 
+	{1ex} % separation 
+	{} % before code 
+	[] % after code 
+
+\usepackage{titletoc}
+\titlecontents{section}[1.5em]
+  {}
+  {\normalsize\contentslabel{1.5em}}
+  {\hspace*{-1.5em}\normalsize}
+  {\titlerule*[1pc]{.}\contentspage}
+\titlecontents{subsection}[3.0em]
+  {}
+  {\small\contentslabel{1.5em}}
+  {\hspace*{-1.5em}\small}
+  {\titlerule*[1pc]{.}\contentspage}
+
+\def\nonumbersection#1{
+  \phantomsection
+  \addcontentsline{toc}{section}{#1}
+  \section*{#1}
+}
+
+\usepackage{cite}
+\renewcommand*{\@biblabel}[1]{\hfill#1.}
+
+
+\definecolor{trollyellow}{hsb}{0.10, 0.02, 1.00}
+\definecolor{trollbrown}{hsb}{0.05, 1.00, 0.15}

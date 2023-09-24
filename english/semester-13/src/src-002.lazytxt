@@ -1,0 +1,1151 @@
+                                     INTRODUCTION                                       cay proceeds through an intermediate b-ﬂavored baryon
+                                                                                        state, which then decays weakly into one of the ﬁnal state
+                  Baryonic decays of B mesons, which contain a heavy                    baryons [14, 15]. However, it is not clear that the pole
+               bottom quark and a light up or down quark, provide a                     model is reliable for baryon poles, and the predictions
+               laboratory for a range of particle physics investigations:               given in the literature vary signiﬁcantly.          Perhaps the
+               trends in decay rates and baryonproduction mechanisms;                   most satisfying theoretical interpretation of baryonic B
+               searches for exotic states such as pentaquarks and glue-                 decay rates is the qualitative one proposed by Hou and
+               balls [1, 2]; searches for excited baryon resonances; ex-                Soni in 2001 [16], who argue that B decays are favored if
+               amination of the angular distributions of B-meson de-                    thebaryonandantibaryonintheﬁnal-stateconﬁguration
+               cay products to determine baryon spins; and measure-                     are close together in phase space. A consequence is that
+               ments of radiative baryonic B decays that could be sen-                  decay rates to two-body baryon-antibaryon ﬁnal states
+               sitive to new physics through ﬂavor-changingneutral cur-                 are suppressed relative to rates of three-body ﬁnal states
+               rents [3, 4]. The latter measurements rely on improving                  containing the same baryon-antibaryon system plus an
+               our theoretical understanding of baryonic B decays in                    additional meson. In the three-body case, the baryonand
+               general [5, 6].                                                          antibaryon can be in the favored conﬁguration—close to-
+                  Theinclusive branching fraction for baryonic B decays                 gether in phase space—rather than back-to-back as in
+               is (6.8±0.6)% [7], and many exclusive baryonic B decay                   the two-body case.
+               modes have been observed [8]. If we order the measured                     In this paper, we investigate the decays B0 → +p and
+                                                                                                                                                   c
+               decays by Q-value:                                                       B2→+pÃ2[17]. Weinvestigate baryon production in
+                                                                                                  c
+                                                                                        B decays by comparing the two-body (B0 → +p) and
+                                                                                                                                                 c
+                                      Q=m −Xm,                                 (1)      three-body (B2 → +pÃ2) decay rates directly. The
+                                              B           f                                                       c
+                                                     f                                  dynamics of the baryon-antibaryon (+p) system in the
+                                                                                                                                     c
+                                                                                        three-body decay provide insight into baryon production
+               where mf is the mass of each daughter in the ﬁnal state                  mechanisms. Additionally, the B2 → +pÃ2 system is a
+               of the B decay, we ﬁnd that for each type of baryonic                                                                   c
+                                                                                        laboratory for studying excited baryon states and is used
+               Bdecay, the branching fractions decrease as the Q-value                                                              0
+                                                                                        to measure the spin of the £c(2455) . This is the ﬁrst
+               increases. The smallest measured branching fraction is of                measurement of the spin of this state.
+               the order 1026, which also corresponds to our experimen-
+               tal sensitivity for measuring these branching fractions.
+               Potentially interesting B-meson decays such as B → pp,                        BABAR DETECTOR AND DATASAMPLE
+               B→,andB→+2havenotyetbeenseen.
+                                         c   c
+                  Theoretical approaches to calculating baryonic B de-                    Themeasurementspresentedinthispaperarebasedon
+               cays include pole models [9, 10], diquark models [11],                   383×106 §(4S) →BB decays recorded with the BABAR
+               and QCD sum rules [12, 13]. Recently, theoretical cal-                   detector [18] at the PEP-II e+e2 asymmetric-energy B
+               culations have focused on pole models, where the B de-                   Factory at the Stanford Linear Accelerator Center. At
+                                                                                        the interaction point, 9-GeV electrons collide with 3.1-
+                                                                                        GeV positrons at the §(4S) resonance with a center-of-
+                                                                                        mass energy of 10.58GeV/c2.
+               ∗Deceased
+               †Now at Temple University, Philadelphia, PA 19122, USA                     Charged particle trajectories are measured by a ﬁve-
+               ‡Now at Tel Aviv University, Tel Aviv, 69978, Israel                     layer silicon vertex tracker (SVT) and a 40-layer drift
+               §Also with Universit`a di Perugia, Dipartimento di Fisica, Perugia,      chamber(DCH)immersedina1.5-Taxialmagneticﬁeld.
+               Italy                                                                    Charged particle identiﬁcation is provided by ionization
+               ¶Also with Universit`a di Roma La Sapienza, I-00185 Roma, Italy
+               ∗∗Now at University of South Alabama, Mobile, AL 36688, USA              energy (dE/dx) measurements in the SVT and DCH
+               ††Also with Universit`a di Sassari, Sassari, Italy                       along with Cherenkov radiation detection by an inter-
+                                                                                                                                              5
+              nally reﬂecting ring-imaging detector (DRC).                       Lj is deﬁned as Pipi|cos»i|j, where »i is the angle with
+                 Exclusive B-meson decays are simulated with the                 respect to the B candidate thrust axis of the ith charged
+              Monte Carlo (MC) event generator EvtGen [19]. Back-                particle or neutral cluster in the rest of the event and pi
+              ground continuum MC samples (e+e2 → qq, where                      is its momentum. The optimal maximum value of the
+              q = u,d,s,c) are simulated using Jetset7.4 [20] to                 Fisher discriminant is chosen separately for each + and
+                                                                                                                                        c
+              model generic hadronization processes. Background MC               B decay mode.
+                            + 2       + 2          0 0                             Kinematic properties of B-meson pair production at
+              samples of e e     →B B andBB arebasedonsimu-                      the §(4S) provide further background discrimination.
+              lations of many exclusive B decays (also using EvtGen).
+              The large samples of simulated events are generated and            We deﬁne a pair of observables, mm and mr, that are
+              propagated through a detailed detector simulation using            uncorrelated and exploit these constraints:
+              the GEANT4 simulation package [21].                                                   r
+                                                                                                                         
+                                                                                                                            2
+                                                                                            mm=         q + 2 −qˆ +     2      and
+                                                                                                         e e      Λ p(π )
+                                                                                                                   c
+                                                                                                    r                                       (2)
+                             CANDIDATESELECTION                                              mr =     q +     2 2 −mB.
+                                                                                                         Λ p(π )
+                                                                                                          c
+                 Weselect candidates that are kinematically consistent           The variable m     is based on the apparent recoil mass of
+              with B0 → +p and B2 → +pÃ2. For the decay mode                                    m
+                             c                 c
+                                                                                 the unreconstructed B meson in the event, where q + 2
+              B0 →+p,wereconstruct+ candidates in the pK2Ã+,                                                                            e e
+                       c                     c                                                                     + 2
+                  0     0 + 2            +                                       is the four-momentum of the e e        system and qˆ +     2
+                                                                                                                                       Λ p(π )
+              pK , pK Ã Ã , andÃ decaymodes,requiring the in-                                                                          c
+                  S     S                                                        is the four-momentum of the reconstructed B candidate
+              variantmassofeach+ candidatetobewithin10MeV/c2
+                                      c                                          after applying a mass constraint. The variable m is the
+              of the world average value [8]. For B2 → +pÃ2, we also                                                                  r
+                                                             c                   diﬀerence between the unconstrained mass of the recon-
+              reconstruct + candidates in the Ã+Ã2Ã+ decay mode,
+                             c                                                   structed B candidate and m , the world average value
+              and require all of the + candidates to have an invariant                                          B
+                                        c                                        of the mass of the B meson [8]. Signal events peak at
+              mass within 12MeV/c2 of the world average value.
+                 Thep,K,andÃcandidatesmustbewell-reconstructed                   mB in mm and 0 in mr. This set of variables was ﬁrst
+                                                                                 used in [24] and is chosen as an uncorrelated alternative
+              in the DCH and are identiﬁed with likelihood-based par-                          7    1√
+                                                                                 to ∆E = E −            s and the energy-substituted mass
+                                                                                               B    2
+              ticle selectors using information from the SVT, DCH, and           m =q1s−p72 (where s = q2                    and the asterisk
+              DRC.                                                                 ES               B                  + 2
+                                                                                             4                        e e
+                 The K0 candidates are reconstructed from two oppo-              denotes the e+e2 rest frame), which exhibit a ∼ 30%
+                        S
+              sitely charged pion candidates that come from a common             correlation for B2 → +pÃ2.
+                                                                                                           c
+              vertex;  candidates are formed by combining a proton                The event selection criteria are optimized based on
+              candidatewithanoppositelychargedpioncandidatethat                  studies of sideband data (in the region 0.10 < mr <
+              comes from a common vertex. The invariant mass of                  0.20GeV/c2) andsimulatedsignalMCsamples. Thedata
+              each K0 and  candidate must be within 10MeV/c2 of                 in a signal region (approximately ±2Ã wide in m           and
+                      S                                                                                                                 m
+              the world averagevalue [8] and the ﬂight signiﬁcance (de-          mr) were blinded until the selection criteria were de-
+              ﬁnedastheﬂightdistancefromthe+ vertexinthex−y                     termined and the signal extraction procedure was spec-
+                                                       c
+              plane divided by the measurement uncertainty) must be              iﬁed and validated.     B candidates that satisfy mm >
+              greater than 2. The mass of each K0 and  candidate is             5.121GeV/c2 and |m | < 0.10GeV/c2 are used in the
+                                                      S                                                 r
+              then constrained to the world average value [8].                   maximum likelihood ﬁt.
+                 A mass constraint is applied to all of the + candi-
+                                                                   c
+              dates, and all + daughter tracks must come from a com-
+                               c
+              monvertex. The + candidates are then combined with                                    BACKGROUNDS
+                                   c
+              an antiproton to form a B0 → +p candidate, or with
+                                                    c
+              an antiproton and a pion to form a B2 → +pÃ2 candi-                 The primary source of background for B0 → +p can-
+                                                               c                                                                       c
+              date. The daughtersofeachB candidatemustcomefrom                   didates is continuum e+e2 → qq events. Backgrounds
+              a common vertex, and the candidate with the largest Ç2             due to decays such as B2 → +pÃ2, B0 → +pÃ0, and
+                                                                                                                   c                c
+              probability in each event is selected.                             B2 → £0p,£0 → +Ã2 are rejected by the criterion
+                                                                                           c     c       c
+                 Additional background suppression is provided by in-            |m | < 0.10GeV/c2.
+                                                                                    r
+              formation about the topology of the events. A Fisher                 Approximately equal amounts of continuum e+e2 →
+              discriminant [22] is constructed based on the absolute             qq and e+e2 → BB events make up the background
+              value of the cosine of the angle of the B candidate mo-            for B2 → +pÃ2 events.             Again, the requirement
+                                                                                                 c
+              mentumvectorwithrespecttothebeamaxisinthee+e2                      |m | < 0.10GeV/c2 rejects mostof the contributions from
+                                                                                    r
+              center-of-mass (CM) frame, the absolute value of the co-           such decays as B0 → +pÃ+Ã2 and B2 → +pÃ2Ã0.
+                                                                                                            c                        c
+              sine of the angle between the B candidate thrust axis [23]         Approximately 1% of the background in the ﬁt region
+              and the thrust axis of the rest of the event in the e+e2           is due to these four-body events, but they do not peak
+              CMframe, and the moments L0 and L2. The quantity                   in mm and mr. A small peaking background is present
+                                                                                                                                                6
+              from B0 → £+p,£+ → +Ã0 events, especially when
+                               c     c        c                                                                          0      +
+                     0                                                            TABLE I: Detection eﬃciency for B → Λ p signal events,
+              the Ã has low momentum. Based on a branching frac-                                                                c
+              tion measurement of the isospin partner decay B(B2 →                determined from signal Monte Carlo samples and separated
+                                                                                       +
+                                                                                  by Λ decay mode. The numbers correspond to the eﬃciency
+                         0                                    25                       c
+              £c(2455) p) = (3.7 ±0.7±0.4±1.0)×10                 [25], where           0     +      −      + −      +
+                                                                                  for B →Λ p (B →Λ pπ ), Λ → f, where f is a given
+                                                                                              c             c        c      l         l
+              the uncertainties are statistical, systematic, and the un-                                                            −       + −
+                                                                                  ﬁnal state.   The eﬃciencies quoted for the B        → Λ pπ
+                                      +         2 +                                                                                         c
+              certainty due to B(c → pK Ã ), respectively, we ex-                decays are averaged across phase space.
+              pect 11.5±2.5 peaking background events in the signal                                                           +
+              region for B2 → +pÃ2, + → pK2Ã+. A correction is                                              Eﬃciency for Λ → f
+                                    c        c                                                                                c      l
+              applied and a systematic uncertainty is assigned to com-                                      0      +        −      + −
+                                                                                                 f        B →Λ p          B →Λ pπ
+                                                                                                   l               c               c
+              pensate for these events.                                                    pK−π+             22.9%             15.4%
+                                                                                           pK0               21.6%             14.3%
+                                                                                              S
+                                                                                           pK0π+π−            9.6%              5.6%
+                             DETECTIONEFFICIENCY                                              S
+                                                                                           Λπ+               17.2%             11.6%
+                                                                                           Λπ+π−π+             –                4.0%
+                 The detection eﬃciencies for B0 → +p and B2 →
+                                                             c
+              +pÃ2signaleventsaredeterminedfromsignalMCsam-
+                c
+              ples with 175,000 to over 1,600,000 events in each sam-
+              ple, depending on the + decay mode. To account for
+                                          c                                       lar bins than the traditional set of Dalitz variables. The
+              inaccuracies in the simulation of the detector, each MC             m      bins are narrower near the kinematic limits where
+                                                                                     Λ π
+              event is assigned a weight based on each daughter par-                  c
+              ticle’s momentum and angle. These weights are deter-                the eﬃciency changes more rapidly and are centered on
+                                                                                  expected resonances. For B2 → +pÃ2, + → pK2Ã+
+              mined from studies comparing large pure samples of pro-                                                    c         c
+              tons, kaons, and pions in MC samples and data. Small                near cos»h = 0, the eﬃciency varies from approximately
+                                                                                  13% at low mΛ π, to 16% in the central mΛ π region, to
+              corrections (0.4 − 1.6%) are also applied to account for                             c                                c
+                                                                0                 8% at high mΛ π. The eﬃciency is fairly uniform with
+              tracking ineﬃciencies due to the displaced K and  ver-                               c
+                                                                S                 respect to cos» , except at cos»         ∼ 1 and low m         ,
+                                                             0                                      h                   h                    Λ π
+              tices. These corrections depend on the K and  daugh-                                                                            c
+                                                            S                     where it drops to 7.4%. The other + decay modes ex-
+              ter trajectories’ transverse momentum and angle, and the                                                      c
+              distance betweenthe beamspotandthedisplacedvertex.                  hibit similar variations in eﬃciency.
+                 The detection eﬃciency (· ) for B0 → +p signal
+                                                l                  c
+              events in each + decay mode (l) is determined from
+                                  c
+              the number of signal events extracted from an extended
+              unbinned maximum likelihood ﬁt to signal MC events.                                  SIGNAL EXTRACTION
+              These events pass the same selection criteria as applied
+              to data. The ﬁt is performed in two dimensions, mm                     To extract the number of signal events in data, a two-
+              and mr. The probability distribution function (PDF) for             dimensional (mm vs. mr) extended unbinned maximum
+              the background consists of a threshold function [26] in             likelihood ﬁt is performed simultaneously across + de-
+                                                                                                                                            c
+              mmmultiplied by a ﬁrst-order polynomial in mr; this is              cay modes. B0 → +p candidates and B2 → +pÃ2
+              the same as the background PDF used in the ﬁt to the                                         c                               c
+                                                                                  candidates are ﬁt separately.
+              B0 →+p data. The signal PDF consists of a Gaussian
+                       c                                                             The background PDF for each ﬁt is a threshold func-
+              in mm multiplied by a modiﬁed asymmetric Gaussian                   tion [26] in m    multiplied by a ﬁrst-order polynomial in
+              with a tail parameter in m . The detection eﬃciencies in                            m
+                                            r                                     m. The shape parameter (s            ) of the threshold func-
+              each + decay mode are summarized in Table I.                          r                              bkg
+                      c                                                           tion is free but is common to all of the + decay modes.
+                 The detection eﬃciency for B2 → +pÃ2 signal                                                                   c
+                                                               c                  The slope a of the ﬁrst-order polynomial is allowed to
+              events in each + decay mode varies considerably across
+                                 c                                                vary independently for each + decay mode.
+              the Dalitz plane of the three-body decay. For reference,                                              c
+              we quote the average eﬃciencies in Table I, but we ap-                 The signal PDF is a single Gaussian distribution in
+              ply a more sophisticated treatment to these events. We              mm multiplied by a single Gaussian distribution in mr
+                                                                                  for B0 → +p and multiplied by a double Gaussian dis-
+              parameterize the physical Dalitz region using the vari-                          c
+                                        + 2                                       tribution in m for B2 → +pÃ2. A single Gaussian is
+              ables cos»h and the  Ã          invariant mass, mΛ π. The                           r              c
+                                        c                            c                                                             0      +
+              helicity angle »    is deﬁned as the angle between the Ã2           suﬃcient to describe the signal PDF for B → c p be-
+                                h
+              and the p in the B2 rest frame. The quantity cos» can               cause of the small number of expected signal events. All
+                                                                        h         of the shape parameters of the signal PDF (s          ) are free
+              be expressed in terms of Lorentz-invariant products of                                                                 sig
+                                                                                  but are shared among the + decay modes. Separate sig-
+              four-vectors. We divide the kinematic region into rea-                                             c
+              sonably sized bins that are uniform in cos»h (0.2 units             nal (Nsig,l) and background (Nbkg,l) yields are extracted
+                                                                     2            for each + decay mode l.
+              wide) and nonuniform in mΛ π (60 −200MeV/c wide).                               c
+                                               c
+              This choice of variables is more conducive to rectangu-                The total likelihood is the product of the likelihoods
+                                                                                                                                                     7
+                                                                               +     of the covariance matrix V are calculated as follows:
+               TABLE II: Signal yields from simultaneous ﬁts (across Λ
+                                                                               c
+                                   0      +         −      + −                                                     N
+               decay modes) to B → Λ p and B →Λ pπ candidates.
+                                          c                c                                        2
+                                                                                          V21 = " (−lnL) = X fn(ye)fj(ye)  ,                     (5)
+                                                                                            nj                                              2
+                                                   N                                                "Nn"Nj        e=1 PNs
+                                                     sig                                                                   k=1Nkfk(ye)
+                                          0     +     −      + −
+                            Mode        B →Λ p B →Λ pπ
+                                                c            c
+                            pK−π+       90 ± 11     991 ± 45                         where the sum is over the N candidates. Note that in
+                            pK0         10 ± 4      165 ± 15                         the calculation of the covariance matrix, the data is reﬁt
+                               S
+                            pK0π+π− 14 ± 5           86 ± 14                         to the same simultaneous PDF described above, except
+                               S
+                            Λπ+          3 ± 3      114 ± 13                         that all ﬁt parameters other than the yields are ﬁxed to
+                            Λπ+π−π+          –       88 ± 13                         the values from the original ﬁt.
+                                                                                        We use these sPlot weights to generate a signal or
+                                                                                     background distribution for any quantity that is not cor-
+                           +                                                         related with mm or mr. The sPlot formalism is easily
+               for each c decay mode:                                               extended to incorporate an eﬃciency correction for each
+                                                                                     candidate. Each candidate is assigned a weight of 1/·,
+                      L =YL(y;N ,N ,s ,s ,a). (3)                                    where the eﬃciency · for an event is determined by its
+                        tot         l   l   sig,l  bkg,l  sig   bkg   l
+                                                                                     location in the cos»h vs. mΛ π plane.
+                                l                                                                                     c
+                                                                                        The branching fraction for B0 → +p for + decay
+                                                                                                                                  c          c
+               Thesymboly represents the variables used in the 2-D ﬁt,               mode l is calculated as follows:
+               {mm,mr}.                                                                      0      +
+                  Thefull simultaneousﬁtisvalidatedusingindependent                     B(B → p) =
+                                                                                                    c   l
+               samples of signal MC events to simulate signal events and                                             Nsig,l
+               toy MC samples (generated from the background MC                                                                +         2 + , (6)
+                                                                                                  N      × · × R × B(c →pK Ã )
+               sample distribution) to represent background events in                               BB       l       l
+               the ﬁt region. For both B0 → +p and B2 → +pÃ2,
+                                                     c                   c           where N       is the number of BB events in the data sam-
+               we perform ﬁts to 100 combined MC samples and ﬁnd                               BB
+                                                                                     ple and R is the ratio of + branching fraction for decay
+               that the ﬁt is robust and the results are unbiased.                              l                   c
+                                                                                     mode l to B(+ → pK2Ã+), taking care to include the
+                  The results of the 2-D ﬁts to data are shown in projec-                             c
+                                                                                     K0 → Ã+Ã2 and  → pÃ2 branching fractions where
+               tions of m     and m for each + decay mode. Figure 1                   S
+                           m          r             c                                applicable.
+               shows the result of the ﬁt to B0 → +p candidates and
+                                                           c                            In order to determine the branching fraction for B2 →
+               Fig. 2 shows the result of the ﬁt to B2 → +pÃ2 candi-                  + 2
+                                                                  c                   pÃ , wetakethe product of the sPlot weight and eﬃ-
+               dates. The signal yields from the ﬁts are summarized in                 c
+               Table II.                                                             ciency weight for each candidate and sum over all of the
+                                                                                     candidates in the ﬁt region. We simplify the notation by
+                                                                                     using W to denote the value of the signal Plot weight
+                                                                                            s  i                                        s
+                                                                                     for event i and include a 1% correction for the peaking
+                 BRANCHINGFRACTIONMEASUREMENTS                                       background due to B0 → £+p,£+ → +Ã0:
+                                                                                                                     c      c      c
+                  For the three-body mode B2 → +pÃ2, the eﬃciency                      B(B2 →+pÃ2) =
+                                                         c                                          c       l
+               variation across the Dalitz plane requires a correction                                                             
+                                                                                                                           P W
+                                                                                                                 0.99×         s  i
+               for each signal event in order to extract the branching                                                          ·
+               fraction for this mode. We use the Plot method [27] to                                                       i    i   l         .   (7)
+                                                        s                                               N      × R × B(+→pK2Ã+)
+               calculate a weight for each event e based on the 2-D ﬁt                                     BB        l         c
+               to the variables y. We have Ns = 2 species (signal and                The contribution from the peaking background is esti-
+               background) for each + decay mode and deﬁne f                 as
+                                          c                               j,k        mated using the + → pK2Ã+ decay mode. Since the
+               the signal (j,k = 1) or background (j,k = 2) PDF. The                                       c
+                Plot weights are calculated as                                       overall branching fraction for the peaking background
+               s                                                                     contribution is the same regardless of + decay mode,
+                                                                                                                                     c
+                                            PNs V f (y )                             it is applied as a proportional correction. The measure-
+                                               j=1   nj j    e                       ments for B(B0 → +p) and B(B2 → +pÃ2) for each
+                                P (y ) =                       ,             (4)                             c                       c
+                               s  n e       PNs Nkfk(ye)                             + decay mode are summarized in Table III.
+                                               k=1                                     c
+                                                                                        TheBLUE(BestLinearUnbiasedEstimate)technique
+               where sPn(ye) is the sPlot weight for species n, V is                 is used as described in Ref. [28] to combine the corre-
+               the covariance matrix for signal and background yields,               lated branching fraction measurements for diﬀerent +
+                                                                                                                                                    c
+               fj,k(ye) is the value of PDF fj,k for event e, and ye is the          decay modes. The purpose of the method is to obtain
+               mmandmrvalueforevente. Theelementsoftheinverse                        an estimate xˆ that is a linear combination of t individual
+                                                                                                                                                                                                                                                                      8
+                                     6060                                                                                     (a)                     3030                                                                                         (b)
+                                     4040                                                                                                             2020
+                                     2020                                                                                                             1010
+                                                                                                                              (c)                       88                                                                                         (d)
+                               2   ) 1010                                                                                                        2  )   66
+                                       55                                                                                                               44
+                                                                                                                                                        22
+                                     1515                                                                                                             1010
+                                                                                                                              (e)                                                                                                                   (f)
+                                     1010                                                                                                               55
+                                       55
+                                  Events / ( 0.008 GeV/c                                                                                           Events / ( 0.008 GeV/c
+                                     1010                                                                                     (g)                       88                                                                                         (h)
+                                                                                                                                                        66
+                                       55                                                                                                               44
+                                                                                                                                                        22
+                                       00                                                                                                               00
+                                                   5.15                    5.20                    5.25                    5.30                       -0.10-0.10               -0.05-0.05               0.000.00                 0.050.05                 0.100.10
+                                                                                                                                      22                                                                                                                   22
+                                                                                                                mmmm (GeV/c (GeV/c ))                                                                                                  mmrr (GeV/c (GeV/c ))
+                                                                                                                                                  0           +                                                          +
+                          FIG. 1: Projections of mm (left) and mr (right) in data for B → Λ p candidates, separated by Λ                                                                                                     decay mode: (a,b) are
+                                                                                                                                                              c                                                          c
+                             +               − +                            +               0                         +               0 + −                                        +              +
+                          Λ →pK π ,(c,d)areΛ →pK ,(e,f)areΛ →pK π π ,and(g,h)are Λ →Λπ . Themm projections (a,c,e,g) are
+                             c                                              c               S                         c              S                                             c
+                                                                    2                                                                                                                  2
+                          for |mr| < 0.030GeV/c and the mr projections (b,d,f,h) are for mm > 5.27GeV/c . The solid curves correspond to the PDF
+                                                                                                                                           +
+                          from the simultaneous 2-D ﬁt to candidates for the four Λ                                                             decay modes, and the dashed curves represent the background
+                                                                                                                                           c
+                          component of the PDF.
+                          measurements (x ), is unbiased, and has the minimum                                                                        between measurements l and l2). The error matrices add
+                                                             l
+                          possible variance Ãˆ2. The estimate xˆ is deﬁned by                                                                        linearly, so we deﬁne E = Estat + Esyst. Estat includes
+                                                                                                                                                     the uncertainties in the ﬁt yields and the correlations
+                                                                      xˆ = X³ x .                                                      (8)
+                                                                                          l   l                                                      between yields from the simultaneous ﬁt result. Esyst in-
+                                                                                  l                                                                  cludes the systematic uncertainties that are described in
+                          The condition P ³ = 1 ensures that the method is un-                                                                       the next section. Overall multiplicative constants (NBB
+                                                             l    l                                                                                  and B(+ →pK2Ã+)) that are common to all the mea-
+                          biased. Each coeﬃcient ³ is a constant weight for mea-                                                                                       c
+                                                                              l                                                                      surements and their uncertainties are not included in the
+                          surement x and is not necessarily positive. The set of
+                                                 l                                                                                                   BLUEmethod.
+                          coeﬃcients α (a vector with t elements) is determined by
+                                                                                 E21U                                                                     The solutions for α are
+                                                                   α=                   21         ,                                   (9)
+                                                                             U E U
+                                                                                 T
+                          where U is a t-component vector whose elements are all
+                          1 (U is its transpose) and E is the (t×t) error matrix.
+                                    T                                                                                                                         0           +
+                          The diagonal elements of E are the individual variances,                                                                        B →cp:
+                          Ã2. The oﬀ-diagonal elements are the covariances be-                                                                                                                                                                       
+                            l                                                                                                                                                    α = 0.757 0.128 0.019 0.096 , (10)
+                                                                                                                                                                                     T
+                          tween measurements (rÃ Ã 2, where r is the correlation
+                                                                             l   l
+                                                                                                                                                                                                                                                                       9
+                                   600600                                                                                     (a)                      300300                                                                                       (b)
+                                   400400                                                                                                              200200
+                                   200200                                                                                                              100100
+                                   100100                                                                                     (c)                        6060                                                                                       (d)
+                                                                                                                                                         4040
+                                     5050
+                                   )                                                                                                                 )   2020
+                               2                                                                                                                 2
+                                     8080                                                                                     (e)                        4040                                                                                        (f)
+                                     6060
+                                     4040                                                                                                                2020
+                                     2020
+                                     8080                                                                                     (g)                                                                                                                   (h)
+                                  Events / ( 0.008 GeV/c6060                                                                                        Events / ( 0.008 GeV/c4040
+                                     4040                                                                                                                2020
+                                     2020
+                                   100100
+                                                                                                                               (i)                       4040                                                                                        (j)
+                                     5050
+                                                                                                                                                         2020
+                                       00                                                                                                                  00
+                                                    5.15                   5.20                     5.25                   5.30                          -0.10-0.10              -0.05-0.05                0.000.00                 0.050.05                0.100.10
+                                                                                                                                       22                                                                                                                     22
+                                                                                                                 mmmm (GeV/c (GeV/c ))                                                                                                   mmrr (GeV/c (GeV/c ))
+                                                                                                                                               −            + −                                                            +
+                          FIG. 2: Projections of mm (left) and mr (right) in data for B                                                            →Λ pπ candidates, separated by Λ decay mode: (a,b) are
+                                                                                                                                                            c                                                              c
+                             +               − +                              +               0                         +               0 + −                                 +               +                                  +              + − +
+                          Λ →pK π ,(c,d) are Λ → pK , (e,f) are Λ → pK π π , (g,h) are Λ → Λπ , and (i,j) are Λ → Λπ π π . The
+                             c                                                c              S                          c               S                                     c                                                  c
+                                                                                                                                   2                                                                                                                        2
+                          mm projections (a,c,e,g,i) are for |mr| < 0.030GeV/c and the mr projections (b,d,f,h,j) are for mm > 5.27GeV/c . The
+                                                                                                                                                                                                             +
+                          solid curves correspond to the PDF from the simultaneous 2-D ﬁt to candidates for the ﬁve Λ                                                                                            decay modes, and the dashed
+                                                                                                                                                                                                             c
+                          curves represent the background component of the PDF.
+                          and                                                                                                                         Wecalculate the variance of xˆ
+                               B2→+pÃ2:
+                                                c                                                                                                                                                   2
+                                                                                                                                                                                                Ãˆ    =α Eα.                                                   (12)
+                                                                                                                                                                                                                T
+                                     α = 0.913 0.043 −0.003 0.029 0.018 , (11)
+                                        T
+                          where α is the transpose of α. The order of the co-                                                                         Since the error matrices add linearly, we quote separate
+                                            T
+                          eﬃcients corresponds to the order of + decay modes                                                                         statistical and systematic uncertainties.                                                The statisti-
+                                                                                                             c
+                          presented in Table III.                                                                                                     cal and systematic uncertainties in NBB are added in
+                               We calculate the best estimate xˆ according to Eqn. 8                                                                  quadrature with the statistical and systematic Ãˆ results,
+                          and divide this quantity by N                                        and B(+ →pK2Ã+).                                      respectively. The combined branching fraction measure-
+                                                                                       BB                       c
+                                                                                                                                            10
+              ments are thus                                                       The systematic uncertainty for charged particle iden-
+                                                                                 tiﬁcation is a measure of how well the corrections ap-
+                 B(B0 →+p)=                                                     plied to the events in the signal MC sample for the
+                            c
+                                                                  25             eﬃciency determination describe the B0 → +p and
+                               (1.89±0.21±0.06±0.49)×10 ,                                                                              c
+                                                                                 B2 →+pÃ2 decay modes. The corrections are deter-
+                 B(B2 →+pÃ2)=                                                             c                                                 2
+                             c                                                   mined from control MC and data samples (a  → pÃ
+                               (3.38±0.12±0.12±0.88)×1024, (13)                  sample for protons and D7+ → D0Ã+,D0 → K2Ã+
+                                                                                 samples for pions and kaons). The eﬃciency as a func-
+              where the uncertainties are statistical, systematic, and           tion of momentum and angle for the B0 → +p and
+                                       +         2 +                                                                                   c
+              the uncertainty in B(c → pK Ã ), respectively.                    B2 → +pÃ2 signal MC samples and the control MC
+                 Weusethesameproceduretodeterminethebranching                              c
+              ratio B(B2 → +pÃ2)/B(B0 → +p):                                   samples agree to within (0.8−3.5)% for diﬀerent ranges
+                                c                   c                            of momentum and angle.
+                         B(B2 →+pÃ2)                                              Systematic uncertainties due to the ﬁt procedure are
+                                     c       =15.4±1.8±0.3.             (14)     also considered.    The dominant ﬁt uncertainty is due
+                           B(B0 →+p)
+                                      c                                          to the threshold function parameter in the background
+              In the branching ratio, many of the systematic uncer-              PDF. The ﬁt validation study showed that this param-
+                                                        +         2 +            eter must be shared among + decay modes to ensure
+              tainties, including the dominant B(c → pK Ã ) un-                                                   c
+              certainty, cancel.                                                 ﬁt robustness. We allowed this parameter to vary inde-
+                                                                                 pendently among + decay modes and repeated the ﬁt
+                                                                                                       c
+                                                                                 to data; the diﬀerence between the ﬁt results is taken as
+                   SYSTEMATICUNCERTAINTIESIN THE                                 a systematic uncertainty of (1 − 24)% depending on the
+                            BRANCHINGFRACTIONS                                   + decay mode. A peaking background due to misre-
+                                                                                   c
+                                                                                 constructed B0 → £+p,£+ → +Ã0 events is present
+                                                                                                        c      c       c
+                 The uncertainties in the B(B0 → +p) and B(B2 →                 at the level of 1.0%. We assign a systematic uncertainty
+                                                         c                                                                         0      +
+                + 2                                                                                                              B →£ p).
+              c pÃ ) measurementsaredominatedby theuncertainty                  of 0.5% to account for the uncertainty in B(             c  2
+              in the + → pK2Ã+ branching fraction, and then by                  The nominal endpoint in the ﬁt to mm is 5289.0MeV/c ;
+                        c                                                                                       2
+              the uncertainties in the + branching ratios (compared             we vary this by ±0.5MeV/c , resulting in a systematic
+                                           c
+              to + → pK2Ã+) [8].                                                uncertainty of (0.2 − 1.5)%.
+                   c
+                 The systematic uncertainties for each + decay mode
+                                                             c
+              are summarized in Tables IV and V. The systematic
+                                                                                         Λ+p THRESHOLD ENHANCEMENT
+              uncertainty in the number of BB events is 1.1%.                              c
+                 The uncertainty in the eﬃciency determination is due
+              to MC statistics, charged particle tracking, and particle            The kinematic features and resonances in B2 →
+              identiﬁcation. ForB0 → +p,theuncertaintyduetoMC                   +pÃ2 are investigated through examination of the 2-D
+                                           c                                       c
+              statistics is (0.4−0.6)%. For B2 → +pÃ2, we calculate             Dalitz plot (m2    vs. m2    ) and its projections (the res-
+                                                       c                                         pπ       Λ π
+                                                                                                            c
+              the uncertainty due to MC statistics by independently              onances will be discussed in the next section). Using the
+              varying the number of reconstructed signal MC events               sPlot formalism, we project the events in the {mm,mr}
+              in each cos»h,mΛ π bin according to a Poisson distribu-            ﬁt region using the signal sPlot weights and background
+                                  c
+              tion (ensuring that the data events in the same bin are            sPlot weights along with the eﬃciency corrections. This
+              correlated). The resulting uncertainty is (0.6 − 3.1)%.            methodallowsustoprojectonlythefeaturesofthesignal
+                 Thetrackingeﬃciencysystematicuncertainties are de-              events, while taking the eﬃciency variations into account.
+              termined from two separate studies. In the ﬁrst study,             Figure 3 shows the Plot weights for m2 vs. m2          . Note
+                                                                                                      s                    pπ       Λ π
+                                                                                                                                      c
+              Ç+Ç2 candidates are selected, in which one Ç candidate             that the negative bins are suppressed in the 2-D Dalitz
+              decays to leptons and the other decays to more than one            plot.
+              hadron plus a neutrino. Events are selected if one lepton            We project the events in the ﬁt region onto the mΛ p
+                                                                                                                                             c
+              and at least two charged hadrons are reconstructed. The            axis with signal sPlot weights and eﬃciency corrections
+              eﬃciency is then measured for reconstructing the third             to study the enhancement at threshold in the baryon-
+              charged particle for the hadronic decay. From this study           antibaryon mass distribution. This enhancement can be
+              there is a (0.38 − 0.45)% uncertainty in the tracking ef-          seen in B2 → +pÃ2 decays as a peak in m                 near
+                                                                                                                                     Λ p
+                                                                                                    c                                  c
+              ﬁciency per charged particle. In the second method, a              the kinematic threshold, m0       =3224.8MeV/c2. We di-
+                                                                                                               Λ p
+                                                                                                                c
+              charged particle trajectory is reconstructed in the SVT,           vide the normalized mΛ p distribution by the expectation
+                                                                                                          c
+              and then the eﬃciency for ﬁnding the corresponding tra-            from three-body phase-space; the resulting distribution
+              jectory in the DCH is measured. For the latter study,              is shown in Figure 4. An enhancement is clearly visi-
+              the uncertainties range from 0.21% to 1.18% depending              ble near threshold. The observation of this enhancement
+              on the + decay mode. The systematic uncertainties                 is consistent with baryon-antibaryon threshold enhance-
+                         c
+              determined in the two studies are added in quadrature.             ments as seen in other decay modes such as B → ppK,
+                                                                                                                                                                      11
+                                                                                                                                     0       +           −        + −
+                 TABLE III: Summary of the individual and combined branching fraction measurements for B → Λ p and B                                        →Λ pπ .
+                                                                                                                                             c                    c
+                                                                                          +         − +
+                 The uncertainties are statistical, systematic, and due to B(Λ               →pK π ), respectively.
+                                                                                          c
+                                                                                0      +                                −       + −
+                                        Mode                              B(B →Λ p)                                B(B →Λ pπ )
+                                                                                       c                                        c
+                                          +         − +                                             −5                                         −4
+                                        Λ →pK π               (2.05 ±0.25±0.05±0.53)×10                  (3.38 ±0.13±0.11±0.88)×10
+                                          c
+                                          +         0                                               −5                                         −4
+                                        Λ →pK                 (1.49 ±0.60±0.17±0.39)×10                  (3.82 ±0.35±0.38±0.99)×10
+                                          c         S
+                                          +         0 + −                                           −5                                         −4
+                                        Λ →pK π π (4.33±1.55±0.57±1.13)×10                               (4.58 ±0.70±0.66±1.19)×10
+                                          c         S
+                                          +         +                                               −5                                         −4
+                                        Λ →Λπ                 (0.71 ±0.71±0.18±0.18)×10                  (3.98 ±0.45±0.39±1.03)×10
+                                          c
+                                          +         + − +                                                                                      −4
+                                        Λ →Λπ π π                                 –                      (3.49 ±0.51±0.38±0.91)×10
+                                          c
+                                                                                                    −5                                         −4
+                                        combined              (1.89 ±0.21±0.06±0.49)×10                  (3.38 ±0.12±0.12±0.88)×10
+                       4 )                                                                      4)                                                             400
+                       2 /c 9                                                          140      2/c  9
+                            8                                                                        8                                                         350
+                          (GeV                                                         120        (GeV                                                         300
+                        2 π 7                                                                   2 π  7
+                         mp                                                            100       mp
+                            6                                                                        6                                                         250
+                            5                                                          80            5                                                         200
+                            4                                                          60            4                                                         150
+                            3                                                          40            3                                                         100
+                            2                                                                        2
+                            1                                                          20            1                                                         50
+                                 6      8      10     12     14     16     18          0                  6      8     10     12     14     16     18          0
+                                                                   2          2 4                                                           2         2  4
+                                                                 mΛπ (GeV /c )                                                            mΛπ (GeV /c )
+                                                                     c                                                                       c
+                 FIG. 3: Dalitz plot of m2        vs. m2      . Each event is eﬃciency-corrected and given a signal (left) or background (right) Plot
+                                               pπ         Λcπ                                                                                                      s
+                 weight. Note that the density scales on the left- and right-hand plots are diﬀerent, and negative bins are suppressed.
+                 B→Dpp(Ã), or in continuum e+e2 → pp³ [1, 2].                                   not interfere with the resonant contributions. The range
+                                                                                                of the integral over the quantity dmi takes into account
+                                                                                                the variable bin width, Y is the number of weighted
+                                                                                                                                   i
+                 RESONANTSUBSTRUCTUREOFB−→Λ+pπ−
+                                                                                  c             data events, and Ã is the uncertainty in Y . Variable
+                                                                                                                         i                                i
+                                                                                                bin widths are used to ensure that there are a suﬃcient
+                    We also project the events in the ﬁt region onto the                        number of signal events in each mΛ π bin so that the es-
+                                                                                                                                              c
+                 mΛ π axis with signal sPlot weights and eﬃciency cor-                          timated uncertainty is valid. This is especially important
+                     c
+                 rections to study resonances in mΛ π. We perform 1-D                           in the non-resonant sideband regions. Bin widths in the
+                                                               c
+                 binned Ç2 ﬁts to discriminate between resonant (B2 →                           signal regions are chosen to have suﬃcient granularity
+                 £0 p) and nonresonant (B2 → +pÃ2) signal events.                              throughout the resonant peaks.
+                   c                                           c
+                 In each binned Ç2 ﬁt, the PDF is numerically integrated
+                                                                                                                     0                   0
+                 over each (variable-sized) bin and the following quantity                         The £c(2455) and £c(2520) are well-established res-
+                                                                                                onances that decay to +Ã2. A third £ resonance, the
+                 is minimized:                                                                                                  c                    c
+                                                                                                            0
+                                                                                                £c(2800) , was reported by the Belle Collaboration in
+                           n     R                                                                                                                              +
+                             bins                                              2                2005 [29] along with its isospin partners £ (2800)                   and
+                            X (Y P +Y P )dm − Y                                                                                                         c
+                    Ç2 =                 sig  sig     nr nr         i       i    ,   (15)                   ++
+                                                       Ã                                        £c(2800)        .  These resonances were observed in con-
+                            i=1                         i                                                    + 2                                                 0
+                                                                                                tinuum (e e         →cc) cÃ events. The £c(2800) reso-
+                 where P       is the resonant signal PDF, P             is the nonres-         nance was ﬁt with a D-wave Breit-Wigner distribution
+                           sig                                        nr
+                                                                                                and the mass diﬀerence ∆m = mΣc(2800)0 − m + =
+                                                                                                                                                                  Λ
+                 onant signal PDF, Y            is the expected yield of weighted                                                                                  c
+                                            sig                                                              + 2           2
+                 resonant signal events, and Y             is the expected yield of             (515 ± 3 2 6)MeV/c was measured, which corresponds
+                                                        nr                                                                             + 4
+                 weighted nonresonant signal events. We assume the am-                          to an absolute mass of (2802               )MeV/c2 [8]. The nat-
+                                                                                                                                       2 7
+                 plitude and phase of the non-resonant B2 → +pÃ2                               ural width of the resonance is (61+ 28)MeV [29]. We
+                                                                                   c                                                           2 18
+                 contribution is constant over the Dalitz plot, and does                        search for evidence of all three resonances.
+                                                                                                                                          12
+                                                                                                        0     +              +
+              TABLE IV: Summary of the contributions to the relative systematic uncertainty in B(B → Λ p) for each Λ            decay mode.
+                                                                                                              c              c
+              The total for each mode is determined by adding the uncertainty from each source in quadrature. The fractional statistical
+              uncertainty in the ﬁt yield for each mode is provided for comparison.
+                                                                        0     +
+                                                                      B →Λ p Systematic Uncertainty
+                                             Source                           c
+                                                              +       − + +          0   +       0 + − +           +
+                                                            Λ →pK π Λ →pK Λ →pK π π Λ →Λπ
+                                                              c              c       S   c       S         c
+                                           BBevents               1.1%         1.1%           1.1%           1.1%
+                                               R                   –           8.5%          11.8%           8.9%
+                                                 l
+                                          MCstatistics            0.4%         0.6%           0.6%           0.4%
+                                            Tracking              1.7%         1.9%           2.8%           1.7%
+                                       Displaced Vertices          –           1.1%           1.1%           1.1%
+                                     Particle Identiﬁcation       1.5%         2.1%           1.7%           1.6%
+                                             Fitting              0.9%         7.0%           4.9%          24.2%
+                                              Total               3%            12%           13%            26%
+                                           Statistical           12%            40%           36%           100%
+                                                                                                     −      + −              +
+              TABLEV:Summaryof the contributions to the relative systematic uncertainty in B(B          →Λ pπ )for each Λ decay mode.
+                                                                                                            c                c
+              The total for each mode is determined by adding the uncertainty from each source in quadrature. The fractional statistical
+              uncertainty in the ﬁt yield for each mode is provided for comparison.
+                                                                      −      +pπ− Systematic Uncertainty
+                                                                    B →Λ
+                                    Source                                   c
+                                                     +       − + +          0   +       0 + − +           + +         + − +
+                                                   Λ →pK π Λ →pK Λ →pK π π Λ →Λπ Λ →Λπ π π
+                                                     c              c       S   c       S         c           c
+                                  BB events             1.1%          1.1%           1.1%           1.1%           1.1%
+                                      R                   –           8.5%          11.8%           8.9%           6.1%
+                                        l
+                                 MCstatistics           0.6%          2.1%           3.1%           2.0%           3.0%
+                                   Tracking             2.6%          2.3%           3.2%           2.1%           2.9%
+                              Displaced Vertices          –           1.1%           1.1%           1.1%           1.1%
+                             Particle Identiﬁcation     0.8%          1.8%           2.5%           1.8%           3.5%
+                                    Fitting             1.6%          3.2%           6.5%           2.5%           2.4%
+                                     Total              3.4%          9.9%          14.5%          10.0%           8.7%
+                                  Statistical           4.5%          9.1%          16.3%          11.4%          14.8%
+                                                                                                                                                                                                                                                                                                            13
+                                    2  )                                                                                                                                               ) )
+                                           70                                                                                                                                       22  450450                                                                                           (a)
+                                           60                                                                                                                                           400400
+                                                                                                                                                                                        350350
+                                           50                                                                                                                                           300300
+                                    2   / (0.017 GeV/c40                                                                                                                                250250
+                                       |A| 30                                                                                                                                           200200
+                                           20                                                                                                                                         Events / ( 0.001 GeV/cEvents / ( 0.001 GeV/c150150
+                                                                                                                                                                                        100100
+                                           10                                                                                                                                             5050
+                                             0                                                                                                                                               00
+                                                          3.4            3.6            3.8            4.0            4.2            4.4            4.6                                            2.432.43           2.442.44            2.452.45          2.462.46            2.472.47           2.482.48
+                                                                                                                                                    2                                                                                                                                              22
+                                                                                                                       mΛ p (GeV/c )                                                                                                                                    mmΛΛ ππ (GeV/c (GeV/c ))
+                                                                                                                              c                                                                                                                                                cc
+                                                                                                                                          2
+                              FIG. 4: Projection of the amplitude squared (|A| ) vs. mΛcp                                                                                          22 ) )100100
+                                          −                 + −
+                              for B             → Λ pπ decays near threshold. Candidates are
+                                                            c                                                                                                                                                                                                                           (b)
+                              eﬃciency-corrected, weighted using the sPlot technique, and                                                                                                 8080
+                              corrected according to three-body phase space.
+                                                                                                                                                                                          6060
+                                                                                         0
+                                   A signiﬁcant £c(2455) signal is seen near threshold;
+                              see Fig. 3 and Fig. 5. We construct a resonant signal PDF                                                                                                   4040
+                              from a non-relativistic S-wave Breit-Wigner distribution                                                                                               Events / ( 0.001 GeV/cEvents / ( 0.001 GeV/c
+                              convolved with the sum of two Gaussian distributions (to                                                                                                    2020
+                              form a “Voigtian” distribution). This quantity is multi-
+                              plied by a phase-spacefunction. The massand(constant)                                                                                                         00
+                              width of the resonance in the Breit-Wigner PDF are free                                                                                                             2.432.43            2.442.44           2.452.45           2.462.46           2.472.47           2.482.48
+                              in the ﬁt. The resolution (described by the two Gaus-                                                                                                                                                                                                               22
+                                                                                                                                                                                                                                                                       mmΛΛ ππ (GeV/c (GeV/c ))
+                                                                                                                           2                                0                                                                                                                 cc
+                              sians) is ﬁxed; it is determined from a B                                                         →£c(2455) p,
+                                                   0               + 2                +                    2 +
+                              £c(2455) → c Ã , c → pK Ã signal MC sample                                                                                                                                                                                                                         0
+                                                                                                                       0                                                    FIG. 5: (a) Projection of mΛcπ showing the Σc(2455) reso-
+                              by comparing the measured £c(2455) mass to the true
+                                                   0                                                                                                                        nance. Events are eﬃciency corrected and weighted using the
+                              £c(2455) massforeachcandidate. Thetwo-bodyphase-                                                                                                 Plot technique, and the result of a binned χ2 ﬁt to a Voigtian
+                              space function goes to zero at the kinematic threshold for                                                                                    s
+                                                                             2                                                                                              signal plus a threshold function background is overlaid. The
+                              cÃ: 2426.03MeV/c . The non-resonant signal PDF is a                                                                                                                                                                                      2
+                                                                                                                                                                            variable bin sizes range from 1 to 7MeV/c . (b) The same ﬁt
+                              threshold function [26]; the threshold is set to the kine-                                                                                    result and data is shown on a smaller vertical scale to show
+                              matic threshold for cÃ. The shape parameter for the                                                                                          the behavior of the PDF at threshold.
+                              threshold function is ﬁxed from a ﬁt to a non-resonant
+                              B2 → +pÃ2 signal MC sample. The weighted data
+                                                    c
+                              points are shown in Fig. 5 with the ﬁt overlaid; the ﬁt
+                              results are summarized in Table VI. The average eﬃ-
+                              ciency for + → pK2Ã+ signal MC events in this region
+                                                          c                                                                                                                                                                                    −                                0
+                              is 14.1%.                                                                                                                                     TABLE VI: Fit results for B                                              → Σc(2455) p. Ysig is the
+                                   No signiﬁcant signal is seen in the region of the                                                                                        eﬃciency-corrected resonant signal yield in the ﬁt range. Sys-
+                                                   0                                                                                                                        tematic uncertainties from the ﬁt to mm vs. mr are not
+                              £c(2520) ; see Fig. 6. We perform a ﬁt using a rela-                                                                                          included in the yield.                                The world average values from the
+                              tivistic D-wave Breit-Wigner distribution with a mass-                                                                                        Particle Data Group (PDG) of the mass and width of the
+                              dependent width to describe the resonant signal PDF,                                                                                          Σ (2455)0 are included for comparison [8].
+                                                                                                                                                                                c
+                              ﬁxing the resonance mass and the width to the world
+                              average values [8]: m                                        = (2518.0 ± 0.5)MeV/c2 and
+                                                                                    R                                                                                                      Fit Parameter                               Value                      PDGValue [8]
+                              ΓR = (16.1 ± 2.1)MeV. The non-resonant signal PDF                                                                                                            Ysig                                 1522 ± 149
+                              is a ﬁrst-order polynomial. We obtain Y                                                                     = 27 ± 69                                                                 2
+                                                                                                                                  sig                                                      mR (GeV/c ) 2.4540 ± 0.0002 2.4538±0.0002
+                              events; the ﬁt result is shown in Fig. 6. The average eﬃ-                                                                                                    Γ (MeV)                                 2.6 ± 0.5                             2.2 ±0.4
+                              ciency for + → pK2Ã+ signal MC events in this region                                                                                                           R
+                                                          c
+                              is 15.4%.
+                                   In the mΛ π distribution, we also observe an excited
+                                                            c
+                                                                                                                                                                                                                                                                                                            14
+                                    22  ) )                                                                                                                                 TABLEVII: Fit results for the excited Σ0 resonance. Y                                                                             is
+                                                                                                                                                                                                                                                                       c                               sig
+                                         100100                                                                                                                             the eﬃciency-corrected resonant signal yield in the ﬁt range.
+                                                                                                                                                                            Systematic uncertainties from the ﬁt to mm vs. mr are not
+                                           8080                                                                                                                             included in the yield.                                The world average values from the
+                                                                                                                                                                            Particle Data Group (PDG) of the mass and width of the
+                                           6060                                                                                                                             Σ (2800)0 are included for comparison [8].
+                                                                                                                                                                                c
+                                           4040                                                                                                                                               Fit Parameter                             Value                   PDGValue [8]
+                                       Events / ( 0.005 GeV/cEvents / ( 0.005 GeV/c2020                                                                                                       Ysig                               1449 ± 284
+                                                                                                                                                                                                                        2                                                      + 0.004
+                                                                                                                                                                                              mR (GeV/c ) 2.846 ± 0.008 2.802 − 0.007
+                                             00                                                                                                                                               Γ (MeV)                                  86 + 33                          61 + 28
+                                                                                                                                                                                                 R                                           − 22                             − 18
+                                          -20-20
+                                               2.482.48    2.502.50    2.522.52    2.542.54   2.562.56    2.582.58    2.602.60    2.622.62   2.642.64
+                                                                                                                                                    22
+                                                                                                                        mmΛΛ ππ (GeV/c (GeV/c ))                                   22 ) )
+                                                                                                                               cc                                                      350350
+                              FIG. 6: Projection of m                                          in the region of the Σ (2520)0                                                          300300
+                                                                                     Λcπ                                                         c
+                              resonance. Events are eﬃciency corrected and weighted using                                                                                              250250
+                              the Plot technique, and the result of a binned χ2 ﬁt to a rel-
+                                      s
+                              ativistic D-wave Breit-Wigner signal with a mass-dependent                                                                                               200200
+                              width plus a linear background is overlaid. The bin size is                                                                                              150150
+                                               2
+                              5MeV/c . No signiﬁcant signal is seen.
+                                                                                                                                                                                     Events / ( 0.015 GeV/cEvents / ( 0.015 GeV/c100100
+                                                                                                                                                                                          5050
+                                  0                                                                                                                  0
+                              £c state that is higher in mass than the £c(2520) . We                                                                                                        00
+                              construct a resonant signal PDF from a relativistic Breit-
+                              Wigner distribution with a mass-dependent width:                                                                                                              2.52.5     2.62.6      2.72.7     2.82.8      2.92.9     3.03.0      3.13.1     3.23.2      3.33.3     3.43.4
+                                                                                                                                                                                                                                                                                                  22
+                                                                                                                                                                                                                                                                       mm         (GeV/c (GeV/c ))
+                                                                                                                                                                                                                                                                       ΛΛ ππ
+                                                                        q        2L+1               m                                                                                                                                                                         cc
+                                                                                                         R              2                 2
+                                         Γ(q) = Γ                                                                   B (q,q ) .                           (16)
+                                                             R q                                  m                     L            R
+                                                                         R                            Λ π
+                                                                                                         c                                                                  FIG. 7: Projection of m                                      showing an excited Σ0 resonance.
+                                                                                                                                                                                                                                Λcπ                                                    c
+                              The quantity L is the angular momentum (L = 0,1,2 is                                                                                          Events are eﬃciency corrected and weighted using the sPlot
+                              S-wave, P-wave, D-wave, respectively), q is the momen-                                                                                        technique. The result of a binned χ2 ﬁt to a relativistic D-
+                              tum of the + (which is equal to the momentum of the                                                                                          wave Breit-Wigner signal with a mass-dependent width plus
+                                                             c                                                                                                              a linear background is overlaid. The variable bin sizes range
+                              Ã2) in the excited £0 rest frame, and q                                                                  is the value
+                                                                                 c                                               R                                                                                       2
+                              of q when m                               = m . In Eqn. 16, B2 (q,q ) is the                                                                  from 15 to 40MeV/c .
+                                                             Λ π                    R                                                        R
+                                                                c                                                               L
+                              Blatt-Weisskopf barrier factor [8]:
+                                                     B2(q,q ) = 1,
+                                                         0           R                                                                                                      choose L = 2 for the nominal ﬁt, but investigate L = 0,1
+                                                                                  s                 2      2                                                                as well. The average eﬃciency for + → pK2Ã+ signal
+                                                         2                              1+q d                                                                                                                                                                      c
+                                                     B (q,q ) =                                     R         ,                                                             MC events in this region is 16.3%. The ﬁt results are
+                                                         1           R                              2 2
+                                                                                        1+q d                                                            (17)               summarized in Table VII and shown in Fig. 7. The Ç2
+                                                                                  s 2 2                           2             2      2                                    from the ﬁt is 37 with 31 degrees of freedom (DOF). If
+                                                         2                              (q d −3) +9q d
+                                                     B (q,q ) =                             R                                   R         ,
+                                                         2           R                        2 2                 2             2 2                                         the signal yield is ﬁxed to zero and the mean and width
+                                                                                         (q d −3) +9q d                                                                     are ﬁxed to the central values from the nominal ﬁt, the
+                              where we deﬁne a constant impact parameter d = 1fm                                                                                            resulting Ç2 is 78 with 34 DOF. The signiﬁcance can be
+                              (the approximate radius of a baryon), which corresponds                                                                                       calculated from ∆Ç2 = 40.9, which is equivalent to 5.8Ã
+                                                      21
+                              to 5.1GeV                     . Blatt-Weisskopf barrier factors are weights                                                                   for the joint estimation of three parameters.
+                              that account for the fact that the maximum angular mo-                                                                                              The measured width of this state (86 + 33 ± 12)MeV
+                                                                                                                                                                                                                                                                             2 22
+                                                                                                                                                                                                                                                                                       0
+                              mentum (L) in a strong decay is limited by the linear                                                                                         is consistent with the width of the £c(2800) measured
+                              momentum (q). Since the resonance is quite wide, we do                                                                                        by Belle [29]. However, the measured mass of this ex-
+                              not need to include a resolution function in the resonant                                                                                     cited £0 is (2846 ± 8 ± 10)MeV/c2, which is 40MeV/c2
+                                                                                                                                                                                              c
+                              signal PDF. The two ﬁt parameters (mR and ΓR) of the                                                                                          and3Ãhigher(assumingGaussianstatistics)than Belle’s
+                                  0                                                                                                                                                                                                                      0
+                              £c are free in the ﬁt. The non-resonant signal PDF is a                                                                                       measured mass for the £c(2800) .
+                                                                                                                                                                                                                                                                                                               0
+                              ﬁrst-order polynomial.                                                                                                                              Weevaluatesystematicuncertaintiesforthe £c(2455)
+                                   Fromthe1-DbinnedÇ2 ﬁt,weobtainY                                                                    =1449±284                             andtheexcited£0 yields, masses, and widths by modify-
+                                                                                                                               sig                                                                                    c
+                              eﬃciency-corrected events for the excited £0 state. We                                                                                        ing the binning, the resonant signal PDF shape, and the
+                                                                                                                                      c
+                                                                                                                                            15
+              TABLE VIII: Systematic uncertainties for Y , m             (in     andΓRwereﬁxedtotheirnominalvalues.) Thefractions
+                                                               sig    R          areconsistent in the twosamples andthe total(1306±239
+                     2                                        0
+               MeV/c ), and ΓR (in MeV) for the Σc(2455) and excited
+              Σ0 resonances.                                                     events) is consistent with the nominal ﬁt result within
+                c                                                                uncertainties.
+                                              Σ (2455)0    excited Σ0              We have also investigated the possibility that there
+                                               c                     c
+                      Systematic Source       Y     Γ     Y    m Γ               are two resonances in the mass range shown in Figure 7.
+                                               sig    R    sig   R    R          However, there is no evidence for two distinct vertical
+                    Resonant Signal PDF        –     –   5.9%    –  ± 7          bands in this region in the B2 → +pÃ2 Dalitz plot
+                  Non-resonant Signal PDF      –     –   1.2%    –  ± 2                                                    c
+                           Binning           6.9% ±0.3 20% ±10 ±10               (Figure 3), and we do not obtain a statistically signiﬁcant
+                                                                                 ﬁt to two resonances.
+                             Total           6.9% ±0.3 21% ±10 ±12                 In order to measure the fraction of B2 → +pÃ2 de-
+                                                                                                                                    c
+                                                                                 cays that proceed through intermediate £c resonances,
+                                                                                 we assume that the contribution from each + decay
+                                                                                                                                      c
+                                                                                 modeforeventsinthe£c regionsisequaltothemeasured
+              non-resonant signal PDF shape. Changing the variable               contribution from each + decay mode in all (resonant
+                                                                                                             c
+              bin sizes leads to the dominant systematic uncertainty in          and non-resonant) B2 → +pÃ2 events. We set a 90%
+                                                                                                                c
+              the masses, widths, and yields of both resonances. For                                     2               0
+                             0                                                   C.L. upper limit on B     →£c(2520) p that includes sys-
+              the £c(2455) , the bin width in the peak region was de-            tematic uncertainties and correspondsto 109 events. The
+              creased from the nominal 1MeV/c2 to 0.5MeV/c2; for                 measured fractions or upper limits of B2 → +pÃ2 de-
+              the excited £0, the bin width was varied from 10 to                                                                   c
+                              c                                                  cays that proceed through an intermediate £c resonance
+              20MeV/c2 comparedto the nominal 15MeV/c2. For both                 are
+              resonances, an S-wave and a P-wave relativistic Breit-                     2               0
+              Wigner (without a resolution function) was used instead               B(B →£c(2455) p) =(12.3±1.2±0.8)×1022,
+                                                                                      B(B2 →+pÃ2)
+              of the nominal resonant signal PDF. The (ﬁxed) non-                                  c
+                                                                 0                       2               0
+              resonant threshold parameter for the £c(2455) was var-                B(B →£c(2800) p) =(11.7±2.3±2.4)×1022,
+              ied by ±1Ã. A second-order polynomial was used (in-                     B(B2 →+pÃ2)
+                                                                      0                            c
+              stead of a ﬁrst-order polynomial) for the excited £c non-                  2               0
+              resonant PDF. A summary of the systematic uncertain-                  B(B →£c(2520) p) <0.9×1022(90% C.L.).
+                                                                                      B(B2 →+pÃ2)
+              ties for Y   , m , and Γ     are summarized in Table VIII.                           c
+                        sig   R         R                                                                                                 (18)
+                 The signiﬁcance is recalculated following each of the
+              variations used to evaluate the systematic uncertain-              Therefore approximately 1/4 of B2 → +pÃ2 decays
+                                                                                                                                c
+              ties in the excited £0 resonance parameters. The re-               proceed through a known intermediate £ resonance.
+                                      c                                                                                       c
+              sulting signiﬁcance (including systematics) is 5.2Ã.        A
+                                                                       0
+              cross-check is performed to make sure the £c(2800) sig-
+                                                                        ++                                                        0
+              nal is not the result of interference with a ∆(1232)          ,        MEASUREMENTOFTHEΣc(2455) SPIN
+                                                                  ++
+              for example (although no signiﬁcant ∆(1232)             signal
+                                                                                                   0
+              is seen in the mpπ distribution). The ﬁt is performed                The £c(2455) is the lowest mass £c state. In the
+                                       0                                                                                  P    1+
+              again in the £c(2800) mass region for candidates with              quark model, it is expected to have J      = 2 , where J is
+              m >1.5GeV/c2. Weobtain 1329±230resonantsignal                      the spin and P is the parity. In this section, we provide
+                 π
+                p
+              events (compared to 1449 ± 284 events for the nominal              a quantitative evaluation of the spin-1/2 and spin-3/2
+              ﬁt) and a consistent mass and width.                                                              0
+                                                                                 hypotheses for the £c(2455) baryon.
+                                                                                                                                   0
+                 An additional cross-check is performed to investi-                We determine the spin of the £c(2455)              through
+                                                                                                                          2                 0
+              gate whether there are appropriate fractions of resonant           an angular analysis of the decay B           → £c(2455) p,
+                        0                        +                                         0      + 2
+              £c(2800) events in diﬀerent c decay modes. This is                £c(2455) →c Ã . We deﬁne a helicity angle »h as the
+              accomplished by dividing the Plot-weighted, eﬃciency-              angle between the momentum vector of the + and the
+                                               s                                                                                    c
+              corrected data into two samples according to the + de-            momentum vector of the recoiling B-daughter p in the
+                                                                      c                                       0                     +
+              cay mode. Note that this cross-check neglects statistical          rest frame of the £c(2455) . If we assume J(c ) = 1/2,
+              correlations from the combined mr vs. mm ﬁt (less than             the angular distributions for the spin-1/2 and spin-3/2
+                                  +                             2                                               0
+              15%)amongthec decaymodes. AbinnedÇ ﬁttoonly                       hypotheses for the £c(2455) are
+              + → pK2Ã+ candidates gives Y            =776±160, com-
+                c                                   sig                                        0     1        dN
+              pared to 6463 ± 241 total non-resonant B2 → +pÃ2,                          J(£c) =      :            ∝1
+                                                                     c                               2     dcos»h
+              + → pK2Ã+ events ((12 ± 3)%). A binned Ç2 ﬁt to                                                                            (19)
+                c                                                                                    3        dN
+              a combined sample of + → pK0, + → pK0Ã+Ã2,                                     0                                 2
+                                          c         S     c         S                     J(£c) = 2 :      dcos» ∝1+3cos »h.
+              + → Ã+, and + → Ã+Ã2Ã+ candidates gives                                                         h
+                c                     c
+              Y    =530±177 compared to 5956±431 non-resonant                    These are the ideal distributions; the measured angular
+                sig
+              events ((9 ± 3)%). (In order for this ﬁt to converge, mR           distributions will be somewhat degraded due to nonuni-
+                                                                                                                                                                                                                                                                                                                                                                                16
+                                    form detector eﬃciencies, ﬁnite experimental resolution                                                                                                                                         1212
+                                    for measuring »h, and background contamination. We
+                                    estimate the eﬀects of ineﬃciencies and background con-                                                                                                                                         1010
+                                    tamination by performing parameterized MC studies to
+                                    quantify the decrease in sensitivity to discriminate be-                                                                                                                                 Events / ( 0.4 )Events / ( 0.4 )88
+                                    tween possible spin values.                                                                                                                                                                        66
+                                           If we select from a ±2Ã signal region in mm and mr,
+                                    without sPlot weights or eﬃciency corrections, there are                                                                                                                                           44
+                                                                                                                   0
+                                    127 events in the £c(2455) signal region and 27 events
+                                                                                   0                                                                                                                                                   22
+                                    in the £c(2455) background regions (2.430 < mΛ π <
+                                                                                                                                                                                         c
+                                    2.445GeV/c2 and 2.463 < m                                                                       <2.478GeV/c2). Scal-
+                                                                                                                        Λ π
+                                                                                                                            c                                                                                                          00
+                                    ing the number of events in the background region by                                                                                                                                                -1-1       -0.8-0.8    -0.6-0.6     -0.4-0.4     -0.2-0.2      -0-0        0.20.2      0.40.4       0.60.6      0.80.8         11
+                                                                                                                                                                                                                                                                                                                                              cos(cos(θθ ) ) ΛΛ ππ
+                                    the ratio of the total width of the background regions                                                                                                                                                                                                                                                                hh       cc
+                                    compared to the width of the signal region, we expect
+                                    7.2 ±1.3 background events in the signal region.                                                                                                                               FIG. 8: Helicity angle distribution for the combined sam-
+                                           Wemeasuretheﬁniteexperimentalresolutionofcos»h                                                                                                                          ple of background and non-resonant signal events, a non-
+                                    by comparing the measured value of cos» to the true                                                                                                                            parameteric PDF (line).                                                  The shaded region indicates the
+                                                                                                                                                                 h                                                 Poisson uncertainty in the distribution.
+                                    value of cos» in B2 → +pÃ2,+ → pK2Ã+ events in
+                                                                          h                                    c                       c
+                                    a signal MC sample. The maximum root mean square of
+                                    themeasuredvalueofcos»h minusthetruevalueofcos»h
+                                                                                    0
+                                    in the £c(2455) signal region determines the helicity
+                                    angle resolution Ã(cos»h) < 0.03. Therefore the ﬁnite
+                                    experimentalresolutionis small comparedto anyfeatures
+                                    in the spin-1/2 or spin-3/2 angular distributions.
+                                           We investigate the discrimination power between spin
+                                    hypotheses using parameterized MC studies. In general,
+                                    the log likelihood is computed as lnL = P w ln(y ),                                                                                                                            1/2 hypothesis.                                     For each distribution, the separation
+                                                                                                                                                                          i       i              i                 from zero illustrates how well we can discriminate be-
+                                    where yi is the probability density for observing event i.
+                                    The weight w for the MC studies is w = · , where ·                                                                                                                             tween hypotheses given 127 signal events.
+                                                                             i                                                                          i               i                            i
+                                    is the eﬃciency for event i. We compute a log likelihood
+                                    for each hypothesis:
+                                                    lnL(1/2) =Xw ln1                                                                                                                                                      The helicity angle distribution for events in the signal
+                                                                                                      i                                                                                                                                                                                            0
+                                                                                                                2                                                                                                  region around the £c(2455) is shown in Figure 10. The
+                                                                                          i                                                                                                                        points are eﬃciency-corrected. Functions corresponding
+                                                                                      X                                                                                                   (20)
+                                                                                                                    1                                2                                                            to the spin-1/2 (solid) and spin-3/2 (dashed) hypotheses
+                                                    lnL(3/2) =                                   w ln                       1+3cos »                                      .
+                                                                                                      i             4                                       h,i                                                    are overlaid. We compute the diﬀerence in log likelihood
+                                                                                          i
+                                           The shape of the cos»                                                      distribution for background                                                                  between the hypotheses: ∆lnL = +19.2. We indicate
+                                                                                                               h                                                                                                   the value of ∆lnL in data with a vertical line in Figure 9.
+                                    events is estimated from the shape of the helicity distri-                                                                                                                     The observed value of ∆lnL is consistent with the spin-
+                                    bution for events in the background regions. The helicity                                                                                                                      1/2 hypothesis and excludes the spin-3/2 hypothesis at
+                                    distribution for these events is illustrated in Fig. 8 as a                                                                                                                    the > 4Ã level.
+                                    non-parametric PDF (a histogram). This PDF is used to
+                                    generate the number of background events in the signal
+                                    region with a Poisson uncertainty (7.2 ± 2.7). The total                                                                                                                                                                                                                                                                                       0
+                                    number of events in the sample is ﬁxed to 127, so the                                                                                                                                 The ideal angular distributions for the £c(2455)
+                                    background eﬀectively dilutes the signal distribution.                                                                                                                         stated in Eqn. 19 are also applicable for the excited £0
+                                                                                                                                                                                                                                                                                                                                                                                   c
+                                                                                                                                                                                                                                                                                                                                      0
+                                           We then generate 500 samples (127 events each) and                                                                                                                      resonance. Unlike the narrow £c(2455) resonance near
+                                    compute the likelihood L that each generated distribu-                                                                                                                         threshold, the excited £0 is much wider and therefore its
+                                                                                                                                                                                                                                                                                         c
+                                    tion is uniform in cos»h (spin-1/2) or distributed as                                                                                                                          angular distribution is extremely contaminated by the
+                                                            2
+                                    1+3cos »h (spin-3/2). We deﬁne the quantity ∆lnL =                                                                                                                             non-resonant signal events underneath the signal. We
+                                    lnL(1/2) − lnL(3/2). Figure 9 shows the distribution                                                                                                                           perform a non-resonant sideband subtraction to extract
+                                    ∆lnL for events generated with each hypothesis. The                                                                                                                            the helicity angle distribution of the excited £0, but are
+                                                                                                                                                                                                                                                                                                                                                          c
+                                    dashed histogram (negative values of ∆lnL) corresponds                                                                                                                         limited by the number of signal events available.                                                                                                          An
+                                    to samples generated according to the spin-3/2 hypoth-                                                                                                                         examination of this distribution is somewhat consistent
+                                    esis, and the solid histogram (positive values of ∆lnL)                                                                                                                        with a J = 1/2 hypothesis, but no conclusive statement
+                                    corresponds to samples generated according to the spin-                                                                                                                        can be made about the spin of the observed excited £0.
+                                                                                                                                                                                                                                                                                                                                                                                 c
+                                                                                                                                                                                                                                                                                                                           17
+                                           100                                                                                                                                                                                         CONCLUSION
+                                             90
+                                             80                                                                                                                                            We have presented branching fraction measurements
+                                                                                                                                                                                     for the decays B0 → +p and B2 → +pÃ2:
+                                         Entries / 2.070                                                                                                                                                                                      c                                        c
+                                             60                                                                                                                                            B(B0 →+p)=
+                                             50                                                                                                                                                                      c
+                                                                                                                                                                                                                           (1.89 ±0.21±0.06±0.49)×1025,
+                                             40                                                                                                                                            B(B2 →+pÃ2)=
+                                             30                                                                                                                                                                       c
+                                                                                                                                                                                                                           (3.38 ±0.12±0.12±0.88)×1024, (21)
+                                             20
+                                             10                                                                                                                                      where the uncertainties are statistical, systematic, and
+                                                0                                                                                                                                    due to the uncertainty in B(+ → pK2Ã+), respectively.
+                                               -40           -30          -20           -10            0            10           20            30            40                                                                                               c
+                                                                                                                                            ∆ ln(L)                                  These measurements are based on 383 million BB events
+                                                                                                                                                                                     produced by the SLAC B Factory and recorded by the
+                                                                                                                                                                                     BABAR detector.
+                               FIG. 9: Distribution of ∆lnL = lnL(1/2) − lnL(3/2) for                                                                                                      If we combine the statistical and systematic uncertain-
+                               signal events generated with a uniform distribution in cosθh                                                                                          ties only, we obtain B(B0 → +p) = (1.9 ± 0.2)× 1025,
+                               (solid histogram, positive values) and a 1+3cos2θ distribu-                                                                                                                                                                        c
+                                                                                                                                                   h                                 which is consistent with a previous measurement by the
+                               tion (dashed histogram, negative values). Background events                                                                                           Belle Collaboration of B(B0 → +p) = (2.2 ± 0.6) ×
+                               are included, and all events are eﬃciency-corrected. We mea-                                                                                                                                                                                  c
+                               sure ∆lnL = +19.2 in data (indicated by the vertical line),                                                                                           1025 [30]. Both measurements use the same value for
+                               so we accept the spin-1/2 hypothesis.                                                                                                                 B(+ → pK2Ã+). However, our measurement for the
+                                                                                                                                                                                               c
+                                                                                                                                                                                                                                             2                + 2                                                         24
+                                                                                                                                                                                     three-body mode, B(B                                          →cpÃ )=(3.4±0.2)×10 ,
+                                                                                                                                                                                     is signiﬁcantly larger (by about 4Ã) than the previous
+                                                                                                                                                                                     measurementfromBelleB(B2 → +pÃ2) =(2.1±0.3)×
+                                                                                                                                                                                                                                                                             c
+                                                                                                                                                                                     1024 [25]. The Belle Collaboration measurement uses six
+                                                                                                                                                                                     coarse regions across the B2 → +pÃ2 Dalitz plane to
+                                                                                                                                                                                                                                                                           c
+                                                                                                                                                                                     correct for variations in eﬃciency; we use much ﬁner re-
+                                                                                                                                                                                     gions and see signiﬁcant variation near the edges of the
+                                           450450                                                                                                                                    Dalitz plane. This diﬀerence in eﬃciency treatment may
+                                           400400                                                                                                                                    account for some of the discrepancy between the two re-
+                                                                                                                                                                                     sults.
+                                           350350                                                                                                                                          One of the main motivations for studying baryonic
+                                        Events / ( 0.4 )Events / ( 0.4 )300300                                                                                                       B-meson decays is to gain knowledge about baryon-
+                                           250250                                                                                                                                    antibaryon production in meson decays. We have mea-
+                                                                                                                                                                                     sured the ratio of the two branching fractions,
+                                           200200
+                                                                                                                                                                                                              B(B2 →+pÃ2)
+                                           150150                                                                                                                                                                                        c                 =15.4±1.8±0.3.                                              (22)
+                                                                                                                                                                                                                  B(B0 →+p)
+                                           100100                                                                                                                                                                                           c
+                                             5050                                                                                                                                    Inthis quantitythe 26%uncertaintyin B(+ → pK2Ã+)
+                                                                                                                                                                                                                                                                                               c
+                                                00                                                                                                                                   cancels in the branching ratio.
+                                                 -1-1     -0.8-0.8   -0.6-0.6  -0.4-0.4   -0.2-0.2     -0-0      0.20.2    0.40.4     0.60.6     0.80.8       11                           Wehave also measured the fractions of B2 → +pÃ2
+                                                                                                                                                 cos cos θθ                                                                                                                                                        c
+                                                                                                                                                             hh                      decays that proceed through a £c resonance:
+                                                                                                                                                                                                        2                                  0
+                               FIG. 10: The helicity angle distribution for Σc(2455)0 candi-                                                                                                 B(B →£c(2455) p) =(12.3±1.2±0.8)×1022,
+                               dates in data. The points correspond to eﬃciency-corrected                                                                                                         B(B2 →+pÃ2)
+                                                                                                                                                                                                                             c
+                               B− → Σ (2455)0p candidates. The curves for the spin-1/2                                                                                                                  2                                  0
+                                                     c                                                                                                                                       B(B →£c(2800) p)                                                                                                     22
+                               (solid line) and spin-3/2 (dashed line) hypotheses are over-                                                                                                       B(B2 →+pÃ2)                                       =(11.7±2.3±2.4)×10 .
+                               laid.                                                                                                                                                                                         c
+                                                                                                                                                                                                                                                                                                                       (23)
+                                                                                                                                                                                     Assuming no interference with direct decay to +pÃ2,
+                                                                                                                                                                                                                                                                                                                  c
+                                                                                                                                                                                     about 1/4 of B2 → +pÃ2 decays proceed through a £
+                                                                                                                                                                                                                                           c                                                                                   c
+                                                                                                                                                                                     resonance.
+                                                                                                                                                                                           The order of magnitude diﬀerence between the decay
+                                                                                                                                                                                     rates of B2 → +pÃ2 and two-body decays such as
+                                                                                                                                                                                                                                    c
+                                                                                                                                             18
+                0      +      2                0          2               0
+              B →cp, B → £c(2455) p, and B → £c(2800) p                     
+              is consistent with the theoretical description [16] that          
+              baryonic B decays are favored when the baryon and an-             
+              tibaryon are close together in phase space. This inter-           
+              pretation is also supported by the observation of the             
+              enhancement in rate when mΛ p is near threshold. Al-              
+                                                 c
+              though the +p threshold enhancement alone could in-           
+                             c
+              dicate a resonance below threshold, enhancements have             
+              been observed in other baryon-antibaryon systems and              
+              in decays such as e+e2 → pp³ [1, 2]. Therefore the body           
+              of measurements indicates that we are observing a phe-            
+              nomenonthatis commonto baryonproduction from me-                  
+              son decays, and possibly common to baryon production              
+              in general.                                                       
+                 We have used the angular distribution of the decay             
+                2                0                                0             
+              B →£c(2455) p to study the spin of the £c baryon.                 
+              The helicity angle distribution is consistent with being
+              uniform, which indicates that the £0 has J = 1/2 as-              
+                                                        c
+              suming the ground state + also has J = 1/2 and ex-            
+                                             c
+              cludes the J = 3/2 hypothesis at the > 4Ã level. This is          
+              consistent with quark model expectations for the lowest           
+              £c baryon state.
+                 We also observe an excited £c state in B-meson de-
+              cays to +pÃ2.       We measure the mass of this reso-
+                          c
+              nance to be (2846 ± 8 ± 10)MeV/c2 and the width to
+              be (86 + 33)MeV. It is possible that this observation             
+                      2 22                                                      
+              is a conﬁrmation of a triplet of £c(2800) states seen in          
+              +Ã2 continuum production [29]. However, the neutral
+                c                                                               
+                        0                                  + 4         2
+              £c(2800) hasameasuredmassof(2802 2 7)MeV/c and                    
+              width of (61 + 28)MeV. The widths of the £ (2800) and             
+                             2 18                               c
+              the state observed in B decays are consistent, but the            
+              masses are 3Ã apart. If these are indeed the same state,          
+              then the discrepancy in measured masses needs to be re-           
+                                                                                
+              solved.                                                           
+                 Another possible interpretation is that the excited £0         
+                                                                           c
+                                                                      0         
+              resonance seen in this analysis is not the £c(2800) that
+              was previously observed. A clear signal is evident for            
+                2                0                                              
+              B →£c(2455) p decays, but we do not see any evi-                  
+                                       2               0
+              dence for the decay B       →£c(2520) p. The absence of           
+                            2               0
+              the decay B     →£c(2520) p is in contrast to a claimed           
+              2.9Ã signal from an analysis by the Belle Collaboration           
+              based on 152 million BB events [25]. Also, an examina-            
+              tion of the B2 → +pÃ2 Dalitz plot shows no evidence           
+                                    c
+                                2        +¯        22                    0      
+              for the decay B      →c∆(1232)          . The £c(2520) is
+                                                                  ++            
+              a well-established state, and so is the ∆(1232)        . Both
+              are expected to have J = 3/2. The Belle Collaboration             
+                                                    0                           
+              tentatively identiﬁed the £c(2800) as J = 3/2 based on            
+              the measured mass of the state, while there is weak ev-           
+              idence that the excited £0 we observe is J = 1/2. It is           
+                                           c
+              therefore possible that B decays to higher-spin baryons           
+              are suppressed, perhaps due to the same baryon produc-            
+              tion mechanisms that suppress two-body baryonic de-               
+              cays, and that the excited £0 state that we have observed         
+                                             c                                  
+              is a newly-observed spin-1/2 state.                               

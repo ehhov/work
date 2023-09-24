@@ -1,0 +1,794 @@
+                       The precise measurement of the angle γ of the                                            significant systematic uncertainties due to background
+                                                                                                                           0         ¯ 0  ∓                                           ¯ 0
+                   Cabibbo-Kobayashi-Maskawa (CKM) unitarity triangle                                           from BðsÞ → D K π                    decays. The symbol D                   is used
+                                                                                                                                                                        ¯            0
+                   is   among the priorities of current particle physics                                        throughout this paper to denote the D ð2007Þ meson. In
+                   experiments. It can be determined by exploiting the                                          particular,       there     is    a large background from B0 →
+                                                                                                                                                                                                 s
+                                                                                                                 ¯ 0 − þ
+                                                                     ¯                     ¯                    D K π decays, where the soft neutral particle from
+                   interference between the b → cus and b → ucs ampli-
+                   tudes in many B to open-charm decays. In this approach                                        ¯ 0        ¯ 0 0        ¯ 0
+                                                                                                                D →Dπ orDγprocessisnotreconstructed,followed
+                   the determination of γ has a tiny theoretical uncertainty in                                                         ¯ 0        þ −
+                                                                                                                by the favored D → K π transition, when attempting to
+                   the Standard Model [1], since both amplitudes correspond                                                                                   ¯ 0           − þ                  þ −
+                                                                                                                reconstruct the suppressed B → DK π , D → K π
+                   to tree-level processes and all hadronic parameters that                                     channel. Similar background is also seen to contribute to
+                   quantify the extent of the interference can be determined                                                                                             −         ðÞ −
+                   from data.                                                                                   the selected sample in analyses of B → D                               K decays
+                                                                                                                [8,9]. Improved understanding of the branching fractions
+                       Theworldaveragevalueofγ currentlyhasanuncertainty                                                                         0         ¯ 0  ∓
+                   of around 4° [2–4]. This level of precision can be                                           and Dalitz plots of BðsÞ → D K π                          decays is therefore
+                   significantly improved not only by increasing the size of                                    important to control systematic uncertainties in future
+                   the data samples but also by studying new decay channels.                                    analyses and achieve precise constraints on γ.
+                                                                                                                             0         þ−                               
+                   Onesuchchannel,whichhasnotyetbeenexploitedfully,is                                               TheB →D K π decay,whereD denotesanyadmix-
+                                                                                                                             0          ¯ 0
+                           0            þ −                                                                     ture of D        andD mesons,coulditselfpotentiallybeused
+                   the B → DK π decay where the symbol D is used to                                             to gain additional sensitivity to γ. Measurements of the
+                   denote a neutral D meson that is any admixture of the D0
+                          ¯ 0           1                                              0            þ −         properties of this decay are essential to understand the
+                   and D states. A Dalitz-plot analysis of the B → DK π                                         potential gains. In addition, studies of the Dalitz plots of
+                   decay provides additional sensitivity to γ compared to a                                               0       ¯ 0 − þ                 0       ¯ 0 þ −
+                                                                     0           0                              both Bs → D K π and B →D K π decaysprovide
+                   quasi-two-body analysis of the B → DK                             channel [5,6].             opportunities to investigate, respectively, charm-strange
+                   Such a Dalitz-plot analysis has been performed by the                                        and charm meson spectroscopy. Investigations of B                                   →
+                                                                                                                 ¯     0                         ð0Þ                                           ðsÞ
+                                                                                                                Dhh decays,whereh isapionorkaon,haveprovideda
+                       *Full author list given at the end of the article.                                       wealth of information in this field [10–18],butthereare
+                       1The inclusion of charge conjugate processes is implied                                                                                                                 ¯      0
+                                                                                                                fewer studies to date of the corresponding B                             →Dhh
+                   throughout the document.                                                                                                                                          ðsÞ
+                                                                                                                decays [10,19,20]. Since resonances with unnatural spin-
+                   Published by the American Physical Society under the terms of                                                                            P        −    þ −
+                                                                                                                parity quantum numbers (J ¼ 0 ;1 ;2 , etc.) cannot
+                   the Creative Commons Attribution 4.0 International license.                                                                                                                    ¯ 
+                   Further distribution of this work must maintain attribution to                               decay to two pseudoscalar particles, studies of the D h
+                                                                                                                                                                                                   ¯
+                   the author(s) and the published article’s title, journal citation,                           spectracouldrevealstructuresthatcannotbeseenintheDh
+                                                           3                                                    final state.
+                   and DOI. Funded by SCOAP .
+                   2470-0010=2022=105(7)=072005(22)                                                    072005-1                              ©2022 CERN, for the LHCb Collaboration
+                                                0     ¯ 0 þ −             0                                                                  −1
+                 Tree-level diagrams for B → D K π                and B →          corresponding to an integrated luminosity of 5.4 fb           of
+                                                                          s
+               ¯ 0 − þ                                                             LHC proton-proton (pp) collisions, at center-of-mass
+              D K π decays are shown in Fig. 1, indicating how
+              various resonances can be produced. The resonant sub-                energy of 13 TeV, recorded by the LHCb detector during
+              structures of these decays, together with significant varia-         the years 2016, 2017 and 2018.
+              tion of the signal efficiency across the phase space, make it           The remainder of the paper is organized as follows.
+              necessary to use an event-by-event efficiency correction in          TheLHCbdetectorandsoftwareisdescribedinSec.II.The
+              order to avoid a limiting systematic uncertainty when                selection of signal candidates is discussed in Sec. III, with
+              measuring the branching fractions. A novel approach to               the procedure to determine the yields through a simulta-
+              backgroundsubtractionisemployedinordertoachievethis                  neousfit to their mass distributions outlined in Sec. IV. The
+              in a robust way. While this approach ensures that the Dalitz         event-by-event weighting and efficiency-correction pro-
+              plot of each decay mode is accounted for in the efficiency           cedure is described in Sec. V. The systematic uncertainties
+              evaluation, a full amplitude analysis is out of the scope of         are detailed in Sec. VI, with the results of the analysis
+              this study.                                                          discussed in Sec. VII.
+                 There are no previous experimental results on the
+                0     ¯ 0 − þ             0    ¯ 0 þ −
+              B →D K π and B →D K π decay channels.                                      II. LHCb DETECTOR AND SOFTWARE
+                s
+                                                     0    ¯ 0 þ −
+              The branching        fraction   of   B →D π π            decays         The LHCb detector [22,23] is a single-arm forward
+              has been measured by the Belle collaboration [21] to be              spectrometer covering the pseudorapidity range 2 < η < 5,
+                   0     ¯ 0 þ −                                −4
+              BðB →D π π Þ¼ð6.21.21.8Þ×10 ,wherethe                                designedforthestudyofparticlescontainingborcquarks.
+              first uncertainty is statistical and the second is systematic.       The detector includes a high-precision tracking system
+              Therefore this mode is used for normalization of the                 consisting of a silicon-strip vertex detector surrounding the
+                                                             ¯ 0     ¯ 0
+              branching fraction measurements. Both D            →Dγ and           ppinteraction region [24], a large-area silicon-strip detec-
+               ¯ 0     ¯ 0 0
+              D →Dπ decaysarefullyreconstructed,andinallcases                      tor located upstream of a dipole magnet with a bending
+                            ¯ 0      þ −
+              the favored D → K π decay is used. Separate measure-                 power of about 4 Tm and three stations of silicon-strip
+              ments of the branching fraction ratios are made for the two          detectors and straw drift tubes [25] placed downstream of
+               ¯ 0
+              D decays in order to reduce potential systematic uncer-              the magnet. The tracking system provides a measurement
+              tainties, and the results are combined accounting for                of the momentum, p, of charged particles with relative
+              correlations. The analysis is based on a data sample                 uncertainty that varies from 0.5% at low momentum to
+                                                                            072005-2
+              OBSERVATION OF THE …                                                                     PHYS. REV. D 105, 072005 (2022)
+              1.0%at 200 GeV=c. The minimum distance of a track to a               0    ¯ 0 − þ             0    ¯ 0 þ −
+                                                                                 B →D K π and B →D π π , each with both
+                                                                                   s
+              primary pp collision vertex (PV), the impact parameter             ¯ 0     ¯ 0       ¯ 0 0
+                                                                                 D →DγandDπ decays—exceptfor charged hadron
+              (IP), is measured with resolution of ð15 þ 29=p Þ μm,                                                 ¯ 0
+                                                                     T           identification requirements and D      reconstruction.
+              where p is the component of the momentum transverse to                             0
+                       T                                                           Candidate B      decays are composed of four final-state
+              the beam, in GeV=c. Different species of charged hadrons                           ðsÞ                                      0
+                                                                                 charged particles and the soft neutral products (γ or π )of
+              are distinguished using information from two ring-imaging              ¯ 0
+              Cherenkov detectors [26]. Photons, electrons and hadrons           the D    decay. All charged and neutral final-state particles
+                                                                                 are required to have p and p        values above thresholds
+              are identified by a calorimeter system consisting of                                                T
+              scintillating-pad and preshower detectors, an electromag-          designed to reduce the large background of soft random
+              netic and a hadronic calorimeter [27]. The resolution of the       particles originating from the rest of the event. The tracks
+              energy measurement in the electromagnetic calorimeter              corresponding to the charged particles are required to be of
+              varies from around 12% at 3 GeV to around 5% at 80 GeV.            goodquality and to be significantly displaced from any PV
+                                                                                 as quantified through the χ2 variable, where χ2 is defined
+              Muons are identified by a system composed of alternating                                        IP                  IP
+                                                                                 as the difference in the vertex-fit χ2 of a given PV
+              layers of iron and multiwire proportional chambers [28].           reconstructed with and without the particle under consid-
+              The online event selection is performed by a trigger [29],                      ¯ 0
+              which consists of a hardware stage, based on information           eration. A D candidate is formed from two oppositely
+              from the calorimeter and muon systems, followed by a               charged tracks, assigned the kaon and pion mass hypoth-
+                                                                                                                                       ¯ 0
+              softwarestage,whichappliesafulleventreconstruction.At              eses, with the invariant mass close to the known D mass
+              the hardware trigger stage, events are required to have a          [3]. These two tracks must be consistent with originating
+              muon with high p or a hadron, photon or electron with              from a common vertex that is significantly displaced from
+                                  T                                              anyPV.Photon(neutralpion)candidatesareformedfroma
+              high transverse energy in the calorimeters. For hadrons, the       single (two resolved) clusters of deposited energy in the
+              transverse energy threshold is 3.5 GeV. The software                                                                           ¯ 0
+              trigger requires a two-, three- or four-track secondary            calorimeter system [27], and are combined with the D
+                                                                                                        ¯ 0
+              vertex with significant displacement from any primary              candidate to form a D      candidate.
+              pp interaction vertex. At least one charged particle must            Trigger signals are associated with the particles recon-
+              have significant transverse momentum and be inconsistent           structed offline. It is required that the hardware-stage
+              with originating from a PV. A multivariate algorithm               triggering of the event containing a candidate is either
+              [30,31] is used for the identification of secondary vertices       duetoanenergydepositinthecalorimetersassociatedwith
+              consistent with the decay of a b hadron.                           the signal, or due to other particles produced in the pp
+                Simulation is used to model the effects of the detector          collision without the involvement of signal particles.
+                                                                                                                 ¯ 0      ¯ 0
+              acceptance and response, and the imposed selection                   ThedifferencebetweentheD andD candidatemasses
+                                                                                                                                     2
+              requirements.Inthesimulation,ppcollisionsaregenerated              is required to be in the range 117–167 MeV=c , encom-
+                                                                                                                          2                 ¯ 0
+              using PYTHIA [32,33] with a specific LHCb configuration            passing the known value 142 MeV=c [3], for both D
+              [34]. Decays of unstable particles are described by EVTGEN         decaymodes.Thedistributionofthisvariableindataandin
+              [35], in which final-state radiation is generated using            simulated signal decays is shown in Fig. 2. Although
+              PHOTOS [36]. The interaction of the generated particles            around25%ofthesignalislostduetothisrequirement,itis
+              with the detector, and its response, are implemented using         necessary to reduce the otherwise potentially overwhelm-
+              the GEANT4 toolkit [37,38] as described in Ref. [39]. The          ing background.
+                                                                                          ¯ 0
+              underlying pp interaction is reused multiple times, with an          The D       candidate is combined with the other two
+                                                                                                                   0
+              independently generated signal decay for each [40].                charged particles to form a B         candidate, again with
+                                                                                                                   ðsÞ
+                                                                                 requirements on invariant mass, vertex consistency and
+                  III. SELECTION OF SIGNAL CANDIDATES                            displacement from each PV. The primary vertex that fits
+                                                                                 best to the flight direction of the B0  candidate is taken as
+                The selection procedures follow those used in previous                                                ðsÞ                2
+                                   0          ∓                                  the associated PV. A requirement is imposed on the χ of a
+              LHCbanalyses of B        →DK π decays[13,14,17],with
+                                   ðsÞ                         ¯ 0               kinematic fit [41] to the candidate’s production and decay
+              modifications to account for the selection of D       mesons.
+                                                                                                       ¯ 0      ¯ 0
+              Selection requirements are imposed in an initial filtering         chain, in which the D and D        masses are constrained to
+              stage, with multivariate analysis techniques subsequently          their known values [3].
+              used to separate signal from background. The variables               The signature of a charm hadron originating from a B
+              used are related to the decay kinematics and topology,             decay (referred to as D from B) provides discrimination
+              exploiting the capability of the LHCb detector to recon-           power against a background that either does not involve a
+              struct precisely particle momenta as well as production and        real charm decay or where the charm hadron originates
+              decay vertices. Since the final requirements imposed are           promptly from the PV. A neural network (NN) algorithm
+                                                                                                                                          þ
+              tighter than those in the filtering stage, details of most of the  [42] is trained to identify this signature, using B         →
+                                                                                 ¯ 0 þ ¯ 0       þ −
+              initial selections are omitted here for brevity. The require-      D π ;D →K π decays in data, with the same prese-
+                                                            0     ¯ 0 þ −                                           0
+              ments are common for all six channels—B → D K π ,                  lection requirements as for the B     candidates. Signal and
+                   backgroundareseparatedusingthesPlotprocedure[43],so                                             correlations between the variables associated to a particular
+                   that the training is entirely data driven. The input variables                                  track, as well as the dependence of the response on track
+                                          2                                       ¯ 0
+                   are the p, pT, χIP and track quality of the D decay products                                    kinematics[47].TheBDTalgorithmalsoexploitstheDfrom
+                   together with the p, p , χ2 vertex quality and flight                                           BNNoutput,aswellaskinematicandtopologicalvariables
+                                                         T      IP
+                                            ¯ 0                                                                                           0          ¯ 0
+                   distance of the D candidate. An initial loose requirement                                       related to the B           andD decays,sincecorrelationsbetween
+                   is imposed on the output of the D from B NN classifier, and                                                            ðsÞ
+                   this variable is also used in the subsequent multivariate                                       these and the charged hadron identificationvariables help to
+                   analysis.                                                                                       improve the separation power.
+                       Twoboosteddecisiontree(BDT)algorithms[44–46]are                                                 The second BDT classifier is designed to reduce com-
+                                                                                                                                                                                                        ¯ 0
+                   usedtoseparatefurthersignalfrombackground.Thefirstis                                            binatorial background, and is trained separately for the D
+                                                                                                                                    ¯ 0            ¯ 0 0
+                   designed to reduce background where the final-state                                             decays to D γ and D π . It takes as input kinematic and
+                   particles are misidentified. Such background may come                                           topological variables, together with the D from B NN
+                   from other B decays—including cross feed between signal                                         output, quantities related to the confidence of correctly
+                   modes—or from random combinations of particles, sub-                                            identifying a photon or neutral pion from the calorimeter
+                   sequently         referred        to    as    combinatorial            background.              information, and variables that quantify how well the signal
+                                                                                                                      0
+                                                                             0         ¯ 0  ∓                      B       candidate is isolated from other activity in the pp
+                   Separate classifiers are trained for B                         →D K π and                          ðsÞ
+                      0       ¯ 0 þ −                                        ðsÞ                                   collision event [14]. The second BDT algorithm is trained
+                   B →D π π decays, with background samples com-                                                   using a signal sample taken from simulation and a
+                                                              0
+                   prised of a cocktail of B                        decays with misidentified
+                                                              ðsÞ                                                  background sample taken from the data sidebands with
+                   final-state particles. All training samples are taken from                                         0                                                                                    2
+                                                                                                                   B -candidate mass in the range 5000–5150 MeV=c
+                   simulation. This BDT classifier takes as input variables                                           ðsÞ                             2
+                   derived from the output of the ring-imaging Cherenkov                                           or 5450–6000 MeV=c .
+                   detectors, which distinguish charged pions and kaons. In                                            Requirements on the two BDT outputs are chosen
+                   ordertoensuregoodagreementwiththedistributionsindata,                                           simultaneously              by       optimizing           the      figure-of-merit
+                                                                                                                        pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                   the values of these variables in the simulation are sampled                                     S= SþB, where S and B are the expected signal and
+                   fromdatacontrolsampleswithaprocedurethataccountsfor                                                                                                                                     2
+                                                                                                                   background yields in the signal region of 50 MeV=c
+                                                                                                          072005-4
+              OBSERVATION OF THE …                                                                     PHYS. REV. D 105, 072005 (2022)
+                                   0                                            peaks in invariant mass distributions when reconstructed
+              around the known B      mass [3]. The reference value for S
+                                   ðsÞ        0                                 under the appropriate hypothesis and hence could in
+              is obtained from a fit to the B    -candidate mass distribu-
+                                              ðsÞ                               principle be vetoed. Such vetoes however tend to sculpt
+              tions with tight cuts applied, and that for B is obtained from    the signal efficiency variation across the phase space in a
+              a simple fit with no requirement on the BDT outputs. The          way that can be difficult to model, and can also distort the
+              value of S at different BDT output requirements is                distributions of the remaining background components. To
+              extrapolated from the reference value using efficiencies          avoid potential bias due to these effects, these components
+              from simulation, while B is extrapolated according to the         are not vetoed and instead are modeled explicitly.
+              number of candidates retained in the high-mass sideband.
+                The optimization procedure results in very similar                A. Modeling of signal and background components
+              requirements for channels with similar final states, and
+              to minimizesystematicuncertainties the samerequirements                    1. Signal and misidentified background
+              are imposed. Specifically, the B0       ¯ 0 þ −           0
+                                                  →D K π and B →
+                                                                        s          Simulationisusedtostudythedetectorresponseforboth
+              ¯ 0 − þ
+              D K π candidates share the same requirement on the                signal decays and misidentified background components.
+                                                                ¯ 0     ¯ 0
+              first BDT classifier, while all modes with D          →Dγ                                                              ¯ 0 þ 0−
+              decays share the same requirement on the second BDT               Suchbackgroundarisesfromb-hadrondecaystoD h h
+                                                     ¯ 0     ¯ 0 0              final states, which pass the selection requirements with
+              algorithm, as do all modes with D           →Dπ decays.                                       þ      0−
+              Relative to the sample after all preselection requirements,       misidentification of the h    or h    particles. Misidentified
+              the BDT requirements have combined efficiencies of                backgroundincludescasesofcrossfeed,whereadecaythat
+                                            0      ¯ 0  ∓                       is signal in one final state forms a background to another.
+              around 50% (60%) for B           →D K π decays with                                                        0  ∓
+                                            ðsÞ                                                                         ¯
+                                                                                Non-negligible contributions to the D K π          final states
+              ¯ 0     ¯ 0   ¯ 0     ¯ 0 0                               0                               0      0 þ −          0      0 þ −
+              D →Dγ(D →Dπ),whiletheefficienciesforB →                                                        ¯                      ¯
+                                                                                are also found from B → D K K and B → D K K
+              ¯ 0 þ −                                                                                                         s
+              D π π decays are higher due to the requirement on the                                              ¯ 0    ¯ 0¯   þ         ¯ 0
+                                                                                decays. Contributions from Λ → D pK                and Λ →
+              first BDT classifier being looser. The requirements reduce                                           b                      b
+                                                                                 ¯ 0¯ þ
+              the background levels by around two (one) orders of               D pπ decays cannot be ruled out but are not included
+                                  0      ¯ 0  ∓       0     ¯ 0 þ −             in the baseline fit model, and instead are considered as a
+              magnitude in the B     →D K π (B →D π π )sam-
+                                  ðsÞ                0                          source of systematic uncertainty.
+              ples. Finally, only candidates with B     -candidate mass in         If the final-state hadrons are correctly identified, then the
+                                              2      ðsÞ                          0
+              the range 5100–5900 MeV=c are retained for the fit to             B -candidate mass distribution does not depend strongly
+              determine the signal yields.                                        ðsÞ
+                                                                                on the phase-space distribution of the decay. When,
+                After all selection requirements are imposed, there are a       however, a final-state particle is misidentified the
+              small number of cases where candidates from the same pp             0
+                                                                                B -candidate mass is shifted by an amount that depends
+              collision event are seen in two different final states (referred    ðsÞ
+              to subsequently as duplicate candidates). In particular, as       on the momentum of that particle, inducing a dependence
+                                                                                of the shape on the Dalitz plot of the decay. Therefore, it is
+                                                        ¯ 0
+              the selection requirements for the two D      decays are not      necessary to weight the simulation samples to give
+              mutuallyexclusive, around 5% of events with candidates in         closer   representations of the true distributions. As
+                                   ¯ 0     ¯ 0
+              channels involving D     →Dγdecaysalso contain candi-             the correlations between phase-space distribution and
+                                                              ¯ 0     ¯ 0 0       0
+              dates in the same final state except with D         →Dπ. B -candidate mass are not strong, it is sufficient to
+              Similarly, a single event can produce multiple candidates in        ðsÞ
+              the same final state, which happens at a rate of around 4%        use models that give a reasonable, but not necessarily
+                                                                                                                                          0
+                                                                ¯ 0     ¯ 0     exact, representation of the true Dalitz plots. For the B →
+              (9%) of selected candidates in channels with D        →Dγ          ¯ 0 þ −
+               ¯ 0     ¯ 0 0                                                    D π π       decay this is done with a model, based
+              (D →Dπ )decays.Theseratesaresimilartothoseseen                    on an analysis of the amplitude structure [48],that
+              in simulation. All such candidates are retained, with their                                         ¯ 0       0   ¯ 0
+              presence considered as a source of systematic uncertainty         contains contributions from D ρð770Þ , D f2ð1270Þ,
+                                                                                           − þ          −þ
+                                                                                D ð2420Þ π      and D ð2460Þ π . For the other decays,
+              in the results.                                                     1                     2
+                                                                                no previous information is available on their phase-space
+                                                                                distributions, but reasonable assumptions can be made
+                  IV. DETERMINATION OF SIGNAL YIELDS                                                                   0     ¯ 0 þ 0−
+                                                                                based on data for the counterpart BðsÞ → D h h         decays
+                                             0                                  [14,17,49–51] and knowledge of the resonances that are
+                The distributions of the B     -candidate invariant mass,
+                 ¯ 0 þ 0−                    ðsÞ                                                                               0     ¯ 0 þ −
+              mðD h h Þ, for the samples passing the selection                  likely to be present [3]. The model for B → D K π
+                                                                                                                                ¯ 0          0
+              requirements in each of the six final states are shown in         decays     includes   contributions    from     D K ð892Þ ,
+                                                                                 ¯ 0           0            − þ          −þ
+              Figs. 3 and 4. These samples consist of several different         D K ð1430Þ , D ð2420Þ K           and D ð2460Þ K        transi-
+                                                                                      0             1                    2
+              components. In order to determine the signal yield reliably,                              0    ¯ 0 − þ
+                                                                                tions;   that   for   B →D K π            decays    comprises
+                                                                                                        s
+              it is necessary to understand the different sources of these       ¯ 0 ¯       0      ¯ 0 ¯        0                − þ
+                                                              0                 D K ð892Þ ,        D K0ð1430Þ ,        Ds1ð2536Þ π         and
+              components, and their distributions in the B       -candidate       −þ                                          0     ¯ 0 þ −
+                                                              ðsÞ               D ð2573Þ π components; themodel for B → D K K
+                                                                                  s2               0         0   0 0                     − þ
+                                                                                                 ¯              ¯
+              massspectra.Inseveralcases,thebackgroundsourcesform               decayscontainsD a ð980Þ ,D f ð1525Þ,D ð2536Þ K
+                                                                                                      0              2          s1
+                     −þ                                               0       relatively high probability to replace one soft photon by
+             and Ds2ð2573Þ K         processes;  while that for Bs →                          0
+              ¯ 0 þ −                                        ¯ 0              another in the π → γγ candidate and still pass the selection
+             D K K decays has contributions from D ϕð1020Þ,                                                                           0
+              ¯ 0 0                    − þ         −þ                                                                                ¯
+             D f ð1525Þ, D ð2536Þ K and D ð2573Þ K decays.                    requirements. The effect of misreconstruction on the D     −
+                   2          s1                   s2
+                                                                               ¯ 0
+                It is possible for signal decays to be misreconstructed but   D candidate mass difference is shown in Fig. 2. It is also
+             still pass all selection requirements. This can occur through                    ¯ 0     ¯ 0
+                                                                              possible for a D    →Dγdecay to be reconstructed as a
+             misassociationofthesoftneutralparticle(γ orπ0)produced            ¯ 0     ¯ 0 0
+                                                                              D →Dπ candidate,andviceversa. These components
+                     ¯ 0                               0                                                                                 0
+             in the D    decay, in which case both B     -candidate mass                                                               ¯
+                                                       ðsÞ                    are referred to as misreconstructed signal and wrong D
+             and Dalitz-plot position are smeared to a larger extent than     decay, respectively, and are modeled separately from
+             for correctly reconstructed signal. This occurs more often       correctly reconstructed signal in order to avoid reliance
+                  ¯ 0     ¯ 0 0           ¯ 0     ¯ 0
+             for D    →Dπ than for D →D γ decays due to the                   on simulation of the misreconstruction rates. In principle
+                  the components with charged particle misidentification                                andascalingfactorofthewidththatarecommontoallsuch
+                                                              ¯ 0                                       shapes.
+                  could also be subdivided into D                  reconstruction catego-
+                  ries, but this is found not to be necessary.
+                     The correctly reconstructed signal, misreconstructed                                            2. Partially reconstructed background
+                                       ¯ 0
+                  signal, wrong D             decay, and misidentified background
+                  components are each modeled with the sum of two Crystal                                  Partially      reconstructed background originates from
+                  Ball functions [52], with a common peak position and                                  b-hadrondecayswithamissingparticlethatisnotincluded
+                  width, and independent tails on opposite sides of the peak.                           in the reconstruction of the signal candidate. Numerous
+                  The shape parameters of these double Crystal Ball func-                               possible sources of partially reconstructed background are
+                  tions are determined from simulation and then fixed in the                            investigated with simulation [53], and it is found that the
+                                                                                                          0
+                  data fit, with the exception of an offset to the peak position                        B -candidate mass shape is similar for all cases with the
+                                                                                                          ðsÞ
+                                                                                               072005-7
+              R. AAIJ et al.                                                                           PHYS. REV. D 105, 072005 (2022)
+                                               0     ¯ 0           0    0       misidentified background components, the peak positions
+              same missing particle. Thus B → D K ð1400Þ , B →
+                                                          1             s
+              ¯ 0 ¯         0               0     ¯ 0          0                and width of the two Crystal Ball functions are allowed to
+              D K1ð1400Þ          and     B →D a1ð1260Þ              decays     differ. The parameters of these functions are obtained by
+              are taken as proxies for the partially reconstructed
+              background sources with a missing (charged or neutral)            fitting simulation samples and are then fixed in the fit to
+                          ¯ 0 þ − ¯0 − þ              ¯ 0 þ −                   data, although the same peak position offset and width
+              pion in the D K π , D K π and D π π final states,
+                                                                        0       scaling factor are applied as for the signal and misidentified
+              respectively. In addition, partially reconstructed B →
+              ¯ 0 0         0           þ −                                     background components. An exception is made for the
+              D ηð958Þ;ηð958Þ → π π γ decays, where the photon                                             0     ¯ 0 þ −
+                                                      ¯ 0 þ −                   partially combinatorial B → D π π         background to the
+              is missed, form a background to the D π π          final state.     0 þ −
+                       0                                                         ¯
+                The B -candidate mass distribution for partially recon-         D π π final state that, due to its relatively large yield,
+                       ðsÞ                                                      requires particularly accurate modeling. The B0 -candidate
+              structed background has a kinematic limit at m       −m ,                                                          ðsÞ
+                                                                Xb      miss
+              wherem andm           are the mass of the decaying b hadron       mass distribution depends on the momentum spectrum of
+                       Xb       miss
+              and the missing particle, respectively. The distribution          the soft neutral particles that are included in the candidate,
+              extends to lower invariant mass values according to the           which may differ between data and simulation. Therefore,
+                                                                                                                                          0
+              momentum carried by the missing particle, resulting in a          the shape of this component is obtained by selecting B →
+              long tail on the low mass side of the distribution. The            ¯ 0πþπ− decays in data, based on the invariant mass of the
+                                                                                D
+              underlying shape, with a kinematic limit and a long tail, is      candidate excluding the soft neutral particle. The distribu-
+              modeled by the ARGUS function [54]. The distribution              tion obtained is fitted in the same way as the simulation. A
+              observed in data is smeared by the experimental resolution,       comparison of the shapes of this component in data and
+              so the kinematic limit does not appear as a hard edge. The        simulation shows reasonable agreement, validating the use
+              resolution is expected to be similar to that for the signal       of shapes from simulation for all other partially combina-
+              decay, but since it is only significant for the high mass tail    torial components.
+              of the distribution, it can be described with a single, rather       Another potential source of partially combinatorial
+              than a double, Crystal Ball function.                                                             −      −þ0−
+                                                                                background arises when a B → D ð2010Þ h h               decay
+                Partially  reconstructed background components are              is  misreconstructed with the charged pion from the
+              therefore modeled by the convolution of an ARGUS                    −¯0−
+                                                                                D ð2010Þ →D π           decay not being included and a
+              function with a Crystal Ball function. The parameters             random γ or π0 candidate instead being used to form a
+              are determined from simulation and are subsequently fixed          ¯ 0
+              in the fit to data.                                               D candidate. These decays are, however, suppressed by
+                                                                                small CKM matrix elements, with the highest branching
+                                                                                                  −6                   −      −−þ
+                            3. Combinatorial background                         fraction of Oð10     Þ expected for B → D ð2010Þ K π
+                                                                                [56],  and are thus negligible. Potential sources of
+                Combinatorial      background     arises   from     random      background from decays to the same set of final state
+              combinations of particles, not originating from the same          particles without any intermediate charm meson, or with
+              b-hadron decay, that may be either correctly identified           two charm mesons, are also rendered negligible by the
+                                                    0                           selection criteria.
+              or misidentified. Its shape in the B     -candidate invariant
+                                                    ðsÞ
+              mass distribution is modeled with a falling exponential
+              function.                                                                     B. Simultaneous fit configuration
+                                                                                   As discussed above, the six selected final states—
+                        4. Partially combinatorial background                     0     ¯ 0 þ −       0    ¯ 0 − þ             0    ¯ 0 þ −
+                                                                                B →D K π , B →D K π and B →D π π ,
+                                                                                                      s
+                A final category of background occurs where the                                   ¯ 0     ¯ 0       ¯ 0 0
+                                                                                each with both D      →Dγand D π decays—contain a
+              majority of the particles comprising the B0         candidate     large number of background components in addition to
+                                                              ðsÞ               correctly reconstructed and misreconstructed signal. The
+              originate from a b-hadron decay, combined with a random
+              particle from the rest of the pp collision event. This is         signal yields are therefore determined with a simultaneous
+              referred to as partially combinatorial background. Such a         unbinned extended maximum-likelihood fit to the six
+                                     0       0  ∓             0      0 þ −        0
+                                           ¯                       ¯            B -candidate mass distributions, while exploiting various
+              background from B         →DK π and B →D π π                        ðsÞ
+                                     ðsÞ                                        relations between the yields of the different components in
+              decays is found to contribute significantly when combined
+                                                             ¯ 0                order to ensure fit stability and accuracy.
+              with random soft neutral particles to form a D     candidate.        Theratio between misreconstructed and correctly recon-
+                           þ     ¯ 0 þ ¯0 þ
+              Similarly, B   →D K (D π ) forms a background in                                                                             ¯ 0
+                  ¯ 0 þ − ¯0 þ −                                                structed signal yields is expected to depend only on the D
+              the D K π (D π π )finalstatewhencombinedwitha                     decay mode. The yields of misreconstructed signal com-
+              random soft charged pion.                                         ponents are thus given by the product of the correctly
+                Theshapes of these background components are studied            reconstructed signal yield and a factor that is shared across
+              with simulation and are found to be well described by the           0                                  ¯ 0     ¯ 0        ¯ 0
+              sumoftheJohnsonfunction[55]andadoubleCrystalBall                  B     decays but differs between D       →Dγ and D →
+                                                                                  ðsÞ
+              function. Here, in contrast to the case for the signal and         ¯ 0 0
+                                                                                D π decays. In a similar way, common factors are used to
+                                                                          072005-8
+                    OBSERVATION OF THE …                                                                                                       PHYS. REV. D 105, 072005 (2022)
+                                 decays depend on the probability to make a combination
+                                 with a random charged pion, which is expected to be
+                                                                  ¯ 0
+                                 independent of the D                    decay mode. In addition, the
+                                 relative yields of partially combinatorial background from
+                                    þ       ¯ 0 þ              þ        ¯ 0 þ
+                                 B →D K andB →D π decayscanbeconstrained
+                   
+                                 from their relative branching fractions, taken from
+                                 Refs. [9,57,58], and reconstruction probabilities. To con-
+                   
+                                 strain further the partially combinatorial components, the
+                   
+                                 yields of the Bþ                ¯ 0 þ                0      ¯ 0 þ −
+                                                            →D π and B →D π π contribu-
+                                                    0         0 þ −           0          0
+                                                            ¯               ¯          ¯
+                                 tions to the B → D π π ;D                       →Dγchannelarerelated
+                                 to each other using knowledge of both the relative
+                   
+                                 branching fractions [3,16,57,59] and reconstruction prob-
+                                                                                                                abilities. For all these constraints, the central values and
+                                                                                                     ¯ 0        uncertainties are calculated using relative efficiencies
+                   relate the yields of signal components with the wrong D                                      determined from simulation. The relative yields are then
+                   decay and correctly reconstructed signal yields. These                                       constrained within these uncertainties in the fit to data.
+                   factors are allowed to vary freely in the fit to data.                                           In total, the simultaneous fit has 49 degrees of freedom,
+                       Theyields of cross feed background components, which                                     12 of which are not completely floated but have Gaussian
+                   are correctly reconstructed in one final state, but have                                     constraints applied. The 37 freely varying parameters are
+                   charged hadron misidentification in another, are related to                                  the six signal yields, four ratios of misreconstructed signal
+                   the correctly reconstructed signal yields by relative effi-                                                     ¯ 0
+                                                                                 ¯ 0                            and wrong D              decays relative to correctly reconstructed
+                   ciencies, which are the same for both D                             decays. The              signal, six combinatorial background yields, six combina-
+                                                                                    0      ¯ 0 þ −
+                   yields of background due to misidentified B → D K K                                          torial background slope parameters, four yields of mis-
+                   decays in different final states are similarly related to each                                                                              0        ¯ 0 þ −
+                                                                                                                identified background from B                       →D K K decays to
+                   other, with their overall yield allowed to vary freely, and                                         ¯ 0 þ −                                 ðsÞ
+                                                               0       ¯ 0 þ −                                  the D K π final states, three yields of partially combi-
+                   likewise for misidentified B → D K K                                decays. The
+                                                               s                                                                0         ¯ 0 þ 0−
+                                                                                                                natorial B          →Dh h background components, four
+                   expected central values of the relative yields of the                                                        ðsÞ
+                   misidentified background components are determined from                                      ratios related to the yields of partially reconstructed decays
+                   simulation and are constrained within their uncertainties in                                 and two shift and two scale parameters that quantify
+                   the fit to data.                                                                             differences in the signal shape between data and simulation.
+                       Thesamepartiallyreconstructed background sources are                                     The 12 parameters with external Gaussian constraints are
+                                                                                                     ¯ 0        composed of six that constrain the misidentified back-
+                   expected to be seen in final states that differ by only D                                    ground yields, and six that constrain the partially combi-
+                   decay, and hence the yields of these background compo-                                       natorial background yields.
+                   nents are fixed relative to each other. These factors are
+                   allowed to vary freely in the fit to data.                                                                                    C. Fit results
+                                                                                                    0
+                       The relative yields of partially combinatorial B →
+                    ¯ 0 þ 0−                                                                                        Projections of the fit result are superimposed on the
+                   D h h          background components between the different
+                    ¯ 0                                                                                            0
+                   D final states depend only on the probability to form a                                      B -candidate mass distributions shown in Figs. 3 and 4.
+                    ¯ 0                                                                                 0          ðsÞ
+                   D candidate by combining with a random γ or π                                                The fitted signal yields are given in Table. I, with their
+                   candidate. Thus, this ratio of yields is expected to be the                                  statistical correlations in Table. II. Due to the nature of the
+                                           þ 0−
+                   same for each h h               combination. Similarly, the yields of                        simultaneous fit, with various constraints between different
+                                                                                        þ        ¯ 0 þ
+                   background from partially combinatorial B → D h                                              components, it is expected that there may be significant
+                                                                                                                   0      0
+             correlations between fit parameters. Large correlations, up     TheSDPisdefinedbythevariablesm andθ ,bothdefined
+                                                            ¯ 0     ¯ 0 0    in the range [0, 1] and given by (see e.g., Ref. [60]):
+             to almost 90%, are seen between yields with D      →Dπ
+             decays. This feature is investigated with pseudoexperi-                       
+             ments and found to arise mainly as a consequence of the               1             m −m −m
+                                                                               0                   12     1     2
+             yield of misreconstructed, relative to correctly recon-         m ¼πarccos 2m −m −m −m −1 ;
+                                                                                                 B     1     2    3
+             structed, signal being constrained to be the same in the              1
+                                    ¯ 0     ¯ 0 0                            θ0 ¼   θ12;                                             ð1Þ
+             three final states with D  →Dπ decays. These correla-                 π
+             tions are taken into account when calculating the ratios of
+             branching fractions, as described in Sec. VII.                  where m is the mass of the particle numbered i (and
+                The result of the fit is seen to agree well with the data             i
+                                                                             equivalently for m ), m    is the invariant mass of the 1-2
+                                                                                                B    12
+             over most of the B0 -candidate mass range in all six final      pair, and θ  is the helicity angle of the 1-2 system, i.e., the
+                                ðsÞ                                                    12
+             states. To quantify the agreement, the χ2 for each final state  angle between the momenta of the particle numbered 1 and
+             is compared to the number of bins in the histograms used.       that numbered3intherestframeofthe1-2pair.Thevalues
+             Duetothenatureofthesimultaneousfit,itisnotpossibleto            of m   and θ    are obtained from a kinematic fit in which
+                                                                                  12      12
+             determine an appropriate number of degrees of freedom for            0   ¯ 0      ¯ 0
+                                                                             the B  , D   andD massesarefixedtotheirknownvalues
+             each final state individually. These χ2=Nbins values, which          ðsÞ
+             account only for statistical uncertainties, are found to be in  [3]. The definition is, however, dependent on the ordering
+             an acceptable range for the three final states with lowest      of the particles; the specific ordering used to define the
+                                                                             variables in Fig. 5 is given in Table. III.
+             yields, but larger values (χ2=Nbins ≈ 2) are seen in the final    Since the signal decays involve various intermediate
+             states with higher numbers of selected candidates. There is,    resonances, and the efficiency varies significantly across
+             however, no clear and consistent pattern of deviations          the phase space, it is necessary to use a weighting scheme
+                                                                     ¯ 0
+             between the data and the fit model between the two D            to ensure that the simulation is appropriately matched to the
+             decays in each final state. Therefore, it is not possible to    data. This has been done in many previous analyses (see
+             identify any further components that should be included in      e.g., Ref. [49]), but the standard sPlot procedure [43]
+             the fit, and the residual discrepancies are interpreted as      requires the use of weights that are obtained from a fit in
+             arising from inaccuracies in the modeling, which are            which the only freely varying parameters are the yields of
+             accounted for as a source of systematic uncertainty.            the different components. Due to the nature of the simulta-
+                                                                             neous fit described in Sec. IV, in particular the application
+                 V. SIGNAL WEIGHTING AND EFFICIENCY                          of constraints to certain background yields, that is not
+                                  CORRECTION                                 possible here. Therefore, weights are instead obtained from
+                There are several effects contributing to the efficiency to  a reformulation of the sPlot approach [61], where no such
+                        0                                                    requirement is necessary. These weights can be used, for
+             detect a B     meson that is produced within the LHCb
+                        ðsÞ                                                  each category, to obtain a projection of the distribution of
+             acceptance and decays to one of the final states of interest.   any variable which is independent of the B0 -candidate
+             These are geometrical acceptance, in which one or more of                                                     ðsÞ
+             the final state particles passes outside the LHCb detector;     mass. This is, to a reasonable approximation, the case for
+             trigger efficiency, both at hardware and software level,        the SDP and any other representation of the phase space of
+             where the latter includes reconstruction effects; selection     the signal decays. Possible violations of this assumption of
+                                                                                                                     0
+                                                                             independence between the SDP and B -candidate mass
+             efficiency, of both prefiltering and final selection stages,                                            ðsÞ
+             which is the probability that a signal decay passes the         are considered as a source of systematic uncertainty in the
+             requirements imposed in order to reduce background. The         results.
+             efficiencies are determined from simulation in which, as          The signal weights and SDP efficiency maps are used to
+             noted in Sec. III, the values in simulation of variables used   determine the ratio of branching fractions (illustrated here
+             for charged hadron identification are drawn from data           for generic decay modes X and Y), as
+             control samples. As the simulation has been tuned to                       P                  0  0
+                                           0                                   BðXÞ         w ðm Þ=ϵ ðm;θ Þ        NðXÞ=hϵðXÞi
+             describe the kinematics of B     -meson production within               ¼Pi X Bi X i i ¼                            ;   ð2Þ
+                                           ðsÞ                                 BðYÞ                        0  0     NðYÞ=hϵðYÞi
+                                                                                            w ðm Þ=ϵ ðm ;θ Þ
+             the LHCb acceptance and the detector response, no further                     j Y   Bj    Y   j  j
+             corrections are necessary. The effects of acceptance, trigger   where the indices i and j run over the X and Y candidates,
+             efficiency, reconstruction, online selection and prefiltering   respectively. The functions w      and ϵ     are the signal
+             are determined separately from those of offline selection in                                  XðYÞ      XðYÞ
+             order to make efficient use of the computing resources          weight and efficiency function for XðYÞ, respectively, and
+                                                                                      0        0            0
+                                                                             m     , m   and θ     are the B  -candidate mass and SDP
+             available to produce simulation samples. The total effi-          BiðjÞ  iðjÞ     iðjÞ         ðsÞ
+             ciency for each of the six signal modes is shown in Fig. 5.     variables for candidate iðjÞ. Since the yield corresponds to
+                                                                                                                           P
+                The simulation samples are generated flat across the         the sum of the signal weights, i.e., NðXÞ¼        w ðm Þ,
+                                                                                                                             i  X   Bi
+             square Dalitz plot (SDP) representation of the phase space.     the average weighted efficiency is given by
+                                                                      072005-10
+                                                            Pw ðm Þ                                                                         0      ¯ 0 − þ                 0       ¯ 0 þ −
+                                                                i  X      Bi                                    For the ratio BðB → D K π Þ=BðB → D π π Þ the
+                                     hϵðXÞi ¼ P                                        :             ð3Þ                                    s
+                                                         w ðm Þ=ϵ ðm0;θ0Þ                                       right-hand side of Eq. (2) is modified to include a factor of
+                                                        i  X     Bi      X     i    i                                       −1
+                                                                                                                ðfs=fdÞ , where fs=fd ¼ 0.25390.0079 [62] is the
+                                                                                                                                                                      0          0
+                                                                                                                ratio of fragmentation fractions for B and B mesons in the
+                                                                                                                                                                      s
+     LHCb acceptance.
+         Themaingoaloftheanalysis is the determination of the
+                                                                        0
+     relative branching fractions of different B                             decays to
+      ¯ 0 þ 0−                                                          ðsÞ
+     D h h finalstates. However, Eq. (2) can also be used to
+                                               ¯ 0        ¯ 0           ¯ 0        ¯ 0 0
+     determine          the     ratio      BðD →DγÞ=BðD →D π Þ,
+     which provides a useful cross-check of the procedures.
+
+     The results for this ratio are 0.53  0.06, 0.59  0.04
+                                   0    ¯ 0 þ −      0    ¯ 0 − þ                                 ð−Þ
+             and 0.540.04 in B → D K π , B →D K π and
+                                                     s                      corresponding to the K ð892Þ0 resonance, can be seen in
+               0    ¯ 0 þ −
+             B →D π π decays, respectively, where the uncertain-                        0    ¯ 0 þ −          0    ¯ 0 − þ
+                                                                            both the B → D K π and B →D K π channels.
+             ties are statistical only. These values are self-consistent and                                  s
+                                                                                         þ −                                          0
+             also agree with the most precise determinations of this        Similarly, π π    structure corresponding to the ρð770Þ
+             ratio [9,57,59].                                               resonance can be seen in the normalization channel.
+                                                                                     ¯ 0 0−
+                By plotting the efficiency-corrected signal weights as a    Narrow D h structures can also be seen in all channels,
+                                                                                                               −                   0
+             function of position in phase space, rather than simply        corresponding to the D ð2420Þ         resonance in B →
+                                                                                                       1
+                                                                             ¯ 0 þ −         0    ¯ 0 þ −
+             summing them as in Eq. (2), (square) Dalitz plots of the       D K π and B →D π π decays, and corresponding
+             signal decayscanbeobtained.TheseareshowninFig.6for                               −                 0    ¯ 0 − þ
+                                                                            to the D ð2536Þ resonance in B → D K π              decays.
+                    0      0 þ −               0      0 − þ                          s1                         s
+             (top) B      ¯                          ¯
+                      →D K π ,(middle) B →D K π and (bot-                   The structures observed are reasonably consistent with
+                                               s
+                     0    ¯ 0 þ −                       ¯ 0    ¯ 0          those anticipated when developing models for these
+             tom) B →D π π decays, for the D →D γ and
+              ¯ 0    ¯ 0 0                              ∓                   channels to describe their shapes when appearing as
+             D →Dπ samples combined. Clear K π                structures,
+                                                                     072005-12
+                    OBSERVATION OF THE …                                                                                                         PHYS. REV. D 105, 072005 (2022)
+                   misidentified background as discussed in Sec. IV. This                                         uncorrelated sources are treated differently in the combi-
+                   provides confidence that the shapes used do not introduce                                      nation of results between the two channels, as discussed in
+                   significant bias into the results.                                                             Sec. VII.
+                       The signal weights can also be used to obtain distribu-
+                   tions of variables used in the selection procedure, and                                                                           A. Fit bias
+                   thereby to verify that the simulation accurately represents                                        Intrinsic bias in the simultaneous fit used to determine
+                   the detector response and the signal kinematics. Good                                          the signal yields is evaluated with an ensemble of pseu-
+                   agreement is found for all such variables. The largest                                         doexperiments. Differences between the input values and
+                   discrepancy is observed for one of the variables that                                          the means of the fitted yields obtained in the ensemble,
+                                            0
+                   quantifies the B            -candidate isolation from other activity
+                                            ðsÞ                                                                   which are found to be small compared to the statistical
+                   in the pp collision event. This is considered as a source of                                   uncertainties, are assigned as systematic uncertainties. This
+                   systematic uncertainty on the results.                                                         procedure also reveals that the statistical uncertainty
+                                                                                                                  returnedfromthefitisunderestimatedby10–30%,depend-
+                               VI. SYSTEMATIC UNCERTAINTIES                                                       ing on the mode. The statistical uncertainties are corrected
+                       A number of sources of possible bias on the ratios of                                      accordingly (these corrections are included in the values
+                   branching fractions, evaluated using Eq. (2), are inves-                                       presented in Table. IV).
+                   tigated       and       corresponding            systematic          uncertainties                        B. Modeling of components in the fit to
+                   assigned. These are described below and summarized in                                                                        0
+                                                                                                                                              B -candidate mass
+                   the same order in Table. IV, where the statistical uncer-                                                                    ðsÞ
+                   tainties are also given for comparison. Separate measure-                                          Thelargest uncertainty due to the choice of models used
+                   ments of the branching fraction ratios are obtained for the                                    in the fit to B0 -candidate mass arises from the reweighting
+                    ¯ 0        ¯ 0            ¯ 0        ¯ 0 0                                                                       ðsÞ
+                   D →DγandD →Dπ decays, and therefore sepa-                                                      of signal and misidentified background components. This
+                   rate sets of systematic uncertainties are presented. These                                     is investigated by varying the weights and evaluating the
+                   are indicated as being considered to be either completely                                      impact on the results. The variation of weights accounts for
+                   uncorrelated (†) or completely correlated () between the                                       both limited simulation size and uncertainties in the
+                                                              ¯ 0
+                   ratios obtained with the two D                   decays.Thecorrelatedand                       misidentification probabilities.
+                        C. Selection of components in the fit                         H. Simulation of hardware trigger response
+                                to B0 -candidate mass
+                                     ðsÞ                                          The response of the hardware trigger, due to energy
+                The baseline fit includes the components that are               deposits in the calorimeter system, is difficult to describe
+              expected to contribute significantly. However, contribu-          accurately in simulation. The hardware trigger efficiency
+                            ¯ 0    ¯ 0¯   þ        ¯ 0    ¯ 0¯ þ
+              tions from Λ → D pK            and Λ →D pπ decays,                obtained in simulation is compared to that in data control
+                             b                      b
+              which are not included in the baseline fit, may be non-           samples, weighted to match the kinematics of signal tracks,
+              negligible. To evaluate the possible impact of these back-        andthe impact on the results is assigned as the correspond-
+              ground processes, the fit is repeated including these new         ing systematic uncertainty.
+              components, with constraints relating their yields in the
+              different final states. The differences compared to the                                 I. SDP binning
+              baseline results are assigned as the corresponding system-          The variation of the efficiency across the phase space is
+              atic uncertainty.                                                 accounted for using binned SDP efficiency maps, and
+                       D. Multiple and duplicate candidates                     assumes that the variation of the efficiency within each bin
+                                                                                is small enoughtobeneglected.Thepossiblebiasrelatedto
+                The effects of multiple and duplicate candidates may            this assumption is quantified by repeating the procedure
+              differ between data and simulation and could therefore bias       with alternative SDP binnings.
+              the results. This is investigated by imposing an additional
+              selection requirement that reduces the rates of such                          J. Four-dimensional phase space
+              candidates to zero, and evaluating the impact on the results.                                 0      ¯ 0 þ 0−
+                                                                                  The phase space of a B       →D h h decay has four
+                                                                                                            ðsÞ
+                            E. Finite simulation statistics                     dimensions. The dependence of the efficiency on the SDP
+                The finite size of the simulation samples is a source of        variables is accounted for in the baseline procedure. The
+              uncertainty in the efficiency estimation. The calculation of      other two dimensions can be described by the cosine of the
+                                                                                                      ¯ 0               
+              each branching fraction ratio is repeated many times              helicity angle of the D   decay, cosθD , and the azimuthal
+                                                                                                        ¯ 0     ¯ 0   0
+              varying the efficiency in each SDP bin within the corre-          angle, ϕ, between the D     →Dγ=π decayplane and the
+                                                                                                        þ        0−
+              sponding error bars. The spread of results within this            plane defined by the h     and h   momentum vectors. The
+              ensemble is assigned as the associated systematic                 signal distributions in these variables are expected to be
+              uncertainty.                                                      closetosymmetricaboutzeroandthereforeiftheefficiency
+                                                                                dependenceisapproximatelylinearitsimpactontheresults
+                          F. Charged hadron identification                      should be small.
+                                                                                  Theeffect of the efficiency variation in cosθ  and ϕ is
+                                                                                                                                  D
+                The sampling of variables related to charged hadron             quantified by evaluating the average efficiency with and
+              identification from data control samples requires that the        without efficiency corrections as functions of these
+              detector response in the signal and control samples is the        variables. The dependenceontheSDPvariablesisomitted
+              same.Thisisexpectedtobethecase,sincedependenceon                  in this procedure, as the limited simulation sample size
+              kinematics and detector occupancy is accounted for in             precludes a full four-dimensional treatment. Effects
+              the procedure. The impact of possible residual incon-             related to ϕ are found to be negligible, as the efficiency
+              sistencies between the samples is evaluated by using an           has no significant dependence on this variable. However,
+              alternative sampling procedure, with the differences in the       correlation between cosθ  with the momentum of the γ
+                                                                                                           D
+              results obtained assigned as the associated systematic                0                   ¯ 0
+                                                                                or π emitted in the D       decay results in a shift of the
+              uncertainty.                                                      average efficiency, which is assigned as a systematic
+                                                                                uncertainty.
+                 G. Disagreement between data and simulation in
+                           variables used in the selection                          K. Data/simulation disagreement in B0 lifetime
+                                                                                                                               s
+                The weighting procedure described in Sec. V is used to                   0    ¯ 0 − þ
+                                                                                  TheBs →D K π decayisflavorspecific,andassuch
+              check the agreement between data and simulation of                the appropriate combination of the lifetimes of the two
+              variables used in the selection procedure. The largest                        0
+                                                                                physical B    eigenstates is the so-called flavor-specific
+              discrepancy is found in a variable that quantifies the                        s
+               0                                                                lifetime Äfs ¼ 1.527 0.011 ps [2]. The lifetime used
+              B -candidate isolation from other activity in the pp              when generating the simulation differs from this value
+               ðsÞ                                                              byanamountthatisapproximatelyequaltotheuncertainty
+              collision event, which is used in one of the BDT classifiers.
+              The BDT output is recalculated after reweighting this             on Äfs. Weights are applied to the simulation so that the
+                                                                                  0
+              variable in simulation to match data, which affects the           B -candidate decay-time distribution corresponds to Ä ,
+                                                                                  s                                                        fs
+              selection efficiencies. The impact on the results is assigned     and the impact on the result is assigned as the associated
+              as the corresponding systematic uncertainty.                      uncertainty.
+                             L. Correlations that could bias the signal                                                0      ¯ 0 þ −
+                                                                                                                BðB →D K π Þ¼0.08360.00430.0061;
+                                              weighting procedure                                                      0      ¯ 0 þ −
+                                                                                                                 BðB →D π π Þ
+                       The signal weighting procedure assumes the absence                                              0      ¯ 0 − þ
+                                                                                                                BðB →D K π Þ
+                   of correlation between the SDP variables and the                                                    s                     ¼1.1780.0290.0910.037;
+                                                                                                                       0      ¯ 0 þ −
+                     0                                                                                           BðB →D π π Þ
+                   B -candidate mass. This is an excellent approximation
+                     ðsÞ                                                                                               0      ¯ 0 þ −
+                   for signal, since the SDP coordinates are calculated with                                    BðB →D K π Þ¼0.07120.00350.00650.0022;
+                                                                                                                       0      ¯ 0 − þ
+                          0                                                                                     BðB →D K π Þ
+                   a BðsÞ-mass constraint applied, but correlations are                                                s
+                   expected for misidentified background and partially com-                                     where the uncertainties are statistical, systematic and
+                   binatorial background components. The impact of these                                        (where given) due to fs=fd. The significance of the signal
+                   correlations is evaluated with pairs of pseudoexperiments                                                                   0       ¯ 0 þ −                    0      ¯ 0 − þ
+                                                                                                                foreachoftheB →D K π and B →D K π
+                   in which these background sources are incorporated either                                                                                                      s
+                                                                                                                decays, as seen both in Table. I and in the results above,
+                                                                                       0
+                   with or without correlations between the B                             -candidate            is far in excess of the range in which quantification of this
+                                                                                       ðsÞ
+                   mass and SDP variables. The shift in results between the                                     value is useful, i.e., it is ≫ 5Ã.
+                   two cases is assigned as the associated systematic                                                                                                        0       ¯ 0 þ −
+                                                                                                                    Using the previous measurement, BðB → D π π Þ¼
+                   uncertainty.                                                                                                                   −4
+                                                                                                                ð6.2 1.21.8Þ×10 [21],theabsolutebranchingfrac-
+                                                                                                                               0         ¯ 0  ∓
+                                                                                                                tions of B          →D K π decays are
+                                        M. Fragmentation fractions                                                             ðsÞ
+                                                                                                                       0      ¯ 0 þ −                                                                −5
+                                                                                                    0           BðB →D K π Þ¼ð5.180.270.381.84Þ×10 ;
+                       Determination of the branching fraction ratios BðB →
+                                                                                                    s
+                    ¯ 0 − þ                0       ¯ 0 þ −                       0       ¯ 0 − þ                       0      ¯ 0 − þ
+                   D K π Þ=BðB →D π π Þ and BðBs →D K π Þ=                                                      BðB →D K π Þ¼ð7.300.180.562.59
+                         0         0 þ −                                                                               s
+                   BðB           ¯
+                            →D K π Þ requires knowledge of the ratio of                                                                                               −4
+                   fragmentation fractions fs=fd. The uncertainty in the                                                                          0.23Þ×10 ;
+                   knowledge of this quantity [62] is therefore a source of                                     wheretheuncertainties are statistical, systematic and due to
+                   systematic uncertainty.                                                                             0      ¯ 0 þ −
+                                                                                                                BðB →D π π Þ and (where given) to fs=fd.
+                                                                                                                                                 0       ¯ 0 − þ                  0      ¯ 0 þ −
+                                                                                                                    In summary, the Bs → D K π                          and B →D K π
+                                                  VII. RESULTS                                                  decays have been investigated, using a data sample corre-
+                                                                                                                                             −1
+                       The branching fraction ratios are calculated using                                       sponding to 5.4 fb                of pp collisions at center-of-mass
+                                                                       ¯ 0         ¯ 0           ¯ 0            energy of 13 TeV. Both decays are observed for the first
+                   Eq. (2), separately for cases with D                      →DγandD →                          time and their branching fractions are measured relative to
+                    ¯ 0 0
+                   D π decays, resulting in the values presented in Table. V.                                                      0      ¯ 0 þ −
+                   The calculation of the statistical uncertainties accounts for                                that of the B → D π π decay. The knowledge obtained
+                   the correlations given in Table. II, assuming that these are                                 in this work of the branching fractions of these decays,
+                   also appropriate for the efficiency-corrected yields. In all                                 and their distributions over phase space as shown in Fig. 6,
+                                                                                          ¯ 0                   will be important to control systematic uncertainties in
+                   cases the same ratios evaluated with different D                             decays          future determinations of the CKM angle γ in B → DK and
+                   are found to be consistent.                                                                                                         0       ¯ 0 þ −
+                       A linear combination is used to average the two                                          B→DKπ decays. The B →D K π decay may itself
+                   results       for      each       branching          fraction        ratio.      The         also be used in future to obtain constraints on γ. Moreover,
+                   relative weight of each is determined using the standard                                     future amplitude analyses of the Dalitz plots of these
+                   minimum χ2 approach, where only the statistical and                                          decays may provide insights into charm and charm-strange
+                   uncorrelated          systematic          uncertainties          are     included.           spectroscopy.
+                   These weights are then used to propagate the full set                                                               ACKNOWLEDGMENTS
+                   of uncertainties, including those that are correlated
+                                         ¯ 0        ¯ 0            ¯ 0        ¯ 0 0
+                   between the D              →Dγ and D →D π decays. The                                            Weexpress our gratitude to our colleagues in the CERN
+                   results are                                                                                  accelerator departments for the excellent performance of

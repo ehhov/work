@@ -1,0 +1,22 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{patterns}
+
+\newlength{\len}
+\setlength{\len}{.8mm}
+
+\begin{document}
+
+\begin{tikzpicture}[x=\len, y=\len]
+
+  \path (0, 0) node(lc2880-babar){\includegraphics[width=100\len]{src/lc2880-babar}};
+  \path (lc2880-babar.south) node[anchor=north]{[hep-ex/0603052] BaBar};
+
+  \path (110, 0) node(lc2880-belle){\includegraphics[width=100\len]{src/lc2880-belle}};
+  \path (lc2880-belle.south) node[anchor=north]{[hep-ex/0608043] Belle};
+
+\end{tikzpicture}
+
+\end{document}

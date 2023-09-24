@@ -1,0 +1,363 @@
+               1 Introduction
+               Few studies of beauty-baryon decays to ﬁnal states involving a single open-charm meson
+               exist, but they are nonetheless promising for measurements of CP violation [1–3]. A
+               measurement of a set of branching fraction ratios of Λ0 and Ξ decays to ﬁnal states
+                                                                         b       b
+               including a D meson yielded the ﬁrst observation of the singly-Cabibbo-suppressed
+                 0      − +       −                                  0     0       1
+               Λb →[K π ]DpK decay[4],whereDrepresentsaD orD meson. Thiswasfollowedby
+               a study of the resonant structure of Λ0 → D0pπ− decays [5]. This paper reports the results
+                                                    b
+               of a study of Λ0 → DpK− decays with the objectives of observing for the ﬁrst time the
+                              b
+               Λ0 →DpK− decay with D →K+π−, denoted as Λ0 → [K+π−] pK− and measuring its
+                 b                                                 b            D
+               CP asymmetry. ThisdecayisexpectedtobesuppressedrelativetotheΛ0 → [K−π+] pK−
+                                                                                      b            D
+               decay. An estimate of the ratio of branching fractions between the favoured and suppressed
+               modesisobtainedbyconsideringtherelevantCabibbo-Kobayashi-Maskawa(CKM)matrix
+               elements [6]                                  
+                                                            ∗ 2
+                                                       VcbVus
+                                                  R≈          =6.0.                                 (1)
+                                                       VubV∗
+                                                            cs
+               The Λ0 → [K−π+] pK− (Λ0 → [K+π−] pK−) decay with same (opposite) sign kaons are
+                     b           D         b           D
+               referred to as the favoured (suppressed) decay throughout this paper. The suppressed
+               decay is of particular interest since its decay amplitude receives contributions from b → c
+               and b → u amplitudes of similar magnitude, given the CKM suppression between the
+               two D decays. The interference between these two amplitudes, which depends upon the
+               CKMangle γ, is expected to be large [7,8], but the diﬀerent strong phases associated
+               with the various conﬁgurations of polarisation states for the Λ0, proton, and intermediate
+                                                                              b
+               resonances complicate determination of γ.
+                  The analysis is based on proton-proton (pp) collision data collected with the LHCb
+                          √                                                                            −1
+               detector at  s = 7, 8, and 13TeV, corresponding to a total integrated luminosity of 9fb   .
+               The suppressed Λ0 → [K+π−]DpK− decay is observed for the ﬁrst time. In addition the
+                                 b
+               ratio of branching fractions of the favoured and suppressed decays, R, and the CP
+               asymmetry in the suppressed mode, A, which is expected to be sensitive to the CKM
+               angle γ, are measured where
+                                                  B(Λ0 →[K−π+] pK−)
+                                             R=       b            D      ,
+                                                  B(Λ0 →[K+π−] pK−)
+                                                      b            D
+               including both ﬂavours, and
+                                     B(Λ0 →[K+π−] pK−)−B(Λ0 →[K−π+] pK+)
+                                A=       b           D              b           D       .             (2)
+                                     B(Λ0 →[K+π−]DpK−)+B(Λ0 →[K−π+]DpK+)
+                                         b                          b
+               Sensitivity to CP-violation requires interference between amplitudes involving intermediate
+               D0 and D0 mesons. This interference is anticipated to be ampliﬁed in regions of the phase
+               space involving Λ0 → DX contributions, where X labels excited Λ states. Therefore, the
+                                 b
+               ratio of branching fractions and the CP asymmetry in the suppressed mode are measured
+               separately in the full phase space and in a restricted phase-space region which involves
+               Λ0 →DX decays, where an enhanced sensitivity to γ is expected.
+                 b
+               1Charge conjugation is implied throughout this document except in reference to CP asymmetries or
+                               0      0
+                comparisons of Λ and Λ samples.
+                               b      b
+                                                           1
+          2 Detector and simulation
+          TheLHCbdetector[9,10]isasingle-armforwardspectrometer covering the pseudorapidity
+          range 2 < η < 5, designed for the study of particles containing b or c quarks. The
+          detector includes a high-precision tracking system consisting of a silicon-strip vertex
+          detector surrounding the pp interaction region [11], a large-area silicon-strip detector
+          located upstream of a dipole magnet with a bending power of about 4Tm, and three
+          stations of silicon-strip detectors and straw drift tubes [12,13] placed downstream of the
+          magnet. The tracking system provides a measurement of the momentum, p, of charged
+          particles with a relative uncertainty that varies from 0.5% at low momentum to 1.0% at
+          200GeV/c. The minimum distance of a track to a primary pp collision vertex (PV), the
+          impact parameter (IP), is measured with a resolution of (15 + 29/pT)µm, where pT is
+          the component of the momentum transverse to the beam, in GeV/c. Diﬀerent types of
+          charged hadrons are distinguished using information from two ring-imaging Cherenkov
+          detectors [14]. Hadrons are identiﬁed by a calorimeter system consisting of scintillating-
+          pad and preshower detectors, an electromagnetic and a hadronic calorimeter. The online
+          event selection is performed by a trigger [15], which consists of a hardware stage, based
+          on information from the calorimeter, followed by a software stage, which applies a full
+          event reconstruction.
+            Simulation is required to model the eﬀects of the detector acceptance and the imposed
+          selection requirements. In the simulation, pp collisions are generated using Pythia [16]
+          with a speciﬁc LHCb conﬁguration [17]. Decays of unstable particles are described
+          by EvtGen [18], in which ﬁnal-state radiation is generated using Photos [19]. The
+          interaction of the generated particles with the detector, and its response, are implemented
+          using the Geant4 toolkit [20] as described in Ref. [21].
+            The particle identiﬁcation (PID) response in the simulated samples is corrected using
+          control samples of Λ+ → pK−π+ decays in LHCb data, taking into account its correlation
+                      c
+          with the kinematic properties of each track and with the event multiplicity. To parametrise
+          the PIDresponse, an unbinned method is employed, where the probability density functions
+         (PDFs) are modelled using kernel density estimation [22].
+          3 Reconstruction and selection of candidates
+          Neutral D meson candidates are reconstructed by combining kaon and pion candidates
+          having opposite charge. To form Λ0 candidates, the neutral D meson candidates are
+                                 b
+          combined with proton and kaon candidates having opposite charge. Each Λ0 candidate is
+                                                          b
+          associated to the PV for which the value of χ2 is minimised, where χ2 is the diﬀerence
+                                       IP              IP
+                       2                         0
+          between the vertex χ of a given PV with and without the Λb candidate included in the
+          PVﬁt. The tracks forming the Λ0 candidate are required to have good ﬁt quality and to
+                               b
+          be well separated from any PV in the event. The invariant masses of the Λ0 candidate,
+                                                           b
+          M(DpK−), and of the D candidate, M(Kπ), are required to be in the intervals from
+                      2                2
+          5200 to 7000MeV/c and 1850 to 1880MeV/c , respectively. Candidates with M(Kπ) in
+                                       2
+          a wider mass range from 1765 to 1965MeV/c are retained to quantify the background
+          contribution from charmless b-hadron decays. A kinematic ﬁt is performed in which
+          M(Kπ) is constrained to the known D0 mass [6] and the Λ0 candidate’s trajectory is
+                                                 b
+          required to point back to the associated PV [23]. To improve the resolution of the squared
+                                      2
+               invariant masses M2(Dp), M2(DK−) and M2(pK−), the ﬁt is repeated when calculating
+               these variables, with the additional constraint that the invariant mass of the DpK−
+               combination is equal to the known Λ0 mass [6]. Inclusion of the mass constraint improves
+                                                    b
+               the resolution on the two-body masses by 50% or more, depending upon position in the
+               three-body phase space.
+                                       0     + −                 +       − +
+                  Background from Λb → Λc h decays, with Λc → ph h where h is a charged kaon
+                                                                                − +
+               or pion, are vetoed by requiring that the invariant mass of any ph h  combination diﬀers
+               from the known Λ+ mass [6] by more than 20MeV/c2. To suppress the contribution of
+                                  c
+                                       0      − + −
+               events from charmless Λb → ph h h decays, the decay-time signiﬁcance of the D meson
+               candidates with respect to the Λ0 vertex is required to be larger than 2.5. The decay-time
+                                               b
+               signiﬁcance of the D candidate is deﬁned as the measured decay time divided by its
+               uncertainty.
+                  Tosuppress combinatorial background, a Boosted Decision Tree (BDT) algorithm using
+               adaptive boosting [24] is employed as implemented in the TMVA toolkit [25]. To train
+               the BDT classiﬁer, one for the full and another for the restricted phase space, a sample of
+               simulated Λ0 → [K−π+]DpK− decays is used as a proxy for signal and candidates in the
+                           b
+               Λ0 mass sidebands with mass in the intervals from 5300 to 5400MeV/c2 and from 5900 to
+                b
+               6000MeV/c2 are used to represent combinatorial background. The variables that enter the
+               BDTselection are the quality of the kinematic ﬁt, the quality of the Λ0 and D vertices
+                                                                                        b
+               and their decay-time signiﬁcances, PID variables, and the pT of the ﬁnal-state particles.
+               The optimisation criterion used to determine the choice of BDT working point is the
+                                                                                          p
+               maximum expected statistical signiﬁcance of the suppressed signal, Nsig/      Nsig + Nbkg,
+               where N    and N     are the expected numbers of signal and background candidates in
+                       sig       bkg
+                                                          2
+               the mass interval from 5600 to 5640MeV/c . The expected number of suppressed signal
+               decays is determined by dividing the observed yield in the favoured decay by the Cabibbo
+               suppression factor deﬁned in Eq. 1 using values for the CKM matrix elements taken
+               from [26]. In 0.1% of events multiple Λ0 candidates are reconstructed. All the candidates
+                                                      b
+               are retained.
+               4 Determination of signal yields
+               The mass distributions for the DpK− candidates in the favoured and suppressed data
+               samples in the full phase space are shown in Fig. 1. The number of signal candidates
+               is obtained by an extended unbinned maximum-likelihood ﬁt to the M(DpK−) mass
+               distributions using the RooFit package [27]. The favoured and suppressed samples are
+               ﬁtted simultaneously. The PDF used for the favoured sample is made of two components
+               to model Λ0 → DpK− and Ξ0 → DpK− signals, a background from misidentiﬁed
+                           b                   b
+               Λ0 →Dpπ− decays, and a partially reconstructed background from Λ0 → D∗pK− decays
+                b                                                                    b
+               whereD∗0 →D0γ orD∗0 →D0π0andtheγ orπ0 particleisnotreconstructed. Additional
+               components are required to describe the background due to partially reconstructed
+               Λ0 → D∗pπ− decays, with D∗0 → D0γ or D∗0 → D0π0 and having the pion from the
+                b
+               Λ0 decay misidentiﬁed as a kaon, partially reconstructed Ξ0 → D∗pK− decays, which
+                b                                                           b
+               peak in the signal region, and from combinatorial background. The PDF used to ﬁt the
+               suppressed sample is the same, except that it does not include contributions from the
+               Ξ0 →D(∗)pK− and Λ0 → D(∗)pπ− decays, which are expected to be negligible.
+                 b                   b
+                  The parametrised shape of each component is taken from a ﬁt to simulated decays
+                                                           3
+                  after all selections are applied. The signal and partially reconstructed background are
+                  each modelled by the sum of two Crystal Ball (CB) functions [28], where the parameters
+                  governing the shape of the tails are ﬁxed to their values in ﬁts to simulated samples.
+                 The background from misidentiﬁed Λ0 → Dpπ− decays is parametrised by the sum of a
+                                                               b
+                                                                                                    2     −             2  4
+                  Gaussian and a CB function. In the restricted phase-space region, M (pK ) < 5GeV /c ,
+                  the same functional forms are used, except that the partially reconstructed background is
+                  parametrised by the sum of a bifurcated Gaussian and a CB function. The combinatorial
+                  background is described by an exponential function. The slope of the combinatorial
+                  background is allowed to vary independently in the favoured and suppressed samples.
+                 The widths of each peaking component are multiplied by a common free parameter in
+                  order to account for the diﬀerence between the invariant-mass resolution observed in data
+                  and simulation. The mass of the Λ0 baryon is a free parameter, while the mass diﬀerence
+                                                           b
+                  between Ξ0 and Λ0 baryons is ﬁxed to its known value [6]. The yields of each component
+                              b         b
+                  are allowed to vary independently in the favoured and suppressed samples.
+                      The projection of the ﬁt to the invariant-mass distribution M(DpK−) in the favoured
+                  and suppressed data samples in the full phase space is shown in Fig. 1. The Λ0 yields are
+                                                                                                               b
+                  given in Table 1. Figure 2 shows the invariant-mass distribution M(DpK−) in the favoured
+                                                                                                     2     −            2  4
+                  and suppressed data samples in the restricted phase-space region M (pK ) < 5GeV/c
+                 with the ﬁt projections overlaid. The signal yields obtained from this ﬁt are given in
+                 Table 1. The invariant-mass distributions M(DpK−) and M(DpK+), overlaid with the ﬁt
+                  projections, used to calculate the CP asymmetry of the suppressed decay in the full phase
+                  space and in the restricted phase-space region are shown in Figs. 3 and 4, respectively.
+                      The resonant structure of the favoured and suppressed decays can be illuminated
+                  by considering projections of the Λ0 phase space. Figure 5 shows the M2(pK−) versus
+                                                             b
+                  M2(Dp) distributions of favoured and suppressed candidates in the signal region 5600 <
+                  M(DpK−)<5640MeV/c2. Thesignalpurityinthisregionis76%and72%forthefavoured
+                  and suppressed modes, respectively. Despite the smaller combinatorial background, the
+                  signal purity for the favoured decay is comparable to that for the suppressed decay due
+                  to the presence of the background from Ξ0 → D∗pK− and Λ0 → Dpπ− decays in the
+                                                                      b                       b
+                  signal region. Figures 6 and 7 show invariant-mass projections onto M(pK−), M(Dp)
+                  and M(DK−) for selected candidates. The dominant resonant amplitudes in the favoured
+                  mode could generate structures in the M(Dp) and M(pK−) distributions, corresponding
+                  to states having udc and uds quark content, respectively. The M(Dp) distribution
+                  shows an increased density of events in the low-M(Dp) region with a contribution from
+                  Λc(2860)+ → D0p decays. The distribution of M(pK−) contains a contribution from
+                  the Λ(1520) baryon at low-M(pK−) and an enhancement at 2.5 . M(pK−) . 3.5GeV/c2,
+                                                             +
+                 whichis the reﬂection of the Λc(2860) resonance seen in the M(Dp) distribution. Diﬀerent
+                  resonant structure is anticipated in the suppressed sample given the contributions from,
+                  and interference between, the Λ0 → D0pK− and Λ0 → D0pK− amplitudes. The M(DK−)
+                                                       b                     b
+                                                                      4
+                  distribution in the suppressed sample shows an increased density of events in the low-mass
+                                                                                               −                   ∗         ±
+                  region with a contribution from resonances decaying to DK                       such as the D (2700) .
+                                                                                                                   s1
+                                                                          5
+                 5 Calculation of branching fraction ratio and CP
+                       asymmetry
+                The ratio of branching fractions of the favoured and suppressed decays and the CP asym-
+                 metry of the suppressed decay are calculated from the ratio of yields of the corresponding
+                 decays after applying eﬃciency correction factors as
+                wherethesumisovertheselectedcandidates. Herewi                  andwi      are the weights obtained
+                                                                           FAV        SUP
+                 using the sPlot technique [29] for background subtraction of the favoured or suppressed
+                 samples, respectively, with M(DpK−) as the discriminating variable. The subscripts Λ0
+                                                                                                                    b
+                       0                                             i
+                 and Λb label the samples split by ﬂavour and  are the relative eﬃciencies. The eﬃciency
+                 corrections are determined as a function of the Λ0 phase-space variables M2(Dp) and
+                                                                           b
+                 M2(pK−) using the simulated Λ0 → [K−π+] pK− sample and parameterised by a kernel
+                                                     b             D
+                 density estimation technique [22]. Across the phase space, the relative eﬃciencies vary
+                 from 0.7 to 1.2, as shown in Figure 8.
+                     The measured values of R and A in the full phase space with their statistical and
+                                                                  8
+            systematic uncertainties are
+                                                  +0.4
+                                 R=7.1±0.8(stat.)    (syst.),
+                                                  −0.3
+                                                   +0.02
+                                 A=0.12±0.09(stat.)    (syst.),
+                                                   −0.03
+                                              2   −        2 4
+            and in the restricted phase-space region M (pK ) < 5GeV/c ,
+                                                  +0.4
+                                 R=8.6±1.5(stat.)    (syst.),
+                                                  −0.3
+                                                   +0.03
+                                 A=0.01±0.16(stat.)    (syst.).
+                                                   −0.02
+            The data samples in the full and restricted phase-space region partially overlap and the
+            statistical uncertainties on the ratios and asymmetries measured in these two regions
+            are correlated. A positive correlation between the statistical uncertainties of ρ = 0.33 is
+            estimated, given the number of events in the two samples and their overlap.
+            6 Systematic uncertainties
+            The systematic uncertainties on the ratio of branching fractions of the favoured and
+            suppressed decays and the CP asymmetry of the suppressed decay are listed in Table 2.
+            For each variation, the determination of R and A is performed, and the diﬀerence with
+            respect to the nominal result is taken as systematic uncertainty. Where multiple variations
+            are considered, the largest negative and positive deviations are taken. For the measurement
+            of R and A, many systematic eﬀects cancel in the ratios. The total systematic uncertainties
+            are obtained by summing all the contributions in quadrature.
+              To assess systematic uncertainties due to the description of signal and background
+            contributions in the invariant mass ﬁt model, alternative parameterisations for the Λ0
+                                                                                  b
+            mass peak, partially reconstructed background components and combinatorial background
+            are used. The corresponding systematic uncertainties amount to (1–5)%. The eﬃciency
+            corrections are impacted by the limited size of the signal simulation sample. This is
+            assessed by varying the parameters of the kernel density estimation. The corresponding
+            systematic uncertainties are (1–3)%.
+              The PID response in data is obtained from calibration samples [30,31]. The associated
+            systematic uncertainty includes the kernel width variation and the uncertainty due to
+            ﬁnite sample size of the calibration samples. The resulting uncertainty is 2% for R, and
+            less than 1% for A.
+              The hardware-level trigger decision is not perfectly simulated. The impact of this
+            mismodelling is estimated by varying the eﬃciency map according to a correction obtained
+            from data control samples. The resulting systematic uncertainty is at the level of 0.5%.
+              The background from charmless decays is estimated by interpolating from the D
+            mass sidebands into the D mass region after all selection requirements are imposed and
+            found to be 0.5% and 1% in the favoured and suppressed samples, respectively. These
+            values are taken as uncertainties and propagated to the measurement of R, resulting in an
+            uncertainty of 1% on R, while the corresponding uncertainty on A is assumed to cancel.
+              Doubly misidentiﬁed background, where the kaon and pion in the favoured mode are
+            swapped, leads to a background that peaks at the Λ0 mass in the suppressed sample. This
+                                                    b
+            contribution is estimated from simulation to be 0.5% in the suppressed sample, and this
+            value is assigned as an uncertainty in R. Furthermore, the impact of Λ0 → DpK− decays
+                                                                    b
+                                               9
+              with subsequent D → K−K+ or D → π−π+ decays, when one of the D decay products is
+              misidentiﬁed, is found to be 0.1%.
+                  The asymmetry in Λ0 and Λ0 production is expected to inﬂuence the measurement
+                                      b       b
+              of A. The average values were measured to be (1.92 ± 0.35)% and (1.09 ± 0.29)% at
+              7 and 8TeV centre-of-mass energies, respectively [32]. The production asymmetry is
+              expected to decrease still further for a centre-of-mass energy of 13TeV [33,34]. A 1.5%
+              systematic uncertainty is assigned. Furthermore, the detection asymmetry of the Λ0 decay
+                                                                                             b
+              products is also expected to inﬂuence the measurement of A. The asymmetry in detecting
+              protons versus antiprotons has been studied in detail [32] and does not exceed 1.5% for
+              various values of proton momentum. The asymmetry of π+ and π− detection was studied
+              in Ref. [35] and found to be less than 0.5%. These values are assigned as systematic
+              uncertainties. Any inﬂuence of K+ and K− detection asymmetry is expected to cancel
+              for the K+ meson from the D meson and the K− meson from the Λ0 baryon.
+                                                                                 b
+                  Pseudoexperiments were used to verify that the ﬁt used to determine the Λ0 signal
+                                                                                             b
+              yields was unbiased, and no uncertainty from this source is included.
+              7 Conclusion
+              AstudyofΛ0 baryondecaystothe[K±π∓]DpK− ﬁnalstate, whereD indicatesasuperposi-
+                          b
+              tion of D0 and D0, is reported, using a data sample corresponding to an integrated luminos-
+                                                        10
+                  ity of 9fb−1 collected with the LHCb detector. The suppressed Λ0 → [K+π−] pK− decay
+                                                                                               b              D
+                  is observed for the ﬁrst time. The ratio of branching fractions for the Λ0 → [K−π+] pK−
+                                                                                                      b              D
+                  and Λ0 → [K+π−]DpK− decays, and the CP asymmetry, are measured in the full phase
+                         b
+                  space to be
+                                                                           +0.4
+                                                  R=7.1±0.8(stat.)              (syst.),
+                                                                           −0.3
+                                                                              +0.02
+                                                  A=0.12±0.09(stat.)               (syst.).
+                                                                              −0.03
+                                                   2     −            2  4
+                  In the phase-space region M (pK ) < 5GeV/c theratioandCP asymmetryaremeasured
+                  to be
+                                                                           +0.4
+                                                  R=8.6±1.5(stat.)              (syst.),
+                                                                           −0.3
+                                                                              +0.03
+                                                  A=0.01±0.16(stat.)               (syst.).
+                                                                              −0.02
+                      Within the uncertainties, the ratio of the favoured and suppressed branching fractions
+                  is consistent with the estimate based on the relevant CKM matrix elements. The measured
+                  asymmetry values are consistent with zero, both in the full phase space and in the region
+                 where enhanced sensitivity to the CKM angle γ is expected. While the present signal
+                 yields are too low to be used to extract γ, larger samples are expected to be collected
+                  by LHCb in the coming years, and the study of this mode will contribute to the overall
+                  determination of γ.

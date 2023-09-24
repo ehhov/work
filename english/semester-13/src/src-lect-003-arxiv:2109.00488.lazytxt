@@ -1,0 +1,457 @@
+                    1 Introduction
+                    Heavy-ﬂavour states with b quarks are characterised by a relatively long lifetime and a
+                    large number of decay channels, and allow for highly sensitive studies of charge and parity
+                   (CP) symmetry violation and quantum-loop induced amplitudes. In the B+ meson, a b
+                                                                                                                          c
+                    quark is accompanied by a charm quark, c, forming a system where decays of both the
+                    beauty and the charm quark, as well as weak annihilation processes, contribute to the
+                    decay amplitude [1].
+                        Transition amplitudes between up-type quarks and down-type quarks are described by
+                    the Cabibbo-Kobayashi-Maskawa (CKM) quark-mixing matrix [2,3]. Figure 1 illustrates
+                    the CKM-favoured, but colour-suppressed B+→ D+D0 decay (unless speciﬁed otherwise,
+                                                                               c        s
+                    charge conjugation is implied throughout this article) and the CKM-suppressed, but
+                    colour-favoured B+→ D+D0 decay, which are expected to have similar amplitudes. This
+                                            c        s
+                    may result in a large, O(1), CP asymmetry for ﬁnal states that are common between D0
+                            0                                               +                                             +        + ( )0
+                    and D decays. Consequently decays of B                     mesons to two charm mesons, B → D                      D ,
+                                                                            c                                             c        (s)
+                    have been proposed to measure the angle γ ≡ arg(−V V∗/V V∗) [4–7], one of the key
+                                                                                             ud ub     cd cb
+                    parameters of the CKM matrix. Presently, the most precise determinations of γ come
+                                                                                    +     (  )0   +
+                    from measurements of the CP asymmetry in B → D K decays [8,9].
+                        Predicted branching fractions of B+ decays to two charm mesons [10–14] are listed
+                                                                        c
+                                                                                                                                       (  )
+                    in Table 1. Final-state interactions may result in an enhancement of B+→ D+ D 0
+                                                                                                                           c
+                    decay rates [15]. Moreover, contributions from physics beyond the Standard Model could
+                    potentially aﬀect fully hadronic B decays [16–18].
+                                                                                      +        (∗)+ (  )(∗)0
+                        This article describes a search for sixteen Bc → D                           D       decay channels, using
+                                                                                               (s)
+                    proton-proton (pp) collision data collected by the LHCb experiment, corresponding to an
+                                                          −1                     −1
+                    integrated luminosity of 9fb             , of which 1fb          was recorded at a centre-of-mass energy
+                    √                     −1      √                           −1      √
+                      s = 7TeV, 2fb           at     s = 8TeV and 6fb             at    s = 13TeV. The data taken at 7 and
+                    8TeV are referred to as Run 1, and the data taken at 13TeV as Run 2. The Run 1 data
+                                                                                                (∗)+ (   )
+                    has previously been analysed and no evidence of B+→ D                             D(∗)0 decays was found [19].
+                                                                                       c        (s)
+                        Charm mesons are reconstructed in the D0→K−π+,                                             D0→K−π+π−π+,
+                    D+→K−π+π+, D+→K+K−π+, and D∗+→D0π+ decay modes.                                                     In the decay
+                                               s
+                      +        ∗+( )0
+                    Bc →D D , at least one of the neutral charm mesons is required to decay as
+                    D0→K−π+. Partially reconstructed B+ decays, which involve one or two excited charm
+                                                                         c
+                    mesons producing a photon or a neutral pion in their decay, are also included in the search.
+                   These decays manifest themselves as relatively narrow structures in the mass distributions
+                   of the reconstructed ﬁnal states below the B+ mass.
+                                                                             c
+                       The branching fractions, B, of B+ decays to fully reconstructed ﬁnal states are
+                                                                     c
+                   measured relative to high-yield B+→ D(∗)+D0 normalisation modes,
+                   where f /f        is the ratio of the B+ to B+ fragmentation fraction, N denotes the
+                              c   u                                c
+                   measured B+ yields, and ε represents the detection eﬃciencies.                                   The value of
+                                    (c)
+                                          +            +
+                   f /(f +f )·B(B →J/ψµ ν ) has been measured at centre-of-mass energies of 7 and
+                    c     u     d         c               µ
+                   13TeV [20]. Under the assumption of equal production from hadronisation of B+ and B0,
+                   f =f , the value of f /f is found to be 0.73% at √s = 7TeV and 0.76% at √s = 13TeV
+                    u      d                   c   u
+                   with relative uncertainties of approximately 25%, dominated by the uncertainty on the
+                                                  +            +
+                   predicted value of B(Bc → J/ψµ νµ), for which no measurements are available. Ear-
+                   lier measurements of f /f at 7 and 8TeV using fully reconstructed B+ decays found
+                                                 c   u                                                            c
+                   compatible values [21,22].
+                                                                                                                       ∗+( )
+                       The invariant-mass distributions of partially reconstructed B+→ D                                   D0 and
+                                                                                                              c        (s)
+                              + ( )
+                   B+→D D∗0 decays overlap. Their branching fractions are measured separately by
+                     c        (s)
+                   treating the contribution as arising entirely from each decay:
+                       where X0 represents a neutral pion or a photon. Decays of B+→ D∗+ D ∗0 with a
+                                                                                                          c
+                   fully reconstructed D∗+→ D0π+ decay, and one missing neutral pion or photon from the
+                                                                            2
+                  (  )∗0
+                  D mesondecay, results in measurements of
+                      The B+→D∗+D∗0 and B+→D∗+D∗0 decays can also be observed when both
+                              c       s                 c
+                  excited charm mesons decay with either a photon or a neutral pion and neither of the two
+                  neutral particles are reconstructed. In such cases, the ratio R00 is measured:
+                      In total twenty ratios are measured, corresponding to sixteen B+ branching fractions,
+                                                                                                  c
+                  since B+ decays with a D∗+ in the ﬁnal state are searched for both in fully reconstructed
+                          c
+                  D∗+→D0π+ and in partially reconstructed D∗+→ D+X0 decays.
+                  2 Detector and simulation
+                 The LHCb detector [23, 24] is a single-arm forward spectrometer covering the
+                  pseudorapidity range 2 < η < 5, designed for the study of particles containing b or
+                  c quarks. The detector includes a high-precision tracking system consisting of a silicon-
+                  strip vertex detector surrounding the pp interaction region [25], a large-area silicon-strip
+                  detector located upstream of a dipole magnet with a bending power of about 4Tm, and
+                  three stations of silicon-strip detectors and straw drift tubes [26,27] placed downstream
+                  of the magnet. The tracking system provides a measurement of the momentum, p, of
+                  charged particles with a relative uncertainty that varies from 0.5% at low momentum
+                  to 1.0% at 200GeV/c. The minimum distance of a track to a primary pp collision vertex
+                 (PV), the impact parameter, is measured with a resolution of (15 + 29/p )µm, where p
+                                                                                                         T                 T
+                  is the component of the momentum transverse to the beam, in GeV/c. Diﬀerent types of
+                  charged hadrons are distinguished using information from two ring-imaging Cherenkov
+                  detectors [28]. Photons, electrons and hadrons are identiﬁed by a calorimeter system
+                  consisting of scintillating-pad and preshower detectors, an electromagnetic and a hadronic
+                  calorimeter. Muons are identiﬁed by a system composed of alternating layers of iron
+                  and multiwire proportional chambers [29]. The online event selection is performed by a
+                  trigger [30], which consists of a hardware stage, based on information from the calorimeter
+                  and muon systems, followed by a software stage, which applies a full event reconstruction.
+                      At the hardware trigger stage, events are required to have a muon with high pT or a
+                  hadron, photon or electron with high transverse energy in the calorimeters. For hadrons,
+                  the transverse energy threshold is 3.5GeV. The software trigger requires a two-, three-
+                  or four-track secondary vertex with a signiﬁcant displacement from any PV. At least
+                  one track should have p > 1.7GeV/c and χ2 with respect to any PV greater than 16,
+                                               T                        IP
+                           2                                                           2
+                 where χ       is deﬁned as the diﬀerence in the vertex-ﬁt χ of a given PV reconstructed
+                           IP
+                 with and without the considered particle. A multivariate algorithm [31,32] is used for the
+                  identiﬁcation of secondary vertices consistent with the decay of a b hadron.
+                                                                      3
+                       Simulation is used to model the eﬀects of the detector acceptance and the imposed
+                   selection requirements, as well as for the training of the multivariate selection of the
+                   B+ signals, and for establishing the shape of the mass distributions of the signals. The
+                     c
+                   Pythia [33] package, with a speciﬁc LHCb conﬁguration [34], is used to simulate pp
+                   collisions with B+ production. For B+ production, the Bcvegpy [35] generator is used,
+                                                                    c
+                   interfaced with the Pythia parton shower and hadronisation model. Decays of unstable
+                   particles are described by EvtGen [36], in which ﬁnal-state radiation is generated using
+                   Photos[37]. Theinteraction of the generated particles with the detector, and its response,
+                   are implemented using the Geant4 toolkit [38] as described in Ref. [39]. The simulated
+                   B+ production is corrected to match the observed spectrum of B+→ D+D0 decays in
+                                                                                                                   s
+                   data, using a gradient boosted reweighter (GBR) [40] technique. The weights w(pT,y)
+                   are determined separately for Run 1 and Run 2. Simulated B+ events are corrected to
+                                                                                                     c
+                   match the measured linear dependence of f /(f +f ) on p and y [20]. In addition,
+                                                                              c    u      d        T
+                   corrections using control samples are applied to the simulated events to improve the
+                   agreement with data regarding particle identiﬁcation (PID) variables, the momentum
+                   scale and the momentum resolution.
+                   3 Candidate selection
+                   Charm-meson candidates are formed by combining two, three or four tracks that are
+                   incompatible with originating from any reconstructed PV. The tracks are required to
+                   form a high-quality vertex and the scalar sum of their pT must exceed 1.8GeV/c. To
+                   reduce background from misidentiﬁed particles, the pion and kaon candidates must also
+                   satisfy loose criteria on DLLKπ, the ratio of the likelihood between the kaon and pion
+                   PID hypotheses.
+                       The reconstructed mass of D0, D+ and D+ candidates is required to be within
+                                                                      s
+                   ±25MeV/c2 of their known values [41].                      For channels with a fully reconstructed
+                   D∗+→D0π+ meson, the mass diﬀerence ∆m between the D∗+ and the D0 candidates is
+                   required to be within ±10MeV/c2 of the known value [41]. If more than one charm-meson
+                   candidate is formed from the same track combination, only the best according to PID
+                   information is selected.
+                             +                                                       (∗)+                          (  )0
+                       A B       candidate is formed by combining a D                      candidate with a D            candidate
+                             (c)                                                     (s)
+                   if the combination has a pT greater than 4.0GeV/c, forms a good-quality vertex and
+                   originates from a PV. The reconstructed decay time of the charm meson candidates with
+                   respect to the B+ vertex divided by its uncertainty, t/σ , is required to exceed −3 for D+
+                                        (c)                                                t                                        s
+                   and D0 mesons. This requirement is increased to +3 for the longer-lived D+ meson to
+                   eliminate background from B+→ D0π+π−π+ decays where the negatively charged pion is
+                   misidentiﬁed as a kaon. Candidate B+ decays that are compatible with the combination
+                                                                   c
+                   of a fully reconstructed B0 → D(∗)−π+(π−π+) decay and a charged track are rejected.
+                                                     (s)       (s)
+                   To eliminate duplicate tracks, the opening angles between any pair of ﬁnal-state particles
+                   are required to be at least 0.5 mrad. The invariant-mass resolution of B+ decays is
+                                                                                                                      (c)
+                   signiﬁcantly improved by applying a kinematic ﬁt [42] where the invariant masses of the
+                   D0 and the D(∗)+ candidates are constrained to their known values [41], all particles from
+                                     (s)
+                   the D(∗)+, D0, and B+ decay are constrained to originate from their corresponding decay
+                          (s)                 (c)
+                   vertex and the B+ candidate is constrained to originate from the PV with which it has
+                                         (c)
+                                                                            4
+                                     2
+                   the smallest χ .
+                                     IP
+                       To reduce the combinatorial background, while maintaining high eﬃciency for signal,
+                   a multivariate selection based on a boosted decision tree (BDT) [43,44] is employed. The
+                   BDTclassiﬁer exploits kinematic and PID properties of selected candidates, namely: the
+                   ﬁt quality of the B+ candidate and both charm-meson candidate vertices; the value of
+                                            (c)
+                   χ2 of the B+ candidate; the values of t/σ of the B+ and both charm-meson candidates;
+                     IP            (c)                                    t           (c)
+                   the reconstructed masses of the charm-meson candidates; and the reconstructed masses
+                   of the pairs of opposite-charge tracks from the D+ candidate. In addition, for each
+                                                                                      (s)
+                   charm-meson candidate, the smallest value of p                    and the smallest value of χ2 among
+                                                                                   T                                      IP
+                   the decay products, and the smallest (largest) value of DLL                           among all kaon (pion)
+                                                                                                    Kπ
+                   candidates, are included as input variables for the BDT classiﬁer.
+                                                                                                   (  )        (  )              (  )
+                       The BDT training is performed separately for the D+ D 0, D+ D 0 and D∗+ D 0
+                                                                                                 s
+                   ﬁnal states, separately for the D0→ K−π+ and D0→ K−π+π−π+ decay channels, and
+                   separately for the Run 1 and Run 2 data samples. For a given D0 ﬁnal state, the same
+                   classiﬁer is used for both B+→ D(∗)+D0 and B+→ D(∗)+D0 decays. For signal decays,
+                                                       c        (s)               c       (s)
+                   the BDT classiﬁer is trained using simulated B+ events, while for background, data in
+                                                                                  c
+                                                (∗)+ (  )0                    2
+                   the range 5350 < m(D               D )<6200MeV/c are used. For the background sample, the
+                                                (s)
+                   charm-meson mass windows are increased from ±25MeV/c2 to ±75MeV/c2, to increase
+                   the size of the training sample. The k-fold cross-training technique [45] with k = 5 is used
+                   to avoid biases in the calculation of the BDT output.
+                       The data are divided in increasing order of signal purity into three samples having low,
+                   medium and high BDT output. Most of the sensitivity in this search comes from the data
+                   in the high BDT sample, but including data with lower signal purity increases the signal
+                   eﬃciency and constrains the shape of the combinatorial background. A small fraction
+                   of the events (≈ 1%) have more than one B+ candidate that satisﬁes the minimum
+                                                                                (c)
+                   BDTrequirement. In such cases, one randomly selected candidate is retained per event.
+                   Figure 2 shows the invariant mass distributions of selected B+ candidates in the highest
+                                                                                                  (c)
+                   BDTsample, summed over all D0 ﬁnal states.
+                   4 Model of the B+ mass distributions
+                                                           (c)
+                   To measure the signal yields, a model of the B+ candidate mass distribution is ﬁtted to
+                                                                                (c)
+                                                                  (∗)+ ( )0                     2
+                   the data in the range 5230 ≤ m(D                    D ) ≤ 6700MeV/c . The model consists of the
+                                                                 (s)
+                   following components, constrained to positive yields: the signals for fully reconstructed
+                   B+ and B+ decays; the signal for B+ decays with one missing π0 or photon; the signal
+                                c                                  c
+                   for B+ decays with two missing π0 or photons; the background from B+→ D0K+K−π+
+                          c
+                   decays; and the combinatorial background.
+                       Fully reconstructed B+ and B+ signals are described by the sum of a Gaussian function
+                                                              c
+                   and a Crystal Ball (CB) [46] function, extended to have power-law tails on both the
+                   low-mass and the high-mass sides. The CB and Gaussian components share a common
+                   peak position. The tail parameters of the CB and the ratio of the CB and Gaussian widths
+                   and integrals are determined from simulation, accounting for a dependence of both widths
+                   on the BDT output. The ratio of the B+ and B+ widths is determined from simulation,
+                                                                       c
+                   while the overall width of the B+ is a free parameter in the ﬁt to data, and is found to be
+                   consistent with the simulation. The peak position of the B+ signal is a free parameter in
+                                                                            5
+                                the ﬁt to data, and the known mass diﬀerence between the B+ and the B+ meson [41] is
+                                                                                                                                                                                                    c
+                                used to constrain the peak position of the B+ signal.
+                                                                                                                                    c
+                                        Genuine B+→D(∗)+D0 decays are forbidden at tree level and consequently have
+                                                                                (s)
+                                a negligible yield, but doubly Cabibbo-suppressed (DCS) decays D0→ K−π+(π−π+)
+                                result in crossfeed of B+→ D(∗)+D0 decays in the D(∗)+D0 ﬁnal state. An additional
+                                                                                                     (s)                                                  (s)
+                                source of crossfeed into the D(∗)+D0 ﬁnal state is double misidentiﬁcation of the pion
+                                                                                                     (s)
+                                and kaon in the Cabibbo-favoured D0→ K−π+(π−π+) decay. The DCS component is
+                                constrained in yield and shape by the large B+→ D(∗)+D0 signal, according to the known
+                                                                                                                                                   (s)
+                                D0 branching fractions [41]. For the shape of the misidentiﬁed component, the width
+                                of the B+→ D(∗)+D0 peak is scaled by a factor determined from a ﬁt to B+→ D+D0
+                                                                  (s)                                                                                                                                                       s
+                                candidates, and also used for the B+→ D(∗)+D0 ﬁnal states. The yield of the misidentiﬁed
+                                component is a free parameter in all ﬁts to data.
+                                        Models for decays with one or two missing neutral particles from D(∗)+ and/or D(∗)0
+                                                                                                                                                                                                (s)
+                                                                                                                                  6
+              decays are implemented as templates, obtained from kernel ﬁts [47] to reconstructed
+              mass distributions in simulation.  Both longitudinal and transverse polarisations of
+                +     ∗+( )∗0
+              Bc →D(s) D      decays contribute according to free polarisation fractions with diﬀerent
+              templates.
+                 The Cabibbo-favoured B+→ D0K+K−π+ decay is a background to the B+→ D+D0
+                                                                                               s
+              channel, though its yield is strongly reduced by the D+ mass requirement. This background
+                                                                s
+              is modelled by a single Gaussian function, with the width determined from a sample
+              of simulated decays and the normalisation determined from the peak in the B+ mass
+              distribution in the D+ invariant mass sideband.
+                                  s
+                 The combinatorial background is described by the sum of an exponential function and
+              a constant, where the parameters are allowed to diﬀer between diﬀerent D0 decay modes,
+              but are taken to be the same for all BDT samples of a given B+ and D0 decay channel.
+                                                                           c
+              Studies of the charm-meson invariant-mass sidebands support these assumptions.
+                 An unbinned extended maximum-likelihood ﬁt is used to simultaneously describe the
+              mass distributions of candidates in diﬀerent BDT samples and diﬀerent D0 decay modes.
+              In these ﬁts the background and B+ yields vary independently, but the branching fraction
+              ratios R, R0   and R00, deﬁned in Eqs. 1–5, are constrained to be identical between the
+                         (+,0)
+              BDTsamples and D0 decay modes.
+              5 Systematic uncertainties
+              Systematic uncertainties that can be expressed as a relative uncertainty on the branching
+              fraction ratio are evaluated separately for Run 1 and Run 2, and for each B+ decay,
+                                                                                           c
+              D0 channel and BDT sample. Their eﬀective contributions in the ﬁt, calculated as a
+              weighted average over BDT samples and D0 decay modes, are listed in Table 2. Where
+              no uncertainty is given, this corresponds to either the absence of decays with two missing
+                                       ∗+( )0
+              neutral particles in the D  D channel or the absence of the eﬀect associated with an
+              uncertainty in a given data-taking period or channel.
+                 The uncertainty on the B+ signal shape is evaluated by changing the B+ signal
+                                            c                                              c
+              shape to the sum of two Gaussian functions, and evaluating the median fractional change
+              of the measured yield in pseudoexperiments performed with a background-only model.
+              Uncertainties related to the B+ production spectrum are evaluated by changing the slope
+                                           c
+              parameters from Ref. [20] by their quoted uncertainties. The uncertainty on the pT-
+              and y-dependent weights used to correct the B+ production spectrum in simulation is
+              estimated by changing the settings of the GBR algorithm. Hit resolution parameterisation
+              in the silicon vertex detector aﬀects the χ2 distribution. The uncertainty associated with
+                                                      IP
+              the parameterisation is therefore evaluated with simulation by varying the minimal value
+                      2
+              of the χ  applied to the ﬁnal-state tracks.
+                      IP
+                 The limited size of the simulation samples results in uncertainties that are uncorrelated
+              between the BDT samples and D0 decay channels on the eﬃciency ratios ε(B+)/ε(B+).
+                                                                                          c
+              All other systematic uncertainties are treated as fully correlated. A small uncertainty
+              on the reconstruction eﬃciency results from that on the B+ lifetime [41]. Uncertainties
+                                                                       c
+              on the PID eﬃciencies cancel to ﬁrst order in the ratio ε(B+)/ε(B+) because of the
+                                                                          c
+              identical particle content of the ﬁnal state, and the diﬀerence in relative eﬃciencies with
+              and without PID corrections is used to estimate the uncertainty from the PID correction
+              procedure. The requirement to select at most one B+ candidate per event introduces
+                                                                  (c)
+                                                        7
+              an eﬃciency that may not be well reproduced by simulation. Therefore, the fraction
+              of candidates removed by the requirement of at most one B+ candidate per event is
+                                                                            (c)
+              attributed as a systematic uncertainty. Residual diﬀerences appear in the comparison
+              of the distributions of the BDT output between background-subtracted B+ signal from
+              data and simulation. The eﬀect on the relative eﬃciency is evaluated by correcting the
+              simulation to match the distributions in data. The background from B+→ D0K+K−π+
+              decays to the B+→ D+D0 signal is assigned an uncertainty of 100% of its yield, resulting
+                                    s
+              in a fractional uncertainty of less than 1%. The measurements of the branching fraction
+              ratios according to Eqs. 2 and 5 involve the value of B(D∗+→ D+X0), the uncertainty of
+              which [41] is taken into account.
+                  Other uncertainties, listed below, are instead taken into account by varying the ﬁt
+              model. Unless speciﬁed otherwise, these uncertainties are taken into account by replacing
+              ﬁxed values of the model parameters by their Gaussian constraints.
+                  The uncertainty on the combinatorial background shape is evaluated by considering
+              a single exponential function as an alternative to the exponential plus constant model,
+              implemented using the discrete proﬁling method [48]. The B+ shape uncertainty has
+              a negligible eﬀect on the B+ yield but, because of its long tails, results in an uncer-
+              tainty on the background shape. The eﬀect is evaluated by assigning an uncertainty
+              on the tail parameters determined from a ﬁt to simulated events. The uncertainty on
+              the α parameters of the CB function is increased by adding in quadrature the largest
+              observed diﬀerence between data and simulation of this parameter in B+→ D+D0 decays.
+                                The fractional uncertainty on the yield of DCS crossfeed is the sum in quadrature of
+                                the fractional uncertainty on the normalisation yield and on the branching fractions
+                                B(D0→K+π−(π+π−)) [41]. The uncertainty on the diﬀerence between the B+ and B+
+                                                                                                                                                                                                                c
+                                peak positions, 0.5MeV/c2, arises due to uncertainty on the measured masses [41,49]
+                                and the momentum scale uncertainty [50]. The uncertainty on the ratio of the B+ to
+                                                                                                                                                                                                                            c
+                                B+ invariant-mass resolution is determined from the statistical uncertainties of the ﬁts
+                                                                                                                                                                                               +             ∗+( )0
+                                to simulated decays. Statistical uncertainties in the templates of Bc → D                                                                                                           D and
+                                                                                                                                                                                                             (s)
+                                                   + ( )
+                                B+→D D∗0 decays with one missing neutral pion or photon are accounted for by
+                                    c              (s)
+                                                                                                                                                                           +              ∗+( )∗0
+                                allowing a small contribution from the other template. The Bc → D(s) D                                                                                                     signals have
+                                contributions from both transverse and longitudinal polarisations, which have diﬀerently
+                                shaped distributions of the reconstructed mass. This is accounted for by evaluating upper
+                                limits both for fully longitudinal and fully transverse polarisations, and reporting the least
+                                stringent upper limit. Including all model uncertainties results in an increase of the upper
+                                limits on the branching fraction ratios, discussed in Sec. 6, of 7% on average.
+                                6 Results and conclusions
+                                Todetermine the B+ branching fraction ratios R, R0                                                                          and R00, ﬁts to data are performed
+                                                                           c                                                                     (+,0)
+                                separately for the six B+ ﬁnal states and for Run 1 and Run 2, while diﬀerent D0 decay
+                                                                                     c
+                                modes and BDT samples are ﬁt simultaneously. The results of the ﬁts are shown in
+                                Fig. 2, where the data of the highest BDT samples and the corresponding ﬁt results are
+                                summed over the D0 decay channels and over data-taking periods. Detailed views of the
+                                    +( )0                                                           +
+                                D D ﬁnalstates near the B mass are shown in Fig. 3 which validate the model of the
+                                    s
+                                large B+→ D+D0 signal and its crossfeed to the D+D0 ﬁnal state. The integrals of the
+                                                                s                                                                                   s
+                                ﬁt results in a ±40MeV/c2 window around the B+ mass diﬀer less then 0.2% from the
+                                candidate counts.
+                                        The signiﬁcance of the B+ signals are calculated using Wilks’ theorem [51] as
+                                          √                                                          c
+                                S = 2∆logL, where ∆logL is the diﬀerence in the logarithm of the likelihood between
+                                the signal plus background and background-only hypotheses. Systematic uncertainties are
+                                included in the calculation of the signiﬁcance through nuisance parameters in a minimised
+                                proﬁle likelihood.
+                                                                                                                                  9
+                   Evidence is found only for the decay B+→ D+D0 in Run 2 data, with a sig-
+                                                                 c      s
+                niﬁcance of 3.7 standard deviations, and the measured branching fraction ratio is
+                    + 0          +1.5+0.3      −4
+                R(D D )=(3.6             ) ×10 , where the ﬁrst uncertainty is statistical and the sec-
+                    s            −1.2−0.2
+                ond is systematic. The quoted signiﬁcance for this channel is compatible with estimates
+                from simulated pseudoexperiments.
+                   ThevaluesofR, R0        andR00 from Run 1 and Run 2 cannot be directly combined since
+                                      (+,0)
+                the value of f /f depends on the pp centre-of-mass energy. Therefore, a combined ﬁt of
+                              c  u
+                both the Run 1 and Run 2 data sets is made to the absolute B+ branching fractions, using
+                                                                                c
+                external input for B(B+→ D+D0), B(B+→ D+D0), B(B+→ D∗+D0)[41], andf /f [20],
+                                              s                                                     c   u
+                                                                +         +
+               whichdependsonthetheorypredictionofB(Bc → J/ψµ νµ). Correspondinguncertainties
+                are included. In this combined ﬁt the excess for B+→ D+D0 has a signiﬁcance of 3.4
+                                                                       c      s
+                standard deviations, or 2.5 standard deviations when considering the probability of the
+                excess to appear in any of the sixteen ﬁnal states considered. The corresponding value
+                                                  +      + 0          +1.5+0.3            −4
+                of the branching fraction is B(B → D D ) = (3.5               ±1.0)×10 , where the ﬁrst
+                                                  c      s            −1.3−0.2
+                uncertainty is statistical, the second systematic and the third due to external input.
+                   Upper limits are reported on the ratio of branching fractions for all decays, calculated
+                at 90% and 95% conﬁdence level (C.L.) with the frequentist CLs method [52,53], separately
+                for Run 1 and Run 2. These limits are listed in Table 3. Limits for Run 1 are tighter than
+                in Ref. [19] in particular for R0    and R00, mainly because of better constraints on the
+                                                (+,0)
+                shape of the combinatorial background.
+                   Upper limits on the absolute B+ branching fractions are based on the Run 2 dataset
+                                                    c
+                alone, which has nearly four times the sensitivity of the Run 1 dataset. The upper limits
+                at 90(95%) C.L. are
+               The reported upper limits on B+ decays with a D∗+ meson in the ﬁnal state are based on
+                                                 c
+                the analyses of fully reconstructed D∗+→ D0π+ decays, which have a higher sensitivity
+                                                             10
+                   than the channels with partially reconstructed D∗+→ D+X0 decays.
+                                                                                                          +       (∗)+ (  )0
+                       In conclusion, this article reports the results of a search for B → D                            D decays,
+                                                                                                         c        (s)
+                   covering sixteen B+ decay channels, which include partially reconstructed decays where
+                                           c
+                   one or two neutral pions or photons from the decay of an excited charm meson are not
+                                                                                                                  −1
+                   reconstructed. The results, based on pp collision data corresponding to 9fb                        of integrated
+                   luminosity, supersede an earlier LHCb measurement [19] on Run 1 data only. No signal
+                   is observed in any of the channels investigated, consistent with the Standard Model
+                   expectation. An excess with a signiﬁcance of 3.4 standard deviations is found for the
+                   decay B+→D+D0, which is in tension with the theoretical expectation [11–14].
+                             c        s

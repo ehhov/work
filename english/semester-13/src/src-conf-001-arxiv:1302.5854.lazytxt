@@ -1,0 +1,609 @@
+                                                          I. INTRODUCTION                                                                    fractions of the order of 10                             [19] and 10                 [20], respec-
+                                                                                                                                                                                              0              þ 
+                                                                                                                                             tively. Predictions of the B ! D D                                         branching fraction
+                            Double-charm decays of B mesons can be used to probe                                                                                                                s
+                                                                                                                                                                                                                                          4 [21],
+                        the Cabibbo-Kobayashi-Maskawa matrix [1,2] elements                                                                  using perturbative approaches yield 5:010
+                        and provide a laboratory to study ﬁnal state interactions.                                                           while the use of nonperturbative approaches has led to a
+                                                                                                               0            þ  largervalueof4:5103 [22].Morerecent phenomeno-
+                        The time-dependent CP asymmetry in the B ! D D                                                                       logical studies, which assume a dominant contribution
+                                                                                                       0
+                        decay provides a way to measure the B mixing phase                                                                   from rescattering, predict a signiﬁcantly lower branch-
+                        [3,4], where information from other double-charm ﬁnal                                                                                                           0             þ                       0             0 0
+                                                                                                                                             ing fraction of BðB ! D D Þ¼BðB !D D Þ¼
+                        states can be used to account for loop (penguin) contribu-                                                                                                       s                                      s
+                                                                                                                                                                            5
+                        tions and other nonfactorizable effects [5–9]. Double-                                                               ð7:8 4:7Þ10                          [18].                                                          0
+                        charm decays of B mesons can also be used to measure                                                                      This paper reports the ﬁrst observations of the Bs !
+                                                                                                                                                 þ  0                       þ                    0              0 0
+                                                                                                                                             D D , B !D D and B !D D decays, and mea-
+                        theweakphase,assumingU-spinsymmetry[10,11].The                                                                                          s           s                      s
+                                                       0              þ                                                                      surements of their branching fractions normalized relative
+                        purely CP-evenB ! D D decayisalsoofinterest,asit
+                                                         s            s     s                                                                                      0              þ  0                       þ  0
+                                                                               0                                                             to those of B ! D D , B ! D D and B ! D D ,
+                        can be used to measure the B mixing phase. Moreover, a                                                                                                                                      s                                 s
+                                                                               s                                                             respectively.               An excess of events consistent with
+                                                                                       0             þ 
+                        lifetime measurement using the B ! D D                                                   decay pro-
+                                                                                         s           s      s                                 0              0 0
+                        vides complementary information on s [11–14] to that                                                                 B !DD is also seen, and its branching fraction is
+                        obtained from direct measurements [15], or from lifetime                                                             reported.            Improved measurements of the ratios of
+                                                                                                                                                                                               0             þ                     0           þ
+                                                                                                                                             branching fractions BðB ! D D Þ=BðB ! D D Þ
+                        measurements in other CP eigenstates [16,17].                                                                                                                            s           s      s                                 s
+                                                                                                                                                             0 0 þ
+                                                                    0                1                                                       andBðB !D DsÞ=BðB !D DsÞarealsopresented.
+                            ThestudyofB ! DD decays canalsoprovideabetter                                                                    All results are based upon a data sample corresponding to
+                        theoretical understanding of the processes that contribute                                                                                                                         1ofppcollisiondataat
+                        to B meson decay. Feynman diagrams contributing to                                                                   anintegrated luminosity of 1:0fb
+                        the decays considered in this paper are shown in Fig. 1.
+                                  0              0 0 0                     þ                    0              0 0       
+                        The B !D D , B !D D and B !D D decays                                                            
+                                    s                         s                                                          
+                        are mediated by the W-exchange amplitude, along with                                             
+                                                                                                                         
+                        penguin-annihilation contributions and rescattering [18].                                        
+                        The only other observed B meson decays of this type                                              
+                                 0             ðÞþ ðÞ                        0             þ                             
+                        are B !D                      K            and B !  , with branching
+                                               s                               s
+                                                                                                                         
+                           *Full author list given at end of the article.
+                                                                                                                         
+                                                                                                                         
+                        Published by the American Physical Society under the terms of                                    
+                                                                                                                         
+                        the Creative Commons Attribution 3.0 License. Further distri-                                    
+                        butionofthis workmustmaintainattributiontotheauthor(s)and                                        
+                        the published article’s title, journal citation, and DOI.
+                           1Throughout this paper, the notation D (or D0) is used to refer                               
+                                  þ       0         þ                                                             0     0
+                        to a D , D orD meson,andBrepresentseitheraB ,B orB
+                                                    s                                                                    
+                        meson.                                                                                           
+                        1550-7998=2013=87(9)=092007(12)                                                                          092007-1                                         2013 CERN, for the LHCb Collaboration
+             R. AAIJ et al.                                                                       PHYSICAL REVIEW D 87, 092007 (2013)
+             pﬃﬃﬃ                                                              secondary vertices that originate from the decays of b
+               s ¼ 7 TeV recorded by the LHCb experiment in 2011.              hadrons.
+             Inclusion of charge conjugate ﬁnal states is implied
+             throughout.                                                          Signal efﬁciencies and speciﬁc backgrounds are studied
+                                                                               using simulated events. Proton-proton collisions are gen-
+               II. DETECTOR, TRIGGER ANDDATASAMPLES                            erated using PYTHIA 6.4 [27] with a speciﬁc LHCb con-
+                                                                               ﬁguration [28]. Decays of hadronic particles are described
+                The LHCb detector [23] is a single-arm forward spec-           by EVTGEN [29] in which ﬁnal state radiation is generated
+             trometer covering the pseudorapidity range 2<<5,                  using PHOTOS [30]. The interaction of the generated parti-
+             designedforthestudyofparticlescontainingborcquarks.               cles with the detector and its response are implemented
+             The detector includes a high precision tracking system            using the GEANT4 toolkit [31] as described in Ref. [32].
+             consisting of a silicon-strip vertex detector surrounding         Efﬁciencies for identifying Kþ and þ mesons are deter-
+                                                                                               þ
+             theppinteractionregion,alarge-areasilicon-stripdetector           mined using D       calibration data, with kinematic quanti-
+             located upstream of a dipole magnet with a bending power          ties reweighted to match those of the signal particles [24].
+             of about 4 Tm, and three stations of silicon-strip detectors         Signal B candidates are formed by combining pairs of D
+             and straw drift tubes placed downstream. The combined             meson candidates reconstructed in the following decay
+                                                                                          0      þ þþ þ þþ
+             tracking system has a momentum resolution (p=p) that              modes: D !K  or K    , D !K  
+                                                                                      þ       þ  þ             0      þþ
+             varies from 0.4% at 5 GeV=c to 0.6% at 100 GeV=c, and             and D !K K  . The D !K    decay is
+                                                                                      s
+                                                                                                0         0 0
+             an impact parameter (IP) resolution of 20 m for tracks            only used for BðsÞ ! D D candidates, where a single
+             with high transverse momentum (p ). The impact parame-              0      þþ
+                                                  T                            D !K    decay in the ﬁnal state is allowed,
+             ter is deﬁned as the distance of closest approach of a given      which approximately doubles the total signal efﬁciency.
+             particle to the primary pp interactionvertex (PV). Charged        Areﬁt of signal candidates with D mass and vertex con-
+             particles are identiﬁed by two ring-imaging Cherenkov             straints is performed to improve the B mass resolution.
+             detectors [24]. Discrimination of photons, electrons and                                                       þ      þþ
+                                                                                  Due to the similar kinematics of the D      !K   ,
+                                                                                 þ       þ  þ              þ        þ
+             charged hadrons is provided by a calorimeter system con-          D !K K  and  !pK  decays, there is
+                                                                                 s                         c
+             sisting of scintillating-pad and preshower detectors, an          cross feed between various b-hadron decays that have
+             electromagnetic calorimeter and a hadronic calorimeter.           two charm particles in the ﬁnal state. Cross feed between
+                                                                                 þ        þ                      þþ
+             Muons are identiﬁed by a system composed of alternating           D and Ds occurs when the K  h invariant mass is
+             layers of iron and multiwire proportional chambers.               within25 MeV=c2 (3timestheexperimentalresolution)
+                                                                                              þ        þ                       þ      þ
+                The trigger [25] consists of a hardware stage, based on        of both the D     and D masses under the h ¼  and
+                                                                                                       s
+                                                                                 þ      þ
+             information from the calorimeter and muon systems,                h ¼K hypotheses,respectively. In such cases, an arbi-
+             followed by a software stage that performs a partial              tration is performed as follows: if either jMðKþKÞ
+             eventreconstruction(onlytrackswithp >0:5 GeV=care                 m j<10 MeV=c2orhþsatisﬁesastringentkaonparticle
+                                                       T                         
+             reconstructed and used). The software trigger requires a          identiﬁcation (PID) requirement, the D candidate is
+             two-, three- or four-track secondary vertex with a large          assigned to be a Dþ meson. Conversely, if hþ passes a
+                                                                                                    s
+             track p sum and a signiﬁcant displacement from any of             stringent pion PID requirement, the D candidate is taken to
+                     T
+             the reconstructed PVs. At least one track must have p >                  þ
+                                                                       T       be a D meson.Candidatesthatdonotpasseither ofthese
+                                    2                                                                                                 þ
+             1:7 GeV=c and IP  greater than 16 with respect to all             selections are rejected. A similar veto is applied to D   and
+                            2                                             2      þ                                            þ        þ
+             PVs. The IP  is deﬁned as the difference between the              D decays that are consistent with the  ! pK 
+                                                                                 s                                            c
+             of the PV reconstructed with and without the considered                                                                    þ
+                                                                               decay hypothesis if the proton is misidentiﬁed as a        or
+             particle. A multivariate algorithm [26] is used to identify       Kþ,respectively. The efﬁciencies of these D selections are
+                                                                                                                    0
+                    FIRST OBSERVATIONS OF ...                                                                                                     PHYSICAL REVIEW D 87, 092007 (2013)
+                    determined using simulated signal decays to model the                                             cancels in the ratio of branching fractions, and is not
+                                                                         þ            0   þ                           included in Table I.
+                    kinematics of the decay and D                             !D calibration                                       0             0 0
+                    data for the PID efﬁciencies. Their values are given                                                  For B          !DD candidates, a peaking background
+                    in Table I.                                                                                                     ðsÞ    þ                  0    þ                                            þ
+                                                                                     0                                from B ! D  !ðD  Þ decays, where the 
+                        Tosuppresscontributions from non-DD ﬁnal states, the                                          is misidentiﬁed as a Kþ, is observed. This contribution is
+                    reconstructed D decay vertex is required to be downstream                                                                                                                   þþ
+                                                                                                                      removedbyrequiringthemassdifference,MðK   Þ
+                    of the reconstructed B decay vertex, and the B and D decay                                                þ                                2                        þ
+                                                                                                              2       MðK  Þ>150MeV=c , where the K in the recon-
+                    vertices are required to have a vertex separation (VS)                                                                                              þ
+                                                                                                                      structed decay is taken to be a  . After the ﬁnal selection,
+                                                                        2                                     2                                                         0           þ 
+                    larger than two. Here, the VS  is the difference in                                               around 2% of events in the B ! D D                                      decay mode
+                                                                                                                                                                          s         s     s
+                    between the nominal B vertex ﬁt and a vertex ﬁt where the                                         contain multiple candidates; for all other modes the mul-
+                    Disassumedtohavezerolifetime.Theefﬁcienciesofthis                                                 tiple candidate rate is below 1%. All candidatesare kept for
+                    set of requirements are obtained from simulation and are                                          the ﬁnal analysis.
+                    included in Table I.                                                                                  For the ratios of branching fractions between modes
+                                                                                            0                         with identical ﬁnal states, no requirements are made on
+                        TofurtherimprovethepurityoftheB ! DD samples,a                                                the hardware trigger decision. When the ﬁnal states differ,
+                    boosted decision tree (BDT) discriminant is used to
+                    distinguish signal D mesons from backgrounds [33,34].                                             a trigger selection is applied to facilitate the determination
+                    The BDT uses ﬁve variables for the D meson and 23 for                                             of the relative trigger efﬁciency. The selection requires that
+                    each of its children. The variables include kinematic quan-                                       either (i) at least one of the tracks from the reconstructed
+                    tities, track quality, and vertex and PID information. The                                        signal decay is associated with energy depositions in the
+                    signal and background distributions used to train the BDT                                         calorimetersthatpassedthehardwaretriggerrequirements,
+                                                   0           þ   0  0                                               or (ii) the event triggered independently of the signal
+                    are obtained from B ! D  , B ! D  and B !
+                                                                                                         s
+                       þ                                                                                              decay particles, e.g., on the decay products of the other b
+                    Ds  decays from data. The signal distributions are
+                    background subtracted using weights [35] obtained from                                            hadron in the event. A small fraction ( 5%) of events are
+                    a ﬁt to the B candidate invariant mass distribution. The                                          triggered by a combination of both the signal b-hadron
+                    background distributions are taken from the high B mass                                           daughters and one or more other particles in the event.
+                    sidebands in the same data sample.                                                                These events are discarded.
+                        It is found that making a requirement on the product
+                    of the two D meson BDT responses provides better                                                          III. SIGNAL AND BACKGROUNDSHAPES
+                    discrimination than applying one to each BDT response                                                 Todeterminethesignalyields,themassdistributionsare
+                    individually. The optimal BDT requirement in each decay                                           parameterized as the sum of two Crystal Ball (CB) func-
+                                                                       pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                    is chosen by maximizing N = N þN . The number
+                                                                    S        S        B                               tions [36], which account for non-Gaussian tails on both
+                    of signal events, N , is computed using the known                                                 sides of the signal peak. The asymmetric shapes account
+                                                      S
+                    (or estimated, if unknown) branching fractions, selection                                         for both non-Gaussian mass resolution effects (on both
+                    efﬁciencies from simulated events, and the BDT efﬁcien-                                           sides) and energy loss due to ﬁnal state radiation. The
+                                                0           þ   0                                       0
+                    cies from the B ! D  , B !D                                               and B !                 two CB shapes are constrained to have equal area and a
+                                                                                                         s
+                    Dþ 
+                       s  calibration samples, reweighted to account for                                              common mean. Separate sets of shape parameters are
+                    small differences in kinematics between the calibration                                                                         0         þ 0 þ                                        
+                                                                                                                      determined for B ! D D , B ! D D                                          and B !
+                                                                                                                                                                    s       s         s     s
+                    and signal samples. The number, N , is the expected                                                  0    
+                                                                                 B                                    D D usingsimulatedsignaldecays,althoughtheirshapes
+                                                                                                                              s
+                    background yield for a given BDT requirement. To obtain                                           are very similar. In the ﬁts to data, the signal shape pa-
+                    the BDTefﬁciencyinagivensignalmode,thekinematical                                                 rameters are ﬁxed to the simulated values, except for a
+                    properties and correlations between the two D mesons are                                          smearing factor that is added in quadrature to the widths
+                    taken from simulation, while the actual BDT response                                              from simulation. This number is allowed to vary indepen-
+                                                                                   2
+                    distributions are obtained from B ! D data.Theresult-                                             dently in each ﬁt, but is consistent with about 4:6 MeV=c
+                    ing optimal BDTefﬁciencies are listed in Table I.                                                 across all modes, resulting in a mass resolution of about
+                                                                                        0           þ                                 2                                   0             0 0             0
+                        For the purpose of measuring BðB ! D D Þ=                                                     9 MeV=c . For the more rare B                             !DD and B !
+                                                                                          s         s     s                                                                 ðsÞ                           ðsÞ
+                           0         þ                                                                                   þ                                            0           þ 
+                    BðB !D DsÞ, the BDT optimization leads to loose                                                   D D decay modes, the B !D D                                            signal shape
+                                                                                                                                                                        s         s     s
+                    BDT requirements since the expected yields are rela-                                              parameters are used. In determining the signal signiﬁcan-
+                                                                                        0           þ                                                                                        0           þ 
+                    tively large. On the other hand, for BðB ! D D Þ=                                                 ces, the signal shape is ﬁxed to that for B ! D D ,
+                                                                                          s         s                                                                                          s         s     s
+                           0         þ                                                                  0                                                                                              2
+                    BðB !D D Þ, the expected signal yield of B !                                                      including an additional smearing of 4:6 MeV=c . The
+                                           s                                                             s
+                       þ                                                                                                                                  0         þ  0
+                    Ds D decays is small; in this case both the signal and                                            impact of using the B ! D D                             or B !D D signal
+                                                                                                                                                                          s                          s
+                    normalization modes are required to pass the same tighter                                         shapes on the signal signiﬁcances is negligible.
+                                                                                                                                                                                                               0
+                    BDTrequirement.Thedifferent BDTselections applied to                                                  Several speciﬁc backgrounds contribute to the DD
+                              0         þ                                                                                                                                                                ðÞ 
+                    the B !D D decay are referred to as the ‘‘loose                                                   mass spectra. In particular, decays such as B ! D D ,
+                                             s
+                    selection’’ and the ‘‘tight selection.’’ Since the ﬁnal state                                                           
+                                                                                                                      where the D mesons decay through pion or photon
+                    is identical for the tight selection, the BDT efﬁciency                                           emission, produce distinct structures in all decays under
+                                                                                                             092007-3
+               R. AAIJ et al.                                                                               PHYSICAL REVIEW D 87, 092007 (2013)
+               consideration (due to angular momentum conservation).                   wrong-sign candidates. Wrong-sign candidates include
+                                                                                              þ þ       0  0      0 þ  
+               The shapes of these backgrounds are derived from simu-                  the D D , D D ,orD ðK  ÞD ﬁnal states, in which
+                                                                                              s   s                             s
+               lation, which are corrected for known resolution differ-                no signal excesses should be present [neglecting the
+               ences between data and simulated events, and then ﬁxed in               small contribution from the doubly Cabibbo suppressed
+                                                                                         0þ                                                0         þ 
+               ﬁts to the data. The relative yield of the two peaks in the             B !DðK  ÞD decay]. For the B !D D
+                                                                                                               s                            ðsÞ
+                                                                    0
+               characteristic structure from the decay D ! D  is                       decay, the exponential shape parameter is allowed to vary
+               allowed to vary freely, to enable better modeling of the                in the ﬁt due to an insufﬁcient number of wrong-sign
+               background in the low mass region. Since these events are                  þ þ
+                                                                                       D D candidates.
+               below the signal peak by at least the pion mass, the impact
+               on the signal yield determinations is negligible.                                              IV. FIT RESULTS
+                  A source of peaking background that contributes to
+                          þ                              0 þ             þþ                                                                          0
+               B!DD modes are the B!DK K !DK  K                                           Figure 2 shows the invariant mass spectra for B !
+                          s                                                                                                                           s
+                                      0 þ                                þ                þ               0       þ
+               decays, where the K K          is not produced in a D       decay.      D D and B !D D candidates. The results of
+                                                                         s                s   s                       s
+               Although the branching fractions for these decays [37]                  unbinned extended maximum likelihood ﬁts to the
+                                                                             þ
+               are about twice as large as that of the B ! DD !                        distributions are overlaid, with the signal and background
+                                                                             s
+                   þ  þ                                          2                     components indicated in the legends. Signal yields of
+               DK K  decaychannel,the25 MeV=c masswindow
+                                        þ                         2                                  0        þ                               0      þ
+               around the known D          mass and the VS  >2 require-                45123 B !D D and 515764 B !D D
+                                        s                                                              s      s   s                                      s
+               ment reduces this contribution to about 1% of the signal                decays are observed.
+                                                                                 þ                                                                    0
+               yield. This expectation is corroborated by studying the D                  Figure 3 shows the invariant mass spectrum for B !
+                                                                                 s        þ 0 þ 
+               candidate mass sidebands. The shape of this background is               D D andB !D D candidates,wherethetightBDT
+                                                                                              s        s       s
+               obtained from simulation, and is described by a single                  selection requirements have been applied as discussed
+                                                                                                                                   0        þ 
+               Gaussianfunctionwhichhasawidthabout2.5timeslarger                       previously.     We observe 366 B !D D                        signal
+                                                                                                                                    s       s
+                                                                                                                                        0      þ
+               than that of the signal decay and peaks at the nominal B                decays, with 283253 events in the B ! D D                      nor-
+                                                                                                                                                   s
+               meson mass. The larger width in this decay than in the                  malization mode. The statistical signiﬁcance of the
+                                                                                        0        þ 
+               signal mode is a result of the D mass and vertex-                       B !D D signal corresponds to 10 by computing
+                                                                                         s       s
+               constrained ﬁt applied in the B reconstruction.                         pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+                                                                                         2lnðL =L            Þ, where L        and L are the ﬁt like-
+                                                                                                    0    max              max          0
+                  After the charm cross-feed vetoes (see Sec. II), the                 lihoods with the signal yields allowed to vary and ﬁxed to
+                                              0       þ
+               cross-feed    rate   from B !D D               decays into the          zero, respectively. Variations in the signal and background
+                                                          s
+                0       þ                                                              model have only a marginal impact on the signal signiﬁ-
+               B !D D sample is ð0:70:2Þ%. The shape of this
+                 s      s   s
+                                                                                                      0        þ
+               misidentiﬁcation background is obtained from simulation.                cance. The B ! D D decay is thus observed for the
+                                                                                                        s          s
+                                                                              0        ﬁrst time.
+               Asimilar cross-feed background contribution from  !
+                 þ                                                            b                                                    0         þ 
+               Ddecaysisalso expected due to events passing the                           The invariant mass spectrum for B            !D D candi-
+                 c   s                                                                                                              ðsÞ
+               þveto.Taking into account the observed yields of these                                                                                     0
+                 c                                                                     dates is shown in Fig. 4 (left). Peaks are seen at both the B
+                                               0       þ 0 þ                                  0
+               decays in data, we ﬁx the B ! D D and  !  D                             and B mesonmasses,with yields of 16513 and 437
+                                                           s         b       c   s            s
+               cross feed yields to 35 and 15 events, respectively.                    signal events, respectively. In the lower mass region, two
+               Investigation of the D mass sidebands reveals no additional                                         0        
+                                               0                                       prominent peaks from B ! D D                 decays are also evi-
+                                              0þ
+               contributions from non-DD backgrounds.                                  dent. The signiﬁcance of the B ! D D                signal yield is
+                                                                                                                            s
+                  The combinatorial background shape is described by an                computed as described above, and corresponds to 11,
+               exponential function whose slope is determined from                     establishing the ﬁrst observation of this decay mode.
+                                                                                                              0 0                                                                                                                                                         0
+                                     Figure 4 (right) shows the D D invariant mass distri-                                                                                                      The measured yields, N                                                  ,relevant for the branch-
+                                                                                                                                   þ þ                                                                                                                      B!DD
+                               bution and the results of the ﬁt. Both ðK  ;K  Þ and                                                                                                       ing fraction measurements are summarized in Table II.
+                                      þ þ  þ                                                                                                                                              The branching fractions are related to the measured
+                               ðK  ;K    Þ combinations are included. A
+                                 0                  0 0                                                                                                                                   yields by
+                               B !DD signal is seen with a signiﬁcance of 11,
+                                   s
+                               which establishes the ﬁrst observation of this decay
+                                                                                                                                                                             0
+                               mode. The data also show an excess of events at the B                                                                                                                                                                                                            −                −
+                                                                                                                                                                                                                      LHCb                                                                                 0
+                                                                                                                                                                                                                                                                                             B → D  D
+                               mass. The signiﬁcance of that excess corresponds to 2:4,                                                                                                                )                                                                                                         s
+                                                                                                                                                                                                      2c  1000                                                                                            *     −
+                                                                                                                                                                                                                                                                                                       D  D
+                               including both the statistical and systematic uncertainty.                                                                                                                                                                                                    B→                 s
+                                                                                         0                  0 0                    0                  0 0                                                                                                                                       −                  −
+                               TheﬁttedyieldsintheBs ! D D andB ! D D decay                                                                                                                                                                                                                                0      *
+                                                                                                                                                                                                                                                                                             B → D  D
+                               modes are 458 and 136 events, respectively. If both                                                                                                                                                                                                                               s
+                                          0                  0 0                     0                  0 0                                                                                                                                                                                  Combinatorial
+                               the B ! D D and B !D D decays proceed through
+                                             s                                                                                                                                                              500
+                               W-exchange diagrams, one would expect the signal yield
+                                        0                  0 0                                                                               2
+                               in B !D D to be ðf =f ÞjV =V j ’0:2 of the
+                                                                                                d        s                 cd          cs                                                              Candidates / (5 MeV/
+                                                       0                  0 0                                                                                         2
+                               yield in B ! D D , where we have used jV =V j ¼
+                                                         s                                                                                          cd          cs
+                               0:054 [19] and the B fragmentation fraction ratio fs=fd ¼                                                                                                                                                   5200                                  5400                                 5600
+                               0:2560:020 [38]. The ﬁtted yields are consistent with                                                                                                                                                                0     −                             2
+                                                                                                            0                                                                                                                                   D  Ds Mass [MeV/c ]
+                               this expectation. The decay B                                                      !DD is used as the
+                                                                                                                                     s
+                                                                                                                        0                  0 0                     0
+                               normalization channel for both the Bs ! D D and B !                                                                                                        FIG. 5 (color online).                                  Invariant mass distribution for B !
+                                    0 0
+                               D D branching fraction measurements, where only the                                                                                                            0      
+                                    0               þ                                                                                                                                     D Ds candidates in the data. Signal and background compo-
+                               D !K  decaymodeisused.Theﬁttedinvariantmass                                                                                                                                                                                                                       0þ
+                                                                         0                                                                                                                nents are indicated in the legend. The B ! D K K 
+                               distribution for B                              !DD candidatesisshowninFig.5.                                                                              background components are too small to be seen, and are
+                                                                                                  s
+                               The ﬁtted signal yield is 5152  73 events.                                                                                                                 excluded from the legend.
+                                                                                                                                                                          092007-5
+               R. AAIJ et al.                                                                              PHYSICAL REVIEW D 87, 092007 (2013)
+                Here, it is assumed that B      andB mesonsareproducedin
+               
+                equal numbers. The relative efﬁciencies,  , are given in
+                                                                  rel
+               
+                Table II. They account for geometric acceptance, detection
+                                                                          2
+                and trigger efﬁciencies, and the additional VS  , BDT,
+                and charm cross-feed veto requirements. The ﬁrst four of
+                these relative efﬁciencies are obtained from simulation,
+               
+               
+                andthelasttwoaredeterminedusingdata-drivenmethods,
+               
+                as discussed in Sec. II. The indicated uncertainties on the
+                relative efﬁciencies are due only to the ﬁnite sizes of the
+               
+                simulated signal decays. The average selection efﬁciency
+                      0 0 00
+                                                  
+                         !DD relativetoB !D D is
+                                  s                ðsÞ
+               
+               
+                                                                ;               (7)
+                      0       þ 0 þþ
+               
+               where     the   quantities    0¼ð0:1660:003Þ%,                              0        þ 
+                                              B !D D                                   BðB !D D Þ
+               ¼ð0:1900:003Þ% ands                                  ¼ð0:061                 s              ¼1:080:20ðstatÞ0:10ðsystÞ;
+                K;K                                       K;K                              0        þ 
+               0:002Þ% are the selection efﬁciencies for the B !                       BðB !D D Þ
+                                                                                           0        þ 
+                 0  0 0 þ0 þ 0 BðB!DDÞ
+               D D , B !ðD !K  ;D !K  Þ and B !                                             s       s
+                    s      s                                                 s              0       þ¼0:0500:008ðstatÞ0:004ðsystÞ;
+                  0       þ0 þþ                                                        BðB !D D Þ
+               ðD !K  ;D !K    Þ decays, respectively.                                                  s
+                                                                 0      þ                   0        0 0
+               The     D branching          fractions,     BðD !K  Þ¼                   BðB !D D Þ
+                                         0     þþ                                            s             ¼0:0190:003ðstatÞ0:003ðsystÞ;
+               ð3:88 0:05Þ%, BðD !K    Þ¼ð8:070:20Þ%,                                       0
+                                                                                       BðB !D D Þ
+                    þ        þ  þ                                            þ                          s
+               BðD !K K  Þ¼ð5:490:27Þ%, and BðD !
+                    s                                                                       0        0 0
+                 þþ                                                                     BðB !D D Þ
+               K   Þ¼ð9:130:19Þ%aretakenfromRef.[19].                                       0¼0:00140:0006ðstatÞ0:0002ðsystÞ
+                  The factor  in the equations above is a correction that              BðB !D D Þ
+                                                                                                        s
+               accounts for the lower selection efﬁciency associated                                          ½<0:0024      at 90%CL;
+                                                                                 0
+               with the shorter-lifetime CP-even eigenstates of the B
+                                                                                 s         0        þ 
+                                                                                       BðB !D D Þ
+               system compared to ﬂavor-speciﬁc ﬁnal states [15]. The                       s       s   s  ¼0:560:03ðstatÞ0:04ðsystÞ;
+                                  0                                                         0       þ
+               impact on the B acceptance is estimated by convolving                   BðB !D D Þ
+                                  s                                                                     s
+               an exponential distribution that has a 10% smaller life-                     0
+                                                                                       BðB !D D Þ
+               time than that in ﬂavor-speciﬁc decays with the simulated                                s  ¼1:220:02ðstatÞ0:07ðsystÞ:
+                                                                                            0       þ
+                                                                                       BðB !D D Þ
+               lifetime acceptance. The resulting correction is  ¼                                      s
+                                            0                                                      0        0 0         0
+               1:0580:029. In the B sector,  = is below 1%                             For     BðB !D D Þ=BðB !D D Þ,                      the     results
+                                                           d    d                                   s                               s
+                                                                                                                    0   þ0 þ  þ 
+               [39], and the lifetime acceptance is well described by the              obtained using the D ðK  ÞD ðK    Þ and
+                                                                                         0   þ0 þ 
+               simulation.                                                             D ðK  ÞD ðK  Þ ﬁnal states differ by less than one
+                                                                                                                       0        0 0
+                  The measured ratios of branching fractions are com-                  standard deviation. For the B ! D D decay, we provide
+               puted to be                                                             both the central value and the 90% conﬁdence level (CL)
+                                                                                092007-6
+               FIRST OBSERVATIONS OF ...                                                                     PHYSICAL REVIEW D 87, 092007 (2013)
+               upper limit. The upper limit is obtained by convolving the                3%, which leads to a 1.5% uncertainty on the selection
+                                                                                                            0
+               ﬁtted likelihood with a Gaussian function whose width is                  efﬁcienciesforB decaystoﬂavor-speciﬁcﬁnalstates.The
+                                                                                                            s
+                                                                                          0         
+               the total systematic error, and integrating over the physical             B and B lifetimes are known with sufﬁcient precision
+               region.                                                                   that the associated uncertainty is negligible.
+                                                                                           Several of the efﬁciency factors are estimated from
+                          V. SYSTEMATICUNCERTAINTIES                                     simulation. Most, but not all, of the associated systematic
+                                                                                         uncertainties cancel due to the similar or identical ﬁnal
+                  Anumber of systematic uncertainties contribute to the                  states for the signal and normalization modes. For modes
+               measurements of the ratios of branching fractions. The                    with an unequal number of tracks in the ﬁnal state, a 1%
+               sources and their values are summarized in Table III.                     uncertainty due to small differences in the IP resolution
+               The dominant source of uncertainty on the branching                       between data and simulation is assigned. The efﬁciency
+               fraction ratios comes from the b fragmentation fraction                                   2
+                                                                                         of the VS  requirement is checked using the large
+               ratio, f =f , which has a total uncertainty of 7.8% [38], of               0       þ
+                       d    s                                                            B !D D signal in data, and the agreement to within
+               which 5.3% is from the ratio of branching fractions                                    s
+                     þ       þ  þ              þ       þþ                                1% with the efﬁciency from simulation is the assigned
+               BðD !K K  Þ=BðD !K   Þ. For clarity,                                                                 0 0 þ
+                     s                                                                   uncertainty.    For BðB !D D Þ=BðB !D D Þ,a
+               we have removed that portion of the uncertainty from                                                             s                     s
+                                                                                         1% uncertainty is attributed to the efﬁciency of track
+               f =f , and included its contribution in the row labeled                                              0        0 0         0
+                 d   s                                                                   reconstruction. For BðB ! D D Þ=BðB ! D D Þ, the
+                                                0       þ            0      þ                                        s                               s
+               BðDÞ in Table III.ForBðB !D D Þ=BðB !D D Þ,                                                           0        0
+                                                 s      s   s                   s        one fewer track in the D ðKÞD ðKÞ ﬁnal state is offset
+                               þ    þ                                                                                     0         0
+               the above D =D          branching fraction ratio from f =f                                                         
+                               s                                              d   s      by the one extra track in D ðKÞD ðKÞ, relative to
+               cancels with the corresponding inverted ratio in Eq. (1).                   0        
+                                                                                         D ðKÞD ðKKÞ,leadingtoanegligibletracking uncer-
+                                                                  0         0 0                     s
+               On the other hand, in the ratio BðB                     !DDÞ= tainty.Themassresolutionindataisslightlylargerthanin
+                    0 þ þþ ðsÞ
+               BðB !D D Þ,theD !K K  branchingfraction                                   simulation, resulting in slightly different efﬁciencies for
+                                s          s
+               enters as the square, after considering the D branching                                          0    þ         þ
+                                                                                         the reconstructed D , D        and D invariant masses to lie
+                                                                                                                               s
+               fractions used in computing f =f [see Eq. (4)]. As a                                          2
+                                                     d   s                               within 25 MeV=c of their known masses. This introduces
+                                                      þ       þ  þ
+               result, the uncertainty from BðD          !K K  Þcontrib-                 a maximum of 1% uncertainty on the relative branching
+                                                      s
+                                                                  0         0 0
+               utes 9.8% to the total uncertainty on BðBðsÞ ! D D Þ=                     fractions. To estimate the uncertainty on the trigger efﬁ-
+                    0                                                                    ciencies determined from simulation, the hadron trigger
+               BðB !D DsÞ; smaller contributions from the lim-
+                                              0       þ                        0         efﬁciency ratios were also determined using data. These
+               ited knowledge of BðD ! K  Þ [1.3%], BðD !
+                 þþ                                    þ       þþ                        efﬁciencies were measured using trigger-unbiased samples
+               K    Þ [2.5%] and BðD !K   Þ [2.1%]                                                                                  þ         0  þ
+               are also included in the BðDÞ uncertainties.                              of kaons and pions identiﬁed in D              !D decays.
+                  Another signiﬁcant uncertainty results from the preci-                 Usingthisalternative procedure, we ﬁnd that the simulated
+                                                                     0         0         trigger efﬁciency ratios have an uncertainty of 2%. The
+               sion on b-hadron lifetimes and decays of B and B to
+                                                                               s
+               CP eigenstates. Using the measured value of the width                     combined systematic uncertainties in the efﬁciencies
+               difference,  ¼ 0:1160:0180:006 ps1 [40]we obtained from simulation are given in Table III.
+                                 s                                                                                                 
+               conservatively assume the CP-even lifetime to be in the                     The limited sizes of the B ! D             calibration samples
+               range from 0.85 to 0.95 times the ﬂavor-speciﬁc decay                     lead to uncertainties in the BDT efﬁciencies. The uncer-
+               lifetime. With this allowed range a 2.9% uncertainty on                   tainties on the ratios vary from 1.0% to 2.0%. The
+                                       0                                                                                                        þ
+               the efﬁciencies for B decays to CP eigenstates is found.                  uncertainty on the efﬁciency of the D           and  vetoes is
+                                 0      s                                                                                            ðsÞ        c
+               The average B lifetime is known only to a precision of                    dominated by the PID efﬁciencies, but they only apply to
+                                 s
+                                                                                 092007-7
+             R. AAIJ et al.                                                                    PHYSICAL REVIEW D 87, 092007 (2013)
+             the subset of D candidates that fall within the mass window     world average measurements [19] as well as the more
+                                                     þ        þ                                         0       þ 
+             of two charm hadrons, e.g., both the D    and D mesons,         recent measurement of BðB ! D D Þ [42].
+                                                              s                                          s      s   s
+                                                       þ                                   0       þ                            4
+             whichoccursabout20%ofthetimeforD decays.Taking                    Using BðB !D D Þ¼ð2:110:31Þ10                        and
+                                                       s
+                                                                                 0 3
+             this fraction and the uncertainty in the PID efﬁciency into     BðB !D D Þ¼ð10:01:7Þ10 [19],thefollow-
+                                                                                            s
+             account, the veto efﬁciencies are estimated to have uncer-      ing values for the branching fractions are obtained:
+                                       þ                     þ
+             tainties of 1.0% for the D  veto, 0.5% for the D  veto, and
+                                                             s                  0       þ 
+                            þ                                                BðB !D D Þ
+             0.3% for the c veto.                                                s
+                The ﬁt model is validated using simulated experiments,                                                             4
+             and is found to be unbiased. To assess the uncertainty due         ¼ð2:20:4ðstatÞ0:2ðsystÞ0:3ðnormÞÞ10 ;
+                                                                                0       0 0
+                                                                             BðB !D D Þ
+             to the imperfect knowledge of the various parameters used           s
+             in the ﬁt model, a number of variations are investigated.                                                             4
+             The only non-negligible uncertainties are due to the               ¼ð1:90:3ðstatÞ0:3ðsystÞ0:3ðnormÞÞ10 ;
+                                                                                0       0 0
+                      þ                                                      BðB !D D Þ
+             B!DK K  background contribution, which is var-
+                                                           0       þ                                                               5
+             ied from 0% to 2%, and the cross feed from B ! D D                 ¼ð1:40:6ðstatÞ0:2ðsystÞ0:2ðnormÞÞ10 :
+                                                            s      s
+                                0       þ 
+             decays into the B ! D D          sample. The uncertainty
+                                 s      s  s
+                                                         0       þ           These results are lower than, but consistent with, the
+             varies  from 1.7% to 2.1%. For BðB !D D Þ=
+                                                          s
+                 0      þ              0       þ           0      þ perturbative-based calculations presented in Ref. [21].
+             BðB !D D Þ and BðB !D D Þ=BðB !D D Þ,
+                                        s      s                     s                                                    0       þ 
+                                                                             The nonperturbative calculations for BðB ! D D Þ
+             we assign an uncertainty of 0.5%, which accounts for                                                          s
+                                                                      0      give a result that is 20 times larger than the measured
+             potentially small differences in the signal shape for B
+                  0                       0   0                              value. The measured branching fractions are on the upper
+             and B decays (due to the B -B mass difference). Lastly,
+                   s                          s                              end (1:52)ofthepredictions obtained by assuming
+             the ﬁnite size of the samples of simulated decays contrib-
+             utes 3% uncertainty to all the measurements. In total, the      that these decay amplitudes are dominated by rescattering
+                                                                                                                    0       þ 
+                                                                             [18]. As discussed above for the BðB ! D D Þ mea-
+             systematic uncertainties on the branching fraction ratios                                               s      s  s
+             range from 5.5% to 13.0%, as indicated in Table III.            surement, this may also suggest that the W-exchange
+                                                                                                                                      0
+                                                                             amplitude contribution is not negligible in B ! DD
+                                                                                                                                       0
+                                                                             decays. For precise quantitative comparisons of these B
+                       VI. DISCUSSION AND SUMMARY                                                                                      s
+                                                                             branching fraction measurements to theoretical predic-
+                First observations and measurements of the relative          tions, one should account for the different total widths of
+                                                    0       þ  0             the CP-even and CP-odd ﬁnal states [13].
+             branching fractions for the decays B ! D D , B !
+                                                     s              s                                      0       þ 
+               þ          0       0 0                                          The Cabibbo suppressed B ! D D             decay is also
+             Ds D and Bs ! D D have been presented, along with                                              s      s
+                                   0      þ               0 observed for the ﬁrst time. Its absolute branching
+             measurements of BðB ! D D Þ and BðB ! D D Þ.
+                                    s     s   s                     s
+                                                         0       þ           fraction is
+                The     measured      value    of     BðB !D D Þ=
+                                                          s      s   s
+                  0     þ
+             BðB !D DsÞ¼0:550:06 is signiﬁcantly lower                           0       þ 
+                                                                              BðB !D D Þ
+             than the naive expectation of unity for the case that both           s      s
+             decays are dominated by tree amplitudes [see Fig. 1(a)],            ¼ð3:60:6ðstatÞ0:3ðsystÞ0:4ðnormÞÞ104:
+             assuming small nonfactorizable effects and comparable           This value is consistent with the expected suppression
+             magnitudes of the B           þ
+                                   ðsÞ ! D    form factors [41]. Unlike                  2
+                                           ðsÞ                               of jV =V j .
+               0     þ 0 þ                                                        cd   cs
+             B !D D ,theB !D D decayreceivesacontribu-
+                         s       s      s   s                                  The results reported here are based on an integrated
+             tion from the W-exchange process [see Fig. 1(b)], suggest-                          1
+                                                                             luminosity of 1:0fb . A data sample with approximately
+             ing that this amplitude may not be negligible. Interestingly,   2.5 times larger yields in these modes has already been
+                                       0      þ            0       þ 
+             when comparing the B ! D D              and B !D D
+                                        s     s   s                          collected in 2012, and larger samples are anticipated in the
+             decays, which have the same set of amplitudes, one ﬁnds         next few years. These samples give good prospects for
+                       2     0       þ          0       þ 
+             jV =V j BðB !D D Þ=BðB !D D Þ1.
+               cd   cs        s      s   s                                   CP-violation measurements, lifetime studies, and obtain-
+                                                         0      þ
+                Taking theworld averagevalues for BðB ! D D Þ¼
+                                                                   s         ing a deeper understanding of the decay mechanisms that
+             ð7:2 0:8Þ103 [19], the absolute branching fractions             contribute to b-hadron decays.
+             are
+                  0                                                                         ACKNOWLEDGMENTS
+             BðB !D DsÞ
+                 ¼ð8:60:2ðstatÞ0:4ðsystÞ1:0ðnormÞÞ103;                         Weexpressourgratitude to our colleagues in the CERN
+                 0      þ                                                    accelerator departments for the excellent performance of
+             BðB !D D Þ
+                  s     s   s                                                the LHC.Wethankthetechnicalandadministrativestaffat
+                 ¼ð4:00:2ðstatÞ0:3ðsystÞ0:4ðnormÞÞ103:                       the LHCbinstitutes. We acknowledge support from CERN
+                                                                             and from the national agencies: CAPES, CNPq, FAPERJ,
+             Thethirduncertaintyreﬂectstheprecisionofthebranching            and FINEP (Brazil); NSFC (China); CNRS/IN2P3 and
+             fraction for the normalization mode. These measurements         Region Auvergne (France); BMBF, DFG, HGF, and
+             are consistent with, and more precise than, both the current    MPG (Germany); SFI (Ireland); INFN (Italy); FOM

@@ -1,0 +1,4 @@
+default: default
+
+%:
+	make -C .. $@

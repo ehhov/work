@@ -1,0 +1,600 @@
+Review
+doi:10.1038/nature18011
+Searching for the rules that govern
+hadron construction
+Matthew R. Shepherd1, Jozef J. Dudek2,3 & Ryan E. Mitchell1
+Just as quantum electrodynamics describes how electrons are bound in atoms by the electromagnetic force, mediated by
+the exchange of photons, quantum chromodynamics (QCD) describes how quarks are bound inside hadrons by the strong
+force, mediated by the exchange of gluons. QCD seems to allow hadrons constructed from increasingly many quarks to
+exist, just as atoms with increasing numbers of electrons exist, yet such complex constructions seemed, until recently,
+not to be present in nature. Here we describe advances in the spectroscopy of mesons that are refining our understanding
+of the rules for predicting hadron structure from QCD.
+W
+hile decades of experimental study support QCD as the
+underlying theory of quark interactions, a detailed under-
+standing of the way QCD generates protons, neutrons, and
+other strongly interacting ‘hadrons’ remains elusive. The majority of
+observed hadrons fall neatly into only two very limited sets: baryons,
+which are consistent with being three-quark constructions (qqq); and
+mesons, which are quark–antiquark (qq ) constructions. QCD also appears
+to allow constructions featuring larger numbers of quarks as well as had-
+rons built not only from quarks, but also from gluons. This has raised the
+question of why, until possibly now, there has been no evidence for a
+spectrum of such hadrons. Have we just been historically unsuccessful in
+producing these exotic particles in the laboratory, or are there more
+restrictive rules for building hadrons that are not obvious from the
+unsolved equations of QCD? Here we choose to focus specifically on the
+spectrum of mesons, where timely developments in both theory and
+experiment can be used to illustrate how the field of hadron spectroscopy
+addresses fundamental questions about QCD, questions that are common
+to both the meson and baryon sectors.
+Interacting quarks and gluons in QCD
+Within QCD, the ‘charge’ that controls the interactions of quarks is known
+as ‘colour’, and it was the study of the empirical spectrum of hadrons that
+first introduced the concept of quarks and their threefold colour charge.
+Interactions in QCD are symmetric under changes of colour, that is, no
+single colour of quark behaves differently from the other two, and impos-
+ing this symmetry on the theory uniquely defines the interactions allowed
+in QCD between the quarks and the force-carrying gluons. Coloured
+quarks can interact by emitting or absorbing gluons, and because they
+carry colour charge themselves, gluons can also emit and absorb gluons.
+Although observations about the spectrum of hadrons inspired the
+fundamental theory of quark interactions, calculating the detailed spec-
+trum from this theory has so far been impossible. The difficulties in
+these calculations stem from the presence of gluon–gluon interactions,
+which make QCD forces very strong on the distance scale of 10−15 m
+that characterizes hadrons. This ultimately results in a property called
+‘confinement’, whereby quarks are permanently trapped inside composite
+hadrons, making it difficult to isolate the interaction of a single quark
+and antiquark from the collective behaviour of quarks and gluons in the
+hadron. The strong coupling means that, unlike for the electromagnetic
+force, where the exchange of two photons between electrons in an atom is
+far less probable than the exchange of just one, exchange of any number of
+gluons between quarks in a hadron is every bit as probable as exchanging
+one. Because of this, there is no simple method of calculating the net
+effect of interactions between two quarks, and a QCD calculation of the
+mass of a hadron, easily measurable by experiment, becomes intractable.
+Understanding QCD via rules for building hadrons
+Our inability to solve the equations of QCD is not just a curiosity—it
+restricts our understanding of the behaviour and structure of hadrons,
+owing to the lack of any simple relationship between the fundamental
+quarks and gluons of QCD and the spectrum of hadrons observed
+experimentally. This has motivated the use of heuristic models, or
+‘rules’, that serve as a bridge between QCD and experiment, capturing
+the important features of the spectrum while attempting to respect the
+known properties of QCD. The development of a rulebook for con-
+struction of hadrons consistent with both QCD and experimental data
+would arguably define what it means to understand how QCD generates
+hadrons. A uniform set of rules may not exist—there may be no simple
+way to capture the complex behaviour of QCD—but the high degree of
+regularity in the experimental spectrum of hadrons suggests that this is
+not a forlorn hope, and the search for this rulebook drives the field of
+hadron spectroscopy.
+An important area of exploration attempts to create previously unob-
+served classes of hadrons in the laboratory, such as quark–gluon hybrids
+or tetraquarks. From the pattern of such states, or their absence, we can
+refine our understanding of the rules of hadron construction. A second
+area develops techniques for calculating the observable properties of
+hadrons directly from QCD, which will indicate how the rules follow from
+the strong interactions of quarks and gluons prescribed by that theory.
+In what follows we will review the current developments in each of these
+two areas and discuss the prospects for achieving the goal of determining
+the rulebook for hadron construction.
+Rules inferred from experimental data
+We label hadrons by their mass and their quantum numbers J (spin),
+P (parity, behaviour under reflection in a mirror), and C (charge-
+conjugation, behaviour under exchange of particles with antiparticles).
+These properties are directly observable, but other characteristics, such as
+their internal composition, must be inferred. As the number of observed
+hadrons has increased over the last half-century, definite patterns have
+emerged that have led to an initial set of simple rules for the construction
+of hadrons from quarks.
+1
+Department of Physics, Indiana University, Bloomington, Indiana 47405, USA. 2Department of Physics, Old Dominion University, Norfolk, Virginia 23529, USA. 3Jefferson Lab, Newport News,
+Virginia 23606, USA.
+2 3 J u n e 2 0 1 6 | VO L 5 3 4 | NAT U R E | 4 8 7
+© 2016 Macmillan Publishers Limited. All rights reservedRESEARCH Review
+4S
+4.4
+\(4415)
+\(4160)
+4.2
+1F
+3S
+\(4040)
+Mass, m (GeV)
+4.0
+2P
+χ′c2
+χ′c0
+1D
+3.8
+3.6
+2D
+\(3770)
+Kcc
+\′
+2S
+hc
+χc2
+χc1
+1P
+χc0
+3.4
+3.2
+J/\
+1S
+3.0 Kc
+0– +
+1– –
+2– –
+3– –
+2– +
+1+ –
+0+ +
+1+ +
+2+ +
+3+ +
+4+ +
+3+ –
+J PC
+Figure 1 | The charmonium spectrum. A qq potential model calculation (coloured)60 of the charmonium spectrum is compared to experiment (black)61.
+Columns indicate states of common JPC. Potential model states appear in groups labelled by their radial and orbital angular momentum quantum
+numbers, nL (coloured text; n =​ 1, 2, 3... L =​ S, P, D, F...).
+The quark–antiquark rule for constructing mesons
+One of the earliest patterns discovered (in the 1960s) was that mesons
+with the same JPC quantum numbers could be grouped into sets of nine
+(‘nonet’) having similar mass. This could be explained by combining a
+quark q with an antiquark q if there were three ‘flavours’ of quark—these
+were given the names ‘up’, ‘down’ and ‘strange’. The lightest nonet of
+mesons has JPC =​  0−+, and there are heavier nonets with other JPC values.
+It was suggested that the additional mass-energy of the excited hadrons
+arises principally from the orbital or radial motion of the quark–antiquark
+(qq) pair, in analogy to the excitations of a single-electron atom.
+With the discovery of charmonium (in the 1970s)1,2, this quantum-
+mechanical picture became more precise—these new mesons with
+masses much larger than those observed earlier were explained as being
+bound states featuring a new, heavier quark, which was dubbed ‘charm’.
+Charmonium mesons with a range of JPC values were observed and their
+spectrum (Fig. 1) resembles that of a pair of particles bound by a potential.
+The large mass of the charm quark justified such an approach, as many
+of the complexities of a relativistic system could be neglected. The poten-
+tial needed to describe the spectrum was novel, featuring a steady rise at
+large distances that would confine the quarks within the meson3. A fea-
+ture of this model of mesons is that it is not possible for a qq pair in any
+orbitally or radially excited state to have JPC in the set 0+−, 1−+, 2+−, ….
+Sets of mesons with these ‘exotic’ quantum numbers were not convinc-
+ingly observed experimentally, either in charmonium or for the lighter
+quarks, supporting the qq picture.
+Until recently virtually all experimentally observed hadrons could have their
+presence explained by a simple rule stating that each meson is constructed
+from a qq pair, and each baryon from a three-quark configuration. However,
+it has never been at all obvious why QCD is so parsimonious—why are there
+not meson-like states of two quarks and two antiquarks (‘tetraquarks’), or
+baryon-like states of four quarks and an antiquark (‘pentaquarks’)?
+Furthermore, since the gluons of QCD strongly interact just as quarks do,
+could we not have ‘hybrid mesons’ in which gluons bind to a qq pair, and
+‘glueballs’ that do not require quarks at all? Observation of hadrons like these
+would challenge the simple rule outlined above, and indeed, recent experi-
+mental results are casting doubt on how parsimonious QCD really is.
+– rule
+Recent results challenge the qq
+A powerful way to study the meson spectrum is to collide high-energy
+beams of electrons and positrons and to observe the rate at which systems
+of hadrons are produced. In this process, the e+e− pair first annihilates,
+producing a photon; the photon converts into a quark and antiquark,
+which then interact, exchanging gluons and perhaps creating more qq
+pairs; finally, these quarks and gluons arrange themselves into a system
+of hadrons that are observed by the particle detector. If the collision
+energy is close to the mass of a meson with JPC =​  1−− quantum numbers,
+the system ‘resonates’, and the probability of a collision increases. Thus, a
+plot of the normalized rate of hadron production, the ‘cross-section’,
+against the e+e− centre-of-mass energy, shows peaks corresponding to
+the produced meson states, also known as ‘resonances’ (Fig. 2a). These
+excited states exist only briefly before decaying into the set of observed
+lighter hadrons, and the width of the peak is inversely related to the
+lifetime of the state.
+Figure 2a depicts the total rate of hadron production as a function of
+the e+e− centre-of-mass energy. The peaks are interpreted as evidence for
+a series of excited states—the ψ(3770), ψ(4040), ψ(4160) and ψ(4415)—
+consistent with expectations from the qq picture (see Fig. 1). But recent
+experimental advances have allowed a closer inspection. If instead of the
+total rate, we look at the rates for the production of specific systems of
+hadrons, distinct features appear that have no simple explanation in the
+qq picture.
+The production rate of the π​+π​−J/ψ system, shown in Fig. 2b, provides
+one such example. (The J/ψ is a hadron that, for historical reasons, has
+two names associated with it, J and ψ.) Here, a prominent peak appears
+at 4,260 MeV, which, surprisingly, lies between the masses of the ψ(4160)
+and ψ(4415) states. Unlike the ψ(4160) and ψ(4415), this Y(4260) reso-
+nance has no explanation within the qq picture. Another example is the
+production rate of the π​+π​−ψ′​system. The Y(4260) resonance might be
+expected also to appear here, since π​+π​−J/ψ and π​+π​−ψ′​are very similar
+systems, but it does not. Instead, two peaks appear, for Y(4360) and
+Y(4660) (Fig. 2c), in further disagreement with the spectrum suggested
+by the total cross-section. These Y states, which appear in addition
+to those expected within the qq picture, may be a signal that QCD
+does indeed produce mesons with internal structures beyond the
+simple qq rule.
+The observation of new states in charmonium, which was previously
+believed to be well understood, has spurred searches for further exotic
+candidate states, observations of which are providing still more challenges
+for the simple qq rule. For example, a detailed study of the π​+π​−J/ψ
+system produced in Y(4260) decays showed that the π​±J/ψ system (Fig. 3a)
+4 8 8 | NAT U R E | VO L 5 3 4 | 2 3 J u n e 2 0 1 6
+© 2016 Macmillan Publishers Limited. All rights reservedReview RESEARCH
+a
+a
+30
+\(3770)
+\(4040)
+S±J/\
+100
+\(4160)
+Z(3900)
+\(4415)
+20
+Number of events
+75
+10
+Cross-section (nb)
+b
+c
+SS–J/\
+Y(4260)
+0.10
+50
+25
+0.05
+0
+b
+Y(4360)
+0.10
+SS–\′
+S±hc
+150
+Z(4020)
+Y(4660)
+3.8
+4.0
+4.2
+4.4
+4.6
+120
+4.8
+E (GeV)
+Figure 2 | Electron–positron annhiliation cross-sections. a, e+e− →​
+hadrons (refs 62, 63). b, e+e− →​ π​+π​​–J/ψ (refs 4–6). c, e+e− → π​+π​​–ψ′​
+(refs 65, 66). The 1−− states ψ(3770), ψ(4040), ψ(4160) and ψ(4415),
+indicated in a, can be associated with the 1D, 3S, 2D and 4S states of the
+potential model of Fig. 1. The error bars represent combined statistical
+and systematic uncertainties, taken from the appropriate references. The
+enhancements observed in b and c do not line up with these states, which
+may indicate that they correspond to new hadron states that do not appear
+in the potential model and hence do not obey the qq rule. 1 nanobarn
+(nb) =​  10−37 m2.
+appears to resonate at a mass of 3,900 MeV, producing an electrically
+charged state labelled Z(3900)4–6. This structure is particularly noteworthy
+because its large mass and decay featuring J/ψ suggest that it contains a
+charm quark and an anti-charm quark, while its net electric charge
+requires further light (up- and down-flavoured) quarks. It is thus a
+possible tetraquark. A pattern of such states is beginning to emerge
+around 4 GeV: for example, in the π​​+π​​−hc system, also produced in e+e−
+collisions, another electrically charged structure, Z(4020), appears in the
+π​​±hc spectrum7 (Fig. 3b) with a somewhat larger mass.
+These new states can also, in principle, be produced in the weak decay of
+heavy mesons containing a bottom quark. Strangely, recent experimental
+data yields no evidence of Z(3900) production in such decays8. Instead,
+signals for still further new states of higher mass are observed8–11.
+A related process is the decay of heavy baryons containing a bottom
+quark, and here, equally as surprising, we find what appears to be a
+resonating proton–J/ψ system12. This hadron is a possible pentaquark.
+Although the origin of these new states is not yet firmly established, they
+present a serious challenge to the simple rules for constructing mesons
+and baryons that we previously believed were obeyed by QCD.
+The pattern of conventional mesons nicely replicates itself for each fla-
+vour of quark: many structures that appear in the spectrum of light quarks
+(up, down, strange) reappear for charm quarks at the 3-GeV scale, and
+again for bottom quarks at the 10-GeV scale. One might also expect that
+any spectrum of hybrids, tetraquarks or other novel constructions should
+have recurrent patterns for different quark flavours. In fact, bottom-quark
+analogues of the charged tetraquark candidates in charmonium have been
+reported13. Historically, these observations preceded those in charmonium.
+Like tetraquarks and pentaquarks, another class of hadrons that appear
+to be allowed by the fundamental interactions of QCD are quark–gluon
+Number of events
+0.05
+90
+60
+30
+0
+3.7
+3.8
+3.9
+4.0
+Mass, m (GeV)
+4.1
+4.2
+Figure 3 | Number of events collected as a function of invariant mass.
+a, For π​​±J/ψ (ref. 5). b, For π​​±hc (ref. 7). In each case a clear narrow
+enhancement is observed that may be interpreted as a new hadron state.
+The error bars represent statistical uncertainty.
+hybrids, in which gluons and quarks have a role in setting the quantum
+numbers of the hadron. A subset of possible hybrid mesons have a unique
+experimental signature: exotic JPC not accessible to a qq pair. While there
+are experimental indications of exotic hybrid candidates14–18, no firmly
+established spectrum of hybrid mesons has been discovered.
+In parallel to the experimental work discussed above, theoretical efforts
+are underway to understand whether QCD predicts the existence of
+hadrons which go beyond the qq meson and three-quark baryon rule, or
+whether the collective behaviour of quarks and gluons excludes the con-
+struction of more exotic combinations. It is to such calculations that our
+attention now turns.
+Rules derived from QCD
+Much of our understanding of hadrons is informed by models, which may
+be motivated by features of QCD, by empirical observations, or both. A
+goal is to develop an understanding that is based on rigorous calculations
+of the interaction of quarks and gluons through the equations of QCD.
+However, the strongly coupled nature of QCD makes techniques that are
+practical for calculating weak and electromagnetic interactions ineffective
+for predicting properties of hadrons that emerge from QCD. We need a
+different approach, one that utilizes the fact that all fundamental parti-
+cles, including quarks and gluons in QCD, are more correctly thought
+of as fluctuating quantum fields. The quantum aspect of the theory is
+embodied in the fact that observable consequences follow from a sum
+over all possible configurations in space and time that these fields can
+2 3 J u n e 2 0 1 6 | VO L 5 3 4 | NAT U R E | 4 8 9
+© 2016 Macmillan Publishers Limited. All rights reservedRESEARCH Review
+Figure 4 | Lattice QCD computation of the
+meson spectrum. The spectrum is computed
+with light-quark masses such that mπ​​  =​  392
+MeV (ref. 67). The spectrum features sets of
+states compatible with the nL assignments of a
+qq model (see Fig. 1), but also (shown in blue)
+states that do not have a place in such a model.
+These states can be interpreted as hybrid
+mesons in which a qq pair is partnered with an
+excitation of the gluon field38—their presence
+suggests a new rule of hadron construction
+that includes gluons. (The height of each box
+represents the estimated uncertainty in the
+calculation.)
+2,500
+Mass, m (MeV)
+2,000
+1,500
+1,000
+500
+0–+ 1––
+2––
+3– – 4– – 2– +
+4– +
+1+– 0++ 1++
+2+ +
+3+ + 4+ + 3+ –
+take. The method known as lattice QCD makes the approximation of
+considering these fields on a discrete grid of points describing a restricted
+region of space-time. A finite, but large, number of possible configura-
+tions of the fields on this grid can be generated using random sampling on
+a computer, and a good approximation for observable hadron properties
+obtained. The volume of the grid and number of field configurations
+required to achieve useful precision demands substantial computational
+resources. Total computational times of several teraflop-years are not
+unusual for contemporary calculations, with such efforts making use
+of ‘leadership-class’ supercomputing facilities—future precision lattice
+QCD calculations of increased sophistication will require petaflop-scale
+machines.
+Lattice QCD has been applied with substantial success to a broad range
+of processes involving hadrons19, including the spectrum and internal
+structure of the lightest hadrons20, the behaviour of hadrons at non-zero
+temperature, relevant in collisions of heavy ions21, and heavy flavour
+decays, in which a heavy quark confined inside a meson decays through
+the weak interaction22.
+Lattice QCD as a tool for hadron spectroscopy
+Our interest is in the determination of properties of excited hadrons,
+where obtaining a high degree of numerical precision is an issue that is
+secondary to the more basic question of whether certain states exist or do
+not. In the past few years we have seen excellent progress in overcoming
+the challenges posed by these calculations. Exploration of the excited
+hadron spectrum is possible using an approach in which each state in the
+spectrum is produced by a different combination of quark and gluon field
+constructions, and for this method to be successful, a large set of possible
+constructions is required. The dynamics of QCD, implemented by the
+sum over possible field configurations, determines which combination
+of constructions is present in each state in the spectrum. A scheme out-
+lined in refs 23 and 24 includes many constructions resembling qq pairs
+with various orbital motions and radial wavefunctions, motivated by the
+success of the qq rule in describing the experimental hadron spectrum.
+More elaborate structures are possible, though, and refs 23 and 24
+included several that feature the gluon field in a non-trivial way, inspired
+by the possibility that hybrid mesons may be allowed by QCD.
+This large set of constructions, coupled with advances in computa-
+tional techniques25, and the application of state-of-the-art computing
+hardware26,27, led to the pioneering results presented in Fig. 4 for the
+spectrum of mesons constructed from light up and down quarks. The
+computational challenges of these calculations currently require the
+utilization of masses for the lightest quarks that are heavier than the phys-
+ical up and down quark masses, which leads to a systematic shift in the
+computed meson masses. However, since the immediate goal is to under-
+stand the underlying QCD dynamics by studying the pattern of states,
+rather than precisely to predict the mass of each meson, the computed
+spectrum allows us to develop intuitive rules for constructing hadrons
+that generally apply for quarks of any mass.
+1– + 0+ –
+2+ –
+The spectrum presented in Fig. 4 qualitatively reproduces many of the
+features of the experimental light meson spectrum, and further it reflects
+the simple picture of qq mesons, with the bulk of the states fitting into the
+pattern expected for states excited with increasing amounts of orbital
+angular momentum and/or excitations in the radial quantum number.
+There are some notable exceptions to this pattern, however, in particular
+the 0−+, 1−− and 2−+ states between 2.1 GeV and 2.4 GeV do not have an
+obvious explanation, and most strikingly there is a clear spectrum of states
+with exotic JPC =​  1−+, 0+− and 2+−, which cannot be constructed from a
+qq pair alone.
+These additional mesons, which go beyond the set predicted by the qq
+rule, have a natural explanation as quark–gluon hybrid mesons.
+Previously, estimates for the spectrum of hybrid mesons came only from
+models, which made educated guesses for the behaviour of the strongly
+coupled gluons inside a hadron. Different guesses led to very different
+predictions for the number and mass of hybrid states28–34. Using the lattice
+QCD technique, we are now able to predict a definitive pattern of states
+directly from the fundamental interactions as prescribed by QCD. Further
+calculations35–37, performed with larger values of the quark mass, up as
+high as the charm quark mass, show the same pattern of hybrid mesons,
+and they are found to be consistently 1.3 GeV heavier than the lightest
+JPC =​  1−− meson. The particular pattern of states and the simple mass gap
+leads to a new rule of hadron construction for hybrid mesons, namely:
+combine qq constructions with a gluonic field that has JPC =​  1+− and a
+mass of about 1.3 GeV to form the spectrum of hybrid mesons in QCD.
+This is the first example of a rule following from a QCD calculation rather
+than being inferred from experimental observations38.
+Of course this rule must be verified by producing and studying hybrid
+mesons in the laboratory, and many current and near-future experiments
+include searches for these states in their programmes. Some hybrid meson
+candidates have already been observed experimentally in both the light
+meson sector14–18 and in the charm region. For example, the Y(4260)
+discussed in the previous section has JPC =​  1−−, approximately the right
+mass relative to the J/ψ, and it seems to appear in addition to the expected
+qq excitations. The new rule of hybrid meson construction would have
+this meson partnered with states of JPC =​  (0, 1, 2)−+ at a similar mass.
+Searches for these states are underway.
+Calculating how hadrons decay
+These calculations of the excited meson spectrum within QCD represent
+a major step forward in our understanding of hadron spectroscopy, but
+they still make approximations that fail to capture an important feature
+of excited hadrons—that they are resonances, decaying rapidly to lighter
+hadrons. As can be seen in Figs 2 and 3, in simple cases, excited states
+appear as characteristic peaks in the rate of observation of certain final-
+state mesons, and lattice QCD calculations should be capable of repro-
+ducing this behaviour.
+Experimentally, resonances are often observed to decay preferentially
+into certain sets of mesons and not others, and these patterns can be used
+4 9 0 | NAT U R E | VO L 5 3 4 | 2 3 J u n e 2 0 1 6
+© 2016 Macmillan Publishers Limited. All rights reservedReview RESEARCH
+quark–gluon hybrid structure will require observing a spectrum of addi-
+tional mesons that cannot be explained by the qq rule. In particular, we
+will need to observe a set of states with unusual flavour and/or JPC values.
+Cross-section
+SS→U→SS
+Finding a pattern of hadrons is essential
+to infer details of the resonant state’s internal structure. To be able to
+calculate the decay properties of the excited hadrons directly from QCD
+would provide a powerful tool for interpreting experimental data. In the
+case of predictions of previously unobserved excitations, it may also pro-
+vide suggested decay channels to be examined in experimental searches.
+Extending the calculations described above to account correctly for the
+decay of excited states is possible39–46 but challenging, and serious efforts
+have only recently begun47–54. As an example of what can be achieved,
+in Fig. 5 we present the cross-section for two pions forming the lightest
+1−− resonance, known as the ρ, and then decaying back into two pions.
+A clear peak is observed, whose position and width provide the mass and
+decay rate of the ρ.
+These rapidly maturing theoretical techniques will be required to
+study the new charmonium mesons, discussed earlier, within QCD.
+The observed enhancements are seen only in specific final states, which
+implies that the ability to predict how hadrons decay directly from QCD
+will be an essential component in interpreting experimental data in the
+quest to develop the rules for constructing hadrons.Contemporary technology has enabled experimental investigations at
+an unprecedented level of statistical precision, which provides the capa-
+bility to discover more rare and interesting phenomena. However, we
+must exercise great care when we attempt to interpret experimental
+data. For example, one needs to be certain that the same logic that allows
+one to deduce the presence of conventional charmonium mesons in
+the total hadronic cross-section also applies when one is examining the
+cross-section for a single exclusive process that is two orders of magnitude
+smaller (see, for example, Fig. 2). Such precise experimental data make
+one susceptible to effects that can mimic the experimental signature of
+a new hadron, but which in fact may have a more prosaic origin55–59.
+This underscores the importance of experimentally establishing a pat-
+tern of hadrons: the interpretation of any single state as a new and exotic
+construction will certainly be questioned. However, the experimental
+observation of an ordered spectrum of states is harder to dismiss as a
+misinterpreted experimental artefact.
+Likewise, theoretical efforts in lattice QCD must continue in their
+attempts to compute the complete set of possible hadrons allowed by
+QCD, and to identify patterns of states within that spectrum. Recent
+advances have enabled us to develop a simple rule, stated in subsection
+‘Lattice QCD as a tool for hadron spectroscopy’, that describes how QCD
+constructs hybrid mesons and baryons, in an extension of what we had
+already for conventional mesons and baryons—this new rule must be
+verified by observing an experimental spectrum of hybrids. Lattice QCD
+can also be used to calculate decay properties of hadrons, and identifying
+particular characteristic decays of hybrid mesons will guide experimental
+searches and aid in interpretations of data. As has been done with hybrids,
+lattice QCD needs to determine whether QCD predicts a spectrum of
+tetraquark and pentaquark states. A particular priority is in the heavy
+quark sectors, where, as we have discussed above, there is recent experi-
+mental evidence for such objects. The ability within lattice QCD to vary
+arbitrarily the mass of the quarks allows us to identify how the rules of
+hadron construction vary, and to identify possible common behaviours
+between the heavy charmonium system and the lighter mesons.
+Towards a unified set of rulesA global experimental programme
+500
+600
+700
+800
+900
+E (MeV)
+Figure 5 | Calculation of the ρ resonance. The cross-section (in arbitrary
+units) is shown for π​​π​​ →​ π​​π​​ with 1−− quantum numbers, calculated using
+lattice QCD with light-quark masses such that mπ =​  236 MeV (ref. 68).
+The ρ resonance is clearly observed as a peak, and from its position and
+width the mass and decay rate of this excited state can be extracted.
+The errors represent the uncertainty in the calculation.
+Much of what we know about what emerges from strongly coupled QCD
+has come from studying patterns of hadrons organized by mass and
+quantum numbers like J, P and C. These patterns suggest quarks of
+several flavours which may be combined with a single antiquark to form
+mesons—a rather simple rule of hadron construction. The theory of
+QCD is not limited to such simple constructions, however, and making
+a definitive statement about the existence of mesons with four-quark or
+Establishing a spectrum of hadrons beyond those described by the simple
+qq and qqq rules will require the combined efforts of multiple present and
+future experiments. There is a spectroscopy programme within nearly
+every particle physics collaboration worldwide. We list the details of a
+selection of several past, present, and future experiments, primarily those
+whose work is referenced in this article, in Box 1, as an illustration of the
+breadth of the worldwide effort.
+Box 1
+Hadron spectroscopy experiments
+A selection of experiments and their hadron spectroscopy programmes, which typically represent only a fraction of each collaboration’s research efforts.
+BaBar (Menlo Park, California, USA): e+e− collisions at bottomonium energies; discoveries of the Y(4260) and Y(4360); finished collecting data in 2008.
+Belle (Tsukuba, Japan): e+e− collisions at bottomonium energies; discovery of the X(3872), Z(3900), Z(4430), and Zb states; finished collecting data in 2010.
+Belle II (Tsukuba, Japan): an upcoming continuation of the Belle experiment that will provide much higher intensity e+e− collisions than achieved at Belle.
+BESIII (Beijing, China): e+e− collisions at charmonium energies; direct production of the Y(4260); discovery of the Z(3900) and Z(4020); ongoing.
+COMPASS (Geneva, Switzerland): high-intensity meson beams on nuclear targets; searches for unusual light-quark mesons; discovery of the a1(1420); ongoing.
+GlueX (Newport News, Virginia, USA): polarized photon beam on a nuclear target; searches for light-quark hybrid mesons; data collection is beginning now.
+LHCb (Geneva, Switzerland): high-energy, high-intensity proton–proton collisions, specializing in B-meson decays; measurement of resonant nature of the
+Z(4430); discovery of pentaquark candidates; ongoing.
+PANDA (Darmstadt, Germany): proton–antiproton collisions at charmonium energies; exploration of charmonium and light-quark mesons; upcoming.
+2 3 J u n e 2 0 1 6 | VO L 5 3 4 | NAT U R E | 4 9 1
+© 2016 Macmillan Publishers Limited. All rights reservedRESEARCH Review
+Most of the recently observed new hadrons have so far been observed
+in only a single production or decay process. Observation of the same
+state in multiple production and decay modes almost certainly rules out
+a misinterpretation of experimental data due to some process-dependent
+phenomenon and solidifies the evidence for a new hadron. Therefore the
+best current routes to explore new states in the charm sector are by com-
+paring results from e+e− collisions (BESIII, Belle, Belle II) and production
+in B-meson decay (LHCb, Belle, Belle II). Supplementing these with
+results from novel production mechanisms, such as proton–antiproton
+annihilation (PANDA), would be extremely valuable.
+Experiments aimed at exploring different energy regimes and quark
+flavours are essential for a complete understanding of the meson
+spectrum, as we expect the underlying patterns of states to be independent
+of quark mass. A variety of present and future experiments will allow
+access to both the charmonium system (BESIII, Belle, Belle II, LHCb), and
+the analogous system of bottom quarks, bottomonium (Belle, Belle II).
+Mesons constructed from light quarks can be produced in decays of
+heavier mesons and therefore can be studied at all of the previously men-
+tioned facilities; they can also be produced at experiments dedicated to
+the study of lighter systems (COMPASS, GlueX). Discovery of light-quark
+hybrids would suggest the existence of heavy-quark hybrids and further
+motivate dedicated searches for these states.
+With continued coordinated experimental and theoretical investiga-
+tions we hope to define a complete set of rules for building hadrons that
+both describes what is observed in nature and can be derived directly
+from QCD. In doing so, we aim to understand how what seems to be a
+simple spectrum of hadrons emerges from the complex interactions of
+quarks and gluons in QCD.
